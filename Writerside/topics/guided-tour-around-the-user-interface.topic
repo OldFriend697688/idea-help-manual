@@ -1,0 +1,276 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE topic
+        SYSTEM "https://resources.jetbrains.com/writerside/1.0/xhtml-entities.dtd">
+<topic xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
+       xsi:noNamespaceSchemaLocation="https://resources.jetbrains.com/writerside/1.0/topic.v2.xsd"
+       title="用户界面" id="guided-tour-around-the-user-interface">
+    <note>
+        为了布局美观考虑，文档中的图片大小被统一设置为 706 × 706，如果想要查看图片中的更多细节，请在图片上单击鼠标右键并选择
+        <format style="bold">在新标签页中打开图片</format>
+        等类似的选项。
+    </note>
+    <p>在 Intellij IDEA 中打开项目时，默认的用户界面如下所示（注：下图中使用的是 Darcula 主题）：</p>
+    <img src="IDEA 用户界面.png" alt="IDEA 默认用户界面（Darcula 主题）" width="706" height="706"/>
+    <note>
+        根据
+        <tooltip term="idea">IDEA</tooltip>
+        安装的
+        <a href="plug-in-system.topic" summary="插件系统为 Intellij IDEA 赋予了无与伦比的强大拓展能力。">插件</a>
+        集、版本和配置设置的不同，
+        <tooltip term="ide">IDE</tooltip>
+        可能会有不同的外观和行为。
+    </note>
+    <list type="decimal">
+        <li><a anchor="navigation-bar" summary="IntelliJ IDEA 中的导航栏是一个便捷的功能，它允许用户快速导航到项目中的不同部分，如文件、类、方法或工具窗口。导航栏通常位于编辑器的顶部，提供了一个紧凑的界面来输入搜索查询或选择目标位置。">导航栏</a></li>
+        <li>项目 <a anchor="tool-windows" summary="IntelliJ IDEA 中的工具窗口是 IDE 界面的重要组成部分，它们为开发者提供了各种辅助工具和功能，以支持软件开发的不同方面。">工具窗口</a></li>
+        <li><a anchor="editor" summary="IntelliJ IDEA 的编辑器是其核心功能之一，它为开发者提供了一个强大、智能和高度可配置的代码编写环境。">编辑器</a></li>
+        <li><a anchor="popup-menus" summary="IntelliJ IDEA 的弹出菜单通常指的是在编辑器中特定操作（如点击、按键等）触发的菜单，它提供了对常用操作的快速访问。弹出菜单与上下文菜单（右键菜单）类似，但它们的出现通常是基于特定的触发条件，而不是简单的右键点击。">弹出菜单</a></li>
+        <li><a anchor="context-menus" summary="IntelliJ IDEA 的上下文菜单（也称为右键菜单）是在用户在 IDE 的不同部分右键点击时弹出的菜单。上下文菜单提供了与当前上下文相关的操作和选项，这些选项根据用户点击的位置和选择的元素而变化。">上下文菜单</a></li>
+        <li><a anchor="status-bar" summary="IntelliJ IDEA 的状态栏位于主窗口的底部，状态栏提供了一些有用的信息，并允许用户快速访问某些功能。">状态栏</a></li>
+        <li><a anchor="main-menus" summary="IntelliJ IDEA 中的主菜单包含了多个顶级菜单项，每个菜单项下都有相应的子菜单和功能选项，这些菜单提供了对 IDE 的各种功能和设置的访问。">主菜单</a></li>
+        <li><a anchor="main-windows" summary="IntelliJ IDEA 提供了一个非常强大的主窗口，它集成了代码编辑、调试、构建、版本控制以及许多其他功能。"/></li>
+    </list>
+    <chapter title="导航栏" id="navigation-bar">
+        <tldr>
+            <p>获取焦点： <shortcut>Alt</shortcut><shortcut>Home</shortcut></p>
+            <p>隐藏/显示： <ui-path><a anchor="main-menus" summary="IntelliJ IDEA 中的主菜单包含了多个顶级菜单项，每个菜单项下都有相应的子菜单和功能选项，这些菜单提供了对 IDE 的各种功能和设置的访问。">主菜单</a> | 视图 | 外观 | 导航栏</ui-path></p>
+        </tldr>
+        <p>导航栏是项目视图的快捷方式，通过它可以快速浏览项目结构并在 <a anchor="editor" summary="IntelliJ IDEA 的编辑器是其核心功能之一，它为开发者提供了一个强大、智能和高度可配置的代码编写环境。">编辑器</a> 中打开文件进行编辑。</p>
+        <video src="https://www.youtube.com/watch?v=HTVYOEKplrc" width="706"/>
+        <note>如果为项目启用了 <tooltip term="version-control">VCS</tooltip> 集成，则导航栏中的内容将会根据 VCS 文件状态颜色突出显示。</note>
+        <img alt="导航栏中 VCS 文件的状态颜色" src="导航栏中 VCS 文件的状态颜色.png" width="706" height="706"/>
+        <note>
+            在默认情况下，含有打开和保存文件、撤销和重做操作按钮的主工具栏是隐藏的。要显示它，请选择
+            <ui-path>
+                <a anchor="main-menus" summary="IntelliJ IDEA 中的主菜单包含了多个顶级菜单项，每个菜单项下都有相应的子菜单和功能选项，这些菜单提供了对 IDE 的各种功能和设置的访问。">主菜单</a>
+                | 视图 | 外观 | 工具栏
+            </ui-path>。
+        </note>
+        <video src="https://www.youtube.com/watch?v=SzeOmPgR5gs" width="706"/>
+        <note>
+            Intellij IDEA 设计的精妙之处在于，近乎于所有按钮提供的功能都有对应的快捷键。比如：当要构建项目时可以按
+            <shortcut>Ctrl</shortcut>
+            <shortcut>F9</shortcut>
+            ，需要运行源文件时可以按下
+            <shortcut>Shift</shortcut>
+            <shortcut>F10</shortcut>
+            。如果想要查看项目结构设置时可以按下
+            <shortcut>Ctrl</shortcut>
+            <shortcut>Alt</shortcut>
+            <shortcut>Shift</shortcut>
+            <shortcut>S</shortcut>
+            。
+        </note>
+        <p>
+            使用导航栏右侧的按钮可以构建 <img src="构建.svg" alt=""/> 、运行 <img src="运行.svg" alt=""/>
+            和调试应用程序 <img src="调试.svg" alt=""/> 、访问项目结构设置 <img src="项目结构设置.svg" alt=""/>
+            和执行基本的版本控制操作（
+            <format style="bold">前提是先启用 VCS 集成</format>
+            ）。它还含有运行任何内容 <img src="运行任何内容.svg" alt=""/> （按两次
+            <shortcut>Ctrl</shortcut>
+            ）和随处搜索 <img src="随处搜索.svg" alt=""/> （按两次
+            <shortcut>Shift</shortcut>
+            ）的按钮。
+        </p>
+        <video src="https://www.youtube.com/watch?v=1oejfKQenoc" width="706"/>
+    </chapter>
+    <chapter title="编辑器" id="editor">
+        <tldr><p>获取焦点： <shortcut>Esc</shortcut></p></tldr>
+        <p>编辑器是 Intellij IDEA 的核心功能之一，它为开发者提供了一个强大、智能和高度可配置的代码编写环境。以下是 IntelliJ IDEA 中编辑器的一些特点和功能：</p>
+        <note>Intellij IDEA 提供的是高级编辑器而非普通的纯文本编辑器，这意味着它具有智能代码补全、代码高亮、代码格式化、代码重构等功能。尽管提供的功能非常之多，但它们都是开箱即用的，因此不需要任何配置。</note>
+        <list type="decimal">
+            <li>
+                <p><format style="bold">智能代码补全（Code Completion）</format></p>
+                <p>
+                    此功能可以根据上下文自动提示并补全代码，包括类名、方法名、变量名等，减少了键入量并减少了错误。比如：当输入
+                    <code>System.out.</code> ， Intellij IDEA 将会提示可用的方法，比如 <code>println()</code> 和 <code>print()</code> 。
+                </p>
+            </li>
+            <li>
+                <p><format style="bold">代码高亮（Syntax Highlighting）</format></p>
+                <p>代码高亮功能可以根据不同的语法元素对代码进行着色，使代码更易于阅读和理解。比如：关键字、标识符、字符串和注释等会使用不同的颜色进行标注。这可以帮助开发人员快速定位代码中的错误和关键部分。</p>
+            </li>
+            <li>
+                <p><format style="bold">代码检查（Code Inspections）</format></p>
+                <p>
+                    实时的代码质量分析，能够识别潜在的编程错误、性能问题、
+                    <a href="https://zh.wikipedia.org/zh-cn/代码异味" summary="程序开发领域，代码中的任何可能导致深层次问题的症状都可以叫做代码异味（Code smell）">代码异味</a>
+                    等，并给出改进建议。
+                </p>
+            </li>
+            <li>
+                <p><format style="bold">重构（Refactoring）</format></p>
+                <p>支持安全、高效的重构操作，如重命名、提取方法、内联变量等，帮助开发者轻松维护和改进代码结构。</p>
+            </li>
+            <li>
+                <p><format style="bold">导航与搜索（Navigation and Search）</format></p>
+                <p>编辑器具备强大的导航功能，可以快速跳转到类、方法、变量、文件等定义处，还支持全局搜索。</p>
+            </li>
+            <li>
+                <p><format style="bold">代码调试（Code Debugging）</format></p>
+                <p>集成了功能强大的调试器，可以设置断点、单步执行、查看变量值、表达式求值等。</p>
+            </li>
+        </list>
+        <note>
+            正如在
+            <a anchor="navigation-bar"
+               summary="IntelliJ IDEA 中的导航栏是一个便捷的功能，它允许用户快速导航到项目中的不同部分，如文件、类、方法或工具窗口。导航栏通常位于编辑器的顶部，提供了一个紧凑的界面来输入搜索查询或选择目标位置。">导航栏</a>
+            中提到的那样，如果当前项目已启用了
+            <tooltip term="version-control">VCS</tooltip>
+            集成，则编辑器标签页也会根据 VCS 文件状态颜色突出显示。
+        </note>
+        <img alt="编辑器界面（Darcula 主题配色方案）" src="编辑器界面.png" width="706"/>
+    </chapter>
+    <chapter title="状态栏" id="status-bar">
+        <tldr><p>隐藏/显示： <ui-path><a anchor="main-menus" summary="IntelliJ IDEA 中的主菜单包含了多个顶级菜单项，每个菜单项下都有相应的子菜单和功能选项，这些菜单提供了对 IDE 的各种功能和设置的访问。">主菜单</a> | 视图 | 外观 | 状态栏</ui-path></p></tldr>
+        <video src="https://www.youtube.com/watch?v=haF47YiwqtE" width="706"/>
+        <p>
+            当将鼠标悬停在状态栏上时，主窗口底部状态栏的左侧部分会显示最新的事件消息和操作描述。鼠标左键单击状态栏中的信息将可以在通知工具窗口中打开该信息。鼠标右键单击状态栏中的消息并选择
+            <format style="bold">复制</format> ，以便于在搜索问题的解决方案或者需要将其作为
+            <a href="https://youtrack.jetbrains.com/" summary="这是一个功能丰富的项目管理和团队协作工具，可用于跟踪错误、管理任务和与团队成员协作。它提供两种部署选项：云端部署和本地部署。对于最多 10 个用户，它是免费的。">问题跟踪器</a>
+            时粘贴的消息文本。
+        </p>
+        <video src="https://www.youtube.com/watch?v=N0ZIhcswyYQ" width="706"/>
+        <p>
+            使用 <img src="显示工具栏按钮.svg" alt=""/> 和 <img src="隐藏工具栏按钮.svg" alt=""/>
+            可以在工具窗口之间切换，并隐藏或显示工具窗口栏。
+        </p>
+        <video src="https://www.youtube.com/watch?v=jgdkJlJVyyc" width="706"/>
+        <p>状态栏还将会显示后台任务的进度，可以通过鼠标左键单击状态栏右侧区域的进度条来查看。</p>
+        <video src="https://www.youtube.com/watch?v=P69pYzI77zw" width="706"/>
+        <p>
+            状态栏的右侧部分包含显示整个项目和
+            <tooltip term="ide">IDE</tooltip>
+            状态的各种小部件，并提供各种设置的快速访问方式。根据插件集和配置设置的不同，这些小部件提供的设置和行为可能会有所不同。右键单击状态栏，可以选择需要隐藏或显示的小部件。
+        </p>
+        <img alt="状态栏及其小部件" src="状态栏.png" width="706"/>
+        <chapter title="小部件列表" id="widget-list" default-state="collapsed" collapsible="true">
+            <table id="widget-list-table">
+                <tr>
+                    <td width="100">小部件</td>
+                    <td width="600">用途描述</td>
+                </tr>
+                <tr>
+                    <td>
+                        <format style="bold">52:11</format>
+                    </td>
+                    <td>
+                        <p>
+                            显示
+                            <a anchor="editor" summary="IntelliJ IDEA 的编辑器是其核心功能之一，它为开发者提供了一个强大、智能和高度可配置的代码编写环境。">编辑器</a>
+                            中当前光标选定位置（闪烁）的行号和列号。点击数字时（或按下
+                            <shortcut>Ctrl</shortcut>
+                            <shortcut>G</shortcut>
+                            ）将可以移动至指定的行和列位置。如果在编辑器中选择的是一个代码片段，还将显示所选片段中的字符数和换行符数。
+                        </p>
+                        <video src="https://www.youtube.com/watch?v=C2t1OixBv0w" width="706"/>
+                        <note>
+                            当代码过多时可能会迷失当前所在位置，可以按下
+                            <shortcut>Ctrl</shortcut>
+                            <shortcut>M</shortcut>
+                            快速定位到光标闪烁的位置。
+                        </note>
+                        <video src="https://www.youtube.com/watch?v=JO6kaO25__E" width="706"/>
+                    </td>
+                </tr>
+                <tr>
+                    <td>CRLF</td>
+                    <td>
+                        <p>显示当前文件正在使用的行分隔符，单击此小部件可以更改行分隔符。</p>
+                        <video src="https://www.youtube.com/watch?v=t8hqTv2ILQI" width="706"/>
+                        <note>
+                            对行分隔符的调整仅针对当前文件生效。比如：将
+                            <path>GameController.java</path>
+                            使用的行分割符设置为
+                            <format style="bold">LF</format>
+                            ，在这种情况下是不会将
+                            <path>UserLoginController.java</path>
+                            使用的行分割符也设置为
+                            <format style="bold">LF</format>
+                            的。
+                        </note>
+                    </td>
+                </tr>
+                <tr>
+                    <td>UTF-8</td>
+                    <td>
+                        <p>显示当前文件正在使用的文件编码，单击此小部件可以更改文件编码。</p>
+                        <video src="https://www.youtube.com/watch?v=OBYn9tjk5yA" width="706"/>
+                        <note>在实际的设置中，请选择彼此之间相互兼容的文件编码，否则将导致文件中的内容乱码。</note>
+                    </td>
+                </tr>
+                <tr>
+                    <td>列</td>
+                    <td>
+                        表示当前编辑器选项卡已启用列选择模式，可以通过按下
+                        <shortcut>Alt</shortcut>
+                        <shortcut>Shift</shortcut>
+                        <shortcut>Insert</shortcut>
+                        来启用和关闭此功能。
+                        <video src="https://www.youtube.com/watch?v=QujaNQyz-wQ" width="706"/>
+                    </td>
+                </tr>
+                <tr>
+                    <td><img src="文件只读状态.svg" alt=""/> <img src="文件可读写状态.svg" alt=""/></td>
+                    <td>
+                        通过此小部件可以控制文件的可读写状态。
+                        <video src="https://www.youtube.com/watch?v=vMX9URR6huo" width="706"/>
+                    </td>
+                </tr>
+                <tr>
+                    <td><img src="版本控制分支图标.svg" alt=""/> master</td>
+                    <td>
+                        如果项目启用了
+                        <tooltip term="version-control">版本控制集成</tooltip>
+                        ，此小部件将显示当前分支的名称，单击它可以管理 VCS 分支。
+                        <video src="https://www.youtube.com/watch?v=riSd-JynLD8" width="706"/>
+                    </td>
+                </tr>
+                <tr>
+                    <td>4 个空格</td>
+                    <td>
+                        显示当前文件中使用的缩进样式。单击此小部件可以配置当前文件类型的制表符和缩进设置，或者在项目中禁用缩进检测。
+                        <video src="https://www.youtube.com/watch?v=FNrrvMHU5J0" width="706"/>
+                    </td>
+                </tr>
+                <tr>
+                    <td><img src="显示堆内存用量.png" alt=""/></td>
+                    <td>
+                        用于显示 Intellij IDEA 在堆内存总量中消耗的内存量，更多信息，请参阅增加 <tooltip term="ide">IDE</tooltip> 的堆内存。
+                        <video src="https://www.youtube.com/watch?v=Qaf-o8nxdAM" width="706"/>
+                    </td>
+                </tr>
+                <tr>
+                    <td><img src="默认部署服务器.png" alt=""/></td>
+                    <td>单击可将任何已配置的部署服务器或服务器组设置为执行部署操作的默认设置。</td>
+                </tr>
+            </table>
+        </chapter>
+    </chapter>
+    <chapter title="工具窗口" id="tool-windows"></chapter>
+    <chapter title="上下文菜单" id="context-menus"></chapter>
+    <chapter title="弹出菜单" id="popup-menus"></chapter>
+    <chapter title="主菜单" id="main-menus"></chapter>
+    <chapter title="主窗口" id="main-windows"></chapter>
+    <seealso>
+        <category ref="references">
+            <a href="https://zh.wikipedia.org/zh-cn/代码重构" summary="代码重构是指对代码进行修改，以提高其可读性、可维护性和可扩展性，而不改变其外部行为。它就像为代码做“整容手术”，让代码更清晰、更优雅、更易于理解和维护。">代码重构</a>
+            <a href="https://zh.wikipedia.org/zh-cn/软件版本控制" summary="版本控制是一种软件开发中用于管理和跟踪代码变更的系统。它允许开发者在开发过程中的不同时间点保存代码的状态，也就是创建“快照”，从而可以追踪每个文件的变更历史，比较不同版本之间的差异，以及在必要时回退到之前的版本。版本控制对于团队协作尤为重要，因为它帮助团队成员管理代码的合并、分支和发布。">版本控制</a>
+            <a href="https://plugins.jetbrains.com/" summary="JetBrains 插件市场是一个在线平台，提供各种插件，这些插件可以扩展 IntelliJ IDEA 以及其他 JetBrains 开发的 IDE（如 WebStorm、PyCharm、CLion 等）的功能。在这个网站上，用户可以浏览、搜索和下载各种插件，以增强他们的开发工具。">JetBrains 插件市场</a>
+        </category>
+        <category ref="ides">
+            <a href="https://www.eclipse.org" summary="Eclipse 是一个开放源代码的集成开发环境（IDE），主要用于 Java 应用程序的开发，但它也支持其他编程语言，如 C/C++、Python、Perl 等。Eclipse 以其可扩展性和强大的插件系统而闻名，允许开发人员根据需要定制他们的开发环境。">Eclipse</a>
+            <a href="https://www.myclipse.com" summary="MyEclipse 是一个商业版的 Eclipse 插件，它为 Java EE和企业开发提供了额外的工具和功能。MyEclipse 包括了数据库工具、可视化设计器、性能分析工具等，旨在提高企业级应用程序开发的效率。">MyEclipse</a>
+            <a href="https://spring.io/tools" summary="Spring Tool Suite (STS) 是一个基于 Eclipse 的 IDE，专门为 Spring 应用程序的开发而优化。它提供了一个强大的开发环境，包括对 Spring 框架的深度支持、Maven 和 Gradle 集成、以及云工具等。STS 旨在提高开发 Spring 应用程序的效率和便利性。">Spring Tool Suite (STS)</a>
+            <a href="https://code.visualstudio.com" summary="Visual Studio Code (VSCode) 是由 Microsoft 开发的一个免费、开源的代码编辑器，它支持多种编程语言和工具。VSCode 以其轻量级、可扩展性以及强大的集成终端而受到开发者的喜爱。它可以通过安装插件来支持不同的编程语言和框架。">Visual Studio Code (VSCode)</a>
+        </category>
+        <category ref="programming-language">
+            <a href="https://www.ruby-lang.org" summary="Ruby 是一种动态的、开源的编程语言，由松本行弘（Yukihiro Matsumoto）于 1995 年创建。它注重简洁和效率，特别适合快速开发。Ruby on Rails 框架是 Ruby 最著名的 Web 应用框架，广泛用于 Web 开发。Ruby 在 IntelliJ IDEA 中也有很好的支持。">Ruby</a>
+            <a href="https://www.oracle.com/java/technologies/javase-downloads.html" summary="Java 是一种广泛使用的、面向对象的编程语言，由 Sun Microsystems 公司（现已被 Oracle 公司收购）于 1995 年推出。它设计用来有一个最小的实现依赖，易于理解，并且能够一次编写，到处运行。Java 广泛应用于企业级应用、移动应用（尤其是 Android）以及云计算中。">Java</a>
+            <a href="https://kotlinlang.org" summary="Kotlin 是一种静态类型的编程语言，由 JetBrains 团队在 2017 年正式发布。它运行在 Java 虚拟机上，也可以编译成 JavaScript 源代码。Kotlin 旨在解决 Java 的一些问题，如冗长的语法和空指针异常，同时保持与 Java 的完全互操作性。它被 Google 宣布为 Android 官方开发语言之一。">Kotlin</a>
+            <a href="https://www.scala-lang.org" summary="Scala 是一种多范式的编程语言，结合了面向对象和函数式编程的特点。它设计于 2003 年，运行在 Java 虚拟机上，可以与 Java 库无缝交互。Scala 以其简洁的语法和强大的并发处理能力而受到开发者的青睐，特别是在大数据和分布式计算领域。">Scala</a>
+            <a href="http://groovy-lang.org" summary="Groovy 是一种基于 Java 平台的动态语言，由 James Strachan 于 2003 年创建。它结合了 Python、Ruby 和 Smalltalk 的语法特点，同时提供了静态类型和动态类型的特性。Groovy 易于学习，且与 Java 有很好的兼容性，常用于脚本编写、Web 开发和企业应用中。">Groovy</a>
+            <a href="https://www.python.org" summary="Python 是一种解释型、高级和通用的编程语言。由 Guido van Rossum 于 1989 年底发明，Python 的设计哲学强调代码的可读性和简洁的语法。它广泛应用于 Web 开发、数据科学、人工智能和许多其他领域。Python 在 IntelliJ IDEA 中通过插件得到支持。">Python</a>
+        </category>
+    </seealso>
+</topic>

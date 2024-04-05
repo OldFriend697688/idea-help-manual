@@ -1,0 +1,79 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE topic
+        SYSTEM "https://resources.jetbrains.com/writerside/1.0/xhtml-entities.dtd">
+<topic xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
+       xsi:noNamespaceSchemaLocation="https://resources.jetbrains.com/writerside/1.0/topic.v2.xsd"
+       title="快速开始" id="getting-started">
+    <section-starting-page>
+        <title>Intellij IDEA 2022.3.3 中文帮助手册</title>
+        <description>完全中文化帮助手册，全面覆盖基础至高级的各方面知识</description>
+
+        <spotlight>
+            <a href="register.topic" type="key" summary="使用 IntelliJ IDEA 2022.3.3 正式版，告别试用到期后的功能限制，尽享无限开发可能！">激活 Intellij IDEA</a>
+            <a href="working-offline.topic" type="world" summary="IntelliJ IDEA 是一款功能强大的 IDE，可用于开发各种类型的软件。然而，在一些情况下，我们可能无法连接到互联网。在这种情况下，IntelliJ IDEA 的离线功能就派上用场了。">离线工作</a>
+        </spotlight>
+
+        <primary>
+            <title>快速开始</title>
+            <a href="install.topic" summary="选择一种适合自己的方式安装 Intellij IDEA。">安装 Intellij IDEA</a>
+            <a href="guided-tour-around-the-user-interface.topic" summary="了解 Intellij IDEA 用户界面的主要构成部分。">用户界面</a>
+            <a href="user-interface-themes.topic" summary="安装符合个人审美标准的主题，告别乏味枯燥的单色调背景。">主题</a>
+            <a href="setting-background-image.topic" summary="为 Intellij IDEA 设置个人喜好的背景图片，让开发环境更加个性化。">背景图片设置</a>
+        </primary>
+
+        <secondary>
+            <title>高级知识</title>
+            <a href="debugging-code.topic" summary="探索如何调试代码，解决程序可能存在的异常漏洞。">调试应用程序</a>
+            <a href="plug-in-system.topic" summary="插件系统为 Intellij IDEA 赋予了无与伦比的强大拓展能力。">插件系统</a>
+            <a href="tests-in-ide.topic" summary="测试应用程序，检测程序是否按照预期的方式运行。">测试应用程序</a>
+            <a href="decompiler.topic" summary="使用 Java 字节码反编译器查看。">字节码反编译器</a>
+        </secondary>
+
+        <misc>
+            <links narrow="true">
+                <group>
+                    <title>编程语言</title>
+                    <a href="https://www.cprogramming.com/" summary="C 是一种高级编程语言，最初由贝尔实验室开发，用于 UNIX 操作系统。">C</a>
+                    <a href="https://www.cplusplus.com/" summary="C++ 是一种通用编程语言，以其高性能和控制硬件的能力而受到广泛应用。">C++</a>
+                    <a href="https://www.oracle.com/java/technologies/javase-downloads.html" summary="Java 是由 Oracle 提供的面向对象编程语言，广泛用于开发企业级应用、移动应用、嵌入式系统等。">Java</a>
+                    <a href="https://www.scala-lang.org/" summary="Scala 是一种多范式的编程语言，运行在 JVM 上，结合了面向对象和函数式编程的特点。">Scala</a>
+                    <a href="https://kotlinlang.org/" summary="Kotlin 是由 JetBrains 团队开发的一种静态类型编程语言，运行在 JVM 上，也可以编译成 JavaScript 或原生代码。">Kotlin</a>
+                    <a href="https://www.python.org/" summary="Python 是一种高级编程语言，以其可读性强和简洁清晰的语法而闻名，适用于各种编程任务。">Python</a>
+                    <a href="https://groovy-lang.org/" summary="Groovy 是一种动态、表达式丰富的编程语言，设计用于简化 Java 代码的编写。">Groovy</a>
+                </group>
+                <group>
+                    <title>版本控制系统</title>
+                    <a href="https://git-scm.com/" summary="Git 是一个开源的分布式版本控制系统，由 Linus Torvalds 创建，用于管理软件开发过程中的代码变更。">Git</a>
+                    <a href="https://subversion.apache.org/" summary="Apache Subversion（SVN）是一个开放源代码的版本控制系统，用于管理文件的变化历史。">SVN</a>
+                    <a href="https://gitee.com/" summary="GitEE（码云）是一个面向中国的 Git 代码托管平台，提供代码托管、项目管理、团队协作等功能，支持 Git 和 SVN 两种版本控制。">GitEE</a>
+                    <a href="https://gitlab.com/" summary="GitLab 是一个开源的基于 Git 的软件开发生命周期管理工具，它提供了代码托管、版本控制、项目管理等功能。">GitLab</a>
+                    <a href="https://github.com/" summary="GitHub 是一个基于 Git 的代码托管平台，提供分布式版本控制和源代码管理（SCM）功能，同时增加了自己的特性。">GitHub</a>
+                </group>
+                <group>
+                    <title>集成开发环境（IDE）</title>
+                    <a href="https://fleet.js.org/" summary="Fleet 是一个为前端开发量身定制的跨平台 IDE，由 VS Code 的插件生态系统支持，提供了一系列用于前端开发的功能和工具。">Fleet</a>
+                    <a href="https://www.eclipse.org/" summary="Eclipse 是一个流行的开放源代码集成开发环境（IDE），用于支持多种编程语言和框架，由 Eclipse Foundation 维护。">Eclipse</a>
+                    <a href="https://www.myeclipse.org/" summary="MyEclipse 是一个增强的 Eclipse IDE，提供了对 Java、Java EE、Web 和 XML 开发的支持，包括一些开箱即用的企业级功能。">MyEclipse</a>
+                    <a href="https://code.visualstudio.com/" summary="Visual Studio Code（VSCode）是一个轻量级但功能强大的源代码编辑器，由 Microsoft 开发，支持多种编程语言的语法高亮、代码补全、版本控制等特性。">Visual Studio Code</a>
+                    <a href="https://spring.io/tools/sts" summary="Spring Tool Suite (STS) 是一个基于 Eclipse 的 IDE，专为 Spring 开发而设计，提供了对 Spring 应用的快速开发和支持。">Spring Tool Suite (STS)</a>
+                </group>
+                <group>
+                    <title>自动化构建工具</title>
+                    <a href="https://maven.apache.org/" summary="Apache Maven 是一个自动化构建工具，主要用于管理 Java 项目的构建、报告和文档。它使用项目对象模型（POM）来描述项目的基本信息和项目依赖。">Maven</a>
+                    <a href="https://gradle.org/" summary="Gradle 是一个基于 Ant 和 Maven 概念的构建工具，它提供了更多的灵活性和高效性，支持增量构建和多种编程语言。">Gradle</a>
+                </group>
+                <group>
+                    <title>开发框架</title>
+                    <a href="https://spring.io/" summary="Spring 是一个开源的企业级 Java 应用程序框架，它最初关注于简化企业级应用开发，现在广泛用于各种规模的应用程序。">Spring</a>
+                    <a href="https://mybatis.org/mybatis-3/zh/index.html" summary="MyBatis 是一个优秀的持久层框架，它支持定制化 SQL、存储过程以及高级映射。MyBatis 避免了几乎所有的 JDBC 代码和手动设置参数以及获取结果集。">MyBatis</a>
+                    <a href="https://hibernate.org/" summary="Hibernate 是一个对象关系映射（ORM）框架，它对 JDBC 进行了抽象，使得数据库的操作更加简单，并且可以自动映射 Java 对象到数据库表。">Hibernate</a>
+                    <a href="https://spring.io/guides/gs/serving-web-content/" summary="Spring MVC 是 Spring 框架的一部分，提供了一个全功能的 MVC 实现，用于构建 Web 应用程序。">Spring MVC</a>
+                    <a href="https://spring.io/projects/spring-boot" summary="Spring Boot 旨在简化新 Spring 应用程序的初始搭建以及开发过程，它使用了 '约定优于配置' 的原则，减少了项目的配置。">Spring Boot</a>
+                    <a href="https://spring.io/projects/spring-cloud" summary="Spring Cloud 是一系列框架的集合，用于构建在分布式系统（如配置管理、服务发现、断路器等）中的应用程序。">Spring Cloud</a>
+                    <a href="https://mp.baomidou.com/" summary="MyBatis Plus（简称 MP）是一个 MyBatis 的增强工具，在 MyBatis 的基础上只做增强不做改变，为简化开发、提高效率而生。">MyBatis Plus</a>
+                </group>
+            </links>
+        </misc>
+    </section-starting-page>
+
+</topic>

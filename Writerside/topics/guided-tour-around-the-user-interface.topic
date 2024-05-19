@@ -251,7 +251,27 @@
     <chapter title="上下文菜单" id="context-menus"></chapter>
     <chapter title="弹出菜单" id="popup-menus"></chapter>
     <chapter title="主菜单" id="main-menus"></chapter>
-    <chapter title="主窗口" id="main-windows"></chapter>
+    <chapter title="主窗口" id="main-windows">
+        <p>
+            主窗口集成了代码编辑、调试、构建、版本控制以及许多其他功能。可以将它理解为是一种容器，用于将
+            <a anchor="main-menus" summary="IntelliJ IDEA 中的主菜单包含了多个顶级菜单项，每个菜单项下都有相应的子菜单和功能选项，这些菜单提供了对 IDE 的各种功能和设置的访问。" />、
+            <a anchor="navigation-bar" summary="IntelliJ IDEA 中的导航栏是一个便捷的功能，它允许用户快速导航到项目中的不同部分，如文件、类、方法或工具窗口。导航栏通常位于编辑器的顶部，提供了一个紧凑的界面来输入搜索查询或选择目标位置。" /> 等包含在其中。
+        </p>
+        <p>在主窗口中，可以处理单个 Intellij IDEA 项目。当然，可以打开多个主窗口处理多个项目。在默认情况下，主窗口的标题位置将会显示项目名称和当前打开文件的名称。</p>
+        <img alt="主窗口标题位置显示的项目名称和打开文件的名称" src="主窗口标题位置显示的项目名称和打开文件的名称.png" width="706"/>
+        <p>如果项目中有多个模块时，还将会额外显示相关模块的名称。</p>
+        <video src="https://www.youtube.com/watch?v=MHIisxc-eL8" width="706"/>
+        <p>
+            如果想要显示项目和当前打开文件的完整路径，请按下
+            <shortcut>Ctrl</shortcut>
+            <shortcut>Alt</shortcut>
+            <shortcut>S</shortcut>
+            在 <format style="bold">设置</format>
+            中展开并勾选
+            <ui-path>外观与行为 | 外观 | 始终在窗口标题中显示完整路径</ui-path> 选项。
+        </p>
+        <video src="https://www.youtube.com/watch?v=Kne0jZxIjIg" width="706"/>
+    </chapter>
     <seealso>
         <category ref="references">
             <a href="https://zh.wikipedia.org/zh-cn/代码重构" summary="代码重构是指对代码进行修改，以提高其可读性、可维护性和可扩展性，而不改变其外部行为。它就像为代码做“整容手术”，让代码更清晰、更优雅、更易于理解和维护。">代码重构</a>

@@ -250,7 +250,33 @@
     <chapter title="工具窗口" id="tool-windows"></chapter>
     <chapter title="上下文菜单" id="context-menus"></chapter>
     <chapter title="弹出菜单" id="popup-menus"></chapter>
-    <chapter title="主菜单" id="main-menus"></chapter>
+    <chapter title="主菜单" id="main-menus">
+        <p>
+            通过主菜单，将可以快速访问 Intellij IDEA 提供的各项常用功能。当然，还可以通过在
+            <format style="bold">操作</format>
+            （
+            <shortcut>Ctrl</shortcut>
+            <shortcut>Shift</shortcut>
+            <shortcut>A</shortcut>
+            ）中输入目标操作名称的方式实现相同的功能调用。比如：在
+            <format style="bold">操作</format>
+            中输入
+            <format style="bold">导航栏</format>
+            ，片刻等待后将会列举出所有与
+            <format style="bold">导航栏</format> 相关的操作。
+        </p>
+        <video src="https://www.youtube.com/watch?v=mK0ZbLqEj9w" width="706"/>
+        <note>
+            绝大多数的操作都有与之对应的快捷键，如果想执行的操作没有预设快捷键，可以尝试为其设置快捷键或者在
+            <format style="bold">操作</format>
+            （
+            <shortcut>Ctrl</shortcut>
+            <shortcut>Shift</shortcut>
+            <shortcut>A</shortcut>
+            ）中输入目标操作的名称，然后在展开的选项列表中选择需要执行的操作。
+        </note>
+        <img alt="在操作中键入目标操作的名称" src="在操作中键入目标操作的名称.png" width="706"/>
+    </chapter>
     <chapter title="主窗口" id="main-windows">
         <p>
             主窗口集成了代码编辑、调试、构建、版本控制以及许多其他功能。可以将它理解为是一种容器，用于将

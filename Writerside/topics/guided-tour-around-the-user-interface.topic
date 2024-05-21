@@ -248,7 +248,22 @@
         </chapter>
     </chapter>
     <chapter title="工具窗口" id="tool-windows"></chapter>
-    <chapter title="上下文菜单" id="context-menus"></chapter>
+    <chapter title="上下文菜单" id="context-menus">
+        <p>
+            通过鼠标右键单击界面上的各个元素，将可以查看与当前上下文相关的可用操作。比如；鼠标右键单击
+            <format style="bold">项目工具窗口</format> 中的文件，将可以查看与该文件相关的操作。鼠标右键单击
+            <a anchor="editor" summary="IntelliJ IDEA 的编辑器是其核心功能之一，它为开发者提供了一个强大、智能和高度可配置的代码编写环境。">编辑器</a>
+            ，将可以查看适用于当前选中代码片段的可用操作。
+        </p>
+        <video src="https://www.youtube.com/watch?v=GGg1Nps7cO4" width="706"/>
+        <note>
+            这些操作大多都可以通过
+            <a anchor="main-menus" summary="IntelliJ IDEA 中的主菜单包含了多个顶级菜单项，每个菜单项下都有相应的子菜单和功能选项，这些菜单提供了对 IDE 的各种功能和设置的访问。" /> 或
+            <a anchor="main-windows" summary="IntelliJ IDEA 提供了一个非常强大的主窗口，它集成了代码编辑、调试、构建、版本控制以及许多其他功能。" />
+            执行。带有快捷键的操作会在操作名称旁边显示快捷键。在实际应用中，可以更高效的直接按下与操作对应的快捷键来执行这些操作，而不是通过上下文菜单来执行它们。
+        </note>
+        <img src="上下文菜单中的操作和与之对应的快捷键.png" alt="上下文菜单中的操作和与之对应的快捷键" width="706"/>
+    </chapter>
     <chapter title="弹出菜单" id="popup-menus"></chapter>
     <chapter title="主菜单" id="main-menus">
         <p>

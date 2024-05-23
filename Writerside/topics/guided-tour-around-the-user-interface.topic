@@ -264,7 +264,105 @@
         </note>
         <img src="上下文菜单中的操作和与之对应的快捷键.png" alt="上下文菜单中的操作和与之对应的快捷键" width="706"/>
     </chapter>
-    <chapter title="弹出菜单" id="popup-menus"></chapter>
+    <chapter title="弹出菜单" id="popup-menus">
+        <note>
+            分辨弹出菜单和上下文菜单的最简单方法是，上下文菜单不会在菜单的顶部位置列举出此菜单列表的具体名称。一个简单的例子是：当按下
+            <shortcut>Ctrl</shortcut>
+            <shortcut>Alt</shortcut>
+            <shortcut>Shift</shortcut>
+            <shortcut>T</shortcut>
+            时将会打开
+            <format style="bold">重构此</format>
+            弹出菜单。此时，可以留意此弹出菜单正上方的名称正是
+            <format style="bold">重构此</format>
+            。
+        </note>
+        <img alt="重构此弹出菜单" src="重构此弹出菜单.png" width="706"/>
+        <p>
+            弹出菜单可以快速访问与当前上下文相关的操作，可以将它理解为是
+            <a anchor="context-menus" summary="IntelliJ IDEA 的上下文菜单（也称为右键菜单）是在用户在 IDE 的不同部分右键点击时弹出的菜单。上下文菜单提供了与当前上下文相关的操作和选项，这些选项根据用户点击的位置和选择的元素而变化。">上下文菜单</a>
+            中某些功能子项的直接快捷方式。比如：在
+            <a anchor="editor" summary="IntelliJ IDEA 的编辑器是其核心功能之一，它为开发者提供了一个强大、智能和高度可配置的代码编写环境。">编辑器</a>
+            中选定某个代码片段，然后选中上下文菜单中的
+            <format style="bold">重构</format>
+            选项和直接按下
+            <shortcut>Ctrl</shortcut>
+            <shortcut>Alt</shortcut>
+            <shortcut>Shift</shortcut>
+            <shortcut>T</shortcut>
+            打开
+            <format style="bold">重构此</format>
+            弹出菜单时提供的功能实际上是完全一致的。
+        </p>
+        <p>Intellij IDEA 中有很多弹出菜单，以下列举的是一些使用频次较高的弹出菜单：</p>
+        <list>
+            <li>
+                <p>
+                    使用
+                    <format style="bold">生成</format>
+                    （
+                    <shortcut>Alt</shortcut>
+                    <shortcut>Insert</shortcut>
+                    ）
+                    弹出菜单将可以根据上下文生成模板代码。
+                </p>
+                <video src="https://www.youtube.com/watch?v=a8jGNA6lPOE" width="706"/>
+            </li>
+            <li>
+                <p>
+                    使用
+                    <format style="bold">重构此</format>
+                    （
+                    <shortcut>Ctrl</shortcut>
+                    <shortcut>Alt</shortcut>
+                    <shortcut>Shift</shortcut>
+                    <shortcut>T</shortcut>
+                    ）弹出菜单将可以根据上下文提供可用重构列表。
+                </p>
+                <video src="https://www.youtube.com/watch?v=s7tgMwpLgpA" width="706"/>
+            </li>
+            <li>
+                <p>
+                    在项目工具窗口中使用
+                    <format style="bold">新建</format>
+                    （
+                    <shortcut>Alt</shortcut>
+                    <shortcut>Insert</shortcut>
+                    ）弹出菜单，可以为项目添加新的文件和目录等内容。
+                </p>
+                <video src="https://www.youtube.com/watch?v=iaWNokaiL10" width="706"/>
+            </li>
+            <li>
+                <p>
+                    使用
+                    <format style="bold">VCS 操作</format>
+                    （
+                    <shortcut>Alt</shortcut>
+                    <shortcut>`</shortcut>
+                    ）弹出菜单，其中包含
+                    <tooltip term="version-control">版本控制系统</tooltip>
+                    的上下文可用操作。
+                </p>
+                <video src="https://www.youtube.com/watch?v=R3bXb7tIuQs" width="706"/>
+            </li>
+            <li>
+                <p>
+                    打开
+                    <format style="bold">切换</format>
+                    （
+                    <shortcut>Ctrl</shortcut>
+                    <shortcut>`</shortcut>
+                    ）弹出菜单并按
+                    <format style="bold">5</format>
+                    进入
+                    <format style="bold">主题</format>
+                    弹出菜单并切换主题。
+                </p>
+                <video src="https://www.youtube.com/watch?v=-HJSUSO6jDU" width="706"/>
+            </li>
+        </list>
+        <p>如果认为有必要还可以为常用操作的快速列表创建自定义弹出菜单。</p>
+    </chapter>
     <chapter title="主菜单" id="main-menus">
         <p>
             通过主菜单，将可以快速访问 Intellij IDEA 提供的各项常用功能。当然，还可以通过在

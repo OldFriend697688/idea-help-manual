@@ -247,7 +247,34 @@
             </table>
         </chapter>
     </chapter>
-    <chapter title="工具窗口" id="tool-windows"></chapter>
+    <chapter title="工具窗口" id="tool-windows">
+        <tldr><p>隐藏/显示： <ui-path><a anchor="main-menus" summary="IntelliJ IDEA 中的主菜单包含了多个顶级菜单项，每个菜单项下都有相应的子菜单和功能选项，这些菜单提供了对 IDE 的各种功能和设置的访问。">主菜单</a> | 视图 | 工具窗口 | 工具窗口名</ui-path></p></tldr>
+        <p>
+            工具窗口提供的功能是对代码编辑的补充，比如；
+            <format style="bold">项目工具窗口</format> 用于显示项目的结构，而
+            <format style="bold">运行工具窗口</format> 则用于显示程序运行时的输出结果。
+        </p>
+        <img src="项目工具窗口.png" alt="项目工具窗口" width="706"/>
+        <p>
+            默认情况下，工具窗口将会停靠在
+            <a anchor="main-windows" summary="IntelliJ IDEA 提供了一个非常强大的主窗口，它集成了代码编辑、调试、构建、版本控制以及许多其他功能。"/>
+            的两侧和底部。可以根据个人习惯重新排列、取消停靠、调整大小或者是隐藏它们。通过鼠标右键单击工具窗口标题或者是鼠标左键单击标题中的
+            <img src="设置.svg" alt=""/> 查看其支持的排列选项。
+        </p>
+        <video src="https://www.youtube.com/watch?v=eA2ZODgt3bk" width="706"/>
+        <p>
+            可以为这些工具窗口指定快捷键，以便快速访问常用的工具窗口。有些工具窗口拥有预设快捷键，比如：按下
+            <shortcut>Alt</shortcut>
+            <shortcut>1</shortcut>
+            将可以快速打开或隐藏 <format style="bold">项目工具窗口</format>
+            ，又比如说想要打开或隐藏 <format style="bold">终端工具窗口</format> 则只需要按下
+            <shortcut>Alt</shortcut>
+            <shortcut>F12</shortcut> 即可。如果想要从
+            <a anchor="editor" summary="IntelliJ IDEA 的编辑器是其核心功能之一，它为开发者提供了一个强大、智能和高度可配置的代码编写环境。">编辑器</a>
+            快速跳转到上一个活动工具窗口，请按 <shortcut>F12</shortcut>。
+        </p>
+        <video src="https://www.youtube.com/watch?v=9E4rI5A8I74" width="706"/>
+    </chapter>
     <chapter title="上下文菜单" id="context-menus">
         <p>
             通过鼠标右键单击界面上的各个元素，将可以查看与当前上下文相关的可用操作。比如；鼠标右键单击

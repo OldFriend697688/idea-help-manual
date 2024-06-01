@@ -388,7 +388,11 @@
                 <video src="https://www.youtube.com/watch?v=-HJSUSO6jDU" width="706"/>
             </li>
         </list>
-        <p>如果认为有必要还可以为常用操作的快速列表创建自定义弹出菜单。</p>
+        <p>
+            如果认为有必要还可以为个人常用的操作创建
+            <a anchor="configure-quick-lists" summary="快速列表是一个弹出菜单，其中包含一组自定义的 Intellij IDEA 操作。可以将其视为自定义菜单或工具栏，并为其指定快捷键以便快速访问。"/>。
+        </p>
+        <include from="reuse-library.topic" element-id="configure-quick-lists-snippet" />
     </chapter>
     <chapter title="主菜单" id="main-menus">
         <p>

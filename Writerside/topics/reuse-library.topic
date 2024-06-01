@@ -1,0 +1,111 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE topic
+        SYSTEM "https://resources.jetbrains.com/writerside/1.0/xhtml-entities.dtd">
+<topic xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
+       xsi:noNamespaceSchemaLocation="https://resources.jetbrains.com/writerside/1.0/topic.v2.xsd"
+       title="reuse-library" id="reuse-library">
+    <!--快速列表-->
+    <snippet id="configure-quick-lists-snippet">
+        <chapter id="configure-quick-lists" title="自定义快速列表">
+            <p>
+                快速列表是一个
+                <a instance="hi" anchor="popup-menus" href="guided-tour-around-the-user-interface.topic"/>
+                ，其中包含一组自定义的 Intellij IDEA 操作。可以将其视为自定义菜单或工具栏，并为其指定快捷键以便快速访问。可以根据需要创建任意多个快速列表。快速列表中的每个操作都由一个从
+                0 到 9 的数字来标识。
+            </p>
+            <p>有许多预设的快速列表，但请注意它们不可以配置：</p>
+            <list>
+                <li>
+                    <format style="bold">VCS 操作</format>
+                    （
+                    <shortcut>Alt</shortcut>
+                    <shortcut>`</shortcut>
+                    ）
+                </li>
+                <li>
+                    <format style="bold">重构此</format>
+                    （
+                    <shortcut>Ctrl</shortcut>
+                    <shortcut>Alt</shortcut>
+                    <shortcut>Shift</shortcut>
+                    <shortcut>T</shortcut>
+                    ）
+                </li>
+            </list>
+            <procedure title="创建快速列表" id="create-quick-list">
+                <step>
+                    按
+                    <shortcut>Ctrl</shortcut>
+                    <shortcut>Alt</shortcut>
+                    <shortcut>S</shortcut>
+                    打开
+                    <format style="bold">设置</format>
+                    ，然后选择
+                    <ui-path>外观与行为 | 快速列表</ui-path>
+                    。
+                </step>
+                <step>
+                    点击左侧的 <img src="添加.svg" alt=""/> 或按下
+                    <shortcut>Alt</shortcut>
+                    <shortcut>Insert</shortcut>
+                    创建新的快速列表。
+                </step>
+                <step>
+                    在
+                    <format style="bold">显示名称</format>
+                    字段中，指定快速列表的名称。还可以在
+                    <format style="bold">描述</format>
+                    字段中提供快速列表的说明。
+                </step>
+                <step>
+                    <p>在右侧的窗口中，添加并排列快速列表中的操作：</p>
+                    <list>
+                        <li>鼠标左键单击 <img src="添加.svg" alt=""/> 在列表中添加操作。</li>
+                        <li>鼠标左键单击 <img src="分割线.svg" alt=""/> 为操作添加分割线。</li>
+                        <li>鼠标左键单击 <img src="移除.svg" alt=""/> 从列表中删除所选操作。</li>
+                        <li>鼠标左键单击 <img src="向上移动.svg" alt=""/> 或 <img src="向下移动.svg" alt=""/> 移动所选操作。</li>
+                    </list>
+                </step>
+                <step>
+                    鼠标左键单击
+                    <ui-path>确定</ui-path>
+                    保存更改。
+                </step>
+                <video src="https://www.youtube.com/watch?v=wbDyS0xZbbU" width="706"/>
+            </procedure>
+            <procedure title="为快速列表分配快捷键" id="quick-list-shortcut">
+                <step>
+                    按
+                    <shortcut>Ctrl</shortcut>
+                    <shortcut>Alt</shortcut>
+                    <shortcut>S</shortcut>
+                    打开
+                    <format style="bold">设置</format>
+                    ，然后选择
+                    <ui-path>按键映射</ui-path>
+                    。
+                </step>
+                <step>
+                    展开
+                    <format style="bold">快速列表</format>
+                    节点并选择目标快速列表，鼠标右键单击并选择
+                    <format style="bold">添加键盘快捷键</format>
+                    。
+                </step>
+                <step>
+                    鼠标左键单击
+                    <ui-path>确定</ui-path>
+                    保存更改。
+                </step>
+                <step>在编辑器中，按下快捷键快速访问快速列表。</step>
+                <video src="https://www.youtube.com/watch?v=Sg_utwZdkZU" width="706"/>
+                <note>
+                    如果不记得快速列表的快捷键，可以按
+                    <shortcut>Shift</shortcut>
+                    两次，然后键入快速列表名称搜索它。
+                </note>
+                <img src="搜索快速列表.png" alt="搜索快速列表" width="706"/>
+            </procedure>
+        </chapter>
+    </snippet>
+</topic>

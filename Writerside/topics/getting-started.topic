@@ -51,7 +51,7 @@
                 </group>
                 <group>
                     <title>集成开发环境（IDE）</title>
-                    <a href="https://fleet.js.org/" summary="Fleet 是一个为前端开发量身定制的跨平台 IDE，由 VS Code 的插件生态系统支持，提供了一系列用于前端开发的功能和工具。">Fleet</a>
+                    <a href="https://www.jetbrains.com/zh-cn/fleet/" summary="JetBrains Fleet 是一款轻量级的代码编辑器和集成开发环境（IDE），由 IntelliJ 的代码处理引擎构建而成。它目前处于公开预览版阶段，支持多种流行编程语言，包括 Python、TypeScript/JavaScript、Go、Java、PHP、C# 以及 Kotlin。">Fleet</a>
                     <a href="https://www.eclipse.org/" summary="Eclipse 是一个流行的开放源代码集成开发环境（IDE），用于支持多种编程语言和框架，由 Eclipse Foundation 维护。">Eclipse</a>
                     <a href="https://www.myeclipse.org/" summary="MyEclipse 是一个增强的 Eclipse IDE，提供了对 Java、Java EE、Web 和 XML 开发的支持，包括一些开箱即用的企业级功能。">MyEclipse</a>
                     <a href="https://code.visualstudio.com/" summary="Visual Studio Code（VSCode）是一个轻量级但功能强大的源代码编辑器，由 Microsoft 开发，支持多种编程语言的语法高亮、代码补全、版本控制等特性。">Visual Studio Code</a>

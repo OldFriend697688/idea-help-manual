@@ -4,6 +4,50 @@
 <topic xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
        xsi:noNamespaceSchemaLocation="https://resources.jetbrains.com/writerside/1.0/topic.v2.xsd"
        title="专业提示" id="pro-tips">
-
-    <p>Start typing here...</p>
+    <show-structure depth="3" for="chapter"/>
+    <warning>
+        建议不要急于一次掌握本章节的所有知识点，因为它们既琐碎又彼此独立。首先，花时间阅读并理解这些内容，以便在脑海中形成一个基本的知识框架和概念。随着学习的深入，可以随时回顾这些内容，进一步探索和领会其中的细节。这种方法将帮助建立扎实的理解并促进长期记忆。
+    </warning>
+    <chapter id="coding-assistance" title="编码协助">
+        <chapter id="type-info" title="类型信息">
+            <note>
+                对于自定义的类、接口、方法等符号而言，需预先使用
+                <format style="bold">JavaDoc</format>
+                注解对其进行注释，之后当按下
+                <shortcut>Ctrl</shortcut>
+                <shortcut>Q</shortcut>
+                时才会在
+                <format style="bold">快速文档</format>
+                中显示这些信息。一个非常简单的例子是：当按下
+                <shortcut>Ctrl</shortcut>
+                <shortcut>N</shortcut>
+                并键入
+                <format style="bold">java.lang.String</format>
+                后进入其内部，将可以明确看到类声明的上方存在的注释信息，其内部的方法声明上方也有注释信息。
+            </note>
+            <p>
+                如果想获得关于某个
+                <tooltip term="symbol">符号</tooltip>
+                的详细信息，比如：它来自于哪里、它的实际用途是什么、用于解决什么问题？作者又是谁？。此时，使用
+                <format style="bold">快速文档</format>
+                将会是最佳的选择。可以按下
+                <shortcut>Ctrl</shortcut>
+                <shortcut>Q</shortcut>
+                调用它，如此一来将会弹出一个包含这些详细信息的弹出窗口。
+            </p>
+            <video src="https://www.youtube.com/watch?v=LWFJu6zgfn4" width="706"/>
+            <p>
+                但是，有时不需要查看如此详细的信息，可以改用
+                <format style="bold">类型信息</format>
+                操作，选中目标符号并按下
+                <shortcut>Ctrl</shortcut>
+                <shortcut>Shift</shortcut>
+                <shortcut>P</shortcut>
+                后它将只会显示所选表达式的实际类型，而且不会像
+                <format style="bold">快速文档</format>
+                一样占用过多的屏幕空间。
+            </p>
+            <video src="https://www.youtube.com/watch?v=tvl0uP_6M2I" width="706"/>
+        </chapter>
+    </chapter>
 </topic>

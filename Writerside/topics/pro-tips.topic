@@ -4,7 +4,6 @@
 <topic xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
        xsi:noNamespaceSchemaLocation="https://resources.jetbrains.com/writerside/1.0/topic.v2.xsd"
        title="专业提示" id="pro-tips">
-    <show-structure depth="3" for="chapter"/>
     <warning>
         建议不要急于一次掌握本章节的所有知识点，因为它们既琐碎又彼此独立。首先，花时间阅读并理解这些内容，以便在脑海中形成一个基本的知识框架和概念。随着学习的深入，可以随时回顾这些内容，进一步探索和领会其中的细节。这种方法将帮助建立扎实的理解并促进长期记忆。
     </warning>
@@ -49,30 +48,33 @@
             </p>
             <video src="https://www.youtube.com/watch?v=tvl0uP_6M2I" width="706"/>
         </chapter>
-        <chapter id="code-completion-case-sensitivity" title="代码区分大小写规则">
+        <chapter id="code-completion-case-sensitivity" title="代码补全区分大小写">
             <note>
                 在实际应用中，通常建议取消勾选
                 <format style="bold">区分大小写</format>
-                选项，这样将可以显著的提升开发效率。一个简单的例子是：当勾选
+                选项，这样可以显著的提升开发效率。一个简单的例子是：当勾选
                 <format style="bold">仅首字母</format>
                 选项时，如果想使用
                 <a href="https://www.oracle.com/java/technologies/javase-downloads.html"
                    summary="Java 是由 Oracle 提供的面向对象编程语言，广泛用于开发企业级应用、移动应用、嵌入式系统等。">Java</a>
                 在控制台中输出一段语句，可以在编辑器中键入
                 <format style="bold">S</format>
-                （
-                <format style="italic">特别注意 S 是大写</format>
-                ），此时编辑器将会自动列举出所有匹配的选项，尤其注意其中出现的
+                ，此时编辑器将会自动列举出所有匹配的选项，尤其注意其中列出的
                 <format style="bold">System</format>
+                （
+                <format style="italic">只有输入大写 S 时才会有 System</format>
+                ）
                 。与之类似的，如果勾选了
                 <format style="bold">全部字母</format>
                 选项，必须在编辑器中完整键入
                 <format style="bold">System</format>
                 （
                 <format style="italic">特别注意一个字母都不能错</format>
-                ）才会有相应的代码提示。但是，如果取消勾选
+                ）才会有相应的提示。但是，如果取消勾选
                 <format style="bold">区分大小写</format>
-                选项，则将会忽略上述两个选项的约束规则，甚至是只输入单词中的某一部分时编辑器都会自动列举出所有匹配的选项。
+                选项，则将会忽略上述两个选项的约束规则，甚至是只输入单词中的某一部分时（
+                <format style="italic">比如：tem</format>
+                ）编辑器都会自动列举出所有匹配的选项。
             </note>
             <p>
                 默认情况下，Intellij IDEA 代码自动完成的大小写约束规则只会影响到键入的第一个字母。如果要改变它，可以在
@@ -87,11 +89,11 @@
                 <format style="bold">仅首字母</format>
                 或
                 <format style="bold">所有字母</format>
-                中选择一个。又或者说不需要此约束规则，则可以取消勾选
+                两个选项中选择一个。又或者说不需要此约束规则，则可以取消勾选
                 <format style="bold">区分大小写</format>
                 选项。
             </p>
-            <img src="区分代码大小写规则.png" alt="区分代码大小写规则" width="706"/>
+            <img src="代码补区分代码大小写规则.png" alt="代码补全区分大小写" width="706"/>
             <video src="https://www.youtube.com/watch?v=MtV0uwouhNc" width="706"/>
         </chapter>
     </chapter>

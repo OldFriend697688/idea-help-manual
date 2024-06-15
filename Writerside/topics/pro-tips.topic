@@ -109,5 +109,24 @@
             <img src="移动文本光标时高亮显示.png" alt="移动文本光标时高亮显示" width="706"/>
             <video src="https://www.youtube.com/watch?v=T_fr7enYG1c" width="706"/>
         </chapter>
+        <chapter id="camelhumps" title="使用驼峰命名法规则分割单词">
+            <p>
+                默认情况下，IntelliJ IDEA 对单词的大小写状态并不敏感。但是，如果希望根据
+                <tooltip term="camel-case">驼峰命名法</tooltip>
+                规则仅选择单词中的某一部分，则可以在
+                <format style="bold">设置</format>
+                （
+                <shortcut>Ctrl</shortcut>
+                <shortcut>Alt</shortcut>
+                <shortcut>S</shortcut>
+                ）中展开
+                <ui-path>编辑器 | 常规 | 智能按键</ui-path>
+                并勾选
+                <format style="bold">使用 "CamelHumps" 单词</format>
+                选项。
+            </p>
+            <img src="使用 CamelHumps 单词.png" alt="使用 CamelHumps 单词" width="706"/>
+            <video src="https://www.youtube.com/watch?v=KWPR44vrGTA" width="706"/>
+        </chapter>
     </chapter>
 </topic>

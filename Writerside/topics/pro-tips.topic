@@ -96,5 +96,18 @@
             <img src="代码补区分代码大小写规则.png" alt="代码补全区分大小写" width="706"/>
             <video src="https://www.youtube.com/watch?v=MtV0uwouhNc" width="706"/>
         </chapter>
+        <chapter id="disable-highlighting-element-at-caret" title="禁用高亮显示文本光标处元素的用法">
+            <p>
+                默认情况下，Intellij IDEA 会在移动文本光标时高亮显示当前光标所在位置处元素的用法。但是，如果觉得这种高亮显示会影响到编辑器的视觉效果，则可以取消勾选
+                <format style="bold">文本光标处元素的用法</format>
+                选项。取消此选项后可以通过按下
+                <shortcut>Ctrl</shortcut>
+                <shortcut>Shift</shortcut>
+                <shortcut>F7</shortcut>
+                实现同样的功能。
+            </p>
+            <img src="移动文本光标时高亮显示.png" alt="移动文本光标时高亮显示" width="706"/>
+            <video src="https://www.youtube.com/watch?v=T_fr7enYG1c" width="706"/>
+        </chapter>
     </chapter>
 </topic>

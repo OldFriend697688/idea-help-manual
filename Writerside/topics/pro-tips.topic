@@ -8,7 +8,7 @@
         建议不要急于一次掌握本章节的所有知识点，因为它们既琐碎又彼此独立。首先，花时间阅读并理解这些内容，以便在脑海中形成一个基本的知识框架和概念。随着学习的深入，可以随时回顾这些内容，进一步探索和领会其中的细节。这种方法将帮助建立扎实的理解并促进长期记忆。
     </warning>
     <chapter id="coding-assistance" title="编码协助">
-        <chapter id="type-info" title="类型信息">
+        <chapter id="type-info" title="类型信息" default-state="collapsed" collapsible="true">
             <note>
                 对于自定义的类、接口、方法等符号而言，需预先使用
                 <format style="bold">JavaDoc</format>
@@ -48,7 +48,7 @@
             </p>
             <video src="https://www.youtube.com/watch?v=tvl0uP_6M2I" width="706"/>
         </chapter>
-        <chapter id="code-completion-case-sensitivity" title="代码补全区分大小写">
+        <chapter id="code-completion-case-sensitivity" title="代码补全区分大小写" default-state="collapsed" collapsible="true">
             <note>
                 在实际应用中，通常建议取消勾选
                 <format style="bold">区分大小写</format>
@@ -96,7 +96,7 @@
             <img src="代码补区分代码大小写规则.png" alt="代码补全区分大小写" width="706"/>
             <video src="https://www.youtube.com/watch?v=MtV0uwouhNc" width="706"/>
         </chapter>
-        <chapter id="disable-highlighting-element-at-caret" title="禁用高亮显示文本光标处元素的用法">
+        <chapter id="disable-highlighting-element-at-caret" title="禁用高亮显示文本光标处元素的用法" default-state="collapsed" collapsible="true">
             <p>
                 默认情况下，Intellij IDEA 会在移动文本光标时高亮显示当前光标所在位置处元素的用法。但是，如果觉得这种高亮显示会影响到编辑器的视觉效果，则可以取消勾选
                 <format style="bold">文本光标处元素的用法</format>
@@ -109,7 +109,7 @@
             <img src="移动文本光标时高亮显示.png" alt="移动文本光标时高亮显示" width="706"/>
             <video src="https://www.youtube.com/watch?v=T_fr7enYG1c" width="706"/>
         </chapter>
-        <chapter id="camelhumps" title="使用驼峰命名法规则分割单词">
+        <chapter id="camelhumps" title="使用驼峰命名法规则分割单词" default-state="collapsed" collapsible="true">
             <p>
                 默认情况下，IntelliJ IDEA 对单词的大小写状态并不敏感。但是，如果希望根据
                 <tooltip term="camel-case">驼峰命名法</tooltip>
@@ -128,7 +128,7 @@
             <img src="使用 CamelHumps 单词.png" alt="使用 CamelHumps 单词" width="706"/>
             <video src="https://www.youtube.com/watch?v=KWPR44vrGTA" width="706"/>
         </chapter>
-        <chapter id="hippie-completion" title="嬉皮补全">
+        <chapter id="hippie-completion" title="嬉皮补全" default-state="collapsed" collapsible="true">
             <note>如果发现无法通过快捷键触发代码补全，则请关闭中文输入法后再次按下对应的快捷键。</note>
             <p>
                 Intellij IDEA 通过
@@ -150,6 +150,19 @@
                 来使用它。
             </p>
             <video src="https://www.youtube.com/watch?v=h_TzczqiiAs" width="706"/>
+        </chapter>
+    </chapter>
+    <chapter id="refactorings" title="重构">
+        <chapter id="undo-refactorings" title="撤销重构" default-state="collapsed" collapsible="true">
+            <p>
+                使用 Intellij IDEA 可以非常轻松地撤销已进行的
+                <tooltip term="refactoring">重构</tooltip>
+                操作。这意味着无论进行过多少次重构操作，都可以通过按下
+                <shortcut>Ctrl</shortcut>
+                <shortcut>Z</shortcut>
+                触发撤销操作来撤销它们。
+            </p>
+            <video src="https://www.youtube.com/watch?v=V0tmwS6W5XA" width="706"/>
         </chapter>
     </chapter>
 </topic>

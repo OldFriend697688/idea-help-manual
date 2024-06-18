@@ -48,7 +48,8 @@
             </p>
             <video src="https://www.youtube.com/watch?v=tvl0uP_6M2I" width="706"/>
         </chapter>
-        <chapter id="code-completion-case-sensitivity" title="代码补全区分大小写" default-state="collapsed" collapsible="true">
+        <chapter id="code-completion-case-sensitivity" title="代码补全区分大小写" default-state="collapsed"
+                 collapsible="true">
             <note>
                 在实际应用中，通常建议取消勾选
                 <format style="bold">区分大小写</format>
@@ -96,7 +97,8 @@
             <img src="代码补区分代码大小写规则.png" alt="代码补全区分大小写" width="706"/>
             <video src="https://www.youtube.com/watch?v=MtV0uwouhNc" width="706"/>
         </chapter>
-        <chapter id="disable-highlighting-element-at-caret" title="禁用高亮显示文本光标处元素的用法" default-state="collapsed" collapsible="true">
+        <chapter id="disable-highlighting-element-at-caret" title="禁用高亮显示文本光标处元素的用法"
+                 default-state="collapsed" collapsible="true">
             <p>
                 默认情况下，Intellij IDEA 会在移动文本光标时高亮显示当前光标所在位置处元素的用法。但是，如果觉得这种高亮显示会影响到编辑器的视觉效果，则可以取消勾选
                 <format style="bold">文本光标处元素的用法</format>
@@ -163,6 +165,27 @@
                 触发撤销操作来撤销它们。
             </p>
             <video src="https://www.youtube.com/watch?v=V0tmwS6W5XA" width="706"/>
+        </chapter>
+        <chapter id="extract-string-fragments" title="提取字符串片段等内容" default-state="collapsed" collapsible="true">
+            <p>
+                Intellij IDEA 不仅能够重构可执行代码，还能够重构字符串文本等内容。只需要选中它们并按下
+                <shortcut>Ctrl</shortcut>
+                <shortcut>Alt</shortcut>
+                <shortcut>Shift</shortcut>
+                <shortcut>T</shortcut>
+                ，然后选中
+                <format style="bold">引入变量/常量/字段/形参</format>
+                选项即可提取它们为对应的
+                <tooltip term="variables">变量</tooltip>
+                、
+                <tooltip term="constant">常量</tooltip>
+                、
+                <tooltip term="java_field">字段</tooltip>
+                或是
+                <tooltip term="formal parameter">形参</tooltip>
+                并在整个代码中替换其用法。
+            </p>
+            <video src="https://www.youtube.com/watch?v=p9A56GsAvu4" width="706"/>
         </chapter>
     </chapter>
 </topic>

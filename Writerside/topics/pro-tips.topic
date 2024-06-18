@@ -128,5 +128,28 @@
             <img src="使用 CamelHumps 单词.png" alt="使用 CamelHumps 单词" width="706"/>
             <video src="https://www.youtube.com/watch?v=KWPR44vrGTA" width="706"/>
         </chapter>
+        <chapter id="hippie-completion" title="嬉皮补全">
+            <note>如果发现无法通过快捷键触发代码补全，则请关闭中文输入法后再次按下对应的快捷键。</note>
+            <p>
+                Intellij IDEA 通过
+                <shortcut>Ctrl</shortcut>
+                <shortcut>Space</shortcut>
+                提供基本补全，通过
+                <shortcut>Ctrl</shortcut>
+                <shortcut>Shift</shortcut>
+                <shortcut>Space</shortcut>
+                提供智能类型匹配补全。通过
+                <shortcut>Ctrl</shortcut>
+                <shortcut>Shift</shortcut>
+                <shortcut>Enter</shortcut>
+                提供语句补全。所有这些补全功能都是基于对代码结构的分析理解而来。但是，有些时候可能需要一种更加琐碎但灵活的逻辑来建议当前文件中较早使用过的单词。此功能称之为
+                <format style="bold">嬉皮补全</format>
+                ，可以通过
+                <shortcut>Atl</shortcut>
+                <shortcut>/</shortcut>
+                来使用它。
+            </p>
+            <video src="https://www.youtube.com/watch?v=h_TzczqiiAs" width="706"/>
+        </chapter>
     </chapter>
 </topic>

@@ -213,5 +213,9 @@
            <code-block lang="java" src="TestTypeMigration.java" default-state="collapsed" collapsible="true" collapsed-title="TestTypeMigration.java"/>
            <video src="https://www.youtube.com/watch?v=DiGXMBqNJOI" width="706"/>
         </chapter>
+        <chapter id="invert-boolean" title="反转布尔值" default-state="collapsed" collapsible="true">
+            <include from="reuse-library.topic" element-id="invert-boolean-refactoring-snippet" />
+            <video src="https://www.youtube.com/watch?v=-vj-_OwfThE" width="706"/>
+        </chapter>
     </chapter>
 </topic>

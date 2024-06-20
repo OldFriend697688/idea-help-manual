@@ -166,7 +166,8 @@
             </p>
             <video src="https://www.youtube.com/watch?v=V0tmwS6W5XA" width="706"/>
         </chapter>
-        <chapter id="extract-string-fragments" title="提取字符串片段等内容" default-state="collapsed" collapsible="true">
+        <chapter id="extract-string-fragments" title="提取字符串片段等内容" default-state="collapsed"
+                 collapsible="true">
             <p>
                 Intellij IDEA 不仅能够重构可执行代码，还能够重构字符串文本等内容。只需要选中它们并按下
                 <shortcut>Ctrl</shortcut>
@@ -186,6 +187,31 @@
                 并在整个代码中替换其用法。
             </p>
             <video src="https://www.youtube.com/watch?v=p9A56GsAvu4" width="706"/>
+        </chapter>
+        <chapter id="type-migration" title="类型迁移" default-state="collapsed" collapsible="true">
+            <p>
+                在执行重构操作时，通常会重命名
+                <tooltip term="symbol">符号</tooltip>
+                或者是提取并移动代码中的语句。然而，重构的意义远不止于此，比如：还可以通过
+                <format style="bold">类型迁移</format>
+                （
+                <shortcut>Ctrl</shortcut>
+                <shortcut>Shift</shortcut>
+                <shortcut>F6</shortcut>
+                ） 操作快速更改
+                <tooltip term="variables">变量</tooltip>
+                、
+                <tooltip term="java_field">字段</tooltip>
+                、
+                <tooltip term="parameter">参数</tooltip>
+                或是
+                <tooltip term="method">方法</tooltip>
+                的
+                <tooltip term="method return value">返回值</tooltip>
+                的类型并更新相关代码以便解决可能的冲突。
+            </p>
+           <code-block lang="java" src="TestTypeMigration.java" default-state="collapsed" collapsible="true" collapsed-title="TestTypeMigration.java"/>
+           <video src="https://www.youtube.com/watch?v=DiGXMBqNJOI" width="706"/>
         </chapter>
     </chapter>
 </topic>

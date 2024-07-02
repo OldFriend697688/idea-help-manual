@@ -218,4 +218,44 @@
             <video src="https://www.youtube.com/watch?v=-vj-_OwfThE" width="706"/>
         </chapter>
     </chapter>
+    <chapter id="code-analysis" title="代码分析">
+        <chapter id="dependency-structure-matrix" title="依赖关系矩阵" default-state="collapsed" collapsible="true">
+            <p>
+                Intellij IDEA 可以分析代码中的组件相互依赖的紧密程度，开发者应该密切关注这一点，当依赖关系过多时，可能会导致各种问题。依赖关系矩阵功能将可以帮助开发者
+                <tooltip term="visualization">可视化</tooltip>
+                的探索
+                <tooltip term="idea-module">模块</tooltip>
+                、
+                <tooltip term="package">包</tooltip>
+                和
+                <tooltip term="class">类</tooltip>
+                之间的依赖关系。有关于此功能的更多细节和详细使用步骤请阅读 <a href="dsm-analysis.topic" />。
+            </p>
+            <img src="DSM 工具界面.png" alt="DSM 工具界面" width="706"/>
+            <note>DSM 工具窗口将会以特殊方式对依赖关系进行排序处理，它始终将最常用的类移至底部。</note>
+            <warning>
+                <p>要使用依赖关系矩阵分析功能，需确保已启用 Dependency Structure Matrix 插件。</p>
+                <p>
+                    该插件通常随 IntelliJ IDEA
+                    一同安装并默认启用。若不慎禁用了该插件，可通过以下步骤重新启用：按下
+                    <shortcut>Ctrl</shortcut>
+                    <shortcut>Alt</shortcut>
+                    <shortcut>S</shortcut>
+                    打开
+                    <ui-path>设置</ui-path>
+                    ，点击
+                    <ui-path>插件</ui-path>
+                    选项，继而切换到
+                    <ui-path>已安装</ui-path>
+                    选项卡。在搜索框内输入
+                    <format style="bold">Dependency Structure Matrix</format>
+                    ，待结果出现后，找到该插件并点击
+                    <ui-path>启用</ui-path>
+                    按钮即可。
+                </p>
+            </warning>
+            <img src="启用 Dependency Structure Matrix 插件.png" alt="启用 Dependency Structure Matrix 插件" width="706"/>
+            <video src="https://www.youtube.com/watch?v=N8WEhbmlluk" width="706"/>
+        </chapter>
+    </chapter>
 </topic>

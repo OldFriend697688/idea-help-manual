@@ -27,7 +27,7 @@
             <p>
                 如果想获得关于某个
                 <tooltip term="symbol">符号</tooltip>
-                的详细信息，比如：它来自于哪里、它的实际用途是什么、用于解决什么问题？作者又是谁？。此时，使用
+                的详细信息，例如：它来自于哪里、它的实际用途是什么、用于解决什么问题？作者又是谁？。此时，使用
                 <format style="bold">快速文档</format>
                 将会是最佳的选择。可以按下
                 <shortcut>Ctrl</shortcut>
@@ -74,7 +74,7 @@
                 ）才会有相应的提示。但是，如果取消勾选
                 <format style="bold">区分大小写</format>
                 选项，则将会忽略上述两个选项的约束规则，甚至是只输入单词中的某一部分时（
-                <format style="italic">比如：tem</format>
+                <format style="italic">例如：tem</format>
                 ）编辑器都会自动列举出所有匹配的选项。
             </note>
             <p>
@@ -192,7 +192,7 @@
             <p>
                 在执行重构操作时，通常会重命名
                 <tooltip term="symbol">符号</tooltip>
-                或者是提取并移动代码中的语句。然而，重构的意义远不止于此，比如：还可以通过
+                或者是提取并移动代码中的语句。然而，重构的意义远不止于此，例如：还可以通过
                 <format style="bold">类型迁移</format>
                 （
                 <shortcut>Ctrl</shortcut>
@@ -210,11 +210,12 @@
                 <tooltip term="method return value">返回值</tooltip>
                 的类型并更新相关代码以便解决可能的冲突。
             </p>
-           <code-block lang="java" src="TestTypeMigration.java" default-state="collapsed" collapsible="true" collapsed-title="TestTypeMigration.java"/>
-           <video src="https://www.youtube.com/watch?v=DiGXMBqNJOI" width="706"/>
+            <code-block lang="java" src="TestTypeMigration.java" default-state="collapsed" collapsible="true"
+                        collapsed-title="TestTypeMigration.java"/>
+            <video src="https://www.youtube.com/watch?v=DiGXMBqNJOI" width="706"/>
         </chapter>
         <chapter id="invert-boolean" title="反转布尔值" default-state="collapsed" collapsible="true">
-            <include from="reuse-library.topic" element-id="invert-boolean-refactoring-snippet" />
+            <include from="reuse-library.topic" element-id="invert-boolean-refactoring-snippet"/>
             <video src="https://www.youtube.com/watch?v=-vj-_OwfThE" width="706"/>
         </chapter>
     </chapter>
@@ -229,7 +230,7 @@
                 <tooltip term="package">包</tooltip>
                 和
                 <tooltip term="class">类</tooltip>
-                之间的依赖关系。有关于此功能的更多细节和详细使用步骤请阅读 <a href="dsm-analysis.topic" />。
+                之间的依赖关系。有关于此功能的更多细节和详细使用步骤请阅读 <a href="dsm-analysis.topic"/>。
             </p>
             <img src="DSM 工具界面.png" alt="DSM 工具界面" width="706"/>
             <note>DSM 工具窗口将会以特殊方式对依赖关系进行排序处理，它始终将最常用的类移至底部。</note>
@@ -243,19 +244,59 @@
                     <shortcut>S</shortcut>
                     打开
                     <ui-path>设置</ui-path>
-                    ，点击
+                    ，单击
                     <ui-path>插件</ui-path>
                     选项，继而切换到
                     <ui-path>已安装</ui-path>
                     选项卡。在搜索框内输入
                     <format style="bold">Dependency Structure Matrix</format>
-                    ，待结果出现后，找到该插件并点击
+                    ，待结果出现后，找到该插件并单击
                     <ui-path>启用</ui-path>
                     按钮即可。
                 </p>
             </warning>
-            <img src="启用 Dependency Structure Matrix 插件.png" alt="启用 Dependency Structure Matrix 插件" width="706"/>
+            <img src="启用 Dependency Structure Matrix 插件.png" alt="启用 Dependency Structure Matrix 插件"
+                 width="706"/>
             <video src="https://www.youtube.com/watch?v=N8WEhbmlluk" width="706"/>
+        </chapter>
+        <chapter id="structural-search-and-replace" title="结构搜索和替换" default-state="collapsed" collapsible="true">
+            <p>
+                <a href="structural-search-and-replace.topic">结构搜索和替换（SSR）非常强大</a>
+                ，可以将它用于静态代码分析和
+                <tooltip term="refactoring">重构</tooltip>
+                自动化。简而言之，它允许搜索代码中的特定模式并用参数化模板替换它们。为此，它配备了自己的语言来定义代码模式，要阅读它们
+                <a href="https://www.jetbrains.com/idea/docs/ssr.pdf">请单击此处</a> 查看更详细的描述。要使用此功能，可以通过
+                <ui-path>
+                    <a anchor="main-menus" href="guided-tour-around-the-user-interface.topic"
+                       summary="IntelliJ IDEA 中的主菜单包含了多个顶级菜单项，每个菜单项下都有相应的子菜单和功能选项，这些菜单提供了对 IDE 的各种功能和设置的访问。">主菜单</a>
+                    | 编辑 | 查找 | 结构搜索 / 结构化替换
+                </ui-path>
+                选项打开相应功能的操作窗口。
+            </p>
+            <img src="结构搜索和替换功能菜单.png" alt="结构搜索和替换功能菜单" width="706"/>
+            <note>
+                按下
+                <shortcut>Ctrl</shortcut>
+                <shortcut>Alt</shortcut>
+                <shortcut>A</shortcut>
+                在
+                <format style="bold">操作</format>
+                中键入
+                <format style="bold">结构搜索</format>
+                或
+                <format style="bold">结构化替换</format>
+                并选中它们可以更快速的打开结构搜索和结构替换功能操作对话框。
+            </note>
+            <video src="https://www.youtube.com/watch?v=PJGhuNtl_Xk" width="706"/>
+            <p>
+                另外，如果想要创建属于自己的代码模板或代码检查模式，请进入
+                <ui-path>设置 | 编辑器 | 检查</ui-path>
+                然后找到
+                <format style="bold">结构搜索</format>
+                节点，之后便可以根据实际启用需要的代码检查模式。
+            </p>
+            <img src="将结构搜索和替换规则作为代码检查规则.png" alt="将结构搜索和替换规则作为代码检查规则" width="706" id="search-template"/>
+            <include from="reuse-library.topic" element-id="to-search-structurally-snippet" />
         </chapter>
     </chapter>
 </topic>

@@ -24,8 +24,8 @@
         <li><a anchor="navigation-bar" summary="IntelliJ IDEA 中的导航栏是一个便捷的功能，它允许用户快速导航到项目中的不同部分，如文件、类、方法或工具窗口。导航栏通常位于编辑器的顶部，提供了一个紧凑的界面来输入搜索查询或选择目标位置。">导航栏</a></li>
         <li>项目 <a anchor="tool-windows" summary="IntelliJ IDEA 中的工具窗口是 IDE 界面的重要组成部分，它们为开发者提供了各种辅助工具和功能，以支持软件开发的不同方面。">工具窗口</a></li>
         <li><a anchor="editor" summary="IntelliJ IDEA 的编辑器是其核心功能之一，它为开发者提供了一个强大、智能和高度可配置的代码编写环境。">编辑器</a></li>
-        <li><a anchor="popup-menus" summary="IntelliJ IDEA 的弹出菜单通常指的是在编辑器中特定操作（如点击、按键等）触发的菜单，它提供了对常用操作的快速访问。弹出菜单与上下文菜单（右键菜单）类似，但它们的出现通常是基于特定的触发条件，而不是简单的右键点击。">弹出菜单</a></li>
-        <li><a anchor="context-menus" summary="IntelliJ IDEA 的上下文菜单（也称为右键菜单）是在用户在 IDE 的不同部分右键点击时弹出的菜单。上下文菜单提供了与当前上下文相关的操作和选项，这些选项根据用户点击的位置和选择的元素而变化。">上下文菜单</a></li>
+        <li><a anchor="popup-menus" summary="IntelliJ IDEA 的弹出菜单通常指的是在编辑器中特定操作（如单击、按键等）触发的菜单，它提供了对常用操作的快速访问。弹出菜单与上下文菜单（右键菜单）类似，但它们的出现通常是基于特定的触发条件，而不是简单的右键单击。">弹出菜单</a></li>
+        <li><a anchor="context-menus" summary="IntelliJ IDEA 的上下文菜单（也称为右键菜单）是在用户在 IDE 的不同部分右键单击时弹出的菜单。上下文菜单提供了与当前上下文相关的操作和选项，这些选项根据用户单击的位置和选择的元素而变化。">上下文菜单</a></li>
         <li><a anchor="status-bar" summary="IntelliJ IDEA 的状态栏位于主窗口的底部，状态栏提供了一些有用的信息，并允许用户快速访问某些功能。">状态栏</a></li>
         <li><a anchor="main-menus" summary="IntelliJ IDEA 中的主菜单包含了多个顶级菜单项，每个菜单项下都有相应的子菜单和功能选项，这些菜单提供了对 IDE 的各种功能和设置的访问。">主菜单</a></li>
         <li><a anchor="main-windows" summary="IntelliJ IDEA 提供了一个非常强大的主窗口，它集成了代码编辑、调试、构建、版本控制以及许多其他功能。"/></li>
@@ -48,7 +48,7 @@
         </note>
         <video src="https://www.youtube.com/watch?v=SzeOmPgR5gs" width="706"/>
         <note>
-            Intellij IDEA 设计的精妙之处在于，近乎于所有按钮提供的功能都有对应的快捷键。比如：当要构建项目时可以按
+            Intellij IDEA 设计的精妙之处在于，近乎于所有按钮提供的功能都有对应的快捷键。例如：当要构建项目时可以按
             <shortcut>Ctrl</shortcut>
             <shortcut>F9</shortcut>
             ，需要运行源文件时可以按下
@@ -82,13 +82,13 @@
             <li>
                 <p><format style="bold">智能代码补全（Code Completion）</format></p>
                 <p>
-                    此功能可以根据上下文自动提示并补全代码，包括类名、方法名、变量名等，减少了键入量并减少了错误。比如：当输入
+                    此功能可以根据上下文自动提示并补全代码，包括类名、方法名、变量名等，减少了键入量并减少了错误。例如：当输入
                     <code>System.out.</code> ， Intellij IDEA 将会提示可用的方法，比如 <code>println()</code> 和 <code>print()</code> 。
                 </p>
             </li>
             <li>
                 <p><format style="bold">代码高亮（Syntax Highlighting）</format></p>
-                <p>代码高亮功能可以根据不同的语法元素对代码进行着色，使代码更易于阅读和理解。比如：关键字、标识符、字符串和注释等会使用不同的颜色进行标注。这可以帮助开发人员快速定位代码中的错误和关键部分。</p>
+                <p>代码高亮功能可以根据不同的语法元素对代码进行着色，使代码更易于阅读和理解。例如：关键字、标识符、字符串和注释等会使用不同的颜色进行标注。这可以帮助开发人员快速定位代码中的错误和关键部分。</p>
             </li>
             <li>
                 <p><format style="bold">代码检查（Code Inspections）</format></p>
@@ -158,7 +158,7 @@
                         <p>
                             显示
                             <a anchor="editor" summary="IntelliJ IDEA 的编辑器是其核心功能之一，它为开发者提供了一个强大、智能和高度可配置的代码编写环境。">编辑器</a>
-                            中当前光标选定位置（闪烁）的行号和列号。点击数字时（或按下
+                            中当前光标选定位置（闪烁）的行号和列号。单击数字时（或按下
                             <shortcut>Ctrl</shortcut>
                             <shortcut>G</shortcut>
                             ）将可以移动至指定的行和列位置。如果在编辑器中选择的是一个代码片段，还将显示所选片段中的字符数和换行符数。
@@ -179,7 +179,7 @@
                         <p>显示当前文件正在使用的行分隔符，单击此小部件可以更改行分隔符。</p>
                         <video src="https://www.youtube.com/watch?v=t8hqTv2ILQI" width="706"/>
                         <note>
-                            对行分隔符的调整仅针对当前文件生效。比如：将
+                            对行分隔符的调整仅针对当前文件生效。例如：将
                             <path>GameController.java</path>
                             使用的行分割符设置为
                             <format style="bold">LF</format>
@@ -250,7 +250,7 @@
     <chapter title="工具窗口" id="tool-windows">
         <tldr><p>隐藏/显示： <ui-path><a anchor="main-menus" summary="IntelliJ IDEA 中的主菜单包含了多个顶级菜单项，每个菜单项下都有相应的子菜单和功能选项，这些菜单提供了对 IDE 的各种功能和设置的访问。">主菜单</a> | 视图 | 工具窗口 | 工具窗口名</ui-path></p></tldr>
         <p>
-            工具窗口提供的功能是对代码编辑的补充，比如；
+            工具窗口提供的功能是对代码编辑的补充，例如；
             <format style="bold">项目工具窗口</format> 用于显示项目的结构，而
             <format style="bold">运行工具窗口</format> 则用于显示程序运行时的输出结果。
         </p>
@@ -263,11 +263,11 @@
         </p>
         <video src="https://www.youtube.com/watch?v=eA2ZODgt3bk" width="706"/>
         <p>
-            可以为这些工具窗口指定快捷键，以便快速访问常用的工具窗口。有些工具窗口拥有预设快捷键，比如：按下
+            可以为这些工具窗口指定快捷键，以便快速访问常用的工具窗口。有些工具窗口拥有预设快捷键，例如：按下
             <shortcut>Alt</shortcut>
             <shortcut>1</shortcut>
             将可以快速打开或隐藏 <format style="bold">项目工具窗口</format>
-            ，又比如说想要打开或隐藏 <format style="bold">终端工具窗口</format> 则只需要按下
+            ，又例如说想要打开或隐藏 <format style="bold">终端工具窗口</format> 则只需要按下
             <shortcut>Alt</shortcut>
             <shortcut>F12</shortcut> 即可。如果想要从
             <a anchor="editor" summary="IntelliJ IDEA 的编辑器是其核心功能之一，它为开发者提供了一个强大、智能和高度可配置的代码编写环境。">编辑器</a>
@@ -277,7 +277,7 @@
     </chapter>
     <chapter title="上下文菜单" id="context-menus">
         <p>
-            通过鼠标右键单击界面上的各个元素，将可以查看与当前上下文相关的可用操作。比如；鼠标右键单击
+            通过鼠标右键单击界面上的各个元素，将可以查看与当前上下文相关的可用操作。例如；鼠标右键单击
             <format style="bold">项目工具窗口</format> 中的文件，将可以查看与该文件相关的操作。鼠标右键单击
             <a anchor="editor" summary="IntelliJ IDEA 的编辑器是其核心功能之一，它为开发者提供了一个强大、智能和高度可配置的代码编写环境。">编辑器</a>
             ，将可以查看适用于当前选中代码片段的可用操作。
@@ -307,8 +307,8 @@
         <img alt="重构此弹出菜单" src="重构此弹出菜单.png" width="706"/>
         <p>
             弹出菜单可以快速访问与当前上下文相关的操作，可以将它理解为是
-            <a anchor="context-menus" summary="IntelliJ IDEA 的上下文菜单（也称为右键菜单）是在用户在 IDE 的不同部分右键点击时弹出的菜单。上下文菜单提供了与当前上下文相关的操作和选项，这些选项根据用户点击的位置和选择的元素而变化。">上下文菜单</a>
-            中某些功能子项的直接快捷方式。比如：在
+            <a anchor="context-menus" summary="IntelliJ IDEA 的上下文菜单（也称为右键菜单）是在用户在 IDE 的不同部分右键单击时弹出的菜单。上下文菜单提供了与当前上下文相关的操作和选项，这些选项根据用户单击的位置和选择的元素而变化。">上下文菜单</a>
+            中某些功能子项的直接快捷方式。例如：在
             <a anchor="editor" summary="IntelliJ IDEA 的编辑器是其核心功能之一，它为开发者提供了一个强大、智能和高度可配置的代码编写环境。">编辑器</a>
             中选定某个代码片段，然后选中上下文菜单中的
             <format style="bold">重构</format>
@@ -402,7 +402,7 @@
             <shortcut>Ctrl</shortcut>
             <shortcut>Shift</shortcut>
             <shortcut>A</shortcut>
-            ）中输入目标操作名称的方式实现相同的功能调用。比如：在
+            ）中输入目标操作名称的方式实现相同的功能调用。例如：在
             <format style="bold">操作</format>
             中输入
             <format style="bold">导航栏</format>

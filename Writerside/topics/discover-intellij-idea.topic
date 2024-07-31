@@ -215,7 +215,7 @@
     <chapter id="editions" title="版本介绍">
         <note>
             此手册将会重点讨论旗舰版的相关使用，而忽略社区版、
-            <tooltip term="release candidate">RC</tooltip>
+            <tooltip term="release-candidate">RC</tooltip>
             版、教育版等其他的版本。
         </note>
         <p>

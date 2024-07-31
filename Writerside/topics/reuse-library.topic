@@ -240,7 +240,7 @@
                         </p>
                         <p>
                             在可用的现有模板列表中，选择所需的模板。现在，让我们查找类中的某个
-                            <tooltip term="java_field">字段</tooltip>
+                            <tooltip term="java-field">字段</tooltip>
                             。在现有的模板列表中，单击
                             <format style="bold">Java</format>
                             并打开
@@ -394,11 +394,14 @@
             <step>
                 <p>想要缩小替换结果的长度，可以选择以下选项：</p>
                 <list>
-                    <li><p><format style="bold">缩短完全限定名称</format> - 用简短的名称和导入替换完全限定的类名</p></li>
+                    <li><p><format style="bold">缩短完全限定名称</format> - 用简短的名称和导入替换 <tooltip term="fully-qualified-class-name">完全限定的类名</tooltip></p></li>
                     <li><p><format style="bold">重新格式化</format> - 自动格式化被替换的代码</p></li>
                     <li>
                         <p>
-                            <format style="bold">使用静态导入</format> - 尽可能使用静态带入进行替换，例如：勾选该选项后，静态方法
+                            <format style="bold">使用静态导入</format> - 尽可能使用
+                            <tooltip term="java-static-import">静态导入</tooltip>
+                            进行替换，例如：勾选该选项后，
+                            <tooltip term="java-static-method">静态方法</tooltip>
                             <code>Math.abs(i)</code> 的方法调用就会被替换为 <code>abs(i)</code>
                         </p>
                     </li>

@@ -181,9 +181,9 @@
                 、
                 <tooltip term="constant">常量</tooltip>
                 、
-                <tooltip term="java_field">字段</tooltip>
+                <tooltip term="java-field">字段</tooltip>
                 或是
-                <tooltip term="formal parameter">形参</tooltip>
+                <tooltip term="formal-parameter">形参</tooltip>
                 并在整个代码中替换其用法。
             </p>
             <video src="https://www.youtube.com/watch?v=p9A56GsAvu4" width="706"/>
@@ -201,18 +201,22 @@
                 ） 操作快速更改
                 <tooltip term="variables">变量</tooltip>
                 、
-                <tooltip term="java_field">字段</tooltip>
+                <tooltip term="java-field">字段</tooltip>
                 、
                 <tooltip term="parameter">参数</tooltip>
                 或是
                 <tooltip term="method">方法</tooltip>
                 的
-                <tooltip term="method return value">返回值</tooltip>
+                <tooltip term="method-return-value">返回值</tooltip>
                 的类型并更新相关代码以便解决可能的冲突。
             </p>
-            <code-block lang="java" src="TestTypeMigration.java" default-state="collapsed" collapsible="true"
-                        collapsed-title="TestTypeMigration.java"/>
-            <video src="https://www.youtube.com/watch?v=DiGXMBqNJOI" width="706"/>
+            <code-block collapsed-title="TestTypeMigration.java"
+                        collapsible="true"
+                        default-state="collapsed"
+                        lang="java"
+                        src="TestTypeMigration.java"/>
+            <video src="https://www.youtube.com/watch?v=DiGXMBqNJOI"
+                   width="706"/>
         </chapter>
         <chapter id="invert-boolean" title="反转布尔值" default-state="collapsed" collapsible="true">
             <include from="reuse-library.topic" element-id="invert-boolean-refactoring-snippet"/>
@@ -255,7 +259,8 @@
                     按钮即可。
                 </p>
             </warning>
-            <img src="启用 Dependency Structure Matrix 插件.png" alt="启用 Dependency Structure Matrix 插件"
+            <img src="启用 Dependency Structure Matrix 插件.png"
+                 alt="启用 Dependency Structure Matrix 插件"
                  width="706"/>
             <video src="https://www.youtube.com/watch?v=N8WEhbmlluk" width="706"/>
         </chapter>

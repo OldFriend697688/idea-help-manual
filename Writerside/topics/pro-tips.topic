@@ -304,4 +304,24 @@
             <include from="reuse-library.topic" element-id="to-search-structurally-snippet" />
         </chapter>
     </chapter>
+    <chapter id="user-interface" title="用户界面">
+        <chapter id="disable-breadcrumbs-tree-highlighting" title="禁用路径导航和标签树高亮显示" default-state="collapsed" collapsible="true">
+            <p>
+                如果正在处理大量的
+                <tooltip term="html">HTML</tooltip>
+                和
+                <tooltip term="xml">XML</tooltip>
+                代码，并且希望避免不必要的干扰。可以尝试通过
+                <ui-path>
+                    设置（
+                    <shortcut>Ctrl</shortcut>
+                    <shortcut>Alt</shortcut>
+                    <shortcut>S</shortcut>
+                    ）| 编辑器 | 常规 | 路径导航
+                </ui-path>
+                中的选项禁用路径导航和标签树高亮。
+            </p>
+            <video src="https://www.youtube.com/watch?v=pYFxhBCyaIw" width="706"/>
+        </chapter>
+    </chapter>
 </topic>

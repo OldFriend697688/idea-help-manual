@@ -323,5 +323,25 @@
             </p>
             <video src="https://www.youtube.com/watch?v=pYFxhBCyaIw" width="706"/>
         </chapter>
+        <chapter id="disable-unnecessary-gutter-icons" title="禁用非必要的间距图标" default-state="collapsed" collapsible="true">
+            <p>
+                间距图标位于编辑器的最左侧，通常显示与当前正在编辑的代码相关的有用信息。如果觉得这些图标太多了，可以通过
+                <ui-path>
+                    设置（
+                    <shortcut>Ctrl</shortcut>
+                    <shortcut>Alt</shortcut>
+                    <shortcut>S</shortcut>
+                    ） | 编辑器 | 常规 | 间距图标
+                </ui-path>
+                来配置想要显示的间距图标或直接禁止显示它们。
+            </p>
+            <img src="间距图标.png" alt="显示或禁用间距图标" width="706"/>
+            <video src="https://www.youtube.com/watch?v=aJz3oI65i8Y" width="706"/>
+        </chapter>
     </chapter>
+    <seealso>
+        <category ref="references">
+            <a href="https://www.jetbrains.com/guide/java/tutorials/dependency-matrix/introduction/">利用依赖关系矩阵探索项目结构</a>
+        </category>
+    </seealso>
 </topic>

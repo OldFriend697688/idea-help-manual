@@ -13,13 +13,13 @@
             编程语言的
             <tooltip term="ide">集成开发环境</tooltip>
             。被业界誉为是最好的 Java 开发工具，尤其在
-            <tooltip term="code-completion">智能代码助手</tooltip>
+            <tooltip term="idea-code-completion">智能代码助手</tooltip>
             、
-            <tooltip term="code-automatic-prompt">代码自动提示</tooltip>
+            <tooltip term="idea-code-automatic-prompt">代码自动提示</tooltip>
             、
-            <tooltip term="code-refactoring">代码重构</tooltip>
+            <tooltip term="idea-code-refactoring">代码重构</tooltip>
             、
-            <tooltip term="jakarta ee">Jakarta EE</tooltip>
+            <tooltip term="jakarta-ee">Jakarta EE</tooltip>
             支持、各类
             <tooltip term="version-control">版本控制</tooltip>
             工具（

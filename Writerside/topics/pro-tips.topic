@@ -416,6 +416,25 @@
             </p>
             <video src="https://www.youtube.com/watch?v=tgyG5jkmq2A" width="706"/>
         </chapter>
+        <chapter collapsible="true" default-state="collapsed" id="hide-editor-tabs" title="隐藏编辑器标签页">
+            <p>
+                当我们需要关闭除当前选项卡外的所有编辑器选项卡时，可以在当前选项卡上单击
+                <img src="关闭.svg" alt=""/> 图标并按下 <shortcut>Alt</shortcut> 键。
+            </p>
+            <video src="https://www.youtube.com/watch?v=z6aH8MUn3Bk" width="706"/>
+            <p>
+                又或者说，完全不想看到任何编辑器标签页，可以展开并找到
+                <ui-path>
+                    设置（
+                    <shortcut>Ctrl</shortcut>
+                    <shortcut>Alt</shortcut>
+                    <shortcut>S</shortcut>
+                    ） | 编辑器 | 常规 | 编辑器标签页 | 标签页位置
+                </ui-path>
+                ，然后在下拉列表中将值选择为 <format style="bold">无</format>。
+            </p>
+            <video src="https://www.youtube.com/watch?v=uPkz72Nq5II" width="706"/>
+        </chapter>
         <chapter id="disable-unnecessary-gutter-icons" title="禁用非必要的间距图标" default-state="collapsed" collapsible="true">
             <p>
                 间距图标位于编辑器的最左侧，通常显示与当前正在编辑的代码相关的有用信息。如果觉得这些图标太多了，可以通过
@@ -449,7 +468,7 @@
             </p>
             <video src="https://www.youtube.com/watch?v=pYFxhBCyaIw" width="706"/>
         </chapter>
-     </chapter>
+    </chapter>
     <seealso>
         <category ref="references">
             <a href="https://www.jetbrains.com/guide/java/tutorials/dependency-matrix/introduction/">利用依赖关系矩阵探索项目结构</a>

@@ -435,6 +435,16 @@
             </p>
             <video src="https://www.youtube.com/watch?v=uPkz72Nq5II" width="706"/>
         </chapter>
+        <chapter id="open-file-in-new-window" title="在新窗口中打开文件" default-state="collapsed" collapsible="true">
+            <p>
+                一个不太容易找到但非常实用的功能是通过在
+                <a href="project-tool-window.topic" /> 中选择文件并按下
+                <shortcut>Shift</shortcut>
+                <shortcut>Enter</shortcut>
+                来在新窗口中打开文件。
+            </p>
+            <video src="https://www.youtube.com/watch?v=NytCCZs4X9M" width="706"/>
+        </chapter>
         <chapter id="disable-unnecessary-gutter-icons" title="禁用非必要的间距图标" default-state="collapsed" collapsible="true">
             <p>
                 间距图标位于编辑器的最左侧，通常显示与当前正在编辑的代码相关的有用信息。如果觉得这些图标太多了，可以通过

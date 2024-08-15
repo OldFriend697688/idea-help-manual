@@ -38,7 +38,7 @@
         <p>导航栏是项目视图的快捷方式，通过它可以快速浏览项目结构并在 <a anchor="editor" summary="IntelliJ IDEA 的编辑器是其核心功能之一，它为开发者提供了一个强大、智能和高度可配置的代码编写环境。">编辑器</a> 中打开文件进行编辑。</p>
         <video src="https://www.youtube.com/watch?v=HTVYOEKplrc" width="706"/>
         <note>如果为项目启用了 <tooltip term="version-control">VCS</tooltip> 集成，则导航栏中的内容将会根据 VCS 文件状态颜色突出显示。</note>
-        <img alt="导航栏中 VCS 文件的状态颜色" src="导航栏中 VCS 文件的状态颜色.png" width="706" height="706"/>
+        <img alt="导航栏中 VCS 文件的状态颜色" src="导航栏中 VCS 文件的状态颜色.png" width="706" height="706" id="vcs-file-color"/>
         <note>
             在默认情况下，含有打开和保存文件、撤销和重做操作按钮的主工具栏是隐藏的。要显示它，请选择
             <ui-path>

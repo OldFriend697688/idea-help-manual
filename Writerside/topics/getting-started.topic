@@ -6,7 +6,7 @@
        title="快速开始" id="getting-started">
     <section-starting-page>
         <title>Intellij IDEA 2022.3.3 中文帮助手册</title>
-        <description>完全中文化帮助手册，全面覆盖基础至高级的各方面知识</description>
+        <description>完全中文化帮助手册，全面覆盖基础至高级的各方面知识。</description>
 
         <spotlight>
             <a href="register.topic" type="key" summary="使用 IntelliJ IDEA 2022.3.3 正式版，告别试用到期后的功能限制，尽享无限开发可能！">激活 Intellij IDEA</a>
@@ -26,7 +26,7 @@
             <a href="debugging-code.topic" summary="探索如何调试代码，解决程序可能存在的异常漏洞。">调试应用程序</a>
             <a href="plug-in-system.topic" summary="插件系统为 Intellij IDEA 赋予了无与伦比的强大拓展能力。">插件系统</a>
             <a href="tests-in-ide.topic" summary="测试应用程序，检测程序是否按照预期的方式运行。">测试应用程序</a>
-            <a href="decompiler.topic" summary="使用 Java 字节码反编译器查看。">字节码反编译器</a>
+            <a href="decompiler.topic" summary="使用 Java 字节码反编译器查看字节码文件的内容。">字节码反编译器</a>
         </secondary>
 
         <misc>
@@ -69,8 +69,8 @@
                     <a href="https://hibernate.org/" summary="Hibernate 是一个对象关系映射（ORM）框架，它对 JDBC 进行了抽象，使得数据库的操作更加简单，并且可以自动映射 Java 对象到数据库表。">Hibernate</a>
                     <a href="https://spring.io/guides/gs/serving-web-content/" summary="Spring MVC 是 Spring 框架的一部分，提供了一个全功能的 MVC 实现，用于构建 Web 应用程序。">Spring MVC</a>
                     <a href="https://spring.io/projects/spring-boot" summary="Spring Boot 旨在简化新 Spring 应用程序的初始搭建以及开发过程，它使用了 '约定优于配置' 的原则，减少了项目的配置。">Spring Boot</a>
-                    <a href="https://spring.io/projects/spring-cloud" summary="Spring Cloud 是一系列框架的集合，用于构建在分布式系统（如配置管理、服务发现、断路器等）中的应用程序。">Spring Cloud</a>
                     <a href="https://mp.baomidou.com/" summary="MyBatis Plus（简称 MP）是一个 MyBatis 的增强工具，在 MyBatis 的基础上只做增强不做改变，为简化开发、提高效率而生。">MyBatis Plus</a>
+                    <a href="https://spring.io/projects/spring-cloud" summary="Spring Cloud 是一系列框架的集合，用于构建在分布式系统（如配置管理、服务发现、断路器等）中的应用程序。">Spring Cloud</a>
                 </group>
             </links>
         </misc>

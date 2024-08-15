@@ -478,6 +478,29 @@
             </p>
             <video src="https://www.youtube.com/watch?v=pYFxhBCyaIw" width="706"/>
         </chapter>
+        <chapter id="add-stop-and-resume-buttons" title="在工具栏中添加停止和恢复按钮" default-state="collapsed" collapsible="true">
+            <p>
+                将停止
+                <img src="停止.svg" alt=""/> 和恢复 <img src="恢复.svg" alt=""/> 按钮添加到
+                <a href="guided-tour-around-the-user-interface.topic"
+                   summary="IntelliJ IDEA 中的导航栏是一个便捷的功能，它允许用户快速导航到项目中的不同部分，如文件、类、方法或工具窗口。导航栏通常位于编辑器的顶部，提供了一个紧凑的界面来输入搜索查询或选择目标位置。"
+                   anchor="navigation-bar"/>
+                的
+                <a anchor="vcs-file-color"
+                   href="guided-tour-around-the-user-interface.topic"
+                   summary="在默认情况下，含有打开和保存文件、撤销和重做操作按钮的主工具栏是隐藏的。要显示它，请选择主菜单 | 视图 | 外观 | 工具栏。">工具栏</a>
+                可能会更方便。可以通过在
+                <ui-path>设置
+                    （
+                    <shortcut>Ctrl</shortcut>
+                    <shortcut>Alt</shortcut>
+                    <shortcut>S</shortcut>
+                    ）| 外观和行为 | 菜单与工具栏
+                </ui-path>
+                中进行配置实现。例如：进行此配置后将无需打开调试工具窗口即可管理当前的调试会话。
+            </p>
+            <video src="https://www.youtube.com/watch?v=x6eBG0lybQg" width="706"/>
+        </chapter>
     </chapter>
     <seealso>
         <category ref="references">

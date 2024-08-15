@@ -46,8 +46,7 @@
     </chapter>
     <chapter id="cross-platform" title="跨平台">
         <note>
-            特别值得关注的是，不同操作系统在设计哲学上的根本差异，这直接造成了它们在视觉界面和用户体验上的显著不同。尽管
-            IntelliJ IDEA 工具横跨 Windows、Linux 和 macOS
+            特别值得关注的是，不同操作系统在设计哲学上的根本差异，这直接造成了它们在视觉界面和用户体验上的显著不同。尽管 IntelliJ IDEA 工具横跨 Windows、Linux 和 macOS
             这三大主流操作系统平台，并为用户提供了一致的核心功能，但各平台上的操作习惯和界面布局仍存在细微差别，这要求用户根据自己所在的操作系统调整使用方式。
         </note>
         <p>
@@ -113,8 +112,7 @@
                     <li>
                         <a href="https://www.ruby-lang.org/en/"
                            summary="Ruby 是一种动态的、开源的编程语言，注重简洁和效率，广泛用于Web开发。">Ruby</a> （完整的
-                        <a
-                                href="https://www.jetbrains.com.cn/ruby/">RubyMine</a> 功能）
+                        <a href="https://www.jetbrains.com.cn/ruby/">RubyMine</a> 功能）
                     </li>
                     <li>
                         <a href="https://www.php.net/"

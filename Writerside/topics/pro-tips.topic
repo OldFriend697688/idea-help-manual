@@ -502,6 +502,26 @@
             <video src="https://www.youtube.com/watch?v=x6eBG0lybQg" width="706"/>
         </chapter>
     </chapter>
+    <chapter id="editor" title="编辑器">
+        <chapter id="compare-with-clipboard" title="与剪贴板比较" default-state="collapsed" collapsible="true">
+            <p>
+                Intellij IDEA 内置了代码、JAR 文件、修订版本、甚至是图像之间的差异化查看器。要使用此功能，请选择任意一对文件并按下
+                <shortcut>Ctrl</shortcut>
+                <shortcut>D</shortcut>
+                。
+            </p>
+            <p>
+                如果选择的是一个单独的文件，IDE 将会提示选择需要进行比较的文件。要快速将活动编辑器与剪切板进行比较，请选择
+                <ui-path>
+                    <a anchor="main-menus"
+                       href="guided-tour-around-the-user-interface.topic"
+                       summary="IntelliJ IDEA 中的主菜单包含了多个顶级菜单项，每个菜单项下都有相应的子菜单和功能选项，这些菜单提供了对 IDE 的各种功能和设置的访问。">主菜单</a>
+                    | 视图 | 与剪切板比较
+                </ui-path>。
+            </p>
+            <video src="https://www.youtube.com/watch?v=cdWNI-W3OYM" width="706"/>
+        </chapter>
+    </chapter>
     <seealso>
         <category ref="references">
             <a href="https://www.jetbrains.com/guide/java/tutorials/dependency-matrix/introduction/">利用依赖关系矩阵探索项目结构</a>

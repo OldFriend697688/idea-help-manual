@@ -4,22 +4,10 @@
 <topic xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
        xsi:noNamespaceSchemaLocation="https://resources.jetbrains.com/writerside/1.0/topic.v2.xsd"
        title="用户界面" id="guided-tour-around-the-user-interface">
-    <note>
-        为了布局美观考虑，文档中的图片大小被统一设置为 706 × 706，如果想要查看图片中的更多细节，请在图片上单击鼠标右键并选择
-        <format style="bold">在新标签页中打开图片</format>
-        等类似的选项。
-    </note>
-    <p>在 Intellij IDEA 中打开项目时，默认的用户界面如下所示（注：下图中使用的是 Darcula 主题）：</p>
-    <img src="IDEA 用户界面.png" alt="IDEA 默认用户界面（Darcula 主题）" width="706" height="706"/>
-    <note>
-        根据
-        <tooltip term="idea">IDEA</tooltip>
-        安装的
-        <a href="plug-in-system.topic" summary="插件系统为 Intellij IDEA 赋予了无与伦比的强大拓展能力。">插件</a>
-        集、版本和配置设置的不同，
-        <tooltip term="ide">IDE</tooltip>
-        可能会有不同的外观和行为。
-    </note>
+    <note>为了布局美观考虑，文档中的图片大小被统一设置为 706 × 706，如果想要查看图片中的更多细节，请在图片上单击鼠标右键并选择 <format style="bold">在新标签页中打开图片</format> 等类似的选项。</note>
+    <p>在 Intellij IDEA 中打开项目时，默认的用户界面如下所示（注：下图中使用的是 <format style="bold">Darcula</format> 主题）：</p>
+    <img src="IDEA 默认用户界面（Darcula 主题）.png" alt="IDEA 默认用户界面（Darcula 主题）" width="706" height="706"/>
+    <note>根据 <tooltip term="idea">IDEA</tooltip> 安装的 <a href="plug-in-system.topic" summary="插件系统为 Intellij IDEA 赋予了无与伦比的强大拓展能力。">插件</a>集、版本和配置设置的不同，<tooltip term="ide">IDE</tooltip> 可能会有不同的外观和行为。</note>
     <list type="decimal">
         <li><a anchor="navigation-bar" summary="IntelliJ IDEA 中的导航栏是一个便捷的功能，它允许用户快速导航到项目中的不同部分，如文件、类、方法或工具窗口。导航栏通常位于编辑器的顶部，提供了一个紧凑的界面来输入搜索查询或选择目标位置。">导航栏</a></li>
         <li>项目 <a anchor="tool-windows" summary="IntelliJ IDEA 中的工具窗口是 IDE 界面的重要组成部分，它们为开发者提供了各种辅助工具和功能，以支持软件开发的不同方面。">工具窗口</a></li>
@@ -41,10 +29,7 @@
         <img alt="导航栏中 VCS 文件的状态颜色" src="导航栏中 VCS 文件的状态颜色.png" width="706" height="706" id="vcs-file-color"/>
         <note>
             在默认情况下，含有打开和保存文件、撤销和重做操作按钮的主工具栏是隐藏的。要显示它，请选择
-            <ui-path>
-                <a anchor="main-menus" summary="IntelliJ IDEA 中的主菜单包含了多个顶级菜单项，每个菜单项下都有相应的子菜单和功能选项，这些菜单提供了对 IDE 的各种功能和设置的访问。">主菜单</a>
-                | 视图 | 外观 | 工具栏
-            </ui-path>。
+            <ui-path><a anchor="main-menus" summary="IntelliJ IDEA 中的主菜单包含了多个顶级菜单项，每个菜单项下都有相应的子菜单和功能选项，这些菜单提供了对 IDE 的各种功能和设置的访问。">主菜单</a>| 视图 | 外观 | 工具栏</ui-path>。
         </note>
         <video src="https://www.youtube.com/watch?v=SzeOmPgR5gs" width="706"/>
         <note>
@@ -113,11 +98,8 @@
         </list>
         <note>
             正如在
-            <a anchor="navigation-bar"
-               summary="IntelliJ IDEA 中的导航栏是一个便捷的功能，它允许用户快速导航到项目中的不同部分，如文件、类、方法或工具窗口。导航栏通常位于编辑器的顶部，提供了一个紧凑的界面来输入搜索查询或选择目标位置。">导航栏</a>
-            中提到的那样，如果当前项目已启用了
-            <tooltip term="version-control">VCS</tooltip>
-            集成，则编辑器标签页也会根据 VCS 文件状态颜色突出显示。
+            <a anchor="navigation-bar" summary="IntelliJ IDEA 中的导航栏是一个便捷的功能，它允许用户快速导航到项目中的不同部分，如文件、类、方法或工具窗口。导航栏通常位于编辑器的顶部，提供了一个紧凑的界面来输入搜索查询或选择目标位置。">导航栏</a>
+            中提到的那样，如果当前项目已启用了 <tooltip term="version-control">VCS</tooltip> 集成，则编辑器标签页也会根据 VCS 文件状态颜色突出显示。
         </note>
         <img alt="编辑器界面（Darcula 主题配色方案）" src="编辑器界面.png" width="706"/>
     </chapter>
@@ -151,9 +133,7 @@
                     <td width="600">用途描述</td>
                 </tr>
                 <tr>
-                    <td>
-                        <format style="bold">52:11</format>
-                    </td>
+                    <td><format style="bold">52:11</format></td>
                     <td>
                         <p>
                             显示
@@ -164,12 +144,7 @@
                             ）将可以移动至指定的行和列位置。如果在编辑器中选择的是一个代码片段，还将显示所选片段中的字符数和换行符数。
                         </p>
                         <video src="https://www.youtube.com/watch?v=C2t1OixBv0w" width="706"/>
-                        <note>
-                            当代码过多时可能会迷失当前所在位置，可以按下
-                            <shortcut>Ctrl</shortcut>
-                            <shortcut>M</shortcut>
-                            快速定位到光标闪烁的位置。
-                        </note>
+                        <note>当代码过多时可能会迷失当前所在位置，可以按下 <shortcut>Ctrl</shortcut><shortcut>M</shortcut> 快速定位到光标闪烁的位置。</note>
                         <video src="https://www.youtube.com/watch?v=JO6kaO25__E" width="706"/>
                     </td>
                 </tr>
@@ -449,6 +424,7 @@
             <a href="https://plugins.jetbrains.com/" summary="JetBrains 插件市场是一个在线平台，提供各种插件，这些插件可以扩展 IntelliJ IDEA 以及其他 JetBrains 开发的 IDE（如 WebStorm、PyCharm、CLion 等）的功能。在这个网站上，用户可以浏览、搜索和下载各种插件，以增强他们的开发工具。">JetBrains 插件市场</a>
         </category>
         <category ref="ides">
+            <a href="https://www.jetbrains.com/zh-cn/fleet/" summary="JetBrains Fleet 是一款轻量级的代码编辑器和集成开发环境（IDE），由 IntelliJ 的代码处理引擎构建而成。它目前处于公开预览版阶段，支持多种流行编程语言，包括 Python、TypeScript/JavaScript、Go、Java、PHP、C# 以及 Kotlin。">Fleet</a>
             <a href="https://www.eclipse.org" summary="Eclipse 是一个开放源代码的集成开发环境（IDE），主要用于 Java 应用程序的开发，但它也支持其他编程语言，如 C/C++、Python、Perl 等。Eclipse 以其可扩展性和强大的插件系统而闻名，允许开发人员根据需要定制他们的开发环境。">Eclipse</a>
             <a href="https://www.myclipse.com" summary="MyEclipse 是一个商业版的 Eclipse 插件，它为 Java EE和企业开发提供了额外的工具和功能。MyEclipse 包括了数据库工具、可视化设计器、性能分析工具等，旨在提高企业级应用程序开发的效率。">MyEclipse</a>
             <a href="https://spring.io/tools" summary="Spring Tool Suite (STS) 是一个基于 Eclipse 的 IDE，专门为 Spring 应用程序的开发而优化。它提供了一个强大的开发环境，包括对 Spring 框架的深度支持、Maven 和 Gradle 集成、以及云工具等。STS 旨在提高开发 Spring 应用程序的效率和便利性。">Spring Tool Suite (STS)</a>

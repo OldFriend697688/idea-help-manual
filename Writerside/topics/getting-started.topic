@@ -9,7 +9,7 @@
         <description>完全中文化帮助手册，全面覆盖基础至高级的各方面知识。</description>
 
         <spotlight>
-            <a href="register.topic" type="key" summary="使用 IntelliJ IDEA 2022.3.3 正式版，告别试用到期后的功能限制，尽享无限开发可能！">激活 Intellij IDEA</a>
+            <a href="register.topic" type="key" summary="激活 IntelliJ IDEA，告别试用到期后的功能限制。">激活 Intellij IDEA</a>
             <a href="working-offline.topic" type="world" summary="IntelliJ IDEA 是一款功能强大的 IDE，可用于开发各种类型的软件。然而，在一些情况下，我们可能无法连接到互联网。在这种情况下，IntelliJ IDEA 的离线功能就派上用场了。">离线工作</a>
         </spotlight>
 

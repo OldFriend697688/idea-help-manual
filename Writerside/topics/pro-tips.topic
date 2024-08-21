@@ -150,7 +150,7 @@
             <!--<video src="https://www.youtube.com/watch?v=MtV0uwouhNc" width="706"/>-->
             <video src="https://www.youtube.com/watch?v=07duJfkzoRA" width="706"/>
         </chapter>
-        <chapter id="camelhumps" title="使用驼峰命名法规则选择单词" default-state="collapsed" collapsible="true">
+        <chapter id="camel-humps" title="使用驼峰命名法规则选择单词" default-state="collapsed" collapsible="true">
             <note>
                 <p>
                     驼峰命名法（Camel Case）是一种在编程中常用的
@@ -490,8 +490,8 @@
                    href="guided-tour-around-the-user-interface.topic"
                    summary="在默认情况下，含有打开和保存文件、撤销和重做操作按钮的主工具栏是隐藏的。要显示它，请选择主菜单 | 视图 | 外观 | 工具栏。">工具栏</a>
                 可能会更方便。可以通过在
-                <ui-path>设置
-                    （
+                <ui-path>
+                    设置（
                     <shortcut>Ctrl</shortcut>
                     <shortcut>Alt</shortcut>
                     <shortcut>S</shortcut>
@@ -505,7 +505,9 @@
     <chapter id="editor" title="编辑器">
         <chapter id="compare-with-clipboard" title="与剪贴板比较" default-state="collapsed" collapsible="true">
             <p>
-                Intellij IDEA 内置了代码、JAR 文件、修订版本、甚至是图像之间的差异化查看器。要使用此功能，请选择任意一对文件并按下
+                Intellij IDEA 内置了针对代码、
+                <tooltip term="java-jar-file">JAR 文件</tooltip>
+                、修订版本、甚至是图像之间的差异化查看器。要使用此功能，请选择任意一对文件并按下
                 <shortcut>Ctrl</shortcut>
                 <shortcut>D</shortcut>
                 。
@@ -520,6 +522,24 @@
                 </ui-path>。
             </p>
             <video src="https://www.youtube.com/watch?v=cdWNI-W3OYM" width="706"/>
+        </chapter>
+        <chapter id="paste-from-history" title="从历史记录中粘贴" default-state="collapsed" collapsible="true">
+            <note>
+                Intellij IDEA 会从系统中读取剪切板的内容并将其显示在
+                <format style="bold">选择要粘贴的内容</format>
+                对话框中。以 Windows 10 系统为例，如果想要清空这些内容，请进入系统设置，然后选择
+                <format style="bold">系统 | 剪切板</format> ，找到 <format style="bold">清除剪切板数据</format> 并点击
+                <format style="bold">清除</format> 按钮，然后关闭并重启 Intellij IDEA 即可。
+            </note>
+            <video src="https://www.youtube.com/watch?v=VXd8qm5JOR8" width="706"/>
+            <p>
+                IntelliJ IDEA 会记录放在剪贴板上的所有内容。任何时候，只要按下
+                <shortcut>Ctrl</shortcut>
+                <shortcut>Shift</shortcut>
+                <shortcut>V</shortcut>
+                ，就可以粘贴之前复制的内容。
+            </p>
+            <video src="https://www.youtube.com/watch?v=WU3GJSRP_qQ" width="706"/>
         </chapter>
     </chapter>
     <seealso>

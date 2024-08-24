@@ -503,6 +503,31 @@
         </chapter>
     </chapter>
     <chapter id="editor" title="编辑器">
+        <chapter id="multiple-selections" title="多重选择" default-state="collapsed" collapsible="true">
+            <note>
+                要查看某个代码片段在当前文件中的所有用法，请选中此代码片段并按
+                <shortcut>Ctrl</shortcut>
+                <shortcut>Shift</shortcut>
+                <shortcut>F7</shortcut> 。
+            </note>
+            <p>
+                多重选择是一个相对较新且非常强大的编辑器功能，它允许快速选择并同时编辑多个（相邻或不相邻）代码片段。要使用此功能可以先按下
+                <shortcut>Alt</shortcut>
+                <shortcut>J</shortcut>
+                选中某个代码片段，然后继续按下
+                <shortcut>Alt</shortcut>
+                <shortcut>J</shortcut>
+                ，Intellij IDEA 将会在当前打开的文件中向前搜索，直到搜索到匹配的内容，并将其添加到选择中。
+            </p>
+            <img src="将下一个匹配项添加到选择.png" alt="将下一个匹配项添加到选择" width="706"/>
+            <p>
+                此时，可以再次按下
+                <shortcut>Alt</shortcut><shortcut>J</shortcut> 继续向前搜索，或按下
+                <shortcut>Alt</shortcut><shortcut>Shift</shortcut><shortcut>J</shortcut>
+                取消上一个匹配的搜索项。但请注意，当搜索到达文件末尾时，它将会从文件开头重新开始搜索。当选择完成后，就可以像编辑一个整体一样开始编辑所有代码片段。
+            </p>
+            <video src="https://www.youtube.com/watch?v=DOLtv_KFBOQ" width="706"/>
+        </chapter>
         <chapter id="compare-with-clipboard" title="与剪贴板比较" default-state="collapsed" collapsible="true">
             <p>
                 Intellij IDEA 内置了针对代码、

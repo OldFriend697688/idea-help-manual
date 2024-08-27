@@ -503,6 +503,16 @@
         </chapter>
     </chapter>
     <chapter id="editor" title="编辑器">
+        <chapter id="emmet" title="Emmet" default-state="collapsed" collapsible="true">
+           <p>
+                <a href="https://emmet.io/" summary="Emmet 是一个强大的代码编写助手，专为提高 HTML 和 CSS 的编写效率而设计。通过使用简短的缩写，Emmet 可以迅速扩展成复杂的代码结构，大幅节省开发者时间。它支持多种文本编辑器和 IDE，通过特定的语法规则，实现快速生成 HTML 标签、属性、CSS 声明等功能。Emmet 的缩写语法直观易学，使得编写网页布局和样式表变得更加高效和便捷。无论是初学者还是资深开发者，Emmet 都能显著提升他们的工作效率。">Emmet</a> 是编写
+                <tooltip term="html">HTML</tooltip> 、
+                <tooltip term="stylesheets (css, less, sass)">CSS</tooltip> 和
+                <tooltip term="xml">XML</tooltip> 代码的好帮手。Intellij IDEA 对其提供开箱即用的支持，要使用它只需要编写 Emmet 表达式并按下
+                <shortcut>Tab</shortcut> 键展开它即可。
+            </p>
+            <video src="https://www.youtube.com/watch?v=4Rcm4O9kYF0" width="706"/>
+        </chapter>
         <chapter id="multiple-selections" title="多重选择" default-state="collapsed" collapsible="true">
             <note>
                 要查看某个代码片段在当前文件中的所有用法，请选中此代码片段并按

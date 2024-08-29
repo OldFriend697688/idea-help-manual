@@ -3,7 +3,7 @@
         SYSTEM "https://resources.jetbrains.com/writerside/1.0/xhtml-entities.dtd">
 <topic xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
        xsi:noNamespaceSchemaLocation="https://resources.jetbrains.com/writerside/1.0/topic.v2.xsd"
-       title="专业提示" id="pro-tips">
+       title="专业技巧" id="pro-tips">
     <warning>不要急于一次掌握本章节的所有知识点，因为它们既琐碎又彼此独立。首先，花时间阅读并理解这些内容，以便在脑海中形成一个基本的知识框架和概念。随着学习的深入，可以随时回顾这些内容，进一步探索和领会其中的细节。这种方法将帮助建立扎实的理解并促进长期记忆。</warning>
     <chapter id="coding-assistance" title="编码协助">
         <chapter id="type-info" title="类型信息" default-state="collapsed" collapsible="true">
@@ -537,6 +537,32 @@
                 取消上一个匹配的搜索项。但请注意，当搜索到达文件末尾时，它将会从文件开头重新开始搜索。当选择完成后，就可以像编辑一个整体一样开始编辑所有代码片段。
             </p>
             <video src="https://www.youtube.com/watch?v=DOLtv_KFBOQ" width="706"/>
+        </chapter>
+        <chapter id="regex" title="正则表达式" default-state="collapsed" collapsible="true">
+            <p>
+                <tooltip term="regex">正则表达式</tooltip>
+                功能强大且被广泛使用，但想要正确编写它们实在太困难了。Intellij IDEA 将帮助检查代码中的任何正则表达式，只需要将光标移动至其上并按下
+                <shortcut>Alt</shortcut>
+                <shortcut>Enter</shortcut>
+                然后选择
+                <format style="bold">检查正则表达式</format>
+                即可验证当前的正则表达式是否可以匹配目标文本。
+            </p>
+            <code-block collapsed-title="TestRegex.java"
+                        collapsible="true"
+                        default-state="collapsed"
+                        lang="java"
+                        src="TestRegex.java"/>
+            <video src="https://www.youtube.com/watch?v=hjTBcFciPE0" width="706"/>
+            <chapter id="find-and-replace-with-regex-groups" title="使用正则表达式组进行查找和替换">
+                <p>
+                    Intellij IDEA 在
+                    <a href="tutorial-finding-and-replacing-text-using-regular-expressions.topic">查找和替换</a>
+                    中支持正则表达式。值得注意的是，它支持替换正则表达式的捕获组。
+                </p>
+                <img src="在查找和替换中使用正则表达式捕获组.png" alt="在查找和替换中使用正则表达式捕获组" width="706"/>
+                <video src="https://www.youtube.com/watch?v=CfYbKfgbOSI" width="706"/>
+            </chapter>
         </chapter>
         <chapter id="compare-with-clipboard" title="与剪贴板比较" default-state="collapsed" collapsible="true">
             <p>

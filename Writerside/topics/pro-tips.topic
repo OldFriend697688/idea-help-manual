@@ -5,6 +5,194 @@
        xsi:noNamespaceSchemaLocation="https://resources.jetbrains.com/writerside/1.0/topic.v2.xsd"
        title="专业技巧" id="pro-tips">
     <warning>不要急于一次掌握本章节的所有知识点，因为它们既琐碎又彼此独立。首先，花时间阅读并理解这些内容，以便在脑海中形成一个基本的知识框架和概念。随着学习的深入，可以随时回顾这些内容，进一步探索和领会其中的细节。这种方法将帮助建立扎实的理解并促进长期记忆。</warning>
+    <chapter id="refactorings" title="重构">
+        <chapter id="undo-refactorings" title="撤销重构" default-state="collapsed" collapsible="true">
+            <p>
+                使用 Intellij IDEA 可以非常轻松地撤销已执行过的
+                <tooltip term="refactoring">重构</tooltip>
+                操作。这意味着无论执行多少次重构操作，都可以通过按下
+                <shortcut>Ctrl</shortcut>
+                <shortcut>Z</shortcut>
+                触发撤销操作来逐步撤销它们。如果想要将代码还原至未执行过撤销重构操作前的状态，请按下
+                <shortcut>Ctrl</shortcut>
+                <shortcut>Shift</shortcut>
+                <shortcut>Z</shortcut>
+                。
+            </p>
+            <!--<video src="https://www.youtube.com/watch?v=V0tmwS6W5XA" width="706"/>-->
+            <video src="https://www.youtube.com/watch?v=HXVjGoIs2_E" width="706"/>
+        </chapter>
+        <chapter id="type-migration" title="类型迁移" default-state="collapsed" collapsible="true">
+            <p>
+                在执行重构操作时，通常会重命名
+                <tooltip term="symbol">符号</tooltip>
+                或者是提取并移动代码中的语句。然而，重构的意义远不止于此，有些时候还可以通过
+                <format style="bold">类型迁移</format>
+                （
+                <shortcut>Ctrl</shortcut>
+                <shortcut>Shift</shortcut>
+                <shortcut>F6</shortcut>
+                ） 操作快速更改
+                <tooltip term="variables">变量</tooltip>
+                、
+                <tooltip term="java-field">字段</tooltip>
+                、
+                <tooltip term="parameter">参数</tooltip>
+                或是
+                <tooltip term="method">方法</tooltip>
+                的
+                <tooltip term="method-return-value">返回值</tooltip>
+                的类型并更新相关代码以便解决可能的冲突。
+            </p>
+            <code-block collapsed-title="TestTypeMigration.java"
+                        collapsible="true"
+                        default-state="collapsed"
+                        lang="java"
+                        src="TestTypeMigration.java"/>
+            <video src="https://www.youtube.com/watch?v=hP4bU9hbTlU" width="706"/>
+            <!--<video src="https://www.youtube.com/watch?v=DiGXMBqNJOI" width="706"/>-->
+        </chapter>
+        <chapter id="invert-boolean" title="反转布尔值" default-state="collapsed" collapsible="true">
+            <include from="reuse-library.topic" element-id="invert-boolean-refactoring-snippet"/>
+            <video src="https://www.youtube.com/watch?v=-vj-_OwfThE" width="706"/>
+        </chapter>
+        <chapter id="extract-string-fragments" title="提取字符串片段等内容" default-state="collapsed" collapsible="true">
+            <p>
+                Intellij IDEA 不仅能够重构可执行代码，还能够重构字符串文本等内容。只需要选中它们并按下
+                <shortcut>Ctrl</shortcut>
+                <shortcut>Alt</shortcut>
+                <shortcut>Shift</shortcut>
+                <shortcut>T</shortcut>
+                ，然后选中
+                <format style="bold">引入变量/常量/字段/形参</format>
+                选项即可提取它们为对应的
+                <tooltip term="variables">变量</tooltip>
+                、
+                <tooltip term="constant">常量</tooltip>
+                、
+                <tooltip term="java-field">字段</tooltip>
+                或是
+                <tooltip term="formal-parameter">形参</tooltip>
+                并在整个代码中替换其用法。
+            </p>
+            <video src="https://www.youtube.com/watch?v=p9A56GsAvu4" width="706"/>
+        </chapter>
+    </chapter>
+    <chapter id="editor" title="编辑器">
+        <chapter id="emmet" title="Emmet" default-state="collapsed" collapsible="true">
+            <p>
+                <a href="https://emmet.io/" summary="Emmet 是一个强大的代码编写助手，专为提高 HTML 和 CSS 的编写效率而设计。通过使用简短的缩写，Emmet 可以迅速扩展成复杂的代码结构，大幅节省开发者时间。它支持多种文本编辑器和 IDE，通过特定的语法规则，实现快速生成 HTML 标签、属性、CSS 声明等功能。Emmet 的缩写语法直观易学，使得编写网页布局和样式表变得更加高效和便捷。无论是初学者还是资深开发者，Emmet 都能显著提升他们的工作效率。">Emmet</a> 是编写
+                <tooltip term="html">HTML</tooltip> 、
+                <tooltip term="stylesheets (css, less, sass)">CSS</tooltip> 和
+                <tooltip term="xml">XML</tooltip> 代码的好帮手。Intellij IDEA 对其提供开箱即用的支持，要使用它只需要编写 Emmet 表达式并按下
+                <shortcut>Tab</shortcut> 键展开它即可。
+            </p>
+            <video src="https://www.youtube.com/watch?v=4Rcm4O9kYF0" width="706"/>
+        </chapter>
+        <chapter id="multiple-selections" title="多重选择" default-state="collapsed" collapsible="true">
+            <note>
+                要查看某个代码片段在当前文件中的所有用法，请选中此代码片段并按
+                <shortcut>Ctrl</shortcut>
+                <shortcut>Shift</shortcut>
+                <shortcut>F7</shortcut> 。
+            </note>
+            <p>
+                多重选择是一个相对较新且非常强大的编辑器功能，它允许快速选择并同时编辑多个（相邻或不相邻）代码片段。要使用此功能可以先按下
+                <shortcut>Alt</shortcut>
+                <shortcut>J</shortcut>
+                选中某个代码片段，然后继续按下
+                <shortcut>Alt</shortcut>
+                <shortcut>J</shortcut>
+                ，Intellij IDEA 将会在当前打开的文件中向前搜索，直到搜索到匹配的内容，并将其添加到选择中。
+            </p>
+            <img src="将下一个匹配项添加到选择.png" alt="将下一个匹配项添加到选择" width="706"/>
+            <p>
+                此时，可以再次按下
+                <shortcut>Alt</shortcut><shortcut>J</shortcut> 继续向前搜索，或按下
+                <shortcut>Alt</shortcut><shortcut>Shift</shortcut><shortcut>J</shortcut>
+                取消上一个匹配的搜索项。但请注意，当搜索到达文件末尾时，它将会从文件开头重新开始搜索。当选择完成后，就可以像编辑一个整体一样开始编辑所有代码片段。
+            </p>
+            <video src="https://www.youtube.com/watch?v=DOLtv_KFBOQ" width="706"/>
+        </chapter>
+        <chapter id="regex" title="正则表达式" default-state="collapsed" collapsible="true">
+            <p>
+                <tooltip term="regex">正则表达式</tooltip>
+                功能强大且被广泛使用，但想要正确编写它们实在太困难了。Intellij IDEA 将帮助检查代码中的任何正则表达式，只需要将光标移动至其上并按下
+                <shortcut>Alt</shortcut>
+                <shortcut>Enter</shortcut>
+                然后选择
+                <format style="bold">检查正则表达式</format>
+                即可验证当前的正则表达式是否可以匹配目标文本。
+            </p>
+            <code-block collapsed-title="TestRegex.java"
+                        collapsible="true"
+                        default-state="collapsed"
+                        lang="java"
+                        src="TestRegex.java"/>
+            <video src="https://www.youtube.com/watch?v=hjTBcFciPE0" width="706"/>
+            <chapter id="find-and-replace-with-regex-groups" title="使用正则表达式组进行查找和替换">
+                <p>
+                    Intellij IDEA 在
+                    <a href="tutorial-finding-and-replacing-text-using-regular-expressions.topic">查找和替换</a>
+                    中支持正则表达式。值得注意的是，它支持替换正则表达式的捕获组。
+                </p>
+                <img src="在查找和替换中使用正则表达式捕获组.png" alt="在查找和替换中使用正则表达式捕获组" width="706"/>
+                <video src="https://www.youtube.com/watch?v=CfYbKfgbOSI" width="706"/>
+            </chapter>
+        </chapter>
+        <chapter id="bytecode-viewer" title="字节码查看器" default-state="collapsed" collapsible="true">
+            <p>
+                有时候，查看程序生成的
+                <tooltip term="bytecode">字节码</tooltip>
+                是很有用的。在 Intellij IDEA 中内置了一个字节码查看器，可以通过
+                <ui-path>
+                    <a anchor="main-menus" href="guided-tour-around-the-user-interface.topic" instance="hi"
+                       summary="IntelliJ IDEA 中的主菜单包含了多个顶级菜单项，每个菜单项下都有相应的子菜单和功能选项，这些菜单提供了对 IDE 的各种功能和设置的访问。">主菜单</a>
+                    | 视图 | 显示字节码
+                </ui-path> 来调用它。另外请查看
+                <a href="decompiler.topic" summary="使用内置的 Java 字节码反编译器可以将编译后的字节码显示为类似于人类可读的 Java 代码。"/>。
+            </p>
+            <video src="https://www.youtube.com/watch?v=sYCl-Uxuo1A" width="706"/>
+        </chapter>
+        <chapter id="compare-with-clipboard" title="与剪贴板比较" default-state="collapsed" collapsible="true">
+            <p>
+                Intellij IDEA 内置了针对代码、
+                <tooltip term="java-jar-file">JAR 文件</tooltip>
+                、修订版本、甚至是图像之间的差异化查看器。要使用此功能，请选择任意一对文件并按下
+                <shortcut>Ctrl</shortcut>
+                <shortcut>D</shortcut>
+                。
+            </p>
+            <p>
+                如果选择的是一个单独的文件，IDE 将会提示选择需要进行比较的文件。要快速将活动编辑器与剪切板进行比较，请选择
+                <ui-path>
+                    <a anchor="main-menus"
+                       href="guided-tour-around-the-user-interface.topic"
+                       summary="IntelliJ IDEA 中的主菜单包含了多个顶级菜单项，每个菜单项下都有相应的子菜单和功能选项，这些菜单提供了对 IDE 的各种功能和设置的访问。">主菜单</a>
+                    | 视图 | 与剪切板比较
+                </ui-path>。
+            </p>
+            <video src="https://www.youtube.com/watch?v=cdWNI-W3OYM" width="706"/>
+        </chapter>
+        <chapter id="paste-from-history" title="从历史记录中粘贴" default-state="collapsed" collapsible="true">
+            <note>
+                Intellij IDEA 会从系统中读取剪切板的内容并将其显示在
+                <format style="bold">选择要粘贴的内容</format>
+                对话框中。以 Windows 10 系统为例，如果想要清空这些内容，请进入系统设置，然后选择
+                <format style="bold">系统 | 剪切板</format> ，找到 <format style="bold">清除剪切板数据</format> 并点击
+                <format style="bold">清除</format> 按钮，然后关闭并重启 Intellij IDEA 即可。
+            </note>
+            <video src="https://www.youtube.com/watch?v=VXd8qm5JOR8" width="706"/>
+            <p>
+                IntelliJ IDEA 会记录放在剪贴板上的所有内容。任何时候，只要按下
+                <shortcut>Ctrl</shortcut>
+                <shortcut>Shift</shortcut>
+                <shortcut>V</shortcut>
+                ，就可以粘贴之前复制的内容。
+            </p>
+            <video src="https://www.youtube.com/watch?v=WU3GJSRP_qQ" width="706"/>
+        </chapter>
+    </chapter>
     <chapter id="coding-assistance" title="编码协助">
         <chapter id="type-info" title="类型信息" default-state="collapsed" collapsible="true">
             <note>
@@ -213,79 +401,6 @@
             <img src="移动文本光标时高亮显示.png" alt="移动文本光标时高亮显示" width="706"/>
             <!-- <video src="https://www.youtube.com/watch?v=T_fr7enYG1c" width="706"/>-->
             <video src="https://www.youtube.com/watch?v=sZrm-iWbUCw" width="706"/>
-        </chapter>
-    </chapter>
-    <chapter id="refactorings" title="重构">
-        <chapter id="undo-refactorings" title="撤销重构" default-state="collapsed" collapsible="true">
-            <p>
-                使用 Intellij IDEA 可以非常轻松地撤销已执行过的
-                <tooltip term="refactoring">重构</tooltip>
-                操作。这意味着无论执行多少次重构操作，都可以通过按下
-                <shortcut>Ctrl</shortcut>
-                <shortcut>Z</shortcut>
-                触发撤销操作来逐步撤销它们。如果想要将代码还原至未执行过撤销重构操作前的状态，请按下
-                <shortcut>Ctrl</shortcut>
-                <shortcut>Shift</shortcut>
-                <shortcut>Z</shortcut>
-                。
-            </p>
-            <!--<video src="https://www.youtube.com/watch?v=V0tmwS6W5XA" width="706"/>-->
-            <video src="https://www.youtube.com/watch?v=HXVjGoIs2_E" width="706"/>
-        </chapter>
-        <chapter id="type-migration" title="类型迁移" default-state="collapsed" collapsible="true">
-            <p>
-                在执行重构操作时，通常会重命名
-                <tooltip term="symbol">符号</tooltip>
-                或者是提取并移动代码中的语句。然而，重构的意义远不止于此，有些时候还可以通过
-                <format style="bold">类型迁移</format>
-                （
-                <shortcut>Ctrl</shortcut>
-                <shortcut>Shift</shortcut>
-                <shortcut>F6</shortcut>
-                ） 操作快速更改
-                <tooltip term="variables">变量</tooltip>
-                、
-                <tooltip term="java-field">字段</tooltip>
-                、
-                <tooltip term="parameter">参数</tooltip>
-                或是
-                <tooltip term="method">方法</tooltip>
-                的
-                <tooltip term="method-return-value">返回值</tooltip>
-                的类型并更新相关代码以便解决可能的冲突。
-            </p>
-            <code-block collapsed-title="TestTypeMigration.java"
-                        collapsible="true"
-                        default-state="collapsed"
-                        lang="java"
-                        src="TestTypeMigration.java"/>
-            <video src="https://www.youtube.com/watch?v=hP4bU9hbTlU" width="706"/>
-            <!--<video src="https://www.youtube.com/watch?v=DiGXMBqNJOI" width="706"/>-->
-        </chapter>
-        <chapter id="invert-boolean" title="反转布尔值" default-state="collapsed" collapsible="true">
-            <include from="reuse-library.topic" element-id="invert-boolean-refactoring-snippet"/>
-            <video src="https://www.youtube.com/watch?v=-vj-_OwfThE" width="706"/>
-        </chapter>
-        <chapter id="extract-string-fragments" title="提取字符串片段等内容" default-state="collapsed" collapsible="true">
-            <p>
-                Intellij IDEA 不仅能够重构可执行代码，还能够重构字符串文本等内容。只需要选中它们并按下
-                <shortcut>Ctrl</shortcut>
-                <shortcut>Alt</shortcut>
-                <shortcut>Shift</shortcut>
-                <shortcut>T</shortcut>
-                ，然后选中
-                <format style="bold">引入变量/常量/字段/形参</format>
-                选项即可提取它们为对应的
-                <tooltip term="variables">变量</tooltip>
-                、
-                <tooltip term="constant">常量</tooltip>
-                、
-                <tooltip term="java-field">字段</tooltip>
-                或是
-                <tooltip term="formal-parameter">形参</tooltip>
-                并在整个代码中替换其用法。
-            </p>
-            <video src="https://www.youtube.com/watch?v=p9A56GsAvu4" width="706"/>
         </chapter>
     </chapter>
     <chapter id="code-analysis" title="代码分析">
@@ -502,122 +617,29 @@
             <video src="https://www.youtube.com/watch?v=x6eBG0lybQg" width="706"/>
         </chapter>
     </chapter>
-    <chapter id="editor" title="编辑器">
-        <chapter id="emmet" title="Emmet" default-state="collapsed" collapsible="true">
-           <p>
-                <a href="https://emmet.io/" summary="Emmet 是一个强大的代码编写助手，专为提高 HTML 和 CSS 的编写效率而设计。通过使用简短的缩写，Emmet 可以迅速扩展成复杂的代码结构，大幅节省开发者时间。它支持多种文本编辑器和 IDE，通过特定的语法规则，实现快速生成 HTML 标签、属性、CSS 声明等功能。Emmet 的缩写语法直观易学，使得编写网页布局和样式表变得更加高效和便捷。无论是初学者还是资深开发者，Emmet 都能显著提升他们的工作效率。">Emmet</a> 是编写
-                <tooltip term="html">HTML</tooltip> 、
-                <tooltip term="stylesheets (css, less, sass)">CSS</tooltip> 和
-                <tooltip term="xml">XML</tooltip> 代码的好帮手。Intellij IDEA 对其提供开箱即用的支持，要使用它只需要编写 Emmet 表达式并按下
-                <shortcut>Tab</shortcut> 键展开它即可。
-            </p>
-            <video src="https://www.youtube.com/watch?v=4Rcm4O9kYF0" width="706"/>
-        </chapter>
-        <chapter id="multiple-selections" title="多重选择" default-state="collapsed" collapsible="true">
+    <chapter id="version-control" title="版本控制">
+        <chapter id="amend-changes" title="修正提交" default-state="collapsed" collapsible="true">
             <note>
-                要查看某个代码片段在当前文件中的所有用法，请选中此代码片段并按
-                <shortcut>Ctrl</shortcut>
-                <shortcut>Shift</shortcut>
-                <shortcut>F7</shortcut> 。
+                如果更喜欢将一切掌握在手中，可以通过手动输入命令的方式实现相同的效果。有关于具体的命令及使用方法请阅读
+                <a href= "https://git-scm.com/book/zh/v2/Git-基础-撤消操作">2.4 Git-基础-撤消操作</a> 。
             </note>
             <p>
-                多重选择是一个相对较新且非常强大的编辑器功能，它允许快速选择并同时编辑多个（相邻或不相邻）代码片段。要使用此功能可以先按下
-                <shortcut>Alt</shortcut>
-                <shortcut>J</shortcut>
-                选中某个代码片段，然后继续按下
-                <shortcut>Alt</shortcut>
-                <shortcut>J</shortcut>
-                ，Intellij IDEA 将会在当前打开的文件中向前搜索，直到搜索到匹配的内容，并将其添加到选择中。
+                在 <a href="commit-changes-dialog.topic" summary=""/> 中，Intellij IDEA 提供了多种操作。其中之一就是
+                <format style="bold">修正提交</format> ，当想要更改最后一次提交并将当前更改合并到其中时，这个功能将会非常有用。
             </p>
-            <img src="将下一个匹配项添加到选择.png" alt="将下一个匹配项添加到选择" width="706"/>
-            <p>
-                此时，可以再次按下
-                <shortcut>Alt</shortcut><shortcut>J</shortcut> 继续向前搜索，或按下
-                <shortcut>Alt</shortcut><shortcut>Shift</shortcut><shortcut>J</shortcut>
-                取消上一个匹配的搜索项。但请注意，当搜索到达文件末尾时，它将会从文件开头重新开始搜索。当选择完成后，就可以像编辑一个整体一样开始编辑所有代码片段。
-            </p>
-            <video src="https://www.youtube.com/watch?v=DOLtv_KFBOQ" width="706"/>
-        </chapter>
-        <chapter id="regex" title="正则表达式" default-state="collapsed" collapsible="true">
-            <p>
-                <tooltip term="regex">正则表达式</tooltip>
-                功能强大且被广泛使用，但想要正确编写它们实在太困难了。Intellij IDEA 将帮助检查代码中的任何正则表达式，只需要将光标移动至其上并按下
-                <shortcut>Alt</shortcut>
-                <shortcut>Enter</shortcut>
-                然后选择
-                <format style="bold">检查正则表达式</format>
-                即可验证当前的正则表达式是否可以匹配目标文本。
-            </p>
-            <code-block collapsed-title="TestRegex.java"
-                        collapsible="true"
-                        default-state="collapsed"
-                        lang="java"
-                        src="TestRegex.java"/>
-            <video src="https://www.youtube.com/watch?v=hjTBcFciPE0" width="706"/>
-            <chapter id="find-and-replace-with-regex-groups" title="使用正则表达式组进行查找和替换">
-                <p>
-                    Intellij IDEA 在
-                    <a href="tutorial-finding-and-replacing-text-using-regular-expressions.topic">查找和替换</a>
-                    中支持正则表达式。值得注意的是，它支持替换正则表达式的捕获组。
-                </p>
-                <img src="在查找和替换中使用正则表达式捕获组.png" alt="在查找和替换中使用正则表达式捕获组" width="706"/>
-                <video src="https://www.youtube.com/watch?v=CfYbKfgbOSI" width="706"/>
-            </chapter>
-        </chapter>
-        <chapter id="bytecode-viewer" title="字节码查看器" default-state="collapsed" collapsible="true">
-            <p>
-                有时候，查看程序生成的字节码是很有用的。在 Intellij IDEA 中内置了一个字节码查看器，可以通过
-                <ui-path>
-                    <a anchor="main-menus" href="guided-tour-around-the-user-interface.topic" instance="hi"
-                       summary="IntelliJ IDEA 中的主菜单包含了多个顶级菜单项，每个菜单项下都有相应的子菜单和功能选项，这些菜单提供了对 IDE 的各种功能和设置的访问。">主菜单</a>
-                    | 视图 | 显示字节码
-                </ui-path> 来调用它。另外请查看
-                <a href="decompiler.topic" summary="使用内置的 Java 字节码反编译器可以将编译后的字节码显示为类似于人类可读的 Java 代码。"/>。
-            </p>
-            <video src="https://www.youtube.com/watch?v=sYCl-Uxuo1A" width="706"/>
-        </chapter>
-        <chapter id="compare-with-clipboard" title="与剪贴板比较" default-state="collapsed" collapsible="true">
-            <p>
-                Intellij IDEA 内置了针对代码、
-                <tooltip term="java-jar-file">JAR 文件</tooltip>
-                、修订版本、甚至是图像之间的差异化查看器。要使用此功能，请选择任意一对文件并按下
-                <shortcut>Ctrl</shortcut>
-                <shortcut>D</shortcut>
-                。
-            </p>
-            <p>
-                如果选择的是一个单独的文件，IDE 将会提示选择需要进行比较的文件。要快速将活动编辑器与剪切板进行比较，请选择
-                <ui-path>
-                    <a anchor="main-menus"
-                       href="guided-tour-around-the-user-interface.topic"
-                       summary="IntelliJ IDEA 中的主菜单包含了多个顶级菜单项，每个菜单项下都有相应的子菜单和功能选项，这些菜单提供了对 IDE 的各种功能和设置的访问。">主菜单</a>
-                    | 视图 | 与剪切板比较
-                </ui-path>。
-            </p>
-            <video src="https://www.youtube.com/watch?v=cdWNI-W3OYM" width="706"/>
-        </chapter>
-        <chapter id="paste-from-history" title="从历史记录中粘贴" default-state="collapsed" collapsible="true">
-            <note>
-                Intellij IDEA 会从系统中读取剪切板的内容并将其显示在
-                <format style="bold">选择要粘贴的内容</format>
-                对话框中。以 Windows 10 系统为例，如果想要清空这些内容，请进入系统设置，然后选择
-                <format style="bold">系统 | 剪切板</format> ，找到 <format style="bold">清除剪切板数据</format> 并点击
-                <format style="bold">清除</format> 按钮，然后关闭并重启 Intellij IDEA 即可。
-            </note>
-            <video src="https://www.youtube.com/watch?v=VXd8qm5JOR8" width="706"/>
-            <p>
-                IntelliJ IDEA 会记录放在剪贴板上的所有内容。任何时候，只要按下
-                <shortcut>Ctrl</shortcut>
-                <shortcut>Shift</shortcut>
-                <shortcut>V</shortcut>
-                ，就可以粘贴之前复制的内容。
-            </p>
-            <video src="https://www.youtube.com/watch?v=WU3GJSRP_qQ" width="706"/>
+            <img src="修正提交.png" alt="修正提交" width="706"/>
+            <note>如果已将提交推送至远程仓库，则在本地进行过修正提交后需强制推送更新至远程仓库。</note>
+            <video src="https://www.youtube.com/watch?v=pob8-oZMC8A" width="706"/>
         </chapter>
     </chapter>
     <seealso>
         <category ref="references">
             <a href="https://www.jetbrains.com/guide/java/tutorials/dependency-matrix/introduction/">利用依赖关系矩阵探索项目结构</a>
+        </category>
+        <category ref="associated-websites">
+            <a href="https://regexr-cn.com/" summary="集学习、构建和测试于一体的在线工具，支持 JavaScript 和 PHP / PCRE 正则表达式。">RegExr</a>
+            <a href="https://goregex.cn/" summary="提供正则表达式的在线测试、生成和解析工具。">GoRegex</a>
+            <a href="https://regex101.com/" summary="个功能强大的正则表达式测试网站，支持多种编程语言的正则表达式语法，并提供详细的匹配信息。">Regex101</a>
         </category>
     </seealso>
 </topic>

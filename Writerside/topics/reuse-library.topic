@@ -109,7 +109,6 @@
             </procedure>
         </chapter>
     </snippet>
-
     <!-- 反转布尔值 -->
     <snippet id="invert-boolean-refactoring-snippet">
         <p>
@@ -180,7 +179,6 @@
             </compare>
         </chapter>
     </snippet>
-
     <!-- SSR，从结构上搜索和替换目标 -->
     <snippet id="to-search-structurally-snippet">
         <procedure id="to-search-structurally" title="从结构上搜索目标" default-state="collapsed" collapsible="true">

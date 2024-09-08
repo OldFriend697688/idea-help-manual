@@ -7,7 +7,7 @@
     <note>为了布局美观考虑，文档中的图片大小被统一设置为 706 × 706，如果想要查看图片中的更多细节，请在图片上单击鼠标右键并选择 <format style="bold">在新标签页中打开图片</format> 等类似的选项。</note>
     <p>在 Intellij IDEA 中打开项目时，默认的用户界面如下所示（注：下图中使用的是 <format style="bold">Darcula</format> 主题）：</p>
     <img src="IDEA 默认用户界面（Darcula 主题）.png" alt="IDEA 默认用户界面（Darcula 主题）" width="706" height="706"/>
-    <note>根据 <tooltip term="idea">IDEA</tooltip> 安装的 <a href="plug-in-system.topic" summary="插件系统为 Intellij IDEA 赋予了无与伦比的强大拓展能力。">插件</a>集、版本和配置设置的不同，<tooltip term="ide">IDE</tooltip> 可能会有不同的外观和行为。</note>
+    <note>根据 <tooltip term="idea">IDEA</tooltip> 安装的 <a href="plug-in-system.topic" summary="插件系统为 Intellij IDEA 赋予了无与伦比的强大拓展能力。">插件</a> 集、版本和配置设置的不同， <tooltip term="ide">IDE</tooltip> 可能会有不同的外观和行为。</note>
     <list type="decimal">
         <li><a anchor="navigation-bar" summary="IntelliJ IDEA 中的导航栏是一个便捷的功能，它允许用户快速导航到项目中的不同部分，如文件、类、方法或工具窗口。导航栏通常位于编辑器的顶部，提供了一个紧凑的界面来输入搜索查询或选择目标位置。">导航栏</a></li>
         <li>项目 <a anchor="tool-windows" summary="IntelliJ IDEA 中的工具窗口是 IDE 界面的重要组成部分，它们为开发者提供了各种辅助工具和功能，以支持软件开发的不同方面。">工具窗口</a></li>

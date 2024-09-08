@@ -550,6 +550,7 @@
             <toc-element topic="tutorial-file-watchers-in-product.topic"/>
         </toc-element>
         <toc-element topic="configuring-third-party-tools.topic"/>
+        <toc-element topic="managing-tasks-and-context.topic"/>
         <toc-element topic="working-with-the-ide-features-from-command-line.topic">
             <toc-element topic="opening-files-from-command-line.topic"/>
             <toc-element topic="command-line-differences-viewer.topic"/>

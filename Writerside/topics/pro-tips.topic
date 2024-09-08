@@ -149,7 +149,7 @@
                     <a anchor="main-menus" href="guided-tour-around-the-user-interface.topic" instance="hi"
                        summary="IntelliJ IDEA 中的主菜单包含了多个顶级菜单项，每个菜单项下都有相应的子菜单和功能选项，这些菜单提供了对 IDE 的各种功能和设置的访问。">主菜单</a>
                     | 视图 | 显示字节码
-                </ui-path> 来调用它。另外请查看
+                </ui-path> 来调用它。另外请查阅
                 <a href="decompiler.topic" summary="使用内置的 Java 字节码反编译器可以将编译后的字节码显示为类似于人类可读的 Java 代码。"/>。
             </p>
             <video src="https://www.youtube.com/watch?v=sYCl-Uxuo1A" width="706"/>
@@ -179,7 +179,7 @@
                 Intellij IDEA 会从系统中读取剪切板的内容并将其显示在
                 <format style="bold">选择要粘贴的内容</format>
                 对话框中。以 Windows 10 系统为例，如果想要清空这些内容，请进入系统设置，然后选择
-                <format style="bold">系统 | 剪切板</format> ，找到 <format style="bold">清除剪切板数据</format> 并点击
+                <format style="bold">系统 | 剪切板</format> ，找到 <format style="bold">清除剪切板数据</format> 并单击
                 <format style="bold">清除</format> 按钮，然后关闭并重启 Intellij IDEA 即可。
             </note>
             <video src="https://www.youtube.com/watch?v=VXd8qm5JOR8" width="706"/>
@@ -631,6 +631,22 @@
             <note>如果已将提交推送至远程仓库，则在本地进行过修正提交后需强制推送更新至远程仓库。</note>
             <video src="https://www.youtube.com/watch?v=pob8-oZMC8A" width="706"/>
         </chapter>
+        <chapter id="shelves-and-patches" title="搁置与补丁" default-state="collapsed" collapsible="true">
+            <p>
+                <format style="bold">搁置</format> 是一个类似于
+                <a href="https://git-scm.com/book/zh/v2/Git-工具-贮藏与清理" summary="有时，当你在项目的一部分上已经工作一段时间后，所有东西都进入了混乱的状态， 而这时你想要切换到另一个分支做一点别的事情。 问题是，你不想仅仅因为过会儿回到这一点而为做了一半的工作创建一次提交。 针对这个问题的答案是 git stash 命令。">Git Stash</a> 的
+                <tooltip term="ide">IDE</tooltip> 功能，但它适用于所有
+                <tooltip term="version-control-system">版本控制系统</tooltip>
+                。当需要暂时停滞处理当前遇到的一些棘手问题，但又不想丢失当前已进行的工作进度时此功能将会很有用处，
+                <format style="bold">它能在不提交本地更改的情况下处理已更改的文件，因此再也不会丢失更改或匆忙进行合并提交。</format>
+                更多信息请参阅 <a href="work-on-several-features-simultaneously.topic" summary="有时需要在不同的任务之间切换，留下未完成的事情，然后再返回去。IntelliJ IDEA 提供了几种方便的方式来处理多个不同的功能而不会丢失工作进度。"/> 。
+            </p>
+            <p>
+                <format style="bold">补丁</format>
+                允许保存对文本文件进行的更改，并将其通过电子邮件（或者是其它更加古老的媒介）传输，然后应用到项目中。当遇到不可靠的网络环境时，此功能将非常有用。更多信息请参阅
+                <a href="using-patches.topic" summary="可以将本地更改放入一个 .patch 文件中，而不是提交它们，然后可以稍后将其应用到项目中，或者通过电子邮件发送等等。使用补丁是一种方便的机制，可以在不将更改检入版本控制系统（VCS）存储库的情况下共享更改。" />。
+            </p>
+        </chapter>
     </chapter>
     <seealso>
         <category ref="references">
@@ -640,6 +656,7 @@
             <a href="https://regexr-cn.com/" summary="集学习、构建和测试于一体的在线工具，支持 JavaScript 和 PHP / PCRE 正则表达式。">RegExr</a>
             <a href="https://goregex.cn/" summary="提供正则表达式的在线测试、生成和解析工具。">GoRegex</a>
             <a href="https://regex101.com/" summary="个功能强大的正则表达式测试网站，支持多种编程语言的正则表达式语法，并提供详细的匹配信息。">Regex101</a>
+            <a href="https://git-scm.com/book/zh/v2/起步-关于版本控制" summary="全中文化的 Git 使用手册">Git 中文使用手册</a>
         </category>
     </seealso>
 </topic>

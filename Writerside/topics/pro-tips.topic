@@ -648,9 +648,28 @@
             </p>
         </chapter>
     </chapter>
+    <chapter id="debugging" title="代码调试">
+        <chapter id="action-or-method-breakpoints" title="非挂起断点" default-state="collapsed" collapsible="true">
+            <p>
+                有时候可能希望在不暂停程序的情况下，对某一行代码进行评估。这样的需求可以通过
+                <format style="bold">非挂起断点</format>
+                予以实现。要创建这样的断点，只需要选中目标代码行前的间距图标并按
+                <shortcut>Shift</shortcut>
+                ，然后在
+                <format style="bold">求值并记录</format>
+                字段中输入
+                <tooltip term="expression">表达式</tooltip>
+                即可。
+            </p>
+            <img src="非挂起断点.png" alt="非挂起断点" width="706"/>
+            <p>这样一来，就可以更改或记录应用程序的状态，而无需要在代码中插入额外的输出语句。这在调试已编译且无法被更改的代码时尤其有用。</p>
+            <video src="https://www.youtube.com/watch?v=kysPynnUatE" width="706"/>
+        </chapter>
+    </chapter>
     <seealso>
         <category ref="references">
-            <a href="https://www.jetbrains.com/guide/java/tutorials/dependency-matrix/introduction/">利用依赖关系矩阵探索项目结构</a>
+            <a href="https://www.jetbrains.com/guide/java/tutorials/dependency-matrix/introduction/"
+               summary="在处理大型复杂软件项目时，我们需要了解项目中组件之间的依赖关系。IntelliJ IDEA 有一项名为依赖结构矩阵（DSM）或依赖矩阵（Dependency Matrix）的功能，可以帮助我们做到这一点。">利用依赖关系矩阵探索项目结构</a>
         </category>
         <category ref="associated-websites">
             <a href="https://regexr-cn.com/" summary="集学习、构建和测试于一体的在线工具，支持 JavaScript 和 PHP / PCRE 正则表达式。">RegExr</a>

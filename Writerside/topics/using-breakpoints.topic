@@ -4,6 +4,7 @@
 <topic xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
        xsi:noNamespaceSchemaLocation="https://resources.jetbrains.com/writerside/1.0/topic.v2.xsd"
        title="断点" id="using-breakpoints">
-
-    <p>Start typing here...</p>
+    <procedure title="字段观察点" id="field-watchpoint">
+        <p>点击字段声明所在的行旁边的间距图标，或者将光标放在该行上并按下 <shortcut>Ctrl</shortcut><shortcut>F8</shortcut>。</p>
+    </procedure>
 </topic>

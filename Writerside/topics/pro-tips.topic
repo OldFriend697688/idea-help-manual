@@ -665,6 +665,17 @@
             <p>这样一来，就可以更改或记录应用程序的状态，而无需要在代码中插入额外的输出语句。这在调试已编译且无法被更改的代码时尤其有用。</p>
             <video src="https://www.youtube.com/watch?v=kysPynnUatE" width="706"/>
         </chapter>
+        <chapter id="field-breakpoints-or-field-watchpoints" title="字段断点或字段观察点" collapsible="true" default-state="collapsed">
+            <p>
+                除了使用上述的非挂起断点外，还可以使用
+                <a href="using-breakpoints.topic" anchor="field-watchpoint" summary="">字段观察点</a>
+                。当访问与之关联的
+                <tooltip term="java-field">字段</tooltip>
+                时，该断点将停止执行。要创建字段观察点，只需要单击目标字段所在行前的间距图标即可。
+            </p>
+            <img src="字段断点或字段观察点.png" alt="字段断点或字段观察点" width="706"/>
+            <video src="https://www.youtube.com/watch?v=kGo6cgjklEA" width="706"/>
+        </chapter>
     </chapter>
     <seealso>
         <category ref="references">

@@ -4,10 +4,10 @@
    <!-- 集成开发环境 -->
    <term name="ide">IDE（集成开发环境）是一种软件应用，它为开发者提供了编程所需的各种工具，包括代码编辑器、编译器、调试器和项目管理工具等。这些工具通常集成在一个统一的用户界面中，旨在提高开发效率，简化开发过程。</term>
    <term name="sts">STS（Spring Tool Suite）是基于 Eclipse 的 IDE，专门针对 Spring 框架和 Spring Boot 应用开发。它提供了 Spring 项目创建、代码辅助、调试以及部署等特性。</term>
-   <term name="idea">IDEA 是 Intellij IDEA 的简称。</term>
    <term name="fleet">Fleet 是 JetBrains 推出的一款新的轻量级 IDE，它提供了快速的启动时间和流畅的用户体验。Fleet 设计用于支持多种编程语言，并且具备智能代码补全、实时协作和内置版本控制等特性，旨在为开发者提供一个高效、便捷的开发环境。</term>
    <term name="vscode">VSCode（Visual Studio Code）由微软开发，是一个免费、开源的代码编辑器，支持多种编程语言。它以其轻量级、可扩展性和强大的调试功能而受到开发者的喜爱。</term>
    <term name="eclipse">Eclipse 是一个流行的开源 IDE，主要用于 Java 开发，但也支持其他编程语言。它具有强大的代码编辑、调试和性能分析工具，并且可以通过插件进行扩展。</term>
+   <term name="idea">IDEA 是 Intellij IDEA 的简称。</term>
    <term name="idea-code-completion">IntelliJ IDEA 的智能代码助手，也称为 Code Completion 或 Code Assistance，是一个非常强大的功能，它可以帮助开发者更快速、更准确地编写代码。</term>
    <term name="idea-code-automatic-prompt">IntelliJ IDEA的代码智能提示功能是一个非常实用的特性，它可以在你编写代码时提供实时的辅助和提示。</term>
    <term name="idea-code-refactoring">代码重构是指在不改变软件外部行为的前提下，对代码进行结构性调整的过程。其核心目标是提高代码的可读性、可维护性和可扩展性，最终提升软件质量。</term>

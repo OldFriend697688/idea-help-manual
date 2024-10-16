@@ -101,7 +101,7 @@
                 <p>
                     如果希望 Intellij IDEA 在停用新变更列表时保留与该任务相关的
                     <tooltip term="idea-context">上下文</tooltip> ，并在更列表变为活动时恢复上下文，请选择
-                    <format style="bold">追踪上下文</format> 选项（有关详细信息，请查阅
+                    <format style="bold">追踪上下文</format> 选项（有关详细信息，请参阅
                     <a href="managing-tasks-and-context.topic"/>）。
                 </p>
             </step>

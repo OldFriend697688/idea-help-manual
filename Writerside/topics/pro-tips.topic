@@ -149,7 +149,7 @@
                     <a anchor="main-menus" href="guided-tour-around-the-user-interface.topic" instance="hi"
                        summary="IntelliJ IDEA 中的主菜单包含了多个顶级菜单项，每个菜单项下都有相应的子菜单和功能选项，这些菜单提供了对 IDE 的各种功能和设置的访问。">主菜单</a>
                     | 视图 | 显示字节码
-                </ui-path> 来调用它。另外请查阅
+                </ui-path> 来调用它。另外请参阅
                 <a href="decompiler.topic" summary="使用内置的 Java 字节码反编译器可以将编译后的字节码显示为类似于人类可读的 Java 代码。"/>。
             </p>
             <video src="https://www.youtube.com/watch?v=sYCl-Uxuo1A" width="706"/>
@@ -653,7 +653,7 @@
             <p>
                 在调试应用程序时，Intellij IDEA 可以通过
                 <a href="examining-suspended-program.topic" anchor="use-labels" summary="">标记对象</a>
-                操作（可以在 <format style="bold">评估表达式</format> 、
+                操作（可以在 <a href="examining-suspended-program.topic" anchor="evaluating-expressions">评估表达式</a> 、
                 <a href="examining-suspended-program.topic" anchor="variables" summary="">变量</a> 、
                 或是 <a href="examining-suspended-program.topic" anchor="watches" summary="">监视</a>
                 视图中进行使用）用彩色标签标记任意对象的特定实例，以便于识别。如果有任何标有标签的实例，也可以在条件表达式中使用它。

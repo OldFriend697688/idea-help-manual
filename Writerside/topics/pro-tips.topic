@@ -649,6 +649,21 @@
         </chapter>
     </chapter>
     <chapter id="debugging" title="代码调试">
+        <chapter id="reset-frame" title="重置帧" collapsible="true" default-state="collapsed">
+            <p>
+                如果想要在调试时"回到过去"，可以通过
+                <format style="bold">重置帧</format>
+                操作来实现。如果错误的走的太远，这将是一个很大的帮助。虽然这不会恢复应用程序的全局状态，但至少可以让你返回
+                <tooltip term="call-stack">帧堆栈</tooltip>。
+            </p>
+            <img src="重置帧.png" alt="重置帧" width="706"/>
+            <video src="https://www.youtube.com/watch?v=sqyr169OssE" width="706"/>
+        </chapter>
+        <chapter id="force-return" title="强制返回" collapsible="true" default-state="collapsed">
+            <p>如果想要强制返回当前正在执行的代码逻辑，请使用 <format style="bold">强制返回</format>。</p>
+            <video src="https://www.youtube.com/watch?v=FtsN61Ek_wI" width="706"/>
+            <video src="https://www.youtube.com/watch?v=E_DaaS5QyYY" width="706"/>
+        </chapter>
         <chapter id="object-markers" title="对象标记" collapsible="true" default-state="collapsed">
             <p>
                 在调试应用程序时，Intellij IDEA 可以通过
@@ -703,6 +718,11 @@
             <video src="https://www.youtube.com/watch?v=kGo6cgjklEA" width="706"/>
         </chapter>
     </chapter>
+    <!--<chapter id="DCEVM" title="DCEVM" collapsible="true" default-state="collapsed"></chapter>
+    <chapter id="update-application" title="更新应用程序" collapsible="true" default-state="collapsed"></chapter>
+    <chapter id="tools" title="工具">
+        <chapter id="external-tools" title="外部工具"></chapter>
+    </chapter>-->
     <seealso>
         <category ref="references">
             <a href="https://www.jetbrains.com/guide/java/tutorials/dependency-matrix/introduction/"

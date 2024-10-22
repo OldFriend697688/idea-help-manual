@@ -5,5 +5,7 @@
        xsi:noNamespaceSchemaLocation="https://resources.jetbrains.com/writerside/1.0/topic.v2.xsd"
        title="改变程序的执行流程" id="altering-the-program-s-execution-flow">
 
-    <p>Start typing here...</p>
+    <chapter id="reload-classes" title="重新加载修改过的类">
+
+    </chapter>
 </topic>

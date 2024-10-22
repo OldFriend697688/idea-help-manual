@@ -718,11 +718,74 @@
             <video src="https://www.youtube.com/watch?v=kGo6cgjklEA" width="706"/>
         </chapter>
     </chapter>
-    <!--<chapter id="DCEVM" title="DCEVM" collapsible="true" default-state="collapsed"></chapter>
-    <chapter id="update-application" title="更新应用程序" collapsible="true" default-state="collapsed"></chapter>
-    <chapter id="tools" title="工具">
-        <chapter id="external-tools" title="外部工具"></chapter>
-    </chapter>-->
+    <chapter id="external-tools" title="外部工具">
+        <p>
+            Intellij IDEA 已内置了许多开箱即用的开发工具。如果您需要的工具恰巧未被集成，但却想要通过快捷方式使用它，请展开
+            <ui-path>
+                设置（
+                <shortcut>Ctrl</shortcut>
+                <shortcut>Alt</shortcut>
+                <shortcut>S</shortcut>
+                ）
+                | 工具 | 外部工具
+            </ui-path>
+            并在其中配置想要使用的 <a href="configuring-third-party-tools.topic">外部工具</a>。
+        </p>
+        <img src="外部工具.png" alt="外部工具" width="706"/>
+        <note>
+            如下演示视频中将使用
+            <a href="https://www.gnu.org/savannah-checkouts/gnu/emacs/emacs.html" summary="GNU Emacs是一个功能强大的文本编辑器，被广泛认为是专业程序员最喜欢的代码编辑器之一。">Emacs</a>
+            作为外部工具尝试打开目标 Java 源码文件。
+        </note>
+        <video src="https://www.youtube.com/watch?v=vyfIz_4Putw" width="706"/>
+    </chapter>
+    <chapter id="DCEVM" title="DCEVM" collapsible="true" default-state="collapsed">
+        <note>
+            如下演示视频及图片中使用的 <tooltip term="jdk">JDK</tooltip> 为 Oracle 提供的 JDK 17，
+            <a href="https://www.oracle.com/java/technologies/downloads/#java17">可以点击此处下载它</a>。
+        </note>
+        <p>有时，当您对代码进行快速修改时，您希望立即看到这些修改在工作应用程序中的表现。</p>
+        <p>
+            不幸的是，
+            <tooltip term="java-hotswap-vm">Java HotSwap VM</tooltip>
+            有很多限制：比如，您不能在
+            <tooltip term="java-class">类</tooltip>
+            中添加新
+            <tooltip term="java-method">方法</tooltip>
+            或
+            <tooltip term="java-field">字段</tooltip>
+            ，然后执行
+            <tooltip term="hot-swap">热插拔</tooltip>
+            ；在热插拔过程中，您唯一能实际更改的是
+            <tooltip term="java-method-body">方法体</tooltip>
+            。
+        </p>
+        <img src="热交换失败.png" alt="热交换失败" width="706"/>
+        <p>
+            有关详情，请参阅 <a href="altering-the-program-s-execution-flow.topic" anchor="reload-classes">重新加载修改过的类</a>
+            和 <a href="altering-the-program-s-execution-flow.topic">更改程序执行流程</a> 部分。
+        </p>
+        <video src="https://www.youtube.com/watch?v=HyA8raRoWBE" width="706"/>
+        <p>幸运的是，您可以使用 <a href="https://hotswapagent.org/">HotSwapAgent</a> 改变这种状况，它可以在运行时无限制地支持 <tooltip term="reload">重载</tooltip> 类。</p>
+        <note>
+            为确保演示视频具备实际意义，如下演示视频中使用了
+            <a href="https://spring.io/projects/spring-boot" summary="Spring Boot 是一款开源的 Java Web 应用开发框架，旨在简化 Spring 应用的初始搭建以及开发过程。它整合了 Spring 技术栈中的众多框架，提供了一种快速启动和运行 Spring 应用的方式。">Spring Boot</a>、
+            <a href="https://spring.io/projects/spring-framework" summary="Spring MVC（Model-View-Controller）是 Spring 框架中的一个模块，用于构建基于 Java 的 Web 应用程序。它遵循 MVC 设计模式，将应用程序分为三个核心组件，以提高代码的模块化和可维护性。">Spring MVC</a> 和
+            <a href="https://tomcat.apache.org/" summary="Tomcat 是 Apache 软件基金会下的一个开源 Java Servlet 容器，用于运行 Java Web 应用程序。它实现了 Java Servlet 和 JavaServer Pages (JSP)规范，支持 HTTP、HTTPS 等协议，提供了一个平台让 Java 代码能够运行在服务器端，处理来自 Web 浏览器的请求。">Apache Tomcat（内嵌）</a> 技术栈。
+        </note>
+        <video src="https://www.youtube.com/watch?v=Cg4qCCX4hOg" width="706"/>
+    </chapter>
+    <chapter id="update-application" title="更新应用程序" collapsible="true" default-state="collapsed">
+        <p>
+            如果您的应用程序运行在应用服务器上（比如：
+            <a href="https://tomcat.apache.org/" summary="Tomcat 是 Apache 软件基金会下的一个开源 Java Servlet 容器，用于运行 Java Web 应用程序。它实现了 Java Servlet 和 JavaServer Pages (JSP)规范，支持 HTTP、HTTPS 等协议，提供了一个平台让 Java 代码能够运行在服务器端，处理来自 Web 浏览器的请求。">Tomcat</a> 、
+            <a href="https://www.jboss.org/" summary="JBoss 服务器是一款流行的开源 Java 应用服务器，由 Red Hat 公司维护。它支持 EJB、JMS、Servlet/JSP 等 Java EE 规范，具有高性能、可扩展性强、稳定性高等特点，广泛应用于企业级应用部署。JBoss 还提供丰富的管理和配置工具，助力开发者高效开发与维护。">JBoss</a> 等）上运行，您可以通过
+            <shortcut>Ctrl</shortcut><shortcut>F10</shortcut> 中的 <format style="bold">更新应用</format> 操作重新加载更改的类和资源。
+        </p>
+        <p>请参阅 <a href="https://www.jetbrains.com/help/idea/2022.3/updating-applications-on-application-servers.html">应用服务器上的应用更新</a> 部分了解更多详情。</p>
+        <video src="https://www.youtube.com/watch?v=13wSeacje6s" width="706"/>
+        <video src="https://www.youtube.com/watch?v=QpCcsNVaVy8" width="706"/>
+    </chapter>
     <seealso>
         <category ref="references">
             <a href="https://www.jetbrains.com/guide/java/tutorials/dependency-matrix/introduction/"

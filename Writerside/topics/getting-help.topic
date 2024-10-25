@@ -3,7 +3,121 @@
         SYSTEM "https://resources.jetbrains.com/writerside/1.0/xhtml-entities.dtd">
 <topic xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
        xsi:noNamespaceSchemaLocation="https://resources.jetbrains.com/writerside/1.0/topic.v2.xsd"
-       title="获取帮助" id="getting-help">
-
-    <p>Start typing here...</p>
+       title="支持与帮助" id="getting-help">
+    <show-structure depth="1" for="procedure" />
+    <procedure title="联系支持" id="contact-support" type="choices">
+        <p>如果无法在帮助文档中找到所需的信息，请尝试联系 JetBrains 支持团队。</p>
+        <step>浏览 <a href="https://intellij-support.jetbrains.com/hc/en-us">Intellij IDEA 知识库</a> 。</step>
+        <step>在 <a href="https://intellij-support.jetbrains.com/hc/en-us/community/topics/">社区论坛</a> 创建一个新主题并提问。</step>
+        <step>
+            从
+            <a anchor="main-menus"
+               href="guided-tour-around-the-user-interface.topic"
+               summary="IntelliJ IDEA 中的主菜单包含了多个顶级菜单项，每个菜单项下都有相应的子菜单和功能选项，这些菜单提供了对 IDE 的各种功能和设置的访问。">主菜单</a>
+            中选择 <ui-path>帮助 | 联系支持</ui-path> 以便直接向支持团队提出请求。
+        </step>
+        <img src="联系支持.png" alt="联系支持" width="706"/>
+    </procedure>
+    <procedure title="反馈错误" id="report-bug" type="choices">
+        <p>如遇错误或想建议新功能，可以使用 <a href="https://youtrack.jetbrains.com/issues/IDEA">Intellij IDEA 问题跟踪器</a> 。</p>
+        <step>
+            <p>
+                从 <a anchor="main-menus"
+                      href="guided-tour-around-the-user-interface.topic"
+                      summary="IntelliJ IDEA 中的主菜单包含了多个顶级菜单项，每个菜单项下都有相应的子菜单和功能选项，这些菜单提供了对 IDE 的各种功能和设置的访问。">主菜单</a>
+                中选择 <ui-path>帮助 | 提交错误报告</ui-path> 。
+            </p>
+        </step>
+        <p>进行提交之前，建议先尝试搜索问题跟踪器，查找是否已存在类似的报告或功能请求，以避免重复。如有类似的，可以添加评论或者投票，以便引起开发团队的关注。</p>
+        <p>
+            如果需要附加 Intellij IDEA 日志文件，请通过
+            <a anchor="main-menus"
+               href="guided-tour-around-the-user-interface.topic"
+               summary="IntelliJ IDEA 中的主菜单包含了多个顶级菜单项，每个菜单项下都有相应的子菜单和功能选项，这些菜单提供了对 IDE 的各种功能和设置的访问。">主菜单</a>
+            | <ui-path>帮助 | 在 Explorer 显示日志</ui-path> 找到它。
+        </p>
+        <img src="在 Explorer 显示日志.png" alt="在 Explorer 显示日志" width="706"/>
+    </procedure>
+    <procedure title="分享反馈" id="feedback">
+        <p>对于 JetBrains 产品的任何不满意或改进建议都可以反馈给开发团队。</p>
+        <step>
+            从
+            <a anchor="main-menus"
+               href="guided-tour-around-the-user-interface.topic"
+               summary="IntelliJ IDEA 中的主菜单包含了多个顶级菜单项，每个菜单项下都有相应的子菜单和功能选项，这些菜单提供了对 IDE 的各种功能和设置的访问。">主菜单</a>
+            中选择
+            <ui-path>帮助 | 提交反馈（Submit Feedback）</ui-path> 。
+        </step>
+        <img src="提交反馈.png" alt="提交反馈" width="706"/>
+    </procedure>
+    <chapter title="了解更多" id="learn">
+        <p>学习 Intellij IDEA 有很多种方式。</p>
+        <list>
+            <li>
+                <p><format style="bold">每日小技巧</format> 会在每次启动 Intellij IDEA 时提供有用的帮助。如果不想显示它，可以勾选 <format style="bold">启动时不显示小技巧</format> 。</p>
+                <img src="启动时不显示小技巧.png" alt="启动时不显示小技巧" width="706"/>
+                <p>
+                    要打开 <format style="bold">每日小技巧</format> 对话框，请从
+                    <a anchor="main-menus"
+                       href="guided-tour-around-the-user-interface.topic"
+                       summary="IntelliJ IDEA 中的主菜单包含了多个顶级菜单项，每个菜单项下都有相应的子菜单和功能选项，这些菜单提供了对 IDE 的各种功能和设置的访问。">主菜单</a>
+                    中选择 <ui-path>帮助 | 每日小技巧</ui-path> 。
+                </p>
+                <img src="显示每日小技巧.png" alt="显示每日小技巧" width="706"/>
+            </li>
+            <li>
+                <p><format style="bold">我的工作效率</format> 显示了一系列有用功能的统计数据和技巧。</p>
+                <p>
+                    可以通过
+                    <a anchor="main-menus"
+                       href="guided-tour-around-the-user-interface.topic"
+                       summary="IntelliJ IDEA 中的主菜单包含了多个顶级菜单项，每个菜单项下都有相应的子菜单和功能选项，这些菜单提供了对 IDE 的各种功能和设置的访问。">主菜单</a>
+                    <ui-path>帮助 | 我的工作效率</ui-path> 打开它。
+                </p>
+                <img src="我的工作效率.png" alt="我的工作效率" width="706"/>
+            </li>
+            <li>
+                <p><format style="bold">学习 IDE 功能</format> 是一款学习最常用和最有用操作的工具。它是一系列交互式课程，通过实际案例指导新用户使用快捷键。</p>
+                <p>
+                    可以通过
+                    <a anchor="main-menus"
+                       href="guided-tour-around-the-user-interface.topic"
+                       summary="IntelliJ IDEA 中的主菜单包含了多个顶级菜单项，每个菜单项下都有相应的子菜单和功能选项，这些菜单提供了对 IDE 的各种功能和设置的访问。">主菜单</a>
+                    <ui-path>帮助 | 学习 IDE 功能</ui-path> 打开它。
+                </p>
+                <img src="学习 IDE 功能.png" alt="学习 IDE 功能" width="706"/>
+            </li>
+        </list>
+    </chapter>
+    <procedure title="离线访问文档" id="offline-help">
+        <step>
+            如果您没有互联网访问权限查看在线文档，可以使用
+            <a href="https://plugins.jetbrains.com/plugin/10260-intellij-idea-help">Intellij IDEA 帮助</a>
+            插件，它将通过内置的 Web 服务器提供帮助页面，以便离线使用。
+        </step>
+        <img src="Intellij IDEA Help 插件.png" alt="Intellij IDEA Help 插件" width="706"/>
+        <note>离线帮助插件会在发布新的主要版本时更新。在发布周期内添加到在线帮助中的更改可能在离线帮助中不可用。</note>
+        <video src="https://www.youtube.com/watch?v=adYsa7FNe2s" width="706"/>
+    </procedure>
+    <procedure title="通过 IDE 访问在线文档" id="open-help">
+        <p>要从 IntelliJ IDEA 中访问在线帮助文档，请执行以下操作之一：</p>
+        <step>
+            从
+            <a anchor="main-menus"
+               href="guided-tour-around-the-user-interface.topic"
+               summary="IntelliJ IDEA 中的主菜单包含了多个顶级菜单项，每个菜单项下都有相应的子菜单和功能选项，这些菜单提供了对 IDE 的各种功能和设置的访问。">主菜单</a>
+            中选择 <ui-path>帮助 | 帮助</ui-path> 。
+        </step>
+        <step>在 Intellij IDEA 中按 <shortcut>F1</shortcut> 。</step>
+        <step>单击工具窗口或对话框中的 <img src="帮助.svg" alt=""/> 。</step>
+        <video src="https://www.youtube.com/watch?v=Fepv_lNEjsc" width="706"/>
+    </procedure>
+    <seealso>
+        <category ref="references">
+            <a href="https://www.youtube.com/user/JetBrainsTV">JetBrains TV</a>
+            <a href="https://blog.jetbrains.com/idea">IntelliJ IDEA blog</a>
+            <a href="https://www.youtube.com/user/intellijideavideo">IntelliJ IDEA videos</a>
+            <a href="https://twitter.com/intellijidea">IntelliJ IDEA twitter (@intellijidea)</a>
+        </category>
+    </seealso>
 </topic>

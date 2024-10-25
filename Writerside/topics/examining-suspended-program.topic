@@ -13,7 +13,7 @@
         <video src="https://www.youtube.com/watch?v=ckku7SDU2Rs" width="706"/>
         <procedure title="添加标签" id="add-labels">
             <step>在 <format style="bold">变量</format> 选项卡上，右键单击当前指向的变量，然后从菜单中选择 <format style="bold">标记对象 F11</format>。</step>
-            <step>输入标签名称。如有必要还可以选择显示的 <a href="color-picker.topic" summary="">颜色</a> ，当完成配置后，请点击 <format style="bold">确定</format> 保存设置。</step>
+            <step>输入标签名称。如有必要还可以选择显示的 <a href="color-picker.topic" summary="">颜色</a> ，当完成配置后，请单击 <format style="bold">确定</format> 保存设置。</step>
             <video src="https://www.youtube.com/watch?v=2_5_Hqr_lJg" width="706"/>
         </procedure>
         <procedure title="移除标签" id="remove-labels">

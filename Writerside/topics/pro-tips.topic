@@ -718,7 +718,7 @@
             <video src="https://www.youtube.com/watch?v=kGo6cgjklEA" width="706"/>
         </chapter>
     </chapter>
-    <chapter id="external-tools" title="外部工具">
+    <chapter id="external-tools" title="外部工具" collapsible="true" default-state="collapsed">
         <p>
             Intellij IDEA 已内置了许多开箱即用的开发工具。如果您需要的工具恰巧未被集成，但却想要通过快捷方式使用它，请展开
             <ui-path>
@@ -742,7 +742,7 @@
     <chapter id="DCEVM" title="DCEVM" collapsible="true" default-state="collapsed">
         <note>
             如下演示视频及图片中使用的 <tooltip term="jdk">JDK</tooltip> 为 Oracle 提供的 JDK 17，
-            <a href="https://www.oracle.com/java/technologies/downloads/#java17">可以点击此处下载它</a>。
+            <a href="https://www.oracle.com/java/technologies/downloads/#java17">可以单击此处下载它</a>。
         </note>
         <p>有时，当您对代码进行快速修改时，您希望立即看到这些修改在工作应用程序中的表现。</p>
         <p>

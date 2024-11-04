@@ -4,59 +4,28 @@
 <topic xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
        xsi:noNamespaceSchemaLocation="https://resources.jetbrains.com/writerside/1.0/topic.v2.xsd"
        title="reuse-library" id="reuse-library">
+    <!-- 提示信息 -->
+    <snippet id="toolbox-login-tips"><note>从 Toolbox App 登录 JetBrains 帐户，它将自动激活安装的任何 IDE 的可用许可证。</note></snippet>
+    <snippet id="main-menus"><a anchor="main-menus" instance="hi" href="guided-tour-around-the-user-interface.topic" summary="IntelliJ IDEA 中的主菜单包含了多个顶级菜单项，每个菜单项下都有相应的子菜单和功能选项，这些菜单提供了对 IDE 的各种功能和设置的访问。">主菜单</a></snippet>
+    <snippet id="context-menus"><a anchor="context-menus" href="guided-tour-around-the-user-interface.topic" instance="hi" summary="IntelliJ IDEA 的上下文菜单（也称为右键菜单）是在用户在 IDE 的不同部分右键单击时弹出的菜单。上下文菜单提供了与当前上下文相关的操作和选项，这些选项根据用户单击的位置和选择的元素而变化。">上下文菜单</a></snippet>
+    <snippet id="standalone-tips">
+        <p>首次运行 Intellij IDEA 时，可以完成安装自定义您的实例并开始使用该 <tooltip term="ide">IDE</tooltip>。</p>
+        <p>如需要了解更多信息，请参阅 <a instance="hi" href="run-for-the-first-time.topic">首次运行 Intellij IDEA</a>。</p>
+        <p>有关默认 IDE 目录（包含用户特定文件）位置的信息，请参阅 <a instance="hi" href="directories-used-by-the-ide-to-store-settings-caches-plugins-and-logs.topic">IDE 使用的目录</a> 。</p>
+    </snippet>
     <!-- 快速列表 -->
     <snippet id="configure-quick-lists-snippet">
         <chapter id="configure-quick-lists" title="自定义快速列表">
-            <p>
-                快速列表是一个
-                <a instance="hi" anchor="popup-menus" href="guided-tour-around-the-user-interface.topic"/>
-                ，其中包含一组自定义的 Intellij IDEA 操作。可以将其视为自定义菜单或工具栏，并为其指定快捷键以便快速访问。可以根据需要创建任意多个快速列表。快速列表中的每个操作都由一个从
-                0 到 9 的数字来标识。
-            </p>
+            <p>快速列表是一个 <a instance="hi" anchor="popup-menus" href="guided-tour-around-the-user-interface.topic"/> ，其中包含一组自定义的 Intellij IDEA 操作。可以将其视为自定义菜单或工具栏，并为其指定快捷键以便快速访问。可以根据需要创建任意多个快速列表。快速列表中的每个操作都由一个从 0 到 9 的数字来标识。</p>
             <p>有许多预设的快速列表，但请注意它们不可以配置：</p>
             <list>
-                <li>
-                    <format style="bold">VCS 操作</format>
-                    （
-                    <shortcut>Alt</shortcut>
-                    <shortcut>`</shortcut>
-                    ）
-                </li>
-                <li>
-                    <format style="bold">重构此</format>
-                    （
-                    <shortcut>Ctrl</shortcut>
-                    <shortcut>Alt</shortcut>
-                    <shortcut>Shift</shortcut>
-                    <shortcut>T</shortcut>
-                    ）
-                </li>
+                <li><format style="bold">VCS 操作</format>（<shortcut>Alt</shortcut><shortcut>`</shortcut>）</li>
+                <li><format style="bold">重构此</format>（<shortcut>Ctrl</shortcut><shortcut>Alt</shortcut><shortcut>Shift</shortcut><shortcut>T</shortcut>）</li>
             </list>
             <procedure title="创建快速列表" id="create-quick-list">
-                <step>
-                    按
-                    <shortcut>Ctrl</shortcut>
-                    <shortcut>Alt</shortcut>
-                    <shortcut>S</shortcut>
-                    打开
-                    <format style="bold">设置</format>
-                    ，然后选择
-                    <ui-path>外观与行为 | 快速列表</ui-path>
-                    。
-                </step>
-                <step>
-                    单击左侧的 <img src="添加.svg" alt=""/> 或按下
-                    <shortcut>Alt</shortcut>
-                    <shortcut>Insert</shortcut>
-                    创建新的快速列表。
-                </step>
-                <step>
-                    在
-                    <format style="bold">显示名称</format>
-                    字段中，指定快速列表的名称。还可以在
-                    <format style="bold">描述</format>
-                    字段中提供快速列表的说明。
-                </step>
+                <step>按 <shortcut>Ctrl</shortcut><shortcut>Alt</shortcut><shortcut>S</shortcut> 打开 <format style="bold">设置</format> ，然后选择 <ui-path>外观与行为 | 快速列表</ui-path>。</step>
+                <step>单击左侧的 <img src="添加.svg" alt=""/> 或按下 <shortcut>Alt</shortcut><shortcut>Insert</shortcut> 创建新的快速列表。</step>
+                <step>在 <format style="bold">显示名称</format> 字段中，指定快速列表的名称。还可以在 <format style="bold">描述</format> 字段中提供快速列表的说明。</step>
                 <step>
                     <p>在右侧的窗口中，添加并排列快速列表中的操作：</p>
                     <list>
@@ -67,68 +36,26 @@
                         </li>
                     </list>
                 </step>
-                <step>
-                    鼠标左键单击
-                    <ui-path>确定</ui-path>
-                    保存更改。
-                </step>
+                <step>鼠标左键单击 <ui-path>确定</ui-path> 保存更改。</step>
                 <video src="https://www.youtube.com/watch?v=wbDyS0xZbbU" width="706"/>
             </procedure>
             <procedure title="为快速列表分配快捷键" id="quick-list-shortcut">
-                <step>
-                    按
-                    <shortcut>Ctrl</shortcut>
-                    <shortcut>Alt</shortcut>
-                    <shortcut>S</shortcut>
-                    打开
-                    <format style="bold">设置</format>
-                    ，然后选择
-                    <ui-path>按键映射</ui-path>
-                    。
-                </step>
-                <step>
-                    展开
-                    <format style="bold">快速列表</format>
-                    节点并选择目标快速列表，鼠标右键单击并选择
-                    <format style="bold">添加键盘快捷键</format>
-                    。
-                </step>
-                <step>
-                    鼠标左键单击
-                    <ui-path>确定</ui-path>
-                    保存更改。
-                </step>
+                <step>按 <shortcut>Ctrl</shortcut><shortcut>Alt</shortcut><shortcut>S</shortcut> 打开 <format style="bold">设置</format> ，然后选择 <ui-path>按键映射</ui-path>。</step>
+                <step>展开 <format style="bold">快速列表</format> 节点并选择目标快速列表，鼠标右键单击并选择 <format style="bold">添加键盘快捷键</format>。</step>
+                <step>鼠标左键单击 <ui-path>确定</ui-path> 保存更改。</step>
                 <step>在编辑器中，按下快捷键快速访问快速列表。</step>
                 <video src="https://www.youtube.com/watch?v=Sg_utwZdkZU" width="706"/>
-                <note>
-                    如果不记得快速列表的快捷键，可以按
-                    <shortcut>Shift</shortcut>
-                    两次，然后键入快速列表名称搜索它。
-                </note>
+                <note>如果不记得快速列表的快捷键，可以按 <shortcut>Shift</shortcut> 两次，然后键入快速列表名称搜索它。</note>
                 <img src="搜索快速列表.png" alt="搜索快速列表" width="706"/>
             </procedure>
         </chapter>
     </snippet>
     <!-- 反转布尔值 -->
     <snippet id="invert-boolean-refactoring-snippet">
-        <p>
-            反转布尔值重构是一种能够将布尔方法或变量的含义更改为相反含义的功能。重构前后，
-            <tooltip instance="hi" term="method">方法</tooltip>
-            的最终实现逻辑保持不变，只是布尔值的含义发生了反转。虽然重构会自动更新所有引用布尔值的地方，但是否需要更改方法的内部逻辑以适应新的布尔值含义，就需要开发者根据实际情况来判断和调整了。
-        </p>
+        <p>反转布尔值重构是一种能够将布尔方法或变量的含义更改为相反含义的功能。重构前后， <tooltip instance="hi" term="method">方法</tooltip> 的最终实现逻辑保持不变，只是布尔值的含义发生了反转。虽然重构会自动更新所有引用布尔值的地方，但是否需要更改方法的内部逻辑以适应新的布尔值含义，就需要开发者根据实际情况来判断和调整了。</p>
         <procedure title="操作步骤">
             <step>将插入符号（闪烁光标）放在要重构的方法或变量的名称处。</step>
-            <step>
-                在
-                <a anchor="main-menus" href="guided-tour-around-the-user-interface.topic" instance="hi"
-                   summary="IntelliJ IDEA 中的主菜单包含了多个顶级菜单项，每个菜单项下都有相应的子菜单和功能选项，这些菜单提供了对 IDE 的各种功能和设置的访问。">主菜单</a>
-                或
-                <a anchor="context-menus" href="guided-tour-around-the-user-interface.topic" instance="hi"
-                   summary="IntelliJ IDEA 的上下文菜单（也称为右键菜单）是在用户在 IDE 的不同部分右键单击时弹出的菜单。上下文菜单提供了与当前上下文相关的操作和选项，这些选项根据用户单击的位置和选择的元素而变化。">上下文菜单</a>
-                中选择
-                <ui-path>重构 | 反转布尔值</ui-path>
-                。
-            </step>
+            <step>在 <include from="reuse-library.topic" id="main-menu" /> 或 <include from="reuse-library.topic" element-id="context-menus" /> 中选择 <ui-path>重构 | 反转布尔值</ui-path>。</step>
             <step>在打开的对话框中，指定待反转方法或变量的名称。</step>
             <step>预览并应用更改。</step>
         </procedure>
@@ -183,209 +110,58 @@
     <snippet id="to-search-structurally-snippet">
         <procedure id="to-search-structurally" title="从结构上搜索目标" default-state="collapsed" collapsible="true">
             <step>
-                <p>
-                    单击
-                    <ui-path>
-                        <a anchor="main-menus"
-                           href="guided-tour-around-the-user-interface.topic"
-                           summary="IntelliJ IDEA 中的主菜单包含了多个顶级菜单项，每个菜单项下都有相应的子菜单和功能选项，这些菜单提供了对 IDE 的各种功能和设置的访问。">主菜单</a>
-                        | 编辑 | 查找 | 结构搜索
-                    </ui-path>
-                    以打开
-                    <format style="bold">结构搜索</format>
-                    对话框
-                </p>
-                <note>
-                    在
-                    <format style="bold">结构搜索</format>
-                    对话框中，可通过单击
-                    <img src="刷新.svg" alt=""/> 按钮快速切换至
-                    <format style="bold">结构替换</format>
-                    对话框。
-                </note>
+                <p>单击 <ui-path><include from="reuse-library.topic" element-id="main-menus"/> | 编辑 | 查找 | 结构搜索</ui-path> 以打开 <format style="bold">结构搜索</format> 对话框。</p>
+                <note>在 <format style="bold">结构搜索</format> 对话框中，可通过单击 <img src="刷新.svg" alt=""/> 按钮快速切换至 <format style="bold">结构替换</format> 对话框。</note>
                 <video src="https://www.youtube.com/watch?v=QcOUjW25lZw" width="706"/>
             </step>
             <step>
-                <p>
-                    在
-                    <format style="bold">结构搜索</format>
-                    对话框中，可执行如下操作之一：
-                </p>
+                <p>在 <format style="bold">结构搜索</format> 对话框中，可执行如下操作之一：</p>
                 <list>
                     <li>
-                        <p>
-                            <format style="italic" color="BurlyWood">从头开始创建新的模板</format>
-                        </p>
-                        <p>
-                            可以从模板列表中选择
-                            <format style="bold">草稿模板</format>
-                            ，然后在模板的编辑区域中，键入代码模板（注：
-                            使用 <code>$variable$</code> 表示模板中的查找变量），在对话框的工具栏中单击
-                            <img src="保存.svg" alt=""/> 以供将来重复使用。同时，如果需要可以将它保存为
-                            <a href="inspections-settings.topic">检查</a>。
-                        </p>
+                        <p><format style="italic" color="BurlyWood">从头开始创建新的模板</format></p>
+                        <p>可以从模板列表中选择 <format style="bold">草稿模板</format> ，然后在模板的编辑区域中，键入代码模板（注： 使用 <code>$variable$</code> 表示模板中的查找变量），在对话框的工具栏中单击 <img src="保存.svg" alt=""/> 以供将来重复使用。同时，如果需要可以将它保存为 <a instance="hi" href="inspections-settings.topic">检查</a>。</p>
                         <img src="结构搜索对话框.png" alt="结构搜索对话框" width="706"/>
-                        <p>
-                            Intellij IDEA 会将创建以及使用过的模板添加到
-                            <format style="bold">最近</format>
-                            节点中。
-                        </p>
+                        <p>Intellij IDEA 会将创建以及使用过的模板添加到<format style="bold">最近</format> 节点中。</p>
                         <img src="结构搜索对话框中最近添加的模板.png" alt="结构搜索对话框中最近添加的模板" width="706"/>
                     </li>
                     <li>
-                        <p>
-                            <format style="italic" color="BurlyWood">使用现有模板之一作为原型</format>
-                        </p>
-                        <p>
-                            在可用的现有模板列表中，选择所需的模板。现在，让我们查找类中的某个
-                            <tooltip term="java-field">字段</tooltip>
-                            。在现有的模板列表中，单击
-                            <format style="bold">Java</format>
-                            并打开
-                            <format style="bold">基于类</format>
-                            然后找到并选择其中的
-                            <format style="bold">类的字段</format>
-                            。
-                        </p>
-                        <img src="已预设的基于类的字段进行查找的模板.png"
-                             alt="已预设的基于类的字段进行查找的模板"
-                             width="706"/>
-                        <p>
-                            单击
-                            <ui-path>查找</ui-path>
-                            按钮，将会突出显示找到的所有匹配字段。
-                        </p>
+                        <p><format style="italic" color="BurlyWood">使用现有模板之一作为原型</format></p>
+                        <p>在可用的现有模板列表中，选择所需的模板。现在，让我们查找类中的某个 <tooltip term="java-field">字段</tooltip> 。在现有的模板列表中，单击 <format style="bold">Java</format> 并打开 <format style="bold">基于类</format> 然后找到并选择其中的 <format style="bold">类的字段</format>。</p>
+                        <img src="已预设的基于类的字段进行查找的模板.png" alt="已预设的基于类的字段进行查找的模板" width="706"/>
+                        <p>单击 <ui-path>查找</ui-path> 按钮，将会突出显示找到的所有匹配字段。</p>
                         <video src="https://www.youtube.com/watch?v=SFC4wna_f88" width="706"/>
                     </li>
                 </list>
             </step>
             <step>
-                <p>
-                    <format style="bold">结构搜索</format>
-                    对话框显示选定的模板以及模板中使用的过滤器的值，可以编辑现有过滤器或添加新的过滤条件，例如：添加一些
-                    <tooltip term="regex">正则表达式</tooltip>
-                    或脚本约束。可以将插入符号（闪烁光标）放在代码变量处并通过过滤器区域来管理过滤器。
-                    <img src="在结构搜索对话框中为变量声明过滤规则.png"
-                         alt="在结构搜索对话框中为变量声明过滤规则"
-                         width="706"/>
-                    作为示例，让我们为 <code>$Field$</code> 变量声明一个条件。在过滤器区域中单击
-                    <img src="添加.svg" alt=""/> 添加新条件。例如：如果需要添加正则表达式，则应选择
-                    <format style="bold">文本</format>
-                    ，在闪烁的输入框中键入需要的条件。例如：输入正则表达式 <code>\b[A-Z].*?\b</code>。
-                    <img src="在结构搜索对话框中为目标变量添加过滤规则.png"
-                         alt="在结构搜索对话框中为目标变量添加过滤规"
-                         width="706"/>
-                    在这种情况下，当勾选
-                    <ui-path>区分大小写</ui-path>
-                    后，Intellij IDEA 将仅搜索包含有大写字符的字段。
-                </p>
+                <p><format style="bold">结构搜索</format> 对话框显示选定的模板以及模板中使用的过滤器的值，可以编辑现有过滤器或添加新的过滤条件，例如：添加一些 <tooltip term="regex">正则表达式</tooltip> 或脚本约束。可以将插入符号（闪烁光标）放在代码变量处并通过过滤器区域来管理过滤器。 <img src="在结构搜索对话框中为变量声明过滤规则.png" alt="在结构搜索对话框中为变量声明过滤规则" width="706"/> 作为示例，让我们为 <code>$Field$</code> 变量声明一个条件。在过滤器区域中单击 <img src="添加.svg" alt=""/> 添加新条件。例如：如果需要添加正则表达式，则应选择 <format style="bold">文本</format> ，在闪烁的输入框中键入需要的条件。例如：输入正则表达式 <code>\b[A-Z].*?\b</code>。<img src="在结构搜索对话框中为目标变量添加过滤规则.png" alt="在结构搜索对话框中为目标变量添加过滤规" width="706"/> 在这种情况下，当勾选 <ui-path>区分大小写</ui-path> 后，Intellij IDEA 将仅搜索包含有大写字符的字段。</p>
                 <video src="https://www.youtube.com/watch?v=zGfbfszkdh8" width="706"/>
                 <p>请注意，根据所选程序语言的不同会有不同的附加选项可用。例如：以下可能的选项：</p>
                 <list>
-                    <li>
-                        <format style="bold">语言</format>
-                        ：使用列表来选择哪些文件类型应成为搜索的一部分。
-                        <img src="在结构搜索中指定搜索目标文件的类型.png" alt="在结构搜索中指定搜索目标文件的类型" width="706"/>
-                    </li>
-                    <li>
-                        <format style="bold">目标</format>
-                        ：在此选项列表中，选择要搜索的目标。
-                        <img src="在结构搜索中指定要搜索的目标.png" alt="在结构搜索中指定要搜索的目标" width="706"/>
-                    </li>
-                    <li>
-                        <format style="bold">递归</format>
-                        ：如果选中此选项，Intellij IDEA 将会执行递归操作，所有嵌套项都将包含在结果中。例如：当搜索方法调用时，启用此选项后，将会在
-                        <code>foo(foo(foo()))</code> 查找嵌套方法调用。禁用此选项后，将仅找到外部方法调用。
-                    </li>
-                    <li>
-                        <format style="bold">注入的代码</format>
-                        ：如果勾选此选项，则注入的代码（例如：
-                        <tooltip term="html">HTML</tooltip>
-                        代码中注入的
-                        <tooltip term="javascript">JavaScript</tooltip>
-                        代码或
-                        <tooltip term="java">Java</tooltip>
-                        中注入的
-                        <tooltip term="sql">SQL</tooltip>
-                        ）将会成为搜索过程中的一部分。
-                    </li>
-                    <li>
-                        <format style="bold">区分大小写</format>
-                        ：如果勾选此选项，搜索结果将匹配搜索目标的大小写。
-                    </li>
+                    <li><format style="bold">语言</format> ：使用列表来选择哪些文件类型应成为搜索的一部分。 <img src="在结构搜索中指定搜索目标文件的类型.png" alt="在结构搜索中指定搜索目标文件的类型" width="706"/></li>
+                    <li><format style="bold">目标</format> ：在此选项列表中，选择要搜索的目标。 <img src="在结构搜索中指定要搜索的目标.png" alt="在结构搜索中指定要搜索的目标" width="706"/></li>
+                    <li><format style="bold">递归</format> ：如果选中此选项，Intellij IDEA 将会执行递归操作，所有嵌套项都将包含在结果中。例如：当搜索方法调用时，启用此选项后，将会在 <code>foo(foo(foo()))</code> 查找嵌套方法调用。禁用此选项后，将仅找到外部方法调用。</li>
+                    <li><format style="bold">注入的代码</format> ：如果勾选此选项，则注入的代码（例如： <tooltip term="html">HTML</tooltip> 代码中注入的 <tooltip term="javascript">JavaScript</tooltip> 代码或 <tooltip term="java">Java</tooltip> 中注入的 <tooltip term="sql">SQL</tooltip> ）将会成为搜索过程中的一部分。</li>
+                    <li><format style="bold">区分大小写</format> ：如果勾选此选项，搜索结果将匹配搜索目标的大小写。</li>
                 </list>
-                <p>
-                    除上述选项外，还可以从
-                    <format style="bold">在项目</format>
-                    、
-                    <format style="bold">模块</format>
-                    、
-                    <format style="bold">目录</format>
-                    、
-                    <format style="bold">作用域</format>
-                    中选择一个作为搜索范围。
-                </p>
+                <p>除上述选项外，还可以从 <format style="bold">在项目</format>、<format style="bold">模块</format>、<format style="bold">目录</format>、<format style="bold">作用域</format> 中选择一个作为搜索范围。</p>
             </step>
             <step>
-                <p>
-                    单击
-                    <format style="bold">查找</format>
-                    ，Intellij IDEA 将会在
-                    <format style="bold">查找</format>
-                    工具窗口中显示查找结果。
-                </p>
+                <p>单击 <format style="bold">查找</format> ，Intellij IDEA 将会在 <format style="bold">查找</format> 工具窗口中显示查找结果。</p>
                 <img src="在查找工具窗口中显示的查找结果.png" alt="在查找工具窗口中显示的查找结果" width="706"/>
-                <note>
-                    通过单击
-                    <format style="bold">查找</format>
-                    工具窗口中的
-                    <format style="bold">从模板创建检查</format>
-                    按钮，可以将目标搜索模板添加到
-                    <a anchor="search-template" href="pro-tips.topic" summary="结构搜索检查">结构搜索检查</a>
-                    中，并在以后使用它来检查代码。
-                </note>
+                <note>通过单击 <format style="bold">查找</format> 工具窗口中的 <format style="bold">从模板创建检查</format> 按钮，可以将目标搜索模板添加到 <a anchor="search-template" href="pro-tips.topic" summary="结构搜索检查">结构搜索检查</a> 中，并在以后使用它来检查代码。</note>
                 <video src="https://www.youtube.com/watch?v=jk5GZ7-PZL0" width="706"/>
             </step>
         </procedure>
         <procedure id="structural-replace" title="从结构上替换目标" default-state="collapsed" collapsible="true">
             <step>
-                <p>
-                    单击
-                    <ui-path>
-                        <a anchor="main-menus"
-                           href="guided-tour-around-the-user-interface.topic"
-                           summary="IntelliJ IDEA 中的主菜单包含了多个顶级菜单项，每个菜单项下都有相应的子菜单和功能选项，这些菜单提供了对 IDE 的各种功能和设置的访问。">主菜单</a>
-                        | 编辑 | 查找 | 结构化替换
-                    </ui-path>
-                    以打开
-                    <format style="bold">结构替换</format>
-                    对话框
-                </p>
-                <note>
-                    在
-                    <format style="bold">结构替换</format>
-                    对话框中，可通过单击
-                    <img src="刷新.svg" alt=""/> 按钮快速切换至
-                    <format style="bold">结构搜索</format>
-                    对话框。
-                </note>
+                <p>单击 <ui-path><include from="reuse-library.topic" element-id="main-menus"/> | 编辑 | 查找 | 结构化替换</ui-path> 以打开 <format style="bold">结构替换</format> 对话框。</p>
+                <note>在 <format style="bold">结构替换</format> 对话框中，可通过单击<img src="刷新.svg" alt=""/> 按钮快速切换至 <format style="bold">结构搜索</format> 对话框。</note>
                 <video src="https://www.youtube.com/watch?v=QcOUjW25lZw" width="706"/>
             </step>
+            <step><p>在 <format style="bold">结构替换</format> 对话框中，将新的或现有的模板添加到搜索和替换模板区域。可以按照与 <a anchor="to-search-structurally" summary="">搜索模板</a> 相同的方式保存替换模板。</p></step>
             <step>
-                <p>
-                    在
-                    <format style="bold">结构替换</format>
-                    对话框中，将新的或现有的模板添加到搜索和替换模板区域。可以按照与
-                    <a anchor="to-search-structurally" summary="">搜索模板</a>
-                    相同的方式保存替换模板。
-                </p>
-            </step>
-            <step>
-                <p>
-                    如果需要在替换模板中为变量添加过滤器，请选中目标变量，并使用过滤器区域来管理过滤器。在过滤器区域中，可以为目标
-                    <a href="search-templates.topic" summary="">过滤器</a>
-                    添加指定条件。
-                </p>
+                <p>如果需要在替换模板中为变量添加过滤器，请选中目标变量，并使用过滤器区域来管理过滤器。在过滤器区域中，可以为目标 <a href="search-templates.topic" summary="">过滤器</a> 添加指定条件。</p>
                 <p>例如：下图所示的替换模板可以将找到的模板中的字段替换为小写字符。</p>
                 <img src="用于将字段从大写替换为小写的替换模板.png" alt="用于将字段从大写替换为小写的替换模板" width="706"/>
             </step>
@@ -394,31 +170,12 @@
                 <list>
                     <li><p><format style="bold">缩短完全限定名称</format> - 用简短的名称和导入替换 <tooltip term="fully-qualified-class-name">完全限定的类名</tooltip></p></li>
                     <li><p><format style="bold">重新格式化</format> - 自动格式化被替换的代码</p></li>
-                    <li>
-                        <p>
-                            <format style="bold">使用静态导入</format> - 尽可能使用
-                            <tooltip term="java-static-import">静态导入</tooltip>
-                            进行替换，例如：勾选该选项后，
-                            <tooltip term="java-static-method">静态方法</tooltip>
-                            <code>Math.abs(i)</code> 的方法调用就会被替换为 <code>abs(i)</code>
-                        </p>
-                    </li>
+                    <li><p><format style="bold">使用静态导入</format> - 尽可能使用 <tooltip term="java-static-import">静态导入</tooltip> 进行替换，例如：勾选该选项后， <tooltip term="java-static-method">静态方法</tooltip><code>Math.abs(i)</code> 的方法调用就会被替换为 <code>abs(i)</code>。</p></li>
                 </list>
                 <img src="结构替换对话框中用于缩短结果长度的选项.png" alt="结构替换对话框中用于缩短结果长度的选项" width="706"/>
-                <p>
-                    勾选必要的选项后，单击
-                    <format style="bold">查找</format> ，
-                    Intellij IDEA 会在 <format style="bold">查找</format> 工具窗口中显示结果。
-                </p>
+                <p>勾选必要的选项后，单击 <format style="bold">查找</format> ， Intellij IDEA 会在 <format style="bold">查找</format> 工具窗口中显示结果。</p>
             </step>
-            <step>
-                <p>
-                    在
-                    <format style="bold">查找</format>
-                    工具窗口中，可以进一步处理查找结果，逐个替换找到的内容，或者是一次性替换所有内容，又或者是预览可能的更改。还可以将替换模板添加到
-                    <a href="pro-tips.topic" anchor="search-template" summary="">结构搜索检查</a> 中，并将其作为代码的快速检查修复工具。
-                </p>
-            </step>
+            <step><p>在 <format style="bold">查找</format> 工具窗口中，可以进一步处理查找结果，逐个替换找到的内容，或者是一次性替换所有内容，又或者是预览可能的更改。还可以将替换模板添加到<a href="pro-tips.topic" anchor="search-template" summary="">结构搜索检查</a> 中，并将其作为代码的快速检查修复工具。</p></step>
             <video src="https://www.youtube.com/watch?v=HNpeVv2uqMM" width="706"/>
         </procedure>
     </snippet>

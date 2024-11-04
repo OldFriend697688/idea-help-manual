@@ -6,17 +6,17 @@
                   name="Intellij IDEA 帮助手册"
                   start-page="getting-started.topic">
     <toc-element topic="getting-started.topic">
+        <toc-element topic="accessibility.topic"/>
         <toc-element topic="discover-intellij-idea.topic">
             <toc-element topic="guided-tour-around-the-user-interface.topic"/>
             <toc-element topic="pro-tips.topic"/>
             <toc-element topic="getting-help.topic"/>
         </toc-element>
         <toc-element topic="installation-guide.topic">
-            <toc-element topic="install.topic"/>
+            <toc-element topic="run-for-the-first-time.topic"/>
             <toc-element topic="uninstall.topic"/>
             <toc-element topic="register.topic"/>
             <toc-element topic="update.topic"/>
-            <toc-element topic="run-for-the-first-time.topic"/>
         </toc-element>
         <toc-element topic="working-offline.topic"/>
         <toc-element topic="plug-in-system.topic">

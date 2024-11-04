@@ -5,61 +5,27 @@
        xsi:noNamespaceSchemaLocation="https://resources.jetbrains.com/writerside/1.0/topic.v2.xsd"
        title="简要概述" id="discover-intellij-idea">
     <chapter id="overview" title="概述">
-        <p>
-            <a href="https://www.jetbrains.com/zh-cn/idea/">Intellij IDEA</a> 是
-            <tooltip term="java">Java</tooltip> <tooltip term="programming-language">编程语言</tooltip> 的
-            <tooltip term="ide">集成开发环境</tooltip> 。被业界誉为是最好的 Java 开发工具，尤其在
-            <tooltip term="idea-code-completion">智能代码助手</tooltip> 、
-            <tooltip term="idea-code-automatic-prompt">代码自动提示</tooltip> 、
-            <tooltip term="idea-code-refactoring">代码重构</tooltip> 、<tooltip term="jakarta-ee">Jakarta EE</tooltip> 支持、
-            <tooltip term="version-control">版本控制</tooltip> 工具（ <tooltip term="git">Git</tooltip> 、
-            <tooltip term="svn">SVN</tooltip> 等）、 <tooltip term="unit-test">单元测试</tooltip>
-            （<tooltip term="JUnit">JUnit</tooltip> 等）、
-            <tooltip term="code-static-analysis">代码分析</tooltip> 、 创新的
-            <tooltip term="gui">GUI</tooltip> 设计等方面的功能可以说是超常的。
-        </p>
+        <p><a href="https://www.jetbrains.com/zh-cn/idea/">Intellij IDEA</a> 是 <tooltip term="java">Java</tooltip> <tooltip term="programming-language">编程语言</tooltip> 的 <tooltip term="ide">集成开发环境</tooltip> 。被业界誉为是最好的 Java 开发工具，尤其在 <tooltip term="idea-code-completion">智能代码助手</tooltip> 、<tooltip term="idea-code-automatic-prompt">代码自动提示</tooltip> 、<tooltip term="idea-code-refactoring">代码重构</tooltip> 、<tooltip term="jakarta-ee">Jakarta EE</tooltip> 支持、 <tooltip term="version-control">版本控制</tooltip> 工具（ <tooltip term="git">Git</tooltip> 、<tooltip term="svn">SVN</tooltip> 等）、 <tooltip term="unit-test">单元测试</tooltip>（<tooltip term="JUnit">JUnit</tooltip> 等）、 <tooltip term="code-static-analysis">代码分析</tooltip> 、创新的 <tooltip term="gui">GUI</tooltip> 设计等方面的功能可以说是超常的。</p>
         <img src="IntelliJ-IDEA-Icon.svg" alt="Intellij IDEA Logo" width="706"/>
-        <p>
-            IntelliJ IDEA 是 JetBrains 公司研发的产品，以严谨著称的东欧程序员是其主要开发者。该软件有两个主要版本：社区版和旗舰版。社区版提供长期免费支持，但在功能丰富程度上不及旗舰版，且支持的
-            <tooltip term="programming-language">编程语言</tooltip> 较少。旗舰版包含许多高级功能和更多编程语言支持，但仅提供 <format style="bold">30</format> 天免费试用，之后则需要购买激活码。
-        </p>
+        <p>IntelliJ IDEA 是 JetBrains 公司研发的产品，以严谨著称的东欧程序员是其主要开发者。该软件有两个主要版本： <format style="bold">社区版</format> 和 <format style="bold">旗舰版</format> 。社区版提供长期免费支持，但在功能丰富程度上不及旗舰版，且支持的 <tooltip term="programming-language">编程语言</tooltip> 较少。旗舰版包含更多高级功能和更多编程语言支持，但仅提供 <format style="bold">30</format> 天免费试用，之后则需要购买激活码。</p>
     </chapter>
     <chapter id="cross-platform" title="跨平台">
         <note>
             <p>值得特别注意的是，不同操作系统在设计理念上存在着根本的差异，这种差异直接导致了它们在视觉界面和用户体验上的明显区别。</p>
             <p>尽管 IntelliJ IDEA 这款工具在 Windows、Linux 和 macOS 这三大主流操作系统平台上均提供服务，并确保了核心功能的一致性，但在各个平台上的操作习惯和界面布局仍略有不同。因此，用户需要根据自己所使用的操作系统，相应地调整使用习惯和方法。</p>
         </note>
-        <p>
-            Intellij IDEA 是一款 <tooltip term="cross-platform">跨平台</tooltip> 的 <tooltip term="ide">IDE</tooltip> ，可在
-            <tooltip term="windows">Windows</tooltip> 、 <tooltip term="macos">macOS</tooltip> 及
-            <tooltip term="linux">Linux</tooltip> 上提供一致的体验。
-        </p>
+        <p>Intellij IDEA 是一款 <tooltip term="cross-platform">跨平台</tooltip> 的 <tooltip term="ide">IDE</tooltip> ，可在 <tooltip term="windows">Windows</tooltip> 、 <tooltip term="macos">macOS</tooltip> 及 <tooltip term="linux">Linux</tooltip> 上提供一致的体验。</p>
         <img src="Intellij IDEA 支持的三大平台.png" alt="Intellij IDEA 支持的三大平台" width="706"/>
     </chapter>
     <chapter id="editions" title="版本介绍">
         <note>此手册将会重点讨论旗舰版的相关内容，而忽略社区版、 <tooltip term="release-candidate">RC</tooltip> 版、教育版等其他的版本。</note>
         <p>Intellij IDEA 提供多种版本，如：旗舰版、教育版、社区版、RC 版、 <tooltip term="eap">EAP</tooltip> 版。</p>
-        <p>
-            最常见且使用频次最高的是旗舰版和社区版，旗舰版功能强大，它支持多种语言及 Web
-            应用和企业级应用的开发，包括社区版本的全部功能，同时增加了对其他基于 IntelliJ 平台的 <tooltip term="ide">集成开发环境</tooltip>
-            所关注的语言的支持，以及对各种服务器端和前端框架、应用服务器、数据库集成和分析工具等的支持。
-        </p>
-        <p>
-            社区版是免费且开源的，这意味着您可以长期免费使用，无需支付任何额外费用。然而，与旗舰版相比，社区版支持的语言数量较少，并且可能不包含旗舰版中独有的某些高级开发辅助工具。有关旗舰版和社区版之间的详细差异，请参阅
-            IntelliJ IDEA 的  <a href="https://www.jetbrains.com/zh-cn/products/compare/?product=idea&amp;product=idea-ce">版本比较矩阵</a>。
-        </p>
+        <p>最常见且使用频次最高的是旗舰版和社区版，旗舰版功能强大，它支持多种语言及 Web 应用和企业级应用的开发，包括社区版本的全部功能，同时增加了对其他基于 IntelliJ 平台的 <tooltip term="ide">集成开发环境</tooltip> 所关注的语言的支持，以及对各种服务器端和前端框架、应用服务器、数据库集成和分析工具等的支持。</p>
+        <p>社区版是免费且开源的，这意味着您可以长期免费使用，无需支付任何额外费用。然而，与旗舰版相比，社区版支持的语言数量较少，并且可能不包含旗舰版中独有的某些高级开发辅助工具。有关旗舰版和社区版之间的详细差异，请参阅 IntelliJ IDEA 的 <a href="https://www.jetbrains.com/zh-cn/products/compare/?product=idea&amp;product=idea-ce">版本比较矩阵</a>。</p>
     </chapter>
     <chapter id="supported-programming-languages" title="支持的语言">
-        <note>
-            可以通过浏览 <a href="https://plugins.jetbrains.com/marketplace">JetBrains Marketplace</a>
-            查找官方插件，这些插件可为当今使用的几乎所有语言、框架或技术添加支持，也可以查找第三方插件。有关如何在
-            IntelliJ IDEA 中管理插件的详细信息，请参阅 <a href="install-plugin.topic" summary="安装插件以拓展 Intellij IDEA 的功能。">安装插件</a>。
-        </note>
-        <p>
-            现代应用程序的开发涉及使用多种语言、工具、框架和技术。IntelliJ IDEA 被设计为
-            <tooltip term="jvm">JVM</tooltip> 语言的 <tooltip term="ide">IDE</tooltip> ，但许多
-            <a href="plug-in-system.topic" summary="插件系统赋予了 Intellij IDEA 强大的功能拓展能力。">插件</a> 可以扩展它以提供多语言支持。
-        </p>
+        <note>可以通过浏览 <a href="https://plugins.jetbrains.com/marketplace">JetBrains Marketplace</a> 查找官方插件，这些插件可为当今使用的几乎所有语言、框架或技术提供支持，也可以查找第三方插件。有关如何在 IntelliJ IDEA 中管理插件的详细信息，请参阅 <a href="install-plugin.topic" summary="安装插件以拓展 Intellij IDEA 的功能。">安装插件</a>。</note>
+        <p>现代应用程序的开发涉及使用多种语言、工具、框架和技术。IntelliJ IDEA 被设计为 <tooltip term="jvm">JVM</tooltip> 语言的 <tooltip term="ide">IDE</tooltip> ，但许多 <a href="plug-in-system.topic" summary="插件系统赋予了 Intellij IDEA 强大的功能拓展能力。">插件</a> 可以扩展它以提供多语言支持。</p>
         <tabs>
             <tab title="JVM 语言">
                 <p>IntelliJ IDEA 支持下列可编译成 <tooltip term="jvm">JVM</tooltip> <tooltip term="bytecode">字节码</tooltip> 的语言。</p>
@@ -97,21 +63,10 @@
                 </list>
             </tab>
         </tabs>
-        <note>Intellij IDEA 官方不支持 <tooltip term="c">C</tooltip> / <tooltip term="c++">C++</tooltip> ，但可以使用 <a href="https://www.jetbrains.com/zh-cn/clion/">CLion</a>。</note>
+        <note>Intellij IDEA 官方不支持 <tooltip term="c">C</tooltip> / <tooltip term="c++">C++</tooltip> ，但可以使用 <a href="https://www.jetbrains.com/zh-cn/clion/">CLion</a>。&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;</note>
         <chapter id="language-plugin-vs-separate-IDE" title="选择语言插件还是单独的 IDE？">
-            <p>
-                Intellij IDEA Ultimate（旗舰版）是绝大多数基于 Intellij 平台的
-                <tooltip term="ide">集成开发环境</tooltip>
-                的超集。如果启用了捆绑的语言插件，它将支持在更具体的 JetBrains IDEs 中所具有的全部功能，如：
-                <a href="https://www.jetbrains.com.cn/pycharm/">PyCharm</a> 、
-                <a href="https://www.jetbrains.com.cn/webstorm/">WebStorm</a> 、
-                <a href="https://www.jetbrains.com.cn/phpstorm/">PhpStorm</a> 等。
-            </p>
-            <p>
-                举例来说，如果项目主要使用 Java 进行开发，但也辅助使用
-                <a href="https://www.python.org/" summary="Python 是一种广泛使用的高级编程语言，以其简洁明了的语法和强大的库支持而著称。">Python</a>
-                进行开发，则建议使用 Intellij IDEA 和 Python 语言插件。如果项目主要使用 Python 进行开发，则建议使用 PyCharm。
-            </p>
+            <p>Intellij IDEA Ultimate（旗舰版）是绝大多数基于 Intellij 平台的 <tooltip term="ide">集成开发环境</tooltip> 的超集。如果启用了捆绑的语言插件，它将支持在更具体的 JetBrains IDEs 中所具有的全部功能，如： <a href="https://www.jetbrains.com.cn/pycharm/">PyCharm</a> 、<a href="https://www.jetbrains.com.cn/webstorm/">WebStorm</a> 、<a href="https://www.jetbrains.com.cn/phpstorm/">PhpStorm</a> 等。</p>
+            <p>举例来说，如果项目主要使用 Java 进行开发，但也辅助使用 <a href="https://www.python.org/" summary="Python 是一种广泛使用的高级编程语言，以其简洁明了的语法和强大的库支持而著称。">Python</a> 进行开发，则建议使用 Intellij IDEA 和 Python 语言插件。如果项目主要使用 Python 进行开发，则建议使用 PyCharm。</p>
         </chapter>
     </chapter>
     <seealso>

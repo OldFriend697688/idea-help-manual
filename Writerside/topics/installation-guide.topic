@@ -4,6 +4,211 @@
 <topic xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
        xsi:noNamespaceSchemaLocation="https://resources.jetbrains.com/writerside/1.0/topic.v2.xsd"
        title="安装指南" id="installation-guide">
-
-    <p>Start typing here...</p>
+    <p>Intellij IDEA 是一个 <tooltip term="cross-platform">跨平台</tooltip> 的 <tooltip term="ide">IDE</tooltip> ，在 <tooltip term="windows">Windows</tooltip> 、<tooltip term="macos">macOS</tooltip> 和 <tooltip term="linux">Linux</tooltip> 操作系统上提供一致体验。</p>
+    <p>Intellij IDEA 现提供以下版本：</p>
+    <list>
+        <li><format style="bold">社区版</format> 免费且开源，采用 <a href="https://zh.wikipedia.org/zh-hans/Apache许可证">Apache 2.0 许可证</a> 。它提供用于 <tooltip term="jvm">JVM</tooltip> 和 <tooltip term="android">Android</tooltip> 开发的基本功能。</li>
+        <li><format style="bold">旗舰版</format> 是商业软件，提供 30 天免费试用。它为 Web 和企业开发提供了额外的工具和功能。</li>
+    </list>
+    <p>有关旗舰版和社区版之间的详细差异，请参阅 IntelliJ IDEA 的 <a href="https://www.jetbrains.com/zh-cn/products/compare/?product=idea&amp;product=idea-ce">版本比较矩阵</a>。</p>
+    <chapter id="requirements" title="系统要求">
+        <table>
+            <tr><td width="150">需求</td><td width="290">最低配置</td><td>推荐配置</td></tr>
+            <tr><td>RAM（内存）</td><td>2G 空余系统内存。</td><td>8G 总系统内存。</td></tr>
+            <tr><td>CPU（中央处理器）</td><td>任何现代 CPU。</td><td>多核 CPU。IntelliJ IDEA 支持多线程处理不同的操作和进程，因此可用 CPU 内核越多，速度越快。</td></tr>
+            <tr><td>硬盘空间</td><td>2.5 GB，另有 1 GB 用于缓存。</td><td><tooltip term="ssd">固态硬盘</tooltip> ，至少有 5 GB 的可用空间。</td></tr>
+            <tr><td>显示器分辨率</td><td>1024 × 768。</td><td>1920 × 1080 或更高。</td></tr>
+            <tr><td>操作系统</td><td><p>官方正式发布的 64 位版本的操作系统。</p><list><li><a href="https://www.microsoft.com/zh-cn">Windows</a> 8 或更高版本。</li><li><a href="https://support.apple.com/zh-cn/102662">macOS</a> 10.14 或更高版本。</li><li>支持 <a href="https://www.gnome.org/">GNOME</a> 、<a href="https://kde.org/zh-cn/">KDE</a> 或 <a href="https://unityd.org/">Unity</a> 桌面环境的任何 <a href="https://zh.wikipedia.org/zh-cn/Linux">Linux</a> 发行版。</li></list><warning>预览版本操作系统不受支持。</warning></td><td>最新版本的 64 位 Windows、macOS 或 Linux 系统（例如 <a href="https://www.debian.org/index.zh-cn.html">Debian</a> 、<a href="https://ubuntu.com/">Ubuntu</a> 或 <a href="https://www.redhat.com/zh/technologies/linux-platforms/enterprise-linux">RHEL</a>）。</td></tr>
+            <tr>
+                <td>注意事项</td>
+                <td colspan="2">
+                   <note>您无需安装 <a href="https://www.oracle.com/java/technologies/javase-downloads.html" summary="Java 是一种广泛使用的、面向对象的编程语言，由 Sun Microsystems 公司（现已被 Oracle 公司收购）于 1995 年推出。它设计用来有一个最小的实现依赖，易于理解，并且能够一次编写，到处运行。Java 广泛应用于企业级应用、移动应用（尤其是 Android）以及云计算中。">Java</a> 即可运行 IntelliJ IDEA，这是因为 <tooltip term="jetbrains runtime">JetBrains Runtime</tooltip> 已与 <tooltip term="ide">IDE</tooltip> （基于 <tooltip term="jre">JRE</tooltip> 17）捆绑在一起。但是，要开发 Java 应用程序，则需要独立的 <a href="https://www.oracle.com/cn/java/technologies/downloads/">JDK</a>。</note>
+                   <warning>较旧的 Linux 发行版（Ubuntu 18.04 和 <a href="https://www.centos.org/">CentOS</a> 8 之前）不支持 IntelliJ IDEA 2022.1 版本及以上所需的 <a href="https://github.com/JetBrains/jcef">JCEF</a> 版本。这意味着依赖嵌入式浏览器的组件将无法工作，例如 <a href="https://www.jetbrains.com/help/idea/2022.3/markdown.html#preview">Markdown HTML 预览</a> 和 <a href="https://www.jetbrains.com/help/idea/2022.3/interactive-debugger-console.html">交互式调试控制台</a>。</warning>
+                </td>
+            </tr>
+        </table>
+    </chapter>
+    <chapter id="standalone" title="独立安装">
+        <p>手动安装 IntelliJ IDEA 可以管理每个实例以及所有配置文件的位置。</p>
+        <tabs>
+            <tab title="Windows">
+                <procedure>
+                    <step>
+                        <p><a href="https://www.jetbrains.com/zh-cn/idea/download/other.html">下载 .exe 安装程序</a>。</p>
+                        <note>ARM64 处理器有单独的安装程序。&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;</note>
+                        <img src="IDEA 2022.3.3 Windows .exe 安装包下载.png" alt="IDEA 2022.3.3 Windows .exe 安装包下载" width="706"/>
+                        <video src="https://www.youtube.com/watch?v=7QrP3h5mKiY" width="706"/>
+                    </step>
+                    <step>
+                        <p>运行安装程序并按照向导步骤操作。</p>
+                        <p>在 <format style="bold">Installation Options</format> 步骤中，可以配置以下内容：</p>
+                        <list>
+                            <li><p>创建 Intellij IDEA 的桌面快捷方式。</p></li>
+                            <li><p>将包含 Intellij IDEA <a href="working-with-the-ide-features-from-command-line.topic">命令行启动器</a> 的文件夹添加到 <code>PATH</code> 环境变量，以便能够从命令提示符中的任何工作目录运行它们。</p></li>
+                            <li><p>将 <format style="bold">将文件夹作为项目打开</format> 操作添加到系统上下文菜单中（右键单击文件夹时）。</p></li>
+                            <li><p>将特定 <tooltip term="file-extension">文件扩展名</tooltip> 与 IntelliJ IDEA 关联，以便双击打开它们。</p></li>
+                        </list>
+                        <img src="IDEA 安装时的可配置选项.png" alt="IDEA 安装时的可配置选项" width="706"/>
+                    </step>
+                    <video src="https://www.youtube.com/watch?v=kRU2ypcvTfk" width="706"/>
+                    <note>要运行 IntelliJ IDEA，请在 Windows <format style="bold">开始</format> 菜单中找到它，或者使用桌面快捷方式。也可以在安装目录下的 <format style="bold">bin</format> 文件夹中运行启动器批处理脚本或可执行文件。</note>
+                </procedure>
+                <include from="reuse-library.topic" element-id="standalone-tips" />
+            </tab>
+            <tab title="Windows（ZIP）">
+                <procedure>
+                    <step>
+                        <a href="https://www.jetbrains.com/zh-cn/idea/download/other.html">下载 ZIP 压缩包。</a>
+                        <img src="IDEA 2022.3.3 Windows ZIP 版下载.png" alt="IDEA 2022.3.3 Windows ZIP 压缩包" width="706"/>
+                    </step>
+                    <step>将压缩包解压缩到选定的目标文件夹。</step>
+                    <step>
+                        <p>进入目标文件夹下的 <format style="bold">bin</format> 文件夹，运行其中的启动批处理脚本或可执行文件。</p>
+                        <video src="https://www.youtube.com/watch?v=Sske1dRifNY" width="706"/>
+                    </step>
+                </procedure>
+                <include from="reuse-library.topic" element-id="standalone-tips" />
+            </tab>
+            <tab title="Linux">
+                <procedure>
+                    <step>
+                        <a href="https://www.jetbrains.com/zh-cn/idea/download/other.html">下载 .tar.gz 压缩包。</a>
+                        <note>ARM64 处理器有单独的 tarball 文件。&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;</note>
+                        <img src="IDEA 2022.3.3 Linux tar.gz 镜像下载.png" alt="IDEA 2022.3.3 Linux tar.gz 镜像下载" width="706"/>
+                    </step>
+                    <step>
+                        <p>将 tar 文件解压到支持文件运行的目标文件夹。</p>
+                        <p>例如：要将其解压到推荐的 <format style="bold">/opt</format> 文件夹，请运行以下命令：</p>
+                        <code-block lang="shell" prompt="$">sudo tar -xzf ideaIU-*.tar.gz -C /opt</code-block>
+                    </step>
+                    <step><p>从解压的目标目录中执行 idea.sh 脚本以运行 IntelliJ IDEA。</p></step>
+                </procedure>
+                <p>要创建桌面快捷方式，请执行以下操作之一：</p>
+                <list>
+                    <li>在欢迎屏幕上，点击 <ui-path>配置 | 创建桌面快捷方式</ui-path>。</li>
+                    <li>在<include from="reuse-library.topic" element-id="main-menus" /> 中点击 <ui-path>工具 | 创建桌面快捷方式</ui-path>。</li>
+                </list>
+                <include from="reuse-library.topic" element-id="standalone-tips" />
+            </tab>
+            <tab title="macOS">
+                <procedure>
+                    <step>
+                        <p><a href="https://www.jetbrains.com/zh-cn/idea/download/other.html">下载镜像文件。</a></p>
+                        <note>英特尔和苹果芯片分别有独立的映像文件，在下载时请注意分辨。&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;</note>
+                        <img src="IDEA 2022.3.3 macOS dmg 镜像下载.png" alt="IDEA 2022.3.3 macOS dmg 镜像下载" width="706"/>
+                    </step>
+                    <step>将镜像文件挂载并拖动到 <format style="bold">应用程序</format> 文件夹。</step>
+                    <step>从 <format style="bold">应用程序</format> 文件夹、Launchpad 或 Spotlight 启动 IntelliJ IDEA 应用。</step>
+                </procedure>
+                <include from="reuse-library.topic" element-id="standalone-tips" />
+            </tab>
+        </tabs>
+    </chapter>
+    <chapter id="toolbox" title="使用 Toolbox App 安装">
+        <note>通过使用 Toolbox App 安装、管理、更新及卸载 JetBrains IDEs 并非是强制性的。 &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;</note>
+        <p><a href="https://www.jetbrains.com/toolbox-app/">JetBrains Toolbox App</a> 是安装 JetBrains 产品的推荐工具。使用它来安装和管理不同产品或同一产品的多个版本，包括 <a href="https://www.jetbrains.com/community/eap/">早期访问计划（EAP）</a> ，必要时进行更新和回滚，并轻松删除任何工具。它维护所有项目的列表，以便快速在正确的 <tooltip term="ide">IDE</tooltip> 和版本中打开任何项目。</p>
+        <img src="JetBrains Toolbox App 中文官网首页.png" alt="JetBrains Toolbox App" width="706"/>
+        <note>若安装 Toolbox App 之前安装过任何 JetBrains IDEs，则它将会自动开始管理这些 <tooltip term="ide">IDE</tooltip>。</note>
+        <tabs>
+            <tab title="Windows">
+                <procedure title="安装 Toolbox App">
+                    <step><p>从 <a href="https://www.jetbrains.com/zh-cn/toolbox-app/">官网</a> 下载 <format style="bold">.exe</format> 安装程序。</p></step>
+                    <step><p>运行安装程序并按照向导步骤完成安装。</p></step>
+                    <step>
+                        <p>运行 Toolbox App，点击通知栏区域中的 <img src="toolbox 图标.svg" alt=""/> ，然后选择想安装的产品。</p>
+                        <p>如果要安装特定版本，请点击 <img src="toolbox app 更多按钮.svg" alt="toolbox app 更多按钮"/> ，然后选择可用版本。</p>
+                    </step>
+                    <video src="https://www.youtube.com/watch?v=gSahote9lnY" width="706"/>
+                    <include from="reuse-library.topic" element-id="toolbox-login-tips" />
+                    <warning>因软件更新迭代较快，现 Toolbox App 已不支持下载 Intellij IDEA 2022.3.3 版本。</warning>
+                    <video src="https://www.youtube.com/watch?v=jNRMf4Bltco" width="706"/>
+                    <note>如果临时改变注意不想继续使用 Toolbox App，请参考如下视频卸载 Toolbox App。</note>
+                    <video src="https://www.youtube.com/watch?v=FpcWwcAeulE" width="706"/>
+                </procedure>
+            </tab>
+            <tab title="Linux">
+                <procedure title="安装 Toolbox App">
+                    <step>从 <a href="https://www.jetbrains.com/zh-cn/toolbox-app/">官网</a> 下载 <format style="bold">.tar.gz</format> 压缩包。</step>
+                    <step>
+                        <p>将 tar 包解压到支持文件执行的目录。</p>
+                        <p>例如：如果下载的版本是 1.17.7391，可以使用以下命令将其解压到推荐的 <format style="bold">/opt</format> 目录。</p>
+                        <code-block lang="shell" prompt="$">sudo tar -xzf jetbrains-toolbox-1.17.7391.tar.gz -C /opt</code-block>
+                    </step>
+                    <step>
+                        <p>从提取的目录中执行 Toolbox App 二进制文件来运行 Toolbox App。</p>
+                        <p>首次运行 Toolbox App 后，它会自动将应用图标 <img src="toolbox 图标.svg" alt=""/> 添加到主菜单。</p>
+                    </step>
+                    <step>
+                        <p>选择想安装的产品。</p>
+                        <p>如果要安装特定版本，请点击 <img src="toolbox app 更多按钮.svg" alt="toolbox app 更多按钮"/> ，然后选择可用版本。</p>
+                    </step>
+                    <include from="reuse-library.topic" element-id="toolbox-login-tips" />
+                </procedure>
+            </tab>
+            <tab title="macOS">
+                <procedure title="安装 Toolbox App">
+                    <step>
+                        <p>从 <a href="https://www.jetbrains.com/zh-cn/toolbox-app/">官网</a> 下载 <format style="bold">.dmg</format> 镜像文件。</p>
+                        <note>英特尔和苹果芯片分别有独立的映像文件，在下载时请注意分辨。&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;</note>
+                    </step>
+                    <step>将镜像文件挂载并拖动 Toolbox App 到 <format style="bold">应用程序</format> 文件夹。</step>
+                    <step>
+                        <p>运行 Toolbox App，点击主菜单中的图标，选择要安装的产品。</p>
+                        <p>如果要安装特定版本，请点击 <img src="toolbox app 更多按钮.svg" alt="toolbox app 更多按钮"/> ，然后选择可用版本。</p>
+                    </step>
+                    <include from="reuse-library.topic" element-id="toolbox-login-tips" />
+                </procedure>
+            </tab>
+        </tabs>
+        <note>如果是通过 Toolbox App 安装的 IntelliJ IDEA，可以在该应用中找到其安装目录，打开 IDE 实例的设置，展开配置，查找安装位置字段。</note>
+        <video src="https://www.youtube.com/watch?v=3udJjW6EYUA" width="706"/>
+    </chapter>
+    <chapter id="snap" title="在 Linux 上安装为 snap 包">
+        <p>您可以将 IntelliJ IDEA 安装为一个独立的  <a href="https://snapcraft.io/">snap</a> 包。由于 snap 包会自动更新，您的 IntelliJ IDEA 安装始终保持最新。 </p>
+        <note>
+            <p>要使用 snap，请按照 <a href="https://docs.snapcraft.io/core/install">安装指南</a> 安装并运行 snapd 服务。&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;</p>
+            <p>在 <code>Ubuntu 16.04 LTS</code> 及更高版本中，此服务已预先安装。</p>
+        </note>
+        <p>IntelliJ IDEA 通过两个渠道发布：</p>
+        <list>
+            <li>
+                <p>稳定通道只包含稳定版本。要安装 IntelliJ IDEA 的最新稳定版本，请运行以下命令：</p>
+                <tabs>
+                    <tab title="IntelliJ IDEA Ultimate"><code-block lang="shell" prompt="$">sudo snap install intellij-idea-ultimate --classic</code-block></tab>
+                    <tab title="IntelliJ IDEA Edu"><code-block lang="shell" prompt="$">sudo snap install intellij-idea-educational --classic</code-block></tab>
+                    <tab title="Community Edition"><code-block lang="shell" prompt="$">sudo snap install intellij-idea-community --classic</code-block></tab>
+                </tabs>
+                <note><code>--classic</code> 参数是必须的，因为 IntelliJ IDEA snap 需要像传统打包的应用程序一样完全访问系统。</note>
+            </li>
+            <li>
+                <p>边缘通道包含 <tooltip term="eap">EAP</tooltip> 版本。要安装 IntelliJ IDEA 的最新 EAP 版本，请运行以下命令：</p>
+                <tabs>
+                    <tab title="IntelliJ IDEA Ultimate"><code-block lang="shell" prompt="$">sudo snap install intellij-idea-ultimate --classic --edge</code-block></tab>
+                    <tab title="IntelliJ IDEA Edu"><code-block lang="shell" prompt="$">sudo snap install intellij-idea-educational --classic --edge</code-block></tab>
+                    <tab title="Community Edition"><code-block lang="shell" prompt="$">sudo snap install intellij-idea-community --classic --edge</code-block></tab>
+                </tabs>
+                <note>安装 snap 后，可以通过运行 <code>intellij-idea-community</code>、<code>intellij-idea-ultimate</code> 或 <code>intellij-idea-educational</code> 命令启动它。</note>
+            </li>
+        </list>
+        <p>要列出所有已安装的 snap，您可以运行 <code>sudo snap list</code> 。有关其他快照命令的信息，请参阅 <a href="https://docs.snapcraft.io/">Snapcraft 文档</a>。</p>
+    </chapter>
+    <chapter id="silent" title="Windows 系统下的静默安装">
+        <p>静默安装无任何用户界面，网络管理员可以使用它在多台机器上安装 IntelliJ IDEA，避免打扰其他用户。</p>
+        <p>要执行静默安装，请使用以下参数运行安装程序：</p>
+        <list>
+            <li><code>/S</code>: 启用静默安装。</li>
+            <li><code>/CONFIG</code>: 指定 <a anchor="silent-config" /> 的路径。</li>
+            <li><p><code>/D</code>: 指定安装文件夹的路径。</p><p>此参数必须是命令行中的最后一个，即使路径中包含空格，也不应包含任何引号。</p></li>
+        </list>
+        <p>例如：</p>
+        <code-block lang="shell" prompt=">">ideaIU.exe /S /CONFIG=d:\temp\silent.config /D=d:\IDE\IntelliJ IDEA Ultimate</code-block>
+        <p>为检查安装过程中的问题，请在 <code>/S</code> 和 <code>/D</code> 参数之间添加 <code>/LOG</code> 参数，并包含日志文件路径和名称。安装程序将生成指定日志文件。例如：</p>
+        <code-block lang="shell" prompt=">">ideaIU.exe /S /CONFIG=d:\temp\silent.config /LOG=d:\JetBrains\IDEA\install.log /D=d:\IDE\IntelliJ IDEA Ultimate</code-block>
+        <chapter id="silent-config" title="静默配置文件">
+            <p>您可以下载 IntelliJ IDEA 的 <a href="https://download.jetbrains.com/idea/silent.config">默认静默配置文件</a>。</p>
+            <p>静默配置文件定义了安装 IntelliJ IDEA 的选项。使用默认选项，静默安装仅对当前用户执行： <code>mode=user</code> 。如果您想为所有用户安装 IntelliJ IDEA，请将安装模式选项的值更改为 <code>mode=admin</code> 并以管理员身份运行安装程序。</p>
+            <p>每个 JetBrains 产品的默认静默配置文件都是唯一的。您可以根据需要修改它来启用或禁用各种安装选项。</p>
+            <note>可以执行静默安装，无需配置文件。在这种情况下，省略 <code>/CONFIG</code> 参数，并以管理员身份运行安装程序。如果没有静默配置文件，安装程序将忽略所有其他选项：它不会创建桌面快捷方式，添加关联，或更新 <code>PATH</code> 变量。但是，它仍然会在开始菜单下的 JetBrains 中创建一个快捷方式。</note>
+        </chapter>
+    </chapter>
 </topic>

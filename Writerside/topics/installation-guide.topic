@@ -85,8 +85,8 @@
                 </procedure>
                 <p>要创建桌面快捷方式，请执行以下操作之一：</p>
                 <list>
-                    <li>在欢迎屏幕上，点击 <ui-path>配置 | 创建桌面快捷方式</ui-path>。</li>
-                    <li>在<include from="reuse-library.topic" element-id="main-menus" /> 中点击 <ui-path>工具 | 创建桌面快捷方式</ui-path>。</li>
+                    <li>在欢迎屏幕上，单击 <ui-path>配置 | 创建桌面快捷方式</ui-path>。</li>
+                    <li>在<include from="reuse-library.topic" element-id="main-menus" /> 中单击 <ui-path>工具 | 创建桌面快捷方式</ui-path>。</li>
                 </list>
                 <include from="reuse-library.topic" element-id="standalone-tips" />
             </tab>
@@ -115,8 +115,8 @@
                     <step><p>从 <a href="https://www.jetbrains.com/zh-cn/toolbox-app/">官网</a> 下载 <format style="bold">.exe</format> 安装程序。</p></step>
                     <step><p>运行安装程序并按照向导步骤完成安装。</p></step>
                     <step>
-                        <p>运行 Toolbox App，点击通知栏区域中的 <img src="toolbox 图标.svg" alt=""/> ，然后选择想安装的产品。</p>
-                        <p>如果要安装特定版本，请点击 <img src="toolbox app 更多按钮.svg" alt="toolbox app 更多按钮"/> ，然后选择可用版本。</p>
+                        <p>运行 Toolbox App，单击通知栏区域中的 <img src="toolbox 图标.svg" alt=""/> ，然后选择想安装的产品。</p>
+                        <p>如果要安装特定版本，请单击 <img src="toolbox app 更多按钮.svg" alt="toolbox app 更多按钮"/> ，然后选择可用版本。</p>
                     </step>
                     <video src="https://www.youtube.com/watch?v=gSahote9lnY" width="706"/>
                     <include from="reuse-library.topic" element-id="toolbox-login-tips" />
@@ -140,7 +140,7 @@
                     </step>
                     <step>
                         <p>选择想安装的产品。</p>
-                        <p>如果要安装特定版本，请点击 <img src="toolbox app 更多按钮.svg" alt="toolbox app 更多按钮"/> ，然后选择可用版本。</p>
+                        <p>如果要安装特定版本，请单击 <img src="toolbox app 更多按钮.svg" alt="toolbox app 更多按钮"/> ，然后选择可用版本。</p>
                     </step>
                     <include from="reuse-library.topic" element-id="toolbox-login-tips" />
                 </procedure>
@@ -153,8 +153,8 @@
                     </step>
                     <step>将镜像文件挂载并拖动 Toolbox App 到 <format style="bold">应用程序</format> 文件夹。</step>
                     <step>
-                        <p>运行 Toolbox App，点击主菜单中的图标，选择要安装的产品。</p>
-                        <p>如果要安装特定版本，请点击 <img src="toolbox app 更多按钮.svg" alt="toolbox app 更多按钮"/> ，然后选择可用版本。</p>
+                        <p>运行 Toolbox App，单击主菜单中的图标，选择要安装的产品。</p>
+                        <p>如果要安装特定版本，请单击 <img src="toolbox app 更多按钮.svg" alt="toolbox app 更多按钮"/> ，然后选择可用版本。</p>
                     </step>
                     <include from="reuse-library.topic" element-id="toolbox-login-tips" />
                 </procedure>

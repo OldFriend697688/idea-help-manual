@@ -3,6 +3,224 @@
         SYSTEM "https://resources.jetbrains.com/writerside/1.0/xhtml-entities.dtd">
 <topic xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
        xsi:noNamespaceSchemaLocation="https://resources.jetbrains.com/writerside/1.0/topic.v2.xsd"
-       title="可访问性" id="accessibility">
-    <p>Start typing here...</p>
+       title="无障碍" id="accessibility">
+    <note>IntelliJ IDEA 允许启用各种辅助功能以满足您的需求。您可以使用 <tooltip term="screen-reader">屏幕阅读器</tooltip> 或调整字体大小、颜色以及某些 <tooltip term="user-interface">UI</tooltip> 元素的行为，令使用 IntelliJ IDEA 的过程更容易。</note>
+    <chapter id="screen-reader" title="设置屏幕阅读器">
+        <p>Intellij IDEA 完全支持 <tooltip term="windows">Windows</tooltip> 和 <tooltip term="macos">macOS</tooltip> 上的屏幕阅读器。</p>
+        <procedure id="enable-screen-reader" title="启用屏幕阅读器" type="steps">
+            <step>
+                <p>下载并启用您喜欢的屏幕阅读器：</p>
+                <tabs>
+                    <tab title="Windows">
+                        <list>
+                            <li>
+                                <p><a href="https://www.nvaccess.org/">NVDA</a> ：使用 NVDA 2019.3 或更高版本，以便与 IntelliJ IDEA 等 64 位 <tooltip term="java">Java</tooltip> 应用程序兼容。</p>
+                                <img src="NVDA 官网.png" alt="NVDA 官网" width="706"/>
+                            </li>
+                            <li>
+                                <p><a href="https://www.freedomscientific.com/Products/Blindness/JAWS">JAWS</a> ：使用 JAWS 12.0.1158 64 位或更高版本，以便与 IntelliJ IDEA 等 64 位 <tooltip term="java">Java</tooltip> 应用程序兼容。</p>
+                                <img src="JAWS 官网.png" alt="JAWS 官网" width="706"/>
+                            </li>
+                        </list>
+                    </tab>
+                    <tab title="macOS">
+                        <p><a href="https://www.apple.com/voiceover/info/guide/_1124.html">VoiceOver</a> ：苹果公司开发的一项创新性辅助技术，旨在帮助视力障碍用户更好地使用苹果的设备。这项技术内置于苹果的 macOS、iOS、watchOS 和 tvOS 操作系统中，允许用户通过听觉来获取屏幕上显示的信息。</p>
+                    </tab>
+                </tabs>
+            </step>
+            <step>
+                <p>如果检测到安装了屏幕阅读器，IntelliJ IDEA 会自动提示并建议启用屏幕阅读器。</p>
+                <p>首次启动 IntelliJ IDEA 时，在打开的对话框中点击 <format style="bold">启用</format>。</p>
+                <p>对于已经安装和配置过的 IntelliJ IDEA，也可以稍后或手动激活屏幕阅读器支持。</p>
+            </step>
+        </procedure>
+        <warning>请先下载并启用屏幕阅读器，然后再执行以下步骤。否则，将不会产生任何实际效果。&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;</warning>
+        <procedure title="安装并设置 IntelliJ IDEA" id="install-and-set-up" type="steps">
+            <step>
+                <p><a href="installation-guide.topic">下载并安装</a> Intellij IDEA。</p>
+                <note>对于 <tooltip term="windows">Windows</tooltip> 和 <tooltip term="macos">macOS</tooltip> ，当 IntelliJ IDEA 在首次启动时检测到屏幕阅读器时，它会显示一个对话框，您可以在其中为 IntelliJ IDEA 启用屏幕阅读器。</note>
+            </step>
+            <step>
+                <p>要在首次启动 IntelliJ IDEA 之前启用屏幕阅读器支持，请执行以下操作：</p>
+                <list type="bullet">
+                    <li>
+                        <p>打开包含个人设置（比如： <a href="settings-keymap.topic">按键映射</a>、 <a anchor="color-config">配色方案</a> 等）的配置目录。</p>
+                        <tabs>
+                            <tab title="Windows">
+                                <deflist>
+                                    <def title="语法">&#37;APPDATA&#37;\JetBrains\&lt;product&gt;&lt;version&gt;</def>
+                                    <def title="例子">C:\Users\OldFriend\AppData\Roaming\JetBrains\IntelliJIdea2022.3</def>
+                                </deflist>
+                                <video src="https://www.youtube.com/watch?v=WavOVaXhHtY" width="706"/>
+                            </tab>
+                            <tab title="macOS">
+                                <deflist>
+                                    <def title="语法">~/Library/Application Support/JetBrains/&lt;product&gt;&lt;version&gt;</def>
+                                    <def title="例子">~/Library/Application Support/JetBrains/IntelliJIdea2022.3</def>
+                                </deflist>
+                            </tab>
+                        </tabs>
+                    </li>
+                    <li><p>创建一个名为 <format style="bold">idea.properties</format> 的文件。</p></li>
+                    <li><p>将 <code>ide.support.screenreaders.enabled=true</code> 属性添加到创建的文件中。</p></li>
+                </list>
+            </step>
+            <step>
+                <p>启动 Intellij IDEA，位于 <ui-path>设置 | 外观与行为 | 外观</ui-path> 中的 <ui-path>支持屏幕阅读器</ui-path> 选项将被启用。</p>
+                <img src="启用屏幕阅读器支持.png" alt="启用屏幕阅读器支持" width="706"/>
+                <note>启用 <ui-path>支持屏幕阅读器</ui-path> 选项后，IntelliJ IDEA 会禁用 <a href="guided-tour-around-the-user-interface.topic" anchor="vcs-file-color" summary="在默认情况下，含有打开和保存文件、撤销和重做操作按钮的主工具栏是隐藏的。">主工具栏</a> 中图标的工具提示，将控件切换到键盘，并为屏幕阅读器调整某些控件。</note>
+            </step>
+        </procedure>
+    </chapter>
+    <chapter id="customize-ide" title="自定义 IDE">
+        <p>您可以根据您的辅助需求自行定制您的 IDE。</p>
+        <procedure id="red-green-deficiency" title="针对红绿色盲调整颜色">
+            <note>如果您有红绿色盲，可以调整 <tooltip term="ide">IDE</tooltip> 和编辑器的颜色。在这种情况下，代码通知（如通常以红色高亮显示的错误或通常以绿色显示的字符串）将以中性色显示。测试运行程序中进度条的颜色也会调整，以便于识别。</note>
+            <step>按下 <shortcut>Ctrl</shortcut><shortcut>Alt</shortcut><shortcut>S</shortcut> 打开 IDE <format style="bold">设置</format> ，然后选择 <ui-path>外观与行为 | 外观</ui-path>。</step>
+            <step>
+                <p>勾选 <format style="bold">针对红-绿色觉缺陷调整颜色</format> 并保存更改。</p>
+                <img src="针对红-绿色觉缺陷调整颜色.png" alt="针对红-绿色觉缺陷调整颜色" width="706"/>
+                <p>请看下面的示例， <format style="bold">String</format> 用绿色突出显示， <format style="bold">Errors</format> 用红色突出显示：</p>
+                <tabs>
+                    <tab title="启用前"><img src="https://resources.jetbrains.com/help/img/idea/2022.3/before_color_adjustment.png" alt="" /></tab>
+                    <tab title="启用后"><img src="https://resources.jetbrains.com/help/img/idea/2022.3/after_color_adjustment.png" alt=""/></tab>
+                </tabs>
+                <video src="https://www.youtube.com/watch?v=ih8VY7y49us" width="706"/>
+            </step>
+        </procedure>
+        <procedure id="scrollbars-contrast" title="为滚动条添加对比色">
+            <note>通过此处的步骤可以使 <a href="guided-tour-around-the-user-interface.topic" summary="编辑器是 Intellij IDEA 的核心功能之一，它为开发者提供了一个强大、智能和高度可配置的代码编写环境。" anchor="editor">编辑器</a> 中的滚动条更显眼。&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;</note>
+            <note>要配置编辑器的垂直滚动条颜色和不透明度，请使用 <a anchor="color-config">配色方案</a> 设置。&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;</note>
+            <step>按下 <shortcut>Ctrl</shortcut><shortcut>Alt</shortcut><shortcut>S</shortcut> 打开 IDE 设置，然后选择 <ui-path>外观与行为 | 外观</ui-path>。</step>
+            <step>
+                <p>在右侧的 <format style="bold">无障碍功能</format> 部分中，勾选 <format style="bold">使用对比度滚动条</format> 选项。</p>
+                <img src="使用对比度滚动条.png" alt="使用对比度滚动条" width="706"/>
+                <video src="https://www.youtube.com/watch?v=a_l_pD5_ihc" width="706"/>
+            </step>
+        </procedure>
+        <procedure title="为代码元素、编辑器、滚动条、超链接等配置颜色" id="color-config">
+            <note>您可以调整代码元素、错误、编辑器元素和工具窗口的颜色。您还可以配置编辑器中垂直滚动条的颜色。&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;</note>
+            <step>
+                <p>按下 <shortcut>Ctrl</shortcut><shortcut>Alt</shortcut><shortcut>S</shortcut> 打开 IDE 设置，然后选择 <ui-path>编辑器 | 配色方案 | 常规。</ui-path>。</p>
+                <img src="设置配色方案.png" alt="设置配色方案" width="706"/>
+            </step>
+            <step>
+                <p>从右侧的选项列表中，选择要调整颜色的元素。比如：您可以选择 <format style="bold">代码</format> ，然后调整注入的语言片段或匹配的大括号等的颜色。单击 <format style="bold">确定</format> 保存更改。</p>
+                <img src="调整语言片段或匹配的大括号的颜色.png" alt="调整语言片段或匹配的大括号的颜色" width="706"/>
+                <video src="https://www.youtube.com/watch?v=WS-3efMOxWI" width="706"/>
+            </step>
+            <note>您还可以调整调试器、控制台和其他 IDE 部分的颜色：设置位置位于 <ui-path>设置 | 编辑器 | 颜色方案</ui-path> 列表中的相应节点内。</note>
+            <img src="调整调试器、控制台以及 IDE 其他部分的颜色.png" alt="调整调试器、控制台以及 IDE 其他部分的颜色" width="706"/>
+        </procedure>
+        <procedure title="调整默认的 UI 字体" id="ui-fonts">
+            <note>您可以覆盖 <tooltip term="user-interface">UI</tooltip> 元素使用的默认字体。&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;</note>
+            <step>按下 <shortcut>Ctrl</shortcut><shortcut>Alt</shortcut><shortcut>S</shortcut> 打开 IDE 设置，然后选择 <ui-path>外观与行为 | 外观</ui-path>。</step>
+            <step>在右侧找到 <format style="bold">字体</format> 下拉列表，然后从其中选择一种字体并指定字体大小。</step>
+            <step>
+                <p>单击 <format style="bold">确定</format> 保存更改。</p>
+                <img src="调整 UI 默认字体以及大小.png" alt="调整 UI 默认字体以及大小" width="706"/>
+                <video src="https://www.youtube.com/watch?v=8ip0YImjEps" width="706"/>
+            </step>
+        </procedure>
+        <procedure title="调整工具窗口大小" id="resize-tool-window">
+            <note>您可以使用快捷键垂直或水平调整工具窗口的大小。&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;</note>            <step><p>垂直调整大小请按 <shortcut>Ctrl</shortcut><shortcut>Alt</shortcut><shortcut>Shift</shortcut><shortcut>Up</shortcut> 或 <shortcut>Ctrl</shortcut><shortcut>Alt</shortcut><shortcut>Shift</shortcut><shortcut>Down</shortcut> 。</p></step>
+            <step>
+                <p>水平方向调整大小请按 <shortcut>Ctrl</shortcut><shortcut>Alt</shortcut><shortcut>Shift</shortcut><shortcut>Left</shortcut> 或 <shortcut>Ctrl</shortcut><shortcut>Alt</shortcut><shortcut>Shift</shortcut><shortcut>Right</shortcut> 。</p>
+                <video src="https://www.youtube.com/watch?v=6Gz1MgUAwJA" width="706"/>
+            </step>
+        </procedure>
+        <procedure id="editor-text" title="调整编辑器中的文字大小">
+            <note>您可以在编辑器中更改文字的字体和大小。&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;</note>
+            <step>按下 <shortcut>Ctrl</shortcut><shortcut>Alt</shortcut><shortcut>S</shortcut> 打开 IDE 设置，然后选择 <ui-path>编辑器 | 常规</ui-path>。</step>
+            <step>
+                <p>从右侧选项中，勾选 <format style="bold">使用 Ctrl + 鼠标滚轮更改字号：</format> 选项，以便在编辑器中工作时快速更改文本大小（滚动鼠标滚轮）。</p>
+                <img alt="使用鼠标加快捷键更改编辑器字体大小" src="使用鼠标加快捷键更改编辑器字体大小.png" width="706"/>
+                <video src="https://www.youtube.com/watch?v=5sbMotGc9ZQ" width="706"/>
+            </step>
+            <step>如果需要指定精确的字体大小，请选择 <ui-path>编辑器 | 字体</ui-path>。</step>
+            <step>
+                <p>从右侧选项中，指定字体、大小、行距和其他可用选项。单击 <format style="bold">确定</format> 保存更改。</p>
+                <img src="调整编辑器字体及相关设置.png" alt="调整编辑器字体及相关设置" width="706"/>
+                <video src="https://www.youtube.com/watch?v=L6dr22ewXhY" width="706"/>
+            </step>
+        </procedure>
+        <procedure id="=shortcuts-customize" title="自定义快捷键">
+            <note>您可以配置自定义快捷键来执行您经常使用的操作。&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;</note>
+            <step>
+                <p>按下 <shortcut>Ctrl</shortcut><shortcut>Alt</shortcut><shortcut>S</shortcut> 打开 IDE 设置，然后选择 <ui-path>按键映射</ui-path>。</p>
+                <img src="按键映射.png" alt="按键映射" width="706"/>
+            </step>
+            <step>从右侧选项列表（比如： <a anchor="main-menus" href="guided-tour-around-the-user-interface.topic" summary="IntelliJ IDEA 中的主菜单包含了多个顶级菜单项，每个菜单项下都有相应的子菜单和功能选项，这些菜单提供了对 IDE 的各种功能和设置的访问。">主菜单</a> 、操作和工具）中选择您需要执行的操作。</step>
+            <step>
+                <p>右键单击所选项目，然后从上下文菜单中选择要执行的操作，比如： <format style="bold">添加键盘快捷键</format>、<format style="bold">添加鼠标快捷方式</format> 或 <format style="bold">添加缩写</format>。</p>
+                <img src="添加键盘快捷键、 添加鼠标快捷键或添加缩写.png" alt="添加键盘快捷键、 添加鼠标快捷键或添加缩写" width="706"/>
+            </step>
+            <step>
+                <p>在打开的对话框中，指定一个快捷键。如果您需要，请选择 <format style="bold">第二次按下</format> 选项并指定快捷键的附加键。单击 <format style="bold">确定</format> 保存更改。</p>
+                <img src="为目标操作添加第二次按下的附加快捷键.png" alt="为目标操作添加第二次按下的附加快捷键" width="706"/>
+            </step>
+            <step>
+                <p>单击 <format style="bold">确定</format> ，且勿按下 <shortcut>Enter</shortcut> ，它将被视为快捷键。</p>
+                <video src="https://www.youtube.com/watch?v=CNxkoEmOY-Y" width="706"/>
+            </step>
+            <note>您可以忽略冲突并为多个操作分配快捷键。但是，强烈建议您避免使用相同的快捷键绑定两个操作，因为这些操作的优先级未定义。</note>
+        </procedure>
+        <procedure id="smart-keys" title="自定义智能按键行为">
+            <note>您可以配置智能键的行为。&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;</note>
+            <step>
+                <p>按下 <shortcut>Ctrl</shortcut><shortcut>Alt</shortcut><shortcut>S</shortcut> 打开 IDE 设置，然后选择 <ui-path>编辑器 | 常规 | 智能按键</ui-path>。</p>
+                <img src="智能按键.png" alt="智能按键" width="706"/>
+            </step>
+            <step>
+                从右侧选项中选择或清除智能键选项，比如，您可以取消勾选插入成对括号或插入成对引号选项，该选项会自动插入闭合括号或引号，因为在使用 <tooltip term="screen-reader">屏幕阅读器</tooltip> 时，它可能没有用。单击 <format style="bold">确定</format> 保存更改。
+                <video src="https://www.youtube.com/watch?v=v5hXoOs4nTc" width="706"/>
+            </step>
+        </procedure>
+        <procedure id="code-completion-adjust" title="禁用自动代码补全">
+            <note>您可禁用自动代码补全，以免在使用 <tooltip term="screen-reader">屏幕阅读器</tooltip> 编辑器时自动插入代码元素。&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;</note>
+            <warning>在实际应用中，Intellij IDEA 可能无法自动触发代码补全。因此，在实际中推荐通过快捷键来手动触发代码补全。</warning>
+            <warning>如果按下快捷键后无任何实际效果，请检查是否已将输入法正确切换至英文输入法。</warning>
+            <step><p>按下 <shortcut>Ctrl</shortcut><shortcut>Alt</shortcut><shortcut>S</shortcut> 打开 IDE 设置，然后选择 <ui-path>编辑器 | 常规 | 代码补全</ui-path>。</p></step>
+            <step>
+                <p>取消勾选 <format style="bold">类型匹配完成</format> 选项。如有需要，取消勾选 <format style="bold">基本补全</format> 选项以禁用基本完成。</p>
+                <img src="代码补全.png" alt="代码补全" width="706"/>
+                <video src="https://www.youtube.com/watch?v=xlZZhOeUv3o" width="706"/>
+            </step>
+        </procedure>
+        <procedure id="custom-code-fold" title="自定义代码折叠">
+            <note>您可以控制代码折叠行为，并指定哪些代码应该或不应该折叠。&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;</note>
+            <step><p>按下 <shortcut>Ctrl</shortcut><shortcut>Alt</shortcut><shortcut>S</shortcut> 打开 IDE 设置，然后选择 <ui-path>编辑器 | 常规 | 代码折叠。</ui-path></p></step>
+            <step>
+                <p>从右侧选项中选择默认折叠的内容。</p>
+                <video src="https://www.youtube.com/watch?v=A7z5bR0vuq8" width="706"/>
+            </step>
+        </procedure>
+        <procedure id="custom-code-style" title="自定义代码样式">
+            <note>您可以配置空格、制表符和缩进。&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;</note>
+            <step>按下 <shortcut>Ctrl</shortcut><shortcut>Alt</shortcut><shortcut>S</shortcut> 打开 IDE 设置，然后选择 <ui-path>编辑器 | 代码样式 | 语言。</ui-path>。</step>
+            <step>
+                <p>从右侧选项中，单击 <format style="bold">制表符和缩进</format> 来配置制表符，或 <format style="bold">空格</format> 来配置空格的使用位置和方式。</p>
+                <img src="代码样式.png" alt="代码样式" width="706"/>
+            </step>
+            <step>单击 <format style="bold">确定</format> 保存更改。</step>
+        </procedure>
+        <procedure id="high-contrast-theme" title="设置高对比度颜色主题">
+            <note>您可以设置高对比度的界面主题以在 IntelliJ IDEA 中工作。界面主题定义了窗口、对话框和控件的外观。&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;</note>
+            <step>按下 <shortcut>Ctrl</shortcut><shortcut>Alt</shortcut><shortcut>S</shortcut> 打开 IDE 设置，然后选择 <ui-path>外观与行为 | 外观</ui-path>。</step>
+            <step>
+                <p>在 <tooltip term="user-interface">UI</tooltip> 选项区域，从主题列表中选择 <format style="bold">High Contrast</format> ，然后单击 <format style="bold">确定</format> 应用更改。</p>
+                <img src="设置高对比度主题.gif" alt="设置高对比度主题" width="706"/>
+            </step>
+        </procedure>
+        <procedure id="high-contrast-scheme" title="设置高对比度配色方案">
+            <note>您可以为编辑器设置高对比度的配色方案。IntelliJ IDEA 使用 <a anchor="color-config">配色方案</a> 来帮助您定义编辑器中的首选颜色和字体。</note>
+            <step>按下 <shortcut>Ctrl</shortcut><shortcut>Alt</shortcut><shortcut>S</shortcut> 打开 IDE 设置，然后选择 <ui-path>编辑器 | 配色方案</ui-path>。</step>
+            <step>在 <format style="bold">配色方案</format> 页面，从 <format style="bold">方案</format> 列表中选择 <format style="bold">高对比度</format>。</step>
+            <step>
+                <p>单击 <format style="bold">确定</format> 保存更改。</p>
+                <img src="为高对比度主题设置配色方案.png" alt="为高对比度主题设置配色方案" width="706"/>
+            </step>
+        </procedure>
+    </chapter>
+    <p>您可以查阅 <a href="using-code-editor.topic" >编辑器基础</a> 、<a href="mastering-keyboard-shortcuts.topic">键盘快捷键</a> 和 <a href="guided-tour-around-the-user-interface.topic" summary="了解 Intellij IDEA 用户界面的主要构成部分。" /> 以熟悉其他有用的快捷键和相关知识。</p>
 </topic>

@@ -60,7 +60,7 @@
             <step>预览并应用更改。</step>
         </procedure>
         <chapter title="案例" id="invert-boolean-example">
-            <compare>
+            <compare first-title="反转之前" second-title="反转之后">
                 <code-block lang="java" show-white-spaces="true">
                     private double a;
                     ...
@@ -84,7 +84,7 @@
                     }
                 </code-block>
             </compare>
-            <compare>
+            <compare first-title="反转之前" second-title="反转之后">
                 <code-block lang="java" show-white-spaces="true">
                     boolean b = true;
                     ...

@@ -60,6 +60,8 @@
 
    <!-- 术语概念 -->
    <term name="reload">重新加载</term>
+   <term name="screen-reader">屏幕阅读器是一种辅助技术软件，它允许视力障碍或盲人用户通过听觉来获取屏幕上显示的信息。这种软件能够朗读文本、描述图形和用户界面元素，以及提供键盘导航功能，帮助用户浏览网页、操作应用程序和阅读文档。屏幕阅读器通过合成语音或盲文显示器输出信息，使得视觉内容对视觉障碍者变得可访问。常见的屏幕阅读器有 JAWS、NVDA 和 VoiceOver 等，它们极大地提高了视障人士的数字生活质量和独立性。</term>
+   <term name="user-interface">用户界面（User Interface，简称：UI）是人与计算机系统交互的桥梁，它通过图形化设计将信息以直观、易理解的方式呈现给用户。一个优秀的用户界面应具备以下特点：清晰性，让用户快速理解功能；易用性，降低操作难度；一致性，保持界面风格统一；美观性，提升用户体验。UI设计主要包括以下几个方面：布局设计，合理安排元素位置；交互设计，优化操作逻辑；视觉设计，注重色彩、字体等视觉元素。随着科技的发展，用户界面不断演进，如今已广泛应用于网页、移动应用、桌面软件等领域。</term>
    <term name="jetbrains runtime">JetBrains Runtime 是一个基于 OpenJDK 的开源 Java 运行时环境（JRE），由 JetBrains 公司开发和维护。它是为了优化 IntelliJ IDEA、PyCharm、WebStorm 等 JetBrains 开发工具的性能和稳定性而创建的。</term>
    <term name="jre">JRE，全称 Java Runtime Environment，即 Java 运行时环境。</term>
    <term name="ssd">固态硬盘（SSD，Solid State Drive）是一种高速存储设备，它使用闪存（NAND型）作为永久性存储介质，与传统的机械硬盘（HDD，Hard Disk Drive）相比，具有很多优势。</term>

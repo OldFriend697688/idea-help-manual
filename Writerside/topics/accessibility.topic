@@ -75,7 +75,7 @@
     <chapter id="customize-ide" title="自定义 IDE">
         <p>您可以根据您的辅助需求自行定制您的 IDE。</p>
         <procedure id="red-green-deficiency" title="针对红绿色盲调整颜色">
-            <note>如果您有红绿色盲，可以调整 <tooltip term="ide">IDE</tooltip> 和编辑器的颜色。在这种情况下，代码通知（如通常以红色高亮显示的错误或通常以绿色显示的字符串）将以中性色显示。测试运行程序中进度条的颜色也会调整，以便于识别。</note>
+            <note>如果您有红绿色盲，可以调整 <tooltip term="ide">IDE</tooltip> 和编辑器的颜色。在这种情况下，代码通知（ <format style="italic" color="Black">如通常以红色高亮显示的错误或通常以绿色显示的字符串</format> ）将以中性色显示。测试运行程序中进度条的颜色也会调整，以便于识别。</note>
             <step>按下 <shortcut>Ctrl</shortcut><shortcut>Alt</shortcut><shortcut>S</shortcut> 打开 IDE <format style="bold">设置</format> ，然后选择 <ui-path>外观与行为 | 外观</ui-path>。</step>
             <step>
                 <p>勾选 <format style="bold">针对红-绿色觉缺陷调整颜色</format> 并保存更改。</p>
@@ -197,7 +197,7 @@
         </procedure>
         <procedure id="custom-code-style" title="自定义代码样式">
             <note>您可以配置空格、制表符和缩进。&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;</note>
-            <step>按下 <shortcut>Ctrl</shortcut><shortcut>Alt</shortcut><shortcut>S</shortcut> 打开 IDE 设置，然后选择 <ui-path>编辑器 | 代码样式 | 语言。</ui-path>。</step>
+            <step>按下 <shortcut>Ctrl</shortcut><shortcut>Alt</shortcut><shortcut>S</shortcut> 打开 IDE 设置，然后选择 <ui-path>编辑器 | 代码样式 | 语言。</ui-path></step>
             <step>
                 <p>从右侧选项中，单击 <format style="bold">制表符和缩进</format> 来配置制表符，或 <format style="bold">空格</format> 来配置空格的使用位置和方式。</p>
                 <img src="代码样式.png" alt="代码样式" width="706"/>

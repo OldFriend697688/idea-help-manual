@@ -4,6 +4,12 @@
 <topic xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
        xsi:noNamespaceSchemaLocation="https://resources.jetbrains.com/writerside/1.0/topic.v2.xsd"
        title="共享 IDE 设置" id="sharing-your-ide-settings">
-
-    <p>Start typing here...</p>
+    <chapter id="import-export-settings" title="导出您的设置">
+        <procedure title="将设置导出到 ZIP 存档" id="export-settings-to-a-zip-archive">
+            <step></step>
+        </procedure>
+        <procedure title="从 ZIP 存档导入设置" id="import-settings-from-a-zip-archive">
+            <step></step>
+        </procedure>
+    </chapter>
 </topic>

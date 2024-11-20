@@ -4,7 +4,7 @@
 <topic xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
        xsi:noNamespaceSchemaLocation="https://resources.jetbrains.com/writerside/1.0/topic.v2.xsd"
        title="reuse-library" id="reuse-library">
-    <!-- 提示信息 -->
+    <!--提示信息-->
     <snippet id="toolbox-login-tips"><note>从 Toolbox App 登录 JetBrains 帐户，它将自动激活安装的任何 IDE 的可用许可证。</note></snippet>
     <snippet id="main-menus"><a anchor="main-menus" instance="hi" href="guided-tour-around-the-user-interface.topic" summary="IntelliJ IDEA 中的主菜单包含了多个顶级菜单项，每个菜单项下都有相应的子菜单和功能选项，这些菜单提供了对 IDE 的各种功能和设置的访问。">主菜单</a></snippet>
     <snippet id="context-menus"><a anchor="context-menus" href="guided-tour-around-the-user-interface.topic" instance="hi" summary="IntelliJ IDEA 的上下文菜单（也称为右键菜单）是在用户在 IDE 的不同部分右键单击时弹出的菜单。上下文菜单提供了与当前上下文相关的操作和选项，这些选项根据用户单击的位置和选择的元素而变化。">上下文菜单</a></snippet>
@@ -13,7 +13,13 @@
         <p>如需要了解更多信息，请参阅 <a instance="hi" href="run-for-the-first-time.topic">首次运行 Intellij IDEA</a>。</p>
         <p>有关默认 IDE 目录（包含用户特定文件）位置的信息，请参阅 <a instance="hi" href="directories-used-by-the-ide-to-store-settings-caches-plugins-and-logs.topic">IDE 使用的目录</a> 。</p>
     </snippet>
-    <!-- 快速列表 -->
+    <snippet id="standalone-installation-and-running-tips">
+        <p>有关从命令行运行 IntelliJ IDEA 的信息，请参阅 <a href="working-with-the-ide-features-from-command-line.topic" />。</p>
+        <p>启动 IntelliJ IDEA 后，您将看到 <format style="bold">欢迎</format> 屏幕，这是您使用 <tooltip term="ide">IDE</tooltip> 和配置其设置的起点。</p>
+        <p>关闭所有已打开的项目时也会出现该屏幕。使用左侧的选项卡可以切换到特定的欢迎对话框。</p>
+        <img src="ij_welcome_window.png" alt="" width="706"/>
+    </snippet>
+    <!--快速列表-->
     <snippet id="configure-quick-lists-snippet">
         <chapter id="configure-quick-lists" title="自定义快速列表">
             <p>快速列表是一个 <a instance="hi" anchor="popup-menus" href="guided-tour-around-the-user-interface.topic"/> ，其中包含一组自定义的 Intellij IDEA 操作。可以将其视为自定义菜单或工具栏，并为其指定快捷键以便快速访问。可以根据需要创建任意多个快速列表。快速列表中的每个操作都由一个从 0 到 9 的数字来标识。</p>
@@ -32,8 +38,7 @@
                         <li>鼠标左键单击 <img src="添加.svg" alt=""/> 在列表中添加操作。</li>
                         <li>鼠标左键单击 <img src="分割线.svg" alt=""/> 为操作添加分割线。</li>
                         <li>鼠标左键单击 <img src="移除.svg" alt=""/> 从列表中删除所选操作。</li>
-                        <li>鼠标左键单击 <img src="向上移动.svg" alt=""/> 或 <img src="向下移动.svg" alt=""/> 移动所选操作。
-                        </li>
+                        <li>鼠标左键单击 <img src="向上移动.svg" alt=""/> 或 <img src="向下移动.svg" alt=""/> 移动所选操作。</li>
                     </list>
                 </step>
                 <step>鼠标左键单击 <ui-path>确定</ui-path> 保存更改。</step>
@@ -106,7 +111,7 @@
             </compare>
         </chapter>
     </snippet>
-    <!-- SSR，从结构上搜索和替换目标 -->
+    <!--从结构上搜索和替换目标（SSR）-->
     <snippet id="to-search-structurally-snippet">
         <procedure id="to-search-structurally" title="从结构上搜索目标" default-state="collapsed" collapsible="true">
             <step>

@@ -9,7 +9,7 @@
         <description>完全中文化帮助手册，全面覆盖基础至高级的各方面知识。</description>
 
         <spotlight>
-            <a href="register.topic" type="key" summary="激活 IntelliJ IDEA，告别试用到期后的功能限制。">激活 Intellij IDEA</a>
+            <a href="register.topic" type="key" summary="注册 IntelliJ IDEA，告别试用到期后的功能限制。">注册 Intellij IDEA</a>
             <a href="working-offline.topic" type="world" summary="离线模式允许在没有网络的情况下使用 IntelliJ IDEA。">离线工作</a>
         </spotlight>
 

@@ -3,7 +3,7 @@
         SYSTEM "https://resources.jetbrains.com/writerside/1.0/xhtml-entities.dtd">
 <topic xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
        xsi:noNamespaceSchemaLocation="https://resources.jetbrains.com/writerside/1.0/topic.v2.xsd"
-       title="了解集成开发环境的功能" id="feature-trainer">
+       title="学习 IDE 的功能" id="feature-trainer">
 
     <p>Start typing here...</p>
 </topic>

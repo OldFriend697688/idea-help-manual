@@ -97,8 +97,8 @@
                         <note>英特尔和苹果芯片分别有独立的映像文件，在下载时请注意分辨。&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;</note>
                         <img src="IDEA 2022.3.3 macOS dmg 镜像下载.png" alt="IDEA 2022.3.3 macOS dmg 镜像下载" width="706"/>
                     </step>
-                    <step>将镜像文件挂载并拖动到 <format style="bold">应用程序</format> 文件夹。</step>
-                    <step>从 <format style="bold">应用程序</format> 文件夹、Launchpad 或 Spotlight 启动 IntelliJ IDEA 应用。</step>
+                    <step>将镜像文件挂载并拖动到 <format style="bold">应用程序（Applications）</format> 文件夹。</step>
+                    <step>从 <format style="bold">应用程序（Applications）</format> 文件夹、Launchpad 或 Spotlight 启动 IntelliJ IDEA 应用。</step>
                 </procedure>
                 <include from="reuse-library.topic" element-id="standalone-tips" />
             </tab>
@@ -151,7 +151,7 @@
                         <p>从 <a href="https://www.jetbrains.com/zh-cn/toolbox-app/">官网</a> 下载 <format style="bold">.dmg</format> 镜像文件。</p>
                         <note>英特尔和苹果芯片分别有独立的映像文件，在下载时请注意分辨。&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;</note>
                     </step>
-                    <step>将镜像文件挂载并拖动 Toolbox App 到 <format style="bold">应用程序</format> 文件夹。</step>
+                    <step>将镜像文件挂载并拖动 Toolbox App 到 <format style="bold">应用程序（Applications）</format> 文件夹。</step>
                     <step>
                         <p>运行 Toolbox App，单击主菜单中的图标，选择要安装的产品。</p>
                         <p>如果要安装特定版本，请单击 <img src="toolbox app 更多按钮.svg" alt="toolbox app 更多按钮"/> ，然后选择可用版本。</p>

@@ -34,7 +34,7 @@
         <chapter id="multiple-selections" title="多重选择" default-state="collapsed" collapsible="true">
             <note>要查看某个代码片段在当前文件中的所有用法，请选中此代码片段并按 <shortcut>Ctrl</shortcut><shortcut>Shift</shortcut><shortcut>F7</shortcut> 。</note>
             <p>多重选择是一个相对较新且非常强大的编辑器功能，它允许快速选择并同时编辑多个（相邻或不相邻）代码片段。要使用此功能可以先按下 <shortcut>Alt</shortcut><shortcut>J</shortcut> 选中某个代码片段，然后继续按下 <shortcut>Alt</shortcut><shortcut>J</shortcut> ，Intellij IDEA 将会在当前打开的文件中向前搜索，直到搜索到匹配的内容，并将其添加到选择中。</p>
-            <img src="将下一个匹配项添加到选择.png" alt="将下一个匹配项添加到选择" width="706"/>
+            <img src="将下一个匹配项添加到选择.png" alt="将下一个匹配项添加到选择" width="706" thumbnail="true"/>
             <p>此时，可以再次按下<shortcut>Alt</shortcut><shortcut>J</shortcut> 继续向前搜索，或按下 <shortcut>Alt</shortcut><shortcut>Shift</shortcut><shortcut>J</shortcut> 取消上一个匹配的搜索项。但请注意，当搜索到达文件末尾时，它将会从文件开头重新开始搜索。当选择完成后，就可以像编辑一个整体一样开始编辑所有代码片段。</p>
             <video src="https://www.youtube.com/watch?v=DOLtv_KFBOQ" width="706"/>
         </chapter>
@@ -43,7 +43,7 @@
             <code-block collapsed-title="TestRegex.java" collapsible="true" default-state="collapsed" lang="java" src="TestRegex.java"/>
             <video src="https://www.youtube.com/watch?v=hjTBcFciPE0" width="706"/>
             <chapter id="find-and-replace-with-regex-groups" title="使用正则表达式组进行查找和替换">
-                <p>Intellij IDEA 在 <a href="tutorial-finding-and-replacing-text-using-regular-expressions.topic">查找和替换</a> 中支持正则表达式。值得注意的是，它支持替换正则表达式的捕获组。</p><img src="在查找和替换中使用正则表达式捕获组.png" alt="在查找和替换中使用正则表达式捕获组" width="706"/>
+                <p>Intellij IDEA 在 <a href="tutorial-finding-and-replacing-text-using-regular-expressions.topic">查找和替换</a> 中支持正则表达式。值得注意的是，它支持替换正则表达式的捕获组。</p><img src="在查找和替换中使用正则表达式捕获组.png" alt="在查找和替换中使用正则表达式捕获组" width="706" thumbnail="true"/>
                 <video src="https://www.youtube.com/watch?v=CfYbKfgbOSI" width="706"/>
             </chapter>
         </chapter>
@@ -85,7 +85,7 @@
                 <p>但是，如果取消勾选 <format style="bold">区分大小写</format> 选项，则将会忽略上述两个选项的约束规则，甚至是在仅输入单词中的某一部分的情况下（ 例如： <format style="italic">tem</format> ），编辑器也能自动列举出所有匹配的候选项。</p>
             </note>
             <p>默认情况下，Intellij IDEA 代码自动完成的大小写约束规则只会影响到键入的第一个字母。如果要改变它，可以在 <format style="bold">设置</format>（<shortcut>Ctrl</shortcut><shortcut>Alt</shortcut><shortcut>S</shortcut> ）中展开 <ui-path>编辑器 | 常规 | 代码补全</ui-path> ，然后从 <format style="bold">仅首字母</format> 或 <format style="bold">所有字母</format> 两个选项中选择一个。又或者说不需要此约束规则，则可以取消勾选 <format style="bold">区分大小写</format> 选项。</p>
-            <img src="代码补区分代码大小写.png" alt="代码补区分代码大小写" width="706"/>
+            <img src="代码补区分代码大小写.png" alt="代码补区分代码大小写" width="706" thumbnail="true"/>
             <!--<video src="https://www.youtube.com/watch?v=MtV0uwouhNc" width="706"/>-->
             <video src="https://www.youtube.com/watch?v=07duJfkzoRA" width="706"/>
         </chapter>
@@ -96,12 +96,12 @@
                 <p>在大驼峰命名法中，案例包括： <code>UserService</code> 、<code>HttpRequest</code> 等。这种命名法常用于 <tooltip term="java-class">类名</tooltip> 和 <tooltip term="java-interface">接口名</tooltip> 的命名，使得代码结构更加清晰。 驼峰命名法的优点在于，它提高了代码的可读性，使得变量名和 <tooltip term="method">函数名</tooltip> 更加直观。同时，它避免了使用下划线或连字符分隔单词，减少了代码中的视觉干扰。在实际编程中，驼峰命名法被广泛应用于各种编程语言，如 <tooltip term="java">Java</tooltip>、<tooltip term="javascript">JavaScript</tooltip>、<tooltip term="python">Python</tooltip> 等，它已成为了一种行业共识。通过采用驼峰命名法，开发者可以更高效地进行代码编写和阅读。</p>
             </note>
             <p>默认情况下，IntelliJ IDEA 对单词的大小写状态并不敏感。但是，如果希望根据 <tooltip term="camel-case">驼峰命名法</tooltip> 规则仅选择单词中的某一部分，则可以在 <format style="bold">设置</format>（<shortcut>Ctrl</shortcut><shortcut>Alt</shortcut><shortcut>S</shortcut> ）中展开 <ui-path>编辑器 | 常规 | 智能按键</ui-path> 并勾选 <format style="bold">使用 "CamelHumps" 单词</format> 选项。</p>
-            <img src="使用 CamelHumps 单词.png" alt="使用 CamelHumps 单词" width="706"/>
+            <img src="使用 CamelHumps 单词.png" alt="使用 CamelHumps 单词" width="706" thumbnail="true"/>
             <video src="https://www.youtube.com/watch?v=KWPR44vrGTA" width="706"/>
         </chapter>
         <chapter id="disable-highlighting-element-at-caret" title="禁用高亮显示文本光标处元素的用法" default-state="collapsed" collapsible="true">
             <p>默认情况下，Intellij IDEA 会在移动文本光标时高亮显示当前光标所在位置处元素的用法。但是，如果觉得这种高亮显示会影响到编辑器的视觉效果，则可以取消勾选 <format style="bold">文本光标处元素的用法</format> 选项。取消此选项后可以通过按下 <shortcut>Ctrl</shortcut><shortcut>Shift</shortcut><shortcut>F7</shortcut> 实现相同功能。</p>
-            <img src="移动文本光标时高亮显示.png" alt="移动文本光标时高亮显示" width="706"/>
+            <img src="移动文本光标时高亮显示.png" alt="移动文本光标时高亮显示" width="706" thumbnail="true"/>
             <!-- <video src="https://www.youtube.com/watch?v=T_fr7enYG1c" width="706"/>-->
             <video src="https://www.youtube.com/watch?v=sZrm-iWbUCw" width="706"/>
         </chapter>
@@ -109,22 +109,22 @@
     <chapter id="code-analysis" title="代码分析">
         <chapter id="dependency-structure-matrix" title="依赖关系矩阵" default-state="collapsed" collapsible="true">
             <p>Intellij IDEA 可以分析代码中的组件相互依赖的紧密程度，开发者应该密切关注这一点，当依赖关系过多时，可能会导致各种问题。依赖关系矩阵功能将可以帮助开发者 <tooltip term="visualization">可视化</tooltip> 的探索 <tooltip term="idea-module">模块</tooltip>、<tooltip term="java-package">包</tooltip> 和 <tooltip term="java-class">类</tooltip> 之间的依赖关系。有关于此功能的更多细节和详细使用步骤请阅读 <a href="dsm-analysis.topic"/>。</p>
-            <img src="DSM 工具界面.png" alt="DSM 工具界面" width="706"/>
+            <img src="DSM 工具界面.png" alt="DSM 工具界面" width="706" thumbnail="true"/>
             <note>DSM 工具窗口将会以特殊方式对依赖关系进行排序处理，它始终将最常用的类移至底部。</note>
             <warning>
                 <p>要使用依赖关系矩阵分析功能，需确保已启用 Dependency Structure Matrix 插件。</p>
                 <p>该插件通常随 IntelliJ IDEA 一同安装并默认启用。若不慎禁用了该插件，可通过以下步骤重新启用：按下 <shortcut>Ctrl</shortcut><shortcut>Alt</shortcut><shortcut>S</shortcut> 打开 <ui-path>设置</ui-path> ，单击 <ui-path>插件</ui-path> 选项，继而切换到 <ui-path>已安装</ui-path> 选项卡。在搜索框内输入 <format style="bold">Dependency Structure Matrix</format> ，待结果出现后，找到该插件并单击 <ui-path>启用</ui-path> 按钮即可。</p>
             </warning>
-            <img src="启用 Dependency Structure Matrix 插件.png" alt="启用 Dependency Structure Matrix 插件" width="706"/>
+            <img src="启用 Dependency Structure Matrix 插件.png" alt="启用 Dependency Structure Matrix 插件" width="706" thumbnail="true"/>
             <video src="https://www.youtube.com/watch?v=N8WEhbmlluk" width="706"/>
         </chapter>
         <chapter id="structural-search-and-replace" title="结构搜索和替换" default-state="collapsed" collapsible="true">
             <p><a href="structural-search-and-replace.topic">结构搜索和替换（SSR）非常强大</a> ，可以将它用于静态代码分析和 <tooltip term="refactoring">重构</tooltip> 自动化。简而言之，它允许搜索代码中的特定模式并用参数化模板替换它们。为此，它配备了自己的语言来定义代码模式，要阅读它们 <a href="https://www.jetbrains.com/idea/docs/ssr.pdf">请单击此处</a> 查看更详细的描述。要使用此功能，可以通过 <ui-path><include from="reuse-library.topic" element-id="main-menus" /> | 编辑 | 查找 | 结构搜索 / 结构化替换</ui-path> 选项打开相应功能的操作窗口。</p>
-            <img src="结构搜索和替换功能菜单.png" alt="结构搜索和替换功能菜单" width="706"/>
+            <img src="结构搜索和替换功能菜单.png" alt="结构搜索和替换功能菜单" width="706" thumbnail="true"/>
             <note>按下 <shortcut>Ctrl</shortcut><shortcut>Alt</shortcut><shortcut>A</shortcut> 在 <format style="bold">操作</format> 中键入 <format style="bold">结构搜索</format> 或 <format style="bold">结构化替换</format> 并选中它们可以更快速的打开结构搜索和结构替换功能操作对话框。</note>
             <video src="https://www.youtube.com/watch?v=PJGhuNtl_Xk" width="706"/>
             <p>另外，如果想要创建属于自己的代码模板或代码检查模式，请进入 <ui-path>设置 | 编辑器 | 检查</ui-path> 然后找到 <format style="bold">结构搜索</format> 节点，之后便可以根据实际启用需要的代码检查模式。</p>
-            <img src="将结构搜索和替换规则作为代码检查规则.png" alt="将结构搜索和替换规则作为代码检查规则" width="706" id="search-template"/>
+            <img src="将结构搜索和替换规则作为代码检查规则.png" alt="将结构搜索和替换规则作为代码检查规则" width="706" id="search-template" thumbnail="true"/>
             <include from="reuse-library.topic" element-id="to-search-structurally-snippet" />
         </chapter>
     </chapter>
@@ -134,10 +134,10 @@
             <p>通过使用 <a href="searching-everywhere.topic"/> 功能，开发者将可以在代码、 <tooltip term="library">库</tooltip> 、用户界面、设置（通过在设置名称前加上 <format style="bold">/</format> ），甚至是操作中搜索任何与给定文本内容匹配的目标结果，并根据结果进行下一步的操作。</p>
             <video src="https://www.youtube.com/watch?v=TW0tqmg4KsE" width="706"/>
             <p>例如：我们可以键入 <code>/editor</code> 并按下 <shortcut>Enter</shortcut> 以此快速打开进行与编辑器相关的设置。</p>
-            <img src="随处搜索-快速访问与编辑器相关的设置.png" alt="快速访问与编辑器相关的设置" width="706"/>
+            <img src="随处搜索-快速访问与编辑器相关的设置.png" alt="快速访问与编辑器相关的设置" width="706" thumbnail="true"/>
             <video src="https://www.youtube.com/watch?v=YZszrS5FfAo" width="706"/>
             <p>如果使用 <code>/plugins</code> 进行搜索，则可以根据需要快速禁用或启用 <a href="plug-in-system.topic" summary="插件系统为 Intellij IDEA 赋予了无与伦比的强大拓展能力。">插件</a>。</p>
-            <img src="随处搜索-快速禁用和启用插件.png" alt="快速禁用和启用插件" width="706"/>
+            <img src="随处搜索-快速禁用和启用插件.png" alt="快速禁用和启用插件" width="706" thumbnail="true"/>
             <video src="https://www.youtube.com/watch?v=OoNV1rTUFdI" width="706"/>
             <p>其他可用的标签有 <code>/appearance</code> 、<code>/system</code> 、<code>/inspections</code> 、<code>/registry</code> 、<code>/intentions</code> 、<code>/templates></code> 及 <code>/vcs</code> 。另外请注意，随处搜索功能支持缩写。这意味着，可以在 <a href="settings-keymap.topic" /> 的设置对话框中为任意操作分配文本别名。之后，就可以通过分配的文本别名从 <format style="bold">所有</format> 中调用此操作。</p>
             <video src="https://www.youtube.com/watch?v=tgyG5jkmq2A" width="706"/>
@@ -154,7 +154,7 @@
         </chapter>
         <chapter id="disable-unnecessary-gutter-icons" title="禁用非必要的间距图标" default-state="collapsed" collapsible="true">
             <p>间距图标位于编辑器的最左侧，通常显示与当前正在编辑的代码相关的有用信息。如果觉得这些图标太多了，可以通过 <ui-path>设置（ <shortcut>Ctrl</shortcut><shortcut>Alt</shortcut><shortcut>S</shortcut> ） | 编辑器 | 常规 | 间距图标</ui-path> 来配置想要显示的间距图标或直接禁止显示它们。</p>
-            <img src="间距图标.png" alt="显示或禁用间距图标" width="706"/>
+            <img src="间距图标.png" alt="显示或禁用间距图标" width="706" thumbnail="true"/>
             <video src="https://www.youtube.com/watch?v=aJz3oI65i8Y" width="706"/>
         </chapter>
         <chapter id="disable-breadcrumbs-tree-highlighting" title="禁用路径导航和标签树高亮显示" default-state="collapsed" collapsible="true">
@@ -170,7 +170,7 @@
         <chapter id="amend-changes" title="修正提交" default-state="collapsed" collapsible="true">
             <note>如果更喜欢将一切掌握在手中，可以通过手动输入命令的方式实现相同的效果。有关于具体的命令及使用方法请阅读 <a href= "https://git-scm.com/book/zh/v2/Git-基础-撤消操作">2.4 Git-基础-撤消操作</a> 。</note>
             <p>在 <a href="commit-changes-dialog.topic" summary=""/> 中，Intellij IDEA 提供了多种操作。其中之一就是 <format style="bold">修正提交</format> ，当想要更改最后一次提交并将当前更改合并到其中时，这个功能将会非常有用。</p>
-            <img src="修正提交.png" alt="修正提交" width="706"/>
+            <img src="修正提交.png" alt="修正提交" width="706" thumbnail="true"/>
             <note>如果已将提交推送至远程仓库，则在本地进行过修正提交后需强制推送更新至远程仓库。</note>
             <video src="https://www.youtube.com/watch?v=pob8-oZMC8A" width="706"/>
         </chapter>
@@ -182,7 +182,7 @@
     <chapter id="debugging" title="代码调试">
         <chapter id="reset-frame" title="重置帧" collapsible="true" default-state="collapsed">
             <p>如果想要在调试时"回到过去"，可以通过 <format style="bold">重置帧</format> 操作来实现。如果错误的走的太远，这将是一个很大的帮助。虽然这不会恢复应用程序的全局状态，但至少可以让你返回 <tooltip term="call-stack">帧堆栈</tooltip>。</p>
-            <img src="重置帧.png" alt="重置帧" width="706"/>
+            <img src="重置帧.png" alt="重置帧" width="706" thumbnail="true"/>
             <video src="https://www.youtube.com/watch?v=sqyr169OssE" width="706"/>
         </chapter>
         <chapter id="force-return" title="强制返回" collapsible="true" default-state="collapsed">
@@ -195,27 +195,27 @@
             <video src="https://www.youtube.com/watch?v=FJU73v_SMKY" width="706"/>
         </chapter>
         <chapter id="action-or-method-breakpoints" title="非挂起断点" default-state="collapsed" collapsible="true">
-            <img src="非挂起断点.png" alt="非挂起断点" width="706"/>
+            <img src="非挂起断点.png" alt="非挂起断点" width="706" thumbnail="true"/>
             <p>这样一来，就可以更改或记录应用程序的状态，而无需要在代码中插入额外的输出语句。这在调试已编译且无法被更改的代码时尤其有用。</p>
             <video src="https://www.youtube.com/watch?v=kysPynnUatE" width="706"/>
         </chapter>
         <chapter id="custom-data-renderers" title="自定义数据渲染器" collapsible="true" default-state="collapsed">
             <note>请优先实现 <code>toString</code> 方法，此功能仅建议在无法修改源代码的特殊情况下进行使用。</note>
             <p><a href="examining-suspended-program.topic" anchor="evaluating-expressions">评估表达式</a> 、<a href="examining-suspended-program.topic" anchor="variables">变量</a> 、<a href="examining-suspended-program.topic" anchor="watches">监视</a> 和 <a href="examining-suspended-program.topic" anchor="inline-view">内联调试器</a> 使用标准方式呈现 <tooltip term="variables">变量值</tooltip> ，这些方式大多都基于 <tooltip term="java-class">类</tooltip> 的 <code>toString</code> 方法予以实现。但是，并非所有人都知道，在 Intellij IDEA 中还可以为任何类定义属于自己的数据渲染器。</p>
-            <img src="自定义 Java 类型呈现器.png" alt="自定义 Java 类型呈现器" width="706"/>
+            <img src="自定义 Java 类型呈现器.png" alt="自定义 Java 类型呈现器" width="706" thumbnail="true"/>
             <p>当使用的 <tooltip term="library">类库</tooltip> 中的某些类没有提供有意义的 <code>toString</code> 方法实现时，这种方式将会很有用。</p>
             <video src="https://www.youtube.com/watch?v=X-fXHjkqHEI" width="706"/>
             <video src="https://www.youtube.com/watch?v=n3Fte-uH8vM" width="706"/>
         </chapter>
         <chapter id="field-breakpoints-or-field-watchpoints" title="字段断点或字段监视点" collapsible="true" default-state="collapsed">
             <p>除了使用上述的非挂起断点外，还可以使用 <a href="using-breakpoints.topic" anchor="field-watchpoint" summary="">字段监视点</a> 。当访问与之关联的 <tooltip term="java-field">字段</tooltip> 时，该断点将停止执行。要创建字段观察点，只需要单击目标字段所在行前的间距图标即可。</p>
-            <img src="字段断点或字段监视点.png" alt="字段断点或字段监视点" width="706"/>
+            <img src="字段断点或字段监视点.png" alt="字段断点或字段监视点" width="706" thumbnail="true"/>
             <video src="https://www.youtube.com/watch?v=kGo6cgjklEA" width="706"/>
         </chapter>
     </chapter>
     <chapter id="external-tools" title="外部工具" collapsible="true" default-state="collapsed">
         <p>Intellij IDEA 已内置了许多开箱即用的开发工具。如果您需要的工具恰巧未被集成，但却想要通过快捷方式使用它，请展开 <ui-path>设置（ <shortcut>Ctrl</shortcut><shortcut>Alt</shortcut><shortcut>S</shortcut> ） | 工具 | 外部工具</ui-path> 并在其中配置想要使用的 <a href="configuring-third-party-tools.topic"/>。</p>
-        <img src="外部工具.png" alt="外部工具" width="706"/>
+        <img src="外部工具.png" alt="外部工具" width="706" thumbnail="true"/>
         <note>如下演示视频中将使用 <a href="https://www.gnu.org/savannah-checkouts/gnu/emacs/emacs.html" summary="GNU Emacs是一个功能强大的文本编辑器，被广泛认为是专业程序员最喜欢的代码编辑器之一。">Emacs</a> 作为外部工具尝试打开目标 Java 源码文件。&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;</note>
         <video src="https://www.youtube.com/watch?v=vyfIz_4Putw" width="706"/>
     </chapter>
@@ -223,7 +223,7 @@
         <note>如下演示视频及图片中使用的 <tooltip term="jdk">JDK</tooltip> 为 Oracle 提供的 JDK 17， <a href="https://www.oracle.com/java/technologies/downloads/#java17">可以单击此处下载它</a>。</note>
         <p>有时，当您对代码进行快速修改时，您希望立即看到这些修改在工作应用程序中的表现。</p>
         <p>不幸的是， <tooltip term="java-hotswap-vm">Java HotSwap VM</tooltip> 有很多限制：例如，您不能在 <tooltip term="java-class">类</tooltip> 中添加新 <tooltip term="java-method">方法</tooltip> 或 <tooltip term="java-field">字段</tooltip> ，然后执行 <tooltip term="hot-swap">热插拔</tooltip> ；在热插拔过程中，您唯一能实际更改的是 <tooltip term="java-method-body">方法体</tooltip>。</p>
-        <img src="热交换失败.png" alt="热交换失败" width="706"/>
+        <img src="热交换失败.png" alt="热交换失败" width="706" thumbnail="true"/>
         <p>有关详情，请参阅 <a href="altering-the-program-s-execution-flow.topic" anchor="reload-classes">重新加载修改过的类</a> 和 <a href="altering-the-program-s-execution-flow.topic">更改程序执行流程</a> 部分。</p>
         <video src="https://www.youtube.com/watch?v=HyA8raRoWBE" width="706"/>
         <p>幸运的是，您可以使用 <a href="https://hotswapagent.org/">HotSwapAgent</a> 改变这种状况，它可以在运行时无限制地支持 <tooltip term="reload">重载</tooltip> 类。</p>

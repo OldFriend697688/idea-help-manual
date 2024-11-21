@@ -17,7 +17,7 @@
         <p>有关从命令行运行 IntelliJ IDEA 的信息，请参阅 <a href="working-with-the-ide-features-from-command-line.topic" />。</p>
         <p>启动 IntelliJ IDEA 后，您将看到 <format style="bold">欢迎</format> 屏幕，这是您使用 <tooltip term="ide">IDE</tooltip> 和配置其设置的起点。</p>
         <p>关闭所有已打开的项目时也会出现该屏幕。使用左侧的选项卡可以切换到特定的欢迎对话框。</p>
-        <img src="ij_welcome_window.png" alt="" width="706"/>
+        <img src="ij_welcome_window.png" alt="" width="706" thumbnail="true"/>
     </snippet>
     <!--快速列表-->
     <snippet id="configure-quick-lists-snippet">
@@ -51,7 +51,7 @@
                 <step>在编辑器中，按下快捷键快速访问快速列表。</step>
                 <video src="https://www.youtube.com/watch?v=Sg_utwZdkZU" width="706"/>
                 <note>如果不记得快速列表的快捷键，可以按 <shortcut>Shift</shortcut> 两次，然后键入快速列表名称搜索它。</note>
-                <img src="搜索快速列表.png" alt="搜索快速列表" width="706"/>
+                <img src="搜索快速列表.png" alt="搜索快速列表" width="706" thumbnail="true"/>
             </procedure>
         </chapter>
     </snippet>
@@ -125,26 +125,26 @@
                     <li>
                         <p><format style="italic" color="BurlyWood">从头开始创建新的模板</format></p>
                         <p>可以从模板列表中选择 <format style="bold">草稿模板</format> ，然后在模板的编辑区域中，键入代码模板（注： 使用 <code>$variable$</code> 表示模板中的查找变量），在对话框的工具栏中单击 <img src="保存.svg" alt=""/> 以供将来重复使用。同时，如果需要可以将它保存为 <a instance="hi" href="inspections-settings.topic">检查</a>。</p>
-                        <img src="结构搜索对话框.png" alt="结构搜索对话框" width="706"/>
-                        <p>Intellij IDEA 会将创建以及使用过的模板添加到<format style="bold">最近</format> 节点中。</p>
-                        <img src="结构搜索对话框中最近添加的模板.png" alt="结构搜索对话框中最近添加的模板" width="706"/>
+                        <img src="结构搜索对话框.png" alt="结构搜索对话框" width="706" thumbnail="true"/>
+                        <p>Intellij IDEA 会将创建以及使用过的模板添加到 <format style="bold">最近</format> 节点中。</p>
+                        <img src="结构搜索对话框中最近添加的模板.png" alt="结构搜索对话框中最近添加的模板" width="706" thumbnail="true"/>
                     </li>
                     <li>
                         <p><format style="italic" color="BurlyWood">使用现有模板之一作为原型</format></p>
                         <p>在可用的现有模板列表中，选择所需的模板。现在，让我们查找类中的某个 <tooltip term="java-field">字段</tooltip> 。在现有的模板列表中，单击 <format style="bold">Java</format> 并打开 <format style="bold">基于类</format> 然后找到并选择其中的 <format style="bold">类的字段</format>。</p>
-                        <img src="已预设的基于类的字段进行查找的模板.png" alt="已预设的基于类的字段进行查找的模板" width="706"/>
+                        <img src="已预设的基于类的字段进行查找的模板.png" alt="已预设的基于类的字段进行查找的模板" width="706" thumbnail="true"/>
                         <p>单击 <ui-path>查找</ui-path> 按钮，将会突出显示找到的所有匹配字段。</p>
                         <video src="https://www.youtube.com/watch?v=SFC4wna_f88" width="706"/>
                     </li>
                 </list>
             </step>
             <step>
-                <p><format style="bold">结构搜索</format> 对话框显示选定的模板以及模板中使用的过滤器的值，可以编辑现有过滤器或添加新的过滤条件，例如：添加一些 <tooltip term="regex">正则表达式</tooltip> 或脚本约束。可以将插入符号（闪烁光标）放在代码变量处并通过过滤器区域来管理过滤器。 <img src="在结构搜索对话框中为变量声明过滤规则.png" alt="在结构搜索对话框中为变量声明过滤规则" width="706"/> 作为示例，让我们为 <code>$Field$</code> 变量声明一个条件。在过滤器区域中单击 <img src="添加.svg" alt=""/> 添加新条件。例如：如果需要添加正则表达式，则应选择 <format style="bold">文本</format> ，在闪烁的输入框中键入需要的条件。例如：输入正则表达式 <code>\b[A-Z].*?\b</code>。<img src="在结构搜索对话框中为目标变量添加过滤规则.png" alt="在结构搜索对话框中为目标变量添加过滤规" width="706"/> 在这种情况下，当勾选 <ui-path>区分大小写</ui-path> 后，Intellij IDEA 将仅搜索包含有大写字符的字段。</p>
+                <p><format style="bold">结构搜索</format> 对话框显示选定的模板以及模板中使用的过滤器的值，可以编辑现有过滤器或添加新的过滤条件，例如：添加一些 <tooltip term="regex">正则表达式</tooltip> 或脚本约束。可以将插入符号（闪烁光标）放在代码变量处并通过过滤器区域来管理过滤器。 <img src="在结构搜索对话框中为变量声明过滤规则.png" alt="在结构搜索对话框中为变量声明过滤规则" width="706" thumbnail="true"/> 作为示例，让我们为 <code>$Field$</code> 变量声明一个条件。在过滤器区域中单击 <img src="添加.svg" alt=""/> 添加新条件。例如：如果需要添加正则表达式，则应选择 <format style="bold">文本</format> ，在闪烁的输入框中键入需要的条件。例如：输入正则表达式 <code>\b[A-Z].*?\b</code>。<img src="在结构搜索对话框中为目标变量添加过滤规则.png" alt="在结构搜索对话框中为目标变量添加过滤规" width="706" thumbnail="true"/> 在这种情况下，当勾选 <ui-path>区分大小写</ui-path> 后，Intellij IDEA 将仅搜索包含有大写字符的字段。</p>
                 <video src="https://www.youtube.com/watch?v=zGfbfszkdh8" width="706"/>
                 <p>请注意，根据所选程序语言的不同会有不同的附加选项可用。例如：以下可能的选项：</p>
                 <list>
-                    <li><format style="bold">语言</format> ：使用列表来选择哪些文件类型应成为搜索的一部分。 <img src="在结构搜索中指定搜索目标文件的类型.png" alt="在结构搜索中指定搜索目标文件的类型" width="706"/></li>
-                    <li><format style="bold">目标</format> ：在此选项列表中，选择要搜索的目标。 <img src="在结构搜索中指定要搜索的目标.png" alt="在结构搜索中指定要搜索的目标" width="706"/></li>
+                    <li><format style="bold">语言</format> ：使用列表来选择哪些文件类型应成为搜索的一部分。 <img src="在结构搜索中指定搜索目标文件的类型.png" alt="在结构搜索中指定搜索目标文件的类型" width="706" thumbnail="true"/></li>
+                    <li><format style="bold">目标</format> ：在此选项列表中，选择要搜索的目标。 <img src="在结构搜索中指定要搜索的目标.png" alt="在结构搜索中指定要搜索的目标" width="706" thumbnail="true"/></li>
                     <li><format style="bold">递归</format> ：如果选中此选项，Intellij IDEA 将会执行递归操作，所有嵌套项都将包含在结果中。例如：当搜索方法调用时，启用此选项后，将会在 <code>foo(foo(foo()))</code> 查找嵌套方法调用。禁用此选项后，将仅找到外部方法调用。</li>
                     <li><format style="bold">注入的代码</format> ：如果勾选此选项，则注入的代码（例如： <tooltip term="html">HTML</tooltip> 代码中注入的 <tooltip term="javascript">JavaScript</tooltip> 代码或 <tooltip term="java">Java</tooltip> 中注入的 <tooltip term="sql">SQL</tooltip> ）将会成为搜索过程中的一部分。</li>
                     <li><format style="bold">区分大小写</format> ：如果勾选此选项，搜索结果将匹配搜索目标的大小写。</li>
@@ -153,7 +153,7 @@
             </step>
             <step>
                 <p>单击 <format style="bold">查找</format> ，Intellij IDEA 将会在 <format style="bold">查找</format> 工具窗口中显示查找结果。</p>
-                <img src="在查找工具窗口中显示的查找结果.png" alt="在查找工具窗口中显示的查找结果" width="706"/>
+                <img src="在查找工具窗口中显示的查找结果.png" alt="在查找工具窗口中显示的查找结果" width="706" thumbnail="true"/>
                 <note>通过单击 <format style="bold">查找</format> 工具窗口中的 <format style="bold">从模板创建检查</format> 按钮，可以将目标搜索模板添加到 <a anchor="search-template" href="pro-tips.topic" summary="结构搜索检查">结构搜索检查</a> 中，并在以后使用它来检查代码。</note>
                 <video src="https://www.youtube.com/watch?v=jk5GZ7-PZL0" width="706"/>
             </step>
@@ -168,7 +168,7 @@
             <step>
                 <p>如果需要在替换模板中为变量添加过滤器，请选中目标变量，并使用过滤器区域来管理过滤器。在过滤器区域中，可以为目标 <a href="search-templates.topic" summary="">过滤器</a> 添加指定条件。</p>
                 <p>例如：下图所示的替换模板可以将找到的模板中的字段替换为小写字符。</p>
-                <img src="用于将字段从大写替换为小写的替换模板.png" alt="用于将字段从大写替换为小写的替换模板" width="706"/>
+                <img src="用于将字段从大写替换为小写的替换模板.png" alt="用于将字段从大写替换为小写的替换模板" width="706" thumbnail="true"/>
             </step>
             <step>
                 <p>想要缩小替换结果的长度，可以选择以下选项：</p>
@@ -177,7 +177,7 @@
                     <li><p><format style="bold">重新格式化</format> - 自动格式化被替换的代码</p></li>
                     <li><p><format style="bold">使用静态导入</format> - 尽可能使用 <tooltip term="java-static-import">静态导入</tooltip> 进行替换，例如：勾选该选项后， <tooltip term="java-static-method">静态方法</tooltip><code>Math.abs(i)</code> 的方法调用就会被替换为 <code>abs(i)</code>。</p></li>
                 </list>
-                <img src="结构替换对话框中用于缩短结果长度的选项.png" alt="结构替换对话框中用于缩短结果长度的选项" width="706"/>
+                <img src="结构替换对话框中用于缩短结果长度的选项.png" alt="结构替换对话框中用于缩短结果长度的选项" width="706" thumbnail="true"/>
                 <p>勾选必要的选项后，单击 <format style="bold">查找</format> ， Intellij IDEA 会在 <format style="bold">查找</format> 工具窗口中显示结果。</p>
             </step>
             <step><p>在 <format style="bold">查找</format> 工具窗口中，可以进一步处理查找结果，逐个替换找到的内容，或者是一次性替换所有内容，又或者是预览可能的更改。还可以将替换模板添加到<a href="pro-tips.topic" anchor="search-template" summary="">结构搜索检查</a> 中，并将其作为代码的快速检查修复工具。</p></step>

@@ -12,7 +12,7 @@
             <p>要运行 IntelliJ IDEA，请在 Windows <format style="bold">开始</format> 菜单中找到它，或使用桌面快捷方式。也可以运行启动器批脚本或安装目录 <format style="bold">bin</format> 下的可执行文件。</p>
             <p>有关从命令行运行 IntelliJ IDEA 的信息，请参阅 <a href="working-with-the-ide-features-from-command-line.topic" />。</p>
             <p>启动 IntelliJ IDEA 后，您将看到 <format style="bold">欢迎</format> 界面，这是您使用 <tooltip term="ide">IDE</tooltip> 和配置其设置的起点。关闭所有已打开的项目时也会出现该界面。使用左侧的选项卡可以切换到特定的欢迎对话框。</p>
-            <img src="Intellij IDEA 欢迎界面（Windows）.png" alt="Intellij IDEA 欢迎界面（Windows）" width="706"/>
+            <img src="Intellij IDEA 欢迎界面（Windows）.png" alt="Intellij IDEA 欢迎界面（Windows）" width="706" thumbnail="true"/>
         </tab>
         <tab title="macOS">
             <p>从 <format style="bold">应用程序（Applications）</format> 目录、Launchpad 或 Spotlight 启动 IntelliJ IDEA 应用程序。</p>
@@ -26,7 +26,7 @@
     <chapter id="select-ui-theme" title="自定义 IDE 外观">
         <p>单击 <format style="bold">自定义</format> 并选择其他颜色主题，或选择 <format style="bold">与操作系统同步</format> 复选框以使用系统默认主题。在这里，您还可以 <a href="accessibility.topic" anchor="red-green-deficiency">配置辅助功能设置</a> 或选择其他 <a href="configuring-keyboard-and-mouse-shortcuts.topic">按键映射</a>。</p>
         <note>尝试新的 IntelliJ IDEA <a href="new-ui.topic" summary="">用户界面</a>。&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;</note>
-        <img src="Intellij IDEA 欢迎界面（Windows_Darcula 主题）.png" alt="Intellij IDEA 欢迎界面（Windows_Darcula 主题）" width="706"/>
+        <img src="Intellij IDEA 欢迎界面（Windows_Darcula 主题）.png" alt="Intellij IDEA 欢迎界面（Windows_Darcula 主题）" width="706" thumbnail="true"/>
     </chapter>
     <chapter id="configure-default-settings" title="配置默认设置">
         <p>单击 <format style="bold">自定义</format> ，如果 <a href="sharing-your-ide-settings.topic" anchor="export-settings-to-a-zip-archive">已有要应用的所需设置副本</a> ，则选择 <format style="bold">导入设置</format>。</p>
@@ -35,15 +35,15 @@
     </chapter>
     <chapter id="additional-plugins" title="安装附加插件">
         <p>点击 <format style="bold">欢迎</format> 界面左侧窗格中的 <format style="bold">插件</format> ，然后从 <a href="https://plugins.jetbrains.com/idea">插件库</a> 下载并 <a href="install-plugin.topic" summary="安装附加插件以拓展 Intellij IDEA 提供的功能。">安装</a> 其他插件。</p>
-        <img src="欢迎界面中的插件选项卡.png" alt="欢迎界面中的插件选项卡" width="706"/>
+        <img src="欢迎界面中的插件选项卡.png" alt="欢迎界面中的插件选项卡" width="706" thumbnail="true"/>
     </chapter>
     <chapter id="learn-ide" title="学习 IDE 功能">
         <p>单击 <format style="bold">欢迎</format> 界面左侧的 <format style="bold">学习</format> ，进一步熟悉 <tooltip term="ide">IDE</tooltip> 提供的快捷键、功能和工作流程。有关详细信息，请参阅 <a href="feature-trainer.topic" />。</p>
-        <img src="欢迎界面中的学习选项卡.png" alt="欢迎界面中的学习选项卡" width="706"/>
+        <img src="欢迎界面中的学习选项卡.png" alt="欢迎界面中的学习选项卡" width="706" thumbnail="true"/>
     </chapter>
     <chapter id="work-remotely" title="远程开发应用程序">
         <p>单击 <format style="bold">远程开发</format> 配置连接到远程服务器的入口点，并远程编码、运行、调试和部署项目。更多信息，请参阅 <a href="remote-development-starting-page.topic" />。</p>
-        <img src="欢迎界面中的远程开发选项卡.png" alt="欢迎界面中的远程开发选项卡" width="706"/>
+        <img src="欢迎界面中的远程开发选项卡.png" alt="欢迎界面中的远程开发选项卡" width="706" thumbnail="true"/>
     </chapter>
     <chapter id="start-project" title="启动一个项目">
         <p>当您启动 IntelliJ IDEA 时，它会显示欢迎界面。</p>
@@ -53,6 +53,6 @@
             <li><a href="import-project-or-module-wizard.topic" anchor="open-project">打开一个项目</a></li>
             <li><a href="import-project-or-module-wizard.topic">通过版本控制系统获取项目</a></li>
         </list>
-        <img src="欢迎界面中的项目选项卡.png" alt="欢迎界面中的项目选项卡" width="706"/>
+        <img src="欢迎界面中的项目选项卡.png" alt="欢迎界面中的项目选项卡" width="706" thumbnail="true"/>
     </chapter>
 </topic>

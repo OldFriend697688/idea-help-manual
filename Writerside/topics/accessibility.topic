@@ -15,11 +15,11 @@
                         <list>
                             <li>
                                 <p><a href="https://www.nvaccess.org/">NVDA</a> ：使用 NVDA 2019.3 或更高版本，以便与 IntelliJ IDEA 等 64 位 <tooltip term="java">Java</tooltip> 应用程序兼容。</p>
-                                <img src="NVDA 官网.png" alt="NVDA 官网" width="706"/>
+                                <img src="NVDA 官网.png" alt="NVDA 官网" width="706" thumbnail="true"/>
                             </li>
                             <li>
                                 <p><a href="https://www.freedomscientific.com/Products/Blindness/JAWS">JAWS</a> ：使用 JAWS 12.0.1158 64 位或更高版本，以便与 IntelliJ IDEA 等 64 位 <tooltip term="java">Java</tooltip> 应用程序兼容。</p>
-                                <img src="JAWS 官网.png" alt="JAWS 官网" width="706"/>
+                                <img src="JAWS 官网.png" alt="JAWS 官网" width="706" thumbnail="true"/>
                             </li>
                         </list>
                     </tab>
@@ -67,7 +67,7 @@
             </step>
             <step>
                 <p>启动 Intellij IDEA，位于 <ui-path>设置 | 外观与行为 | 外观</ui-path> 中的 <ui-path>支持屏幕阅读器</ui-path> 选项将被启用。</p>
-                <img src="启用屏幕阅读器支持.png" alt="启用屏幕阅读器支持" width="706"/>
+                <img src="启用屏幕阅读器支持.png" alt="启用屏幕阅读器支持" width="706" thumbnail="true"/>
                 <note>启用 <ui-path>支持屏幕阅读器</ui-path> 选项后，IntelliJ IDEA 会禁用 <a href="guided-tour-around-the-user-interface.topic" anchor="vcs-file-color" summary="在默认情况下，含有打开和保存文件、撤销和重做操作按钮的主工具栏是隐藏的。">主工具栏</a> 中图标的工具提示，将控件切换到键盘，并为屏幕阅读器调整某些控件。</note>
             </step>
         </procedure>
@@ -79,11 +79,11 @@
             <step>按下 <shortcut>Ctrl</shortcut><shortcut>Alt</shortcut><shortcut>S</shortcut> 打开 IDE <format style="bold">设置</format> ，然后选择 <ui-path>外观与行为 | 外观</ui-path>。</step>
             <step>
                 <p>勾选 <format style="bold">针对红-绿色觉缺陷调整颜色</format> 并保存更改。</p>
-                <img src="针对红-绿色觉缺陷调整颜色.png" alt="针对红-绿色觉缺陷调整颜色" width="706"/>
+                <img src="针对红-绿色觉缺陷调整颜色.png" alt="针对红-绿色觉缺陷调整颜色" width="706" thumbnail="true"/>
                 <p>请看下面的示例， <format style="bold">String</format> 用绿色突出显示， <format style="bold">Errors</format> 用红色突出显示：</p>
                 <tabs>
-                    <tab title="启用前"><img src="https://resources.jetbrains.com/help/img/idea/2022.3/before_color_adjustment.png" alt="" /></tab>
-                    <tab title="启用后"><img src="https://resources.jetbrains.com/help/img/idea/2022.3/after_color_adjustment.png" alt=""/></tab>
+                    <tab title="启用前"><img src="https://resources.jetbrains.com/help/img/idea/2022.3/before_color_adjustment.png" alt=""  thumbnail="true"/></tab>
+                    <tab title="启用后"><img src="https://resources.jetbrains.com/help/img/idea/2022.3/after_color_adjustment.png" alt="" thumbnail="true"/></tab>
                 </tabs>
                 <video src="https://www.youtube.com/watch?v=ih8VY7y49us" width="706"/>
             </step>
@@ -94,7 +94,7 @@
             <step>按下 <shortcut>Ctrl</shortcut><shortcut>Alt</shortcut><shortcut>S</shortcut> 打开 IDE 设置，然后选择 <ui-path>外观与行为 | 外观</ui-path>。</step>
             <step>
                 <p>在右侧的 <format style="bold">无障碍功能</format> 部分中，勾选 <format style="bold">使用对比度滚动条</format> 选项。</p>
-                <img src="使用对比度滚动条.png" alt="使用对比度滚动条" width="706"/>
+                <img src="使用对比度滚动条.png" alt="使用对比度滚动条" width="706" thumbnail="true"/>
                 <video src="https://www.youtube.com/watch?v=a_l_pD5_ihc" width="706"/>
             </step>
         </procedure>
@@ -102,15 +102,15 @@
             <note>您可以调整代码元素、错误、编辑器元素和工具窗口的颜色。您还可以配置编辑器中垂直滚动条的颜色。&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;</note>
             <step>
                 <p>按下 <shortcut>Ctrl</shortcut><shortcut>Alt</shortcut><shortcut>S</shortcut> 打开 IDE 设置，然后选择 <ui-path>编辑器 | 配色方案 | 常规。</ui-path>。</p>
-                <img src="设置配色方案.png" alt="设置配色方案" width="706"/>
+                <img src="设置配色方案.png" alt="设置配色方案" width="706" thumbnail="true"/>
             </step>
             <step>
                 <p>从右侧的选项列表中，选择要调整颜色的元素。比如：您可以选择 <format style="bold">代码</format> ，然后调整注入的语言片段或匹配的大括号等的颜色。单击 <format style="bold">确定</format> 保存更改。</p>
-                <img src="调整语言片段或匹配的大括号的颜色.png" alt="调整语言片段或匹配的大括号的颜色" width="706"/>
+                <img src="调整语言片段或匹配的大括号的颜色.png" alt="调整语言片段或匹配的大括号的颜色" width="706" thumbnail="true"/>
                 <video src="https://www.youtube.com/watch?v=WS-3efMOxWI" width="706"/>
             </step>
             <note>您还可以调整调试器、控制台和其他 IDE 部分的颜色：设置位置位于 <ui-path>设置 | 编辑器 | 颜色方案</ui-path> 列表中的相应节点内。</note>
-            <img src="调整调试器、控制台以及 IDE 其他部分的颜色.png" alt="调整调试器、控制台以及 IDE 其他部分的颜色" width="706"/>
+            <img src="调整调试器、控制台以及 IDE 其他部分的颜色.png" alt="调整调试器、控制台以及 IDE 其他部分的颜色" width="706" thumbnail="true"/>
         </procedure>
         <procedure title="调整默认的 UI 字体" id="ui-fonts">
             <note>您可以覆盖 <tooltip term="user-interface">UI</tooltip> 元素使用的默认字体。&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;</note>
@@ -118,7 +118,7 @@
             <step>在右侧找到 <format style="bold">字体</format> 下拉列表，然后从其中选择一种字体并指定字体大小。</step>
             <step>
                 <p>单击 <format style="bold">确定</format> 保存更改。</p>
-                <img src="调整 UI 默认字体以及大小.png" alt="调整 UI 默认字体以及大小" width="706"/>
+                <img src="调整 UI 默认字体以及大小.png" alt="调整 UI 默认字体以及大小" width="706" thumbnail="true"/>
                 <video src="https://www.youtube.com/watch?v=8ip0YImjEps" width="706"/>
             </step>
         </procedure>
@@ -134,13 +134,13 @@
             <step>按下 <shortcut>Ctrl</shortcut><shortcut>Alt</shortcut><shortcut>S</shortcut> 打开 IDE 设置，然后选择 <ui-path>编辑器 | 常规</ui-path>。</step>
             <step>
                 <p>从右侧选项中，勾选 <format style="bold">使用 Ctrl + 鼠标滚轮更改字号：</format> 选项，以便在编辑器中工作时快速更改文本大小（滚动鼠标滚轮）。</p>
-                <img alt="使用鼠标加快捷键更改编辑器字体大小" src="使用鼠标加快捷键更改编辑器字体大小.png" width="706"/>
+                <img alt="使用鼠标加快捷键更改编辑器字体大小" src="使用鼠标加快捷键更改编辑器字体大小.png" width="706" thumbnail="true"/>
                 <video src="https://www.youtube.com/watch?v=5sbMotGc9ZQ" width="706"/>
             </step>
             <step>如果需要指定精确的字体大小，请选择 <ui-path>编辑器 | 字体</ui-path>。</step>
             <step>
                 <p>从右侧选项中，指定字体、大小、行距和其他可用选项。单击 <format style="bold">确定</format> 保存更改。</p>
-                <img src="调整编辑器字体及相关设置.png" alt="调整编辑器字体及相关设置" width="706"/>
+                <img src="调整编辑器字体及相关设置.png" alt="调整编辑器字体及相关设置" width="706" thumbnail="true"/>
                 <video src="https://www.youtube.com/watch?v=L6dr22ewXhY" width="706"/>
             </step>
         </procedure>
@@ -148,16 +148,16 @@
             <note>您可以配置自定义快捷键来执行您经常使用的操作。&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;</note>
             <step>
                 <p>按下 <shortcut>Ctrl</shortcut><shortcut>Alt</shortcut><shortcut>S</shortcut> 打开 IDE 设置，然后选择 <ui-path>按键映射</ui-path>。</p>
-                <img src="按键映射.png" alt="按键映射" width="706"/>
+                <img src="按键映射.png" alt="按键映射" width="706" thumbnail="true"/>
             </step>
             <step>从右侧选项列表（比如： <a anchor="main-menus" href="guided-tour-around-the-user-interface.topic" summary="IntelliJ IDEA 中的主菜单包含了多个顶级菜单项，每个菜单项下都有相应的子菜单和功能选项，这些菜单提供了对 IDE 的各种功能和设置的访问。">主菜单</a> 、操作和工具）中选择您需要执行的操作。</step>
             <step>
                 <p>右键单击所选项目，然后从上下文菜单中选择要执行的操作，比如： <format style="bold">添加键盘快捷键</format>、<format style="bold">添加鼠标快捷方式</format> 或 <format style="bold">添加缩写</format>。</p>
-                <img src="添加键盘快捷键、 添加鼠标快捷键或添加缩写.png" alt="添加键盘快捷键、 添加鼠标快捷键或添加缩写" width="706"/>
+                <img src="添加键盘快捷键、 添加鼠标快捷键或添加缩写.png" alt="添加键盘快捷键、 添加鼠标快捷键或添加缩写" width="706" thumbnail="true"/>
             </step>
             <step>
                 <p>在打开的对话框中，指定一个快捷键。如果您需要，请选择 <format style="bold">第二次按下</format> 选项并指定快捷键的附加键。单击 <format style="bold">确定</format> 保存更改。</p>
-                <img src="为目标操作添加第二次按下的附加快捷键.png" alt="为目标操作添加第二次按下的附加快捷键" width="706"/>
+                <img src="为目标操作添加第二次按下的附加快捷键.png" alt="为目标操作添加第二次按下的附加快捷键" width="706" thumbnail="true"/>
             </step>
             <step>
                 <p>单击 <format style="bold">确定</format> ，且勿按下 <shortcut>Enter</shortcut> ，它将被视为快捷键。</p>
@@ -169,7 +169,7 @@
             <note>您可以配置智能键的行为。&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;</note>
             <step>
                 <p>按下 <shortcut>Ctrl</shortcut><shortcut>Alt</shortcut><shortcut>S</shortcut> 打开 IDE 设置，然后选择 <ui-path>编辑器 | 常规 | 智能按键</ui-path>。</p>
-                <img src="智能按键.png" alt="智能按键" width="706"/>
+                <img src="智能按键.png" alt="智能按键" width="706" thumbnail="true"/>
             </step>
             <step>
                 从右侧选项中选择或清除智能键选项，比如，您可以取消勾选插入成对括号或插入成对引号选项，该选项会自动插入闭合括号或引号，因为在使用 <tooltip term="screen-reader">屏幕阅读器</tooltip> 时，它可能没有用。单击 <format style="bold">确定</format> 保存更改。
@@ -183,7 +183,7 @@
             <step><p>按下 <shortcut>Ctrl</shortcut><shortcut>Alt</shortcut><shortcut>S</shortcut> 打开 IDE 设置，然后选择 <ui-path>编辑器 | 常规 | 代码补全</ui-path>。</p></step>
             <step>
                 <p>取消勾选 <format style="bold">类型匹配完成</format> 选项。如有需要，取消勾选 <format style="bold">基本补全</format> 选项以禁用基本完成。</p>
-                <img src="代码补全.png" alt="代码补全" width="706"/>
+                <img src="代码补全.png" alt="代码补全" width="706" thumbnail="true"/>
                 <video src="https://www.youtube.com/watch?v=xlZZhOeUv3o" width="706"/>
             </step>
         </procedure>
@@ -200,7 +200,7 @@
             <step>按下 <shortcut>Ctrl</shortcut><shortcut>Alt</shortcut><shortcut>S</shortcut> 打开 IDE 设置，然后选择 <ui-path>编辑器 | 代码样式 | 语言。</ui-path></step>
             <step>
                 <p>从右侧选项中，单击 <format style="bold">制表符和缩进</format> 来配置制表符，或 <format style="bold">空格</format> 来配置空格的使用位置和方式。</p>
-                <img src="代码样式.png" alt="代码样式" width="706"/>
+                <img src="代码样式.png" alt="代码样式" width="706" thumbnail="true"/>
             </step>
             <step>单击 <format style="bold">确定</format> 保存更改。</step>
         </procedure>
@@ -209,7 +209,7 @@
             <step>按下 <shortcut>Ctrl</shortcut><shortcut>Alt</shortcut><shortcut>S</shortcut> 打开 IDE 设置，然后选择 <ui-path>外观与行为 | 外观</ui-path>。</step>
             <step>
                 <p>在 <tooltip term="user-interface">UI</tooltip> 选项区域，从主题列表中选择 <format style="bold">High Contrast</format> ，然后单击 <format style="bold">确定</format> 应用更改。</p>
-                <img src="设置高对比度主题.gif" alt="设置高对比度主题" width="706"/>
+                <img src="设置高对比度主题.gif" alt="设置高对比度主题" width="706" thumbnail="true"/>
             </step>
         </procedure>
         <procedure id="high-contrast-scheme" title="设置高对比度配色方案">
@@ -218,7 +218,7 @@
             <step>在 <format style="bold">配色方案</format> 页面，从 <format style="bold">方案</format> 列表中选择 <format style="bold">高对比度</format>。</step>
             <step>
                 <p>单击 <format style="bold">确定</format> 保存更改。</p>
-                <img src="为高对比度主题设置配色方案.png" alt="为高对比度主题设置配色方案" width="706"/>
+                <img src="为高对比度主题设置配色方案.png" alt="为高对比度主题设置配色方案" width="706" thumbnail="true"/>
             </step>
         </procedure>
     </chapter>

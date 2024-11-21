@@ -4,10 +4,8 @@
 <topic xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
        xsi:noNamespaceSchemaLocation="https://resources.jetbrains.com/writerside/1.0/topic.v2.xsd"
        title="用户界面" id="guided-tour-around-the-user-interface">
-    <note>为布局美观考虑，文档中的图片大小被统一设置为 <format style="bold">706 × 706</format> ，如果想要查看图片中的更多细节，请在图片上单击鼠标右键并选择 <format style="bold">在新标签页中打开图片</format> 等类似的选项。</note>
-      <video src="https://www.youtube.com/watch?v=-XkX-j4zV_8" width="706"/>
     <p>在 Intellij IDEA 中打开项目时，默认的用户界面如下所示（注：下图中使用的是 <format style="bold">Darcula</format> 主题）：</p>
-    <img src="IDEA 默认用户界面（Darcula 主题）.png" alt="IDEA 默认用户界面（Darcula 主题）" width="706" height="706"/>
+    <img src="IDEA 默认用户界面（Darcula 主题）.png" alt="IDEA 默认用户界面（Darcula 主题）" width="706" height="706" thumbnail="true"/>
     <list type="decimal">
         <li><a anchor="navigation-bar" summary="IntelliJ IDEA 中的导航栏是一个便捷的功能，它允许用户快速导航到项目中的不同部分，如文件、类、方法或工具窗口。导航栏通常位于编辑器的顶部，提供了一个紧凑的界面来输入搜索查询或选择目标位置。">导航栏</a></li>
         <li>项目 <a anchor="tool-windows" summary="IntelliJ IDEA 中的工具窗口是 IDE 界面的重要组成部分，它们为开发者提供了各种辅助工具和功能，以支持软件开发的不同方面。">工具窗口</a></li>
@@ -23,12 +21,12 @@
         <p>通过主菜单，将可以快速访问 Intellij IDEA 提供的各项常用功能。当然，还可以通过在 <format style="bold">操作</format>（<shortcut>Ctrl</shortcut><shortcut>Shift</shortcut><shortcut>A</shortcut> ）中输入目标操作名称的方式实现相同的功能调用。例如：在 <format style="bold">操作</format> 中输入 <format style="bold">导航栏</format> ，片刻等待后将会列举出所有与 <format style="bold">导航栏</format> 相关的操作。</p>
         <video src="https://www.youtube.com/watch?v=mK0ZbLqEj9w" width="706"/>
         <note>绝大多数的操作都有与之对应的快捷键，如果想执行的操作没有预设快捷键，可以尝试为其设置快捷键或者在 <format style="bold">操作</format>（<shortcut>Ctrl</shortcut><shortcut>Shift</shortcut><shortcut>A</shortcut> ）中输入目标操作的名称，然后在展开的选项列表中选择需要执行的操作。</note>
-        <img alt="在操作中键入目标操作的名称" src="在操作中键入目标操作的名称.png" width="706"/>
+        <img alt="在操作中键入目标操作的名称" src="在操作中键入目标操作的名称.png" width="706" thumbnail="true"/>
     </chapter>
     <chapter title="主窗口" id="main-windows">
         <p>主窗口集成了代码编辑、调试、构建、 <tooltip term="version-control">版本控制</tooltip> 以及许多其他功能。可以将它理解为是一种容器，用于将 <a anchor="main-menus" summary="IntelliJ IDEA 中的主菜单包含了多个顶级菜单项，每个菜单项下都有相应的子菜单和功能选项，这些菜单提供了对 IDE 的各种功能和设置的访问。" />、<a anchor="navigation-bar" summary="IntelliJ IDEA 中的导航栏是一个便捷的功能，它允许用户快速导航到项目中的不同部分，如文件、类、方法或工具窗口。导航栏通常位于编辑器的顶部，提供了一个紧凑的界面来输入搜索查询或选择目标位置。" /> 等包含在其中。</p>
         <p>在主窗口中，可以处理单个 Intellij IDEA 项目。当然，可以同时打开多个主窗口处理多个项目。在默认情况下，主窗口的标题位置将会显示项目名称和当前打开文件的名称。</p>
-        <img alt="主窗口标题位置显示的项目名称和打开文件的名称" src="主窗口标题位置显示的项目名称和打开文件的名称.png" width="706"/>
+        <img alt="主窗口标题位置显示的项目名称和打开文件的名称" src="主窗口标题位置显示的项目名称和打开文件的名称.png" width="706" thumbnail="true"/>
         <p>如果项目中有多个模块时，还将会额外显示相关模块的名称。</p>
         <video src="https://www.youtube.com/watch?v=MHIisxc-eL8" width="706"/>
         <p>如果想要显示项目和当前打开文件的完整路径，请按下 <shortcut>Ctrl</shortcut><shortcut>Alt</shortcut><shortcut>S</shortcut> 在 <format style="bold">设置</format> 中展开并勾选 <ui-path>外观与行为 | 外观 | 始终在窗口标题中显示完整路径</ui-path> 选项。</p>
@@ -39,7 +37,7 @@
         <p>导航栏是项目视图的快捷方式，通过它可以快速浏览项目结构并在 <a anchor="editor" summary="IntelliJ IDEA 的编辑器是其核心功能之一，它为开发者提供了一个强大、智能和高度可配置的代码编写环境。">编辑器</a> 中打开文件进行编辑。</p>
         <video src="https://www.youtube.com/watch?v=HTVYOEKplrc" width="706"/>
         <note>如果为项目启用了 <tooltip term="version-control">VCS</tooltip> 集成，则导航栏中的内容将会根据 VCS 文件状态颜色突出显示。</note>
-        <img alt="导航栏中 VCS 文件的状态颜色" src="导航栏中 VCS 文件的状态颜色.png" width="706" height="706" id="vcs-file-color"/>
+        <img alt="导航栏中 VCS 文件的状态颜色" src="导航栏中 VCS 文件的状态颜色.png" width="706" height="706" id="vcs-file-color" thumbnail="true"/>
         <note>在默认情况下，含有打开和保存文件、撤销和重做操作按钮的主工具栏是隐藏的。要显示它，请选择 <ui-path><a anchor="main-menus" summary="IntelliJ IDEA 中的主菜单包含了多个顶级菜单项，每个菜单项下都有相应的子菜单和功能选项，这些菜单提供了对 IDE 的各种功能和设置的访问。">主菜单</a>| 视图 | 外观 | 工具栏</ui-path>。</note>
         <video src="https://www.youtube.com/watch?v=SzeOmPgR5gs" width="706"/>
         <note>Intellij IDEA 设计的精妙之处在于，近乎于所有按钮提供的功能都有对应的快捷键。例如：当要构建项目时可以按 <shortcut>Ctrl</shortcut><shortcut>F9</shortcut> ，需要运行源文件时可以按下 <shortcut>Shift</shortcut><shortcut>F10</shortcut> 。如果想要查看项目结构设置时可以按下 <shortcut>Ctrl</shortcut><shortcut>Alt</shortcut><shortcut>Shift</shortcut><shortcut>S</shortcut>。</note>
@@ -59,7 +57,7 @@
             <li><p><format style="bold">代码调试（Code Debugging）</format></p><p>集成了功能强大的调试器，可以设置断点、单步执行、查看变量值、表达式求值等。</p></li>
         </list>
         <note>正如在 <a anchor="navigation-bar" summary="IntelliJ IDEA 中的导航栏是一个便捷的功能，它允许用户快速导航到项目中的不同部分，如文件、类、方法或工具窗口。导航栏通常位于编辑器的顶部，提供了一个紧凑的界面来输入搜索查询或选择目标位置。">导航栏</a> 中提到的那样，如果当前项目已启用了 <tooltip term="version-control">VCS</tooltip> 集成，则编辑器标签页也会根据 VCS 文件状态颜色突出显示。</note>
-        <img alt="编辑器界面（Darcula 主题配色方案）" src="编辑器界面.png" width="706"/>
+        <img alt="编辑器界面（Darcula 主题配色方案）" src="编辑器界面.png" width="706" thumbnail="true"/>
     </chapter>
     <chapter title="状态栏" id="status-bar">
         <tldr><p>隐藏/显示： <ui-path><a anchor="main-menus" summary="IntelliJ IDEA 中的主菜单包含了多个顶级菜单项，每个菜单项下都有相应的子菜单和功能选项，这些菜单提供了对 IDE 的各种功能和设置的访问。">主菜单</a> | 视图 | 外观 | 状态栏</ui-path></p></tldr>
@@ -72,7 +70,7 @@
         <p>状态栏还将会显示后台任务的进度，可以通过鼠标左键单击状态栏右侧区域的进度条来查看。</p>
         <video src="https://www.youtube.com/watch?v=P69pYzI77zw" width="706"/>
         <p>状态栏的右侧部分包含显示整个项目和 <tooltip term="ide">IDE</tooltip> 状态的各种小部件，并提供各种设置的快速访问方式。根据插件集和配置设置的不同，这些小部件提供的设置和行为可能会有所不同。右键单击状态栏，可以选择需要隐藏或显示的小部件。</p>
-        <img alt="状态栏及其小部件" src="状态栏.png" width="706"/>
+        <img alt="状态栏及其小部件" src="状态栏.png" width="706" thumbnail="true"/>
         <chapter title="小部件列表" id="widget-list" default-state="collapsed" collapsible="true">
             <table id="widget-list-table">
                 <tr><td width="100">小部件</td><td width="600">用途描述</td></tr>
@@ -131,7 +129,7 @@
     <chapter title="工具窗口" id="tool-windows">
         <tldr><p>隐藏/显示： <ui-path><a anchor="main-menus" summary="IntelliJ IDEA 中的主菜单包含了多个顶级菜单项，每个菜单项下都有相应的子菜单和功能选项，这些菜单提供了对 IDE 的各种功能和设置的访问。">主菜单</a> | 视图 | 工具窗口 | 工具窗口名</ui-path></p></tldr>
         <p>工具窗口提供的功能是对代码编辑的补充，例如； <format style="bold">项目工具窗口</format> 用于显示项目的结构，而 <format style="bold">运行工具窗口</format> 则用于显示程序运行时的输出结果。</p>
-        <img src="项目工具窗口.png" alt="项目工具窗口" width="706"/>
+        <img src="项目工具窗口.png" alt="项目工具窗口" width="706" thumbnail="true"/>
         <p>默认情况下，工具窗口将会停靠在 <a anchor="main-windows" summary="IntelliJ IDEA 提供了一个非常强大的主窗口，它集成了代码编辑、调试、构建、版本控制以及许多其他功能。"/> 的两侧和底部。可以根据个人习惯重新排列、取消停靠、调整大小或者是隐藏它们。通过鼠标右键单击工具窗口标题或者是鼠标左键单击标题中的 <img src="设置.svg" alt=""/> 查看其支持的排列选项。</p>
         <video src="https://www.youtube.com/watch?v=eA2ZODgt3bk" width="706"/>
         <p>可以为这些工具窗口指定快捷键，以便快速访问常用的工具窗口。有些工具窗口拥有预设快捷键，例如：按下 <shortcut>Alt</shortcut><shortcut>1</shortcut> 将可以快速打开或隐藏 <format style="bold">项目工具窗口</format> ，又例如说想要打开或隐藏 <format style="bold">终端工具窗口</format> 则只需要按下 <shortcut>Alt</shortcut><shortcut>F12</shortcut> 即可。如果想要从 <a anchor="editor" summary="IntelliJ IDEA 的编辑器是其核心功能之一，它为开发者提供了一个强大、智能和高度可配置的代码编写环境。">编辑器</a> 快速跳转到上一个活动工具窗口，请按 <shortcut>F12</shortcut>。</p>
@@ -139,7 +137,7 @@
     </chapter>
     <chapter title="弹出菜单" id="popup-menus">
         <note>分辨弹出菜单和上下文菜单的最简单方法是，上下文菜单不会在菜单的顶部位置列举出此菜单列表的具体名称。一个简单的例子是：当按下 <shortcut>Ctrl</shortcut><shortcut>Alt</shortcut><shortcut>Shift</shortcut><shortcut>T</shortcut> 时将会打开 <format style="bold">重构此</format> 弹出菜单。此时，可以留意此弹出菜单正上方的名称正是 <format style="bold">重构此</format>。</note>
-        <img alt="重构此弹出菜单" src="重构此弹出菜单.png" width="706"/>
+        <img alt="重构此弹出菜单" src="重构此弹出菜单.png" width="706" thumbnail="true"/>
         <p>弹出菜单可以快速访问与当前上下文相关的操作，可以将它理解为是 <a anchor="context-menus" summary="IntelliJ IDEA 的上下文菜单（也称为右键菜单）是在用户在 IDE 的不同部分右键单击时弹出的菜单。上下文菜单提供了与当前上下文相关的操作和选项，这些选项根据用户单击的位置和选择的元素而变化。">上下文菜单</a> 中某些功能子项的直接快捷方式。例如：在 <a anchor="editor" summary="IntelliJ IDEA 的编辑器是其核心功能之一，它为开发者提供了一个强大、智能和高度可配置的代码编写环境。">编辑器</a> 中选定某个代码片段，然后选中上下文菜单中的 <format style="bold">重构</format> 选项和直接按下 <shortcut>Ctrl</shortcut><shortcut>Alt</shortcut><shortcut>Shift</shortcut><shortcut>T</shortcut> 打开 <format style="bold">重构此</format> 弹出菜单时提供的功能实际上是完全一致的。</p>
         <p>Intellij IDEA 中有很多弹出菜单，以下列举的是一些使用频次较高的弹出菜单：</p>
         <list>
@@ -171,7 +169,7 @@
         <p>通过鼠标右键单击界面上的各个元素，将可以查看与当前上下文相关的可用操作。例如：鼠标右键单击 <format style="bold">项目工具窗口</format> 中的文件，将可以查看与该文件相关的操作。鼠标右键单击 <a anchor="editor" summary="IntelliJ IDEA 的编辑器是其核心功能之一，它为开发者提供了一个强大、智能和高度可配置的代码编写环境。">编辑器</a> ，将可以查看适用于当前选中代码片段的可用操作。</p>
         <video src="https://www.youtube.com/watch?v=GGg1Nps7cO4" width="706"/>
         <note>这些操作大多都可以通过 <a anchor="main-menus" summary="IntelliJ IDEA 中的主菜单包含了多个顶级菜单项，每个菜单项下都有相应的子菜单和功能选项，这些菜单提供了对 IDE 的各种功能和设置的访问。" /> 或 <a anchor="main-windows" summary="IntelliJ IDEA 提供了一个非常强大的主窗口，它集成了代码编辑、调试、构建、版本控制以及许多其他功能。" /> 执行。带有快捷键的操作会在操作名称旁边显示快捷键。在实际应用中，可以更高效的直接按下与操作对应的快捷键来执行这些操作，而不是通过上下文菜单来执行它们。</note>
-        <img src="上下文菜单中的操作和与之对应的快捷键.png" alt="上下文菜单中的操作和与之对应的快捷键" width="706"/>
+        <img src="上下文菜单中的操作和与之对应的快捷键.png" alt="上下文菜单中的操作和与之对应的快捷键" width="706" thumbnail="true"/>
     </chapter>
     <seealso>
         <category ref="references">

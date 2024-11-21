@@ -10,45 +10,45 @@
         <step>浏览 <a href="https://intellij-support.jetbrains.com/hc/en-us">Intellij IDEA 知识库</a> 。</step>
         <step>在 <a href="https://intellij-support.jetbrains.com/hc/en-us/community/topics/">社区论坛</a> 创建一个新主题并提问。</step>
         <step>从 <include from="reuse-library.topic" element-id="main-menus" /> 中选择 <ui-path>帮助 | 联系支持</ui-path> 以便直接向支持团队提出请求。</step>
-        <img src="联系支持.png" alt="联系支持" width="706"/>
+        <img src="联系支持.png" alt="联系支持" width="706" thumbnail="true"/>
     </procedure>
     <procedure title="反馈错误" id="report-bug" type="choices">
         <p>如遇错误或想建议新功能，可以使用 <a href="https://youtrack.jetbrains.com/issues/IDEA">Intellij IDEA 问题跟踪器</a> 。</p>
         <step><p>从 <include from="reuse-library.topic" element-id="main-menus" /> 中选择 <ui-path>帮助 | 提交错误报告</ui-path>。</p></step>
         <p>进行提交之前，建议先尝试搜索问题跟踪器，查找是否已存在类似的报告或功能请求，以避免重复。如有类似的，可以添加评论或者投票，以便引起开发团队的关注。</p>
         <p>如果需要附加 Intellij IDEA 日志文件，请通过 <include from="reuse-library.topic" element-id="main-menus" /> | <ui-path>帮助 | 在 Explorer 显示日志</ui-path> 找到它。</p>
-        <img src="在 Explorer 显示日志.png" alt="在 Explorer 显示日志" width="706"/>
+        <img src="在 Explorer 显示日志.png" alt="在 Explorer 显示日志" width="706" thumbnail="true"/>
     </procedure>
     <procedure title="分享反馈" id="feedback">
         <p>对于 JetBrains 产品的任何不满意或改进建议都可以反馈给开发团队。</p>
         <step>从 <include from="reuse-library.topic" element-id="main-menus" /> 中选择 <ui-path>帮助 | 提交反馈（Submit Feedback）</ui-path>。</step>
-        <img src="提交反馈.png" alt="提交反馈" width="706"/>
+        <img src="提交反馈.png" alt="提交反馈" width="706" thumbnail="true"/>
     </procedure>
     <chapter title="了解更多" id="learn">
         <p>学习 Intellij IDEA 有很多种方式。</p>
         <list>
             <li>
                 <p><format style="bold">每日小技巧</format> 会在每次启动 IDEA 时提供帮助。如果不想显示它，请勾选 <format style="bold">启动时不显示小技巧</format>。</p>
-                <img src="启动时不显示小技巧.png" alt="启动时不显示小技巧" width="706"/>
+                <img src="启动时不显示小技巧.png" alt="启动时不显示小技巧" width="706" thumbnail="true"/>
                 <p>要重新打开 <format style="bold">每日小技巧</format> 对话框，请从 <include from="reuse-library.topic" element-id="main-menus" /> 中选择 <ui-path>帮助 | 每日小技巧</ui-path>。</p>
-                <img src="显示每日小技巧.png" alt="显示每日小技巧" width="706"/>
+                <img src="显示每日小技巧.png" alt="显示每日小技巧" width="706" thumbnail="true"/>
             </li>
             <li>
                 <p><format style="bold">我的工作效率</format> 显示了一系列有用功能的统计数据和技巧。</p>
                 <p>可以通过 <include from="reuse-library.topic" element-id="main-menus" /> | <ui-path>帮助 | 我的工作效率</ui-path> 打开它。</p>
-                <img src="我的工作效率.png" alt="我的工作效率" width="706"/>
+                <img src="我的工作效率.png" alt="我的工作效率" width="706" thumbnail="true"/>
             </li>
             <li>
                 <p><format style="bold">学习 IDE 功能</format> 是一款学习最常用和最有用操作的工具。它是一系列交互式课程，通过实际案例指导新用户使用快捷键。</p>
                 <p>可以通过 <include from="reuse-library.topic" element-id="main-menus" /> | <ui-path>帮助 | 学习 IDE 功能</ui-path> 打开它。</p>
-                <img src="学习 IDE 功能.png" alt="学习 IDE 功能" width="706"/>
+                <img src="学习 IDE 功能.png" alt="学习 IDE 功能" width="706" thumbnail="true"/>
             </li>
         </list>
     </chapter>
     <procedure title="离线访问文档" id="offline-help">
         <step>
             <p>如果没有互联网访问权限查看在线文档，可以使用 <a href="https://plugins.jetbrains.com/plugin/10260-intellij-idea-help">Intellij IDEA 帮助</a> 插件，它将通过内置的 Web 服务器提供帮助页面，以便离线使用。</p>
-            <img src="Intellij IDEA Help 插件.png" alt="Intellij IDEA Help 插件" width="706"/>
+            <img src="Intellij IDEA Help 插件.png" alt="Intellij IDEA Help 插件" width="706" thumbnail="true"/>
             <note>离线帮助插件会在发布新的主要版本时更新。在发布周期内添加到在线帮助中的更改可能在离线帮助中不可用。</note>
             <video src="https://www.youtube.com/watch?v=adYsa7FNe2s" width="706"/>
         </step>

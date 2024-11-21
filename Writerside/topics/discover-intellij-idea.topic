@@ -15,7 +15,7 @@
             <p>尽管 IntelliJ IDEA 这款工具在 Windows、Linux 和 macOS 这三大主流操作系统平台上均提供服务，并确保了核心功能的一致性，但在各个平台上的操作习惯和界面布局仍略有不同。因此，用户需要根据自己所使用的操作系统，相应地调整使用习惯和方法。</p>
         </note>
         <p>Intellij IDEA 是一款 <tooltip term="cross-platform">跨平台</tooltip> 的 <tooltip term="ide">IDE</tooltip> ，可在 <tooltip term="windows">Windows</tooltip> 、 <tooltip term="macos">macOS</tooltip> 及 <tooltip term="linux">Linux</tooltip> 上提供一致的体验。</p>
-        <img src="Intellij IDEA 支持的三大平台.png" alt="Intellij IDEA 支持的三大平台" width="706"/>
+        <img src="Intellij IDEA 支持的三大平台.png" alt="Intellij IDEA 支持的三大平台" width="706" thumbnail="true"/>
     </chapter>
     <chapter id="editions" title="版本介绍">
         <note>此手册将会重点讨论旗舰版的相关内容，而忽略社区版、 <tooltip term="release-candidate">RC</tooltip> 版、教育版等其他的版本。</note>

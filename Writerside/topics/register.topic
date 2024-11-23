@@ -3,7 +3,129 @@
         SYSTEM "https://resources.jetbrains.com/writerside/1.0/xhtml-entities.dtd">
 <topic xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
        xsi:noNamespaceSchemaLocation="https://resources.jetbrains.com/writerside/1.0/topic.v2.xsd"
-       title="注册" id="register">
-
-    <p>Start typing here...</p>
+       title="注册 Intellij IDEA" id="register">
+    <show-structure depth="1" for="chapter,procedure" />
+    <primary-label ref="Ultimate"/>
+    <secondary-label ref="FreeTrial"/>
+    <note>您可以免费试用 Intellij IDEA Ultimate（旗舰版）最多 <format style="bold">30</format> 天。当安装 <tooltip term="ide">IDE</tooltip> 后，请登录您的 <a href="https://account.jetbrains.com/login">JetBrains 帐户</a> 以开始试用 Intellij IDEA Ultimate。</note>
+    <tip>
+        <list>
+            <li>如果您使用 <a href="https://www.jetbrains.com.cn/toolbox-app/">Toolbox</a> 安装 JetBrains 产品，并且已登录您的 JetBrains 帐户，IntelliJ IDEA 将会自动登录您的 JetBrains 帐户。</li>
+            <li>如果您使用 JetBrains 账户的双因素身份验证，您可以指定生成的应用密码，而不是主要的 JetBrains 账户密码。</li>
+        </list>
+    </tip>
+    <procedure title="开始免费试用" id="start-trial" type="choices">
+        <note>请先阅读 <a href="installation-guide.topic" /> 并正确安装 Intellij IDEA 后再阅读此处内容。 &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;</note>
+        <step>
+            <p>启动 Intellij IDEA 时将会弹出 <format style="bold">许可证</format> 对话框，选中其中的 <format style="bold">开始试用</format> 。</p>
+            <img src="开始试用（1）.png" alt="开始试用" thumbnail="true"/>
+            <img src="登录 JetBrains 账号（1）.png" alt="登录 JetBrains 账号" width="706" thumbnail="true"/>
+        </step>
+        <step>
+            <p>登录在 JetBrains 网站上的帐户，然后在 <format style="bold">许可证</format> 对话框中点击 <format style="bold">开始试用</format> 按钮并开始试用。</p>
+            <img src="登录 JetBrains 账号（2）.png" alt="登录 JetBrains 账号" width="706" thumbnail="true"/>
+            <img src="登录 JetBrains 账号（3）.png" alt="登录 JetBrains 账号" width="706" thumbnail="true"/>
+            <img src="开始试用（2）.png" alt="开始试用" width="706" thumbnail="true"/>
+        </step>
+        <warning>若提示 <format style="bold">Error fetching licenses for ll/lwu584742@gmail.com: Your trial has expired. Tocontinue using Intellil lDEA Ultimate 2022.3, youmust purchase a subscription.</format> 等类似信息，则代表此账号已过试用期。您可以尝试注册新的账号再次尝试免费试用。</warning>
+        <img src="试用期已到期提示.png" alt="试用期已过期" width="706" thumbnail="true"/>
+    </procedure>
+    <note>
+        <p>试用版到期后，您需要购买并注册许可证才能继续使用 IntelliJ IDEA Ultimate。&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;</p>
+        <p>IntelliJ IDEA Ultimate 的下一个发布版本将提供新的试用期。</p>
+    </note>
+    <note><a href="https://www.jetbrains.com/idea/download/other.html">IntelliJ IDEA Community Edition（社区版）</a> 和 <a href="https://www.jetbrains.com/edu-products/download/#section=idea">IntelliJ IDEA Edu（教育版）</a> 是免费的，无需任何许可证即可使用。但您不能升级到 IntelliJ IDEA Ultimate：请按照 <a href="installation-guide.topic" anchor="standalone"/> 中的说明单独下载并安装。</note>
+    <procedure title="激活 IntelliJ IDEA" id="activate-license" type="steps">
+        <step>
+            <p>执行以下操作之一打开 <format style="bold">许可证</format> 对话框：</p>
+            <list>
+                <li>从 <a href="guided-tour-around-the-user-interface.topic" anchor="main-menus" summary="IntelliJ IDEA 中的主菜单包含了多个顶级菜单项，每个菜单项下都有相应的子菜单和功能选项，这些菜单提供了对 IDE 的各种功能和设置的访问。" /> 中选择 <ui-path>帮助 | 注册</ui-path> 。</li>
+                <li>
+                    在 <format style="bold">欢迎界面</format> ，单击 <ui-path>帮助 | 管理许可证</ui-path> 。
+                    <img src="管理许可证.gif" alt="管理许可证" thumbnail="true"/>
+                </li>
+            </list>
+        </step>
+        <step>如有必要，请登录您的 JetBrains 账户。</step>
+        <step>
+            <p>选择激活 Intellij IDEA 许可证的方式：</p>
+            <tabs>
+                <tab title="JetBrains 账户（不推荐）" id="jb-account">
+                    <p>使用 <a href="https://account.jetbrains.com/login">JetBrains 帐户</a> 注册。</p>
+                    <img src="使用 JetBrains 账号注册 IDEA.png" alt="使用 JetBrains 账号注册 IDEA" width="706" thumbnail="true"/>
+                    <note>IntelliJ IDEA 将自动显示许可证列表及其详细信息，如到期日期和标识符。单击 <format style="bold">Activate（激活）</format> 开始使用许可证。 如果列表中未显示您的许可证，请单击 <format style="bold">Refresh license list（刷新许可证列表）</format> 。</note>
+                </tab>
+                <tab title="激活码" id="activation-code">
+                    <p>使用激活码注册。购买相应产品的许可证时，您可以获得激活码。</p>
+                    <img src="使用激活码注册 IDEA.png" alt="使用激活码注册 IDEA" width="706" thumbnail="true"/>
+                </tab>
+                <tab title="许可证服务器（不推荐）" id="license-server">
+                    <p>使用 <a href="https://www.jetbrains.com/license-server/">许可证服务器</a> 注册。</p>
+                    <img src="使用许可服务器激活 IDEA.png" alt="使用许可服务器激活 IDEA" width="706" thumbnail="true"/>
+                </tab>
+            </tabs>
+        </step>
+    </procedure>
+    <!-- 非官方正版途径激活 Intellij IDEA，仅用于学习交流用途，切勿用于实际项目开发。-->
+    <chapter id="crack-activation" title="使用破解激活脚本激活">
+        <primary-label ref="CrackScript" />
+        <warning>以下所述的激活方法仅供学术探讨与知识交流之用。在此郑重提醒，一旦您通过这些方式激活了 IntelliJ IDEA，务必不得将其应用于任何形式的商业项目或个人开发工作中。若因忽视此警告，导致软件使用不当，从而引发的经济损失、法律纠纷或商业信誉损害，本人将概不负责。请务必铭记，非法使用软件可能带来严重后果，这不仅关乎个人诚信，更可能触及法律红线，望各位慎之又慎。</warning>
+        <procedure title="下载破解激活脚本" id="download-hacker-script" default-state="collapsed" collapsible="true">
+            <step>
+                <p>点击 <a href="https://3.jetbra.in/">点击此处</a> 获取激活补丁脚本。</p>
+                <img src="访问 JetBrains 破解激活脚本发布页.png" alt="访问 JetBrains 破解激活脚本发布页" width="706" thumbnail="true"/>
+            </step>
+            <step>
+                <p>点击 <format color="#5380f7" style="bold">jetbra.zip</format> 蓝色文本，开始下载激活补丁并妥善保存。</p>
+                <img src="点击 jetbra.zip 蓝色文本开始下载破解激活脚本.png" alt="点击 jetbra.zip 蓝色文本开始下载破解激活脚本" width="706" thumbnail="true"/>
+            </step>
+        </procedure>
+        <procedure title="卸载破解激活脚本" id="uninstall-crack-activation-script" default-state="collapsed" collapsible="true">
+            <warning>特别强调，在卸载激活补丁脚本之前，请确保 Intellij IDEA 处于未启动状态。&nbsp;&nbsp;&nbsp;</warning>
+            <step>
+                <p>进入 <format style="bold">scripts</format> 目录中找到适用于当前操作系统的可执行卸载脚本并运行它。</p>
+                <note>
+                    <p>对于 <tooltip term="windows">Windows</tooltip> 系统而言，请运行 <format style="bold">uninstall-all-users.vbs</format> 或 <format style="bold">uninstall-current-user.vbs</format> 进行卸载。&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;</p>
+                    <p>对于 <tooltip term="macos">macOS</tooltip> 和 <tooltip term="linux">Linux</tooltip> 系统而言，请运行 <format style="bold">uninstall.sh</format> 进行卸载。 &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;</p>
+                </note>
+            </step>
+            <step><p>运行脚本后点击 <format style="bold">确定</format> 按钮，然后等待 <format style="bold">Done.</format> 的提示出现。</p></step>
+            <step>
+                <p>卸载完毕后，Intellij IDEA 将会还原至未激活状态。</p>
+                <img src="卸载破解激活脚本后激活码将会失效.png" alt="卸载破解激活脚本后激活码将会失效" width="706"/>
+            </step>
+            <step>
+                <p>完整操作步骤请查看如下演示视频</p>
+                <video src="https://www.youtube.com/watch?v=PSrJQW7qBZs" width="706"/>
+            </step>
+        </procedure>
+        <procedure title="配置与激活步骤" id="configuration-and-activation" default-state="collapsed" collapsible="true">
+            <warning>特别强调，在运行激活补丁脚本之前，请确保 Intellij IDEA 处于未启动状态。&nbsp;&nbsp;&nbsp;</warning>
+            <step>
+                <p>进入 <format style="bold">scripts</format> 目录中找到适用于当前操作系统的可执行脚本并运行它。</p>
+                <img src="可用的激活脚本.png" alt="可用的激活脚本" width="706" thumbnail="true"/>
+                <note>
+                    <p>对于 <tooltip term="windows">Windows</tooltip> 系统而言，请运行文件后缀类型为 <format style="bold">.vbs</format> 的可执行脚本。&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;</p>
+                    <p>对于 <tooltip term="macos">macOS</tooltip> 和 <tooltip term="linux">Linux</tooltip> 系统而言，请运行文件后缀类型为 <format style="bold">.sh</format> 的可执行脚本。&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;</p>
+                </note>
+                <note><p>如果您正在使用 <format style="bold">Windows</format> 系统，并且仅需要为当前用户安装激活脚本补丁，则请运行 <format style="bold">install-current-user.vbs</format> 。 但是，如果您想要为所有用户安装激活脚本补丁则请运行 <format style="bold">install-all-users.vbs</format> 。</p></note>
+            </step>
+            <step>
+                <p>运行脚本后点击 <format style="bold">确定</format> 按钮，然后等待 <format style="bold">Done.</format> 的提示出现。</p>
+                <img src="等待 Done. 提示出现.gif" alt="等待 Done. 提示出现" width="706" thumbnail="true"/>
+            </step>
+            <step>
+                <p>复制激活码。</p>
+                <img alt="复制激活码.gif" src="复制激活码.gif" width="706" thumbnail="true"/>
+            </step>
+            <step>
+                <p>启动 Intellij IDEA 并在 <format style="bold">激活码</format> 选项卡中粘贴激活码，然后点击 <format style="bold">激活</format> 按钮。</p>
+                <video src="https://www.youtube.com/watch?v=ak344p7DpFI" width="706"/>
+            </step>
+            <step>
+                <p>完整操作步骤请查看如下演示视频</p>
+                <video src="https://www.youtube.com/watch?v=uKbg5NoGSJc" width="706"/>
+            </step>
+        </procedure>
+    </chapter>
 </topic>

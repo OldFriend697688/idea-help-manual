@@ -1,0 +1,8 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE labels SYSTEM "https://resources.jetbrains.com/writerside/1.0/labels-list.dtd">
+<labels xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
+        xsi:noNamespaceSchemaLocation="https://resources.jetbrains.com/writerside/1.0/labels.xsd">
+    <primary-label id="Ultimate" name="Ultimate" short-name="U" color="blue" />
+    <secondary-label id="FreeTrial" name="Free Trial">Intellij IDEA Ultimate（旗舰版）仅支持 30 日免费试用。</secondary-label>
+    <primary-label id="CrackScript" name="Crack Script" short-name="C" color="red">此方式仅供学习交流使用，造成的后果本人概不负责。</primary-label>
+</labels>

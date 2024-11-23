@@ -14,8 +14,8 @@
         </toc-element>
         <toc-element topic="installation-guide.topic">
             <toc-element topic="run-for-the-first-time.topic"/>
-            <toc-element topic="uninstall.topic"/>
-            <toc-element topic="register.topic"/>
+            <toc-element topic="uninstall.topic" />
+            <toc-element topic="register.topic" toc-title="注册"/>
             <toc-element topic="update.topic"/>
         </toc-element>
         <toc-element topic="working-offline.topic"/>

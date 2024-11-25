@@ -30,7 +30,7 @@
             </step>
             <step>
                 <p>如果检测到安装了屏幕阅读器，IntelliJ IDEA 会自动提示并建议启用屏幕阅读器。</p>
-                <p>首次启动 IntelliJ IDEA 时，在打开的对话框中点击 <format style="bold">启用</format>。</p>
+                <p>首次启动 IntelliJ IDEA 时，在打开的对话框中单击 <format style="bold">启用</format>。</p>
                 <p>对于已经安装和配置过的 IntelliJ IDEA，也可以稍后或手动激活屏幕阅读器支持。</p>
             </step>
         </procedure>

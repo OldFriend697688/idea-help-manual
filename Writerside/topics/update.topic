@@ -4,6 +4,95 @@
 <topic xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
        xsi:noNamespaceSchemaLocation="https://resources.jetbrains.com/writerside/1.0/topic.v2.xsd"
        title="更新" id="update">
-
-    <p>Start typing here...</p>
+    <warning>如果已通过 <a href="register.topic" anchor="crack-activation" summary="一旦您通过这些方式激活了 IntelliJ IDEA，务必不得将其应用于任何形式的商业项目或个人开发工作中。若因忽视此警告，导致软件使用不当，从而引发的经济损失、法律纠纷或商业信誉损害，本人将概不负责。请务必铭记，非法使用软件可能带来严重后果，这不仅关乎个人诚信，更可能触及法律红线，望各位慎之又慎。">特殊方式</a> 激活了 Intellij IDEA，则强烈建议您不要考虑将它更新至更高版本。&nbsp;</warning>
+    <tldr>
+        <p>针对 Windows 或 Linux  ： <ui-path>文件 | 设置 （ <shortcut>Ctrl</shortcut><shortcut>Alt</shortcut><shortcut>S</shortcut> ） | 外观与行为 | 系统设置 | 更新 &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;</ui-path></p>
+        <p>针对 macOS ： <ui-path>IntelliJ IDEA | 设置 | 外观与行为 | 系统设置 | 更新</ui-path> &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;</p>
+    </tldr>
+    <p>默认情况下，IntelliJ IDEA 被配置为自动检查更新，并在新版本可用时通知您。更新通常是基于补丁的：它们会应用到现有的安装中，只需要重新启动 <tooltip term="ide">IDE</tooltip> 即可。不过，有时补丁更新不可用，必须安装新版本的 IntelliJ IDEA。</p>
+    <img src="Intellij IDEA 更新设置.png" alt="Intellij IDEA 更新设置" width="706" thumbnail="true"/>
+    <p>当 IntelliJ IDEA 更新到一个新的主要版本时，它会在 <a href="guided-tour-around-the-user-interface.topic" anchor="editor" summary="编辑器是 Intellij IDEA 的核心功能之一，它为开发者提供了一个强大、智能和高度可配置的代码编写环境。" /> 中打开 <format style="bold">IntelliJ IDEA 最新变化</format> 选项卡，其中包含有关更改、改进和修复的信息。要手动打开该选项卡，请选择 <ui-path><a href="guided-tour-around-the-user-interface.topic" anchor="main-menus" summary="IntelliJ IDEA 中的主菜单包含了多个顶级菜单项，每个菜单项下都有相应的子菜单和功能选项，这些菜单提供了对 IDE 的各种功能和设置的访问。" /> | 帮助 | IntelliJ IDEA 最新变化。</ui-path></p>
+    <img src="Intellij IDEA 最新变化.png" alt="Intellij IDEA 最新变化" width="706" thumbnail="true"/>
+    <p>如果 IntelliJ IDEA 在本地网络之外没有 <tooltip term="http">HTTP</tooltip> 访问权限，则无法检查更新和应用补丁。在这种情况下，您必须下载 IDE 的新版本，并进行 <a href="installation-guide.topic" anchor="standalone" /> 。</p>
+    <chapter id="toolbox" title="Toolbox App">
+        <primary-label ref="Toolbox"/>
+        <p>如果您使用 <a href="installation-guide.topic" anchor="toolbox">Toolbox App</a> 安装了 IntelliJ IDEA，当有新版本可用时，它会建议您更新 <tooltip term="ide">IDE</tooltip> 。</p>
+        <procedure title="自动更新所有已管理工具" id="update-all-tools" type="steps">
+            <warning>因软件更新迭代较快，现 Toolbox App 已不支持下载 Intellij IDEA 2022.3.3 版本。</warning>
+            <note>Toolbox App 虽不再提供 Intellij IDEA 2022.3.3 的下载，但若已安装该版本则仍可由 Toolbox App 管理。</note>
+            <step>
+                <p>打开 Toolbox App 然后单击 <format style="bold">Toolbox App 菜单</format> 。</p>
+                <img src="Toolbox App 菜单.png" alt="Toolbox App 菜单" width="706" thumbnail="true"/>
+            </step>
+            <step>
+                <p>单击 <format style="bold">设置</format> ，然后展开 <format style="bold">工具</format> 并启用 <format style="bold">自动更新所有工具</format> 。</p>
+                <img alt="为 Toolbox App 启用自动更新所有工具选项.gif" src="为 Toolbox App 启用自动更新所有工具选项.gif" width="706" thumbnail="true"/>
+            </step>
+            <step>
+                <p>如果取消 <format style="bold">自动更新所有工具</format> 选项，当工具有新版本出现时，请点击工具名称旁边的 <format style="bold">更新</format> 。</p>
+                <img src="Toolbox App 实例旁的更新按钮.png" alt="Toolbox App 实例旁的更新按钮" width="706" thumbnail="true"/>
+            </step>
+        </procedure>
+        <note>您甚至还可以为被 Toolbox App 管理的各个 <tooltip term="ide">IDE</tooltip> 分配完全不同的更新策略。&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;</note>
+        <procedure title="为特定实例配置更新策略" id="update-specific-tool">
+            <step>
+                <p>打开 Toolbox App，单击相关 <tooltip term="ide">IDE</tooltip> 实例旁边的 <img src="Toolbox IDE 设置.png" alt=""/> 然后选择 <format style="bold">设置</format> 。</p>
+                <img src="Toolbox App 特定 IDE 实例后的设置选项.png" alt="Toolbox App 特定 IDE 实例后的设置选项" width="706" thumbnail="true"/>
+            </step>
+            <step>
+                <p>在 <format style="bold">设置</format> 对话框中，选择该 IDE 实例要使用的更新通道：</p>
+                <list>
+                    <li>更新为 <format style="bold">发布（Release）</format> 版本：仅更新至建议用于生产环境的稳定版本。</li>
+                    <li>更新为 <format style="bold">抢先体验计划 </format> 版本：包含发布候选版本、BETA 版本和 <a href="https://www.jetbrains.com/resources/eap/">EAP</a> 版本的更新，强烈不建议将其用于生产环境。</li>
+                </list>
+                <img src="为特定 IDE 实例选择更新通道.png" alt="为特定 IDE 实例选择更新通道" width="706" thumbnail="true"/>
+            </step>
+        </procedure>
+    </chapter>
+    <chapter id="standalone" title="独立实例">
+        <p>如果您 <a href="installation-guide.topic" anchor="standalone">手动安装</a> 了 IntelliJ IDEA，独立的 <tooltip term="ide">IDE</tooltip> 实例将自行管理更新。当有新版本可用时，它会通知您。您可以选择更新当前实例、推迟通知或完全忽略更新。</p>
+        <img src="Intellij IDEA 和插件更新.png" alt="Intellij IDEA 和插件更新.png" width="706" thumbnail="true"/>
+        <chapter id="update-settings" title="配置更新策略">
+            <p>要管理 IntelliJ IDEA 的更新策略，请进入 <format style="bold">设置</format> （ <shortcut>Ctrl</shortcut><shortcut>Alt</shortcut><shortcut>S</shortcut> ）选择 <ui-path>外观和行为 | 系统设置 | 更新</ui-path> 。</p>
+            <note>如果 IDE 实例由 <format style="bold">Toolbox App</format> 管理，这些设置将只影响 <a href="plug-in-system.topic" summary="通过强大的插件系统可拓展 Intellij IDEA 的功能。">插件</a> 更新。&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;</note>
+            <procedure collapsible="true" default-state="collapsed" title="更新页面包含的设置">
+                <img src="更新设置界面.png" alt="更新设置界面" width="706" thumbnail="true"/>
+                <table column-width="auto" border="true">
+                    <tr><td>&nbsp;</td><td>&nbsp;</td></tr>
+                    <tr>
+                        <td>为之检查 IDE 更新</td>
+                        <td>
+                            <p>选择是否希望 IntelliJ IDEA 自动检查更新，并选择更新渠道。</p>
+                            <list>
+                                <li><format style="bold">抢先体验计划：</format> 包含发布候选版本、BETA 版本和 <a href="https://www.jetbrains.com/resources/eap/">EAP</a> 版本的更新，强烈不建议将其用于生产环境。</li>
+                                <li><format style="bold">稳定版本；只包括推荐用于生产的稳定版本。</format></li>
+                            </list>
+                        </td>
+                    </tr>
+                    <tr>
+                        <td>检查插件更新</td>
+                        <td>选择是否希望 IntelliJ IDEA 自动检查插件的新版本。</td>
+                    </tr>
+                    <tr>
+                        <td>检查更新</td>
+                        <td>立即检查更新。</td>
+                    </tr>
+                    <tr>
+                        <td>IDE 更新后在编辑器中显示新功能</td>
+                        <td>打开一个标签页，其中包含有关 IDE 的重大更新后的新功能和改进的信息。</td>
+                    </tr>
+                </table>
+            </procedure>
+        </chapter>
+    </chapter>
+    <chapter id="snap" title="Snap 包">
+        <p>如果您将 <a href="installation-guide.topic" anchor="snap">IntelliJ IDEA 作为 Snap 包安装</a> ，它将自动管理更新。所有快照每天都会在后台自动更新。您也可以随时手动获取所有快照的最新版本，只需运行以下命令即可：</p>
+        <code-block lang="sh" prompt="$">sudo snap refresh</code-block>
+        <p>或者说，如果您只想更新 IntelliJ IDEA snap，您可以执行以下命令：</p>
+        <tabs>
+            <tab title="IntelliJ IDEA Ultimate"><code-block lang="shell" prompt="$">sudo snap refresh intellij-idea-ultimate</code-block></tab>
+            <tab title="IntelliJ IDEA Edu"><code-block lang="shell" prompt="$">sudo snap refresh intellij-idea-educational</code-block></tab>
+            <tab title="Community Edition"><code-block lang="shell" prompt="$">sudo snap refresh intellij-idea-community</code-block></tab>
+        </tabs>
+    </chapter>
 </topic>

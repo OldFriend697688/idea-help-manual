@@ -187,10 +187,10 @@
                     <tab title="IntelliJ IDEA Edu"><code-block lang="shell" prompt="$">sudo snap install intellij-idea-educational --classic --edge</code-block></tab>
                     <tab title="Community Edition"><code-block lang="shell" prompt="$">sudo snap install intellij-idea-community --classic --edge</code-block></tab>
                 </tabs>
-                <note>安装 snap 后，可以通过运行 <code>intellij-idea-community</code>、<code>intellij-idea-ultimate</code> 或 <code>intellij-idea-educational</code> 命令启动它。</note>
+                <note>安装 snap 后，可以通过运行 <code>intellij-idea-community</code> 、 <code>intellij-idea-ultimate</code> 或 <code>intellij-idea-educational</code> 命令启动它。</note>
             </li>
         </list>
-        <p>要列出所有已安装的 snap，您可以运行 <code>sudo snap list</code> 。有关其他快照命令的信息，请参阅 <a href="https://docs.snapcraft.io/">Snapcraft 文档</a>。</p>
+        <p>要列出所有已安装的 snap，您可以运行 <code>sudo snap list</code> 。有关其他快照命令的信息，请参阅 <a href="https://docs.snapcraft.io/">Snapcraft 文档</a> 。</p>
     </chapter>
     <chapter id="silent" title="Windows 系统下的静默安装">
         <p>静默安装无任何用户界面，网络管理员可以使用它在多台机器上安装 IntelliJ IDEA，避免打扰其他用户。</p>

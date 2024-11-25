@@ -1,6 +1,7 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <!DOCTYPE terms SYSTEM "https://resources.jetbrains.com/writerside/1.0/glossary.dtd">
 <terms>
+   <term name="http">HTTP（HyperText Transfer Protocol）协议是互联网上应用最为广泛的协议之一，它用于在 Web 服务器和客户端之间传输数据。作为应用层协议，HTTP 基于 TCP/IP 通信协议来传递数据，主要用于浏览网页、下载文件等。</term>
    <term name="shell-script">Shell 脚本是一种在 Unix/Linux 操作系统中的命令行解释器（Shell）环境下运行的脚本程序。它是由一系列命令组成的文本文件，这些命令按照一定的顺序执行，可以完成特定的任务自动化。</term>
    <term name="ide">IDE（集成开发环境）是一种软件应用，它为开发者提供了编程所需的各种工具，包括代码编辑器、编译器、调试器和项目管理工具等。这些工具通常集成在一个统一的用户界面中，旨在提高开发效率，简化开发过程。</term>
    <term name="sts">STS（Spring Tool Suite）是基于 Eclipse 的 IDE，专门针对 Spring 框架和 Spring Boot 应用开发。它提供了 Spring 项目创建、代码辅助、调试以及部署等特性。</term>

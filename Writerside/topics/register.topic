@@ -22,7 +22,7 @@
             <img src="登录 JetBrains 账号（1）.png" alt="登录 JetBrains 账号" width="706" thumbnail="true"/>
         </step>
         <step>
-            <p>登录在 JetBrains 网站上的帐户，然后在 <format style="bold">许可证</format> 对话框中点击 <format style="bold">开始试用</format> 按钮并开始试用。</p>
+            <p>登录在 JetBrains 网站上的帐户，然后在 <format style="bold">许可证</format> 对话框中单击 <format style="bold">开始试用</format> 按钮并开始试用。</p>
             <img src="登录 JetBrains 账号（2）.png" alt="登录 JetBrains 账号" width="706" thumbnail="true"/>
             <img src="登录 JetBrains 账号（3）.png" alt="登录 JetBrains 账号" width="706" thumbnail="true"/>
             <img src="开始试用（2）.png" alt="开始试用" width="706" thumbnail="true"/>
@@ -72,12 +72,12 @@
         <warning>以下所述的激活方法仅供学术探讨与知识交流之用。在此郑重提醒，一旦您通过这些方式激活了 IntelliJ IDEA，务必不得将其应用于任何形式的商业项目或个人开发工作中。若因忽视此警告，导致软件使用不当，从而引发的经济损失、法律纠纷或商业信誉损害，本人将概不负责。请务必铭记，非法使用软件可能带来严重后果，这不仅关乎个人诚信，更可能触及法律红线，望各位慎之又慎。</warning>
         <procedure title="下载破解激活脚本" id="download-hacker-script" default-state="collapsed" collapsible="true">
             <step>
-                <p>点击 <a href="https://3.jetbra.in/">点击此处</a> 获取激活补丁脚本。</p>
+                <p><a href="https://3.jetbra.in/">单击此处</a> 获取激活补丁脚本。</p>
                 <img src="访问 JetBrains 破解激活脚本发布页.png" alt="访问 JetBrains 破解激活脚本发布页" width="706" thumbnail="true"/>
             </step>
             <step>
-                <p>点击 <format color="#5380f7" style="bold">jetbra.zip</format> 蓝色文本，开始下载激活补丁并妥善保存。</p>
-                <img src="点击 jetbra.zip 蓝色文本开始下载破解激活脚本.png" alt="点击 jetbra.zip 蓝色文本开始下载破解激活脚本" width="706" thumbnail="true"/>
+                <p>单击 <format color="#5380f7" style="bold">jetbra.zip</format> 蓝色文本，开始下载激活补丁并妥善保存。</p>
+                <img src="单击 jetbra.zip 蓝色文本开始下载破解激活脚本.png" alt="单击 jetbra.zip 蓝色文本开始下载破解激活脚本" width="706" thumbnail="true"/>
             </step>
         </procedure>
         <procedure title="卸载破解激活脚本" id="uninstall-crack-activation-script" default-state="collapsed" collapsible="true">
@@ -89,7 +89,7 @@
                     <p>对于 <tooltip term="macos">macOS</tooltip> 和 <tooltip term="linux">Linux</tooltip> 系统而言，请运行 <format style="bold">uninstall.sh</format> 进行卸载。 &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;</p>
                 </note>
             </step>
-            <step><p>运行脚本后点击 <format style="bold">确定</format> 按钮，然后等待 <format style="bold">Done.</format> 的提示出现。</p></step>
+            <step><p>运行脚本后单击 <format style="bold">确定</format> 按钮，然后等待 <format style="bold">Done.</format> 的提示出现。</p></step>
             <step>
                 <p>卸载完毕后，Intellij IDEA 将会还原至未激活状态。</p>
                 <img src="卸载破解激活脚本后激活码将会失效.png" alt="卸载破解激活脚本后激活码将会失效" width="706"/>
@@ -111,7 +111,7 @@
                 <note><p>如果您正在使用 <format style="bold">Windows</format> 系统，并且仅需要为当前用户安装激活脚本补丁，则请运行 <format style="bold">install-current-user.vbs</format> 。 但是，如果您想要为所有用户安装激活脚本补丁则请运行 <format style="bold">install-all-users.vbs</format> 。</p></note>
             </step>
             <step>
-                <p>运行脚本后点击 <format style="bold">确定</format> 按钮，然后等待 <format style="bold">Done.</format> 的提示出现。</p>
+                <p>运行脚本后单击 <format style="bold">确定</format> 按钮，然后等待 <format style="bold">Done.</format> 的提示出现。</p>
                 <img src="等待 Done. 提示出现.gif" alt="等待 Done. 提示出现" width="706" thumbnail="true"/>
             </step>
             <step>
@@ -119,7 +119,7 @@
                 <img alt="复制激活码.gif" src="复制激活码.gif" width="706" thumbnail="true"/>
             </step>
             <step>
-                <p>启动 Intellij IDEA 并在 <format style="bold">激活码</format> 选项卡中粘贴激活码，然后点击 <format style="bold">激活</format> 按钮。</p>
+                <p>启动 Intellij IDEA 并在 <format style="bold">激活码</format> 选项卡中粘贴激活码，然后单击 <format style="bold">激活</format> 按钮。</p>
                 <video src="https://www.youtube.com/watch?v=ak344p7DpFI" width="706"/>
             </step>
             <step>

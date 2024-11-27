@@ -80,25 +80,6 @@
                 <img src="单击 jetbra.zip 蓝色文本开始下载破解激活脚本.png" alt="单击 jetbra.zip 蓝色文本开始下载破解激活脚本" width="706" thumbnail="true"/>
             </step>
         </procedure>
-        <procedure title="卸载破解激活脚本" id="uninstall-crack-activation-script" default-state="collapsed" collapsible="true">
-            <warning>特别强调，在卸载激活补丁脚本之前，请确保 Intellij IDEA 处于未启动状态。&nbsp;&nbsp;&nbsp;</warning>
-            <step>
-                <p>进入 <format style="bold">scripts</format> 目录中找到适用于当前操作系统的可执行卸载脚本并运行它。</p>
-                <note>
-                    <p>对于 <tooltip term="windows">Windows</tooltip> 系统而言，请运行 <format style="bold">uninstall-all-users.vbs</format> 或 <format style="bold">uninstall-current-user.vbs</format> 进行卸载。&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;</p>
-                    <p>对于 <tooltip term="macos">macOS</tooltip> 和 <tooltip term="linux">Linux</tooltip> 系统而言，请运行 <format style="bold">uninstall.sh</format> 进行卸载。 &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;</p>
-                </note>
-            </step>
-            <step><p>运行脚本后单击 <format style="bold">确定</format> 按钮，然后等待 <format style="bold">Done.</format> 的提示出现。</p></step>
-            <step>
-                <p>卸载完毕后，Intellij IDEA 将会还原至未激活状态。</p>
-                <img src="卸载破解激活脚本后激活码将会失效.png" alt="卸载破解激活脚本后激活码将会失效" width="706"/>
-            </step>
-            <step>
-                <p>完整操作步骤请查看如下演示视频</p>
-                <video src="https://www.youtube.com/watch?v=PSrJQW7qBZs" width="706"/>
-            </step>
-        </procedure>
         <procedure title="配置与激活步骤" id="configuration-and-activation" default-state="collapsed" collapsible="true">
             <warning>特别强调，在运行激活补丁脚本之前，请确保 Intellij IDEA 处于未启动状态。&nbsp;&nbsp;&nbsp;</warning>
             <step>
@@ -127,5 +108,38 @@
                 <video src="https://www.youtube.com/watch?v=uKbg5NoGSJc" width="706"/>
             </step>
         </procedure>
+        <procedure title="卸载破解激活脚本" id="uninstall-crack-activation-script" default-state="collapsed" collapsible="true">
+            <warning>特别强调，在卸载激活补丁脚本之前，请确保 Intellij IDEA 处于未启动状态。&nbsp;&nbsp;&nbsp;</warning>
+            <step>
+                <p>进入 <format style="bold">scripts</format> 目录中找到适用于当前操作系统的可执行卸载脚本并运行它。</p>
+                <note>
+                    <p>对于 <tooltip term="windows">Windows</tooltip> 系统而言，请运行 <format style="bold">uninstall-all-users.vbs</format> 或 <format style="bold">uninstall-current-user.vbs</format> 进行卸载。&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;</p>
+                    <p>对于 <tooltip term="macos">macOS</tooltip> 和 <tooltip term="linux">Linux</tooltip> 系统而言，请运行 <format style="bold">uninstall.sh</format> 进行卸载。 &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;</p>
+                </note>
+            </step>
+            <step><p>运行脚本后单击 <format style="bold">确定</format> 按钮，然后等待 <format style="bold">Done.</format> 的提示出现。</p></step>
+            <step>
+                <p>卸载完毕后，Intellij IDEA 将会还原至未激活状态。</p>
+                <img src="卸载破解激活脚本后激活码将会失效.png" alt="卸载破解激活脚本后激活码将会失效" width="706"/>
+            </step>
+            <step>
+                <p>完整操作步骤请查看如下演示视频</p>
+                <video src="https://www.youtube.com/watch?v=PSrJQW7qBZs" width="706"/>
+            </step>
+        </procedure>
+    </chapter>
+    <!-- 删除 %APPDATA%\JetBrains\IntelliJIdea2022.3\idea.key 文件可使 Intellij IDEA 恢复至未激活状态。 -->
+    <chapter id="remove-activation-license" title="移除激活许可证">
+        <primary-label ref="Ultimate"/>
+        <p>如果想要解除 Intellij IDEA 的激活状态，您可以通过点击 <format style="bold">移除许可证</format> 按钮实现。</p>
+        <p>您可以通过以下几种方式找到 <format style="bold">移除许可证</format> 按钮：</p>
+        <list>
+            <li>从 <a href="guided-tour-around-the-user-interface.topic" anchor="main-menus" summary="IntelliJ IDEA 中的主菜单包含了多个顶级菜单项，每个菜单项下都有相应的子菜单和功能选项，这些菜单提供了对 IDE 的各种功能和设置的访问。" /> 中选择 <ui-path>帮助 | 注册</ui-path> ，然后找到 <format style="bold">移除许可证</format> 按钮。</li>
+            <li>在 <format style="bold">欢迎界面</format> 中单击 <ui-path>帮助 | 管理许可证</ui-path> ，然后找到 <format style="bold">移除许可证</format> 按钮。 <img src="移除许可证.png" alt="移除许可证" thumbnail="true" width="706"/></li>
+            <li>
+                按 <shortcut>Ctrl</shortcut><shortcut>Shift</shortcut><shortcut>A</shortcut> 在 <format style="bold">操作</format> 中键入 <format style="bold">注册</format> 并按 <shortcut>Enter</shortcut> 然后在 <format style="bold">许可证</format> 中找到 <format style="bold">移除许可证</format> 按钮。
+                <video src="https://www.youtube.com/watch?v=MLYZ2UEhNI4" width="706"/>
+            </li>
+        </list>
     </chapter>
 </topic>

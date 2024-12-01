@@ -105,6 +105,7 @@
         </tabs>
     </chapter>
     <chapter id="toolbox" title="使用 Toolbox App 安装">
+        <primary-label ref="Toolbox"/>
         <note>通过使用 Toolbox App 安装、管理、更新及卸载 JetBrains IDEs 并非是强制性的。 &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;</note>
         <p><a href="https://www.jetbrains.com/toolbox-app/">JetBrains Toolbox App</a> 是安装 JetBrains 产品的推荐工具。使用它来安装和管理不同产品或同一产品的多个版本，包括 <a href="https://www.jetbrains.com/community/eap/">早期访问计划（EAP）</a> ，必要时进行更新和回滚，并轻松删除任何工具。它维护所有项目的列表，以便快速在正确的 <tooltip term="ide">IDE</tooltip> 和版本中打开任何项目。</p>
         <img src="JetBrains Toolbox App 中文官网首页.png" alt="JetBrains Toolbox App" width="706" thumbnail="true"/>

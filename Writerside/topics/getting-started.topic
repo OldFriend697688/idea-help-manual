@@ -16,8 +16,9 @@
         <primary>
             <title>快速开始</title>
             <a href="installation-guide.topic" summary="选择一种适合自己的方式安装 Intellij IDEA。">安装 Intellij IDEA</a>
-            <a href="guided-tour-around-the-user-interface.topic" summary="了解 Intellij IDEA 用户界面的主要构成部分。">用户界面</a>
+            <a href="installation-guide.topic" summary="为 Intellij IDEA 安装简体中文语言包，以降低使用和学习难度。" anchor="simplified-chinese-language" />
             <a href="user-interface-themes.topic" summary="安装符合个人审美标准的主题，告别乏味枯燥的单色调背景。">主题</a>
+            <a href="guided-tour-around-the-user-interface.topic" summary="了解 Intellij IDEA 用户界面的主要构成部分。">用户界面</a>
             <a href="setting-background-image.topic" summary="为 Intellij IDEA 设置个人喜好的背景图片，让开发环境更加个性化。">背景图片设置</a>
         </primary>
 

@@ -212,4 +212,35 @@
             <note>可以执行静默安装，无需配置文件。在这种情况下，省略 <code>/CONFIG</code> 参数，并以管理员身份运行安装程序。如果没有静默配置文件，安装程序将忽略所有其他选项：它不会创建桌面快捷方式，添加关联，或更新 <code>PATH</code> 变量。但是，它仍然会在开始菜单下的 JetBrains 中创建一个快捷方式。</note>
         </chapter>
     </chapter>
+    <chapter id="simplified-chinese-language" title="简体中文语言包">
+        <primary-label ref="ChineseLanguage"/>
+        <note>如果您的 Intellij IDEA 尚为激活，请您先尝试 <a href="register.topic" anchor="start-trial">免费试用</a> 或 <a href="register.topic" anchor="crack-activation" summary="">激活</a> 后再阅读此节内容。&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;</note>
+        <procedure title="安装简体中文语言包" id="配置简体中文语言包" type="choices">
+            <step>
+                启动 Intellij IDEA 并单击 在 <format style="bold">欢迎界面</format> 中的 <format style="bold">Plugins</format> 选项。
+                <img alt="为 Intellij IDEA 安装简体中文语言包" src="为 Intellij IDEA 安装简体中文语言包（1）.png" width="706" thumbnail="true"/>
+            </step>
+            <step>
+                在 <format style="bold">Marketplace</format> 的搜索框中键入 <format style="bold">Chinese</format> 并等待搜索结果。
+                <img alt="为 Intellij IDEA 安装简体中文语言包" src="为 Intellij IDEA 安装简体中文语言包（2）.png" width="706" thumbnail="true"/>
+            </step>
+            <step>
+                找到 <format style="bold">Chinese (Simplified) Language Pack/ 中文语言包</format> 并单击 <format style="bold">Install</format> 按钮。
+                <img alt="为 Intellij IDEA 安装简体中文语言包" src="为 Intellij IDEA 安装简体中文语言包（3）.png" width="706" thumbnail="true"/>
+            </step>
+            <step>
+                等待 Intellij IDEA 完成插件的下载以及安装，然后单击 <format style="bold">Restart IDE</format> 按钮。
+                <img alt="为 Intellij IDEA 安装简体中文语言包" src="为 Intellij IDEA 安装简体中文语言包（4）.png" thumbnail="true" width="706"/>
+            </step>
+            <step>
+                单击 <format style="bold">Restart</format> 按钮并等待 Intellij IDEA 完成重启。
+                <img alt="为 Intellij IDEA 安装简体中文语言包" src="为 Intellij IDEA 安装简体中文语言包（5）.png" thumbnail="true" width="706"/>
+            </step>
+            <step>
+                重启后，Intellij IDEA 已成功安装简体中文语言补丁。
+                <img alt="为 Intellij IDEA 安装简体中文语言包" src="为 Intellij IDEA 安装简体中文语言包（6）.png" thumbnail="true" width="706"/>
+                <note>如果您想要将 Intellij IDEA 恢复至英文状态，请单击 <format style="bold">禁用</format> 按钮禁用中文语言包。&nbsp;&nbsp;</note>
+            </step>
+        </procedure>
+    </chapter>
 </topic>

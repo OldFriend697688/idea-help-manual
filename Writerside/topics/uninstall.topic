@@ -5,16 +5,6 @@
        xsi:noNamespaceSchemaLocation="https://resources.jetbrains.com/writerside/1.0/topic.v2.xsd"
        title="卸载" id="uninstall">
     <note>卸载 IntelliJ IDEA 的正确方法取决于您使用的 <a href="installation-guide.topic" summary="选择一种适合的方式安装 Intellij IDEA。">安装</a> 方法。&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;</note>
-    <chapter id="toolbox" title="使用 Toolbox App 卸载">
-        <primary-label ref="Toolbox"/>
-        <p>如果使用 <a href="installation-guide.topic" anchor="toolbox">Toolbox App 安装了 IntelliJ IDEA</a>，请执行以下操作：</p>
-        <procedure type="choices">
-            <warning>因软件更新迭代较快，现 Toolbox App 已不支持下载 Intellij IDEA 2022.3.3 版本。</warning>
-            <note>Toolbox App 虽不再提供 Intellij IDEA 2022.3.3 的下载，但若已安装该版本则仍可由 Toolbox App 管理。</note>
-            <step>打开 Toolbox App，单击必要实例的 <img src="toolbox app 更多按钮.svg" alt=""/> 图标，然后选择 <format style="bold">卸载</format> 。</step>
-            <img alt="单击实例中卸载按钮卸载实例.png" src="单击实例中卸载按钮卸载实例.png" width="706"/>
-        </procedure>
-    </chapter>
     <chapter id="standalone" title="卸载独立实例">
         <note>如果运行的是 <a href="installation-guide.topic" anchor="standalone">独立的 IntelliJ IDEA 实例</a> ，则在删除实例时会保留 <a href="directories-used-by-the-ide-to-store-settings-caches-plugins-and-logs.topic">默认的 IDE 目录</a> ，以备日后保留设置或在另一个实例、另一个版本或另一个 <tooltip term="ide">IDE</tooltip> 中使用。如果确定不需要这些目录，可以将其删除。</note>
         <tabs>
@@ -27,11 +17,24 @@
                         <img alt="在 Windows 程序和面板中卸载 Intellij IDEA" src="在 Windows 程序和面板中卸载 Intellij IDEA（3）.png" thumbnail="true" width="706"/>
                     </li>
                     <li>
-                        <p>您也可以手动运行 <format style="bold">bin</format> 目录中 <format style="bold">Uninstall.exe</format> 进行卸载。</p>
+                        <p>您还可以手动运行 <format style="bold">bin</format> 目录中 <format style="bold">Uninstall.exe</format> 进行卸载。</p>
                         <img alt="通过 bin 目录中的 Uninstall 卸载 Intellij IDEA" src="通过 bin 目录中的 Uninstall 卸载 Intellij IDEA.png" width="706" thumbnail="true"/>
                     </li>
                     <li>
-                        <p>删除以下目录：</p>
+                        <p>勾选卸载时需要被一并移除的内容，然后单击 <format style="bold"><format style="underline">U</format>ninstall</format> 按钮。</p>
+                        <list>
+                            <li>删除 Intellij IDEA 2022.3.3 的缓存以及本地历史记录。</li>
+                            <li>删除 Intellij IDEA 2022.3.3 的相关设置以及已安装的 <a href="plug-in-system.topic" summary="强大的插件系统造就了 Intellij IDEA 无与伦比的功能拓展性。">插件</a> 。</li>
+                            <li>参与卸载反馈。（ <format style="bold">通常无需勾选</format> ）</li>
+                        </list>
+                        <img alt="在 Windows 平台上卸载 Intellij IDEA" src="在 Windows 平台上卸载 Intellij IDEA（1）.png" width="706" thumbnail="true"/>
+                    </li>
+                    <li>
+                        <p>卸载完成后单击 <format style="bold">Close</format> 按钮完成卸载。如有需要可以单击 <format style="bold">Show <format style="underline">d</format>etails</format> 按钮查看详细内容。</p>
+                        <img alt="在 Windows 平台上卸载 Intellij IDEA" src="在 Windows 平台上卸载 Intellij IDEA（2）.png" width="706" thumbnail="true"/>
+                    </li>
+                    <li>
+                        <p>删除以下目录（可选）：</p>
                         <deflist>
                             <def title="语法">
                                 <p>&#37;APPDATA&#37;\JetBrains\&lt;product&gt;&lt;version&gt;</p>
@@ -42,6 +45,7 @@
                                 <p>C:\Users\OldFriend\AppData\Local\JetBrains\IntelliJIdea2022.3</p>
                             </def>
                         </deflist>
+                        <video src="https://www.youtube.com/watch?v=U8XQXztfDVc" width="706"/>
                     </li>
                 </list>
             </tab>
@@ -49,7 +53,7 @@
                 <list type="decimal">
                     <li><p>删除 <format style="bold">应用程序（Applications）目录</format> 中的 IntelliJ IDEA 应用程序。</p></li>
                     <li>
-                        <p>删除以下目录：</p>
+                        <p>删除以下目录（可选）：</p>
                         <deflist>
                             <def title="语法">
                                 <p>~/Library/Application Support/JetBrains/&lt;product&gt;&lt;version&gt;</p>
@@ -67,7 +71,7 @@
                 <list type="decimal">
                     <li>删除 Intellij IDEA 的安装目录。</li>
                     <li>
-                        <p>删除以下目录：</p>
+                        <p>删除以下目录（可选）：</p>
                         <deflist>
                             <def title="语法">
                                 <p>~/.config/JetBrains/&gt;product&lt;&gt;version&lt;</p>
@@ -75,15 +79,26 @@
                                 <p>~/.local/share/JetBrains/&gt;product&lt;&gt;version&lt;</p>
                             </def>
                             <def title="例子">
-                               <p>~/.config/JetBrains/IntelliJIdea2022.3</p>
-                               <p>~/.cache/JetBrains/IntelliJIdea2022.3</p>
-                               <p>~/.local/share/JetBrains/IntelliJIdea2022.3</p>
+                                <p>~/.config/JetBrains/IntelliJIdea2022.3</p>
+                                <p>~/.cache/JetBrains/IntelliJIdea2022.3</p>
+                                <p>~/.local/share/JetBrains/IntelliJIdea2022.3</p>
                             </def>
                         </deflist>
                     </li>
                 </list>
             </tab>
         </tabs>
+    </chapter>
+    <chapter id="toolbox" title="使用 Toolbox App 卸载">
+        <primary-label ref="Toolbox"/>
+        <p>如果使用 <a href="installation-guide.topic" anchor="toolbox">Toolbox App 安装了 IntelliJ IDEA</a>，请执行以下操作：</p>
+        <procedure type="choices">
+            <warning>因软件更新迭代较快，现 Toolbox App 已不支持下载 Intellij IDEA 2022.3.3 版本。</warning>
+            <note>Toolbox App 虽不再提供 Intellij IDEA 2022.3.3 的下载，但若已安装该版本则仍可由 Toolbox App 管理。</note>
+            <step>打开 Toolbox App，单击必要实例的 <img src="toolbox app 更多按钮.svg" alt=""/> 图标，然后选择 <format style="bold">卸载</format> 。</step>
+            <img alt="单击实例中卸载按钮卸载实例.png" src="单击实例中卸载按钮卸载实例.png" width="706"/>
+            <video src="https://www.youtube.com/watch?v=s9_MJQr0Utg" width="706"/>
+        </procedure>
     </chapter>
     <!-- 注意：若非必要情况下尽量不要使用静默卸载。 -->
     <chapter id="silent" title="在 Windows 上静默卸载">

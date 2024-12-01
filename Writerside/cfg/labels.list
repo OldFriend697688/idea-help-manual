@@ -6,4 +6,5 @@
     <secondary-label id="FreeTrial" name="Free Trial">Intellij IDEA Ultimate（旗舰版）仅支持 30 日免费试用。</secondary-label>
     <primary-label id="CrackScript" name="Crack Script" short-name="C" color="red">此方式仅供学习交流使用，造成的后果本人概不负责。</primary-label>
     <primary-label id="Toolbox" name="Toolbox" short-name="T">JetBrains Toolbox 是一个专为开发者设计的集成平台。这个平台为开发者提供了一种便捷的方式来管理所有 JetBrains IDE 的订阅和更新。</primary-label>
+    <primary-label id="ChineseLanguage" name="Chinese" short-name="C">为 Intellij IDEA 安装简体中文语言包，以降低使用和学习难度。</primary-label>
 </labels>

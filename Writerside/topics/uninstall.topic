@@ -3,7 +3,7 @@
         SYSTEM "https://resources.jetbrains.com/writerside/1.0/xhtml-entities.dtd">
 <topic xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
        xsi:noNamespaceSchemaLocation="https://resources.jetbrains.com/writerside/1.0/topic.v2.xsd"
-       title="卸载" id="uninstall">
+       title="卸载 Intellij IDEA" id="uninstall">
     <note>卸载 IntelliJ IDEA 的正确方法取决于您使用的 <a href="installation-guide.topic" summary="选择一种适合的方式安装 Intellij IDEA。">安装</a> 方法。&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;</note>
     <chapter id="standalone" title="卸载独立实例">
         <note>如果运行的是 <a href="installation-guide.topic" anchor="standalone">独立的 IntelliJ IDEA 实例</a> ，则在删除实例时会保留 <a href="directories-used-by-the-ide-to-store-settings-caches-plugins-and-logs.topic">默认的 IDE 目录</a> ，以备日后保留设置或在另一个实例、另一个版本或另一个 <tooltip term="ide">IDE</tooltip> 中使用。如果确定不需要这些目录，可以将其删除。</note>

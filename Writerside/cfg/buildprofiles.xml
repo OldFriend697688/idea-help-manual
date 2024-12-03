@@ -1,7 +1,7 @@
 <buildprofiles xsi:noNamespaceSchemaLocation="https://resources.jetbrains.com/writerside/1.0/build-profiles.xsd"
                xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance">
     <variables>
-        <primary-color>blueberry</primary-color>
+        <primary-color>strawberry</primary-color>
         <header-logo>IntelliJ-IDEA-Icon.svg</header-logo>
         <custom-favicons>IntelliJ-IDEA-Icon.svg</custom-favicons>
         <algolia-id>TWGIU9062V</algolia-id>
@@ -9,6 +9,9 @@
         <algolia-api-key>584fbbfdc37daa4d32991e95924b80a4</algolia-api-key>
         <web-root>https://github.com/OldFriend697688/idea-help-manual</web-root>
         <custom-css>custom.css</custom-css>
+        <download-page>https://www.jetbrains.com/idea/download/other.html</download-page>
+        <download-title>下载 Intellij IDEA 2022.3.3</download-title>
+        <showDownloadButton>true</showDownloadButton>
     </variables>
 
     <footer>

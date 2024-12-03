@@ -5,12 +5,15 @@
        xsi:noNamespaceSchemaLocation="https://resources.jetbrains.com/writerside/1.0/topic.v2.xsd"
        title="reuse-library" id="reuse-library">
     <!--提示信息-->
+    <snippet id="plugins-install-tips">
+        <warning>安装过多的插件可能会影响到 Intellij IDEA 的整体性能。&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;</warning>
+    </snippet>
     <snippet id="toolbox-login-tips"><note>从 Toolbox App 登录 JetBrains 帐户，它将自动激活安装的任何 IDE 的可用许可证。</note></snippet>
     <snippet id="main-menus"><a anchor="main-menus" instance="hi" href="guided-tour-around-the-user-interface.topic" summary="IntelliJ IDEA 中的主菜单包含了多个顶级菜单项，每个菜单项下都有相应的子菜单和功能选项，这些菜单提供了对 IDE 的各种功能和设置的访问。">主菜单</a></snippet>
     <snippet id="context-menus"><a anchor="context-menus" href="guided-tour-around-the-user-interface.topic" instance="hi" summary="IntelliJ IDEA 的上下文菜单（也称为右键菜单）是在用户在 IDE 的不同部分右键单击时弹出的菜单。上下文菜单提供了与当前上下文相关的操作和选项，这些选项根据用户单击的位置和选择的元素而变化。">上下文菜单</a></snippet>
     <snippet id="standalone-tips">
-        <p>首次运行 Intellij IDEA 时，可以完成安装自定义您的实例并开始使用该 <tooltip term="ide">IDE</tooltip>。</p>
-        <p>如需要了解更多信息，请参阅 <a instance="hi" href="run-for-the-first-time.topic">首次运行 Intellij IDEA</a>。</p>
+        <p>首次运行 Intellij IDEA 时，可以完成安装自定义您的实例并开始使用该 <tooltip term="ide">IDE</tooltip> 。</p>
+        <p>如需要了解更多信息，请参阅 <a instance="hi" href="run-for-the-first-time.topic">首次运行 Intellij IDEA</a> 。</p>
         <p>有关默认 IDE 目录（包含用户特定文件）位置的信息，请参阅 <a instance="hi" href="directories-used-by-the-ide-to-store-settings-caches-plugins-and-logs.topic">IDE 使用的目录</a> 。</p>
     </snippet>
     <snippet id="standalone-installation-and-running-tips">
@@ -182,6 +185,38 @@
             </step>
             <step><p>在 <format style="bold">查找</format> 工具窗口中，可以进一步处理查找结果，逐个替换找到的内容，或者是一次性替换所有内容，又或者是预览可能的更改。还可以将替换模板添加到<a href="pro-tips.topic" anchor="search-template" summary="">结构搜索检查</a> 中，并将其作为代码的快速检查修复工具。</p></step>
             <video src="https://www.youtube.com/watch?v=HNpeVv2uqMM" width="706"/>
+        </procedure>
+    </snippet>
+    <!-- 离线访问 SDK 文档 -->
+    <snippet id="sdk-open-offline-snippet">
+        <procedure id="sdk-open-offline" title="离线访问 SDK 文档" collapsible="true" default-state="collapsed" type="steps">
+            <step>
+                <p>下载所需版本的文档包。</p>
+                <p>文档包通常以 ZIP 压缩包的形式分发，下载后需要解压缩。</p>
+                <p>例如，您可以下载 <a href="https://www.oracle.com/java/technologies/javase-jdk17-doc-downloads.html">Java SE Development Kit 17</a> 官方文档包并解压缩。</p>
+            </step>
+            <step>在 <format style="bold">项目结构（ <shortcut>Ctrl</shortcut><shortcut>Alt</shortcut><shortcut>Shift</shortcut><shortcut>S</shortcut> ）</format> 对话框中选择 <tooltip term="sdk">SDK</tooltip> 。</step>
+            <step>如果配置了多个 <tooltip term="jdk">JDK</tooltip> ，请选择必要的 JDK 版本，然后打开右侧的 <format style="bold">文档路径</format> 选项卡。</step>
+            <step>
+                单击 <img src="添加.svg" alt=""/> 图标并指定已下载文档包的所在目录。
+                <img src="为 JDK 指定离线文档.png" alt="为 JDK 指定离线文档" width="706" thumbnail="true"/>
+            </step>
+            <step>应用更改并关闭对话框。</step>
+        </procedure>
+    </snippet>
+    <!-- 离线访问 Library（库）文档 -->
+    <snippet id="library-open-offline-snippet">
+        <procedure id="library-open-offline" title="离线访问 Library（库）文档" collapsible="true" default-state="collapsed" type="steps">
+            <step>在 <format style="bold">项目结构（ <shortcut>Ctrl</shortcut><shortcut>Alt</shortcut><shortcut>Shift</shortcut><shortcut>S</shortcut> ）</format> 对话框中选择 <tooltip term="library">库</tooltip> 。</step>
+            <step>
+                选择要添加离线文档的库，然后单击对话框右侧的添加按钮。
+                <img src="单击添加按钮为库添加离线文档.png" alt="单击添加按钮为库添加离线文档" width="706" thumbnail="true"/>
+            </step>
+            <step>
+                在打开的对话框中，选择包含离线文档的文件。
+                <img src="告知 Intellij IDEA 库的离线文档类型为 JavaDocs.png" alt="告知 Intellij IDEA 库的离线文档类型为 JavaDocs" width="706" thumbnail="true"/>
+            </step>
+            <step>应用更改并关闭对话框。</step>
         </procedure>
     </snippet>
 </topic>

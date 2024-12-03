@@ -44,7 +44,7 @@
                 <p>要在首次启动 IntelliJ IDEA 之前启用屏幕阅读器支持，请执行以下操作：</p>
                 <list type="bullet">
                     <li>
-                        <p>打开包含个人设置（比如： <a href="settings-keymap.topic">按键映射</a>、 <a anchor="color-config">配色方案</a> 等）的配置目录。</p>
+                        <p>打开包含个人设置（例如： <a href="settings-keymap.topic">按键映射</a>、 <a anchor="color-config">配色方案</a> 等）的配置目录。</p>
                         <tabs>
                             <tab title="Windows">
                                 <deflist>
@@ -105,7 +105,7 @@
                 <img src="设置配色方案.png" alt="设置配色方案" width="706" thumbnail="true"/>
             </step>
             <step>
-                <p>从右侧的选项列表中，选择要调整颜色的元素。比如：您可以选择 <format style="bold">代码</format> ，然后调整注入的语言片段或匹配的大括号等的颜色。单击 <format style="bold">确定</format> 保存更改。</p>
+                <p>从右侧的选项列表中，选择要调整颜色的元素。例如：您可以选择 <format style="bold">代码</format> ，然后调整注入的语言片段或匹配的大括号等的颜色。单击 <format style="bold">确定</format> 保存更改。</p>
                 <img src="调整语言片段或匹配的大括号的颜色.png" alt="调整语言片段或匹配的大括号的颜色" width="706" thumbnail="true"/>
                 <video src="https://www.youtube.com/watch?v=WS-3efMOxWI" width="706"/>
             </step>
@@ -150,9 +150,9 @@
                 <p>按下 <shortcut>Ctrl</shortcut><shortcut>Alt</shortcut><shortcut>S</shortcut> 打开 IDE 设置，然后选择 <ui-path>按键映射</ui-path>。</p>
                 <img src="按键映射.png" alt="按键映射" width="706" thumbnail="true"/>
             </step>
-            <step>从右侧选项列表（比如： <a anchor="main-menus" href="guided-tour-around-the-user-interface.topic" summary="IntelliJ IDEA 中的主菜单包含了多个顶级菜单项，每个菜单项下都有相应的子菜单和功能选项，这些菜单提供了对 IDE 的各种功能和设置的访问。">主菜单</a> 、操作和工具）中选择您需要执行的操作。</step>
+            <step>从右侧选项列表（例如： <a anchor="main-menus" href="guided-tour-around-the-user-interface.topic" summary="IntelliJ IDEA 中的主菜单包含了多个顶级菜单项，每个菜单项下都有相应的子菜单和功能选项，这些菜单提供了对 IDE 的各种功能和设置的访问。">主菜单</a> 、操作和工具）中选择您需要执行的操作。</step>
             <step>
-                <p>右键单击所选项目，然后从上下文菜单中选择要执行的操作，比如： <format style="bold">添加键盘快捷键</format>、<format style="bold">添加鼠标快捷方式</format> 或 <format style="bold">添加缩写</format>。</p>
+                <p>右键单击所选项目，然后从上下文菜单中选择要执行的操作，例如： <format style="bold">添加键盘快捷键</format>、<format style="bold">添加鼠标快捷方式</format> 或 <format style="bold">添加缩写</format>。</p>
                 <img src="添加键盘快捷键、 添加鼠标快捷键或添加缩写.png" alt="添加键盘快捷键、 添加鼠标快捷键或添加缩写" width="706" thumbnail="true"/>
             </step>
             <step>

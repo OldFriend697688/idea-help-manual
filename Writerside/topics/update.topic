@@ -3,7 +3,7 @@
         SYSTEM "https://resources.jetbrains.com/writerside/1.0/xhtml-entities.dtd">
 <topic xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
        xsi:noNamespaceSchemaLocation="https://resources.jetbrains.com/writerside/1.0/topic.v2.xsd"
-       title="更新" id="update">
+       title="更新 Intellij IDEA" id="update">
     <warning>如果已通过 <a href="register.topic" anchor="crack-activation" summary="一旦您通过这些方式激活了 IntelliJ IDEA，务必不得将其应用于任何形式的商业项目或个人开发工作中。若因忽视此警告，导致软件使用不当，从而引发的经济损失、法律纠纷或商业信誉损害，本人将概不负责。请务必铭记，非法使用软件可能带来严重后果，这不仅关乎个人诚信，更可能触及法律红线，望各位慎之又慎。">特殊方式</a> 激活了 Intellij IDEA，则强烈建议您不要考虑将它更新至更高版本。&nbsp;</warning>
     <tldr>
         <p>针对 Windows 或 Linux  ： <ui-path>文件 | 设置 （ <shortcut>Ctrl</shortcut><shortcut>Alt</shortcut><shortcut>S</shortcut> ） | 外观与行为 | 系统设置 | 更新 &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;</ui-path></p>

@@ -85,7 +85,7 @@
                 </procedure>
                 <p>要创建桌面快捷方式，请执行以下操作之一：</p>
                 <list>
-                    <li>在欢迎屏幕上，单击 <ui-path>配置 | 创建桌面快捷方式</ui-path>。</li>
+                    <li>在欢迎界面上，单击 <ui-path>配置 | 创建桌面快捷方式</ui-path>。</li>
                     <li>在<include from="reuse-library.topic" element-id="main-menus" /> 中单击 <ui-path>工具 | 创建桌面快捷方式</ui-path>。</li>
                 </list>
                 <include from="reuse-library.topic" element-id="standalone-tips" />
@@ -217,7 +217,7 @@
         <note>如果您的 Intellij IDEA 尚为激活，请您先尝试 <a href="register.topic" anchor="start-trial">免费试用</a> 或 <a href="register.topic" anchor="crack-activation" summary="">激活</a> 后再阅读此节内容。&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;</note>
         <procedure title="安装简体中文语言包" id="配置简体中文语言包" type="choices">
             <step>
-                启动 Intellij IDEA 并单击 在 <format style="bold">欢迎界面</format> 中的 <format style="bold">Plugins</format> 选项。
+                启动 Intellij IDEA 并单击 <format style="bold">欢迎界面</format> 中的 <format style="bold">Plugins</format> 选项。
                 <img alt="为 Intellij IDEA 安装简体中文语言包" src="为 Intellij IDEA 安装简体中文语言包（1）.png" width="706" thumbnail="true"/>
             </step>
             <step>

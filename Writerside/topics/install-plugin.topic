@@ -4,6 +4,10 @@
 <topic xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
        xsi:noNamespaceSchemaLocation="https://resources.jetbrains.com/writerside/1.0/topic.v2.xsd"
        title="安装" id="install-plugin">
+    <chapter id="repos" title="自定义插件库">
 
-    <p>Start typing here...</p>
+    </chapter>
+    <chapter id="install-plugin-from-disk" title="从本地磁盘安装插件">
+
+    </chapter>
 </topic>

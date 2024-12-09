@@ -24,7 +24,7 @@
                         <p>勾选卸载时需要被一并移除的内容，然后单击 <format style="bold"><format style="underline">U</format>ninstall</format> 按钮。</p>
                         <list>
                             <li>删除 Intellij IDEA 2022.3.3 的缓存以及本地历史记录。</li>
-                            <li>删除 Intellij IDEA 2022.3.3 的相关设置以及已安装的 <a href="plug-in-system.topic" summary="强大的插件系统造就了 Intellij IDEA 无与伦比的功能拓展性。">插件</a> 。</li>
+                            <li>删除 Intellij IDEA 2022.3.3 的相关设置以及已安装的 <a href="install-plugins.topic" summary="强大的插件系统造就了 Intellij IDEA 无与伦比的功能拓展性。">插件</a> 。</li>
                             <li>参与卸载反馈。（ <format style="bold">通常无需勾选</format> ）</li>
                         </list>
                         <img alt="在 Windows 平台上卸载 Intellij IDEA" src="在 Windows 平台上卸载 Intellij IDEA（1）.png" width="706" thumbnail="true"/>

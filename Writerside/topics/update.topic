@@ -54,7 +54,7 @@
         <img src="Intellij IDEA 和插件更新.png" alt="Intellij IDEA 和插件更新.png" width="706" thumbnail="true"/>
         <chapter id="update-settings" title="配置更新策略">
             <p>要管理 IntelliJ IDEA 的更新策略，请进入 <format style="bold">设置</format> （ <shortcut>Ctrl</shortcut><shortcut>Alt</shortcut><shortcut>S</shortcut> ）选择 <ui-path>外观和行为 | 系统设置 | 更新</ui-path> 。</p>
-            <note>如果 IDE 实例由 <format style="bold">Toolbox App</format> 管理，这些设置将只影响 <a href="plug-in-system.topic" summary="通过强大的插件系统可拓展 Intellij IDEA 的功能。">插件</a> 更新。&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;</note>
+            <note>如果 IDE 实例由 <format style="bold">Toolbox App</format> 管理，这些设置将只影响 <a href="install-plugins.topic" summary="通过强大的插件系统可拓展 Intellij IDEA 的功能。">插件</a> 更新。&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;</note>
             <procedure collapsible="true" default-state="collapsed" title="更新页面包含的设置">
                 <img src="更新设置界面.png" alt="更新设置界面" width="706" thumbnail="true"/>
                 <table column-width="auto" border="true">

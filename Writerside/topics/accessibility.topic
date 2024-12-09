@@ -172,7 +172,7 @@
                 <img src="智能按键.png" alt="智能按键" width="706" thumbnail="true"/>
             </step>
             <step>
-                从右侧选项中选择或清除智能键选项，比如，您可以取消勾选插入成对括号或插入成对引号选项，该选项会自动插入闭合括号或引号，因为在使用 <tooltip term="screen-reader">屏幕阅读器</tooltip> 时，它可能没有用。单击 <format style="bold">确定</format> 保存更改。
+                从右侧选项中选择或清除智能键选项，例如，您可以取消勾选插入成对括号或插入成对引号选项，该选项会自动插入闭合括号或引号，因为在使用 <tooltip term="screen-reader">屏幕阅读器</tooltip> 时，它可能没有用。单击 <format style="bold">确定</format> 保存更改。
                 <video src="https://www.youtube.com/watch?v=v5hXoOs4nTc" width="706"/>
             </step>
         </procedure>

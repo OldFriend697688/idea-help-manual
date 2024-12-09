@@ -25,7 +25,7 @@
         <secondary>
             <title>高级知识</title>
             <a href="debugging-code.topic" summary="探索如何调试代码，解决程序可能存在的异常漏洞。">调试应用程序</a>
-            <a href="plug-in-system.topic" summary="插件系统为 Intellij IDEA 赋予了无与伦比的强大拓展能力。">插件系统</a>
+            <a href="install-plugins.topic" summary="插件系统为 Intellij IDEA 赋予了无与伦比的强大拓展能力。">插件系统</a>
             <a href="tests-in-ide.topic" summary="测试应用程序，检测程序是否按照预期的方式运行。">测试应用程序</a>
             <a href="decompiler.topic" summary="使用 Java 字节码反编译器查看字节码文件的内容。">字节码反编译器</a>
         </secondary>

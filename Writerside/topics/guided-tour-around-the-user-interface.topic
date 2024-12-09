@@ -7,7 +7,7 @@
     <p>在 Intellij IDEA 中打开项目时，默认的用户界面如下所示（注：下图中使用的是 <format style="bold">Darcula</format> 主题）：</p>
     <img src="IDEA 默认用户界面（Darcula 主题）.png" alt="IDEA 默认用户界面（Darcula 主题）" width="706" height="706" thumbnail="true"/>
     <list type="decimal">
-        <li><a anchor="navigation-bar" summary="IntelliJ IDEA 中的导航栏是一个便捷的功能，它允许用户快速导航到项目中的不同部分，如文件、类、方法或工具窗口。导航栏通常位于编辑器的顶部，提供了一个紧凑的界面来输入搜索查询或选择目标位置。">导航栏</a></li>
+        <li><a anchor="navigation-bar" summary="IntelliJ IDEA 中的导航栏是一个便捷的功能，它允许用户快速导航到项目中的不同部分，如文件、类、方法或工具窗口。导航栏通常位于编辑器的顶部，提供了一个紧凑的界面来键入搜索查询或选择目标位置。">导航栏</a></li>
         <li>项目 <a anchor="tool-windows" summary="IntelliJ IDEA 中的工具窗口是 IDE 界面的重要组成部分，它们为开发者提供了各种辅助工具和功能，以支持软件开发的不同方面。">工具窗口</a></li>
         <li><a anchor="editor" summary="IntelliJ IDEA 的编辑器是其核心功能之一，它为开发者提供了一个强大、智能和高度可配置的代码编写环境。">编辑器</a></li>
         <li><a anchor="popup-menus" summary="IntelliJ IDEA 的弹出菜单通常指的是在编辑器中特定操作（如单击、按键等）触发的菜单，它提供了对常用操作的快速访问。弹出菜单与上下文菜单（右键菜单）类似，但它们的出现通常是基于特定的触发条件，而不是简单的右键单击。">弹出菜单</a></li>
@@ -16,15 +16,15 @@
         <li><a anchor="main-menus" summary="IntelliJ IDEA 中的主菜单包含了多个顶级菜单项，每个菜单项下都有相应的子菜单和功能选项，这些菜单提供了对 IDE 的各种功能和设置的访问。">主菜单</a></li>
         <li><a anchor="main-windows" summary="IntelliJ IDEA 提供了一个非常强大的主窗口，它集成了代码编辑、调试、构建、版本控制以及许多其他功能。"/></li>
     </list>
-    <note>根据 <tooltip term="idea">IDEA</tooltip> 安装的 <a href="plug-in-system.topic" summary="插件系统为 Intellij IDEA 赋予了无与伦比的强大拓展能力。">插件</a> 集、版本和配置设置的不同， <tooltip term="ide">IDE</tooltip> 可能会有不同的外观和行为。</note>
+    <note>根据 <tooltip term="idea">IDEA</tooltip> 安装的 <a href="install-plugins.topic" summary="插件系统为 Intellij IDEA 赋予了无与伦比的强大拓展能力。">插件</a> 集、版本和配置设置的不同， <tooltip term="ide">IDE</tooltip> 可能会有不同的外观和行为。</note>
     <chapter title="主菜单" id="main-menus">
-        <p>通过主菜单，将可以快速访问 Intellij IDEA 提供的各项常用功能。当然，还可以通过在 <format style="bold">操作</format>（<shortcut>Ctrl</shortcut><shortcut>Shift</shortcut><shortcut>A</shortcut> ）中输入目标操作名称的方式实现相同的功能调用。例如：在 <format style="bold">操作</format> 中输入 <format style="bold">导航栏</format> ，片刻等待后将会列举出所有与 <format style="bold">导航栏</format> 相关的操作。</p>
+        <p>通过主菜单，将可以快速访问 Intellij IDEA 提供的各项常用功能。当然，还可以通过在 <format style="bold">操作</format>（<shortcut>Ctrl</shortcut><shortcut>Shift</shortcut><shortcut>A</shortcut> ）中键入目标操作名称的方式实现相同的功能调用。例如：在 <format style="bold">操作</format> 中键入 <format style="bold">导航栏</format> ，片刻等待后将会列举出所有与 <format style="bold">导航栏</format> 相关的操作。</p>
         <video src="https://www.youtube.com/watch?v=mK0ZbLqEj9w" width="706"/>
-        <note>绝大多数的操作都有与之对应的快捷键，如果想执行的操作没有预设快捷键，可以尝试为其设置快捷键或者在 <format style="bold">操作</format>（<shortcut>Ctrl</shortcut><shortcut>Shift</shortcut><shortcut>A</shortcut> ）中输入目标操作的名称，然后在展开的选项列表中选择需要执行的操作。</note>
+        <note>绝大多数的操作都有与之对应的快捷键，如果想执行的操作没有预设快捷键，可以尝试为其设置快捷键或者在 <format style="bold">操作</format>（<shortcut>Ctrl</shortcut><shortcut>Shift</shortcut><shortcut>A</shortcut> ）中键入目标操作的名称，然后在展开的选项列表中选择需要执行的操作。</note>
         <img alt="在操作中键入目标操作的名称" src="在操作中键入目标操作的名称.png" width="706" thumbnail="true"/>
     </chapter>
     <chapter title="主窗口" id="main-windows">
-        <p>主窗口集成了代码编辑、调试、构建、 <tooltip term="version-control">版本控制</tooltip> 以及许多其他功能。可以将它理解为是一种容器，用于将 <a anchor="main-menus" summary="IntelliJ IDEA 中的主菜单包含了多个顶级菜单项，每个菜单项下都有相应的子菜单和功能选项，这些菜单提供了对 IDE 的各种功能和设置的访问。" />、<a anchor="navigation-bar" summary="IntelliJ IDEA 中的导航栏是一个便捷的功能，它允许用户快速导航到项目中的不同部分，如文件、类、方法或工具窗口。导航栏通常位于编辑器的顶部，提供了一个紧凑的界面来输入搜索查询或选择目标位置。" /> 等包含在其中。</p>
+        <p>主窗口集成了代码编辑、调试、构建、 <tooltip term="version-control">版本控制</tooltip> 以及许多其他功能。可以将它理解为是一种容器，用于将 <a anchor="main-menus" summary="IntelliJ IDEA 中的主菜单包含了多个顶级菜单项，每个菜单项下都有相应的子菜单和功能选项，这些菜单提供了对 IDE 的各种功能和设置的访问。" />、<a anchor="navigation-bar" summary="IntelliJ IDEA 中的导航栏是一个便捷的功能，它允许用户快速导航到项目中的不同部分，如文件、类、方法或工具窗口。导航栏通常位于编辑器的顶部，提供了一个紧凑的界面来键入搜索查询或选择目标位置。" /> 等包含在其中。</p>
         <p>在主窗口中，可以处理单个 Intellij IDEA 项目。当然，可以同时打开多个主窗口处理多个项目。在默认情况下，主窗口的标题位置将会显示项目名称和当前打开文件的名称。</p>
         <img alt="主窗口标题位置显示的项目名称和打开文件的名称" src="主窗口标题位置显示的项目名称和打开文件的名称.png" width="706" thumbnail="true"/>
         <p>如果项目中有多个模块时，还将会额外显示相关模块的名称。</p>
@@ -49,14 +49,14 @@
         <note>Intellij IDEA 提供的是高级编辑器而非普通的 <tooltip term="plain-text-editor">纯文本编辑器</tooltip> ，这意味着它具有 <tooltip term="code-completion">智能代码补全</tooltip>、 <tooltip term="code-highlighting">代码高亮</tooltip>、 <tooltip term="code-formatting">代码格式化</tooltip>、 <tooltip term="idea-code-refactoring">代码重构</tooltip> 等功能。尽管提供的功能非常之多，但它们都是开箱即用的，因此不需要任何配置。</note>
         <p>编辑器是 Intellij IDEA 的核心功能之一，它为开发者提供了一个强大、智能和高度可配置的代码编写环境。以下是 IntelliJ IDEA 中编辑器的一些特点和功能：</p>
         <list type="decimal">
-            <li><p><format style="bold">智能代码补全（Code Completion）</format></p><p>此功能可以根据上下文自动提示并补全代码，包括类名、方法名、变量名等，减少了键入量并减少了错误。例如：当输入 <code>System.out.</code> ， Intellij IDEA 将会提示可用的方法，例如 <code>println()</code> 和 <code>print()</code> 。</p></li>
+            <li><p><format style="bold">智能代码补全（Code Completion）</format></p><p>此功能可以根据上下文自动提示并补全代码，包括类名、方法名、变量名等，减少了键入量并减少了错误。例如：当键入 <code>System.out.</code> ， Intellij IDEA 将会提示可用的方法，例如 <code>println()</code> 和 <code>print()</code> 。</p></li>
             <li><p><format style="bold">代码高亮（Syntax Highlighting）</format></p><p>代码高亮功能可以根据不同的语法元素对代码进行着色，使代码更易于阅读和理解。例如：关键字、标识符、字符串和注释等会使用不同的颜色进行标注。这可以帮助开发人员快速定位代码中的错误和关键部分。</p></li>
             <li><p><format style="bold">代码检查（Code Inspections）</format></p><p>实时的代码质量分析，能够识别潜在的编程错误、性能问题、 <a href="https://zh.wikipedia.org/zh-cn/代码异味" summary="程序开发领域，代码中的任何可能导致深层次问题的症状都可以叫做代码异味（Code smell）">代码异味</a> 等，并给出改进建议。</p></li>
             <li><p><format style="bold">重构（Refactoring）</format></p><p>支持安全、高效的重构操作，如重命名、提取方法、内联变量等，帮助开发者轻松维护和改进代码结构。</p></li>
             <li><p><format style="bold">导航与搜索（Navigation and Search）</format></p><p>编辑器具备强大的导航功能，可以快速跳转到类、方法、变量、文件等定义处，还支持全局搜索。</p></li>
             <li><p><format style="bold">代码调试（Code Debugging）</format></p><p>集成了功能强大的调试器，可以设置断点、单步执行、查看变量值、表达式求值等。</p></li>
         </list>
-        <note>正如在 <a anchor="navigation-bar" summary="IntelliJ IDEA 中的导航栏是一个便捷的功能，它允许用户快速导航到项目中的不同部分，如文件、类、方法或工具窗口。导航栏通常位于编辑器的顶部，提供了一个紧凑的界面来输入搜索查询或选择目标位置。">导航栏</a> 中提到的那样，如果当前项目已启用了 <tooltip term="version-control">VCS</tooltip> 集成，则编辑器标签页也会根据 VCS 文件状态颜色突出显示。</note>
+        <note>正如在 <a anchor="navigation-bar" summary="IntelliJ IDEA 中的导航栏是一个便捷的功能，它允许用户快速导航到项目中的不同部分，如文件、类、方法或工具窗口。导航栏通常位于编辑器的顶部，提供了一个紧凑的界面来键入搜索查询或选择目标位置。">导航栏</a> 中提到的那样，如果当前项目已启用了 <tooltip term="version-control">VCS</tooltip> 集成，则编辑器标签页也会根据 VCS 文件状态颜色突出显示。</note>
         <img alt="编辑器界面（Darcula 主题配色方案）" src="编辑器界面.png" width="706" thumbnail="true"/>
     </chapter>
     <chapter title="状态栏" id="status-bar">

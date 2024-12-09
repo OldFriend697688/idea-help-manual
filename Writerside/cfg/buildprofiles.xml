@@ -1,7 +1,7 @@
 <buildprofiles xsi:noNamespaceSchemaLocation="https://resources.jetbrains.com/writerside/1.0/build-profiles.xsd"
                xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance">
     <variables>
-        <primary-color>strawberry</primary-color>
+        <primary-color>blueberry</primary-color>
         <header-logo>IntelliJ-IDEA-Icon.svg</header-logo>
         <custom-favicons>IntelliJ-IDEA-Icon.svg</custom-favicons>
         <algolia-id>TWGIU9062V</algolia-id>

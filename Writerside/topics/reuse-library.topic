@@ -142,7 +142,7 @@
                 </list>
             </step>
             <step>
-                <p><format style="bold">结构搜索</format> 对话框显示选定的模板以及模板中使用的过滤器的值，可以编辑现有过滤器或添加新的过滤条件，例如：添加一些 <tooltip term="regex">正则表达式</tooltip> 或脚本约束。可以将插入符号（闪烁光标）放在代码变量处并通过过滤器区域来管理过滤器。 <img src="在结构搜索对话框中为变量声明过滤规则.png" alt="在结构搜索对话框中为变量声明过滤规则" width="706" thumbnail="true"/> 作为示例，让我们为 <code>$Field$</code> 变量声明一个条件。在过滤器区域中单击 <img src="添加.svg" alt=""/> 添加新条件。例如：如果需要添加正则表达式，则应选择 <format style="bold">文本</format> ，在闪烁的输入框中键入需要的条件。例如：输入正则表达式 <code>\b[A-Z].*?\b</code>。<img src="在结构搜索对话框中为目标变量添加过滤规则.png" alt="在结构搜索对话框中为目标变量添加过滤规" width="706" thumbnail="true"/> 在这种情况下，当勾选 <ui-path>区分大小写</ui-path> 后，Intellij IDEA 将仅搜索包含有大写字符的字段。</p>
+                <p><format style="bold">结构搜索</format> 对话框显示选定的模板以及模板中使用的过滤器的值，可以编辑现有过滤器或添加新的过滤条件，例如：添加一些 <tooltip term="regex">正则表达式</tooltip> 或脚本约束。可以将插入符号（闪烁光标）放在代码变量处并通过过滤器区域来管理过滤器。 <img src="在结构搜索对话框中为变量声明过滤规则.png" alt="在结构搜索对话框中为变量声明过滤规则" width="706" thumbnail="true"/> 作为示例，让我们为 <code>$Field$</code> 变量声明一个条件。在过滤器区域中单击 <img src="添加.svg" alt=""/> 添加新条件。例如：如果需要添加正则表达式，则应选择 <format style="bold">文本</format> ，在闪烁的键入框中键入需要的条件。例如：键入正则表达式 <code>\b[A-Z].*?\b</code>。<img src="在结构搜索对话框中为目标变量添加过滤规则.png" alt="在结构搜索对话框中为目标变量添加过滤规" width="706" thumbnail="true"/> 在这种情况下，当勾选 <ui-path>区分大小写</ui-path> 后，Intellij IDEA 将仅搜索包含有大写字符的字段。</p>
                 <video src="https://www.youtube.com/watch?v=zGfbfszkdh8" width="706"/>
                 <p>请注意，根据所选程序语言的不同会有不同的附加选项可用。例如：以下可能的选项：</p>
                 <list>

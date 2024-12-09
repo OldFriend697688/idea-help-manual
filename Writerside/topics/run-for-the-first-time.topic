@@ -34,7 +34,7 @@
         <img src="单击所有设置打开设置对话框.gif" alt="" width="706"/>
     </chapter>
     <chapter id="additional-plugins" title="安装附加插件">
-        <p>单击 <format style="bold">欢迎</format> 界面左侧窗格中的 <format style="bold">插件</format> ，然后从 <a href="https://plugins.jetbrains.com/idea">插件库</a> 下载并 <a href="install-plugin.topic" summary="安装附加插件以拓展 Intellij IDEA 提供的功能。">安装</a> 其他插件。</p>
+        <p>单击 <format style="bold">欢迎</format> 界面左侧窗格中的 <format style="bold">插件</format> ，然后从 <a href="https://plugins.jetbrains.com/idea">插件库</a> 下载并 <a href="install-plugins.topic" summary="安装附加插件以拓展 Intellij IDEA 提供的功能。">安装</a> 其他插件。</p>
         <img src="欢迎界面中的插件选项卡.png" alt="欢迎界面中的插件选项卡" width="706" thumbnail="true"/>
     </chapter>
     <chapter id="learn-ide" title="学习 IDE 功能">

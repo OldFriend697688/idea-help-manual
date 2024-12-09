@@ -37,7 +37,7 @@
             </step>
             <step><p>在 <format style="bold">托管更改</format> 对话框中，查看已修改文件的列表。</p></step>
             <step>
-                <p>在 <format style="bold">提交消息</format> 中，输入要创建的搁置名称，然后单击 <format style="bold">托管更改</format> 按钮。</p>
+                <p>在 <format style="bold">提交消息</format> 中，键入要创建的搁置名称，然后单击 <format style="bold">托管更改</format> 按钮。</p>
                 <img src="托管更改对话框.png" alt="托管更改对话框" width="706"/>
             </step>
             <p>
@@ -88,10 +88,10 @@
                 <p>
                     在 <format style="bold">取消搁置更改</format> 对话框中，在
                     <format style="bold">名称</format>
-                    字段中指定要取消的搁置要恢复到哪个提交列表。可以选择一个现有的变更列表，也可以输入要创建的包含要取消的搁置的新
+                    字段中指定要取消的搁置要恢复到哪个提交列表。可以选择一个现有的变更列表，也可以键入要创建的包含要取消的搁置的新
                     <tooltip term="changelist">变更列表</tooltip>
                     的名称。可以在
-                    <format style="bold">注释</format> 字段中输入新变更列表的描述（可选）。
+                    <format style="bold">注释</format> 字段中键入新变更列表的描述（可选）。
                 </p>
                 <img src="取消搁置更改对话框.png" alt="取消搁置更改对话框" width="706"/>
                 <p>如果希望使新的变更列表变为活动状态，请选择 <format style="bold">设为活动</format> 。否则，当前活动的变更列表将保持活动状态。</p>

@@ -63,7 +63,7 @@
             <video src="https://www.youtube.com/watch?v=WU3GJSRP_qQ" width="706"/>
         </chapter>
     </chapter>
-    <chapter id="coding-assistance" title="编码协助">
+    <chapter id="coding-assistance" title="编码辅助">
         <chapter id="type-info" title="类型信息" default-state="collapsed" collapsible="true">
             <note>对于自定义的 <tooltip term="java-class">类</tooltip>、<tooltip term="java-interface">接口</tooltip>、<tooltip term="method">方法</tooltip> 等符号而言，需预先通过 <a href="working-with-code-documentation.topic">JavaDoc</a> <tooltip term="java-annotations">注解</tooltip>＋<tooltip term="java-document-comments">文档注释</tooltip> 的组合形式对其进行标注。在此之后，每当按下 <shortcut>Ctrl</shortcut><shortcut>Q</shortcut> 时才会在 <format style="bold">快速文档</format> 中显示这些信息。一个非常简单的例子是，当按下 <shortcut>Ctrl</shortcut><shortcut>N</shortcut> 并键入 <code>java.lang.String</code> 后进入其内部，将可以明确看到 <tooltip term="java-class-declaration">类声明</tooltip> 及 <tooltip term="java-method-declaration">方法声明</tooltip> 上方的注释信息。</note>
             <p>如果想获得有关于某个 <tooltip term="symbol">符号</tooltip> 的详细信息，例如：它来自于哪里、它用于解决什么问题？作者又是谁？。此时，使用 <format style="bold">快速文档</format> 将会是最佳的选择。只需要选中目标符号并按下 <shortcut>Ctrl</shortcut><shortcut>Q</shortcut> 即可弹出一个包含这些详细信息的弹出窗口。</p>
@@ -82,7 +82,7 @@
                 <p>在实际应用中，通常建议取消勾选 <format style="bold">区分大小写</format> 选项，这将有助于提升编码效率。这会使得 Intellij IDEA 可以为开发者提供更多可用的候选项建议。</p>
                 <p>当勾选 <format style="bold">仅首字母</format> 选项时，如果想使用 <a href="https://www.oracle.com/java/technologies/javase-downloads.html" summary="Java 是由 Oracle 提供的面向对象编程语言，广泛用于开发企业级应用、移动应用、嵌入式系统等。">Java</a> 在控制台中打印一段语句，可以在编辑器中键入 <format style="bold">S</format> ，此时编辑器将会自动列举出所有匹配的候选项，尤其注意列出的 <format style="bold">System</format> （由于勾选了 <format style="bold">仅首字母</format> 选项， <format style="italic">此时只有键入 S（大写）时才会有 System</format> 候选项 ）。</p>
                 <p>与之类似的，如果勾选了 <format style="bold">全部字母</format> 选项，则必须在编辑器中完整键入 <format style="bold">System</format>（<format style="italic">一个字母都不能错</format> ）才会有相应的候选项提示。</p>
-                <p>但是，如果取消勾选 <format style="bold">区分大小写</format> 选项，则将会忽略上述两个选项的约束规则，甚至是在仅输入单词中的某一部分的情况下（ 例如： <format style="italic">tem</format> ），编辑器也能自动列举出所有匹配的候选项。</p>
+                <p>但是，如果取消勾选 <format style="bold">区分大小写</format> 选项，则将会忽略上述两个选项的约束规则，甚至是在仅键入单词中的某一部分的情况下（ 例如： <format style="italic">tem</format> ），编辑器也能自动列举出所有匹配的候选项。</p>
             </note>
             <p>默认情况下，Intellij IDEA 代码自动完成的大小写约束规则只会影响到键入的第一个字母。如果要改变它，可以在 <format style="bold">设置</format>（<shortcut>Ctrl</shortcut><shortcut>Alt</shortcut><shortcut>S</shortcut> ）中展开 <ui-path>编辑器 | 常规 | 代码补全</ui-path> ，然后从 <format style="bold">仅首字母</format> 或 <format style="bold">所有字母</format> 两个选项中选择一个。又或者说不需要此约束规则，则可以取消勾选 <format style="bold">区分大小写</format> 选项。</p>
             <img src="代码补区分代码大小写.png" alt="代码补区分代码大小写" width="706" thumbnail="true"/>
@@ -113,7 +113,7 @@
             <note>DSM 工具窗口将会以特殊方式对依赖关系进行排序处理，它始终将最常用的类移至底部。</note>
             <warning>
                 <p>要使用依赖关系矩阵分析功能，需确保已启用 Dependency Structure Matrix 插件。</p>
-                <p>该插件通常随 IntelliJ IDEA 一同安装并默认启用。若不慎禁用了该插件，可通过以下步骤重新启用：按下 <shortcut>Ctrl</shortcut><shortcut>Alt</shortcut><shortcut>S</shortcut> 打开 <ui-path>设置</ui-path> ，单击 <ui-path>插件</ui-path> 选项，继而切换到 <ui-path>已安装</ui-path> 选项卡。在搜索框内输入 <format style="bold">Dependency Structure Matrix</format> ，待结果出现后，找到该插件并单击 <ui-path>启用</ui-path> 按钮即可。</p>
+                <p>该插件通常随 IntelliJ IDEA 一同安装并默认启用。若不慎禁用了该插件，可通过以下步骤重新启用：按下 <shortcut>Ctrl</shortcut><shortcut>Alt</shortcut><shortcut>S</shortcut> 打开 <ui-path>设置</ui-path> ，单击 <ui-path>插件</ui-path> 选项，继而切换到 <ui-path>已安装</ui-path> 选项卡。在搜索框内键入 <format style="bold">Dependency Structure Matrix</format> ，待结果出现后，找到该插件并单击 <ui-path>启用</ui-path> 按钮即可。</p>
             </warning>
             <img src="启用 Dependency Structure Matrix 插件.png" alt="启用 Dependency Structure Matrix 插件" width="706" thumbnail="true"/>
             <video src="https://www.youtube.com/watch?v=N8WEhbmlluk" width="706"/>
@@ -136,7 +136,7 @@
             <p>例如：我们可以键入 <code>/editor</code> 并按下 <shortcut>Enter</shortcut> 以此快速打开进行与编辑器相关的设置。</p>
             <img src="随处搜索-快速访问与编辑器相关的设置.png" alt="快速访问与编辑器相关的设置" width="706" thumbnail="true"/>
             <video src="https://www.youtube.com/watch?v=YZszrS5FfAo" width="706"/>
-            <p>如果使用 <code>/plugins</code> 进行搜索，则可以根据需要快速禁用或启用 <a href="plug-in-system.topic" summary="插件系统为 Intellij IDEA 赋予了无与伦比的强大拓展能力。">插件</a>。</p>
+            <p>如果使用 <code>/plugins</code> 进行搜索，则可以根据需要快速禁用或启用 <a href="install-plugins.topic" summary="插件系统为 Intellij IDEA 赋予了无与伦比的强大拓展能力。">插件</a>。</p>
             <img src="随处搜索-快速禁用和启用插件.png" alt="快速禁用和启用插件" width="706" thumbnail="true"/>
             <video src="https://www.youtube.com/watch?v=OoNV1rTUFdI" width="706"/>
             <p>其他可用的标签有 <code>/appearance</code> 、<code>/system</code> 、<code>/inspections</code> 、<code>/registry</code> 、<code>/intentions</code> 、<code>/templates></code> 及 <code>/vcs</code> 。另外请注意，随处搜索功能支持缩写。这意味着，可以在 <a href="settings-keymap.topic" /> 的设置对话框中为任意操作分配文本别名。之后，就可以通过分配的文本别名从 <format style="bold">所有</format> 中调用此操作。</p>
@@ -162,13 +162,13 @@
             <video src="https://www.youtube.com/watch?v=pYFxhBCyaIw" width="706"/>
         </chapter>
         <chapter id="add-stop-and-resume-buttons" title="在工具栏中添加停止和恢复按钮" default-state="collapsed" collapsible="true">
-            <p>将停止 <img src="停止.svg" alt=""/> 和恢复 <img src="恢复.svg" alt=""/> 按钮添加到 <a href="guided-tour-around-the-user-interface.topic" summary="IntelliJ IDEA 中的导航栏是一个便捷的功能，它允许用户快速导航到项目中的不同部分，如文件、类、方法或工具窗口。导航栏通常位于编辑器的顶部，提供了一个紧凑的界面来输入搜索查询或选择目标位置。" anchor="navigation-bar"/> 的 <a anchor="vcs-file-color" href="guided-tour-around-the-user-interface.topic" summary="在默认情况下，含有打开和保存文件、撤销和重做操作按钮的主工具栏是隐藏的。要显示它，请选择主菜单 | 视图 | 外观 | 工具栏。">工具栏</a> 可能会更方便。可以通过在 <ui-path>设置（ <shortcut>Ctrl</shortcut><shortcut>Alt</shortcut><shortcut>S</shortcut> ）| 外观和行为 | 菜单与工具栏</ui-path> 中进行配置实现。例如：进行此配置后将无需打开调试工具窗口即可管理当前的调试会话。</p>
+            <p>将停止 <img src="停止.svg" alt=""/> 和恢复 <img src="恢复.svg" alt=""/> 按钮添加到 <a href="guided-tour-around-the-user-interface.topic" summary="IntelliJ IDEA 中的导航栏是一个便捷的功能，它允许用户快速导航到项目中的不同部分，如文件、类、方法或工具窗口。导航栏通常位于编辑器的顶部，提供了一个紧凑的界面来键入搜索查询或选择目标位置。" anchor="navigation-bar"/> 的 <a anchor="vcs-file-color" href="guided-tour-around-the-user-interface.topic" summary="在默认情况下，含有打开和保存文件、撤销和重做操作按钮的主工具栏是隐藏的。要显示它，请选择主菜单 | 视图 | 外观 | 工具栏。">工具栏</a> 可能会更方便。可以通过在 <ui-path>设置（ <shortcut>Ctrl</shortcut><shortcut>Alt</shortcut><shortcut>S</shortcut> ）| 外观和行为 | 菜单与工具栏</ui-path> 中进行配置实现。例如：进行此配置后将无需打开调试工具窗口即可管理当前的调试会话。</p>
             <video src="https://www.youtube.com/watch?v=x6eBG0lybQg" width="706"/>
         </chapter>
     </chapter>
     <chapter id="version-control" title="版本控制">
         <chapter id="amend-changes" title="修正提交" default-state="collapsed" collapsible="true">
-            <note>如果更喜欢将一切掌握在手中，可以通过手动输入命令的方式实现相同的效果。有关于具体的命令及使用方法请阅读 <a href= "https://git-scm.com/book/zh/v2/Git-基础-撤消操作">2.4 Git-基础-撤消操作</a> 。</note>
+            <note>如果更喜欢将一切掌握在手中，可以通过手动键入命令的方式实现相同的效果。有关于具体的命令及使用方法请阅读 <a href= "https://git-scm.com/book/zh/v2/Git-基础-撤消操作">2.4 Git-基础-撤消操作</a> 。</note>
             <p>在 <a href="commit-changes-dialog.topic" summary=""/> 中，Intellij IDEA 提供了多种操作。其中之一就是 <format style="bold">修正提交</format> ，当想要更改最后一次提交并将当前更改合并到其中时，这个功能将会非常有用。</p>
             <img src="修正提交.png" alt="修正提交" width="706" thumbnail="true"/>
             <note>如果已将提交推送至远程仓库，则在本地进行过修正提交后需强制推送更新至远程仓库。</note>

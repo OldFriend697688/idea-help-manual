@@ -24,8 +24,8 @@
         <p>社区版是免费且开源的，这意味着您可以长期免费使用，无需支付任何额外费用。然而，与旗舰版相比，社区版支持的语言数量较少，并且可能不包含旗舰版中独有的某些高级开发辅助工具。有关旗舰版和社区版之间的详细差异，请参阅 IntelliJ IDEA 的 <a href="https://www.jetbrains.com/zh-cn/products/compare/?product=idea&amp;product=idea-ce">版本比较矩阵</a>。</p>
     </chapter>
     <chapter id="supported-programming-languages" title="支持的语言">
-        <note>可以通过浏览 <a href="https://plugins.jetbrains.com/marketplace">JetBrains Marketplace</a> 查找官方插件，这些插件可为当今使用的几乎所有语言、框架或技术提供支持，也可以查找第三方插件。有关如何在 IntelliJ IDEA 中管理插件的详细信息，请参阅 <a href="install-plugin.topic" summary="安装插件以拓展 Intellij IDEA 的功能。">安装插件</a>。</note>
-        <p>现代应用程序的开发涉及使用多种语言、工具、框架和技术。IntelliJ IDEA 被设计为 <tooltip term="jvm">JVM</tooltip> 语言的 <tooltip term="ide">IDE</tooltip> ，但许多 <a href="plug-in-system.topic" summary="插件系统赋予了 Intellij IDEA 强大的功能拓展能力。">插件</a> 可以扩展它以提供多语言支持。</p>
+        <note>可以通过浏览 <a href="https://plugins.jetbrains.com/marketplace">JetBrains Marketplace</a> 查找官方插件，这些插件可为当今使用的几乎所有语言、框架或技术提供支持，也可以查找第三方插件。有关如何在 IntelliJ IDEA 中管理插件的详细信息，请参阅 <a href="install-plugins.topic" summary="安装插件以拓展 Intellij IDEA 的功能。">安装插件</a>。</note>
+        <p>现代应用程序的开发涉及使用多种语言、工具、框架和技术。IntelliJ IDEA 被设计为 <tooltip term="jvm">JVM</tooltip> 语言的 <tooltip term="ide">IDE</tooltip> ，但许多 <a href="install-plugins.topic" summary="插件系统赋予了 Intellij IDEA 强大的功能拓展能力。">插件</a> 可以扩展它以提供多语言支持。</p>
         <tabs>
             <tab title="JVM 语言">
                 <p>IntelliJ IDEA 支持下列可编译成 <tooltip term="jvm">JVM</tooltip> <tooltip term="bytecode">字节码</tooltip> 的语言。</p>

@@ -19,14 +19,7 @@
             <toc-element topic="update.topic" toc-title="更新"/>
         </toc-element>
         <toc-element topic="working-offline.topic"/>
-        <toc-element topic="plug-in-system.topic">
-            <toc-element topic="download-plugin.topic"/>
-            <toc-element topic="install-plugin.topic"/>
-            <toc-element topic="uninstall-plugin.topic"/>
-            <toc-element topic="update-plugin.topic"/>
-            <toc-element topic="suggested-plugins.topic"/>
-            <toc-element topic="required-plugins.topic"/>
-            <toc-element topic="recommended-plugIns.topic"/>
+        <toc-element topic="install-plugins.topic">
         </toc-element>
         <toc-element topic="feature-trainer.topic"/>
         <toc-element topic="creating-and-running-your-first-java-application.topic"/>

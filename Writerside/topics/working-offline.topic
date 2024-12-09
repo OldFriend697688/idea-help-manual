@@ -14,10 +14,11 @@
     </chapter>
     <chapter id="plugins" title="插件">
         <include from="reuse-library.topic" element-id="plugins-install-tips" />
-        <p>通常，插件是从 <a href="https://plugins.jetbrains.com/">JetBrains 插件库</a> 中下载并进行安装的。不过，您可以在本地网络中设置一个 <a href="install-plugin.topic" anchor="repos" /> ，并配置 IntelliJ IDEA 使用它来安装和更新插件。您还可以 <a href="install-plugin.topic" anchor="install-plugin-from-disk" /> 。</p>
+        <p>通常，插件是从 <a href="https://plugins.jetbrains.com/">JetBrains 插件库</a> 中下载并进行安装的。不过，您可以在本地网络中设置一个 <a href="install-plugins.topic" anchor="repos" /> ，并配置 IntelliJ IDEA 使用它来安装和更新插件。您还可以 <a href="install-plugins.topic" anchor="install-plugin-from-disk" /> 。</p>
         <img src="Intellij IDEA 欢迎界面中的插件选项.png" alt="Intellij IDEA 欢迎界面中的插件选项" width="706" thumbnail="true"/>
     </chapter>
     <chapter id="licenses" title="激活许可证">
+        <primary-label ref="Ultimate"/>
         <note>如果您已经通过 <a href="register.topic" anchor="crack-activation" summary="">特殊方式</a> 成功激活 IntelliJ IDEA，则此节中的内容您可以选择性忽略它。</note>
         <p>您可以免费试用 IntelliJ IDEA Ultimate（旗舰版）长达 30 天。之后，您需要购买并 <a href="register.topic">注册</a> 许可证才可以继续使用该产品。</p>
         <p>如果 IntelliJ IDEA 在本地网络之外没有 HTTP 访问权限，您将无法使用 <a href="https://account.jetbrains.com/login">JetBrains 账户</a> 登录。不过，您可以生成一个离线激活代码，该代码在您的订阅期限内有效。</p>
@@ -33,13 +34,11 @@
         <p>下载并配置好文档后，将鼠标悬停在编辑器中必要的 <tooltip term="symbol">符号</tooltip> 上，然后按 <shortcut>Ctrl</shortcut><shortcut>Q</shortcut> 即可触发离线文档。</p>
     </chapter>
     <chapter id="vcs" title="版本控制系统">
-        <p>您的源代码很可能处于某种 <tooltip term="version-control-system">版本控制系统（VCS）</tooltip> 之下。如果远程仓库不在本地网络中，也没有互联网接入，IntelliJ IDEA 将无法与 VCS 通信。例如，如果您使用的是 <a href="https://git-scm.com/?hl=zh-cn">Git</a> ，您可以提交您的更改，但无法将其推送到远程版本库或从中提取更新。</p>
-        <p>有关 VCS 集成的更多信息，请参阅 <a href="version-control-integration.topic" summary="" /> 。</p>
+        <p>您的源代码很可能处于某种 <tooltip term="version-control-system">版本控制系统（VCS）</tooltip> 之下。如果远程仓库不在本地网络中，也没有互联网接入，IntelliJ IDEA 将无法与 VCS 通信。例如，如果您使用的是 <a href="https://git-scm.com/?hl=zh-cn">Git</a> ，您可以提交您的更改，但无法将其推送到远程版本库或从中提取更新。有关 VCS 集成的更多信息，请参阅 <a href="version-control-integration.topic" summary="" /> 。</p>
     </chapter>
     <chapter title="任务和问题跟踪器" id="tasks">
         <p>您可以设置与问题跟踪器的连接，以便直接从 IntelliJ IDEA 处理分配给您的任务和错误。例如，您可以连接到 <a href="http://www.jetbrains.com/youtrack/">YouTrack</a> 、 <a href="http://www.atlassian.com/software/jira/">Jira</a> 、 <a href="http://github.com/">GitHub</a> 等。</p>
-        <p>如果问题跟踪服务器不在本地网络中，也没有互联网接入，IntelliJ IDEA 将无法同步您的问题。在这种情况下，您只能使用自己创建的本地任务。</p>
-        <p>有关更多信息，请参阅 <a href="managing-tasks-and-context.topic" /> 。</p>
+        <p>如果问题跟踪服务器不在本地网络中，也没有互联网接入，IntelliJ IDEA 将无法同步您的问题。在这种情况下，您只能使用自己创建的本地任务。有关更多信息，请参阅 <a href="managing-tasks-and-context.topic" /> 。</p>
     </chapter>
     <chapter id="maven" title="Maven 依赖">
         <p>默认情况下， <tooltip term="maven">Maven</tooltip> 会连接到远程仓库源，并在每次启动时检查更新。解决 <a href="https://maven.apache.org/">Maven</a> 依赖性问题可能需要下载新的工件。如果希望 Maven 只使用本地可用的资源，可以切换到离线模式。</p>

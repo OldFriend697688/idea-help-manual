@@ -222,5 +222,5 @@
             </step>
         </procedure>
     </chapter>
-    <p>您可以查阅 <a href="using-code-editor.topic" >编辑器基础</a> 、<a href="mastering-keyboard-shortcuts.topic">键盘快捷键</a> 和 <a href="guided-tour-around-the-user-interface.topic" summary="了解 Intellij IDEA 用户界面的主要构成部分。" /> 以熟悉其他有用的快捷键和相关知识。</p>
+    <p>您可以查阅 <a href="using-code-editor.topic" >编辑器基础</a> 、 <a href="mastering-keyboard-shortcuts.topic">键盘快捷键</a> 和 <a href="guided-tour-around-the-user-interface.topic" summary="了解 Intellij IDEA 用户界面的主要构成部分。" /> 以熟悉其他有用的快捷键和相关知识。</p>
 </topic>

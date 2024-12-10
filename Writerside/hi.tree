@@ -19,10 +19,16 @@
             <toc-element topic="update.topic" toc-title="更新"/>
         </toc-element>
         <toc-element topic="working-offline.topic"/>
-        <toc-element topic="install-plugins.topic">
-        </toc-element>
+        <toc-element topic="install-plugins.topic" />
         <toc-element topic="feature-trainer.topic"/>
         <toc-element topic="creating-and-running-your-first-java-application.topic"/>
+        <toc-element toc-title="从 Eclipse 迁移" href="https://www.jetbrains.com/help/idea/2022.3/migrating-from-eclipse-to-intellij-idea.html">
+            <toc-element toc-title="从 Eclipse 导入项目" href="https://www.jetbrains.com/help/idea/2022.3/import-project-from-eclipse-page-1.html"/>
+            <toc-element toc-title="将 IntelliJ IDEA 项目导出到 Eclipse" href="https://www.jetbrains.com/help/idea/2022.3/exporting-an-intellij-idea-project-to-eclipse.html"/>
+        </toc-element>
+        <toc-element toc-title="从 NetBeans 迁移" href="https://www.jetbrains.com/help/idea/2022.3/netbeans.html" />
+        <toc-element toc-title="从 NetBeans  迁移" href="https://www.jetbrains.com/help/idea/2022.3/netbeans.html" />
+        <toc-element topic="product-educational-tools.topic"/>
     </toc-element>
     <toc-element topic="configuring-project-and-ide-settings.topic">
         <toc-element toc-title="外观设置">

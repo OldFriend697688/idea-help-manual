@@ -197,9 +197,4 @@
         <p>您可以使用任何版本的 IntelliJ IDEA 开发插件。它提供了开放式 <tooltip term="api">API</tooltip> 、专用 <tooltip term="sdk">SDK</tooltip> 、模块和运行/调试配置来帮助您。 </p>
         <p>推荐的工作流是使用 <a href="https://gradle.org/">Gradle</a> 。也支持使用 IntelliJ IDEA 内部构建系统的旧工作流程。有关详细信息，请参阅 <a href="http://www.jetbrains.org/intellij/sdk/docs/">IntelliJ Platform SDK 开发人员指南</a>。</p>
     </chapter>
-    <seealso>
-        <category ref="ai-large-model">
-
-        </category>
-    </seealso>
 </topic>

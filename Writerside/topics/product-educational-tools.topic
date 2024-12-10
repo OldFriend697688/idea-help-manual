@@ -1,0 +1,37 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE topic
+        SYSTEM "https://resources.jetbrains.com/writerside/1.0/xhtml-entities.dtd">
+<topic xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
+       xsi:noNamespaceSchemaLocation="https://resources.jetbrains.com/writerside/1.0/topic.v2.xsd"
+       title="Intellij IDEA 教育版" id="product-educational-tools">
+    <p>IntelliJ IDEA 可用于学习和教授编程。您可以从头开始学习 <tooltip term="java">Java</tooltip> 、 <tooltip term="kotlin">Kotlin</tooltip> 和 <tooltip term="scala">Scala</tooltip> ，也可以通过互动课程和编程竞赛完善自己的 <tooltip term="programming-language">语言</tooltip> 技能。如果您有兴趣创建自己的课程，也可以直接在 IntelliJ IDEA 中完成。</p>
+    <procedure title="开始学习课程" id="start-edu">
+        <step>下载 <a href="https://www.jetbrains.com/idea/download/other.html">IntelliJ IDEA</a> 并将其用于教学目的。如果您需要进一步说明，请参阅 <a href="installation-guide.topic" />。</step>
+        <step>
+            在 <format style="bold">欢迎界面</format> 中单击左侧的 <format style="bold">学习</format> 。
+            <img src="欢迎界面中的学习选项卡.png" alt="欢迎界面中的学习选项卡" width="706" thumbnail="true"/>
+        </step>
+        <step>
+            在右侧窗口中，单击 <format style="bold">学习编程</format> 下方的 <format style="bold">启用访问</format> 。
+            <img src="单击学习编程下方的启用访问按钮.png" alt="单击学习编程下方的启用访问按钮" width="706" thumbnail="true"/>
+        </step>
+        <step>
+            单击 <format style="bold">开始</format> ，然后在 <format style="bold">选择课程</format> 对话框中选择要学习的课程，然后单击课程名称下方的 <format style="bold">开始</format> 。
+            <img src="选择感兴趣的目标课程.png" alt="选择感兴趣的目标课程" width="706" thumbnail="true"/>
+            <video src="https://www.youtube.com/watch?v=l-v6mCqBkAw" width="706"/>
+        </step>
+    </procedure>
+    <p>在 <tooltip term="ide">IDE</tooltip> 中打开课程后，您就可以开始学习了。</p>
+    <p>如果您想要了解更多信息，请参阅 <a href="https://www.jetbrains.com/zh-cn/idea-edu/">IntelliJ IDEA for Education</a> 页面。</p>
+    <p>您还可以使用 <a anchor="main-menus" href="guided-tour-around-the-user-interface.topic" summary="IntelliJ IDEA 中的主菜单包含了多个顶级菜单项，每个菜单项下都有相应的子菜单和功能选项，这些菜单提供了对 IDE 的各种功能和设置的访问。" /> 浏览其他课程、创建新课程或报告问题。</p>
+    <procedure id="work-with-main-menu" title="使用主菜单">
+        <step>
+            通过 <ui-path>主菜单 | 文件</ui-path> 选择 <format style="bold">浏览课程</format> 或 <format style="bold">创建新课程</format> 。
+            <img src="浏览与创建新课程.png" alt="浏览与创建新课程" width="706" thumbnail="true"/>
+        </step>
+        <step>
+            通过 <ui-path>主菜单 | 帮助 | 向 JetBrains Academy 团队报告问题</ui-path> 将项目中发现的问题上报。
+            <img src="向 JetBrains Academy 团队报告问题.png" alt="向 JetBrains Academy 团队报告问题" width="706" thumbnail="true"/>
+        </step>
+    </procedure>
+</topic>

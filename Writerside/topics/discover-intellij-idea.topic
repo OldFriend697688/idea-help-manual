@@ -76,20 +76,7 @@
             <a href="https://zh.wikipedia.org/zh-cn/代码重构" summary="代码重构是指对代码进行修改，以提高其可读性、可维护性和可扩展性，而不改变其外部行为。它就像为代码做“整容手术”，让代码更清晰、更优雅、更易于理解和维护。">代码重构</a>
             <a href="https://zh.wikipedia.org/zh-cn/静态程序分析" summary="静态程序分析（Static Program Analysis）是一种代码检查工具，用于检测代码中的错误和潜在问题。它通过分析代码的语法、语义和结构，而不是执行代码来检测问题。">静态代码分析</a>
         </category>
-        <category ref="programming-language">
-            <a href="https://www.ruby-lang.org" summary="Ruby 是一种动态的、开源的编程语言，由松本行弘（Yukihiro Matsumoto）于 1995 年创建。它注重简洁和效率，特别适合快速开发。Ruby on Rails 框架是 Ruby 最著名的 Web 应用框架，广泛用于 Web 开发。Ruby 在 IntelliJ IDEA 中也有很好的支持。">Ruby</a>
-            <a href="https://www.oracle.com/java/technologies/javase-downloads.html" summary="Java 是一种广泛使用的、面向对象的编程语言，由 Sun Microsystems 公司（现已被 Oracle 公司收购）于 1995 年推出。它设计用来有一个最小的实现依赖，易于理解，并且能够一次编写，到处运行。Java 广泛应用于企业级应用、移动应用（尤其是 Android）以及云计算中。">Java</a>
-            <a href="https://kotlinlang.org" summary="Kotlin 是一种静态类型的编程语言，由 JetBrains 团队在 2017 年正式发布。它运行在 Java 虚拟机上，也可以编译成 JavaScript 源代码。Kotlin 旨在解决 Java 的一些问题，如冗长的语法和空指针异常，同时保持与 Java 的完全互操作性。它被 Google 宣布为 Android 官方开发语言之一。">Kotlin</a>
-            <a href="https://www.scala-lang.org" summary="Scala 是一种多范式的编程语言，结合了面向对象和函数式编程的特点。它设计于 2003 年，运行在 Java 虚拟机上，可以与 Java 库无缝交互。Scala 以其简洁的语法和强大的并发处理能力而受到开发者的青睐，特别是在大数据和分布式计算领域。">Scala</a>
-            <a href="http://groovy-lang.org" summary="Groovy 是一种基于 Java 平台的动态语言，由 James Strachan 于 2003 年创建。它结合了 Python、Ruby 和 Smalltalk 的语法特点，同时提供了静态类型和动态类型的特性。Groovy 易于学习，且与 Java 有很好的兼容性，常用于脚本编写、Web 开发和企业应用中。">Groovy</a>
-            <a href="https://www.python.org" summary="Python 是一种解释型、高级和通用的编程语言。由 Guido van Rossum 于 1989 年底发明，Python 的设计哲学强调代码的可读性和简洁的语法。它广泛应用于 Web 开发、数据科学、人工智能和许多其他领域。Python 在 IntelliJ IDEA 中通过插件得到支持。">Python</a>
-        </category>
-        <category ref="ides">
-            <a href="https://www.jetbrains.com/zh-cn/fleet/" summary="JetBrains Fleet 是一款轻量级的代码编辑器和集成开发环境（IDE），由 IntelliJ 的代码处理引擎构建而成。它目前处于公开预览版阶段，支持多种流行编程语言，包括 Python、TypeScript/JavaScript、Go、Java、PHP、C# 以及 Kotlin。">Fleet</a>
-            <a href="https://www.eclipse.org" summary="Eclipse 是一个开放源代码的集成开发环境（IDE），主要用于 Java 应用程序的开发，但它也支持其他编程语言，如 C/C++、Python、Perl 等。Eclipse 以其可扩展性和强大的插件系统而闻名，允许开发人员根据需要定制他们的开发环境。">Eclipse</a>
-            <a href="https://www.myclipse.com" summary="MyEclipse 是一个商业版的 Eclipse 插件，它为 Java EE和企业开发提供了额外的工具和功能。MyEclipse 包括了数据库工具、可视化设计器、性能分析工具等，旨在提高企业级应用程序开发的效率。">MyEclipse</a>
-            <a href="https://spring.io/tools" summary="Spring Tool Suite (STS) 是一个基于 Eclipse 的 IDE，专门为 Spring 应用程序的开发而优化。它提供了一个强大的开发环境，包括对 Spring 框架的深度支持、Maven 和 Gradle 集成、以及云工具等。STS 旨在提高开发 Spring 应用程序的效率和便利性。">Spring Tool Suite (STS)</a>
-            <a href="https://code.visualstudio.com" summary="Visual Studio Code (VSCode) 是由 Microsoft 开发的一个免费、开源的代码编辑器，它支持多种编程语言和工具。VSCode 以其轻量级、可扩展性以及强大的集成终端而受到开发者的喜爱。它可以通过安装插件来支持不同的编程语言和框架。">Visual Studio Code (VSCode)</a>
-        </category>
+       <include from="reuse-library.topic" element-id="programming-language-snippet" />
+       <include from="reuse-library.topic" element-id="ides-snippet" />
     </seealso>
 </topic>

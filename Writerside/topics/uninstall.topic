@@ -4,7 +4,7 @@
 <topic xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
        xsi:noNamespaceSchemaLocation="https://resources.jetbrains.com/writerside/1.0/topic.v2.xsd"
        title="卸载 Intellij IDEA" id="uninstall">
-    <note>卸载 IntelliJ IDEA 的正确方法取决于您使用的 <a href="installation-guide.topic" summary="选择一种适合的方式安装 Intellij IDEA。">安装</a> 方法。&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;</note>
+    <note>卸载 IntelliJ IDEA 的正确方法取决于您使用的 <a href="installation-guide.topic" summary="选择一种适合的方式安装 Intellij IDEA。">安装</a> 方法。&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;</note>
     <chapter id="standalone" title="卸载独立实例">
         <note>如果运行的是 <a href="installation-guide.topic" anchor="standalone">独立的 IntelliJ IDEA 实例</a> ，则在删除实例时会保留 <a href="directories-used-by-the-ide-to-store-settings-caches-plugins-and-logs.topic">默认的 IDE 目录</a> ，以备日后保留设置或在另一个实例、另一个版本或另一个 <tooltip term="ide">IDE</tooltip> 中使用。如果确定不需要这些目录，可以将其删除。</note>
         <tabs>
@@ -93,10 +93,10 @@
         <primary-label ref="Toolbox"/>
         <p>如果使用 <a href="installation-guide.topic" anchor="toolbox">Toolbox App 安装了 IntelliJ IDEA</a>，请执行以下操作：</p>
         <procedure type="choices">
-            <warning>因软件更新迭代较快，现 Toolbox App 已不支持下载 Intellij IDEA 2022.3.3 版本。</warning>
+            <warning>因软件更新迭代较快，现 Toolbox App 已不支持下载 Intellij IDEA 2022.3.3 版本。&nbsp;&nbsp;</warning>
             <note>Toolbox App 虽不再提供 Intellij IDEA 2022.3.3 的下载，但若已安装该版本则仍可由 Toolbox App 管理。</note>
             <step>打开 Toolbox App，单击必要实例的 <img src="toolbox app 更多按钮.svg" alt=""/> 图标，然后选择 <format style="bold">卸载</format> 。</step>
-            <img alt="单击实例中卸载按钮卸载实例.png" src="单击实例中卸载按钮卸载实例.png" width="706"/>
+            <img alt="单击实例中卸载按钮卸载实例" src="单击实例中卸载按钮卸载实例.png" width="706"/>
             <video src="https://www.youtube.com/watch?v=s9_MJQr0Utg" width="706"/>
         </procedure>
     </chapter>

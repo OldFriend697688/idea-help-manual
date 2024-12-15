@@ -1,6 +1,15 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <!DOCTYPE terms SYSTEM "https://resources.jetbrains.com/writerside/1.0/glossary.dtd">
 <terms>
+   <term name="keywords">关键字（Keyword）在编程语言中是具有特定意义的单词，它们被语言的设计者保留用来表示基本的编程结构和指令。每个关键字都有明确的用途，通常不能被用作变量名、函数名或其他标识符。</term>
+   <term name="identifier">在编程领域，标识符（Identifier）是用来表示变量、函数、类、模块、对象等程序实体的名称。</term>
+   <term name="comments">在编程领域，注释（Comments）是源代码中用于解释代码意图、功能和实现细节的非执行文本。注释对程序的运行没有直接影响，但对代码的可读性和可维护性至关重要</term>
+   <term name="class-name">在编程领域，类名（Class Name）是面向对象编程（OOP）中的一个基本概念，它代表了一组具有相同属性和行为（方法）的对象的模板。类名通常遵循一定的命名规范，如驼峰式命名（CamelCase）或帕斯卡式命名（PascalCase），以提高代码的可读性和维护性。</term>
+   <term name="method-name">方法名（Method Name）在编程中指的是用于标识函数或方法的名称，它应该简洁、直观地描述该方法执行的操作或目的。</term>
+   <term name="variable-name">变量名（Variable Name）是编程中用于标识变量、属性或数据的名称。</term>
+   <term name="database">数据库是一种用于存储和管理数据的系统，它允许用户高效地检索、更新和删除信息。数据库按照数据模型可分为关系型（如 MySQL、PostgreSQL）、非关系型（如 MongoDB、Cassandra）等多种类型。关系型数据库通过表格形式组织数据，使用 SQL（结构化查询语言）进行交互；非关系型数据库则更加灵活，适用于大数据和实时 Web 应用。数据库管理系统（DBMS）是数据库的核心，负责维护数据的一致性、安全性和完整性。数据库广泛应用于各种场景，如金融、医疗、教育、电商等，是现代信息技术的基础设施之一。随着云计算和大数据技术的发展，数据库也在向分布式、高可用、自动化运维等方向演进，以满足不断增长的数据处理需求。</term>
+   <term name="frontend">前端，即网站或 Web 应用的用户界面部分，负责展示信息和交互功能。它由 HTML、CSS 和 JavaScript 三种核心技术构成。HTML 定义了网页的结构，CSS 负责样式设计，使页面美观，而 JavaScript 则提供动态交互功能。前端开发者需掌握这些技术，以创建响应式和用户体验良好的界面。随着互联网技术的发展，前端框架和库（如 React、Vue、Angular）层出不穷，极大地提升了开发效率。前端不仅关注视觉呈现，还涉及性能优化、跨浏览器兼容性、可访问性以及安全性等方面。此外，随着移动互联网和物联网的兴起，前端技术也在不断拓展，以适应各种设备和平台的需求。</term>
+   <term name="openjdk">OpenJDK，是一个开源的 Java 平台标准版项目，由 Sun Microsystems 在 2006 年启动，旨在为开发者提供一个自由、可修改的 Java 实现。它包括 Java 运行时环境（JRE）、Java 标准库（Java SE）和 Java 开发工具包（JDK）。OpenJDK 的发布，推动了 Java 社区的创新发展，使得开发者能够参与到 Java 核心功能的改进中。作为 Java 生态的重要组成部分，OpenJDK 拥有广泛的用户基础，许多企业和项目（如 Apache、Red Hat等）都在使用它作为基础 Java 平台。此外，OpenJDK 采用 GPLv2 协议，保证了用户在研究和使用过程中的合法权益。随着 Java 技术的不断演进，OpenJDK 将继续发挥其作用，为全球开发者提供稳定、高效的 Java 开发环境。</term>
    <term name="facets">Facets 在应用程序开发领域指的是一种设计理念，它提倡将复杂的应用程序分解为多个独立的、可复用的组件，每个组件负责应用程序的一个特定方面（Facet）。这种模块化设计方法有助于提高应用程序的可维护性、可扩展性和可测试性。</term>
    <term name="api">API（应用程序编程接口）是软件间通信的接口，允许不同应用交换数据和指令。它定义了请求的制作方式，如何发送请求，预期的响应格式。开发者通过 API 可构建集成第三方服务或功能的软件，提高开发效率，拓展应用能力。</term>
    <term name="zip">ZIP 是一种广泛使用的文件压缩格式，由 Phil Katz 创建，支持无损数据压缩。它能将一个或多个文件打包成一个压缩文件，减少文件大小，便于传输和存储。ZIP 格式支持多种压缩算法，广泛用于数据备份、软件分发等领域。</term>

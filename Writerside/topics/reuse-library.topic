@@ -4,7 +4,7 @@
 <topic xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
        xsi:noNamespaceSchemaLocation="https://resources.jetbrains.com/writerside/1.0/topic.v2.xsd"
        title="reuse-library" id="reuse-library">
-    <!--提示信息-->
+    <!-- 提示信息 -->
     <snippet id="ides-snippet">
         <category ref="ides">
             <a href="https://www.jetbrains.com/zh-cn/fleet/" summary="JetBrains Fleet 是一款轻量级的代码编辑器和集成开发环境（IDE），由 IntelliJ 的代码处理引擎构建而成。它目前处于公开预览版阶段，支持多种流行编程语言，包括 Python、TypeScript/JavaScript、Go、Java、PHP、C# 以及 Kotlin。">Fleet</a>
@@ -24,10 +24,15 @@
             <a href="https://www.python.org" summary="Python 是一种解释型、高级和通用的编程语言。由 Guido van Rossum 于 1989 年底发明，Python 的设计哲学强调代码的可读性和简洁的语法。它广泛应用于 Web 开发、数据科学、人工智能和许多其他领域。Python 在 IntelliJ IDEA 中通过插件得到支持。">Python</a>
         </category>
     </snippet>
+    <snippet id="invalid-shortcut-key-prompt"><note>如果发现无法通过快捷键触发代码补全，请尝试关闭中文输入法后再按下对应的快捷键。</note></snippet>
     <snippet id="plugins-install-tips"><warning>安装过多的插件可能会影响到 Intellij IDEA 的整体性能。&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;</warning></snippet>
     <snippet id="toolbox-login-tips"><note>从 Toolbox App 登录 JetBrains 帐户，它将自动激活安装的任何 IDE 的可用许可证。</note></snippet>
-    <snippet id="main-menus"><a anchor="main-menus" instance="hi" href="guided-tour-around-the-user-interface.topic" summary="IntelliJ IDEA 中的主菜单包含了多个顶级菜单项，每个菜单项下都有相应的子菜单和功能选项，这些菜单提供了对 IDE 的各种功能和设置的访问。">主菜单</a></snippet>
-    <snippet id="context-menus"><a anchor="context-menus" href="guided-tour-around-the-user-interface.topic" instance="hi" summary="IntelliJ IDEA 的上下文菜单（也称为右键菜单）是在用户在 IDE 的不同部分右键单击时弹出的菜单。上下文菜单提供了与当前上下文相关的操作和选项，这些选项根据用户单击的位置和选择的元素而变化。">上下文菜单</a></snippet>
+    <snippet id="main-windows-snippet"><a href="guided-tour-around-the-user-interface.topic" anchor="main-windows" summary="IntelliJ IDEA 提供了一个非常强大的主窗口，它集成了代码编辑、调试、构建、版本控制以及许多其他功能。"/> </snippet>
+    <snippet id="toolbar-snippet"><a href="guided-tour-around-the-user-interface.topic" anchor="vcs-file-color" summary="在默认情况下，含有打开和保存文件、撤销和重做操作按钮的主工具栏是隐藏的。">主工具栏</a></snippet>
+    <snippet id="navigation-bar-snippet"><a href="guided-tour-around-the-user-interface.topic" anchor="navigation-bar" summary="IntelliJ IDEA 中的导航栏是一个便捷的功能，它允许用户快速导航到项目中的不同部分，如文件、类、方法或工具窗口。导航栏通常位于编辑器的顶部，提供了一个紧凑的界面来键入搜索查询或选择目标位置。" /></snippet>
+    <snippet id="main-menus-snippet"><a anchor="main-menus" instance="hi" href="guided-tour-around-the-user-interface.topic" summary="IntelliJ IDEA 中的主菜单包含了多个顶级菜单项，每个菜单项下都有相应的子菜单和功能选项，这些菜单提供了对 IDE 的各种功能和设置的访问。" /></snippet>
+    <snippet id="editor-snippet"><a anchor="editor" href="guided-tour-around-the-user-interface.topic" summary="IntelliJ IDEA 的编辑器是其核心功能之一，它为开发者提供了一个强大、智能和高度可配置的代码编写环境。"/></snippet>
+    <snippet id="context-menus-snippet"><a anchor="context-menus" href="guided-tour-around-the-user-interface.topic" instance="hi" summary="IntelliJ IDEA 的上下文菜单（也称为右键菜单）是在用户在 IDE 的不同部分右键单击时弹出的菜单。上下文菜单提供了与当前上下文相关的操作和选项，这些选项根据用户单击的位置和选择的元素而变化。" /></snippet>
     <snippet id="standalone-tips">
         <p>首次运行 Intellij IDEA 时，可以完成安装自定义您的实例并开始使用该 <tooltip term="ide">IDE</tooltip> 。</p>
         <p>如需要了解更多信息，请参阅 <a instance="hi" href="run-for-the-first-time.topic">首次运行 Intellij IDEA</a> 。</p>
@@ -80,15 +85,15 @@
         <p>反转布尔值重构是一种能够将布尔方法或变量的含义更改为相反含义的功能。重构前后， <tooltip instance="hi" term="method">方法</tooltip> 的最终实现逻辑保持不变，只是布尔值的含义发生了反转。虽然重构会自动更新所有引用布尔值的地方，但是否需要更改方法的内部逻辑以适应新的布尔值含义，就需要开发者根据实际情况来判断和调整了。</p>
         <procedure title="操作步骤">
             <step>将插入符号（闪烁光标）放在要重构的方法或变量的名称处。</step>
-            <step>在 <include from="reuse-library.topic" id="main-menu" /> 或 <include from="reuse-library.topic" element-id="context-menus" /> 中选择 <ui-path>重构 | 反转布尔值</ui-path>。</step>
+            <step>在 <include from="reuse-library.topic" element-id="main-menus-snippet" /> 或 <include from="reuse-library.topic" element-id="context-menus-snippet" /> 中选择 <ui-path>重构 | 反转布尔值</ui-path> 。</step>
             <step>在打开的对话框中，指定待反转方法或变量的名称。</step>
             <step>预览并应用更改。</step>
         </procedure>
         <chapter title="案例" id="invert-boolean-example">
-            <compare first-title="反转之前" second-title="反转之后">
+            <compare first-title="反转前" second-title="反转后">
                 <code-block lang="java" show-white-spaces="true">
                     private double a;
-                    ...
+
                     public boolean method() {
                         if (a > 15 &amp;&amp; a &lt; 100) {
                             a = 5;
@@ -99,7 +104,7 @@
                 </code-block>
                 <code-block lang="java" show-white-spaces="true">
                     private double a;
-                    ...
+
                     public boolean method() {
                         if (a > 15 &amp;&amp; a &lt; 100) {
                             a = 5;
@@ -109,23 +114,19 @@
                     }
                 </code-block>
             </compare>
-            <compare first-title="反转之前" second-title="反转之后">
+            <compare first-title="反转前" second-title="反转后">
                 <code-block lang="java" show-white-spaces="true">
                     boolean b = true;
-                    ...
+
                     public double method() {
-                        ...
                         b = false;
-                        ...
                     }
                 </code-block>
                 <code-block lang="java" show-white-spaces="true">
                     boolean b = false;
-                    ...
+
                     public double method() {
-                        ...
                         b = true;
-                        ...
                     }
                 </code-block>
             </compare>
@@ -135,8 +136,8 @@
     <snippet id="to-search-structurally-snippet">
         <procedure id="to-search-structurally" title="从结构上搜索目标" default-state="collapsed" collapsible="true">
             <step>
-                <p>单击 <ui-path><include from="reuse-library.topic" element-id="main-menus"/> | 编辑 | 查找 | 结构搜索</ui-path> 以打开 <format style="bold">结构搜索</format> 对话框。</p>
-                <note>在 <format style="bold">结构搜索</format> 对话框中，可通过单击 <img src="刷新.svg" alt=""/> 按钮快速切换至 <format style="bold">结构替换</format> 对话框。</note>
+                <p>单击 <ui-path><include from="reuse-library.topic" element-id="main-menus-snippet"/> | 编辑 | 查找 | 结构搜索</ui-path> 以打开 <format style="bold">结构搜索</format> 对话框。</p>
+                <note>在 <format style="bold">结构搜索</format> 对话框中，可通过单击 <img src="刷新.svg" alt=""/> 按钮快速切换至 <format style="bold">结构替换</format> 对话框。&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;</note>
                 <video src="https://www.youtube.com/watch?v=QcOUjW25lZw" width="706"/>
             </step>
             <step>
@@ -180,8 +181,8 @@
         </procedure>
         <procedure id="structural-replace" title="从结构上替换目标" default-state="collapsed" collapsible="true">
             <step>
-                <p>单击 <ui-path><include from="reuse-library.topic" element-id="main-menus"/> | 编辑 | 查找 | 结构化替换</ui-path> 以打开 <format style="bold">结构替换</format> 对话框。</p>
-                <note>在 <format style="bold">结构替换</format> 对话框中，可通过单击<img src="刷新.svg" alt=""/> 按钮快速切换至 <format style="bold">结构搜索</format> 对话框。</note>
+                <p>单击 <ui-path><include from="reuse-library.topic" element-id="main-menus-snippet"/> | 编辑 | 查找 | 结构化替换</ui-path> 以打开 <format style="bold">结构替换</format> 对话框。</p>
+                <note>在 <format style="bold">结构替换</format> 对话框中，可通过单击 <img src="刷新.svg" alt=""/> 按钮快速切换至 <format style="bold">结构搜索</format> 对话框。&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;</note>
                 <video src="https://www.youtube.com/watch?v=QcOUjW25lZw" width="706"/>
             </step>
             <step><p>在 <format style="bold">结构替换</format> 对话框中，将新的或现有的模板添加到搜索和替换模板区域。可以按照与 <a anchor="to-search-structurally" summary="">搜索模板</a> 相同的方式保存替换模板。</p></step>

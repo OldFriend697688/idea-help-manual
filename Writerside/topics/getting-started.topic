@@ -17,9 +17,9 @@
             <title>快速开始</title>
             <a href="installation-guide.topic" summary="选择一种适合自己的方式安装 Intellij IDEA。">安装 Intellij IDEA</a>
             <a href="installation-guide.topic" summary="为 Intellij IDEA 安装简体中文语言包，以降低使用和学习难度。" anchor="simplified-chinese-language" />
-            <a href="user-interface-themes.topic" summary="安装符合个人审美标准的主题，告别乏味枯燥的单色调背景。">主题</a>
+            <a href="user-interface-themes.topic" summary="安装符合个人审美标准的主题，告别乏味枯燥的单色背景。">主题</a>
             <a href="guided-tour-around-the-user-interface.topic" summary="了解 Intellij IDEA 用户界面的主要构成部分。"/>
-            <a href="setting-background-image.topic" summary="为 Intellij IDEA 设置个人喜好的背景图片，让开发环境更加个性化。"/>
+            <a href="setting-background-image.topic" summary="为 Intellij IDEA 设置个人喜好的背景图片，让开发环境更具个性化。"/>
         </primary>
 
         <secondary>
@@ -43,7 +43,7 @@
                     <a href="https://groovy-lang.org/" summary="Groovy 是一种动态、表达式丰富的编程语言，设计用于简化 Java 代码的编写。">Groovy</a>
                 </group>
                 <group>
-                    <title>版本控制系统</title>
+                    <title>版本控制系统（VCS）</title>
                     <a href="https://git-scm.com/" summary="Git 是一个开源的分布式版本控制系统，由 Linus Torvalds 创建，用于管理软件开发过程中的代码变更。">Git</a>
                     <a href="https://subversion.apache.org/" summary="Apache Subversion（SVN）是一个开放源代码的版本控制系统，用于管理文件的变化历史。">SVN</a>
                     <a href="https://gitee.com/" summary="GitEE（码云）是一个面向中国的 Git 代码托管平台，提供代码托管、项目管理、团队协作等功能，支持 Git 和 SVN 两种版本控制。">GitEE</a>

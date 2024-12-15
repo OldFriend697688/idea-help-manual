@@ -23,14 +23,14 @@
     </procedure>
     <p>在 <tooltip term="ide">IDE</tooltip> 中打开课程后，您就可以开始学习了。</p>
     <p>如果您想要了解更多信息，请参阅 <a href="https://www.jetbrains.com/zh-cn/idea-edu/">IntelliJ IDEA for Education</a> 页面。</p>
-    <p>您还可以使用 <a anchor="main-menus" href="guided-tour-around-the-user-interface.topic" summary="IntelliJ IDEA 中的主菜单包含了多个顶级菜单项，每个菜单项下都有相应的子菜单和功能选项，这些菜单提供了对 IDE 的各种功能和设置的访问。" /> 浏览其他课程、创建新课程或报告问题。</p>
+    <p>您还可以使用 <include from="reuse-library.topic" element-id="main-menus-snippet" /> 浏览其他课程、创建新课程或报告问题。</p>
     <procedure id="work-with-main-menu" title="使用主菜单">
         <step>
-            通过 <ui-path>主菜单 | 文件</ui-path> 选择 <format style="bold">浏览课程</format> 或 <format style="bold">创建新课程</format> 。
+            通过 <ui-path><include from="reuse-library.topic" element-id="main-menus-snippet" /> | 文件</ui-path> 选择 <format style="bold">浏览课程</format> 或 <format style="bold">创建新课程</format> 。
             <img src="浏览与创建新课程.png" alt="浏览与创建新课程" width="706" thumbnail="true"/>
         </step>
         <step>
-            通过 <ui-path>主菜单 | 帮助 | 向 JetBrains Academy 团队报告问题</ui-path> 将项目中发现的问题上报。
+            通过 <ui-path><include from="reuse-library.topic" element-id="main-menus-snippet" /> | 帮助 | 向 JetBrains Academy 团队报告问题</ui-path> 将项目中发现的问题上报。
             <img src="向 JetBrains Academy 团队报告问题.png" alt="向 JetBrains Academy 团队报告问题" width="706" thumbnail="true"/>
         </step>
     </procedure>

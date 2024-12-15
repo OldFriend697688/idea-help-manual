@@ -51,10 +51,10 @@
     </chapter>
     <chapter id="standalone" title="独立实例">
         <p>如果您 <a href="installation-guide.topic" anchor="standalone">手动安装</a> 了 IntelliJ IDEA，独立的 <tooltip term="ide">IDE</tooltip> 实例将自行管理更新。当有新版本可用时，它会通知您。您可以选择更新当前实例、推迟通知或完全忽略更新。</p>
-        <img src="Intellij IDEA 和插件更新.png" alt="Intellij IDEA 和插件更新.png" width="706" thumbnail="true"/>
+        <img src="Intellij IDEA 和插件更新.png" alt="Intellij IDEA 和插件更新" width="706" thumbnail="true"/>
         <chapter id="update-settings" title="配置更新策略">
             <p>要管理 IntelliJ IDEA 的更新策略，请进入 <format style="bold">设置</format> （ <shortcut>Ctrl</shortcut><shortcut>Alt</shortcut><shortcut>S</shortcut> ）选择 <ui-path>外观和行为 | 系统设置 | 更新</ui-path> 。</p>
-            <note>如果 IDE 实例由 <format style="bold">Toolbox App</format> 管理，这些设置将只影响 <a href="install-plugins.topic" summary="通过强大的插件系统可拓展 Intellij IDEA 的功能。">插件</a> 更新。&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;</note>
+            <note>如果 <tooltip term="ide">IDE</tooltip> 实例由 <format style="bold">Toolbox App</format> 管理，这些设置将只影响 <a href="install-plugins.topic" summary="通过强大的插件系统可拓展 Intellij IDEA 的功能。">插件</a> 更新。&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;</note>
             <procedure collapsible="true" default-state="collapsed" title="更新页面包含的设置">
                 <img src="更新设置界面.png" alt="更新设置界面" width="706" thumbnail="true"/>
                 <table column-width="auto" border="true">

@@ -4,13 +4,13 @@
 <topic xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
        xsi:noNamespaceSchemaLocation="https://resources.jetbrains.com/writerside/1.0/topic.v2.xsd"
        title="安装指南" id="installation-guide">
-    <p>Intellij IDEA 是一个 <tooltip term="cross-platform">跨平台</tooltip> 的 <tooltip term="ide">IDE</tooltip> ，在 <tooltip term="windows">Windows</tooltip> 、<tooltip term="macos">macOS</tooltip> 和 <tooltip term="linux">Linux</tooltip> 操作系统上提供一致体验。</p>
+    <p>Intellij IDEA 是一个 <tooltip term="cross-platform">跨平台</tooltip> 的 <tooltip term="ide">IDE</tooltip> ，可在 <tooltip term="windows">Windows</tooltip> 、<tooltip term="macos">macOS</tooltip> 和 <tooltip term="linux">Linux</tooltip> 上提供一致体验。</p>
     <p>Intellij IDEA 现提供以下版本：</p>
     <list>
         <li><format style="bold">社区版</format> 免费且开源，采用 <a href="https://zh.wikipedia.org/zh-hans/Apache许可证">Apache 2.0 许可证</a> 。它提供用于 <tooltip term="jvm">JVM</tooltip> 和 <tooltip term="android">Android</tooltip> 开发的基本功能。</li>
-        <li><format style="bold">旗舰版</format> 是商业软件，提供 30 天免费试用。它为 Web 和企业开发提供了额外的工具和功能。</li>
+        <li><format style="bold">旗舰版</format> 是商业软件，<format style="italic">提供 30 天免费试用</format>。它为 Web 和企业开发提供了额外的工具和功能。</li>
     </list>
-    <p>有关旗舰版和社区版之间的详细差异，请参阅 IntelliJ IDEA 的 <a href="https://www.jetbrains.com/zh-cn/products/compare/?product=idea&amp;product=idea-ce">版本比较矩阵</a>。</p>
+    <p>有关旗舰版和社区版之间的具体差异，请参阅 IntelliJ IDEA 的 <a href="https://www.jetbrains.com/zh-cn/products/compare/?product=idea&amp;product=idea-ce">版本比较矩阵</a>。</p>
     <chapter id="requirements" title="系统要求">
         <table>
             <tr><td width="150">需求</td><td width="290">最低配置</td><td>推荐配置</td></tr>
@@ -35,7 +35,7 @@
                 <procedure>
                     <step>
                         <p><a href="https://www.jetbrains.com/zh-cn/idea/download/other.html">下载 .exe 安装程序</a>。</p>
-                        <note>ARM64 处理器有单独的安装程序。&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;</note>
+                        <note>ARM64 处理器有单独的安装程序。&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;</note>
                         <img src="IDEA 2022.3.3 Windows .exe 安装包下载.png" alt="IDEA 2022.3.3 Windows .exe 安装包下载" width="706" thumbnail="true"/>
                         <video src="https://www.youtube.com/watch?v=7QrP3h5mKiY" width="706"/>
                     </step>
@@ -73,7 +73,7 @@
                 <procedure>
                     <step>
                         <a href="https://www.jetbrains.com/zh-cn/idea/download/other.html">下载 .tar.gz 压缩包。</a>
-                        <note>ARM64 处理器有单独的 tarball 文件。&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;</note>
+                        <note>ARM64 处理器有单独的 tarball 文件。&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;</note>
                         <img src="IDEA 2022.3.3 Linux tar.gz 镜像下载.png" alt="IDEA 2022.3.3 Linux tar.gz 镜像下载" width="706" thumbnail="true"/>
                     </step>
                     <step>
@@ -86,7 +86,7 @@
                 <p>要创建桌面快捷方式，请执行以下操作之一：</p>
                 <list>
                     <li>在欢迎界面上，单击 <ui-path>配置 | 创建桌面快捷方式</ui-path>。</li>
-                    <li>在<include from="reuse-library.topic" element-id="main-menus" /> 中单击 <ui-path>工具 | 创建桌面快捷方式</ui-path>。</li>
+                    <li>在<include from="reuse-library.topic" element-id="main-menus-snippet" /> 中单击 <ui-path>工具 | 创建桌面快捷方式</ui-path>。</li>
                 </list>
                 <include from="reuse-library.topic" element-id="standalone-tips" />
             </tab>
@@ -106,10 +106,10 @@
     </chapter>
     <chapter id="toolbox" title="使用 Toolbox App 安装">
         <primary-label ref="Toolbox"/>
-        <note>通过使用 Toolbox App 安装、管理、更新及卸载 JetBrains IDEs 并非是强制性的。 &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;</note>
+        <note>通过使用 Toolbox App 安装、管理、更新及卸载 JetBrains IDEs 并非是强制性的。 &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;</note>
+        <note>若安装 Toolbox App 之前安装过任何 JetBrains IDEs，则它将会自动开始管理这些 <tooltip term="ide">IDE</tooltip>。</note>
         <p><a href="https://www.jetbrains.com/toolbox-app/">JetBrains Toolbox App</a> 是安装 JetBrains 产品的推荐工具。使用它来安装和管理不同产品或同一产品的多个版本，包括 <a href="https://www.jetbrains.com/community/eap/">早期访问计划（EAP）</a> ，必要时进行更新和回滚，并轻松删除任何工具。它维护所有项目的列表，以便快速在正确的 <tooltip term="ide">IDE</tooltip> 和版本中打开任何项目。</p>
         <img src="JetBrains Toolbox App 中文官网首页.png" alt="JetBrains Toolbox App" width="706" thumbnail="true"/>
-        <note>若安装 Toolbox App 之前安装过任何 JetBrains IDEs，则它将会自动开始管理这些 <tooltip term="ide">IDE</tooltip>。</note>
         <tabs>
             <tab title="Windows">
                 <procedure title="安装 Toolbox App">
@@ -121,7 +121,7 @@
                     </step>
                     <video src="https://www.youtube.com/watch?v=gSahote9lnY" width="706"/>
                     <include from="reuse-library.topic" element-id="toolbox-login-tips" />
-                    <warning>因软件更新迭代较快，现 Toolbox App 已不支持下载 Intellij IDEA 2022.3.3 版本。</warning>
+                    <warning>因软件更新迭代较快，现 Toolbox App 已不支持下载 Intellij IDEA 2022.3.3 版本。&nbsp;&nbsp;</warning>
                     <video src="https://www.youtube.com/watch?v=jNRMf4Bltco" width="706"/>
                     <note>如果临时改变注意不想继续使用 Toolbox App，请参考如下视频卸载 Toolbox App。</note>
                     <video src="https://www.youtube.com/watch?v=FpcWwcAeulE" width="706"/>
@@ -150,7 +150,7 @@
                 <procedure title="安装 Toolbox App">
                     <step>
                         <p>从 <a href="https://www.jetbrains.com/zh-cn/toolbox-app/">官网</a> 下载 <format style="bold">.dmg</format> 镜像文件。</p>
-                        <note>英特尔和苹果芯片分别有独立的映像文件，在下载时请注意分辨。&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;</note>
+                        <note>英特尔和苹果芯片分别有独立的映像文件，在下载时请注意分辨。&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;</note>
                     </step>
                     <step>将镜像文件挂载并拖动 Toolbox App 到 <format style="bold">应用程序（Applications）</format> 文件夹。</step>
                     <step>

@@ -20,7 +20,7 @@
         </step>
         <step>
             或者按下 <shortcut>Ctrl</shortcut><shortcut>Alt</shortcut><shortcut>S</shortcut> 打开 <format style="bold">设置</format> ，然后选择 <format style="bold">插件</format> 。
-            <img src="在 IDE 设置中找到插件设置.png" alt="在 IDE 设置中找到插件设置.png" width="706" thumbnail="true"/>
+            <img src="在 IDE 设置中找到插件设置.png" alt="在 IDE 设置中找到插件设置" width="706" thumbnail="true"/>
         </step>
         <p>您可以通过在 <format style="bold">Marketplace</format> 选项卡中浏览并安装 <a href="https://plugins.jetbrains.com/">JetBrains 插件库</a> 或者是 <a anchor="repos" /> 。</p>
         <p>通过 <format style="bold">已安装</format> 选项卡浏览捆绑和已安装的插件，启用、 <a anchor="disable-plugin" summary="">禁用</a> 、 <a anchor="update-plugin" summary="">更新</a> 或 <a anchor="remove-plugin" summary="">卸载</a> 它们。</p>
@@ -107,7 +107,7 @@
     </chapter>
     <chapter id="recommended-plugins" title="推荐插件">
         <include from="reuse-library.topic" element-id="plugins-install-tips" />
-        <procedure title="推荐插件列表" id="recommended-plugins-list">
+        <procedure title="推荐插件列表" id="recommended-plugins-list" default-state="collapsed" collapsible="true">
             <p>使用以下插件，可以间接或直接的提高您的开发效率。</p>
             <table>
                 <tr>
@@ -142,6 +142,34 @@
                     <td><a href="https://plugins.jetbrains.com/plugin/7345-presentation-assistant-for-2023-2">Presentation Assistant for 2023.2</a></td>
                     <td>在您的 Intellij IDEA 中显示您调用的任何操作的名称和快捷键。</td>
                 </tr>
+                <tr>
+                    <td><a href="https://plugins.jetbrains.com/plugin/7499-gittoolbox">GitToolBox</a></td>
+                    <td>GitToolBox 旨在进一步增强 IntelliJ IDEA 内置的 Git 集成功能。它为开发者提供了许多便捷的 Git 操作，帮助您更高效地管理代码版本。</td>
+                </tr>
+                <tr>
+                    <td><a href="https://plugins.jetbrains.com/plugin/11386-alibaba-cloud-toolkit">Alibaba Cloud Toolkit</a></td>
+                    <td>Alibaba Cloud Toolkit 可以帮助开发者更高效地部署、测试、开发和诊断应用。Cloud Toolkit 与主流 IDE 及阿里云其他产品无缝集成，帮助您大大简化应用部署到服务器，尤其是阿里云服务器中的操作。您还可以通过其内嵌的 Arthas 程序诊断、Terminal Shell 终端和 MySQL 执行器等工具，简化应用开发、测试和诊断的过程。</td>
+                </tr>
+                <tr>
+                    <td><a href="https://plugins.jetbrains.com/plugin/23491-converterx">ConverterX</a></td>
+                    <td>这是一个插件工具，旨在帮助使用 IntelliJ IDEA 的开发人员编写代码，提供字符串、JSON 和日期转换的快速功能。</td>
+                </tr>
+                <tr>
+                    <td><a href="https://plugins.jetbrains.com/plugin/10954-easycode">EasyCode</a></td>
+                    <td>基于 IntelliJ IDEA 开发的代码生成插件，支持自定义任意模板（Java，html，js，xml）。可用于快速生成 Dao、Service、Controller、Entity 层的相关模板代码。</td>
+                </tr>
+                <tr>
+                    <td><a href="https://plugins.jetbrains.com/plugin/7125-grep-console">Grep Console</a></td>
+                    <td>Grep Console 专门用于增强 IDE 的控制台日志查看和分析能力。它通过提供高级的过滤、颜色高亮、模式匹配等功能，极大地提升了开发者在处理大量日志信息时的效率。</td>
+                </tr>
+                <tr>
+                    <td><a href="https://plugins.jetbrains.com/plugin/7160-camelcase">CamelCase</a></td>
+                    <td>用于在编辑器中快速实现驼峰式命名（CamelCase）和下划线命名（snake_case）之间的转换。它能大大提高开发效率，确保代码风格的一致性。</td>
+                </tr>
+                <tr>
+                    <td></td>
+                    <td></td>
+                </tr>
             </table>
         </procedure>
     </chapter>
@@ -174,7 +202,7 @@
         <p>或者，也可以使用 <code>idea.plugin.hosts</code> 属性添加自定义插件库：</p>
         <procedure>
             <step>
-                从 <a href="guided-tour-around-the-user-interface.topic" anchor="main-menus" summary="IntelliJ IDEA 中的主菜单包含了多个顶级菜单项，每个菜单项下都有相应的子菜单和功能选项，这些菜单提供了对 IDE 的各种功能和设置的访问。" /> 中选择 <ui-path>帮助 | 编辑自定义属性</ui-path> 。
+                从 <include from="reuse-library.topic" element-id="main-menus-snippet" /> 中选择 <ui-path>帮助 | 编辑自定义属性</ui-path> 。
                 <img src="编辑自定义属性.png" alt="编辑自定义属性" width="706" thumbnail="true"/>
             </step>
             <step>

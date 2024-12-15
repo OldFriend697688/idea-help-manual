@@ -15,7 +15,7 @@
         </list>
     </tip>
     <procedure title="开始免费试用" id="start-trial" type="choices">
-        <note>请先阅读 <a href="installation-guide.topic" /> 并正确安装 Intellij IDEA 后再阅读此处内容。 &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;</note>
+        <note>请先阅读 <a href="installation-guide.topic" /> 并正确安装 Intellij IDEA 后再阅读此处内容。 &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;</note>
         <step>
             <p>启动 Intellij IDEA 时将会弹出 <format style="bold">许可证</format> 对话框，选中其中的 <format style="bold">开始试用</format> 。</p>
             <img src="开始试用（1）.png" alt="开始试用" thumbnail="true"/>
@@ -39,7 +39,7 @@
         <step>
             <p>执行以下操作之一打开 <format style="bold">许可证</format> 对话框：</p>
             <list>
-                <li>从 <a href="guided-tour-around-the-user-interface.topic" anchor="main-menus" summary="IntelliJ IDEA 中的主菜单包含了多个顶级菜单项，每个菜单项下都有相应的子菜单和功能选项，这些菜单提供了对 IDE 的各种功能和设置的访问。" /> 中选择 <ui-path>帮助 | 注册</ui-path> 。</li>
+                <li>从 <include from="reuse-library.topic" element-id="main-menus-snippet" /> 中选择 <ui-path>帮助 | 注册</ui-path> 。</li>
                 <li>
                     在 <format style="bold">欢迎界面</format> ，单击 <ui-path>帮助 | 管理许可证</ui-path> 。
                     <img src="管理许可证.gif" alt="管理许可证" thumbnail="true"/>
@@ -81,13 +81,13 @@
             </step>
         </procedure>
         <procedure title="配置与激活步骤" id="configuration-and-activation" default-state="collapsed" collapsible="true">
-            <warning>特别强调，在运行激活补丁脚本之前，请确保 Intellij IDEA 处于未启动状态。&nbsp;&nbsp;&nbsp;</warning>
+            <warning>特别强调，在运行激活补丁脚本之前，请确保 Intellij IDEA 处于未启动状态。&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;</warning>
             <step>
                 <p>进入 <format style="bold">scripts</format> 目录中找到适用于当前操作系统的可执行脚本并运行它。</p>
                 <img src="可用的激活脚本.png" alt="可用的激活脚本" width="706" thumbnail="true"/>
                 <note>
-                    <p>对于 <tooltip term="windows">Windows</tooltip> 系统而言，请运行文件后缀类型为 <format style="bold">.vbs</format> 的可执行脚本。&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;</p>
-                    <p>对于 <tooltip term="macos">macOS</tooltip> 和 <tooltip term="linux">Linux</tooltip> 系统而言，请运行文件后缀类型为 <format style="bold">.sh</format> 的可执行脚本。&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;</p>
+                    <p>对于 <tooltip term="windows">Windows</tooltip> 系统而言，请运行 <format style="bold">.vbs</format> 可执行脚本。&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;</p>
+                    <p>对于 <tooltip term="macos">macOS</tooltip> 和 <tooltip term="linux">Linux</tooltip> 系统而言，请运行 <format style="bold">.sh</format> 可执行脚本。&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;</p>
                 </note>
                 <note><p>如果您正在使用 <format style="bold">Windows</format> 系统，并且仅需要为当前用户安装激活脚本补丁，则请运行 <format style="bold">install-current-user.vbs</format> 。 但是，如果您想要为所有用户安装激活脚本补丁则请运行 <format style="bold">install-all-users.vbs</format> 。</p></note>
             </step>
@@ -109,7 +109,7 @@
             </step>
         </procedure>
         <procedure title="卸载破解激活脚本" id="uninstall-crack-activation-script" default-state="collapsed" collapsible="true">
-            <warning>特别强调，在卸载激活补丁脚本之前，请确保 Intellij IDEA 处于未启动状态。&nbsp;&nbsp;&nbsp;</warning>
+            <warning>特别强调，在卸载激活补丁脚本之前，请确保 Intellij IDEA 处于未启动状态。&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;</warning>
             <step>
                 <p>进入 <format style="bold">scripts</format> 目录中找到适用于当前操作系统的可执行卸载脚本并运行它。</p>
                 <note>
@@ -134,7 +134,7 @@
         <p>如果想要解除 Intellij IDEA 的激活状态，您可以通过点击 <format style="bold">移除许可证</format> 按钮实现。</p>
         <p>您可以通过以下几种方式找到 <format style="bold">移除许可证</format> 按钮：</p>
         <list>
-            <li>从 <a href="guided-tour-around-the-user-interface.topic" anchor="main-menus" summary="IntelliJ IDEA 中的主菜单包含了多个顶级菜单项，每个菜单项下都有相应的子菜单和功能选项，这些菜单提供了对 IDE 的各种功能和设置的访问。" /> 中选择 <ui-path>帮助 | 注册</ui-path> ，然后找到 <format style="bold">移除许可证</format> 按钮。</li>
+            <li>从 <include from="reuse-library.topic" element-id="main-menus-snippet" /> 中选择 <ui-path>帮助 | 注册</ui-path> ，然后找到 <format style="bold">移除许可证</format> 按钮。</li>
             <li>在 <format style="bold">欢迎界面</format> 中单击 <ui-path>帮助 | 管理许可证</ui-path> ，然后找到 <format style="bold">移除许可证</format> 按钮。 <img src="移除许可证.png" alt="移除许可证" thumbnail="true" width="706"/></li>
             <li>
                 按 <shortcut>Ctrl</shortcut><shortcut>Shift</shortcut><shortcut>A</shortcut> 在 <format style="bold">操作</format> 中键入 <format style="bold">注册</format> 并按 <shortcut>Enter</shortcut> 然后在 <format style="bold">许可证</format> 中找到 <format style="bold">移除许可证</format> 按钮。

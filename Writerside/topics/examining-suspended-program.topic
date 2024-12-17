@@ -5,7 +5,7 @@
        xsi:noNamespaceSchemaLocation="https://resources.jetbrains.com/writerside/1.0/topic.v2.xsd"
        title="检查暂停的程序" id="examining-suspended-program">
     <chapter id="use-labels"  title="标签">
-        <p>在调试的过程中，有时需要标记一些实例，以便在任何上下文中都能轻松识别它们。为此，可以添加标签。标签一旦被添加，就会伴随对象的整个 <tooltip term="lifecycle">生命周期</tooltip>。</p>
+        <p>在调试的过程中，有时需要标记一些实例，以便在任何上下文中都能轻松识别它们。为此，可以添加标签。标签一旦被添加，就会伴随对象的整个 <tooltip term="java-object-lifecycle">生命周期</tooltip>。</p>
         <img src="为指定变量添加标签.png" alt="为指定变量添加标签" width="706"/>
         <p>在使用条件或表达式时，这将很有用。此时，可通过标签引用该对象，而不用搜索对该对象的引用。</p>
         <img src="在求值中使用标签.png" alt="在求值中使用标签" width="706"/>

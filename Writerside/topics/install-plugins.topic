@@ -8,7 +8,7 @@
     <include from="reuse-library.topic" element-id="plugins-install-tips" />
     <p>插件扩展了 IntelliJ IDEA 的核心功能。例如，安装插件可获得以下功能：</p>
     <list>
-        <li>与 <tooltip term="version-control-system">版本控制系统</tooltip> 、问题跟踪器、构建管理服务器和其他工具集成。</li>
+        <li>与 <tooltip term="version-control">版本控制系统</tooltip> 、问题跟踪器、构建管理服务器和其他工具集成。</li>
         <li>为各种 <tooltip term="programming-language">语言</tooltip> 和框架提供编码辅助支持。</li>
         <li>快捷键实时提示、实时预览、文件监视器等等。</li>
         <li>编码练习，帮助您学习新的语言。您可以参阅 <a href="feature-trainer.topic" summary="" /> 以学习 Intellij IDEA 的基础用法。</li>
@@ -128,7 +128,7 @@
                 </tr>
                 <tr>
                     <td><a href="https://plugins.jetbrains.com/plugin/18824-codeglance-pro">CodeGlance Pro</a></td>
-                    <td>在编辑器窗格中显示类似于 Sublime 的缩放比例缩小概述或迷你地图。迷你地图允许快速滚动，让您直接跳转到代码部分。</td>
+                    <td>在编辑器窗格中显示类似于 Sublime 的缩放比例缩小概述或迷您地图。迷您地图允许快速滚动，让您直接跳转到代码部分。</td>
                 </tr>
                 <tr>
                     <td><a href="https://plugins.jetbrains.com/plugin/13710-chinese-simplified-language-pack----">Chinese (Simplified) Language Pack / 中文语言包</a></td>
@@ -164,13 +164,9 @@
                 </tr>
                 <tr>
                     <td><a href="https://plugins.jetbrains.com/plugin/7160-camelcase">CamelCase</a></td>
-                    <td>用于在编辑器中快速实现驼峰式命名（CamelCase）和下划线命名（snake_case）之间的转换。它能大大提高开发效率，确保代码风格的一致性。</td>
+                    <td>用于快速实现驼峰式命名（CamelCase）和下划线命名（snake_case）之间的转换。它能大大提高开发效率，确保代码风格的一致性。</td>
                 </tr>
-                <tr>
-                    <td></td>
-                    <td></td>
-                </tr>
-            </table>
+              </table>
         </procedure>
     </chapter>
     <chapter id="tips" title="生产力提示">

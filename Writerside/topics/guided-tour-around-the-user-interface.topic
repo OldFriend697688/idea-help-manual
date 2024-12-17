@@ -16,7 +16,7 @@
         <li><a anchor="main-menus" summary="IntelliJ IDEA 中的主菜单包含了多个顶级菜单项，每个菜单项下都有相应的子菜单和功能选项，这些菜单提供了对 IDE 的各种功能和设置的访问。" /></li>
         <li><a anchor="main-windows" summary="IntelliJ IDEA 提供了一个非常强大的主窗口，它集成了代码编辑、调试、构建、版本控制以及许多其他功能。"/></li>
     </list>
-    <note>根据 <tooltip term="idea">IDEA</tooltip> 安装的 <a href="install-plugins.topic" summary="插件系统为 Intellij IDEA 赋予了无与伦比的强大拓展能力。">插件</a> 集、版本和配置设置的不同， <tooltip term="ide">IDE</tooltip> 可能会有不同的外观和行为。&nbsp;&nbsp;&nbsp;&nbsp;</note>
+    <note>根据 <tooltip term="idea">IDEA</tooltip> 安装的 <a href="install-plugins.topic" summary="强大的插件生态赋予 IntelliJ IDEA 极高的灵活性和可定制性。">插件</a> 集、版本和配置设置的不同， <tooltip term="ide">IDE</tooltip> 可能会有不同的外观和行为。&nbsp;&nbsp;&nbsp;&nbsp;</note>
     <chapter title="主菜单" id="main-menus">
         <p>通过主菜单，您将可以快速调用 Intellij IDEA 提供的各项常用功能。</p>
         <p>您还可以通过在 <format style="bold">操作</format> （ <shortcut>Ctrl</shortcut><shortcut>Shift</shortcut><shortcut>A</shortcut> ）中键入目标操作名称以实现相同的功能调用。</p>

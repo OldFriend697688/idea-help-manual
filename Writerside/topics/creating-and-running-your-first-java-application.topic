@@ -24,7 +24,7 @@
                 <img alt="为项目命名以及更改默认存储位置" src="为项目命名以及更改默认存储位置.png" width="706" thumbnail="true"/>
             </step>
             <step>
-                本教程不涉及使用 <tooltip term="version-control-system">版本控制系统</tooltip> ，请您不要勾选 <format style="bold">创建 Git 仓库</format> 选项。
+                本教程不涉及使用 <tooltip term="version-control">版本控制系统</tooltip> ，请您不要勾选 <format style="bold">创建 Git 仓库</format> 选项。
                 <img alt="请勿勾选创建 Git 仓库选项" src="请勿勾选创建 Git 仓库选项.png" width="706" thumbnail="true"/>
             </step>
             <step>
@@ -114,7 +114,7 @@
         </procedure>
     </chapter>
     <chapter id="run-app" title="构建并运行应用程序">
-       <p>有效的 <tooltip term="java-class">Java 类</tooltip> 可以编译成 <tooltip term="bytecode">字节码</tooltip> 。您可以使用 <include from="reuse-library.topic" element-id="editor-snippet" /> 中的 <img src="运行.svg" alt=""/> 或间距图标中的运行按钮，直接编译和运行带有 <code>main()</code> 方法的类。</p>
+       <p>有效的 <tooltip term="java-class">Java 类</tooltip> 可以编译成 <tooltip term="java-bytecode">字节码</tooltip> 。您可以使用 <include from="reuse-library.topic" element-id="editor-snippet" /> 中的 <img src="运行.svg" alt=""/> 或间距图标中的运行按钮，直接编译和运行带有 <code>main()</code> 方法的类。</p>
         <img alt="编辑器和工具栏中的运行按钮" src="编辑器和工具栏中的运行按钮.png" width="706" thumbnail="true"/>
         <procedure type="steps">
             <step>

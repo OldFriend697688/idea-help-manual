@@ -48,7 +48,7 @@
             </chapter>
         </chapter>
         <chapter id="bytecode-viewer" title="字节码查看器" default-state="collapsed" collapsible="true">
-            <p>有时候，查看程序生成的 <tooltip term="bytecode">字节码</tooltip> 是很有用的。在 Intellij IDEA 中内置了一个字节码查看器，可以通过 <ui-path><include from="reuse-library.topic" element-id="main-menus-snippet" /> | 视图 | 显示字节码</ui-path> 来调用它。另外请参阅 <a href="decompiler.topic" summary="使用内置的 Java 字节码反编译器可以将编译后的字节码显示为类似于人类可读的 Java 代码。"/>。</p>
+            <p>有时候，查看程序生成的 <tooltip term="java-bytecode">字节码</tooltip> 是很有用的。在 Intellij IDEA 中内置了一个字节码查看器，可以通过 <ui-path><include from="reuse-library.topic" element-id="main-menus-snippet" /> | 视图 | 显示字节码</ui-path> 来调用它。另外请参阅 <a href="decompiler.topic" summary="使用内置的 Java 字节码反编译器可以将编译后的字节码显示为类似于人类可读的 Java 代码。"/>。</p>
             <video src="https://www.youtube.com/watch?v=sYCl-Uxuo1A" width="706"/>
         </chapter>
         <chapter id="compare-with-clipboard" title="与剪贴板比较" default-state="collapsed" collapsible="true">
@@ -143,7 +143,7 @@
             <p>例如：我们可以键入 <code>/editor</code> 并按下 <shortcut>Enter</shortcut> 以此快速打开进行与 <a anchor="editor" summary=""/> 相关的设置。</p>
             <img src="随处搜索-快速访问与编辑器相关的设置.png" alt="快速访问与编辑器相关的设置" width="706" thumbnail="true"/>
             <video src="https://www.youtube.com/watch?v=YZszrS5FfAo" width="706"/>
-            <p>如果使用 <code>/plugins</code> 进行搜索，则可以根据需要快速禁用或启用 <a href="install-plugins.topic" summary="插件系统为 Intellij IDEA 赋予了无与伦比的强大拓展能力。">插件</a>。</p>
+            <p>如果使用 <code>/plugins</code> 进行搜索，则可以根据需要快速禁用或启用 <a href="install-plugins.topic" summary="强大的插件生态赋予 IntelliJ IDEA 极高的灵活性和可定制性。">插件</a>。</p>
             <img src="随处搜索-快速禁用和启用插件.png" alt="快速禁用和启用插件" width="706" thumbnail="true"/>
             <video src="https://www.youtube.com/watch?v=OoNV1rTUFdI" width="706"/>
             <p>其他可用的标签有 <code>/appearance</code> 、<code>/system</code> 、<code>/inspections</code> 、<code>/registry</code> 、<code>/intentions</code> 、<code>/templates></code> 及 <code>/vcs</code> 。另外请注意，随处搜索功能支持缩写。这意味着，可以在 <a href="settings-keymap.topic" /> 的设置对话框中为任意操作分配文本别名。之后，就可以通过分配的文本别名从 <format style="bold">所有</format> 中调用此操作。</p>
@@ -183,7 +183,7 @@
             <video src="https://www.youtube.com/watch?v=pob8-oZMC8A" width="706"/>
         </chapter>
         <chapter id="shelves-and-patches" title="搁置与补丁" default-state="collapsed" collapsible="true">
-            <p><format style="bold">搁置</format> 是一个类似于 <a href="https://git-scm.com/book/zh/v2/Git-工具-贮藏与清理" summary="有时，当你在项目的一部分上已经工作一段时间后，所有东西都进入了混乱的状态， 而这时你想要切换到另一个分支做一点别的事情。 问题是，你不想仅仅因为过会儿回到这一点而为做了一半的工作创建一次提交。 针对这个问题的答案是 git stash 命令。">Git Stash</a> 的 <tooltip term="ide">IDE</tooltip> 功能，但它适用于所有 <tooltip term="version-control-system">版本控制系统</tooltip> 。当需要暂时停滞处理当前遇到的一些棘手问题，但又不想丢失当前已进行的工作进度时此功能将会很有用处， <format style="bold">它能在不提交本地更改的情况下处理已更改的文件，因此再也不会丢失更改或匆忙进行合并提交。</format> 更多信息请参阅 <a href="work-on-several-features-simultaneously.topic" summary="有时需要在不同的任务之间切换，留下未完成的事情，然后再返回去。IntelliJ IDEA 提供了几种方便的方式来处理多个不同的功能而不会丢失工作进度。"/> 。</p>
+            <p><format style="bold">搁置</format> 是一个类似于 <a href="https://git-scm.com/book/zh/v2/Git-工具-贮藏与清理" summary="有时，当您在项目的一部分上已经工作一段时间后，所有东西都进入了混乱的状态， 而这时您想要切换到另一个分支做一点别的事情。 问题是，您不想仅仅因为过会儿回到这一点而为做了一半的工作创建一次提交。 针对这个问题的答案是 git stash 命令。">Git Stash</a> 的 <tooltip term="ide">IDE</tooltip> 功能，但它适用于所有 <tooltip term="version-control">版本控制系统</tooltip> 。当需要暂时停滞处理当前遇到的一些棘手问题，但又不想丢失当前已进行的工作进度时此功能将会很有用处， <format style="bold">它能在不提交本地更改的情况下处理已更改的文件，因此再也不会丢失更改或匆忙进行合并提交。</format> 更多信息请参阅 <a href="work-on-several-features-simultaneously.topic" summary="有时需要在不同的任务之间切换，留下未完成的事情，然后再返回去。IntelliJ IDEA 提供了几种方便的方式来处理多个不同的功能而不会丢失工作进度。"/> 。</p>
             <p><format style="bold">补丁</format> 允许保存对文本文件进行的更改，并将其通过电子邮件（或者是其它更加古老的媒介）传输，然后应用到项目中。当遇到不可靠的网络环境时，此功能将非常有用。更多信息请参阅 <a href="using-patches.topic" summary="可以将本地更改放入一个 .patch 文件中，而不是提交它们，然后可以稍后将其应用到项目中，或者通过电子邮件发送等等。使用补丁是一种方便的机制，可以在不将更改检入版本控制系统（VCS）存储库的情况下共享更改。" />。</p>
         </chapter>
     </chapter>

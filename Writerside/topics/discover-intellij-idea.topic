@@ -30,7 +30,7 @@
         <p>IntelliJ IDEA 被设计为 <tooltip term="jvm">JVM</tooltip> 语言的 <tooltip term="ide">IDE</tooltip> ，但许多 <a href="install-plugins.topic" summary="插件系统赋予了 Intellij IDEA 强大的功能拓展能力。">插件</a> 可以扩展它对其它语言的支持。</p>
         <tabs>
             <tab title="JVM 语言">
-                <p>IntelliJ IDEA 支持下列可编译成 <tooltip term="jvm">JVM</tooltip> <tooltip term="bytecode">字节码</tooltip> 的语言。</p>
+                <p>IntelliJ IDEA 支持下列可编译成 <tooltip term="jvm">JVM</tooltip> <tooltip term="java-bytecode">字节码</tooltip> 的语言。</p>
                 <list>
                     <li><a href="https://www.oracle.com/java/technologies/javase-downloads.html" summary="Java 是一种广泛使用的面向对象的编程语言。JDK（Java Development Kit）是用于开发 Java 应用程序的官方工具包，提供了编译器、运行时环境和其他工具。">Java</a></li>
                     <li><a href="https://kotlinlang.org/" summary="Kotlin 是一种在现代多平台应用的静态类型编程语言，由 JetBrains 开发。它可以在 JVM 上运行，也可以编译成 JavaScript 或原生代码。Kotlin 因其简洁性和强大的特性集而受到开发者的欢迎。">Kotlin</a></li>

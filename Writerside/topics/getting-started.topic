@@ -9,24 +9,24 @@
         <description>完全中文化帮助手册，全面覆盖基础至高级的各方面知识。</description>
 
         <spotlight>
-            <a href="register.topic" type="key" summary="注册 IntelliJ IDEA，告别试用到期后的功能限制。" />
-            <a href="working-offline.topic" type="world" summary="离线模式允许在没有网络的情况下使用 IntelliJ IDEA。" />
+            <a href="register.topic" type="key" summary="注册 IntelliJ IDEA，摆脱试用限制，尽享高效开发。" />
+            <a href="working-offline.topic" type="world" summary="借助离线模式，IntelliJ IDEA 让您随时随地都能高效开发，即使在没有网络的环境中也能保持工作效率。" />
         </spotlight>
 
         <primary>
             <title>快速开始</title>
-            <a href="installation-guide.topic" summary="选择一种适合自己的方式安装 Intellij IDEA。">安装 Intellij IDEA</a>
-            <a href="installation-guide.topic" summary="为 Intellij IDEA 安装简体中文语言包，以降低使用和学习难度。" anchor="simplified-chinese-language" />
-            <a href="user-interface-themes.topic" summary="安装符合个人审美标准的主题，告别乏味枯燥的单色背景。">主题</a>
-            <a href="guided-tour-around-the-user-interface.topic" summary="了解 Intellij IDEA 用户界面的主要构成部分。"/>
-            <a href="setting-background-image.topic" summary="为 Intellij IDEA 设置个人喜好的背景图片，让开发环境更具个性化。"/>
+            <a href="installation-guide.topic" summary="根据您的需求和操作系统，选择合适的 IntelliJ IDEA 安装方式。">安装 Intellij IDEA</a>
+            <a href="installation-guide.topic" summary="为 IntelliJ IDEA 安装简体中文语言包，改善用户体验，降低学习门槛。" anchor="simplified-chinese-language" />
+            <a href="user-interface-themes.topic" summary="安装个性化主题，告别单调的界面，打造专属的视觉体验。">主题</a>
+            <a href="guided-tour-around-the-user-interface.topic" summary="掌握 IntelliJ IDEA 用户界面的主要构成，提高开发效率。"/>
+            <a href="setting-background-image.topic" summary="用个性背景图美化你的 IntelliJ IDEA。"/>
         </primary>
 
         <secondary>
             <title>高级知识</title>
-            <a href="debugging-code.topic" summary="探索如何调试代码，解决程序可能存在的异常漏洞。">调试应用程序</a>
-            <a href="install-plugins.topic" summary="插件系统为 Intellij IDEA 赋予了无与伦比的强大拓展能力。">插件系统</a>
-            <a href="tests-in-ide.topic" summary="测试应用程序，检测程序是否按照预期的方式运行。">测试应用程序</a>
+            <a href="debugging-code.topic" summary="掌握代码调试技巧，高效解决程序中的异常和漏洞。">调试应用程序</a>
+            <a href="install-plugins.topic" summary="强大的插件生态赋予 IntelliJ IDEA 极高的灵活性和可定制性。">插件系统</a>
+            <a href="tests-in-ide.topic" summary="测试应用程序，旨在发现并解决潜在问题，确保其按照设计规格执行。">测试应用程序</a>
             <a href="decompiler.topic" summary="使用 Java 字节码反编译器查看字节码文件的内容。">字节码反编译器</a>
         </secondary>
 

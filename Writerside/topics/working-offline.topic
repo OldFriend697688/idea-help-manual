@@ -34,7 +34,7 @@
         <p>下载并配置好文档后，将鼠标悬停在编辑器中必要的 <tooltip term="symbol">符号</tooltip> 上，然后按 <shortcut>Ctrl</shortcut><shortcut>Q</shortcut> 即可触发离线文档。</p>
     </chapter>
     <chapter id="vcs" title="版本控制系统">
-        <p>您的源代码很可能处于某种 <tooltip term="version-control-system">版本控制系统（VCS）</tooltip> 之下。如果远程仓库不在本地网络中，也没有互联网接入，IntelliJ IDEA 将无法与 VCS 通信。例如，如果您使用的是 <a href="https://git-scm.com/?hl=zh-cn">Git</a> ，您可以提交您的更改，但无法将其推送到远程版本库或从中提取更新。有关 VCS 集成的更多信息，请参阅 <a href="version-control-integration.topic" summary="" /> 。</p>
+        <p>您的源代码很可能处于某种 <tooltip term="version-control">版本控制系统（VCS）</tooltip> 之下。如果远程仓库不在本地网络中，也没有互联网接入，IntelliJ IDEA 将无法与 VCS 通信。例如，如果您使用的是 <a href="https://git-scm.com/?hl=zh-cn">Git</a> ，您可以提交您的更改，但无法将其推送到远程版本库或从中提取更新。有关 VCS 集成的更多信息，请参阅 <a href="version-control-integration.topic" summary="" /> 。</p>
     </chapter>
     <chapter title="任务和问题跟踪器" id="tasks">
         <p>您可以设置与问题跟踪器的连接，以便直接从 IntelliJ IDEA 处理分配给您的任务和错误。例如，您可以连接到 <a href="http://www.jetbrains.com/youtrack/">YouTrack</a> 、 <a href="http://www.atlassian.com/software/jira/">Jira</a> 、 <a href="http://github.com/">GitHub</a> 等。</p>

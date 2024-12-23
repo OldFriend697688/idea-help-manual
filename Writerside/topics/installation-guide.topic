@@ -53,7 +53,7 @@
                     <video src="https://www.youtube.com/watch?v=kRU2ypcvTfk" width="706"/>
                     <note>要运行 IntelliJ IDEA，请在 Windows <format style="bold">开始</format> 菜单中找到它，或者使用桌面快捷方式。也可以在安装目录下的 <format style="bold">bin</format> 文件夹中运行启动器批处理脚本或可执行文件。</note>
                 </procedure>
-                <include from="reuse-library.topic" element-id="standalone-tips" />
+                <include from="reuse-library.topic" element-id="standalone-tips-snippet" />
             </tab>
             <tab title="Windows（ZIP）">
                 <procedure>
@@ -67,7 +67,7 @@
                         <video src="https://www.youtube.com/watch?v=Sske1dRifNY" width="706"/>
                     </step>
                 </procedure>
-                <include from="reuse-library.topic" element-id="standalone-tips" />
+                <include from="reuse-library.topic" element-id="standalone-tips-snippet" />
             </tab>
             <tab title="Linux">
                 <procedure>
@@ -88,7 +88,7 @@
                     <li>在欢迎界面上，单击 <ui-path>配置 | 创建桌面快捷方式</ui-path>。</li>
                     <li>在<include from="reuse-library.topic" element-id="main-menus-snippet" /> 中单击 <ui-path>工具 | 创建桌面快捷方式</ui-path>。</li>
                 </list>
-                <include from="reuse-library.topic" element-id="standalone-tips" />
+                <include from="reuse-library.topic" element-id="standalone-tips-snippet" />
             </tab>
             <tab title="macOS">
                 <procedure>
@@ -100,7 +100,7 @@
                     <step>将镜像文件挂载并拖动到 <format style="bold">应用程序（Applications）</format> 文件夹。</step>
                     <step>从 <format style="bold">应用程序（Applications）</format> 文件夹、Launchpad 或 Spotlight 启动 IntelliJ IDEA 应用。</step>
                 </procedure>
-                <include from="reuse-library.topic" element-id="standalone-tips" />
+                <include from="reuse-library.topic" element-id="standalone-tips-snippet" />
             </tab>
         </tabs>
     </chapter>
@@ -120,7 +120,7 @@
                         <p>如果要安装特定版本，请单击 <img src="toolbox app 更多按钮.svg" alt="toolbox app 更多按钮"/> ，然后选择可用版本。</p>
                     </step>
                     <video src="https://www.youtube.com/watch?v=gSahote9lnY" width="706"/>
-                    <include from="reuse-library.topic" element-id="toolbox-login-tips" />
+                    <include from="reuse-library.topic" element-id="toolbox-login-tips-snippet" />
                     <warning>因软件更新迭代较快，现 Toolbox App 已不支持下载 Intellij IDEA 2022.3.3 版本。&nbsp;&nbsp;</warning>
                     <video src="https://www.youtube.com/watch?v=jNRMf4Bltco" width="706"/>
                     <note>如果临时改变注意不想继续使用 Toolbox App，请参考如下视频卸载 Toolbox App。</note>
@@ -143,7 +143,7 @@
                         <p>选择想安装的产品。</p>
                         <p>如果要安装特定版本，请单击 <img src="toolbox app 更多按钮.svg" alt="toolbox app 更多按钮"/> ，然后选择可用版本。</p>
                     </step>
-                    <include from="reuse-library.topic" element-id="toolbox-login-tips" />
+                    <include from="reuse-library.topic" element-id="toolbox-login-tips-snippet" />
                 </procedure>
             </tab>
             <tab title="macOS">
@@ -157,7 +157,7 @@
                         <p>运行 Toolbox App，单击主菜单中的图标，选择要安装的产品。</p>
                         <p>如果要安装特定版本，请单击 <img src="toolbox app 更多按钮.svg" alt="toolbox app 更多按钮"/> ，然后选择可用版本。</p>
                     </step>
-                    <include from="reuse-library.topic" element-id="toolbox-login-tips" />
+                    <include from="reuse-library.topic" element-id="toolbox-login-tips-snippet" />
                 </procedure>
             </tab>
         </tabs>

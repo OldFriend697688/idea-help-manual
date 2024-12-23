@@ -20,6 +20,7 @@
             <a href="user-interface-themes.topic" summary="安装个性化主题，告别单调的界面，打造专属的视觉体验。">主题</a>
             <a href="guided-tour-around-the-user-interface.topic" summary="掌握 IntelliJ IDEA 用户界面的主要构成，提高开发效率。"/>
             <a href="setting-background-image.topic" summary="用个性背景图美化你的 IntelliJ IDEA。"/>
+            <a href="tool-window.topic" summary="工具窗口为您提供了一个直观且便捷的界面，让您可以轻松地浏览项目结构、运行调试应用程序、进行代码分析，以及与各种外部工具进行交互，从而大大提高您的开发效率。"/>
         </primary>
 
         <secondary>
@@ -34,44 +35,44 @@
             <links narrow="true">
                 <group>
                     <title>编程语言</title>
-                    <a href="https://www.cprogramming.com/" summary="C 是一种高级编程语言，最初由贝尔实验室开发，用于 UNIX 操作系统。">C</a>
-                    <a href="https://www.cplusplus.com/" summary="C++ 是一种通用编程语言，以其高性能和控制硬件的能力而受到广泛应用。">C++</a>
-                    <a href="https://www.oracle.com/java/technologies/javase-downloads.html" summary="Java 是由 Oracle 提供的面向对象编程语言，广泛用于开发企业级应用、移动应用、嵌入式系统等。">Java</a>
-                    <a href="https://www.scala-lang.org/" summary="Scala 是一种多范式的编程语言，运行在 JVM 上，结合了面向对象和函数式编程的特点。">Scala</a>
-                    <a href="https://kotlinlang.org/" summary="Kotlin 是由 JetBrains 团队开发的一种静态类型编程语言，运行在 JVM 上，也可以编译成 JavaScript 或原生代码。">Kotlin</a>
-                    <a href="https://www.python.org/" summary="Python 是一种高级编程语言，以其可读性强和简洁清晰的语法而闻名，适用于各种编程任务。">Python</a>
-                    <a href="https://groovy-lang.org/" summary="Groovy 是一种动态、表达式丰富的编程语言，设计用于简化 Java 代码的编写。">Groovy</a>
+                    <a href="https://www.cprogramming.com/" summary="C 是一种通用、过程式的编程语言，以其高效性和灵活性而闻名。它在系统编程、嵌入式系统、游戏开发等领域有着广泛的应用。C 的语法相对简洁，但功能强大，为很多高级语言奠定了基础。">C</a>
+                    <a href="https://www.cplusplus.com/" summary="C++ 是一种功能强大且灵活的编程语言，被广泛应用于各种软件开发领域。它可以看作是 C 语言的扩展，在 C 语言的基础上增加了面向对象编程等特性。C++ 兼具了高级语言和低级语言的特点，既能像高级语言一样方便地进行抽象和封装，又能像低级语言一样直接操作硬件，因此被认为是一种中级语言。">C++</a>
+                    <a href="https://www.oracle.com/java/technologies/javase-downloads.html" summary="Java 是一门功能强大、应用广泛的编程语言。它的面向对象特性、平台无关性以及丰富的生态系统，使其成为了众多开发者的首选。">Java</a>
+                    <a href="https://www.scala-lang.org/" summary="Scala 是一门多范式的编程语言，它结合了面向对象编程和函数式编程的特性。Scala 运行在 Java 虚拟机（JVM）上，并兼容现有的 Java 程序。Scala 的设计初衷是要集成面向对象编程和函数式编程的各种特性，以提供一种更简洁、更表达能力更强的编程方式。">Scala</a>
+                    <a href="https://kotlinlang.org/" summary="Kotlin 是一种在 Java 虚拟机上运行的静态类型编程语言，由 JetBrains 公司开发。它旨在结合面向对象和函数式编程的优势，同时提供更安全、更简洁的代码。Kotlin 与 Java 具有良好的互操作性，可以无缝地与 Java 代码集成。">Kotlin</a>
+                    <a href="https://www.python.org/" summary="Python 是一种广泛使用的解释型、高级编程语言。它的设计哲学强调代码的可读性和简洁的语法，使用空格缩进划分代码块，而非使用大括号或者关键词。Python 具有强大的标准库，涵盖了网络通信、文本处理、数据库接口、图形用户界面等多个方面，同时拥有丰富的第三方库，使得 Python 成为一门功能强大且易于学习的语言。">Python</a>
+                    <a href="https://groovy-lang.org/" summary="Groovy 是一种基于 Java 平台的面向对象编程语言，它结合了 Python、Ruby 和 Smalltalk 等语言的优秀特性，同时保持了与 Java 的高度兼容性。Groovy 代码会被编译成 Java 字节码，因此可以直接运行在 Java 虚拟机（JVM）上。">Groovy</a>
                 </group>
                 <group>
                     <title>版本控制系统（VCS）</title>
-                    <a href="https://git-scm.com/" summary="Git 是一个开源的分布式版本控制系统，由 Linus Torvalds 创建，用于管理软件开发过程中的代码变更。">Git</a>
-                    <a href="https://subversion.apache.org/" summary="Apache Subversion（SVN）是一个开放源代码的版本控制系统，用于管理文件的变化历史。">SVN</a>
-                    <a href="https://gitee.com/" summary="GitEE（码云）是一个面向中国的 Git 代码托管平台，提供代码托管、项目管理、团队协作等功能，支持 Git 和 SVN 两种版本控制。">GitEE</a>
-                    <a href="https://gitlab.com/" summary="GitLab 是一个开源的基于 Git 的软件开发生命周期管理工具，它提供了代码托管、版本控制、项目管理等功能。">GitLab</a>
-                    <a href="https://github.com/" summary="GitHub 是一个基于 Git 的代码托管平台，提供分布式版本控制和源代码管理（SCM）功能，同时增加了自己的特性。">GitHub</a>
+                    <a href="https://git-scm.com/" summary="Git 是一种分布式版本控制系统，用于跟踪文件随时间的变化。它最初是为 Linux 内核开发而设计的，但现在已被广泛应用于各种软件开发项目。与传统的集中式版本控制系统（如 SVN）不同，Git 在本地存储库中保存了完整的项目历史，这使得它在速度、灵活性和离线工作方面具有显著优势。">Git</a>
+                    <a href="https://subversion.apache.org/" summary="SVN，全称 Subversion，是一个开源的版本控制系统。它可以帮助我们管理文件和目录随时间变化的所有修改，这样就可以回溯文件的历史，谁修改过什么，什么时候修改，修改了什么内容，这些都一目了然。SVN 特别适合多人协同开发项目，可以有效地管理代码，减少冲突，提高开发效率。">SVN</a>
+                    <a href="https://gitee.com/" summary="GitEE （码云）是开源中国社区于 2013 年推出的基于 Git 的代码托管服务，目前已经成为国内知名的代码托管平台，致力于为国内开发者提供优质稳定的托管服务。">GitEE</a>
+                    <a href="https://gitlab.com/" summary="GitLab 是一个用于仓库管理系统的开源项目，使用 Git 作为代码管理工具，并在此基础上搭建起来的 Web 服务">GitLab</a>
+                    <a href="https://github.com/" summary="GitHub 是一个基于 Web 的平台，它使用分布式版本控制系统 Git 来促进版本控制和协作软件开发。它允许开发者托管他们的代码存储库、跟踪更改并与其他人合作完成项目。">GitHub</a>
                 </group>
                 <group>
                     <title>集成开发环境（IDE）</title>
-                    <a href="https://www.jetbrains.com/zh-cn/fleet/" summary="JetBrains Fleet 是一款轻量级的代码编辑器和集成开发环境（IDE），由 IntelliJ 的代码处理引擎构建而成。它目前处于公开预览版阶段，支持多种流行编程语言，包括 Python、TypeScript/JavaScript、Go、Java、PHP、C# 以及 Kotlin。">Fleet</a>
-                    <a href="https://www.eclipse.org/" summary="Eclipse 是一个流行的开放源代码集成开发环境（IDE），用于支持多种编程语言和框架，由 Eclipse Foundation 维护。">Eclipse</a>
-                    <a href="https://www.myeclipse.org/" summary="MyEclipse 是一个增强的 Eclipse IDE，提供了对 Java、Java EE、Web 和 XML 开发的支持，包括一些开箱即用的企业级功能。">MyEclipse</a>
-                    <a href="https://code.visualstudio.com/" summary="Visual Studio Code（VSCode）是一个轻量级但功能强大的源代码编辑器，由 Microsoft 开发，支持多种编程语言的语法高亮、代码补全、版本控制等特性。">Visual Studio Code</a>
-                    <a href="https://spring.io/tools/sts" summary="Spring Tool Suite (STS) 是一个基于 Eclipse 的 IDE，专为 Spring 开发而设计，提供了对 Spring 应用的快速开发和支持。">Spring Tool Suite (STS)</a>
+                    <a href="https://www.jetbrains.com/zh-cn/fleet/" summary="JetBrains Fleet 是一款由 JetBrains 公司推出的新型 IDE (集成开发环境) 和 轻量级代码编辑器。它结合了传统 IDE 的强大功能与轻量级编辑器的快速启动和流畅体验。">Fleet</a>
+                    <a href="https://www.eclipse.org/" summary="Eclipse 是一款跨平台开源集成开发环境（IDE）。它最初主要用于 Java 语言开发，但现在通过插件可以支持 C++、Python、PHP 等多种编程语言。">Eclipse</a>
+                    <a href="https://www.myeclipse.org/" summary="MyEclipse 是一个功能强大的 Java EE 集成开发环境（IDE），基于 Eclipse 平台构建。它在 Eclipse 的基础上集成了众多 Java EE 开发所需的工具和插件，大大提高了开发效率。">MyEclipse</a>
+                    <a href="https://code.visualstudio.com/" summary="Visual Studio Code，简称 VS Code，是一款由微软开发且跨平台的免费 源代码编辑器。它支持语法高亮、代码自动补全、代码重构功能，并且内置了命令行工具和 Git 版本控制系统。">Visual Studio Code</a>
+                    <a href="https://spring.io/tools/sts" summary="Spring Tool Suite (STS) 是一款功能强大的 Java 集成开发环境（IDE），专门为开发基于 Spring 框架的企业级应用程序而设计。它基于 Eclipse 平台构建，并集成了众多 Spring 开发所需的工具和插件，大大提高了 Spring 应用程序的开发效率。">Spring Tool Suite (STS)</a>
                 </group>
                 <group>
                     <title>自动化构建工具</title>
-                    <a href="https://maven.apache.org/" summary="Apache Maven 是一个自动化构建工具，主要用于管理 Java 项目的构建、报告和文档。它使用项目对象模型（POM）来描述项目的基本信息和项目依赖。">Maven</a>
-                    <a href="https://gradle.org/" summary="Gradle 是一个基于 Ant 和 Maven 概念的构建工具，它提供了更多的灵活性和高效性，支持增量构建和多种编程语言。">Gradle</a>
+                    <a href="https://maven.apache.org/" summary="Apache Maven 是一个 Java 项目管理和构建工具，被广泛应用于 Java 项目的构建、依赖管理和部署。它基于 Project Object Model (POM) 的概念，通过一个 pom.xml 文件来管理项目的整个生命周期。">Maven</a>
+                    <a href="https://gradle.org/" summary="Gradle 是一个基于 Apache Ant 和 Apache Maven 概念的项目自动化构建工具。它使用一种基于 Groovy 的特定领域语言（Domain Specific Language, DSL）来描述构建脚本，相较于传统的 XML 配置文件，Groovy DSL 更加灵活和易于阅读。">Gradle</a>
                 </group>
                 <group>
                     <title>开发框架</title>
-                    <a href="https://spring.io/" summary="Spring 是一个开源的企业级 Java 应用程序框架，它最初关注于简化企业级应用开发，现在广泛用于各种规模的应用程序。">Spring</a>
-                    <a href="https://mybatis.org/mybatis-3/zh/index.html" summary="MyBatis 是一个优秀的持久层框架，它支持定制化 SQL、存储过程以及高级映射。MyBatis 避免了几乎所有的 JDBC 代码和手动设置参数以及获取结果集。">MyBatis</a>
-                    <a href="https://hibernate.org/" summary="Hibernate 是一个对象关系映射（ORM）框架，它对 JDBC 进行了抽象，使得数据库的操作更加简单，并且可以自动映射 Java 对象到数据库表。">Hibernate</a>
-                    <a href="https://spring.io/guides/gs/serving-web-content/" summary="Spring MVC 是 Spring 框架的一部分，提供了一个全功能的 MVC 实现，用于构建 Web 应用程序。">Spring MVC</a>
-                    <a href="https://spring.io/projects/spring-boot" summary="Spring Boot 旨在简化新 Spring 应用程序的初始搭建以及开发过程，它使用了 '约定优于配置' 的原则，减少了项目的配置。">Spring Boot</a>
-                    <a href="https://mp.baomidou.com/" summary="MyBatis Plus（简称 MP）是一个 MyBatis 的增强工具，在 MyBatis 的基础上只做增强不做改变，为简化开发、提高效率而生。">MyBatis Plus</a>
-                    <a href="https://spring.io/projects/spring-cloud" summary="Spring Cloud 是一系列框架的集合，用于构建在分布式系统（如配置管理、服务发现、断路器等）中的应用程序。">Spring Cloud</a>
+                    <a href="https://spring.io/" summary="Spring 是一个开源的轻量级 Java 开发框架，旨在简化企业级应用的开发。它提供了控制反转（Inversion of Control, IoC）和面向切面编程（Aspect Oriented Programming, AOP）等核心功能，使得开发者可以更加专注于业务逻辑的实现，而不需要关注底层的实现细节。">Spring</a>
+                    <a href="https://mybatis.org/mybatis-3/zh/index.html" summary="MyBatis 是一款优秀的 Java 持久层框架，它支持自定义 SQL、存储过程以及高级映射。MyBatis 使得 Java 开发人员能够更加方便地与数据库进行交互，从而对数据库进行操作。">MyBatis</a>
+                    <a href="https://hibernate.org/" summary="Hibernate 是一种流行的 Java 持久层框架，用于将 Java 对象映射到关系型数据库。它简化了对象关系映射（Object-Relational Mapping, ORM）的过程，使得开发者可以更加专注于业务逻辑，而无需过多地关注底层 SQL 语句。">Hibernate</a>
+                    <a href="https://spring.io/guides/gs/serving-web-content/" summary="Spring MVCSpring MVC 是 Spring 框架的一个核心模块，专门为构建 Web 应用程序而设计。它提供了一种 MVC（模型-视图-控制器）的架构模式，将 Web 应用程序的各个组件进行解耦，使得开发、测试和维护更加方便。">Spring MVC</a>
+                    <a href="https://spring.io/projects/spring-boot" summary="Spring Boot 是一款基于 Spring 框架的开源应用程序开发工具，它旨在简化 Spring 应用程序的配置和开发过程。Spring Boot 提供了一种简单的方式来创建可独立运行的、生产级别的应用程序，并在需要时进行部署。">Spring Boot</a>
+                    <a href="https://mp.baomidou.com/" summary="MyBatis Plus （简称 MP）是一个 MyBatis 的增强工具，在 MyBatis 的基础上只做增强不做改变，为简化开发、提高效率而生。我们的愿景是成为 MyBatis 最好的搭档，就像魂斗罗中的 1P、2P，基友搭配，效率翻倍。">MyBatis Plus</a>
+                    <a href="https://spring.io/projects/spring-cloud" summary="Spring Cloud 是一个基于 Spring Boot 实现的云原生应用开发平台，它为开发者提供了快速构建分布式系统的一些工具，使用 Spring Boot 的开发风格，巧妙地简化了分布式系统基础设施的开发">Spring Cloud</a>
                 </group>
             </links>
         </misc>

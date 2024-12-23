@@ -13,7 +13,7 @@
         <warning>如果无法访问互联网，就无法使用 <a href="installation-guide.topic" anchor="toolbox">Toolbox App</a> 和 <a href="installation-guide.topic" anchor="snap">Snaps</a> 安装 IntelliJ IDEA。&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;</warning>
     </chapter>
     <chapter id="plugins" title="插件">
-        <include from="reuse-library.topic" element-id="plugins-install-tips" />
+        <include from="reuse-library.topic" element-id="plugins-install-tips-snippet" />
         <p>通常，插件是从 <a href="https://plugins.jetbrains.com/">JetBrains 插件库</a> 中下载并进行安装的。不过，您可以在本地网络中设置一个 <a href="install-plugins.topic" anchor="repos" /> ，并配置 IntelliJ IDEA 使用它来安装和更新插件。您还可以 <a href="install-plugins.topic" anchor="install-plugin-from-disk" /> 。</p>
         <img src="Intellij IDEA 欢迎界面中的插件选项.png" alt="Intellij IDEA 欢迎界面中的插件选项" width="706" thumbnail="true"/>
     </chapter>
@@ -43,14 +43,14 @@
     <chapter id="maven" title="Maven 依赖">
         <p>默认情况下， <tooltip term="maven">Maven</tooltip> 会连接到远程仓库源，并在每次启动时检查更新。解决 <a href="https://maven.apache.org/">Maven</a> 依赖性问题可能需要下载新的工件。如果希望 Maven 只使用本地可用的资源，可以切换到离线模式。</p>
         <procedure id="maven-offline-mode" title="切换 Maven 到离线模式">
-            <step>在 <format style="bold">Maven</format> 工具窗口中，单击 <img src="Maven 离线模式.svg" alt=""/> 按钮。</step>
+            <step>在 <include from="reuse-library.topic" element-id="maven-tool-windows-snippet" /> 中，单击 <img src="Maven 离线模式.svg" alt=""/> 按钮。</step>
             <p>这将在 IntelliJ IDEA 运行的所有 Maven 命令中附加 <code>--offline</code> 选项。同时，它还会报告任何无法在本地版本库中找到的 <tooltip term="library">库</tooltip> 。</p>
         </procedure>
     </chapter>
     <chapter id="gradle" title="Gradle 依赖">
         <p>默认情况下， <tooltip term="gradle">Gradle</tooltip> 会连接到远程仓库源，并在每次启动时检查更新。解决 <a href="https://gradle.org/">Gradle</a> 依赖性问题可能需要下载新的工件。如果希望 Gradle 只使用本地可用的资源，可以切换到离线模式。</p>
         <procedure id="gradle-offline-mode" title="切换 Maven 到离线模式">
-            <step>在 <format style="bold">Gradle</format> 工具窗口中，单击 <img src="Maven 离线模式.svg" alt=""/> 按钮。</step>
+            <step>在 <include from="reuse-library.topic" element-id="gradle-tool-windows-snippet" />中，单击 <img src="Maven 离线模式.svg" alt=""/> 按钮。</step>
             <p>这将在 IntelliJ IDEA 运行的所有 Gradle 命令中附加 <code>--offline</code> 选项。同时，它还会报告任何无法在本地版本库中找到的 <tooltip term="library">库</tooltip> 。</p>
         </procedure>
     </chapter>

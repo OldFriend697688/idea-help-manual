@@ -76,7 +76,7 @@
             <video src="https://www.youtube.com/watch?v=tvl0uP_6M2I" width="706"/>
         </chapter>
         <chapter id="hippie-completion" title="嬉皮补全" default-state="collapsed" collapsible="true">
-            <include from="reuse-library.topic" element-id="invalid-shortcut-key-prompt" />
+            <include from="reuse-library.topic" element-id="invalid-shortcut-key-prompt-snippet" />
             <p>Intellij IDEA 通过 <shortcut>Ctrl</shortcut><shortcut>Space</shortcut> 提供基本补全，通过 <shortcut>Ctrl</shortcut><shortcut>Shift</shortcut><shortcut>Space</shortcut> 提供智能类型匹配补全，通过 <shortcut>Ctrl</shortcut><shortcut>Shift</shortcut><shortcut>Enter</shortcut> 提供语句补全。所有这些补全功能都是基于对代码结构的分析理解而来。</p>
             <p>但是，有些时候可能需要一种更加琐碎但灵活的逻辑来建议选择当前文件中较早使用过的单词。此功能称之为 <format style="bold">嬉皮补全</format> ，可以通过 <shortcut>Atl</shortcut><shortcut>/</shortcut> 来使用它。</p>
             <video src="https://www.youtube.com/watch?v=h_TzczqiiAs" width="706"/>
@@ -116,7 +116,7 @@
         <chapter id="dependency-structure-matrix" title="依赖关系矩阵" default-state="collapsed" collapsible="true">
             <p>Intellij IDEA 可以分析代码中的组件相互依赖的紧密程度，开发者应该密切关注这一点，当依赖关系过多时，可能会导致各种问题。依赖关系矩阵功能将可以帮助开发者 <tooltip term="visualization">可视化</tooltip> 的探索 <tooltip term="idea-module">模块</tooltip>、<tooltip term="java-package">包</tooltip> 和 <tooltip term="java-class">类</tooltip> 之间的依赖关系。有关于此功能的更多细节和详细使用步骤请阅读 <a href="dsm-analysis.topic"/>。</p>
             <img src="DSM 工具界面.png" alt="DSM 工具界面" width="706" thumbnail="true"/>
-            <note>DSM 工具窗口将会以特殊方式对依赖关系进行排序处理，它始终将最常用的类移至底部。</note>
+            <note><include from="reuse-library.topic" element-id="dsm-tool-window-snippet" /> 将会以特殊方式对依赖关系进行排序处理，它始终将最常用的类移至底部。</note>
             <warning>
                 <p>要使用依赖关系矩阵分析功能，需确保已启用 Dependency Structure Matrix 插件。</p>
                 <p>该插件通常随 IntelliJ IDEA 一同安装并默认启用。若不慎禁用了该插件，可通过以下步骤重新启用：按下 <shortcut>Ctrl</shortcut><shortcut>Alt</shortcut><shortcut>S</shortcut> 打开 <ui-path>设置</ui-path> ，单击 <ui-path>插件</ui-path> 选项，继而切换到 <ui-path>已安装</ui-path> 选项卡。在搜索框内键入 <format style="bold">Dependency Structure Matrix</format> ，待结果出现后，找到该插件并单击 <ui-path>启用</ui-path> 按钮即可。</p>
@@ -156,7 +156,7 @@
             <video src="https://www.youtube.com/watch?v=uPkz72Nq5II" width="706"/>
         </chapter>
         <chapter id="open-file-in-new-window" title="在新窗口中打开文件" default-state="collapsed" collapsible="true">
-            <p>您可以通过在 <a href="project-tool-window.topic" /> 中选择文件并按下 <shortcut>Shift</shortcut><shortcut>Enter</shortcut> 在新窗口中打开文件。</p>
+            <p>您可以通过在 <include from="reuse-library.topic" element-id="project-tool-window-snippet" /> 中选择文件并按下 <shortcut>Shift</shortcut><shortcut>Enter</shortcut> 在新窗口中打开文件。</p>
             <video src="https://www.youtube.com/watch?v=NytCCZs4X9M" width="706"/>
         </chapter>
         <chapter id="disable-unnecessary-gutter-icons" title="禁用非必要的间距图标" default-state="collapsed" collapsible="true">
@@ -170,7 +170,7 @@
             <video src="https://www.youtube.com/watch?v=pYFxhBCyaIw" width="706"/>
         </chapter>
         <chapter id="add-stop-and-resume-buttons" title="在工具栏中添加停止和恢复按钮" default-state="collapsed" collapsible="true">
-            <p>将停止 <img src="停止.svg" alt=""/> 和恢复 <img src="恢复.svg" alt=""/> 按钮添加到 <include from="reuse-library.topic" element-id="toolbar-snippet" /> 中可能会更方便。您可以通过在 <ui-path>设置（ <shortcut>Ctrl</shortcut><shortcut>Alt</shortcut><shortcut>S</shortcut> ）| 外观和行为 | 菜单与工具栏</ui-path> 中进行配置实现。例如：进行此配置后将无需打开调试工具窗口即可管理当前的调试会话。</p>
+            <p>将停止 <img src="停止.svg" alt=""/> 和恢复 <img src="恢复.svg" alt=""/> 按钮添加到 <include from="reuse-library.topic" element-id="toolbar-snippet" /> 中可能会更方便。您可以通过在 <ui-path>设置（ <shortcut>Ctrl</shortcut><shortcut>Alt</shortcut><shortcut>S</shortcut> ）| 外观和行为 | 菜单与工具栏</ui-path> 中进行配置实现。例如：进行此配置后将无需打开 <include from="reuse-library.topic" element-id="debug-tool-window-snippet" /> 即可管理当前的调试会话。</p>
             <video src="https://www.youtube.com/watch?v=x6eBG0lybQg" width="706"/>
         </chapter>
     </chapter>
@@ -248,8 +248,8 @@
         <category ref="associated-websites">
             <a href="https://regexr-cn.com/" summary="集学习、构建和测试于一体的在线工具，支持 JavaScript 和 PHP / PCRE 正则表达式。">RegExr</a>
             <a href="https://goregex.cn/" summary="提供正则表达式的在线测试、生成和解析工具。">GoRegex</a>
-            <a href="https://regex101.com/" summary="个功能强大的正则表达式测试网站，支持多种编程语言的正则表达式语法，并提供详细的匹配信息。">Regex101</a>
-            <a href="https://git-scm.com/book/zh/v2/起步-关于版本控制" summary="全中文化的 Git 使用手册">Git 中文使用手册</a>
+            <a href="https://regex101.com/" summary="一个功能强大的正则表达式测试网站，支持多种编程语言的正则表达式语法，并提供详细的匹配信息。">Regex101</a>
+            <a href="https://git-scm.com/book/zh/v2/起步-关于版本控制" summary="全中文化的 Git 使用手册">Git 中文使用手册。</a>
         </category>
         <include from="reuse-library.topic" element-id="programming-language-snippet" />
         <include from="reuse-library.topic" element-id="ides-snippet" />

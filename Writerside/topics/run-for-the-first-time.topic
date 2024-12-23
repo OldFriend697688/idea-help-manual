@@ -16,11 +16,11 @@
         </tab>
         <tab title="macOS">
             <p>从 <format style="bold">应用程序（Applications）</format> 目录、Launchpad 或 Spotlight 启动 IntelliJ IDEA 应用程序。</p>
-            <include from="reuse-library.topic" element-id="standalone-installation-and-running-tips" />
+            <include from="reuse-library.topic" element-id="standalone-installation-and-running-tips-snippet" />
         </tab>
         <tab title="Linux">
             <p>运行安装目录 <format style="bold">bin</format> 下的 <format style="bold">idea.sh</format> <tooltip term="shell-script">shell 脚本</tooltip> 。如果在安装过程中创建了桌面快捷方式，也可使用它。</p>
-            <include from="reuse-library.topic" element-id="standalone-installation-and-running-tips" />
+            <include from="reuse-library.topic" element-id="standalone-installation-and-running-tips-snippet" />
         </tab>
     </tabs>
     <chapter id="select-ui-theme" title="自定义 IDE 外观">

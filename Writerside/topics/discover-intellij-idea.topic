@@ -26,7 +26,7 @@
     </chapter>
     <chapter id="supported-programming-languages" title="支持的语言">
         <note>可以通过浏览 <a href="https://plugins.jetbrains.com/marketplace">JetBrains 插件库</a> 查找官方插件，这些插件可为当今使用的几乎所有 <tooltip term="programming-language">语言</tooltip> 、框架或技术提供支持，也可以查找第三方插件。有关如何在 IntelliJ IDEA 中管理插件的详细信息，请参阅 <a href="install-plugins.topic" summary="安装插件以拓展 Intellij IDEA 的功能。"/> 。</note>
-        <p>现代应用程序的开发涉及使用多种语言、工具、框架和技术。</p>
+        <p>现代应用程序的开发涉及同时使用多种语言、工具、框架和技术。</p>
         <p>IntelliJ IDEA 被设计为 <tooltip term="jvm">JVM</tooltip> 语言的 <tooltip term="ide">IDE</tooltip> ，但许多 <a href="install-plugins.topic" summary="插件系统赋予了 Intellij IDEA 强大的功能拓展能力。">插件</a> 可以扩展它对其它语言的支持。</p>
         <tabs>
             <tab title="JVM 语言">
@@ -41,12 +41,12 @@
             <tab title="非 JVM 语言">
                 <p>与 Intellij IDEA 捆绑且开箱即用的插件提供了对以下语言的支持。</p>
                 <list>
-                    <li><a href="https://www.python.org/" summary="Python 是一种广泛使用的高级编程语言，以其简洁明了的语法和强大的库支持而著称。">Python</a> （完整的 <a href="https://www.jetbrains.com.cn/pycharm/">PyCharm</a> 功能）</li>
-                    <li><a href="https://www.ruby-lang.org/en/" summary="Ruby 是一种动态的、开源的编程语言，注重简洁和效率，广泛用于 Web 开发。">Ruby</a> （完整的 <a href="https://www.jetbrains.com.cn/ruby/">RubyMine</a> 功能）</li>
-                    <li><a href="https://www.php.net/" summary="PHP 是一种流行的通用开源脚本语言，特别适用于 Web 开发。">PHP</a> （完整的 <a href="https://www.jetbrains.com.cn/phpstorm/">PhpStorm</a> 功能）</li>
-                    <li><a href="https://www.sql.org/" summary="SQL 是结构化查询语言，用于管理关系数据库系统。">SQL</a> （完整的 <a href="https://www.jetbrains.com.cn/datagrip/">DataGrip</a> 功能）</li>
-                    <li><a href="https://golang.org/" summary="Go 是一种开源编程语言，由 Google 开发，旨在简化大型软件的开发。">Go</a> （完整的 <a href="https://www.jetbrains.com.cn/go/">GoLand</a> 功能）</li>
-                    <li><a href="https://www.javascript.com/" summary="JavaScript 是一种广泛使用的脚本语言，用于实现网页的交互性。">JavaScript</a> （完整的 <a href="https://www.jetbrains.com.cn/webstorm/">WebStorm</a> 功能）</li>
+                    <li><a href="https://www.python.org/" summary="Python 是一种广泛使用的高级编程语言，以其简洁明了的语法和强大的库支持而著称。">Python</a> （完整的 <a href="https://www.jetbrains.com.cn/pycharm/" summary="PyCharm 是一款功能强大的集成开发环境（IDE），专门为 Python 语言开发而设计。它由 JetBrains 公司开发，提供了一套完整的工具，帮助开发者更高效地编写、调试和测试 Python 代码。">PyCharm</a> 功能）</li>
+                    <li><a href="https://www.ruby-lang.org/en/" summary="Ruby 是一种动态的、开源的编程语言，注重简洁和效率，广泛用于 Web 开发。">Ruby</a> （完整的 <a href="https://www.jetbrains.com.cn/ruby/" summary="RubyMine 是一款专为 Ruby 和 Ruby on Rails 开发者打造的高效智能的集成开发环境（IDE）。它由 JetBrains 公司开发，旨在为 Ruby 开发者提供全方位的开发体验。">RubyMine</a> 功能）</li>
+                    <li><a href="https://www.php.net/" summary="PHP 是一种流行的通用开源脚本语言，特别适用于 Web 开发。">PHP</a> （完整的 <a href="https://www.jetbrains.com.cn/phpstorm/" summary="PhpStorm 是一款专为 PHP 开发者打造的集成开发环境（IDE），由 JetBrains 公司开发。它以其强大的智能代码补全、调试、重构等功能，深受广大 PHP 开发者的喜爱。">PhpStorm</a> 功能）</li>
+                    <li><a href="https://www.sql.org/" summary="SQL 是结构化查询语言，用于管理关系数据库系统。">SQL</a> （完整的 <a href="https://www.jetbrains.com.cn/datagrip/" summary="DataGrip 是 JetBrains 公司推出的一款专业的数据库管理工具，专门为数据库开发人员设计。它支持多种数据库，如 MySQL、PostgreSQL、Oracle、SQL Server 等，并提供了丰富的功能，帮助开发者高效地管理和开发数据库。">DataGrip</a> 功能）</li>
+                    <li><a href="https://golang.org/" summary="Go 是一种开源编程语言，由 Google 开发，旨在简化大型软件的开发。">Go</a> （完整的 <a href="https://www.jetbrains.com.cn/go/" summary="GoLand 是一款由 JetBrains 公司专门为 Go 语言开发而设计的集成开发环境（IDE）。它深度整合了 Go 语言的特性，提供了丰富的工具和功能，旨在帮助开发者更高效地编写、调试和测试 Go 代码。">GoLand</a> 功能）</li>
+                    <li><a href="https://www.javascript.com/" summary="JavaScript 是一种广泛使用的脚本语言，用于实现网页的交互性。">JavaScript</a> （完整的 <a href="https://www.jetbrains.com.cn/webstorm/" summary="WebStorm 是一款由 JetBrains 公司开发的集成开发环境（IDE），专门为开发 Web 应用程序而设计。它被广大前端开发者誉为 “Web 前端开发神器”、“最强大的 HTML5 编辑器”、“最智能的 JavaScript IDE”等。">WebStorm</a> 功能）</li>
                     <li><a href="https://www.typescriptlang.org/" summary="TypeScript 是 JavaScript 的一个超集，添加了静态类型选项。">TypeScript</a> （完整的 <a href="https://www.jetbrains.com.cn/webstorm/">WebStorm</a> 功能）</li>
                     <li><a href="https://www.thymeleaf.org/" summary="Thymeleaf 是一个 Java 模板引擎，用于处理和生成 HTML、XML、JavaScript、CSS 和纯文本。">Thymeleaf</a></li>
                     <li><a href="https://www.json.org/json-en.html" summary="JSON 是一种轻量级的数据交换格式，易于阅读和编写，同时也易于机器解析和生成。">JSON</a></li>
@@ -65,21 +65,21 @@
                 </list>
             </tab>
         </tabs>
-        <note>Intellij IDEA 官方不支持 <tooltip term="c">C</tooltip> / <tooltip term="c++">C++</tooltip> ，但可以使用 <a href="https://www.jetbrains.com/zh-cn/clion/">CLion</a> 。&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;</note>
+        <note>Intellij IDEA 官方不支持 <tooltip term="c">C</tooltip> / <tooltip term="c++">C++</tooltip> ，但可以使用 <a href="https://www.jetbrains.com/zh-cn/clion/" summary="CLion 是一款专为 C 和 C++ 开发者打造的跨平台集成开发环境（IDE），由 JetBrains 公司出品。它基于 IntelliJ IDEA 平台，继承了 IntelliJ IDEA 的强大功能，并针对 C 和 C++ 开发进行了深度优化。">CLion</a> 。&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;</note>
         <note id="language-plugin-vs-separate-IDE" title="选择语言插件还是单独的 IDE？">
             <p>Intellij IDEA Ultimate（旗舰版）是绝大多数基于 Intellij 平台的 <tooltip term="ide">集成开发环境</tooltip> 的超集。</p>
-            <p>如果启用了捆绑的语言插件，它将支持在更具体的 JetBrains IDEs 中所具有的全部功能，如： <a href="https://www.jetbrains.com.cn/pycharm/">PyCharm</a> 、 <a href="https://www.jetbrains.com.cn/webstorm/">WebStorm</a> 、 <a href="https://www.jetbrains.com.cn/phpstorm/">PhpStorm</a> 等。</p>
+            <p>如果启用了捆绑的语言插件，它将支持在更具体的 JetBrains IDEs 中所具有的全部功能，如： <a href="https://www.jetbrains.com.cn/pycharm/" summary="PyCharm 是一款功能强大的集成开发环境（IDE），专门为 Python 语言开发而设计。它由 JetBrains 公司开发，提供了一套完整的工具，帮助开发者更高效地编写、调试和测试 Python 代码。">PyCharm</a> 、 <a href="https://www.jetbrains.com.cn/webstorm/" summary="WebStorm 是一款由 JetBrains 公司开发的集成开发环境（IDE），专门为开发 Web 应用程序而设计。它被广大前端开发者誉为 “Web 前端开发神器”、“最强大的 HTML5 编辑器”、“最智能的 JavaScript IDE”等。">WebStorm</a> 、 <a href="https://www.jetbrains.com.cn/phpstorm/" summary="PhpStorm 是一款专为 PHP 开发者打造的集成开发环境（IDE），由 JetBrains 公司开发。它以其强大的智能代码补全、调试、重构等功能，深受广大 PHP 开发者的喜爱。">PhpStorm</a> 等。</p>
             <p>举例来说，如果项目主要使用 <tooltip term="java">Java</tooltip> 进行开发，但也辅助使用 <a href="https://www.python.org/" summary="Python 是一种广泛使用的高级编程语言，以其简洁明了的语法和强大的库支持而著称。">Python</a> 进行开发，则建议使用 Intellij IDEA 和 Python 语言插件。如果项目主要使用 Python 进行开发，则建议使用 PyCharm。</p>
         </note>
     </chapter>
     <seealso>
         <category ref="references">
-            <a href="https://zh.wikipedia.org/zh-cn/Java_SE" summary="Java SE（Java Platform, Standard Edition）是 Java 编程语言的开发环境，提供核心的 Java 功能，包括 Java 运行时环境（JRE）、Java 编译器（javac）和核心 API。它是所有 Java 应用开发的基础，广泛用于开发桌面、服务器端及嵌入式应用。Java SE 强调跨平台能力，一次编写，到处运行。">Java SE</a>
-            <a href="https://zh.wikipedia.org/zh-cn/Jakarta_EE" summary="Jakarta EE（旧称为 Java EE）是一套用于开发企业级 Java 应用程序的规范和 API。它是为构建可扩展、安全和可靠的应用程序而设计的，并得到了广泛的应用，包括电子商务、金融和医疗保健等领域。">Jakarta EE</a>
-            <a href="https://zh.wikipedia.org/zh-cn/代码重构" summary="代码重构是指对代码进行修改，以提高其可读性、可维护性和可扩展性，而不改变其外部行为。它就像为代码做“整容手术”，让代码更清晰、更优雅、更易于理解和维护。">代码重构</a>
-            <a href="https://zh.wikipedia.org/zh-cn/静态程序分析" summary="静态程序分析（Static Program Analysis）是一种代码检查工具，用于检测代码中的错误和潜在问题。它通过分析代码的语法、语义和结构，而不是执行代码来检测问题。">静态代码分析</a>
+            <a href="https://zh.wikipedia.org/zh-cn/Java_SE" summary="Java SE （Java Platform, Standard Edition）是 Java 编程语言的标准版，它是构建 Java 程序的基础。它提供了一组核心类库和运行环境，使开发者能够创建各种类型的 Java 应用程序。">Java SE</a>
+            <a href="https://zh.wikipedia.org/zh-cn/Jakarta_EE" summary="Jakarta EE 是 Java EE 的继承者。由于 Oracle 将 Java EE 的所有权移交给了 Eclipse 基金会，为了避免与 Oracle 的 Java 商标产生冲突，Java EE 被更名为 Jakarta EE。Jakarta EE 保留了 Java EE 的核心概念和大部分 API，并在此基础上进行了改进和扩展，使其更符合现代云原生应用的需求。">Jakarta EE</a>
+            <a href="https://zh.wikipedia.org/zh-cn/代码重构" summary="代码重构是在不改变软件外部行为的前提下，对软件内部结构进行调整，以提高软件的可理解性、可维护性、可扩展性，同时减少代码中的冗余和潜在的错误。">代码重构</a>
+            <a href="https://zh.wikipedia.org/zh-cn/静态程序分析" summary="静态程序分析是指在不实际运行程序的情况下，通过对程序代码的静态分析（例如源码或字节码），推断程序的属性、发现潜在错误并验证程序是否满足特定规范的一种技术。">静态代码分析</a>
         </category>
-       <include from="reuse-library.topic" element-id="programming-language-snippet" />
        <include from="reuse-library.topic" element-id="ides-snippet" />
+       <include from="reuse-library.topic" element-id="programming-language-snippet" />
     </seealso>
 </topic>

@@ -86,10 +86,10 @@
         <tldr><p>隐藏/显示： <ui-path><a anchor="main-menus" summary="IntelliJ IDEA 中的主菜单包含了多个顶级菜单项，每个菜单项下都有相应的子菜单和功能选项，这些菜单提供了对 IDE 的各种功能和设置的访问。"/> | 视图 | 外观 | 状态栏</ui-path></p></tldr>
         <video src="https://www.youtube.com/watch?v=haF47YiwqtE" width="706"/>
         <p>当将鼠标悬停在状态栏上时，主窗口底部状态栏的左侧部分会显示最新的事件消息和操作描述。</p>
-        <p>鼠标左键单击状态栏中的信息将可以在 <format style="bold">通知工具窗口</format> 中打开查看该信息。</p>
+        <p>鼠标左键单击状态栏中的信息将可以在 <include from="reuse-library.topic" element-id="notifications-tool-windows-snippet" /> 中打开查看该信息。</p>
         <p>鼠标右键单击状态栏中的消息并选择 <format style="bold">复制</format> ，以便在搜索问题的解决方案或者将其作为 <a href="https://youtrack.jetbrains.com/" summary="这是一个功能丰富的项目管理和团队协作工具，可用于跟踪错误、管理任务和与团队成员协作。它提供两种部署选项：云端部署和本地部署。对于最多 10 个用户，它是免费的。">问题跟踪器</a> 时粘贴的消息文本。</p>
         <video src="https://www.youtube.com/watch?v=N0ZIhcswyYQ" width="706"/>
-        <p>使用 <img src="显示工具栏按钮.svg" alt=""/> 和 <img src="隐藏工具栏按钮.svg" alt=""/> 可以在工具窗口之间进行切换并隐藏或显示工具窗口栏。</p>
+        <p>使用 <img src="显示工具栏按钮.svg" alt=""/> 和 <img src="隐藏工具栏按钮.svg" alt=""/> 可以在 <include from="reuse-library.topic" element-id="tool-window-snippet" /> 之间进行切换并隐藏或显示工具窗口栏。</p>
         <video src="https://www.youtube.com/watch?v=jgdkJlJVyyc" width="706"/>
         <p>状态栏还将会显示后台任务的处理进度，您可以通过鼠标左键单击状态栏右侧区域的进度条来查看。</p>
         <video src="https://www.youtube.com/watch?v=P69pYzI77zw" width="706"/>
@@ -161,11 +161,11 @@
     </chapter>
     <chapter title="工具窗口" id="tool-windows">
         <tldr><p>隐藏/显示： <ui-path><include from="reuse-library.topic" element-id="main-menus-snippet" /> | 视图 | 工具窗口 | 工具窗口名</ui-path></p></tldr>
-        <p>工具窗口提供的功能是对代码编辑的补充，例如： <format style="bold">项目工具窗口</format> 用于显示项目的结构，而 <format style="bold">运行工具窗口</format> 则用于显示程序运行时的输出结果。</p>
+        <p><include from="reuse-library.topic" element-id="tool-window-snippet" /> 提供的功能是对代码编辑的补充，例如：<include from="reuse-library.topic" element-id="project-tool-window-snippet" /> 用于显示项目的结构，而 <include from="reuse-library.topic" element-id="run-tool-windows-snippet" /> 则用于显示程序运行时的输出结果。</p>
         <img src="项目工具窗口.png" alt="项目工具窗口" width="706" thumbnail="true"/>
         <p>默认情况下，工具窗口将会停靠在 <include from="reuse-library.topic" element-id="main-windows-snippet" /> 的两侧和底部。您可以根据个人习惯重新排列、取消停靠、调整大小或者是隐藏它们。您可以通过鼠标右键单击工具窗口标题或者是鼠标左键单击标题中的 <img src="设置.svg" alt=""/> 查看其支持的排列选项。</p>
         <video src="https://www.youtube.com/watch?v=eA2ZODgt3bk" width="706"/>
-        <p>可以为这些工具窗口指定 <a href="configuring-keyboard-and-mouse-shortcuts.topic">快捷键</a> ，以便快速访问常用的工具窗口。有些工具窗口拥有预设快捷键，例如：按下 <shortcut>Alt</shortcut><shortcut>1</shortcut> 将可以快速打开或隐藏 <format style="bold">项目工具窗口</format> ，又例如说想要打开或隐藏 <format style="bold">终端工具窗口</format> 则只需要按下 <shortcut>Alt</shortcut><shortcut>F12</shortcut> 即可。如果想要从 <include from="reuse-library.topic" element-id="editor-snippet" /> 快速跳转到上一个活动工具窗口，请按 <shortcut>F12</shortcut> 。</p>
+        <p>可以为这些工具窗口指定 <a href="configuring-keyboard-and-mouse-shortcuts.topic">快捷键</a> ，以便快速访问常用的工具窗口。有些工具窗口拥有预设快捷键，例如：按下 <shortcut>Alt</shortcut><shortcut>1</shortcut> 将可以快速打开或隐藏 <include from="reuse-library.topic" element-id="project-tool-window-snippet" /> ，又例如说想要打开或隐藏 <a href="terminal-emulator.topic" summary="IntelliJ IDEA 包含一个嵌入式终端模拟器，用于在 IDE 内部使用您的命令行 shell。您可以使用它来运行 Java 工具、Git 命令、设置文件权限以及执行其他命令行任务，而无需切换到专用终端应用程序。">终端工具窗口</a> 则只需要按下 <shortcut>Alt</shortcut><shortcut>F12</shortcut> 即可。如果想要从 <include from="reuse-library.topic" element-id="editor-snippet" /> 快速跳转到上一个活动工具窗口，请按 <shortcut>F12</shortcut> 。</p>
         <video src="https://www.youtube.com/watch?v=9E4rI5A8I74" width="706"/>
     </chapter>
     <chapter title="弹出菜单" id="popup-menus">
@@ -183,7 +183,7 @@
                 <video src="https://www.youtube.com/watch?v=s7tgMwpLgpA" width="706"/>
             </li>
             <li>
-                <p>在 <format style="bold">项目工具窗口</format> 中使用 <format style="bold">新建</format> （ <shortcut>Alt</shortcut><shortcut>Insert</shortcut> ），可以为项目添加新的文件和目录等内容。</p>
+                <p>在 <include from="reuse-library.topic" element-id="project-tool-window-snippet" /> 中使用 <format style="bold">新建</format> （ <shortcut>Alt</shortcut><shortcut>Insert</shortcut> ），可以为项目添加新的文件和目录等内容。</p>
                 <video src="https://www.youtube.com/watch?v=iaWNokaiL10" width="706"/>
             </li>
             <li>
@@ -199,14 +199,14 @@
         <include from="reuse-library.topic" element-id="configure-quick-lists-snippet" />
     </chapter>
     <chapter title="上下文菜单" id="context-menus">
-        <p>通过鼠标右键单击界面上的各个元素，将可以查看与当前上下文相关的可用操作。例如：鼠标右键单击 <format style="bold">项目工具窗口</format> 中的文件，将可以查看与该文件相关的操作。鼠标右键单击 <include from="reuse-library.topic" element-id="editor-snippet" /> ，将可以查看适用于当前选中代码片段的可用操作。</p>
+        <p>通过鼠标右键单击界面上的各个元素，将可以查看与当前上下文相关的可用操作。例如：鼠标右键单击 <include from="reuse-library.topic" element-id="project-tool-window-snippet" /> 中的文件，将可以查看与该文件相关的操作。鼠标右键单击 <include from="reuse-library.topic" element-id="editor-snippet" /> ，将可以查看适用于当前选中代码片段的可用操作。</p>
         <video src="https://www.youtube.com/watch?v=GGg1Nps7cO4" width="706"/>
         <note>这些操作大多都可以通过 <include from="reuse-library.topic" element-id="main-menus-snippet" /> 或 <include from="reuse-library.topic" element-id="main-windows-snippet" /> 执行。带有快捷键的操作会在操作名称旁边显示快捷键。在实际应用中，可以更高效的直接按下与操作对应的快捷键来执行这些操作，而不是通过上下文菜单来执行它们。</note>
         <img src="上下文菜单中的操作和与之对应的快捷键.png" alt="上下文菜单中的操作和与之对应的快捷键" width="706" thumbnail="true"/>
     </chapter>
     <seealso>
         <category ref="references">
-            <a href="https://zh.wikipedia.org/zh-cn/代码重构" summary="代码重构是指对代码进行修改，以提高其可读性、可维护性和可扩展性，而不改变其外部行为。它就像为代码做“整容手术”，让代码更清晰、更优雅、更易于理解和维护。">代码重构</a>
+            <a href="https://zh.wikipedia.org/zh-cn/代码重构" summary="代码重构是在不改变软件外部行为的前提下，对软件内部结构进行调整，以提高软件的可理解性、可维护性、可扩展性，同时减少代码中的冗余和潜在的错误。">代码重构</a>
             <a href="https://zh.wikipedia.org/zh-cn/软件版本控制" summary="版本控制是一种软件开发中用于管理和跟踪代码变更的系统。它允许开发者在开发过程中的不同时间点保存代码的状态，也就是创建“快照”，从而可以追踪每个文件的变更历史，比较不同版本之间的差异，以及在必要时回退到之前的版本。版本控制对于团队协作尤为重要，因为它帮助团队成员管理代码的合并、分支和发布。">版本控制</a>
             <a href="https://plugins.jetbrains.com/" summary="JetBrains 插件市场是一个在线平台，提供各种插件，这些插件可以扩展 IntelliJ IDEA 以及其他 JetBrains 开发的 IDE（如 WebStorm、PyCharm、CLion 等）的功能。在这个网站上，用户可以浏览、搜索和下载各种插件，以增强他们的开发工具。">JetBrains 插件市场</a>
         </category>

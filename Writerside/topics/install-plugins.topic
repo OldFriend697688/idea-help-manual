@@ -5,7 +5,7 @@
        xsi:noNamespaceSchemaLocation="https://resources.jetbrains.com/writerside/1.0/topic.v2.xsd"
        title="安装插件" id="install-plugins">
     <show-structure for="chapter" />
-    <include from="reuse-library.topic" element-id="plugins-install-tips" />
+    <include from="reuse-library.topic" element-id="plugins-install-tips-snippet" />
     <p>插件扩展了 IntelliJ IDEA 的核心功能。例如，安装插件可获得以下功能：</p>
     <list>
         <li>与 <tooltip term="version-control">版本控制系统</tooltip> 、问题跟踪器、构建管理服务器和其他工具集成。</li>
@@ -106,7 +106,7 @@
         <img src="安装 Writerside 插件.png" alt="安装 Writerside 插件" width="706" thumbnail="true"/>
     </chapter>
     <chapter id="recommended-plugins" title="推荐插件">
-        <include from="reuse-library.topic" element-id="plugins-install-tips" />
+        <include from="reuse-library.topic" element-id="plugins-install-tips-snippet" />
         <procedure title="推荐插件列表" id="recommended-plugins-list" default-state="collapsed" collapsible="true">
             <p>使用以下插件，可以间接或直接的提高您的开发效率。</p>
             <table>

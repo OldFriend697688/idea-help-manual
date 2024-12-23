@@ -94,7 +94,7 @@
             </step>
         </procedure>
         <procedure title="为代码元素、编辑器、滚动条、超链接等配置颜色" id="color-config">
-            <note>您可以调整代码元素、<include from="reuse-library.topic" element-id="editor-snippet" /> 和工具窗口的颜色。您还可以配置 <include from="reuse-library.topic" element-id="editor-snippet" /> 中垂直滚动条的颜色。&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;</note>
+            <note>您可以调整代码元素、<include from="reuse-library.topic" element-id="editor-snippet" /> 和 <include from="reuse-library.topic" element-id="tool-window-snippet" /> 的颜色。您还可以配置 <include from="reuse-library.topic" element-id="editor-snippet" /> 中垂直滚动条的颜色。&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;</note>
             <step>
                 <p>按下 <shortcut>Ctrl</shortcut><shortcut>Alt</shortcut><shortcut>S</shortcut> 打开 IDE 设置，然后选择 <ui-path>编辑器 | 配色方案 | 常规</ui-path> 。</p>
                 <img src="设置配色方案.png" alt="设置配色方案" width="706" thumbnail="true"/>
@@ -118,7 +118,7 @@
             </step>
         </procedure>
         <procedure title="调整工具窗口大小" id="resize-tool-window">
-            <note>您可以使用快捷键垂直或水平调整工具窗口的大小。&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;</note>            <step><p>垂直调整大小请按 <shortcut>Ctrl</shortcut><shortcut>Alt</shortcut><shortcut>Shift</shortcut><shortcut>Up</shortcut> 或 <shortcut>Ctrl</shortcut><shortcut>Alt</shortcut><shortcut>Shift</shortcut><shortcut>Down</shortcut> 。</p></step>
+            <note>您可以使用快捷键垂直或水平调整 <include from="reuse-library.topic" element-id="tool-window-snippet" /> 的大小。&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;</note>            <step><p>垂直调整大小请按 <shortcut>Ctrl</shortcut><shortcut>Alt</shortcut><shortcut>Shift</shortcut><shortcut>Up</shortcut> 或 <shortcut>Ctrl</shortcut><shortcut>Alt</shortcut><shortcut>Shift</shortcut><shortcut>Down</shortcut> 。</p></step>
             <step>
                 <p>水平方向调整大小请按 <shortcut>Ctrl</shortcut><shortcut>Alt</shortcut><shortcut>Shift</shortcut><shortcut>Left</shortcut> 或 <shortcut>Ctrl</shortcut><shortcut>Alt</shortcut><shortcut>Shift</shortcut><shortcut>Right</shortcut> 。</p>
                 <video src="https://www.youtube.com/watch?v=6Gz1MgUAwJA" width="706"/>
@@ -220,4 +220,10 @@
         </procedure>
     </chapter>
     <p>另外，您还可以查阅 <a href="using-code-editor.topic">编辑器基础</a> 、 <a href="mastering-keyboard-shortcuts.topic">键盘快捷键</a> 和 <a href="guided-tour-around-the-user-interface.topic" summary="了解 Intellij IDEA 用户界面的主要构成部分。" /> 以熟悉其他有用的快捷键和相关知识。</p>
+    <seealso>
+        <category ref="associated-websites">
+            <a href="https://www.freedomscientific.com/Products/software/JAWS/" summary="JAWS（Job Access With Speech）是世界上最流行的屏幕阅读器，专为因视力障碍而无法看到屏幕内容或使用鼠标导航的电脑用户开发。JAWS 可为电脑上最常用的计算机应用程序提供语音和盲文输出。您可以在办公室、远程桌面或家中浏览互联网、撰写文档、阅读电子邮件和制作演示文稿。">JAWS</a>
+            <a href="https://www.nvaccess.org/" summary="NV Access 是一个免费的、高质量的屏幕阅读器，可以帮助盲人和视障人士使用计算机。">Nv Access</a>
+        </category>
+    </seealso>
 </topic>

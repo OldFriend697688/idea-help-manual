@@ -38,10 +38,10 @@
                 <toc-element topic="viewing-modes.topic"/>
                 <toc-element topic="speed-search-in-the-tool-windows.topic"/>
             </toc-element>
+            <toc-element topic="setting-background-image.topic"/>
             <toc-element topic="customize-actions-menus-and-toolbars.topic"/>
             <toc-element topic="user-interface-themes.topic"/>
             <toc-element topic="ide-viewing-modes.topic"/>
-            <toc-element topic="setting-background-image.topic"/>
         </toc-element>
         <toc-element topic="mastering-keyboard-shortcuts.topic">
             <toc-element topic="configuring-keyboard-and-mouse-shortcuts.topic"/>

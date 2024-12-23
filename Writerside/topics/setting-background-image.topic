@@ -3,7 +3,70 @@
         SYSTEM "https://resources.jetbrains.com/writerside/1.0/xhtml-entities.dtd">
 <topic xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
        xsi:noNamespaceSchemaLocation="https://resources.jetbrains.com/writerside/1.0/topic.v2.xsd"
-       title="背景图片设置" id="setting-background-image">
-
-    <p>Start typing here...</p>
+       title="背景图像" id="setting-background-image">
+    <p>您可以将任何图像设置为 IntelliJ IDEA 中 <include from="reuse-library.topic" element-id="editor-snippet" /> 和所有 <include from="reuse-library.topic" element-id="tool-window-snippet"/> 的自定义背景。</p>
+    <procedure id="configure-background-image" title="配置背景图像" type="steps">
+        <step>按 <shortcut>Ctrl</shortcut><shortcut>Alt</shortcut><shortcut>S</shortcut> 打开 <format style="bold">设置</format> 并展开 <ui-path>外观与行为 | 外观</ui-path> 。</step>
+        <step>
+            <p>找到并单击 <format style="bold">UI 选项</format> 区域中的 <format style="bold">背景图像</format> 按钮。</p>
+            <img alt="设置背景图像.png" src="设置背景图像.png" width="706" thumbnail="true"/>
+            <note>或者，如果图像在您的项目中，请在 <include from="reuse-library.topic" element-id="editor-snippet" /> 或 <include from="reuse-library.topic" element-id="project-tool-window-snippet" /> 中右键单击该图像，然后从上下文菜单中选择 <format style="bold">设置背景图像</format> 。您也可以按 <shortcut>Ctrl</shortcut><shortcut>Shift</shortcut><shortcut>A</shortcut> ，找到并选择 <format style="bold">设置背景图像</format> 操作。</note>
+            <video src="https://www.youtube.com/watch?v=5MUVc8hu0UM" width="706"/>
+        </step>
+        <step>
+            <p>在 <format style="bold">背景图像</format> 对话框中，指定图像并单击 <format style="bold">确定</format> 按钮应用更改。</p>
+            <p>有关于选项的详细信息，请参阅 <a anchor="background-image-settings" summary=""/> 。</p>
+            <img alt="背景图像对话框.png" src="背景图像对话框.png" width="706" thumbnail="true"/>
+            <video src="https://www.youtube.com/watch?v=Cbln0_vuxss" width="706"/>
+        </step>
+    </procedure>
+    <chapter id="background-image-settings" title="背景图像设置">
+        <p><format style="bold">背景图像</format> 对话框中有以下选项：</p>
+        <table style="none" column-width="auto">
+            <tr>
+                <td width="250">图像</td>
+                <td width="500">指定本地文件系统中图像的路径，或者远程服务器上图像的 URL。</td>
+            </tr>
+            <tr>
+                <td>不透明度</td>
+                <td>指定图像的相对不透明度，其中 100 为完全不透明，0 为完全透明。</td>
+            </tr>
+            <tr>
+                <td>摆放位置</td>
+                <td>
+                    <p>选择相应的图标来调整背景图像的放置位置：</p>
+                    <list>
+                        <li>
+                            垂直或水平镜像图像
+                            <img alt="垂直或水平镜像图像.png" src="垂直或水平镜像图像.png" width="706" thumbnail="true"/>
+                        </li>
+                        <li>
+                            选择是否将图像以原始大小放置一份，缩放图像以适应整个宽度，或用原始大小的图像副本填充整个宽度。如果选择保持原始尺寸，请选择将图像放置在中间、一侧还是一个角。
+                            <img alt="选择背景图像的填充方式.png" src="选择背景图像的填充方式.png" width="706" thumbnail="true"/>
+                            <video src="https://www.youtube.com/watch?v=09Kefiuageo" width="706"/>
+                        </li>
+                    </list>
+                </td>
+            </tr>
+            <tr>
+                <td>仅此项目</td>
+                <td>选择是否仅在当前项目中将此自定义图像用作背景。</td>
+            </tr>
+            <tr>
+                <td>编辑器和工具</td>
+                <td>配置图像作为 <include from="reuse-library.topic" element-id="editor-snippet" /> 和 <include from="reuse-library.topic" element-id="tool-window-snippet" /> 的背景。</td>
+            </tr>
+            <tr>
+                <td>空框架</td>
+                <td>
+                    配置一个图像，作为 <include from="reuse-library.topic" element-id="editor-snippet" /> 中没有打开文件时的背景。
+                    <video src="https://www.youtube.com/watch?v=u9pSXDqhtlQ" width="706"/>
+                </td>
+            </tr>
+            <tr>
+                <td>清除并关闭</td>
+                <td>清除背景图像并使用默认背景。</td>
+            </tr>
+        </table>
+    </chapter>
 </topic>

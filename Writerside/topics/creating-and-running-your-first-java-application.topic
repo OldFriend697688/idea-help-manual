@@ -49,11 +49,11 @@
         <procedure id="create-package-and-class" type="steps" title="创建包和类">
             <note><tooltip term="java-package">包</tooltip> 用于将属于同一类别或提供类似功能的 <tooltip term="java-class">类</tooltip> 组合在一起，用于结构化和组织包含数百个类的大型应用程序。</note>
             <step>
-                <p>在 <format style="bold">项目工具窗口</format> 中，选中 <path>src</path> 文件夹，然后右键单击 <format style="bold">新建</format> ，然后选择 <format style="bold">Java 类</format> 。</p>
+                <p>在 <include from="reuse-library.topic" element-id="project-tool-window-snippet" /> 中，选中 <path>src</path> 文件夹，然后右键单击 <format style="bold">新建</format> ，然后选择 <format style="bold">Java 类</format> 。</p>
                 <img alt="通过在 src 文件夹上右键的方式新建 Java 类" src="通过在 src 文件夹上右键的方式新建 Java 类.png" width="706" thumbnail="true"/>
                 <p>或者，也可以通过按 <shortcut>Alt</shortcut><shortcut>Insert</shortcut> 以实现相同效果。</p>
                 <img alt="通过快捷键打开弹出菜单的方式创建 Java 类" src="通过快捷键打开弹出菜单的方式创建 Java 类.png" width="706" thumbnail="true"/>
-                <note>您可以通过按下 <shortcut>Alt</shortcut><shortcut>1</shortcut> 快速打开 <format style="bold">项目工具窗口</format> 。&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;</note>
+                <note>您可以通过按下 <shortcut>Alt</shortcut><shortcut>1</shortcut> 快速打开 <include from="reuse-library.topic" element-id="project-tool-window-snippet" />。&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;</note>
                 <video src="https://www.youtube.com/watch?v=tijgIG-RwnQ" width="706"/>
             </step>
             <step>
@@ -104,7 +104,7 @@
             <note>
                 <p>基本自动代码补全功能会分析当前字符输入位置周围的上下文，并在输入时提供建议。您可以按 <shortcut>Ctrl</shortcut><shortcut>Space</shortcut> 手动打开补全列表。 有关于其他类型的补全功能，请参阅 <a href="auto-completing-code.topic" /> 。</p>
             </note>
-            <include from="reuse-library.topic" element-id="invalid-shortcut-key-prompt" />
+            <include from="reuse-library.topic" element-id="invalid-shortcut-key-prompt-snippet" />
         </procedure>
         <procedure id="call-println-sout" title="使用实时模板调用 println() 方法" default-state="collapsed" collapsible="true" type="steps">
             <p>使用 <code>sout</code> <a href="using-live-templates.topic"/> 可以更快地调用 <code>println()</code> 方法。</p>
@@ -122,23 +122,22 @@
                 <img alt="单击间距图标位置的运行按钮" src="单击间距图标位置的运行按钮.png" width="706" thumbnail="true"/>
             </step>
             <step>
-                <p>当编译完成后，屏幕底部会打开 <format style="bold">运行工具窗口</format> 。</p>
+                <p>当编译完成后，屏幕底部会打开 <include from="reuse-library.topic" element-id="run-tool-windows-snippet" /> 。</p>
                 <note>
                     <p>第一行显示 IntelliJ IDEA 用于运行编译类的命令。 &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;</p>
                     <p>第二行显示的是程序输出： <code>Hello, World!</code> 。</p>
                     <p>最后一行显示退出代码 <code>0</code> ，表示程序成功退出。</p>
-                    <p>如果代码不正确，程序将无法编译， <format style="bold">运行工具窗口</format> 将显示相应的退出代码。</p>
-
+                    <p>如果代码不正确，程序将无法编译， <include from="reuse-library.topic" element-id="run-tool-windows-snippet" />  将显示相应的退出代码。</p>
                 </note>
                 <img alt="运行工具窗口中显示的运行结果和信息" src="运行工具窗口中显示的运行结果和信息.png" width="706" thumbnail="true"/>
                 <note>单击 <format style="bold">运行</format> 时，IntelliJ IDEA 会创建一个特殊的运行配置，执行一系列操作。首先，它会构建您的应用程序。在这个阶段，javac 会将您的源代码编译成 JVM 字节码。</note>
                 <img alt="临时创建的运行和调试配置" src="临时创建的运行和调试配置.png" width="706" thumbnail="true"/>
-                <note>javac 完成编译后，会将编译好的字节码放入 <path>out</path> 目录，该目录在 <format style="bold">项目工具窗口</format> 中以黄色突出显示。之后，JVM 将运行字节码。</note>
+                <note>javac 完成编译后，会将编译好的字节码放入 <path>out</path> 目录，该目录在 <include from="reuse-library.topic" element-id="project-tool-window-snippet" /> 中以黄色突出显示。之后，JVM 将运行字节码。</note>
                 <img alt="项目工具窗口中的 out 目录" src="项目工具窗口中的 out 目录.png" width="706" thumbnail="true"/>
             </step>
         </procedure>
         <note>自动创建的运行配置是临时的，但可以修改和保存。&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;</note>
-        <note>如果要重新打开 <format style="bold">运行工具窗口</format> ，请按 <shortcut>Alt</shortcut><shortcut>4</shortcut> 。&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;</note>
+        <note>如果要重新打开 <include from="reuse-library.topic" element-id="run-tool-windows-snippet" />  ，请按 <shortcut>Alt</shortcut><shortcut>4</shortcut> 。&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;</note>
         <video src="https://www.youtube.com/watch?v=Vdsp47jjLi0" width="706"/>
         <note>IntelliJ IDEA 会自动分析当前在编辑器中打开的文件，并搜索不同类型的问题：从语法错误到拼写错误。通过 <include from="reuse-library.topic" element-id="editor-snippet" /> 右上角的 <format style="bold">检查</format> 小部件，您可以快速查看所有检测到的问题，并详细查看每个问题。更多信息，请参阅 <a href="file-and-project-analysis.topic" anchor="analysis-current-file" /> 。</note>
         <img alt="自动检查文件中存在的问题" src="自动检查文件中存在的问题.png" width="706" thumbnail="true"/>
@@ -185,7 +184,7 @@
         <procedure id="run-jar-run-config" title="执行 JAR 运行配置">
             <step><p>在 <include from="reuse-library.topic" element-id="navigation-bar-snippet" /> 上选择 <code>HelloWorldJar</code> 配置，然后单击运行配置选择器右侧的 <img src="运行.svg" alt="" /> 。</p></step>
             <step><p>或者，您更喜欢快捷键，也可以按 <shortcut>Shift</shortcut><shortcut>F10</shortcut> 实现相同效果。</p></step>
-            <p><format style="bold">运行工具窗口</format> 会打开并显示输出结果。如果进程已成功退出，则意味着应用程序已正确打包。</p>
+            <p><include from="reuse-library.topic" element-id="run-tool-windows-snippet" />  会打开并显示输出结果。如果进程已成功退出，则意味着应用程序已正确打包。</p>
             <video src="https://www.youtube.com/watch?v=iuyrrTn0tFU" width="706"/>
         </procedure>
     </chapter>

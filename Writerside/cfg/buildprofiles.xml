@@ -15,6 +15,16 @@
     </variables>
 
     <footer>
+        <social type="blog" href="https://blog.jetbrains.com/idea/"/>
+        <social type="youtube" href="https://www.youtube.com/c/intellijidea"/>
+        <social type="twitter" href="https://twitter.com/intellijidea"/>
+        <link href="https://www.jetbrains.com/idea/whatsnew/">What's new</link>
+        <link href="https://youtrack.jetbrains.com/issues/IDEA">Issue tracker</link>
+        <link href="https://intellij-support.jetbrains.com/hc/en-us/requests/new?ticket_form_id=66731">Submit support request</link>
+        <link href="https://www.jetbrains.com/privacy-security/">Privacy &amp; Security</link>
+        <link href="https://www.jetbrains.com/legal/docs/company/useterms/">Terms Of Use</link>
+        <link href="https://www.jetbrains.com/legal/trademarks/">Trademarks</link>
+        <link href="https://www.jetbrains.com/legal/#licensing">Legal</link>
         <copyright>Copyright © 2000–2024 JetBrains s.r.o.</copyright>
     </footer>
 </buildprofiles>

@@ -143,7 +143,7 @@
             <p>例如：我们可以键入 <code>/editor</code> 并按下 <shortcut>Enter</shortcut> 以此快速打开进行与 <a anchor="editor" summary=""/> 相关的设置。</p>
             <img src="随处搜索-快速访问与编辑器相关的设置.png" alt="快速访问与编辑器相关的设置" width="706" thumbnail="true"/>
             <video src="https://www.youtube.com/watch?v=YZszrS5FfAo" width="706"/>
-            <p>如果使用 <code>/plugins</code> 进行搜索，则可以根据需要快速禁用或启用 <a href="install-plugins.topic" summary="强大的插件生态赋予 IntelliJ IDEA 极高的灵活性和可定制性。">插件</a>。</p>
+            <p>如果使用 <code>/plugins</code> 进行搜索，则可以根据需要快速禁用或启用 <a href="managing-plugins.topic" summary="强大的插件生态赋予 IntelliJ IDEA 极高的灵活性和可定制性。">插件</a>。</p>
             <img src="随处搜索-快速禁用和启用插件.png" alt="快速禁用和启用插件" width="706" thumbnail="true"/>
             <video src="https://www.youtube.com/watch?v=OoNV1rTUFdI" width="706"/>
             <p>其他可用的标签有 <code>/appearance</code> 、<code>/system</code> 、<code>/inspections</code> 、<code>/registry</code> 、<code>/intentions</code> 、<code>/templates></code> 及 <code>/vcs</code> 。另外请注意，随处搜索功能支持缩写。这意味着，可以在 <a href="settings-keymap.topic" /> 的设置对话框中为任意操作分配文本别名。之后，就可以通过分配的文本别名从 <format style="bold">所有</format> 中调用此操作。</p>

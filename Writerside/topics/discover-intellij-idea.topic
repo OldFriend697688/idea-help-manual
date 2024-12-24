@@ -25,9 +25,9 @@
         <p>有关旗舰版和社区版之间的详细差异，请参阅 IntelliJ IDEA 的 <a href="https://www.jetbrains.com/zh-cn/products/compare/?product=idea&amp;product=idea-ce">版本比较矩阵</a> 。</p>
     </chapter>
     <chapter id="supported-programming-languages" title="支持的语言">
-        <note>可以通过浏览 <a href="https://plugins.jetbrains.com/marketplace">JetBrains 插件库</a> 查找官方插件，这些插件可为当今使用的几乎所有 <tooltip term="programming-language">语言</tooltip> 、框架或技术提供支持，也可以查找第三方插件。有关如何在 IntelliJ IDEA 中管理插件的详细信息，请参阅 <a href="install-plugins.topic" summary="安装插件以拓展 Intellij IDEA 的功能。"/> 。</note>
+        <note>可以通过浏览 <a href="https://plugins.jetbrains.com/marketplace">JetBrains 插件库</a> 查找官方插件，这些插件可为当今使用的几乎所有 <tooltip term="programming-language">语言</tooltip> 、框架或技术提供支持，也可以查找第三方插件。有关如何在 IntelliJ IDEA 中管理插件的详细信息，请参阅 <a href="managing-plugins.topic" summary="安装插件以拓展 Intellij IDEA 的功能。"/> 。</note>
         <p>现代应用程序的开发涉及同时使用多种语言、工具、框架和技术。</p>
-        <p>IntelliJ IDEA 被设计为 <tooltip term="jvm">JVM</tooltip> 语言的 <tooltip term="ide">IDE</tooltip> ，但许多 <a href="install-plugins.topic" summary="插件系统赋予了 Intellij IDEA 强大的功能拓展能力。">插件</a> 可以扩展它对其它语言的支持。</p>
+        <p>IntelliJ IDEA 被设计为 <tooltip term="jvm">JVM</tooltip> 语言的 <tooltip term="ide">IDE</tooltip> ，但许多 <a href="managing-plugins.topic" summary="插件系统赋予了 Intellij IDEA 强大的功能拓展能力。">插件</a> 可以扩展它对其它语言的支持。</p>
         <tabs>
             <tab title="JVM 语言">
                 <p>IntelliJ IDEA 支持下列可编译成 <tooltip term="jvm">JVM</tooltip> <tooltip term="java-bytecode">字节码</tooltip> 的语言。</p>

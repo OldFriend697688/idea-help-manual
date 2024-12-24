@@ -19,7 +19,7 @@
             <toc-element topic="update.topic" toc-title="更新"/>
         </toc-element>
         <toc-element topic="working-offline.topic"/>
-        <toc-element topic="install-plugins.topic" />
+        <toc-element topic="managing-plugins.topic" />
         <toc-element topic="feature-trainer.topic"/>
         <toc-element topic="creating-and-running-your-first-java-application.topic"/>
         <toc-element toc-title="从 Eclipse 迁移" href="https://www.jetbrains.com/help/idea/2022.3/migrating-from-eclipse-to-intellij-idea.html">

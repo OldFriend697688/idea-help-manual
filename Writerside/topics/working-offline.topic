@@ -14,7 +14,7 @@
     </chapter>
     <chapter id="plugins" title="插件">
         <include from="reuse-library.topic" element-id="plugins-install-tips-snippet" />
-        <p>通常，插件是从 <a href="https://plugins.jetbrains.com/">JetBrains 插件库</a> 中下载并进行安装的。不过，您可以在本地网络中设置一个 <a href="install-plugins.topic" anchor="repos" /> ，并配置 IntelliJ IDEA 使用它来安装和更新插件。您还可以 <a href="install-plugins.topic" anchor="install-plugin-from-disk" /> 。</p>
+        <p>通常，插件是从 <a href="https://plugins.jetbrains.com/">JetBrains 插件库</a> 中下载并进行安装的。不过，您可以在本地网络中设置一个 <a href="managing-plugins.topic" anchor="repos" /> ，并配置 IntelliJ IDEA 使用它来安装和更新插件。您还可以 <a href="managing-plugins.topic" anchor="install-plugin-from-disk" /> 。</p>
         <img src="Intellij IDEA 欢迎界面中的插件选项.png" alt="Intellij IDEA 欢迎界面中的插件选项" width="706" thumbnail="true"/>
     </chapter>
     <chapter id="licenses" title="激活许可证">

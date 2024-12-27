@@ -67,6 +67,9 @@
    <term name="windows">Windows 是由美国微软公司（Microsoft）开发的一系列操作系统。它是目前世界上使用最广泛的个人电脑操作系统，同时也广泛应用于服务器、移动设备（如 Windows Phone，虽然现在已停止开发）、嵌入式系统等领域。Windows 以其图形用户界面（GUI）而闻名，用户可以通过窗口、图标和菜单等直观地与计算机进行交互，而无需像早期的命令行操作系统那样输入复杂的指令。</term>
    <term name="linux">严格来说，“Linux” 通常指的是 Linux 内核，而不是一个完整的操作系统。我们日常生活中所说的“Linux 系统”，通常指的是基于 Linux 内核，并包含其他 GNU 工具和应用程序的发行版，例如 Ubuntu、CentOS、Debian、Red Hat 等。</term>
    <term name="macos">macOS（之前被称为 Mac OS X 和 OS X）是苹果公司为其 Macintosh（简称 Mac）电脑系列开发的操作系统。它以其精美的用户界面、强大的功能和与苹果硬件的紧密集成而闻名。macOS 是继 Microsoft Windows 之后全球第二大最常用的桌面操作系统。</term>
+   <term name="ios">iOS 系统是由苹果公司为其移动设备（如iPhone、iPad、iPod touch）开发的一款专有移动操作系统。它以其流畅的用户体验、高度的安全性、丰富的应用程序等特点而著称。</term>
+   <term name="watchOS">watchOS 是苹果公司为其智能手表 Apple Watch 开发的操作系统，它可以看作是 iOS 的延伸。</term>
+   <term name="tvOS">tvOS 是苹果公司专为 Apple TV 设计的操作系统，它让你的电视变得更加智能，能够运行各种应用程序，提供更丰富的娱乐体验。</term>
    <term name="version-control">版本控制（Version Control）是一种跟踪和管理文件修改历史的系统。它记录了文件的每一次修改，允许您回溯到之前的任何一个版本，比较不同版本之间的差异，甚至撤销某些修改。版本控制不仅适用于代码文件，也适用于任何类型的电子文档，例如文本文档、图片、视频等。</term>
    <term name="operating-system">操作系统（Operating System，简称 OS）是管理计算机硬件与软件资源的系统软件，同时也是计算机系统的内核与基石。它位于计算机硬件（如 CPU、内存、硬盘）与用户以及应用程序之间，充当着桥梁的作用。</term>
    <term name="screen-reader">屏幕阅读器是一种辅助技术软件，它允许视力障碍或盲人用户通过听觉来获取屏幕上显示的信息。这种软件能够朗读文本、描述图形和用户界面元素，以及提供键盘导航功能，帮助用户浏览网页、操作应用程序和阅读文档。屏幕阅读器通过合成语音或盲文显示器输出信息，使得视觉内容对视觉障碍者变得可访问。常见的屏幕阅读器有 JAWS、NVDA 和 VoiceOver 等，它们极大地提高了视障人士的数字生活质量和独立性。</term>

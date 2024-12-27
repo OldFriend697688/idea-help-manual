@@ -88,7 +88,7 @@
                 <p>与之类似的，如果勾选了 <format style="bold">全部字母</format> 选项，则必须在编辑器中完整键入 <format style="bold">System</format>（<format style="italic">一个字母都不能错</format> ）才会有相应的候选项提示。</p>
                 <p>但是，如果取消勾选 <format style="bold">区分大小写</format> 选项，则将会忽略上述两个选项的约束规则，甚至是在仅键入单词中的某一部分的情况下（ 例如： <format style="italic">tem</format> ），编辑器也能自动列举出所有匹配的候选项。</p>
             </note>
-            <p>默认情况下，Intellij IDEA 代码自动完成的大小写约束规则只会影响到键入的第一个字母。如果要改变它，可以在 <format style="bold">设置</format>（<shortcut>Ctrl</shortcut><shortcut>Alt</shortcut><shortcut>S</shortcut> ）中展开 <ui-path>编辑器 | 常规 | 代码补全</ui-path> ，然后从 <format style="bold">仅首字母</format> 或 <format style="bold">所有字母</format> 两个选项中选择一个。又或者说不需要此约束规则，则可以取消勾选 <format style="bold">区分大小写</format> 选项。</p>
+            <p>默认情况下，Intellij IDEA 代码自动补全的大小写约束规则只会影响到键入的第一个字母。如果要改变它，可以在 <format style="bold">设置</format>（<shortcut>Ctrl</shortcut><shortcut>Alt</shortcut><shortcut>S</shortcut> ）中展开 <ui-path>编辑器 | 常规 | 代码补全</ui-path> ，然后从 <format style="bold">仅首字母</format> 或 <format style="bold">所有字母</format> 两个选项中选择一个。又或者说不需要此约束规则，则可以取消勾选 <format style="bold">区分大小写</format> 选项。</p>
             <img src="代码补区分代码大小写.png" alt="代码补区分代码大小写" width="706" thumbnail="true"/>
             <!--<video src="https://www.youtube.com/watch?v=MtV0uwouhNc" width="706"/>-->
             <video src="https://www.youtube.com/watch?v=07duJfkzoRA" width="706"/>

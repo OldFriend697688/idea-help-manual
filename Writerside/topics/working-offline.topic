@@ -58,11 +58,9 @@
         <p>当您第一次运行 IntelliJ IDEA 时，系统会提示您是否发送有关您使用的功能和插件、硬件和软件配置、文件类型、每个项目的文件数量等方面的匿名数据。其中不包括任何个人或敏感数据，例如您的部分源代码或文件名。这些信息是根据 <a href="https://www.jetbrains.com/company/privacy.html">JetBrains 隐私政策</a> 收集的，用于帮助改进产品和整体体验。</p>
         <p>即使启用了匿名使用统计，如果本地网络外没有 HTTP 访问，也不会发送匿名使用统计。此外，如果您一开始同意，后来又改变了主意，也可以完全禁用此功能。</p>
         <procedure id="disable-usage-stats" title="禁用使用统计">
-            <step>在 <format style="bold">设置（ <shortcut>Ctrl</shortcut><shortcut>Alt</shortcut><shortcut>S</shortcut> ）中选择 <ui-path>外观与行为 | 系统设置 | 数据共享</ui-path> 。</format></step>
-            <step>
-                取消勾选 <format style="bold">Send usage statistics</format> 复选框。
-            </step>
-                <img src="为 Intellij IDEA 取消数据共享.png" alt="为 Intellij IDEA 取消数据共享" width="706" thumbnail="true"/>
+            <step>在 <format style="bold">设置</format> （ <shortcut>Ctrl</shortcut><shortcut>Alt</shortcut><shortcut>S</shortcut> ）中选择 <ui-path>外观与行为 | 系统设置 | 数据共享</ui-path> 。</step>
+            <step>取消勾选 <format style="bold">Send usage statistics</format> 。</step>
+            <img src="为 Intellij IDEA 取消数据共享.png" alt="为 Intellij IDEA 取消数据共享" width="706" thumbnail="true"/>
         </procedure>
     </chapter>
 </topic>

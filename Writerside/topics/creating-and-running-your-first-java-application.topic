@@ -84,9 +84,9 @@
                 <p>有关在哪里可以找到预定义的实时模板以及如何创建自己的模板的更多信息，请参阅 <a href="using-live-templates.topic"/> 。</p>
             </note>
         </procedure>
-        <procedure type="steps" title="使用代码自动完成功能调用 println() 方法" id="call-println">
+        <procedure type="steps" title="使用代码自动补全功能调用 println() 方法" id="call-println">
             <step>
-                <p>键入 <code>Sy</code> ，然后从代码完成建议列表中选择 <code>System</code> 类（它来自标准 <code>java.lang</code> 包）。</p>
+                <p>键入 <code>Sy</code> ，然后从代码补全建议列表中选择 <code>System</code> 类（它来自标准 <code>java.lang</code> 包）。</p>
                 <img alt="选中候选列表建议中的 System 类" src="选中候选列表建议中的 System 类.png" width="706" thumbnail="true"/>
             </step>
             <step>

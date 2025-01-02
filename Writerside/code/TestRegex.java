@@ -7,7 +7,7 @@ public class TestRegex {
     private static final String PHONE_NUMBER_REGEX = "^(13[0-9]|14[5|7]|15[0|1|2|3|4|5|6|7|8|9]|18[0|1|2|3|5|6|7|8|9])\\d{8}$";
 
     public static void main(String[] args) {
-        isValidPhoneNumber(new String[]{"13618631459", "18827642238", "17067692399"});
+        isValidPhoneNumber(new String[]{"XXXXXXXXXXX", "XXXXXXXXXXX", "XXXXXXXXXXX"});
     }
 
     /**

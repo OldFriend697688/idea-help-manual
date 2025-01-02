@@ -4,60 +4,60 @@
 <topic xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
        xsi:noNamespaceSchemaLocation="https://resources.jetbrains.com/writerside/1.0/topic.v2.xsd"
        title="支持与帮助" id="getting-help">
-    <show-structure depth="1" for="procedure" />
+    <show-structure depth="1" for="procedure"/>
     <procedure title="联系支持" id="contact-support" type="choices">
-        <p>如果您无法在帮助文档中找到所需的信息，请尝试联系 JetBrains 支持团队。</p>
-        <step>浏览 <a href="https://intellij-support.jetbrains.com/hc/en-us">Intellij IDEA 知识库</a> 。</step>
-        <step>在 <a href="https://intellij-support.jetbrains.com/hc/en-us/community/topics/">社区论坛</a> 创建一个新主题并提问。</step>
-        <step>从 <include from="reuse-library.topic" element-id="main-menus-snippet" /> 中选择 <ui-path>帮助 | 联系支持</ui-path> 以便直接向支持团队提出请求。</step>
+        <p>如果您无法在帮助文档中找到所需的实质性信息，请联系 <tooltip term="jetbrains">JetBrains</tooltip> 支持团队。</p>
+        <step>浏览 <a href="https://intellij-support.jetbrains.com/hc/en-us">IntelliJ IDEA 知识库</a> 。</step>
+        <step>在 <a href="https://intellij-support.jetbrains.com/hc/en-us/community/topics/">社区论坛</a> 创建一个新主题并进行提问。</step>
+        <step>在 <include from="reuse-library.topic" element-id="main-menus-snippet"/> 中选择 <ui-path>帮助 | 联系支持</ui-path> 以便直接向支持团队提出请求。</step>
         <img src="联系支持.png" alt="联系支持" width="706" thumbnail="true"/>
     </procedure>
     <procedure title="反馈错误" id="report-bug" type="choices">
-        <p>如遇错误或想建议新功能，您可以使用 <a href="https://youtrack.jetbrains.com/issues/IDEA">Intellij IDEA 问题跟踪器</a> 。</p>
-        <step><p>从 <include from="reuse-library.topic" element-id="main-menus-snippet" /> 中选择 <ui-path>帮助 | 提交错误报告</ui-path>。</p></step>
-        <p>进行提交之前，建议您先尝试搜索问题跟踪器，查找是否已存在类似的报告或功能请求，以避免重复。如有类似的，可以添加评论或者投票，以便引起开发团队的关注。</p>
-        <p>如果需要附加 Intellij IDEA 日志文件，请通过 <include from="reuse-library.topic" element-id="main-menus-snippet" /> | <ui-path>帮助 | 在 Explorer 显示日志</ui-path> 找到它。</p>
+        <p>如遇错误或想提议新功能，您可以尝试使用 <a href="https://youtrack.jetbrains.com/issues/IDEA">IntelliJ IDEA 问题跟踪器</a> 。</p>
+        <step>在 <include from="reuse-library.topic" element-id="main-menus-snippet"/> 中选择 <ui-path>帮助 | 提交错误报告</ui-path> 。</step>
+        <p>在进行提交之前，您可以先尝试搜索问题跟踪器，查找是否已存在类似的报告或功能请求，以避免重复。如有类似，可以添加评论或者投票，以便引起开发团队的关注。</p>
+        <p>如果需要 IntelliJ IDEA 的日志文件，可以通过 <ui-path><include from="reuse-library.topic" element-id="main-menus-snippet"/> | 帮助 | 在 Explorer 显示日志</ui-path> 找到它。</p>
         <img src="在 Explorer 显示日志.png" alt="在 Explorer 显示日志" width="706" thumbnail="true"/>
     </procedure>
-    <procedure title="分享反馈" id="feedback">
-        <p>对于 JetBrains 产品的任何不满意或改进建议都可以反馈给开发团队。</p>
-        <step>从 <include from="reuse-library.topic" element-id="main-menus-snippet" /> 中选择 <ui-path>帮助 | 提交反馈（Submit Feedback）</ui-path>。</step>
+    <procedure title="提交反馈" id="feedback">
+        <p>对于 JetBrains 产品的任何不满与改进建议都可以反馈给开发团队。</p>
+        <step>在 <include from="reuse-library.topic" element-id="main-menus-snippet"/> 中选择 <ui-path>帮助 | 提交反馈（Submit <format style="underline">F</format>eedback）</ui-path> 。</step>
         <img src="提交反馈.png" alt="提交反馈" width="706" thumbnail="true"/>
     </procedure>
     <chapter title="了解更多" id="learn">
-        <p>学习 Intellij IDEA 有很多种方式。</p>
+        <p>您有多种方式可以学习和掌握 IntelliJ IDEA。</p>
         <list>
             <li>
-                <p><format style="bold">每日小技巧</format> 会在每次启动 <tooltip term="idea">IDEA</tooltip> 时提供帮助。如果不想显示它，请勾选 <format style="bold">启动时不显示小技巧</format>。</p>
+                <control>每日小技巧</control> 会在每次启动 <tooltip term="idea">IDEA</tooltip> 时提供帮助。如果不想显示它，请勾选 <control>启动时不显示小技巧</control> 。
                 <img src="启动时不显示小技巧.png" alt="启动时不显示小技巧" width="706" thumbnail="true"/>
-                <p>如果要重新打开 <format style="bold">每日小技巧</format> 对话框，请从 <include from="reuse-library.topic" element-id="main-menus-snippet" /> 中选择 <ui-path>帮助 | 每日小技巧</ui-path>。</p>
+                <p>如果要重新打开 <control>每日小技巧</control> ，请从 <include from="reuse-library.topic" element-id="main-menus-snippet"/> 中选择 <ui-path>帮助 | 每日小技巧</ui-path> 。</p>
                 <img src="显示每日小技巧.png" alt="显示每日小技巧" width="706" thumbnail="true"/>
             </li>
             <li>
-                <p><format style="bold">我的工作效率</format> 显示了一系列有用功能的统计数据和技巧。</p>
-                <p>可以通过 <include from="reuse-library.topic" element-id="main-menus-snippet" /> | <ui-path>帮助 | 我的工作效率</ui-path> 打开它。</p>
+                <control>我的工作效率</control> 显示了一系列有用功能的统计数据和技巧。
+                <p>您可以通过 <ui-path><include from="reuse-library.topic" element-id="main-menus-snippet"/> | 帮助 | 我的工作效率</ui-path> 打开它。</p>
                 <img src="我的工作效率.png" alt="我的工作效率" width="706" thumbnail="true"/>
             </li>
             <li>
-                <p><format style="bold">学习 IDE 功能</format> 是一款学习最常用和最有用操作的工具。它是一系列交互式课程，通过实际案例指导新用户使用快捷键。</p>
-                <p>可以通过 <include from="reuse-library.topic" element-id="main-menus-snippet" /> | <ui-path>帮助 | 学习 IDE 功能</ui-path> 打开它。</p>
+                <ui-path>学习 IDE 功能</ui-path> 提供一系列交互式课程，通过实际案例指导新用户学习使用快捷键。
+                <p>您可以通过 <ui-path><include from="reuse-library.topic" element-id="main-menus-snippet"/> | 帮助 | <a href="feature-trainer.topic" summary=""/></ui-path> 打开它。</p>
                 <img src="学习 IDE 功能.png" alt="学习 IDE 功能" width="706" thumbnail="true"/>
             </li>
         </list>
     </chapter>
-    <procedure title="离线访问文档" id="offline-help">
+    <procedure title="访问离线文档" id="offline-help">
         <step>
-            <p>如果没有互联网访问权限查看在线文档，可以使用 <a href="https://plugins.jetbrains.com/plugin/10260-intellij-idea-help">Intellij IDEA 帮助</a> 插件，它将通过内置的 Web 服务器提供帮助页面，以便离线使用。</p>
-            <img src="Intellij IDEA Help 插件.png" alt="Intellij IDEA Help 插件" width="706" thumbnail="true"/>
-            <note>离线帮助插件会在发布新的主要版本时更新。在发布周期内添加到在线帮助中的更改可能在离线帮助中不可用。</note>
+            <p>如果无法通过互联网访问在线文档，可以使用 <a href="https://plugins.jetbrains.com/plugin/10260-intellij-idea-help">IntelliJ IDEA 离线帮助插件</a> ，它将通过内置的 Web 服务器提供帮助页面，以便离线使用。</p>
+            <img src="IntelliJ IDEA Help 插件.png" alt="IntelliJ IDEA Help 插件" width="706" thumbnail="true"/>
+            <warning>此插件将在 IntelliJ IDEA 发布新的主要版本时同步更新。在发布周期内添加至在线帮助文档中的更改可能在离线帮助文档中不可用。</warning>
             <video src="https://www.youtube.com/watch?v=adYsa7FNe2s" width="706"/>
         </step>
     </procedure>
     <procedure title="通过 IDE 访问在线文档" id="open-help">
         <p>要从 IntelliJ IDEA 中访问在线帮助文档，请执行以下操作之一：</p>
-        <step>从 <include from="reuse-library.topic" element-id="main-menus-snippet" /> 中选择 <ui-path>帮助 | 帮助</ui-path>。</step>
-        <step>在 Intellij IDEA 中按 <shortcut>F1</shortcut> 。</step>
-        <step>单击 <a href="guided-tour-around-the-user-interface.topic" anchor="tool-windows" summary="工具窗口提供的功能是对代码编辑的补充。"/> 或对话框中的 <img src="帮助.svg" alt=""/> 。</step>
+        <step>在 <include from="reuse-library.topic" element-id="main-menus-snippet"/>中选择 <ui-path>帮助 | 帮助</ui-path> 。</step>
+        <step>在 IntelliJ IDEA 中按 <shortcut>F1</shortcut> 。</step>
+        <step>单击 <a href="guided-tour-around-the-user-interface.topic" anchor="tool-windows" summary=""/> 或对话框中的 <img src="帮助.svg" alt=""/> 。</step>
         <video src="https://www.youtube.com/watch?v=Fepv_lNEjsc" width="706"/>
     </procedure>
     <seealso>
@@ -67,5 +67,7 @@
             <a href="https://www.youtube.com/user/intellijideavideo">IntelliJ IDEA videos</a>
             <a href="https://twitter.com/intellijidea">IntelliJ IDEA twitter (@intellijidea)</a>
         </category>
+        <include from="reuse-library.topic" element-id="ides-snippet"/>
+        <include from="reuse-library.topic" element-id="programming-language-snippet"/>
     </seealso>
 </topic>

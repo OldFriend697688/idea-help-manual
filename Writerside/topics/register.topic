@@ -3,11 +3,14 @@
         SYSTEM "https://resources.jetbrains.com/writerside/1.0/xhtml-entities.dtd">
 <topic xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
        xsi:noNamespaceSchemaLocation="https://resources.jetbrains.com/writerside/1.0/topic.v2.xsd"
-       title="注册 Intellij IDEA" id="register">
+       title="注册 IntelliJ IDEA" id="register">
     <show-structure depth="1" for="chapter,procedure" />
     <primary-label ref="Ultimate"/>
     <secondary-label ref="FreeTrial"/>
-    <note>您可以免费试用 Intellij IDEA Ultimate（旗舰版）最多 <format style="bold">30</format> 天。当安装 <tooltip term="ide">IDE</tooltip> 后，请登录您的 <a href="https://account.jetbrains.com/login">JetBrains 帐户</a> 以开始试用 Intellij IDEA Ultimate。</note>
+    <snippet id="close-idea-prompt-information">
+        <warning>特别强调，在卸载和配置激活补丁脚本前，请确保 IntelliJ IDEA 处于关闭状态。</warning>
+    </snippet>
+    <note>您可以免费试用 IntelliJ IDEA Ultimate（旗舰版）至多 <format style="bold">30</format> 天。当安装 <tooltip term="ide">IDE</tooltip> 后，请登录您的 <a href="https://account.jetbrains.com/login">JetBrains 帐户</a> 以便开始试用 IntelliJ IDEA Ultimate。</note>
     <tip>
         <list>
             <li>如果您使用 <a href="https://www.jetbrains.com.cn/toolbox-app/">Toolbox</a> 安装 JetBrains 产品，并且已登录您的 JetBrains 帐户，IntelliJ IDEA 将会自动登录您的 JetBrains 帐户。</li>
@@ -15,45 +18,42 @@
         </list>
     </tip>
     <procedure title="开始免费试用" id="start-trial" type="choices">
-        <note>请先阅读 <a href="installation-guide.topic" /> 并正确安装 Intellij IDEA 后再阅读此处内容。 &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;</note>
+        <note>请先阅读 <a href="installation-guide.topic" summary=""/> 并正确安装 IntelliJ IDEA 后再阅读此处内容。 &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;</note>
         <step>
-            <p>启动 Intellij IDEA 时将会弹出 <format style="bold">许可证</format> 对话框，选中其中的 <format style="bold">开始试用</format> 。</p>
-            <img src="开始试用（1）.png" alt="开始试用" thumbnail="true"/>
+            <p>启动 IntelliJ IDEA 时将会弹出 <control>许可证</control> ，请选中其中的 <ui-path>开始试用</ui-path> 。</p>
+            <img src="开始试用（1）.png" alt="开始试用" thumbnail="true" width="706"/>
             <img src="登录 JetBrains 账号（1）.png" alt="登录 JetBrains 账号" width="706" thumbnail="true"/>
         </step>
         <step>
-            <p>登录在 JetBrains 网站上的帐户，然后在 <format style="bold">许可证</format> 对话框中单击 <format style="bold">开始试用</format> 按钮并开始试用。</p>
+            <p>登录在 JetBrains 网站上的帐户，然后在 <control>许可证</control> 中单击 <control>开始试用</control> 并开始试用。</p>
             <img src="登录 JetBrains 账号（2）.png" alt="登录 JetBrains 账号" width="706" thumbnail="true"/>
             <img src="登录 JetBrains 账号（3）.png" alt="登录 JetBrains 账号" width="706" thumbnail="true"/>
             <img src="开始试用（2）.png" alt="开始试用" width="706" thumbnail="true"/>
         </step>
-        <warning>若提示 <format style="bold">Error fetching licenses for ll/lwu584742@gmail.com: Your trial has expired. Tocontinue using Intellil lDEA Ultimate 2022.3, youmust purchase a subscription.</format> 等类似信息，则代表此账号已过试用期。您可以尝试注册新的账号再次尝试免费试用。</warning>
+        <warning>若提示 <format style="bold">Error fetching licenses for ll/lwu584742@gmail.com: Your trial has expired. To continue using Intellij IDEA Ultimate 2022.3, you must purchase a subscription.</format> 等类似信息，则代表此账号已过试用期。您可以尝试注册新的账号再次尝试免费试用。</warning>
         <img src="试用期已到期提示.png" alt="试用期已过期" width="706" thumbnail="true"/>
     </procedure>
-    <note>
-        <p>试用版到期后，您需要购买并注册许可证才能继续使用 IntelliJ IDEA Ultimate。&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;</p>
-        <p>IntelliJ IDEA Ultimate 的下一个发布版本将提供新的试用期。</p>
-    </note>
-    <note><a href="https://www.jetbrains.com/idea/download/other.html">IntelliJ IDEA Community Edition（社区版）</a> 和 <a href="https://www.jetbrains.com/edu-products/download/#section=idea">IntelliJ IDEA Edu（教育版）</a> 是免费的，无需任何许可证即可使用。但您不能升级到 IntelliJ IDEA Ultimate：请按照 <a href="installation-guide.topic" anchor="standalone"/> 中的说明单独下载并安装。</note>
+    <note>试用版到期后，您需要购买并注册许可证才能继续使用 IntelliJ IDEA Ultimate。&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;</note>
+    <note><a href="https://www.jetbrains.com/idea/download/other.html">IntelliJ IDEA Community Edition（社区版）</a> 和 <a href="https://www.jetbrains.com/edu-products/download/#section=idea">IntelliJ IDEA Edu（教育版）</a> 无需任何许可证即可 <format style="bold">免费</format> 使用。但您不能将它们直接升级至 IntelliJ IDEA Ultimate（旗舰版），如果您需要使用它，请按照 <a href="installation-guide.topic" anchor="standalone" summary=""/> 中的说明单独下载并安装它。</note>
     <procedure title="激活 IntelliJ IDEA" id="activate-license" type="steps">
         <step>
-            <p>执行以下操作之一打开 <format style="bold">许可证</format> 对话框：</p>
+            <p>执行以下操作之一打开 <control>许可证</control> ：</p>
             <list>
                 <li>从 <include from="reuse-library.topic" element-id="main-menus-snippet" /> 中选择 <ui-path>帮助 | 注册</ui-path> 。</li>
                 <li>
-                    在 <format style="bold">欢迎界面</format> ，单击 <ui-path>帮助 | 管理许可证</ui-path> 。
-                    <img src="管理许可证.gif" alt="管理许可证" thumbnail="true"/>
+                    <p>在 <control>欢迎界面</control> ，单击 <ui-path>帮助 | 管理许可证</ui-path> 。</p>
+                    <img src="管理许可证.gif" alt="管理许可证" thumbnail="true" width="706"/>
                 </li>
             </list>
         </step>
         <step>如有必要，请登录您的 JetBrains 账户。</step>
         <step>
-            <p>选择激活 Intellij IDEA 许可证的方式：</p>
+            <p>选择激活 IntelliJ IDEA 许可证的方式：</p>
             <tabs>
                 <tab title="JetBrains 账户（不推荐）" id="jb-account">
                     <p>使用 <a href="https://account.jetbrains.com/login">JetBrains 帐户</a> 注册。</p>
                     <img src="使用 JetBrains 账号注册 IDEA.png" alt="使用 JetBrains 账号注册 IDEA" width="706" thumbnail="true"/>
-                    <note>IntelliJ IDEA 将自动显示许可证列表及其详细信息，如到期日期和标识符。单击 <format style="bold">Activate（激活）</format> 开始使用许可证。 如果列表中未显示您的许可证，请单击 <format style="bold">Refresh license list（刷新许可证列表）</format> 。</note>
+                    <note>IntelliJ IDEA 将自动显示许可证列表及其详细信息，例如到期日期。单击 <control>Activate（激活）</control> 开始使用许可证。 如果列表中未显示您的许可证，请单击 <control>Refresh license list（刷新许可证列表）</control> 。</note>
                 </tab>
                 <tab title="激活码" id="activation-code">
                     <p>使用激活码注册。购买相应产品的许可证时，您可以获得激活码。</p>
@@ -66,10 +66,10 @@
             </tabs>
         </step>
     </procedure>
-    <!-- 非官方正版途径激活 Intellij IDEA，仅用于学习交流用途，切勿用于实际项目开发。-->
+    <!-- 非官方正版途径激活 IntelliJ IDEA，仅用于学习交流用途，切勿用于实际项目开发。-->
     <chapter id="crack-activation" title="使用破解激活脚本激活">
         <primary-label ref="CrackScript" />
-        <warning>以下所述的激活方法仅供学术探讨与知识交流之用。在此郑重提醒，一旦您通过这些方式激活了 IntelliJ IDEA，务必不得将其应用于任何形式的商业项目或个人开发工作中。若因忽视此警告，导致软件使用不当，从而引发的经济损失、法律纠纷或商业信誉损害，本人将概不负责。请务必铭记，非法使用软件可能带来严重后果，这不仅关乎个人诚信，更可能触及法律红线，望各位慎之又慎。</warning>
+        <warning>以下所述的激活方法仅供学术探讨与知识交流之用。在此郑重提醒，一旦您通过此方式激活了 IntelliJ IDEA，务必不得将其应用于任何形式的商业项目或个人开发工作中。若因忽视此警告，导致软件使用不当，从而引发的经济损失、法律纠纷或商业信誉损害，本人将概不负责。</warning>
         <procedure title="下载破解激活脚本" id="download-hacker-script" default-state="collapsed" collapsible="true">
             <step>
                 <p><a href="https://3.jetbra.in/">单击此处</a> 获取激活补丁脚本。</p>
@@ -81,18 +81,16 @@
             </step>
         </procedure>
         <procedure title="配置与激活步骤" id="configuration-and-activation" default-state="collapsed" collapsible="true">
-            <warning>特别强调，在运行激活补丁脚本之前，请确保 Intellij IDEA 处于未启动状态。&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;</warning>
+            <include from="register.topic" element-id="close-idea-prompt-information"/>
             <step>
-                <p>进入 <format style="bold">scripts</format> 目录中找到适用于当前操作系统的可执行脚本并运行它。</p>
+                <p>进入 <path>scripts</path> 文件夹中找到适用于当前 <tooltip term="operating-system">操作系统</tooltip> 的可执行脚本并运行它。</p>
                 <img src="可用的激活脚本.png" alt="可用的激活脚本" width="706" thumbnail="true"/>
-                <note>
-                    <p>对于 <tooltip term="windows">Windows</tooltip> 系统而言，请运行 <format style="bold">.vbs</format> 可执行脚本。&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;</p>
-                    <p>对于 <tooltip term="macos">macOS</tooltip> 和 <tooltip term="linux">Linux</tooltip> 系统而言，请运行 <format style="bold">.sh</format> 可执行脚本。&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;</p>
-                </note>
-                <note><p>如果您正在使用 <format style="bold">Windows</format> 系统，并且仅需要为当前用户安装激活脚本补丁，则请运行 <format style="bold">install-current-user.vbs</format> 。 但是，如果您想要为所有用户安装激活脚本补丁则请运行 <format style="bold">install-all-users.vbs</format> 。</p></note>
+                <note>对于 <tooltip term="windows">Windows</tooltip> 系统而言，请运行 <path>.vbs</path> 可执行脚本。&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;</note>
+                <note>对于 <tooltip term="macos">macOS</tooltip> 和 <tooltip term="linux">Linux</tooltip> 系统而言，请运行 <path>.sh</path> 可执行脚本。&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;</note>
+                <note>如果您正在使用 <tooltip term="windows">Windows</tooltip> 系统，并且仅需要为当前用户安装激活脚本补丁，则请运行 <path>install-current-user.vbs</path> 。 但是，如果您想要为所有用户安装激活脚本补丁则请运行 <path>install-all-users.vbs</path> 。</note>
             </step>
             <step>
-                <p>运行脚本后单击 <format style="bold">确定</format> 按钮，然后等待 <format style="bold">Done.</format> 的提示出现。</p>
+                <p>运行脚本后单击 <control>确定</control> ，然后等待 <control>Done.</control> 的提示出现。</p>
                 <img src="等待 Done. 提示出现.gif" alt="等待 Done. 提示出现" width="706" thumbnail="true"/>
             </step>
             <step>
@@ -100,7 +98,7 @@
                 <img alt="复制激活码.gif" src="复制激活码.gif" width="706" thumbnail="true"/>
             </step>
             <step>
-                <p>启动 Intellij IDEA 并在 <format style="bold">激活码</format> 选项卡中粘贴激活码，然后单击 <format style="bold">激活</format> 按钮。</p>
+                <p>启动 IntelliJ IDEA 并在 <ui-path>激活码</ui-path> 选项卡中粘贴激活码，然后单击 <control>激活</control> 。</p>
                 <video src="https://www.youtube.com/watch?v=ak344p7DpFI" width="706"/>
             </step>
             <step>
@@ -109,17 +107,17 @@
             </step>
         </procedure>
         <procedure title="卸载破解激活脚本" id="uninstall-crack-activation-script" default-state="collapsed" collapsible="true">
-            <warning>特别强调，在卸载激活补丁脚本之前，请确保 Intellij IDEA 处于未启动状态。&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;</warning>
+            <include from="register.topic" element-id="close-idea-prompt-information" />
             <step>
-                <p>进入 <format style="bold">scripts</format> 目录中找到适用于当前操作系统的可执行卸载脚本并运行它。</p>
+                <p>进入 <path>scripts</path> 文件夹中找到适用于当前操作系统的可执行卸载脚本并运行它。</p>
                 <note>
-                    <p>对于 <tooltip term="windows">Windows</tooltip> 系统而言，请运行 <format style="bold">uninstall-all-users.vbs</format> 或 <format style="bold">uninstall-current-user.vbs</format> 进行卸载。&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;</p>
-                    <p>对于 <tooltip term="macos">macOS</tooltip> 和 <tooltip term="linux">Linux</tooltip> 系统而言，请运行 <format style="bold">uninstall.sh</format> 进行卸载。 &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;</p>
+                    <p>对于 <tooltip term="windows">Windows</tooltip> 系统而言，请运行 <path>uninstall-all-users.vbs</path> 或 <path>uninstall-current-user.vbs</path> 进行卸载。&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;</p>
+                    <p>对于 <tooltip term="macos">macOS</tooltip> 和 <tooltip term="linux">Linux</tooltip> 系统而言，请运行 <path>uninstall.sh</path> 进行卸载。 &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;</p>
                 </note>
             </step>
-            <step><p>运行脚本后单击 <format style="bold">确定</format> 按钮，然后等待 <format style="bold">Done.</format> 的提示出现。</p></step>
+            <step>运行脚本后单击 <control>确定</control> ，然后等待 <control>Done.</control> 的提示出现。</step>
             <step>
-                <p>卸载完毕后，Intellij IDEA 将会还原至未激活状态。</p>
+                <p>卸载完毕后，IntelliJ IDEA 将会还原至未激活状态。</p>
                 <img src="卸载破解激活脚本后激活码将会失效.png" alt="卸载破解激活脚本后激活码将会失效" width="706"/>
             </step>
             <step>
@@ -128,18 +126,30 @@
             </step>
         </procedure>
     </chapter>
-    <!-- 删除 %APPDATA%\JetBrains\IntelliJIdea2022.3\idea.key 文件可使 Intellij IDEA 恢复至未激活状态。 -->
+    <!-- 直接删除 %APPDATA%\JetBrains\IntelliJIdea2022.3\idea.key 文件可使 IntelliJ IDEA 恢复至未激活状态。 -->
     <chapter id="remove-activation-license" title="移除激活许可证">
         <primary-label ref="Ultimate"/>
-        <p>如果想要解除 Intellij IDEA 的激活状态，您可以通过点击 <format style="bold">移除许可证</format> 按钮实现。</p>
-        <p>您可以通过以下几种方式找到 <format style="bold">移除许可证</format> 按钮：</p>
+        <p>如果想要解除 IntelliJ IDEA 的激活状态，您可以通过单击 <control>移除许可证</control> 实现。</p>
+        <p>您可以通过以下几种方式找到 <control>移除许可证</control> ：</p>
         <list>
-            <li>从 <include from="reuse-library.topic" element-id="main-menus-snippet" /> 中选择 <ui-path>帮助 | 注册</ui-path> ，然后找到 <format style="bold">移除许可证</format> 按钮。</li>
-            <li>在 <format style="bold">欢迎界面</format> 中单击 <ui-path>帮助 | 管理许可证</ui-path> ，然后找到 <format style="bold">移除许可证</format> 按钮。 <img src="移除许可证.png" alt="移除许可证" thumbnail="true" width="706"/></li>
+            <li>从 <include from="reuse-library.topic" element-id="main-menus-snippet" /> 中选择 <ui-path>帮助 | 注册</ui-path> ，然后找到 <control>移除许可证</control> 。</li>
+            <li>在 <format style="bold">欢迎界面</format> 中单击 <ui-path>帮助 | 管理许可证</ui-path> ，然后找到 <control>移除许可证</control> 。 <img src="移除许可证.png" alt="移除许可证" thumbnail="true" width="706"/></li>
             <li>
-                按 <shortcut>Ctrl</shortcut><shortcut>Shift</shortcut><shortcut>A</shortcut> 在 <format style="bold">操作</format> 中键入 <format style="bold">注册</format> 并按 <shortcut>Enter</shortcut> 然后在 <format style="bold">许可证</format> 中找到 <format style="bold">移除许可证</format> 按钮。
+                <p>在 <control>操作（ <shortcut>Ctrl</shortcut><shortcut>Shift</shortcut><shortcut>A</shortcut> ）</control> 中键入 <ui-path>注册</ui-path> 并按 <shortcut>Enter</shortcut> 然后在 <control>许可证</control> 中找到 <control>移除许可证</control> 。</p>
                 <video src="https://www.youtube.com/watch?v=MLYZ2UEhNI4" width="706"/>
             </li>
         </list>
     </chapter>
+    <seealso>
+        <category ref="references">
+            <a href="guided-tour-around-the-user-interface.topic" summary=""/>
+            <a href="configuring-colors-and-fonts.topic" summary=""/>
+            <a href="user-interface-themes.topic" summary=""/>
+            <a href="installation-guide.topic" anchor="simplified-chinese-language" summary=""/>
+            <a href="directories-used-by-the-ide-to-store-settings-caches-plugins-and-logs.topic" summary=""/>
+            <a href="https://3.jetbra.in/" summary="">激活补丁下载发布页（需挂代理）</a>
+        </category>
+        <include from="reuse-library.topic" element-id="ides-snippet"/>
+        <include from="reuse-library.topic" element-id="programming-language-snippet"/>
+    </seealso>
 </topic>

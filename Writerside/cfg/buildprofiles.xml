@@ -10,7 +10,7 @@
         <web-root>https://github.com/OldFriend697688/idea-help-manual</web-root>
         <custom-css>custom.css</custom-css>
         <download-page>https://www.jetbrains.com/idea/download/other.html</download-page>
-        <download-title>下载 Intellij IDEA 2022.3.3</download-title>
+        <download-title>下载 IntelliJ IDEA 2022.3.3</download-title>
         <showDownloadButton>true</showDownloadButton>
     </variables>
 

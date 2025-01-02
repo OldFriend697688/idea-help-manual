@@ -6,212 +6,211 @@
        title="专业技巧" id="pro-tips">
     <chapter id="refactorings" title="重构">
         <chapter id="undo-refactorings" title="撤销重构" default-state="collapsed" collapsible="true">
-            <p>使用 Intellij IDEA 可以非常轻松地撤销已执行过的 <tooltip term="refactoring">重构</tooltip> 操作。这意味着无论您执行多少次重构操作，都可以通过按下 <shortcut>Ctrl</shortcut><shortcut>Z</shortcut> 触发撤销操作来逐步撤销它们。如果想要将代码还原至未执行过撤销重构操作前的状态，请按下 <shortcut>Ctrl</shortcut><shortcut>Shift</shortcut><shortcut>Z</shortcut>。</p>
-            <!--<video src="https://www.youtube.com/watch?v=V0tmwS6W5XA" width="706"/>-->
+            <p>使用 IntelliJ IDEA 可以非常轻松地撤销已执行过的 <tooltip term="refactoring">重构</tooltip> 操作。这意味着无论您执行多少次重构操作，都可以通过按 <shortcut>Ctrl</shortcut><shortcut>Z</shortcut> 触发撤销操作来逐步撤销它们。如果想要将代码还原至未执行过撤销重构操作前的状态，请按 <shortcut>Ctrl</shortcut><shortcut>Shift</shortcut><shortcut>Z</shortcut> 。</p>
             <video src="https://www.youtube.com/watch?v=HXVjGoIs2_E" width="706"/>
         </chapter>
         <chapter id="type-migration" title="类型迁移" default-state="collapsed" collapsible="true">
-            <p>在执行重构操作时，通常会重命名 <tooltip term="symbol">符号</tooltip> 或者是提取并移动代码中的语句。然而，重构的意义远不止于此，有些时候还可以通过 <format style="bold">类型迁移</format>（<shortcut>Ctrl</shortcut><shortcut>Shift</shortcut><shortcut>F6</shortcut> ） 操作快速更改 <tooltip term="variables">变量</tooltip>、<tooltip term="java-field">字段</tooltip>、<tooltip term="parameter">参数</tooltip> 或是 <tooltip term="method">方法</tooltip> 的 <tooltip term="method-return-value">返回值</tooltip> 的类型并更新相关代码以便解决可能的冲突。</p>
+            <p>在执行重构操作时，通常会重命名 <tooltip term="symbol">符号</tooltip> 或者是提取并移动代码中的语句。然而，重构的意义远不止于此，有些时候还可以通过 <control>类型迁移（ <shortcut>Ctrl</shortcut><shortcut>Shift</shortcut><shortcut>F6</shortcut> ）</control> 操作快速更改 <tooltip term="variables">变量</tooltip> 、 <tooltip term="java-field">字段</tooltip> 、 <tooltip term="parameter">参数</tooltip> 或是 <tooltip term="method">方法</tooltip> 的 <tooltip term="method-return-value">返回值</tooltip> 的类型并更新相关代码以便解决可能的冲突。</p>
             <code-block collapsed-title="TestTypeMigration.java" collapsible="true" default-state="collapsed" lang="java" src="TestTypeMigration.java"/>
             <video src="https://www.youtube.com/watch?v=hP4bU9hbTlU" width="706"/>
-            <!--<video src="https://www.youtube.com/watch?v=DiGXMBqNJOI" width="706"/>-->
         </chapter>
         <chapter id="invert-boolean" title="反转布尔值" default-state="collapsed" collapsible="true">
             <include from="reuse-library.topic" element-id="invert-boolean-refactoring-snippet"/>
             <video src="https://www.youtube.com/watch?v=-vj-_OwfThE" width="706"/>
         </chapter>
         <chapter id="extract-string-fragments" title="提取字符串片段等内容" default-state="collapsed" collapsible="true">
-            <p>Intellij IDEA 不仅能够重构可执行代码，还能够重构字符串文本等内容。只需要选中它们并按下 <shortcut>Ctrl</shortcut><shortcut>Alt</shortcut><shortcut>Shift</shortcut><shortcut>T</shortcut> ，然后选中 <format style="bold">引入变量/常量/字段/形参</format> 选项即可提取它们为对应的 <tooltip term="variables">变量</tooltip>、<tooltip term="constant">常量</tooltip>、<tooltip term="java-field">字段</tooltip> 或是 <tooltip term="formal-parameter">形参</tooltip> 并在整个代码中替换其用法。</p>
+            <p>IntelliJ IDEA 不仅能够重构可执行代码，还能够重构字符串文本等内容。只需要选中它们并打开 <control>重构此（ <shortcut>Ctrl</shortcut><shortcut>Alt</shortcut><shortcut>Shift</shortcut><shortcut>T</shortcut> ）</control> <a href="guided-tour-around-the-user-interface.topic" anchor="popup-menus" summary=""/> ，然后选择 <ui-path>引入变量</ui-path> 、 <ui-path>引入常量</ui-path> 、 <ui-path>引入字段</ui-path> 、 <ui-path>引入形参</ui-path> 即可提取它们为对应的 <tooltip term="variables">变量</tooltip> 、 <tooltip term="constant">常量</tooltip> 、 <tooltip term="java-field">字段</tooltip> 或是 <tooltip term="formal-parameter">形参</tooltip> 并在整个代码中替换其用法。</p>
             <video src="https://www.youtube.com/watch?v=p9A56GsAvu4" width="706"/>
         </chapter>
     </chapter>
     <chapter id="editor" title="编辑器">
         <chapter id="emmet" title="Emmet" default-state="collapsed" collapsible="true">
-            <p><a href="https://emmet.io/" summary="Emmet 是一个强大的代码编写助手，专为提高 HTML 和 CSS 的编写效率而设计。通过使用简短的缩写，Emmet 可以迅速扩展成复杂的代码结构，大幅节省开发者时间。它支持多种文本编辑器和 IDE，通过特定的语法规则，实现快速生成 HTML 标签、属性、CSS 声明等功能。Emmet 的缩写语法直观易学，使得编写网页布局和样式表变得更加高效和便捷。无论是初学者还是资深开发者，Emmet 都能显著提升他们的工作效率。">Emmet</a> 是编写 <tooltip term="html">HTML</tooltip> 、<tooltip term="stylesheets (css, less, sass)">CSS</tooltip> 和 <tooltip term="xml">XML</tooltip> 代码的好帮手。Intellij IDEA 对其提供开箱即用的支持，要使用它只需要编写 Emmet 表达式并按下 <shortcut>Tab</shortcut> 键展开它即可。</p>
+            <a href="https://emmet.io/" summary="Emmet 是一个强大的代码编写助手，专为提高 HTML 和 CSS 的编写效率而设计。通过使用简短的缩写，Emmet 可以迅速扩展成复杂的代码结构，大幅节省开发者时间。它支持多种文本编辑器和 IDE，通过特定的语法规则，实现快速生成 HTML 标签、属性、CSS 声明等功能。Emmet 的缩写语法直观易学，使得编写网页布局和样式表变得更加高效和便捷。无论是初学者还是资深开发者，Emmet 都能显著提升他们的工作效率。">Emmet</a> 是编写 <tooltip term="html">HTML</tooltip> 、 <tooltip term="stylesheets (css, less, sass)">CSS</tooltip> 和 <tooltip term="xml">XML</tooltip> 代码的好帮手。IntelliJ IDEA 对其提供开箱即用的支持，您只需要编写 Emmet 表达式并按 <shortcut>Tab</shortcut> 键展开它即可。
             <video src="https://www.youtube.com/watch?v=4Rcm4O9kYF0" width="706"/>
         </chapter>
         <chapter id="multiple-selections" title="多重选择" default-state="collapsed" collapsible="true">
             <note>要查看某个代码片段在当前文件中的所有用法，请选中此代码片段并按 <shortcut>Ctrl</shortcut><shortcut>Shift</shortcut><shortcut>F7</shortcut> 。</note>
-            <p>多重选择是一个相对较新且非常强大的编辑器功能，它允许快速选择并同时编辑多个（相邻或不相邻）代码片段。要使用此功能可以先按下 <shortcut>Alt</shortcut><shortcut>J</shortcut> 选中某个代码片段，然后继续按下 <shortcut>Alt</shortcut><shortcut>J</shortcut> ，Intellij IDEA 将会在当前打开的文件中向前搜索，直到搜索到匹配的内容，并将其添加到选择中。</p>
-            <img src="将下一个匹配项添加到选择.png" alt="将下一个匹配项添加到选择" width="706" thumbnail="true"/>
-            <p>此时，可以再次按下 <shortcut>Alt</shortcut><shortcut>J</shortcut> 继续向前搜索，或按下 <shortcut>Alt</shortcut><shortcut>Shift</shortcut><shortcut>J</shortcut> 取消上一个匹配的搜索项。但请注意，当搜索到达文件末尾时，它将会从文件开头重新开始搜索。当选择完成后，就可以像编辑一个整体一样开始编辑所有代码片段。</p>
+            <p>多重选择是一个相对较新且非常强大的编辑器功能，它允许快速选择并同时编辑多个（相邻或不相邻）代码片段。要使用此功能可以先按 <shortcut>Alt</shortcut><shortcut>J</shortcut> 选中某个代码片段，然后继续按 <shortcut>Alt</shortcut><shortcut>J</shortcut> ，IntelliJ IDEA 将会在当前打开的文件中向前搜索，直到搜索到匹配的内容，并将其添加至选择中。</p>
+            <img src="将下一个匹配项添加至选择.png" alt="将下一个匹配项添加至选择" width="706" thumbnail="true"/>
+            <p>此时，可以再次按 <shortcut>Alt</shortcut><shortcut>J</shortcut> 继续向前搜索，或按 <shortcut>Alt</shortcut><shortcut>Shift</shortcut><shortcut>J</shortcut> 取消上一个匹配的搜索项。</p>
+            <p>但请注意，当搜索到达文件末尾时，它将会从文件开头重新开始搜索。当匹配操作完成后，您就可以像编辑一个整体一样直接编辑所有选中的代码片段。</p>
             <video src="https://www.youtube.com/watch?v=DOLtv_KFBOQ" width="706"/>
         </chapter>
         <chapter id="regex" title="正则表达式" default-state="collapsed" collapsible="true">
-            <p><tooltip term="regex">正则表达式</tooltip> 功能强大且被广泛使用，但想要正确编写它们实在太困难了。</p>
-            <p>Intellij IDEA 将帮助检查代码中的任何正则表达式，只需要将光标移动至其上并按下 <shortcut>Alt</shortcut><shortcut>Enter</shortcut> 然后选择 <format style="bold">检查正则表达式</format> 即可验证当前的正则表达式是否可以匹配目标文本。</p>
+            <p><tooltip term="regex">正则表达式</tooltip> 功能强大且被广泛应用，但想要正确编写并验证它们的确是太困难了。</p>
+            <p>但是，在 IntelliJ IDEA 中您只需要将光标移动至其上并按 <shortcut>Alt</shortcut><shortcut>Enter</shortcut> 然后选择 <ui-path>检查正则表达式</ui-path> 即可验证当前的正则表达式是否可以匹配目标文本。</p>
             <code-block collapsed-title="TestRegex.java" collapsible="true" default-state="collapsed" lang="java" src="TestRegex.java"/>
             <video src="https://www.youtube.com/watch?v=hjTBcFciPE0" width="706"/>
             <chapter id="find-and-replace-with-regex-groups" title="使用正则表达式组进行查找和替换">
-                <p>Intellij IDEA 在 <a href="tutorial-finding-and-replacing-text-using-regular-expressions.topic">查找和替换</a> 中支持正则表达式。值得注意的是，它支持替换正则表达式的捕获组。</p><img src="在查找和替换中使用正则表达式捕获组.png" alt="在查找和替换中使用正则表达式捕获组" width="706" thumbnail="true"/>
+                <p>IntelliJ IDEA 在 <a href="tutorial-finding-and-replacing-text-using-regular-expressions.topic" summary="">查找和替换</a> 中支持使用正则表达式。它同时也支持替换正则表达式的捕获组。</p>
+                <img src="在查找和替换中使用正则表达式捕获组.png" alt="在查找和替换中使用正则表达式捕获组" width="706" thumbnail="true"/>
                 <video src="https://www.youtube.com/watch?v=CfYbKfgbOSI" width="706"/>
             </chapter>
         </chapter>
         <chapter id="bytecode-viewer" title="字节码查看器" default-state="collapsed" collapsible="true">
-            <p>有时候，查看程序生成的 <tooltip term="java-bytecode">字节码</tooltip> 是很有用的。在 Intellij IDEA 中内置了一个字节码查看器，可以通过 <ui-path><include from="reuse-library.topic" element-id="main-menus-snippet" /> | 视图 | 显示字节码</ui-path> 来调用它。另外请参阅 <a href="decompiler.topic" summary="使用内置的 Java 字节码反编译器可以将编译后的字节码显示为类似于人类可读的 Java 代码。"/>。</p>
+            <p>有时候，查看程序生成的 <tooltip term="java-bytecode">字节码</tooltip> 是很有用的。IntelliJ IDEA 中内置了一个字节码查看器，可以通过 <ui-path><include from="reuse-library.topic" element-id="main-menus-snippet"/> | 视图 | 显示字节码</ui-path> 来调用它。另外请参阅 <a href="decompiler.topic" summary=""/> 。</p>
             <video src="https://www.youtube.com/watch?v=sYCl-Uxuo1A" width="706"/>
         </chapter>
         <chapter id="compare-with-clipboard" title="与剪贴板比较" default-state="collapsed" collapsible="true">
-            <p>Intellij IDEA 内置了针对代码、 <tooltip term="java-jar-file">JAR 文件</tooltip> 、修订版本、甚至是图像之间的差异化查看器。要使用此功能，请选择任意一对文件并按下 <shortcut>Ctrl</shortcut><shortcut>D</shortcut>。</p>
-            <p>如果选择的是一个单独的文件， <tooltip term="ide">IDE</tooltip> 将会提示选择需要进行比较的文件。</p>
-            <p>要快速将活动编辑器与剪切板进行比较，请选择 <ui-path><include from="reuse-library.topic" element-id="main-menus-snippet" /> | 视图 | 与剪切板比较</ui-path> 。</p>
+            <p>IntelliJ IDEA 内置了针对代码、 <tooltip term="java-jar-file">JAR 文件</tooltip> 、 <tooltip term="revision">修订版本</tooltip> 、甚至是图像之间的差异化查看器。要使用此功能，请选择任意一对文件并按 <shortcut>Ctrl</shortcut><shortcut>D</shortcut> 。</p>
+            <p>如果您选择的是一个单独的文件， <tooltip term="ide">IDE</tooltip> 将会提示选择需要进行比较的文件。</p>
+            <p>要快速将活动 <include from="reuse-library.topic" element-id="editor-snippet" /> 与剪贴板中的内容进行比较，请选择 <ui-path><include from="reuse-library.topic" element-id="main-menus-snippet"/> | 视图 | 与剪贴板比较</ui-path> 。</p>
             <video src="https://www.youtube.com/watch?v=cdWNI-W3OYM" width="706"/>
         </chapter>
         <chapter id="paste-from-history" title="从历史记录中粘贴" default-state="collapsed" collapsible="true">
+            <p>IntelliJ IDEA 会记录放在剪贴板上的所有内容。只要按 <shortcut>Ctrl</shortcut><shortcut>Shift</shortcut><shortcut>V</shortcut> ，就可以选择并粘贴它们。</p>
+            <video src="https://www.youtube.com/watch?v=WU3GJSRP_qQ" width="706"/>
             <note>
-                <p>Intellij IDEA 会从系统中读取剪切板的内容并将其显示在 <format style="bold">选择要粘贴的内容</format> 对话框中。</p>
-                <p>以 Windows 10 系统为例，如果想要清空这些内容，请进入系统设置，然后选择 <format style="bold">系统 | 剪切板</format> ，找到 <format style="bold">清除剪切板数据</format> 并单击 <format style="bold">清除</format> 按钮，然后关闭并重启 Intellij IDEA 即可。</p>
+                <p>IntelliJ IDEA 会从系统中读取剪贴板的内容并将其显示在 <format style="bold">选择要粘贴的内容</format> 中。</p>
+                <p>以 Windows 10 系统为例，如果想要清空这些内容，请进入系统设置，然后选择 <format style="bold">系统 | 剪贴板</format> ，找到 <format style="bold">清除剪贴板数据</format> 并单击 <format style="bold">清除</format> ，然后关闭并重启 IntelliJ IDEA 即可。</p>
             </note>
             <video src="https://www.youtube.com/watch?v=VXd8qm5JOR8" width="706"/>
-            <p>IntelliJ IDEA 会记录放在剪贴板上的所有内容。只要按下 <shortcut>Ctrl</shortcut><shortcut>Shift</shortcut><shortcut>V</shortcut> ，就可以粘贴它们。</p>
-            <video src="https://www.youtube.com/watch?v=WU3GJSRP_qQ" width="706"/>
         </chapter>
     </chapter>
     <chapter id="coding-assistance" title="编码辅助">
         <chapter id="type-info" title="类型信息" default-state="collapsed" collapsible="true">
-            <note>对于自定义的 <tooltip term="java-class">类</tooltip>、<tooltip term="java-interface">接口</tooltip>、<tooltip term="method">方法</tooltip> 等符号而言，需预先通过 <a href="working-with-code-documentation.topic">JavaDoc</a> <tooltip term="java-annotations">注解</tooltip>＋<tooltip term="java-document-comments">文档注释</tooltip> 的组合形式对其进行标注。在此之后，每当按下 <shortcut>Ctrl</shortcut><shortcut>Q</shortcut> 时才会在 <format style="bold">快速文档</format> 中显示这些信息。一个非常简单的例子是，当按下 <shortcut>Ctrl</shortcut><shortcut>N</shortcut> 并键入 <code>java.lang.String</code> 后进入其内部，将可以明确看到 <tooltip term="java-class-declaration">类声明</tooltip> 及 <tooltip term="java-method-declaration">方法声明</tooltip> 上方的注释信息。</note>
-            <p>如果想获得有关于某个 <tooltip term="symbol">符号</tooltip> 的详细信息，例如：它来自于哪里、它用于解决什么问题？作者又是谁？。此时，使用 <format style="bold">快速文档</format> 将会是最佳的选择。只需要选中目标符号并按下 <shortcut>Ctrl</shortcut><shortcut>Q</shortcut> 即可弹出一个包含这些详细信息的弹出窗口。</p>
+            <note>对于自定义的 <tooltip term="java-class">类</tooltip> 、 <tooltip term="java-interface">接口</tooltip> 、 <tooltip term="method">方法</tooltip> 等符号而言，需先通过 <a href="working-with-code-documentation.topic" summary="">JavaDoc</a><tooltip term="java-annotations">注解</tooltip> + <tooltip term="java-document-comments">文档注释</tooltip> 的组合形式对其进行标注。在此之后，每当按 <shortcut>Ctrl</shortcut><shortcut>Q</shortcut> 时才会在 <format style="bold">快速文档</format> 中显示这些信息。一个非常简单的例子是，当按 <shortcut>Ctrl</shortcut><shortcut>N</shortcut> 并键入 <code>java.lang.String</code> 后进入其内部，将可以明确看到 <tooltip term="java-class-declaration">类声明</tooltip> 及 <tooltip term="java-method-declaration">方法声明</tooltip> 上方的注释信息。</note>
+            <p>如果想获得有关于某个 <tooltip term="symbol">符号</tooltip> 的详细信息，例如：它来自于哪里、它用于解决什么问题？作者又是谁？。此时，使用 <format style="bold">快速文档（ <shortcut>Alt</shortcut><shortcut>Q</shortcut> ）</format> 将是最佳选择。它将会弹出一个包含这些详细信息的窗口。</p>
             <video src="https://www.youtube.com/watch?v=LWFJu6zgfn4" width="706"/>
-            <p>但是，如果想要查看某个表达式所返回的实际类型时通过 <format style="bold">快速文档</format> 是无法实现的。此时，需要选中目标符号并按下 <shortcut>Ctrl</shortcut><shortcut>Shift</shortcut><shortcut>P</shortcut> 然后选中需要执行 <format style="bold">类型信息</format> 操作的目标 <tooltip term="expression">表达式</tooltip> 并按 <shortcut>Enter</shortcut> 即可计算出此表达式返回的实际类型。</p>
+            <p>但是，如果您想要查看某个表达式所返回的实际类型时通过 <format style="bold">快速文档</format> 是无法实现的。此时，请选中目标符号并按 <shortcut>Ctrl</shortcut><shortcut>Shift</shortcut><shortcut>P</shortcut> 然后选中需要执行 <format style="bold">类型信息</format> 操作的目标 <tooltip term="expression">表达式</tooltip> 并按 <shortcut>Enter</shortcut> 即可计算出此表达式返回的实际类型。</p>
             <video src="https://www.youtube.com/watch?v=tvl0uP_6M2I" width="706"/>
         </chapter>
         <chapter id="hippie-completion" title="嬉皮补全" default-state="collapsed" collapsible="true">
-            <include from="reuse-library.topic" element-id="invalid-shortcut-key-prompt-snippet" />
-            <p>Intellij IDEA 通过 <shortcut>Ctrl</shortcut><shortcut>Space</shortcut> 提供基本补全，通过 <shortcut>Ctrl</shortcut><shortcut>Shift</shortcut><shortcut>Space</shortcut> 提供智能类型匹配补全，通过 <shortcut>Ctrl</shortcut><shortcut>Shift</shortcut><shortcut>Enter</shortcut> 提供语句补全。所有这些补全功能都是基于对代码结构的分析理解而来。</p>
-            <p>但是，有些时候可能需要一种更加琐碎但灵活的逻辑来建议选择当前文件中较早使用过的单词。此功能称之为 <format style="bold">嬉皮补全</format> ，可以通过 <shortcut>Atl</shortcut><shortcut>/</shortcut> 来使用它。</p>
+            <include from="reuse-library.topic" element-id="invalid-shortcut-key-prompt-snippet"/>
+            <p>IntelliJ IDEA 提供 <ui-path>基本补全（ <shortcut>Ctrl</shortcut><shortcut>Space</shortcut> ）</ui-path> 、 <ui-path>智能类型匹配补全（ <shortcut>Ctrl</shortcut><shortcut>Shift</shortcut><shortcut>Space</shortcut> ）</ui-path> 以及 <ui-path>语句补全（ <shortcut>Ctrl</shortcut><shortcut>Shift</shortcut><shortcut>Enter</shortcut> ）</ui-path> 。所有这些补全功能都是基于对代码结构的分析理解而来。</p>
+            <p>但是，您可能需要一种更琐碎但灵活的逻辑来建议选择当前文件中较早时候使用过的单词。这个功能叫做 <format style="bold">嬉皮补全（ <shortcut>Atl</shortcut><shortcut>/</shortcut> ）</format> 。</p>
             <video src="https://www.youtube.com/watch?v=h_TzczqiiAs" width="706"/>
         </chapter>
         <chapter id="code-completion-case-sensitivity" title="代码补全区分大小写" default-state="collapsed" collapsible="true">
-            <note><p>在实际应用中，通常建议取消勾选 <format style="bold">区分大小写</format> 选项，这将有助于提升编码效率。这会使得 Intellij IDEA 可以为开发者提供更多可用的候选项建议。</p></note>
+            <note>在实际开发中，强烈建议您取消勾选 <ui-path>区分大小写</ui-path> ，这将有助于提升编码效率。这会使得 IntelliJ IDEA 可以为开发者提供更多可用的候选项建议。</note>
             <note>
-                <p>当勾选 <format style="bold">仅首字母</format> 选项时，如果想使用 <a href="https://www.oracle.com/java/technologies/javase-downloads.html" summary="Java 是由 Oracle 提供的面向对象编程语言，广泛用于开发企业级应用、移动应用、嵌入式系统等。">Java</a> 在控制台中打印一段语句，可以在编辑器中键入 <format style="bold">S</format> ，此时编辑器将会自动列举出所有匹配的候选项，尤其注意列出的 <format style="bold">System</format> （由于勾选了 <format style="bold">仅首字母</format> 选项， <format style="italic">此时只有键入 S（大写）时才会有 System</format> 候选项 ）。</p>
-                <p>与之类似的，如果勾选了 <format style="bold">全部字母</format> 选项，则必须在编辑器中完整键入 <format style="bold">System</format>（<format style="italic">一个字母都不能错</format> ）才会有相应的候选项提示。</p>
-                <p>但是，如果取消勾选 <format style="bold">区分大小写</format> 选项，则将会忽略上述两个选项的约束规则，甚至是在仅键入单词中的某一部分的情况下（ 例如： <format style="italic">tem</format> ），编辑器也能自动列举出所有匹配的候选项。</p>
+                <p>当勾选 <ui-path>仅首字母</ui-path> 时，如果想使用 <a href="https://www.oracle.com/java/technologies/javase-downloads.html" summary="Java 是由 Oracle 提供的面向对象编程语言，广泛用于开发企业级应用、移动应用、嵌入式系统等。">Java</a> 在控制台中打印一段语句，可以在编辑器中键入 <format style="bold">S</format> ，此时 <include from="reuse-library.topic" element-id="editor-snippet" /> 将会自动列举出所有匹配的候选项，尤其注意列出的 <format style="bold">System</format> （由于勾选了 <ui-path>仅首字母</ui-path> ， <format style="italic">此时只有键入 S（大写）时才会显示出 System</format> 候选项 ）。</p>
+                <p>与之类似的，如果勾选了 <ui-path>全部字母</ui-path> ，则必须在编辑器中完整键入 <format style="bold">System</format> （ <format style="italic">一个字母都不能错</format> ）才会有相应的候选项提示。</p>
+                <p>但是，如果取消勾选 <ui-path>区分大小写</ui-path> ，则将会忽略上述的两种约束规则，甚至是在仅键入单词中的某一部分的情况下（ 例如： <format style="italic">tem</format> ），编辑器也能自动列举出所有可能匹配的候选项。</p>
             </note>
-            <p>默认情况下，Intellij IDEA 代码自动补全的大小写约束规则只会影响到键入的第一个字母。如果要改变它，可以在 <format style="bold">设置</format>（<shortcut>Ctrl</shortcut><shortcut>Alt</shortcut><shortcut>S</shortcut> ）中展开 <ui-path>编辑器 | 常规 | 代码补全</ui-path> ，然后从 <format style="bold">仅首字母</format> 或 <format style="bold">所有字母</format> 两个选项中选择一个。又或者说不需要此约束规则，则可以取消勾选 <format style="bold">区分大小写</format> 选项。</p>
+            <p>默认情况下，IntelliJ IDEA 代码自动补全的大小写约束规则仅影响到键入的第一个字母。</p>
+            <p>如果要改变它，可以在 <control>设置（ <shortcut>Ctrl</shortcut><shortcut>Alt</shortcut><shortcut>S</shortcut> ）</control> 中展开 <ui-path>编辑器 | 常规 | 代码补全</ui-path> ，然后从 <ui-path>仅首字母</ui-path> 或 <ui-path>所有字母</ui-path> 两个中选择一个。如果您不需要这些约束规则，则请取消勾选 <ui-path>区分大小写</ui-path> 。</p>
             <img src="代码补区分代码大小写.png" alt="代码补区分代码大小写" width="706" thumbnail="true"/>
-            <!--<video src="https://www.youtube.com/watch?v=MtV0uwouhNc" width="706"/>-->
             <video src="https://www.youtube.com/watch?v=07duJfkzoRA" width="706"/>
         </chapter>
         <chapter id="camel-humps" title="使用驼峰命名法规则选择单词" default-state="collapsed" collapsible="true">
             <note>
-                <p>驼峰命名法（Camel Case）是一种在编程中常用的 <tooltip term="variables">变量</tooltip> 命名规则，主要分为两种：小驼峰命名法（lowerCamelCase）和大驼峰命名法（UpperCamelCase）。</p>
-                <p>例如，在小驼峰命名法中，有以下案例： <code>userName</code> 、<code>employeeId</code> 、<code>startDate</code> 等。这些例子中，第一个单词的首字母小写，后续单词的首字母大写，便于阅读和理解。</p>
-                <p>在大驼峰命名法中，案例包括： <code>UserService</code> 、<code>HttpRequest</code> 等。</p>
-                <p>这种命名法常用于 <tooltip term="java-class">类名</tooltip> 和 <tooltip term="java-interface">接口名</tooltip> 的命名，使得代码结构更加清晰。 驼峰命名法的优点在于，它提高了代码的可读性，使得变量名和 <tooltip term="method">函数名</tooltip> 更加直观。同时，它避免了使用下划线或连字符分隔单词，减少了代码中的视觉干扰。</p>
-                <p>在实际编程中，驼峰命名法被广泛应用于各种编程语言，如 <tooltip term="java">Java</tooltip>、<tooltip term="javascript">JavaScript</tooltip>、<tooltip term="python">Python</tooltip> 等，它已成为了一种行业共识。通过采用驼峰命名法，开发者可以更高效地进行代码编写和阅读。</p>
+                <p>驼峰命名法（Camel Case）是一种在编程领域中常用的 <tooltip term="variables">变量</tooltip> 命名规则，主要分为两种：小驼峰命名法（lowerCamelCase）和大驼峰命名法（UpperCamelCase）。</p>
+                <p>例如：在小驼峰命名法中，有以下案例： <code>userName</code> 、 <code>employeeId</code> 、 <code>startDate</code> 等。这些例子中，第一个单词的首字母小写，后续单词的首字母大写，便于阅读和理解。小驼峰命名法常用于 <tooltip term="variable-name">变量名</tooltip> 和 <tooltip term="method-name">函数名</tooltip> 的命名。</p>
+                <p>在大驼峰命名法中，案例包括： <code>UserService</code> 、 <code>HttpRequest</code> 等。大驼峰命名法常用于 <tooltip term="java-class">类名</tooltip> 和 <tooltip term="java-interface">接口名</tooltip> 的命名。</p>
             </note>
-            <p>默认情况下，IntelliJ IDEA 对单词的大小写状态并不敏感。但是，如果希望根据 <tooltip term="camel-case">驼峰命名法</tooltip> 规则仅选择单词中的某一部分，则可以在 <format style="bold">设置</format>（<shortcut>Ctrl</shortcut><shortcut>Alt</shortcut><shortcut>S</shortcut> ）中展开 <ui-path>编辑器 | 常规 | 智能按键</ui-path> 并勾选 <format style="bold">使用 "CamelHumps" 单词</format> 选项。</p>
+            <p>IntelliJ IDEA 对单词的大小写状态默认不敏感。但是，如果希望基于 <tooltip term="camel-case">驼峰命名法</tooltip> 规则仅选择单词中的某一部分，则请单击 <ui-path>设置（ <shortcut>Ctrl</shortcut><shortcut>Alt</shortcut><shortcut>S</shortcut> ） | 编辑器 | 常规 | 智能按键 | 使用 "CamelHumps" 单词</ui-path> 。</p>
             <img src="使用 CamelHumps 单词.png" alt="使用 CamelHumps 单词" width="706" thumbnail="true"/>
             <video src="https://www.youtube.com/watch?v=KWPR44vrGTA" width="706"/>
         </chapter>
         <chapter id="disable-highlighting-element-at-caret" title="禁用高亮显示文本光标处元素的用法" default-state="collapsed" collapsible="true">
-            <p>默认情况下，Intellij IDEA 会在移动文本光标时高亮显示当前光标所在位置处元素的用法。但是，如果觉得这种高亮显示会影响到编辑器的视觉效果，则可以取消勾选 <format style="bold">文本光标处元素的用法</format> 选项。取消此选项后可以通过按下 <shortcut>Ctrl</shortcut><shortcut>Shift</shortcut><shortcut>F7</shortcut> 实现相同功能。</p>
+            <p>默认情况下，IntelliJ IDEA 会在移动文本光标时高亮显示当前光标所在位置处元素的用法。</p>
+            <p>如果您觉得这种高亮显示会影响到 <include from="reuse-library.topic" element-id="editor-snippet" /> 的视觉效果，则可以取消勾选 <ui-path>文本光标处元素的用法</ui-path> 。取消后可以通过按 <shortcut>Ctrl</shortcut><shortcut>Shift</shortcut><shortcut>F7</shortcut> 实现相同功能。</p>
             <img src="移动文本光标时高亮显示.png" alt="移动文本光标时高亮显示" width="706" thumbnail="true"/>
-            <!-- <video src="https://www.youtube.com/watch?v=T_fr7enYG1c" width="706"/>-->
             <video src="https://www.youtube.com/watch?v=sZrm-iWbUCw" width="706"/>
         </chapter>
     </chapter>
     <chapter id="code-analysis" title="代码分析">
         <chapter id="dependency-structure-matrix" title="依赖关系矩阵" default-state="collapsed" collapsible="true">
-            <p>Intellij IDEA 可以分析代码中的组件相互依赖的紧密程度，开发者应该密切关注这一点，当依赖关系过多时，可能会导致各种问题。依赖关系矩阵功能将可以帮助开发者 <tooltip term="visualization">可视化</tooltip> 的探索 <tooltip term="idea-module">模块</tooltip>、<tooltip term="java-package">包</tooltip> 和 <tooltip term="java-class">类</tooltip> 之间的依赖关系。有关于此功能的更多细节和详细使用步骤请阅读 <a href="dsm-analysis.topic"/>。</p>
+            <p>IntelliJ IDEA 可以分析代码中的组件相互依赖的紧密程度，开发者应该密切关注这一点，当依赖关系过多时，可能会导致各种问题。依赖关系矩阵将可以帮助开发者 <tooltip term="visualization">可视化</tooltip> 的探索 <tooltip term="idea-module">模块</tooltip> 、 <tooltip term="java-package">包</tooltip> 和 <tooltip term="java-class">类</tooltip> 之间的依赖关系。有关于此功能的更多细节和详细使用步骤请参阅 <a href="dsm-analysis.topic" summary=""/> 。</p>
             <img src="DSM 工具界面.png" alt="DSM 工具界面" width="706" thumbnail="true"/>
-            <note><include from="reuse-library.topic" element-id="dsm-tool-window-snippet" /> 将会以特殊方式对依赖关系进行排序处理，它始终将最常用的类移至底部。</note>
+            <note><include from="reuse-library.topic" element-id="dsm-tool-window-snippet"/> 将以特殊方式对依赖关系进行排序处理，它始终将最常用的类移至底部。&nbsp;&nbsp;&nbsp;</note>
             <warning>
                 <p>要使用依赖关系矩阵分析功能，需确保已启用 Dependency Structure Matrix 插件。</p>
-                <p>该插件通常随 IntelliJ IDEA 一同安装并默认启用。若不慎禁用了该插件，可通过以下步骤重新启用：按下 <shortcut>Ctrl</shortcut><shortcut>Alt</shortcut><shortcut>S</shortcut> 打开 <ui-path>设置</ui-path> ，单击 <ui-path>插件</ui-path> 选项，继而切换到 <ui-path>已安装</ui-path> 选项卡。在搜索框内键入 <format style="bold">Dependency Structure Matrix</format> ，待结果出现后，找到该插件并单击 <ui-path>启用</ui-path> 按钮即可。</p>
+                <p>该插件通常随 IntelliJ IDEA 一同安装并默认启用。若您不慎禁用了它，请打开 <ui-path>设置（ <shortcut>Ctrl</shortcut><shortcut>Alt</shortcut><shortcut>S</shortcut> ）| 插件</ui-path> ，继而切换至 <ui-path>已安装</ui-path> 。然后在搜索框内键入 <format style="bold">Dependency Structure Matrix</format> ，待结果出现后，找到该插件并单击 <control>启用</control> 以便重新启用它。</p>
             </warning>
             <img src="启用 Dependency Structure Matrix 插件.png" alt="启用 Dependency Structure Matrix 插件" width="706" thumbnail="true"/>
             <video src="https://www.youtube.com/watch?v=N8WEhbmlluk" width="706"/>
         </chapter>
         <chapter id="structural-search-and-replace" title="结构搜索和替换" default-state="collapsed" collapsible="true">
-            <p><a href="structural-search-and-replace.topic">结构搜索和替换（SSR）非常强大</a> ，可以将它用于静态代码分析和 <tooltip term="refactoring">重构</tooltip> 自动化。</p>
-            <p>简而言之，它允许搜索代码中的特定模式并用参数化模板替换它们。为此，它配备了自己的语言来定义代码模式，要阅读它们 <a href="https://www.jetbrains.com/idea/docs/ssr.pdf">请单击此处</a> 查看更详细的描述。要使用此功能，可以通过 <ui-path><include from="reuse-library.topic" element-id="main-menus-snippet" /> | 编辑 | 查找 | 结构搜索 / 结构化替换</ui-path> 选项打开相应功能的操作窗口。</p>
+            <a href="structural-search-and-replace.topic" summary="">结构搜索和替换（SSR）</a> 功能非常强大 ，它可以用于静态代码分析和 <tooltip term="refactoring">重构</tooltip> 自动化。
+            <p>简而言之，它允许搜索代码中的特定模式并用参数化模板替换它们。为此，它配备了自己的语言来定义代码模式，要阅读它们 <a href="https://www.jetbrains.com/idea/docs/ssr.pdf" summary="">请单击此处</a> 查看更详细的描述。要使用此功能，可以通过 <ui-path><include from="reuse-library.topic" element-id="main-menus-snippet"/> | 编辑 | 查找 | 结构搜索 / 结构化替换</ui-path> 打开相应功能的操作窗口。</p>
             <img src="结构搜索和替换功能菜单.png" alt="结构搜索和替换功能菜单" width="706" thumbnail="true"/>
-            <note>按下 <shortcut>Ctrl</shortcut><shortcut>Alt</shortcut><shortcut>A</shortcut> 在 <format style="bold">操作</format> 中键入 <format style="bold">结构搜索</format> 或 <format style="bold">结构化替换</format> 并选中它们可以更快速的打开结构搜索和结构替换功能操作对话框。</note>
+            <note>在 <control>操作（ <shortcut>Ctrl</shortcut><shortcut>Alt</shortcut><shortcut>A</shortcut> ）</control> 中键入 <format style="bold">结构搜索</format> 或 <format style="bold">结构化替换</format> 并选中它们可以更快速的打开结构搜索和结构替换功能操作对话框。</note>
             <video src="https://www.youtube.com/watch?v=PJGhuNtl_Xk" width="706"/>
-            <p>另外，如果想要创建属于自己的代码模板或代码检查模式，请进入 <ui-path>设置 | 编辑器 | 检查</ui-path> 然后找到 <format style="bold">结构搜索</format> 节点，之后便可以根据实际启用需要的代码检查模式。</p>
+            <p>另外，如果想要创建属于自己的代码模板或代码检查模式，请进入 <ui-path>设置（ <shortcut>Ctrl</shortcut><shortcut>Alt</shortcut><shortcut>S</shortcut> ） | 编辑器 | 检查</ui-path> 然后找到 <ui-path>结构搜索</ui-path> 节点，之后便可以根据实际需要启用相关的代码检查模式。</p>
             <img src="将结构搜索和替换规则作为代码检查规则.png" alt="将结构搜索和替换规则作为代码检查规则" width="706" id="search-template" thumbnail="true"/>
-            <include from="reuse-library.topic" element-id="to-search-structurally-snippet" />
+            <include from="reuse-library.topic" element-id="to-search-structurally-snippet"/>
         </chapter>
     </chapter>
     <chapter id="user-interface" title="用户界面">
         <chapter id="search-everywhere" title="随处搜索" default-state="collapsed" collapsible="true">
-            <note>如果想要使用随处搜索功能，请确保位于 <a href="guided-tour-around-the-user-interface.topic" summary="Intellij IDEA 提供的图形化用户界面，它提供了更符合人类使用习惯的操作界面，旨在于降低使用难度。"/> 的任意位置中时快速按两次 <shortcut>Shift</shortcut> 键。</note>
-            <p>通过使用 <a href="searching-everywhere.topic"/> 功能，开发者将可以在代码、 <tooltip term="library">库</tooltip> 、<a href="guided-tour-around-the-user-interface.topic" summary=""/>、设置（需要在设置名称前加上 <format style="bold">/</format> ），甚至是操作中搜索任何与给定文本内容匹配的目标结果，并根据结果进行下一步的操作。</p>
+            <note>如果想要使用随处搜索功能，请确保位于 <a href="guided-tour-around-the-user-interface.topic" summary=""/> 的任意位置中时快速按两次 <shortcut>Shift</shortcut> 。</note>
+            <p>通过使用 <a href="searching-everywhere.topic" summary=""/> 功能，开发者将可以在代码、 <tooltip term="library">库</tooltip> 、 <a href="guided-tour-around-the-user-interface.topic" summary=""/> 、设置（需要在设置名称前加上 <format style="bold">/</format> ），甚至是搜索任何与给定文本内容匹配的目标结果，并根据此结果进行下一步的操作。</p>
             <video src="https://www.youtube.com/watch?v=TW0tqmg4KsE" width="706"/>
-            <p>例如：我们可以键入 <code>/editor</code> 并按下 <shortcut>Enter</shortcut> 以此快速打开进行与 <a anchor="editor" summary=""/> 相关的设置。</p>
+            <p>例如：我们可以键入 <code>/editor</code> 并按 <shortcut>Enter</shortcut> 以此快速打开进行与 <a anchor="editor" summary=""/> 相关的设置。</p>
             <img src="随处搜索-快速访问与编辑器相关的设置.png" alt="快速访问与编辑器相关的设置" width="706" thumbnail="true"/>
             <video src="https://www.youtube.com/watch?v=YZszrS5FfAo" width="706"/>
-            <p>如果使用 <code>/plugins</code> 进行搜索，则可以根据需要快速禁用或启用 <a href="managing-plugins.topic" summary="强大的插件生态赋予 IntelliJ IDEA 极高的灵活性和可定制性。">插件</a>。</p>
+            <p>如果使用 <code>/plugins</code> 进行搜索，则可以根据需要快速禁用或启用 <a href="managing-plugins.topic" summary="">插件</a> 。</p>
             <img src="随处搜索-快速禁用和启用插件.png" alt="快速禁用和启用插件" width="706" thumbnail="true"/>
             <video src="https://www.youtube.com/watch?v=OoNV1rTUFdI" width="706"/>
-            <p>其他可用的标签有 <code>/appearance</code> 、<code>/system</code> 、<code>/inspections</code> 、<code>/registry</code> 、<code>/intentions</code> 、<code>/templates></code> 及 <code>/vcs</code> 。另外请注意，随处搜索功能支持缩写。这意味着，可以在 <a href="settings-keymap.topic" /> 的设置对话框中为任意操作分配文本别名。之后，就可以通过分配的文本别名从 <format style="bold">所有</format> 中调用此操作。</p>
+            <p>其他可用的标签有 <code>/appearance</code> 、 <code>/system</code> 、 <code>/inspections</code> 、 <code>/registry</code> 、 <code>/intentions</code> 、 <code>/templates></code> 及 <code>/vcs</code> 。另外请注意，随处搜索功能支持缩写。这意味着，可以在 <a href="settings-keymap.topic" summary=""/> 的设置对话框中为任意操作分配文本别名。之后，就可以通过分配的文本别名从 <control>所有</control> 中调用此操作。</p>
             <video src="https://www.youtube.com/watch?v=tgyG5jkmq2A" width="706"/>
         </chapter>
         <chapter collapsible="true" default-state="collapsed" id="hide-editor-tabs" title="隐藏编辑器标签页">
-            <p>当需要关闭除当前选项卡外的所有编辑器选项卡时，可以在当前选项卡上单击 <img src="关闭.svg" alt=""/> 图标并按下 <shortcut>Alt</shortcut> 。</p>
+            <p>当需要关闭除当前选项卡外的所有编辑器选项卡时，可以在当前选项卡上单击 <img src="关闭.svg" alt=""/> 图标并按 <shortcut>Alt</shortcut> 。</p>
             <video src="https://www.youtube.com/watch?v=z6aH8MUn3Bk" width="706"/>
-            <p>又或者说，完全不想看到任何编辑器标签页，可以展开并找到 <ui-path>设置（ <shortcut>Ctrl</shortcut><shortcut>Alt</shortcut><shortcut>S</shortcut> ） | 编辑器 | 常规 | 编辑器标签页 | 标签页位置</ui-path> ，然后在下拉列表中将值选择为 <format style="bold">无</format>。</p>
+            <p>如果您完全不想看到任何编辑器标签页，可以找到 <ui-path>设置（ <shortcut>Ctrl</shortcut><shortcut>Alt</shortcut><shortcut>S</shortcut> ） | 编辑器 | 常规 | 编辑器标签页 | 标签页位置</ui-path> ，然后在下拉列表中将值选择为 <format style="bold">无</format> 。</p>
             <video src="https://www.youtube.com/watch?v=uPkz72Nq5II" width="706"/>
         </chapter>
         <chapter id="open-file-in-new-window" title="在新窗口中打开文件" default-state="collapsed" collapsible="true">
-            <p>您可以通过在 <include from="reuse-library.topic" element-id="project-tool-window-snippet" /> 中选择文件并按下 <shortcut>Shift</shortcut><shortcut>Enter</shortcut> 在新窗口中打开文件。</p>
+            <p>您可以通过在 <include from="reuse-library.topic" element-id="project-tool-window-snippet"/> 中选中文件并按 <shortcut>Shift</shortcut><shortcut>Enter</shortcut> 在新窗口中打开文件。</p>
             <video src="https://www.youtube.com/watch?v=NytCCZs4X9M" width="706"/>
         </chapter>
         <chapter id="disable-unnecessary-gutter-icons" title="禁用非必要的间距图标" default-state="collapsed" collapsible="true">
-            <p>间距图标位于 <a anchor="editor" summary="" /> 的最左侧，通常用于显示与当前正在编辑的代码相关的有用信息。</p>
-            <p>如果觉得这些图标太多了，可以通过 <ui-path>设置（ <shortcut>Ctrl</shortcut><shortcut>Alt</shortcut><shortcut>S</shortcut> ） | 编辑器 | 常规 | 间距图标</ui-path> 来配置想要显示的间距图标或直接禁止显示它们。</p>
+            <p>间距图标位于 <a anchor="editor" summary=""/> 的最左侧，通常用于显示与当前正在编辑的代码相关的有用信息。</p>
+            <p>如果您觉得这些图标太碍眼了，可以通过 <ui-path>设置（ <shortcut>Ctrl</shortcut><shortcut>Alt</shortcut><shortcut>S</shortcut> ） | 编辑器 | 常规 | 间距图标</ui-path> 来配置想要显示的间距图标或直接禁止显示它们。</p>
             <img src="间距图标.png" alt="显示或禁用间距图标" width="706" thumbnail="true"/>
             <video src="https://www.youtube.com/watch?v=aJz3oI65i8Y" width="706"/>
         </chapter>
         <chapter id="disable-breadcrumbs-tree-highlighting" title="禁用路径导航和标签树高亮显示" default-state="collapsed" collapsible="true">
-            <p>如果正在处理大量的 <tooltip term="html">HTML</tooltip> 和 <tooltip term="xml">XML</tooltip> 代码，并且希望避免不必要的干扰。可以尝试通过 <ui-path>设置（ <shortcut>Ctrl</shortcut><shortcut>Alt</shortcut><shortcut>S</shortcut> ）| 编辑器 | 常规 | 路径导航</ui-path> 中的选项禁用路径导航和标签树高亮。</p>
+            <p>如果您正在处理大量的 <tooltip term="html">HTML</tooltip> 和 <tooltip term="xml">XML</tooltip> 代码，并且希望避免不必要的干扰。可以尝试通过 <ui-path>设置（ <shortcut>Ctrl</shortcut><shortcut>Alt</shortcut><shortcut>S</shortcut> ） | 编辑器 | 常规 | 路径导航</ui-path> 中的选项禁用路径导航和标签树高亮。</p>
             <video src="https://www.youtube.com/watch?v=pYFxhBCyaIw" width="706"/>
         </chapter>
         <chapter id="add-stop-and-resume-buttons" title="在工具栏中添加停止和恢复按钮" default-state="collapsed" collapsible="true">
-            <p>将停止 <img src="停止.svg" alt=""/> 和恢复 <img src="恢复.svg" alt=""/> 按钮添加到 <include from="reuse-library.topic" element-id="toolbar-snippet" /> 中可能会更方便。您可以通过在 <ui-path>设置（ <shortcut>Ctrl</shortcut><shortcut>Alt</shortcut><shortcut>S</shortcut> ）| 外观和行为 | 菜单与工具栏</ui-path> 中进行配置实现。例如：进行此配置后将无需打开 <include from="reuse-library.topic" element-id="debug-tool-window-snippet" /> 即可管理当前的调试会话。</p>
+            <p>将停止 <img src="停止.svg" alt=""/> 和恢复 <img src="恢复.svg" alt=""/> 按钮添加至 <include from="reuse-library.topic" element-id="toolbar-snippet"/> 中可能会更方便。您可以通过在 <ui-path>设置（ <shortcut>Ctrl</shortcut><shortcut>Alt</shortcut><shortcut>S</shortcut> ）| 外观和行为 | 菜单与工具栏</ui-path> 中进行配置来实现它。例如：进行此配置后将无需打开 <include from="reuse-library.topic" element-id="debug-tool-window-snippet"/> 即可管理当前的调试会话。</p>
             <video src="https://www.youtube.com/watch?v=x6eBG0lybQg" width="706"/>
         </chapter>
     </chapter>
     <chapter id="version-control" title="版本控制">
         <chapter id="amend-changes" title="修正提交" default-state="collapsed" collapsible="true">
-            <note>如果您喜欢通过手动键入命令的方式实现相同的效果，请参阅 <a href= "https://git-scm.com/book/zh/v2/Git-基础-撤消操作">2.4 Git-基础-撤消操作</a> 。</note>
-            <p>在 <a href="commit-changes-dialog.topic" summary=""/> 中，Intellij IDEA 提供了多种操作。其中之一就是 <format style="bold">修正提交</format> ，当想要更改最后一次提交并将当前更改合并到其中时，这个功能将会非常有用。</p>
+            <note>如果您喜欢通过手动键入命令的方式实现相同的效果，请参阅 <a href="https://git-scm.com/book/zh/v2/Git-基础-撤消操作">2.4 Git-基础-撤消操作</a> 。</note>
+            <p>在 <a href="commit-changes-dialog.topic" summary=""/> 中，IntelliJ IDEA 提供了多种操作。其中之一便是 <ui-path>修正提交</ui-path> ，当您想要更改最后一次提交并将当前更改合并到其中时，这个功能将会非常有用。</p>
             <img src="修正提交.png" alt="修正提交" width="706" thumbnail="true"/>
-            <note>如果已将提交推送至远程仓库，则在本地进行过修正提交后需强制推送更新至远程仓库。</note>
+            <note>如果已将提交推送至远程仓库，则在本地进行过修正提交后需强制推送更新至远程仓库。&nbsp;&nbsp;</note>
             <video src="https://www.youtube.com/watch?v=pob8-oZMC8A" width="706"/>
         </chapter>
         <chapter id="shelves-and-patches" title="搁置与补丁" default-state="collapsed" collapsible="true">
-            <p><format style="bold">搁置</format> 是一个类似于 <a href="https://git-scm.com/book/zh/v2/Git-工具-贮藏与清理" summary="有时，当您在项目的一部分上已经工作一段时间后，所有东西都进入了混乱的状态， 而这时您想要切换到另一个分支做一点别的事情。 问题是，您不想仅仅因为过会儿回到这一点而为做了一半的工作创建一次提交。 针对这个问题的答案是 git stash 命令。">Git Stash</a> 的 <tooltip term="ide">IDE</tooltip> 功能，但它适用于所有 <tooltip term="version-control">版本控制系统</tooltip> 。当需要暂时停滞处理当前遇到的一些棘手问题，但又不想丢失当前已进行的工作进度时此功能将会很有用处， <format style="bold">它能在不提交本地更改的情况下处理已更改的文件，因此再也不会丢失更改或匆忙进行合并提交。</format> 更多信息请参阅 <a href="work-on-several-features-simultaneously.topic" summary="有时需要在不同的任务之间切换，留下未完成的事情，然后再返回去。IntelliJ IDEA 提供了几种方便的方式来处理多个不同的功能而不会丢失工作进度。"/> 。</p>
-            <p><format style="bold">补丁</format> 允许保存对文本文件进行的更改，并将其通过电子邮件（或者是其它更加古老的媒介）传输，然后应用到项目中。当遇到不可靠的网络环境时，此功能将非常有用。更多信息请参阅 <a href="using-patches.topic" summary="可以将本地更改放入一个 .patch 文件中，而不是提交它们，然后可以稍后将其应用到项目中，或者通过电子邮件发送等等。使用补丁是一种方便的机制，可以在不将更改检入版本控制系统（VCS）存储库的情况下共享更改。" />。</p>
+            <p><format style="bold">搁置</format> 是一个类似于 <a href="https://git-scm.com/book/zh/v2/Git-工具-贮藏与清理" summary="有时，当您在项目的一部分上已经工作一段时间后，所有东西都进入了混乱的状态， 而这时您想要切换至另一个分支做一点别的事情。 问题是，您不想仅仅因为过会儿回到这一点而为做了一半的工作创建一次提交。 针对这个问题的答案是 git stash 命令。">Git Stash</a> 的 <tooltip term="ide">IDE</tooltip> 功能，但它适用于所有 <tooltip term="version-control">版本控制系统</tooltip> 。当需要暂时停滞处理当前遇到的一些棘手问题，但又不想丢失当前已进行的工作进度时此功能将会很有用处， <format style="bold">它能在不提交本地更改的情况下处理已更改的文件，因此再也不会丢失更改或匆忙进行合并提交。</format> 更多信息请参阅 <a href="work-on-several-features-simultaneously.topic" summary=""/> 。</p>
+            <p><format style="bold">补丁</format> 允许保存对文本文件进行的更改，并将其通过电子邮件（或者是其它更加古老的媒介）传输，然后应用到项目中。当遇到不可靠的网络环境时，此功能将非常有用。更多信息请参阅 <a href="using-patches.topic" summary="可以将本地更改放入一个 .patch 文件中，而不是提交它们，然后可以稍后将其应用到项目中，或者通过电子邮件发送等等。使用补丁是一种方便的机制，可以在不将更改检入版本控制系统（VCS）存储库的情况下共享更改。"/> 。</p>
         </chapter>
     </chapter>
     <chapter id="debugging" title="代码调试">
         <chapter id="reset-frame" title="重置帧" collapsible="true" default-state="collapsed">
-            <p>如果想要在调试时"回到过去"，可以通过 <format style="bold">重置帧</format> 操作来实现。如果错误的走的太远，这将对您很有帮助。虽然这不会恢复应用程序的全局状态，但至少可以让您返回 <tooltip term="call-stack">帧堆栈</tooltip>。</p>
+            <p>如果想要在调试时"回到过去"，可以通过 <ui-path>重置帧</ui-path> 操作来实现。如果错误的走的太远，这将对您很有帮助。虽然这不会恢复应用程序的全局状态，但至少可以让您返回 <tooltip term="call-stack">帧堆栈</tooltip> 。</p>
             <img src="重置帧.png" alt="重置帧" width="706" thumbnail="true"/>
             <video src="https://www.youtube.com/watch?v=sqyr169OssE" width="706"/>
         </chapter>
         <chapter id="force-return" title="强制返回" collapsible="true" default-state="collapsed">
-            <p>如果想要强制返回当前正在执行的代码逻辑，请使用 <format style="bold">强制返回</format> 。</p>
+            <p>如果想要强制返回当前正在执行的代码逻辑，请执行 <ui-path>强制返回</ui-path> 操作。</p>
             <video src="https://www.youtube.com/watch?v=FtsN61Ek_wI" width="706"/>
             <video src="https://www.youtube.com/watch?v=E_DaaS5QyYY" width="706"/>
         </chapter>
         <chapter id="object-markers" title="对象标记" collapsible="true" default-state="collapsed">
-            <p>在调试应用程序时，Intellij IDEA 可以通过 <a href="examining-suspended-program.topic" anchor="use-labels" summary="">标记对象</a> 操作（可以在 <a href="examining-suspended-program.topic" anchor="evaluating-expressions"/> 、<a href="examining-suspended-program.topic" anchor="variables" summary="">变量</a> 、或是 <a href="examining-suspended-program.topic" anchor="watches" summary="">监视</a> 视图中进行使用）用彩色标签标记任意对象的特定实例，以便于识别。如果有任何标有标签的实例，也可以在条件表达式中使用它。</p>
+            <p>在调试应用程序时，IntelliJ IDEA 可以通过 <a href="examining-suspended-program.topic" anchor="use-labels" summary="">标记对象</a> 用彩色标签标记任意对象的特定实例，以便于识别。此实例可以在 <a href="examining-suspended-program.topic" anchor="evaluating-expressions" summary=""/> 、 <a href="examining-suspended-program.topic" anchor="variables" summary="">变量</a> 、或是 <a href="examining-suspended-program.topic" anchor="watches" summary="">监视</a> 视图以及条件表达式中进行使用。</p>
             <video src="https://www.youtube.com/watch?v=FJU73v_SMKY" width="706"/>
         </chapter>
         <chapter id="action-or-method-breakpoints" title="非挂起断点" default-state="collapsed" collapsible="true">
+            <p>有时，您可能想在不暂停（挂起）程序的情况下对某行代码进行评估。您可以通过使用 <format style="bold">非挂起断点</format> 来实现。要创建它，只需要按住 <shortcut>Shift</shortcut> 并单击代码所在行的间距图标位置，然后在 <ui-path>求值并记录</ui-path> 中键入表达式。</p>
             <img src="非挂起断点.png" alt="非挂起断点" width="706" thumbnail="true"/>
-            <p>这样一来，就可以更改或记录应用程序的状态，而无需要在代码中插入额外的输出语句。这在调试已编译且无法被更改的代码时尤其有用。</p>
+            <p>如此一来，您就可以更改或记录应用程序的状态，而无需要在代码中插入额外的输出语句。这在调试已编译且无法被更改的代码时尤其有用。</p>
             <video src="https://www.youtube.com/watch?v=kysPynnUatE" width="706"/>
         </chapter>
         <chapter id="custom-data-renderers" title="自定义数据渲染器" collapsible="true" default-state="collapsed">
-            <note>请优先实现 <code>toString</code> 方法，此功能仅建议在无法修改源代码的特殊情况下进行使用。</note>
-            <p><a href="examining-suspended-program.topic" anchor="evaluating-expressions"/> 、<a href="examining-suspended-program.topic" anchor="variables">变量</a> 、<a href="examining-suspended-program.topic" anchor="watches">监视</a> 和 <a href="examining-suspended-program.topic" anchor="inline-view">内联调试器</a> 使用标准方式呈现 <tooltip term="variables">变量值</tooltip> ，这些方式大多都基于 <tooltip term="java-class">类</tooltip> 的 <code>toString</code> 方法予以实现。但是，并非所有人都知道，在 Intellij IDEA 中还可以为任何类定义属于自己的数据渲染器。</p>
-            <img src="自定义 Java 类型呈现器.png" alt="自定义 Java 类型呈现器" width="706" thumbnail="true"/>
-            <p>当使用的 <tooltip term="library">类库</tooltip> 中的某些类没有提供有意义的 <code>toString</code> 方法实现时，这种方式将会很有用。</p>
+            <note>请优先实现 <code>toString</code> 方法，此功能仅建议在无法修改源代码的特殊情况下进行使用。&nbsp;&nbsp;&nbsp;&nbsp;</note>
+            <p><a href="examining-suspended-program.topic" anchor="evaluating-expressions" summary=""/> 、 <a href="examining-suspended-program.topic" anchor="variables" summary="">变量</a> 、 <a href="examining-suspended-program.topic" anchor="watches" summary="">监视</a> 和 <a href="examining-suspended-program.topic" anchor="inline-view" summary="">内联调试器</a> 使用标准方式呈现 <tooltip term="variables">变量值</tooltip> ，这些方式大多都基于 <tooltip term="java-class">类</tooltip> 的 <code>toString</code> 方法予以实现。但是，在 IntelliJ IDEA 中还可以为任何类定义属于自己的数据渲染器。</p>
+            <img src="自定义 Java 数据渲染器.png" alt="自定义 Java 数据渲染器" width="706" thumbnail="true"/>
+            <p>当使用的 <tooltip term="library">类库</tooltip> 中的某些类未提供有意义的 <code>toString</code> 方法实现时，这种方式将会很有用。</p>
             <video src="https://www.youtube.com/watch?v=X-fXHjkqHEI" width="706"/>
             <video src="https://www.youtube.com/watch?v=n3Fte-uH8vM" width="706"/>
         </chapter>
@@ -222,36 +221,43 @@
         </chapter>
     </chapter>
     <chapter id="external-tools" title="外部工具" collapsible="true" default-state="collapsed">
-        <p>Intellij IDEA 已内置了许多开箱即用的开发工具。如果您需要的工具恰巧未被集成，但却想要通过快捷方式使用它，请展开 <ui-path>设置（ <shortcut>Ctrl</shortcut><shortcut>Alt</shortcut><shortcut>S</shortcut> ） | 工具 | 外部工具</ui-path> 并在其中配置想要使用的 <a href="configuring-third-party-tools.topic"/>。</p>
+        <p>IntelliJ IDEA 已内置了许多开箱即用的开发工具。如果您需要的工具恰巧未被集成，但却想要通过快捷方式使用它，请展开 <ui-path>设置（ <shortcut>Ctrl</shortcut><shortcut>Alt</shortcut><shortcut>S</shortcut> ） | 工具 | 外部工具</ui-path> 并在其中配置想要使用的 <a href="configuring-third-party-tools.topic" summary=""/> 。</p>
         <img src="外部工具.png" alt="外部工具" width="706" thumbnail="true"/>
-        <note>如下演示视频中将使用 <a href="https://www.gnu.org/savannah-checkouts/gnu/emacs/emacs.html" summary="GNU Emacs是一个功能强大的文本编辑器，被广泛认为是专业程序员最喜欢的代码编辑器之一。">Emacs</a> 作为外部工具并尝试打开目标 Java 源码文件。&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;</note>
+        <note>如下演示视频中将使用 <a href="https://www.gnu.org/savannah-checkouts/gnu/emacs/emacs.html" summary="GNU Emacs 是一个功能强大的文本编辑器，被广泛认为是专业程序员最喜欢的代码编辑器之一。">Emacs</a> 作为外部工具并尝试打开目标 Java 源码文件。&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;</note>
         <video src="https://www.youtube.com/watch?v=vyfIz_4Putw" width="706"/>
     </chapter>
     <chapter id="DCEVM" title="DCEVM" collapsible="true" default-state="collapsed">
-        <note>如下演示视频及图片中使用的 <tooltip term="jdk">JDK</tooltip> 为 Oracle 提供的 JDK 17， <a href="https://www.oracle.com/java/technologies/downloads/#java17">可以单击此处下载它</a>。&nbsp;&nbsp;&nbsp;</note>
+        <note>如下演示视频及图片中使用的 <tooltip term="jdk">JDK</tooltip> 为 Oracle 提供的 JDK 17， <a href="https://www.oracle.com/java/technologies/downloads/#java17">可以单击此处下载它</a> 。&nbsp;&nbsp;&nbsp;</note>
         <p>有时，当您对代码进行快速修改后，您希望立即看到这些修改在应用程序中的变化。</p>
-        <p>但不幸的是， <tooltip term="java-hotswap-vm">Java HotSwap VM</tooltip> 有很多限制：例如，您不能在 <tooltip term="java-class">类</tooltip> 中添加新 <tooltip term="java-method">方法</tooltip> 或 <tooltip term="java-field">字段</tooltip> ，然后执行 <tooltip term="hot-swap">热插拔</tooltip> ；在热插拔过程中，您唯一能实际更改的是 <tooltip term="java-method-body">方法体</tooltip>。</p>
-        <p>有关详情，请参阅 <a href="altering-the-program-s-execution-flow.topic" anchor="reload-classes"/> 和 <a href="altering-the-program-s-execution-flow.topic">更改程序执行流程</a> 部分。</p>
+        <p>但不幸的是， <tooltip term="java-hotswap-vm">Java HotSwap VM</tooltip> 有很多限制：例如：您不能在 <tooltip term="java-class">类</tooltip> 中添加新 <tooltip term="java-method">方法</tooltip> 或 <tooltip term="java-field">字段</tooltip> ，然后执行 <tooltip term="hot-swap">热插拔</tooltip> ；在热插拔过程中，您唯一能实际更改的是 <tooltip term="java-method-body">方法体</tooltip> 。</p>
+        <p>更多信息，请参阅 <a href="altering-the-program-s-execution-flow.topic" anchor="reload-classes" summary=""/> 和 <a href="altering-the-program-s-execution-flow.topic" summary="">更改程序执行流程</a> 部分。</p>
         <img src="热交换失败.png" alt="热交换失败" width="706" thumbnail="true"/>
         <video src="https://www.youtube.com/watch?v=HyA8raRoWBE" width="706"/>
         <p>幸运的是，您可以使用 <a href="https://hotswapagent.org/">HotSwapAgent</a> 改变这种状况，它可以在运行时无限制地支持 <tooltip term="reload">重载</tooltip> 类。</p>
-        <note>为确保演示视频具备实际意义，如下演示视频中使用了 <a href="https://spring.io/projects/spring-boot" summary="Spring Boot 是一款开源的 Java Web 应用开发框架，旨在简化 Spring 应用的初始搭建以及开发过程。它整合了 Spring 技术栈中的众多框架，提供了一种快速启动和运行 Spring 应用的方式。">Spring Boot</a>、<a href="https://spring.io/projects/spring-framework" summary="Spring MVC（Model-View-Controller）是 Spring 框架中的一个模块，用于构建基于 Java 的 Web 应用程序。它遵循 MVC 设计模式，将应用程序分为三个核心组件，以提高代码的模块化和可维护性。">Spring MVC</a> 和 <a href="https://tomcat.apache.org/" summary="Tomcat 是 Apache 软件基金会下的一个开源 Java Servlet 容器，用于运行 Java Web 应用程序。它实现了 Java Servlet 和 JavaServer Pages (JSP)规范，支持 HTTP、HTTPS 等协议，提供了一个平台让 Java 代码能够运行在服务器端，处理来自 Web 浏览器的请求。">Apache Tomcat（内嵌）</a>。</note>
+        <note>为确保演示视频具备实际意义，如下演示视频中使用了 <a href="https://spring.io/projects/spring-boot" summary="Spring Boot 是一款开源的 Java Web 应用开发框架，旨在简化 Spring 应用的初始搭建以及开发过程。它整合了 Spring 技术栈中的众多框架，提供了一种快速启动和运行 Spring 应用的方式。">Spring Boot</a> 、 <a href="https://spring.io/projects/spring-framework" summary="Spring MVC（Model-View-Controller）是 Spring 框架中的一个模块，用于构建基于 Java 的 Web 应用程序。它遵循 MVC 设计模式，将应用程序分为三个核心组件，以提高代码的模块化和可维护性。">Spring MVC</a> 和 <a href="https://tomcat.apache.org/" summary="Tomcat 是 Apache 软件基金会下的一个开源 Java Servlet 容器，用于运行 Java Web 应用程序。它实现了 Java Servlet 和 JavaServer Pages (JSP)规范，支持 HTTP、HTTPS 等协议，提供了一个平台让 Java 代码能够运行在服务器端，处理来自 Web 浏览器的请求。">Apache Tomcat（内嵌）</a> 。</note>
         <video src="https://www.youtube.com/watch?v=Cg4qCCX4hOg" width="706"/>
     </chapter>
     <chapter id="update-application" title="更新应用程序" collapsible="true" default-state="collapsed">
-        <p>如果您的应用程序运行在应用服务器上（例如： <a href="https://tomcat.apache.org/" summary="Tomcat 是 Apache 软件基金会下的一个开源 Java Servlet 容器，用于运行 Java Web 应用程序。它实现了 Java Servlet 和 JavaServer Pages (JSP)规范，支持 HTTP、HTTPS 等协议，提供了一个平台让 Java 代码能够运行在服务器端，处理来自 Web 浏览器的请求。">Tomcat</a> 、<a href="https://www.jboss.org/" summary="JBoss 服务器是一款流行的开源 Java 应用服务器，由 Red Hat 公司维护。它支持 EJB、JMS、Servlet/JSP 等 Java EE 规范，具有高性能、可扩展性强、稳定性高等特点，广泛应用于企业级应用部署。JBoss 还提供丰富的管理和配置工具，助力开发者高效开发与维护。">JBoss</a> 等），您可以通过 <format style="bold">更新应用</format> 操作重新加载更改的类和资源。请参阅 <a href="https://www.jetbrains.com/help/idea/2022.3/updating-applications-on-application-servers.html">应用服务器上的应用更新</a> 部分了解更多详情。</p>
+        <p>如果您的应用程序运行在应用服务器上（例如： <a href="https://tomcat.apache.org/" summary="Tomcat 是 Apache 软件基金会下的一个开源 Java Servlet 容器，用于运行 Java Web 应用程序。它实现了 Java Servlet 和 JavaServer Pages (JSP)规范，支持 HTTP、HTTPS 等协议，提供了一个平台让 Java 代码能够运行在服务器端，处理来自 Web 浏览器的请求。">Tomcat</a> 、 <a href="https://www.jboss.org/" summary="JBoss 服务器是一款流行的开源 Java 应用服务器，由 Red Hat 公司维护。它支持 EJB、JMS、Servlet/JSP 等 Java EE 规范，具有高性能、可扩展性强、稳定性高等特点，广泛应用于企业级应用部署。JBoss 还提供丰富的管理和配置工具，助力开发者高效开发与维护。">JBoss</a> 等），您可以通过 <ui-path>更新应用</ui-path> 操作重新加载更改的类和资源。请参阅 <a href="https://www.jetbrains.com/help/idea/2022.3/updating-applications-on-application-servers.html" summary="">应用服务器上的应用更新</a> 部分了解更多详情。</p>
         <video src="https://www.youtube.com/watch?v=13wSeacje6s" width="706"/>
         <video src="https://www.youtube.com/watch?v=QpCcsNVaVy8" width="706"/>
     </chapter>
     <seealso>
-        <category ref="references"><a href="https://www.jetbrains.com/guide/java/tutorials/dependency-matrix/introduction/" summary="在处理大型复杂软件项目时，我们需要了解项目中组件之间的依赖关系。IntelliJ IDEA 有一项名为依赖结构矩阵（DSM）或依赖矩阵（Dependency Matrix）的功能，可以帮助我们做到这一点。">利用依赖关系矩阵探索项目结构</a></category>
+        <category ref="references">
+            <a href="guided-tour-around-the-user-interface.topic" summary=""/>
+            <a href="user-interface-themes.topic"/>
+            <a href="installation-guide.topic" anchor="simplified-chinese-language" summary=""/>
+            <a href="register.topic" summary=""/>
+            <a href="https://www.jetbrains.com/guide/java/tutorials/dependency-matrix/introduction/" summary="在处理大型复杂软件项目时，我们需要了解项目中组件之间的依赖关系。IntelliJ IDEA 有一项名为依赖结构矩阵（DSM）或依赖矩阵（Dependency Matrix）的功能，可以帮助我们做到这一点。">利用依赖关系矩阵探索项目结构</a>
+        </category>
         <category ref="associated-websites">
+            <a href="https://emmet.io/" summary="Emmet 是一款非常强大的前端开发工具，它能极大地提高您的 HTML 和 CSS 编写效率。您可以通过简短的表达式来快速生成复杂的代码结构，大大减少了手动输入代码的时间。">Emmet</a>
             <a href="https://regexr-cn.com/" summary="集学习、构建和测试于一体的在线工具，支持 JavaScript 和 PHP / PCRE 正则表达式。">RegExr</a>
             <a href="https://goregex.cn/" summary="提供正则表达式的在线测试、生成和解析工具。">GoRegex</a>
             <a href="https://regex101.com/" summary="一个功能强大的正则表达式测试网站，支持多种编程语言的正则表达式语法，并提供详细的匹配信息。">Regex101</a>
-            <a href="https://git-scm.com/book/zh/v2/起步-关于版本控制" summary="全中文化的 Git 使用手册">Git 中文使用手册。</a>
+            <a href="https://git-scm.com/book/zh/v2/起步-关于版本控制" summary="全中文化的 Git 使用手册">Git 中文使用手册</a>
         </category>
-        <include from="reuse-library.topic" element-id="programming-language-snippet" />
-        <include from="reuse-library.topic" element-id="ides-snippet" />
+        <include from="reuse-library.topic" element-id="programming-language-snippet"/>
+        <include from="reuse-library.topic" element-id="ides-snippet"/>
     </seealso>
 </topic>

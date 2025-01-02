@@ -4,46 +4,46 @@
 <topic xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
        xsi:noNamespaceSchemaLocation="https://resources.jetbrains.com/writerside/1.0/topic.v2.xsd"
        title="学习 IDE 的功能" id="feature-trainer">
-    <note><p>此功能仅在 IntelliJ IDEA 2020.3 及更高版本中提供。&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;</p></note>
-    <p>IntelliJ IDEA 包含一个内置的功能训练器。这个关于 <tooltip term="ide">IDE</tooltip> 基础知识的交互式培训课程可以帮助您学习如何处理一些常见任务，例如： <tooltip term="refactoring">重构代码</tooltip> 、浏览项目等。</p>
-    <p>您可以从 <format style="bold">欢迎界面</format> 或 <format style="bold">学习 <include from="reuse-library.topic" element-id="tool-window-snippet" /></format> 开始学习课程或特定教程。</p>
+    <note>此功能仅在 IntelliJ IDEA 2020.3 及更高版本中提供。&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;</note>
+    <p>IntelliJ IDEA 内置了一个功能训练器。这套关于 <tooltip term="ide">IDE</tooltip> 基础知识的交互式培训课程可以帮助您学习如何处理一些常见任务，例如： <tooltip term="refactoring">重构代码</tooltip> 、浏览项目等。</p>
+    <p>您可以通过从 <control>欢迎界面</control> 或 <control>学习 <include from="reuse-library.topic" element-id="tool-window-snippet" /></control> 开始学习课程或特定教程。</p>
     <p>要完成一个课程，您需要完成其中的所有任务。不过，您也不必学习所有课程和教程，您可以只关注感兴趣的部分，请参阅 <a anchor="start-a-lesson-from-the-welcome-screen" summary=""/> 和 <a anchor="switching-between-lessons-and-tutorials" summary=""/> 。</p>
     <video src="https://www.youtube.com/watch?v=vsUx-kod2O4" width="706"/>
     <procedure id="ws-features-trainer-before-you-start" title="准备工作">
-        <step>确保正在使用的 Intellij IDEA 版本为 2020.3 或更高版本。</step>
+        <step>确保正在使用的 IntelliJ IDEA 版本为 2020.3 及更高版本。</step>
         <step>
             <p>确保已正确安装并启用 <format style="bold">IDE Features Trainer</format> 插件。</p>
             <img src="确保已正确安装并启用 IDE Features Trainer 插件.png" alt="确保已正确安装并启用 IDE Features Trainer 插件" width="706" thumbnail="true"/>
         </step>
     </procedure>
     <procedure title="开始学习课程" id="start-a-lesson-from-the-welcome-screen">
-        <step>单击 <format style="bold">欢迎界面</format> 左侧的 <format style="bold">学习</format> 。</step>
+        <step>单击 <control>欢迎界面</control> 左侧的 <ui-path>学习</ui-path> 。</step>
         <step>
-            在右侧的窗口中，单击 <format style="bold">学习 IDE 功能</format> 下的 <format style="bold">开始学习</format> 。
+            <p>在右侧的窗口中，单击 <ui-path>学习 IDE 功能 | 开始学习</ui-path> 。</p>
             <img src="单击交互式课程下的开始学习按钮.png" alt="单击交互式课程下的开始学习按钮" width="706" thumbnail="true"/>
         </step>
         <step>
-            IntelliJ IDEA 会生成一个学习项目，并打开与所选教程的第一课相对应的上下文。
-            <img src="Intellij IDEA 生成的学习项目.png" alt="Intellij IDEA 生成的学习项目" width="706" thumbnail="true"/>
+            <p>IntelliJ IDEA 会生成一个学习项目，并打开与所选教程的第一课相对应的上下文。</p>
+            <img src="IntelliJ IDEA 生成的学习项目.png" alt="IntelliJ IDEA 生成的学习项目" width="706" thumbnail="true"/>
         </step>
-        <note>您可以删除 <code>&#37;LOCALAPPDATA&#37;\JetBrains\IntelliJIdea2022.3\demo</code> 目录中的文件夹，以便在 <tooltip term="windows">Windows</tooltip> 系统中删除自动生成的学习项目 。</note>
+        <note>您可以删除 <code>&#37;LOCALAPPDATA&#37;\JetBrains\IntelliJIdea2022.3\demo</code> 文件夹中的子文件夹，以便在 <tooltip term="windows">Windows</tooltip> 系统中删除自动生成的学习项目 。</note>
         <video src="https://www.youtube.com/watch?v=fLujFmVI7Yo" width="706"/>
     </procedure>
     <procedure title="从学习工具窗口开始教程" id="start-a-lesson-from-the-learn-tool-window">
         <step>
-            选择 <ui-path><include from="reuse-library.topic" element-id="main-menus-snippet" /> | 视图 | 工具窗口 | 学习</ui-path> 。
+            <p>选择 <ui-path><include from="reuse-library.topic" element-id="main-menus-snippet" /> | 视图 | 工具窗口 | 学习</ui-path> 。</p>
             <img src="通过主菜单打开学习工具窗口.png" alt="通过主菜单打开学习工具窗口" width="706" thumbnail="true"/>
         </step>
         <step>
-            单击要完成的课程，然后在 <format style="bold">打开学习项目</format> 对话框中单击 <format style="bold">打开</format> 。
+            <p>单击要完成的课程，然后在 <control>打开学习项目</control> 中单击 <control>打开</control> 。</p>
             <img src="单击打开学习项目中的打开按钮.png" alt="单击打开学习项目中的打开按钮" width="706" thumbnail="true"/>
         </step>
         <step>
-            在 <format style="bold">打开项目</format> 对话框中选择打开课程的方式。
+            <p>在 <control>打开项目</control> 中选择打开课程的方式。</p>
             <list>
-                <li><p><b>此窗口</b> ：在当前窗口中打开新教程，它将会关闭已打开的课程窗口。</p></li>
-                <li><p><b>新窗口</b> ：在新窗口中打开教程，它将会保留已打开的课程窗口。</p></li>
-                <li><p><b>取消</b> ：不进行任何操作，保留已打开的全部课程窗口。</p> </li>
+                <li><format style="bold">此窗口</format> ：在当前窗口中打开新教程，它将会关闭已打开的课程窗口。</li>
+                <li><format style="bold">新窗口</format> ：在新窗口中打开教程，它将会保留已打开的课程窗口。</li>
+                <li><format style="bold">取消</format> ：不进行任何操作，保留已打开的全部课程窗口。</li>
             </list>
             <img alt="以合适的方式打开新课程" src="以合适的方式打开新课程.png" width="706" thumbnail="true"/>
         </step>
@@ -51,17 +51,19 @@
     <procedure title="在课程和教程之间切换" id="switching-between-lessons-and-tutorials">
         <note>可只学习您认为最相关的教程和课程，也可以轻松跳过课程、切换教程或放弃课程。</note>
         <step>
-            要转到下一课，请打开 <format style="bold">学习</format> 工具窗口，滚动到底部，然后单击 <format style="bold">下一个：&lt;课程名称&gt;</format> 或单击另一课链接。
+            <p>要转到下一课，请打开 <ui-path>学习</ui-path> 工具窗口，滚动到底部，然后单击 <format style="bold">下一个：&lt;课程名称&gt;</format> 或单击另一课链接。</p>
             <video src="https://www.youtube.com/watch?v=oz1J0lOpQU8" width="706"/>
         </step>
         <step>
-            要切换到另一个教程而不丢失当前教程的进度，请单击 <format style="bold">学习</format> 工具窗口顶部的名称链接。然后点击您感兴趣的教程，并选择要完成的课程。
+            <p>要切换至另一个教程而不丢失当前教程的进度，请单击 <ui-path>学习</ui-path> 工具窗口顶部的名称链接。然后单击您感兴趣的教程，并选择要完成的课程。</p>
             <video src="https://www.youtube.com/watch?v=iRP64ed02zc" width="706"/>
         </step>
-        <note>
-            <p>如果您想要在不保存学习进度的情况下放弃教程，请进入 <format style="bold">设置</format> （ <shortcut>Ctrl</shortcut><shortcut>Alt</shortcut><shortcut>S</shortcut> ）并单击 <ui-path>工具 | IDE Features Trainer | 重置单元进度</ui-path> 按钮。</p>
-            <p>单击 <format style="bold">确定</format> 按钮后，您将返回到 <format style="bold">学习</format> 工具窗口，此时您的学习进度已被成功重置。</p>
-        </note>
+        <note>如果您想要在不保存学习进度的情况下放弃教程，请单击 <ui-path>设置（ <shortcut>Ctrl</shortcut><shortcut>Alt</shortcut><shortcut>S</shortcut> ） | 工具 | IDE Features Trainer | 重置单元进度</ui-path> 。 单击 <control>确定</control> 后，您将返回到 <ui-path>学习</ui-path> 工具窗口，此时您的学习进度已被成功重置。</note>
         <video src="https://www.youtube.com/watch?v=ITTneCd8kD8" width="706"/>
     </procedure>
+    <seealso>
+        <include from="reuse-library.topic" element-id="ides-snippet"/>
+        <include from="reuse-library.topic" element-id="core-references-snippet"/>
+        <include from="reuse-library.topic" element-id="programming-language-snippet"/>
+    </seealso>
 </topic>

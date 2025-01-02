@@ -3,44 +3,44 @@
         SYSTEM "https://resources.jetbrains.com/writerside/1.0/xhtml-entities.dtd">
 <topic xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
        xsi:noNamespaceSchemaLocation="https://resources.jetbrains.com/writerside/1.0/topic.v2.xsd"
-       title="卸载 Intellij IDEA" id="uninstall">
-    <note>卸载 IntelliJ IDEA 的正确方法取决于您使用的 <a href="installation-guide.topic" summary="选择一种适合的方式安装 Intellij IDEA。">安装</a> 方法。&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;</note>
+       title="卸载 IntelliJ IDEA" id="uninstall">
+    <note>卸载 IntelliJ IDEA 的正确方法取决于您选择的 <a href="installation-guide.topic" summary="">安装</a> 方法。&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;</note>
     <chapter id="standalone" title="卸载独立实例">
-        <note>如果运行的是 <a href="installation-guide.topic" anchor="standalone">独立的 IntelliJ IDEA 实例</a> ，则在删除实例时会保留 <a href="directories-used-by-the-ide-to-store-settings-caches-plugins-and-logs.topic">默认的 IDE 目录</a> ，以备日后保留设置或在另一个实例、另一个版本或另一个 <tooltip term="ide">IDE</tooltip> 中使用。如果确定不需要这些目录，可以将其删除。</note>
+        <note>如果运行的是 <a href="installation-guide.topic" anchor="standalone" summary="">独立的 IntelliJ IDEA 实例</a> ，则在删除实例时将保留 <a href="directories-used-by-the-ide-to-store-settings-caches-plugins-and-logs.topic">默认的 IDE 文件夹</a> ，以备日后保留设置或在另一个实例、另一个版本或另一个 <tooltip term="ide">IDE</tooltip> 中使用。如果确定不需要这些文件夹，可以手动将其删除。</note>
         <tabs>
-            <tab title="Windows">
+            <tab title="Windows" id="windows">
                 <list type="decimal">
                     <li>
-                        <p>在 <format style="bold">控制面板</format> 对话框中打开 <format style="bold">程序和功能</format> 部分，选择 IntelliJ IDEA 应用程序并单击 <format style="bold">卸载</format> 。</p>
-                        <img alt="在 Windows 程序和面板中卸载 Intellij IDEA" src="在 Windows 程序和面板中卸载 Intellij IDEA（1）.png" width="706" thumbnail="true"/>
-                        <img alt="在 Windows 程序和面板中卸载 Intellij IDEA" src="在 Windows 程序和面板中卸载 Intellij IDEA（2）.png" thumbnail="true" width="706"/>
-                        <img alt="在 Windows 程序和面板中卸载 Intellij IDEA" src="在 Windows 程序和面板中卸载 Intellij IDEA（3）.png" thumbnail="true" width="706"/>
+                        <p>在 <control>控制面板</control> 中打开 <ui-path>程序和功能</ui-path> 部分，选择 IntelliJ IDEA 应用程序并单击 <control>卸载</control> 。</p>
+                        <img alt="在 Windows 程序和面板中卸载 IntelliJ IDEA" src="在 Windows 程序和面板中卸载 IntelliJ IDEA（1）.png" width="706" thumbnail="true"/>
+                        <img alt="在 Windows 程序和面板中卸载 IntelliJ IDEA" src="在 Windows 程序和面板中卸载 IntelliJ IDEA（2）.png" thumbnail="true" width="706"/>
+                        <img alt="在 Windows 程序和面板中卸载 IntelliJ IDEA" src="在 Windows 程序和面板中卸载 IntelliJ IDEA（3）.png" thumbnail="true" width="706"/>
                     </li>
                     <li>
-                        <p>您还可以手动运行 <format style="bold">bin</format> 目录中 <format style="bold">Uninstall.exe</format> 进行卸载。</p>
-                        <img alt="通过 bin 目录中的 Uninstall 卸载 Intellij IDEA" src="通过 bin 目录中的 Uninstall 卸载 Intellij IDEA.png" width="706" thumbnail="true"/>
+                        <p>您还可以手动运行 <path>bin</path> 文件夹中 <path>Uninstall.exe</path> 进行卸载。</p>
+                        <img alt="通过 bin 文件夹中的 Uninstall 卸载 IntelliJ IDEA" src="通过 bin 文件夹中的 Uninstall 卸载 IntelliJ IDEA.png" width="706" thumbnail="true"/>
                     </li>
                     <li>
-                        <p>勾选卸载时需要被一并移除的内容，然后单击 <format style="bold"><format style="underline">U</format>ninstall</format> 按钮。</p>
+                        <p>勾选卸载后需要被一并移除的内容，然后单击 <control><format style="underline">U</format>ninstall</control> 。</p>
                         <list>
-                            <li>删除 Intellij IDEA 2022.3.3 的缓存以及本地历史记录。</li>
-                            <li>删除 Intellij IDEA 2022.3.3 的相关设置以及已安装的 <a href="managing-plugins.topic" summary="强大的插件系统造就了 Intellij IDEA 无与伦比的功能拓展性。">插件</a> 。</li>
+                            <li>移除 IntelliJ IDEA 2022.3.3 的缓存以及本地历史记录。</li>
+                            <li>移除 IntelliJ IDEA 2022.3.3 的相关设置以及已安装的 <a href="managing-plugins.topic" summary="插件系统赋予了 IntelliJ IDEA 强大的功能拓展能力。">插件</a> 。</li>
                             <li>参与卸载反馈。（ <format style="bold">通常无需勾选</format> ）</li>
                         </list>
-                        <img alt="在 Windows 平台上卸载 Intellij IDEA" src="在 Windows 平台上卸载 Intellij IDEA（1）.png" width="706" thumbnail="true"/>
+                        <img alt="在 Windows 平台上卸载 IntelliJ IDEA" src="在 Windows 平台上卸载 IntelliJ IDEA（1）.png" width="706" thumbnail="true"/>
                     </li>
                     <li>
-                        <p>卸载完成后单击 <format style="bold">Close</format> 按钮完成卸载。如有需要可以单击 <format style="bold">Show <format style="underline">d</format>etails</format> 按钮查看详细内容。</p>
-                        <img alt="在 Windows 平台上卸载 Intellij IDEA" src="在 Windows 平台上卸载 Intellij IDEA（2）.png" width="706" thumbnail="true"/>
+                        <p>卸载完成后单击 <control>Close</control> 完成卸载。如有需要可以单击 <control>Show <format style="underline">d</format>etails</control> 查看详细内容。</p>
+                        <img alt="在 Windows 平台上卸载 IntelliJ IDEA" src="在 Windows 平台上卸载 IntelliJ IDEA（2）.png" width="706" thumbnail="true"/>
                     </li>
                     <li>
-                        <p>删除以下目录（可选）：</p>
+                        <p>删除以下文件夹（可选）：</p>
                         <deflist>
-                            <def title="语法">
+                            <def title="语法" id="windows-grammar">
                                 <p>&#37;APPDATA&#37;\JetBrains\&lt;product&gt;&lt;version&gt;</p>
                                 <p>&#37;LOCALAPPDATA&#37;\JetBrains\&lt;product&gt;&lt;version&gt;</p>
                             </def>
-                            <def title="例子">
+                            <def title="例子" id="windows-grammar-example">
                                 <p>C:\Users\OldFriend\AppData\Roaming\JetBrains\IntelliJIdea2022.3</p>
                                 <p>C:\Users\OldFriend\AppData\Local\JetBrains\IntelliJIdea2022.3</p>
                             </def>
@@ -49,17 +49,17 @@
                     </li>
                 </list>
             </tab>
-            <tab title="macOS">
+            <tab title="macOS" id="macos">
                 <list type="decimal">
-                    <li><p>删除 <format style="bold">应用程序（Applications）目录</format> 中的 IntelliJ IDEA 应用程序。</p></li>
+                    <li>删除 <tooltip term="applications">Applications</tooltip> 中的 IntelliJ IDEA 应用程序。</li>
                     <li>
-                        <p>删除以下目录（可选）：</p>
+                        <p>删除以下文件夹（可选）：</p>
                         <deflist>
-                            <def title="语法">
+                            <def title="语法" id="macos-grammar">
                                 <p>~/Library/Application Support/JetBrains/&lt;product&gt;&lt;version&gt;</p>
                                 <p>~/Library/Caches/JetBrains/&lt;product&gt;&lt;version&gt;</p>
                             </def>
-                            <def title="例子">
+                            <def title="例子" id="macos-grammar-example">
                                 <p>~/Library/Application Support/JetBrains/IntelliJIdea2022.3</p>
                                 <p>~/Library/Caches/JetBrains/IntelliJIdea2022.3</p>
                             </def>
@@ -67,18 +67,18 @@
                     </li>
                 </list>
             </tab>
-            <tab title="Linux">
+            <tab title="Linux" id="linux">
                 <list type="decimal">
-                    <li>删除 Intellij IDEA 的安装目录。</li>
+                    <li>删除 IntelliJ IDEA 的安装文件夹。</li>
                     <li>
-                        <p>删除以下目录（可选）：</p>
+                        <p>删除以下文件夹（可选）：</p>
                         <deflist>
-                            <def title="语法">
+                            <def title="语法" id="linux-grammar">
                                 <p>~/.config/JetBrains/&gt;product&lt;&gt;version&lt;</p>
                                 <p>~/.cache/JetBrains/&gt;product&lt;&gt;version&lt;</p>
                                 <p>~/.local/share/JetBrains/&gt;product&lt;&gt;version&lt;</p>
                             </def>
-                            <def title="例子">
+                            <def title="例子" id="linux-grammar-example">
                                 <p>~/.config/JetBrains/IntelliJIdea2022.3</p>
                                 <p>~/.cache/JetBrains/IntelliJIdea2022.3</p>
                                 <p>~/.local/share/JetBrains/IntelliJIdea2022.3</p>
@@ -91,31 +91,31 @@
     </chapter>
     <chapter id="toolbox" title="使用 Toolbox App 卸载">
         <primary-label ref="Toolbox"/>
-        <p>如果使用 <a href="installation-guide.topic" anchor="toolbox">Toolbox App 安装了 IntelliJ IDEA</a>，请执行以下操作：</p>
-        <procedure type="choices">
-            <warning>因软件更新迭代较快，现 Toolbox App 已不支持下载 Intellij IDEA 2022.3.3 版本。&nbsp;&nbsp;</warning>
-            <note>Toolbox App 虽不再提供 Intellij IDEA 2022.3.3 的下载，但若已安装该版本则仍可由 Toolbox App 管理。</note>
-            <step>打开 Toolbox App，单击必要实例的 <img src="toolbox app 更多按钮.svg" alt=""/> 图标，然后选择 <format style="bold">卸载</format> 。</step>
-            <img alt="单击实例中卸载按钮卸载实例" src="单击实例中卸载按钮卸载实例.png" width="706"/>
+        <p>如果使用 <a href="installation-guide.topic" anchor="toolbox" summary="">Toolbox App 安装了 IntelliJ IDEA</a> ，请执行以下操作：</p>
+        <procedure type="choices" id="uninstall-step">
+            <warning>因软件更新迭代较快，现 Toolbox App 已不支持下载 IntelliJ IDEA 2022.3.3 版本。&nbsp;&nbsp;</warning>
+            <note>虽然 Toolbox App 不再提供 IntelliJ IDEA 2022.3.3 的下载，但若已安装该版本则仍可由 Toolbox App 进行管理。</note>
+            <step>打开 Toolbox App，单击实例的 <img src="toolbox app 更多按钮.svg" alt=""/> 图标，然后选择 <ui-path>卸载</ui-path> 。</step>
+            <img alt="单击实例中卸载按钮卸载实例" src="单击实例中卸载按钮卸载实例.png" width="706" thumbnail="true"/>
             <video src="https://www.youtube.com/watch?v=s9_MJQr0Utg" width="706"/>
         </procedure>
     </chapter>
-    <!-- 注意：若非必要情况下尽量不要使用静默卸载。 -->
-    <chapter id="silent" title="在 Windows 上静默卸载">
-        <p>如果以 <a href="installation-guide.topic" anchor="silent">静默方式安装 IntelliJ IDEA</a> ，可以使用 <code>/S</code> 开关以管理员身份运行卸载程序。</p>
-        <p>以管理员身份运行 <tooltip term="cmd">CMD</tooltip> ，并进入到 IntelliJ IDEA 安装目录，然后运行以下内容：</p>
+    <chapter title="在 Linux 上卸载 Snap 包" id="snap">
+        <p>如果 <a href="installation-guide.topic" anchor="snap" summary="">将 IntelliJ IDEA 作为 Snap 包安装</a> ，请使用以下命令将其移除：</p>
+        <tabs>
+            <tab title="IntelliJ IDEA Ultimate" id="iu"><code-block prompt="$" lang="shell">sudo snap remove intellij-idea-ultimate</code-block></tab>
+            <tab title="Community Edition" id="ce"><code-block prompt="$" lang="shell">sudo snap remove intellij-idea-community</code-block></tab>
+        </tabs>
+    </chapter>
+    <!-- 注意：非必要情况下尽量不要使用静默卸卸载。 -->
+    <chapter id="silent" title="在 Windows 系统上静默卸载">
+        <p>如果以 <a href="installation-guide.topic" anchor="silent" summary="">静默方式安装 IntelliJ IDEA</a> ，可以使用 <code>/S</code> 参数以管理员身份运行卸载程序。</p>
+        <p>以管理员身份运行 <tooltip term="cmd">CMD</tooltip> ，并进入到 IntelliJ IDEA 安装文件夹，然后运行以下内容：</p>
         <code-block prompt=">" lang="bash">bin\uninstall.exe /S</code-block>
     </chapter>
-    <chapter title="在 Linux 上卸载 snap 软件包" id="snap">
-        <p>如果 <a href="installation-guide.topic" anchor="snap">将 IntelliJ IDEA 作为 snap 软件包安装</a> ，请使用以下命令将其删除：</p>
-        <tabs>
-            <tab title="IntelliJ IDEA Ultimate"><code-block prompt="$" lang="bash">sudo snap remove intellij-idea-ultimate</code-block></tab>
-            <tab title="Community Edition"><code-block prompt="$" lang="bash">sudo snap remove intellij-idea-community</code-block></tab>
-        </tabs>        
-    </chapter>
     <seealso>
-        <category ref="references">
-            <a href="directories-used-by-the-ide-to-store-settings-caches-plugins-and-logs.topic" />
-        </category>
+        <include from="reuse-library.topic" element-id="ides-snippet"/>
+        <include from="reuse-library.topic" element-id="core-references-snippet"/>
+        <include from="reuse-library.topic" element-id="programming-language-snippet"/>
     </seealso>
 </topic>

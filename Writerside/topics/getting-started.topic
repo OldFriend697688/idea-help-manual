@@ -5,28 +5,28 @@
        xsi:noNamespaceSchemaLocation="https://resources.jetbrains.com/writerside/1.0/topic.v2.xsd"
        title="快速开始" id="getting-started">
     <section-starting-page>
-        <title>Intellij IDEA 2022.3.3 中文帮助手册</title>
+        <title>IntelliJ IDEA 2022.3.3 中文帮助手册</title>
         <description>完全中文化帮助手册，全面覆盖基础至高级的各方面知识。</description>
 
         <spotlight>
-            <a href="register.topic" type="key" summary="注册 IntelliJ IDEA，摆脱试用限制，尽享高效开发。" />
+            <a href="register.topic" type="key" summary="注册 IntelliJ IDEA，摆脱试用限制，尽享高效开发。"/>
             <a href="working-offline.topic" type="world" summary="借助离线模式，IntelliJ IDEA 让您随时随地都能高效开发，即使在没有网络的环境中也能保持工作效率。" />
         </spotlight>
 
         <primary>
             <title>快速开始</title>
-            <a href="installation-guide.topic" summary="根据您的操作系统，选择合适的 IntelliJ IDEA 安装方式。">安装 Intellij IDEA</a>
+            <a href="installation-guide.topic" summary="根据您的操作系统，选择合适的 IntelliJ IDEA 安装方式。">安装 IntelliJ IDEA</a>
             <a href="installation-guide.topic" summary="为 IntelliJ IDEA 安装简体中文语言包，改善使用体验，降低学习门槛。" anchor="simplified-chinese-language" />
             <a href="user-interface-themes.topic" summary="安装个性化主题，告别单调的界面，打造专属的视觉体验。">主题</a>
             <a href="guided-tour-around-the-user-interface.topic" summary="掌握 IntelliJ IDEA 用户界面的主要构成，提高开发效率。"/>
-            <a href="setting-background-image.topic" summary="用个性背景图美化你的 IntelliJ IDEA。"/>
+            <a href="setting-background-image.topic" summary="用个性背景图美化您的 IntelliJ IDEA。"/>
             <a href="tool-window.topic" summary="工具窗口为您提供了一个直观且便捷的界面，让您可以轻松地浏览项目结构、运行调试应用程序、进行代码分析，以及与各种外部工具进行交互，从而大大提高您的开发效率。"/>
         </primary>
 
         <secondary>
             <title>高级知识</title>
             <a href="debugging-code.topic" summary="掌握代码调试技巧，高效解决程序中的异常和漏洞。">调试应用程序</a>
-            <a href="managing-plugins.topic" summary="强大的插件生态赋予 IntelliJ IDEA 极高的灵活性和可定制性。">插件系统</a>
+            <a href="managing-plugins.topic" summary="插件可以扩展 IntelliJ IDEA 的核心功能。">插件系统</a>
             <a href="tests-in-ide.topic" summary="测试应用程序，旨在发现并解决潜在问题，确保其按照设计规格执行。">测试应用程序</a>
             <a href="decompiler.topic" summary="使用 Java 字节码反编译器查看字节码文件的内容。">字节码反编译器</a>
         </secondary>
@@ -60,9 +60,9 @@
                     <a href="https://spring.io/tools/sts" summary="Spring Tool Suite (STS) 是一款功能强大的 Java 集成开发环境（IDE），专门为开发基于 Spring 框架的企业级应用程序而设计。它基于 Eclipse 平台构建，并集成了众多 Spring 开发所需的工具和插件，大大提高了 Spring 应用程序的开发效率。">Spring Tool Suite (STS)</a>
                 </group>
                 <group>
-                    <title>自动化构建工具</title>
+                    <title>构建工具</title>
                     <a href="https://maven.apache.org/" summary="Apache Maven 是一个 Java 项目管理和构建工具，被广泛应用于 Java 项目的构建、依赖管理和部署。它基于 Project Object Model (POM) 的概念，通过一个 pom.xml 文件来管理项目的整个生命周期。">Maven</a>
-                    <a href="https://gradle.org/" summary="Gradle 是一个基于 Apache Ant 和 Apache Maven 概念的项目自动化构建工具。它使用一种基于 Groovy 的特定领域语言（Domain Specific Language, DSL）来描述构建脚本，相较于传统的 XML 配置文件，Groovy DSL 更加灵活和易于阅读。">Gradle</a>
+                    <a href="https://gradle.org/" summary="Gradle 是一个基于 Apache Ant 和 Apache Maven 概念的项目构建工具。它使用一种基于 Groovy 的特定领域语言（Domain Specific Language, DSL）来描述构建脚本，相较于传统的 XML 配置文件，Groovy DSL 更加灵活和易于阅读。">Gradle</a>
                 </group>
                 <group>
                     <title>开发框架</title>

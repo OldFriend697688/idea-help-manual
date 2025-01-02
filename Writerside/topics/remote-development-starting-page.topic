@@ -3,7 +3,7 @@
         SYSTEM "https://resources.jetbrains.com/writerside/1.0/xhtml-entities.dtd">
 <topic xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
        xsi:noNamespaceSchemaLocation="https://resources.jetbrains.com/writerside/1.0/topic.v2.xsd"
-       title="从 Intellij IDEA 连接到远程服务器" id="remote-development-starting-page">
+       title="从 IntelliJ IDEA 连接到远程服务器" id="remote-development-starting-page">
 
     <p>Start typing here...</p>
 </topic>

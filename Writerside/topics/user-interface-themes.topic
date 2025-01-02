@@ -7,7 +7,7 @@
     <p>界面主题定义了窗口、对话框、按钮以及用户界面所有视觉元素的外观。默认情况下，IntelliJ IDEA 使用 Darcula 主题，除非您在 <a href="run-for-the-first-time.topic" summary=""/> 更改了它。</p>
     <note>界面主题与 <a href="configuring-colors-and-fonts.topic">配色方案</a> 不同，配色方案定义了各种文本资源（例如源代码、搜索结果等）的颜色、字体和语法高亮。</note>
     <procedure id="change-theme" title="更改 UI 主题">
-        <step>在 <format style="bold">设置</format> 对话框中（ <shortcut>Ctrl</shortcut><shortcut>Alt</shortcut><shortcut>S</shortcut> ）中，选择 <ui-path>外观与行为 | 外观</ui-path> 。</step>
+        <step>在 <format style="bold">设置（ <shortcut>Ctrl</shortcut><shortcut>Alt</shortcut><shortcut>S</shortcut> ）</format> 中选择 <ui-path>外观与行为 | 外观</ui-path> 。</step>
         <step>
             从 <format style="bold">主题</format> 下拉列表中选择一个主题：
             <list>
@@ -17,23 +17,24 @@
                 <li><format style="bold">High contrast</format> ：为色盲用户设计的主题。</li>
             </list>
             <img alt="通过主题下拉列表切换主题" src="通过主题下拉列表切换主题.png" width="706" thumbnail="true"/>
-            <note>选择 <format style="bold">与操作系统同步</format> ，让 IntelliJ IDEA 检测当前系统设置，并相应地使用默认的深色或浅色主题。</note>
+            <note>选择 <format style="bold">与操作系统同步</format> ，可以让 IntelliJ IDEA 检测当前系统设置，并相应地使用默认的深色或浅色主题。</note>
             <video src="https://www.youtube.com/watch?v=BemqyrDkFJc" width="706"/>
         </step>
     </procedure>
-    <p>您可以从 <a href="https://plugins.jetbrains.com/">JetBrains 插件库</a> 安装自定义主题，正如 <a href="managing-plugins.topic" summary="">管理插件</a> 中所述。</p>
+    <p>您可以通过从 <a href="https://plugins.jetbrains.com/">JetBrains 插件库</a> 中安装自定义主题，正如 <a href="managing-plugins.topic" summary="">管理插件</a> 中所述。</p>
     <video src="https://www.youtube.com/watch?v=gsg4Af8yp-w" width="706"/>
-    <p>也可以创建您自己的 IntelliJ IDEA UI 主题并自定义内置主题。有关更多信息，请参阅 <a href="http://www.jetbrains.org/intellij/sdk/docs/reference_guide/ui_themes/themes_intro.html">IntelliJ 平台 SDK 文档</a> 。</p>
+    <p>您可以创建自己的 IntelliJ IDEA UI 主题并自定义内置主题。有关更多信息，请参阅 <a href="http://www.jetbrains.org/intellij/sdk/docs/reference_guide/ui_themes/themes_intro.html">IntelliJ 平台 SDK 文档</a> 。</p>
     <chapter id="tips" title="生产力提示">
         <procedure id="quickly-switch-themes" title="快速切换主题">
             <step>按 <shortcut>Ctrl</shortcut><shortcut>`</shortcut> 或选择 <ui-path><include from="reuse-library.topic" element-id="main-menus-snippet" /> | 视图 | 快速切换方案</ui-path> 。</step>
-            <step>在 <format style="bold">切换</format> 弹出窗口中，选择 <format style="bold">主题</format> ，然后选择需要的主题。</step>
+            <step>在 <format style="bold">切换</format> <a href="guided-tour-around-the-user-interface.topic" anchor="popup-menus" summary=""/> 中，选择 <format style="bold">主题</format> ，然后选择需要的主题。</step>
             <video src="https://www.youtube.com/watch?v=vUVVgwO89-Y" width="706"/>
         </procedure>
     </chapter>
     <seealso>
         <category ref="references">
-            <a href="guided-tour-around-the-user-interface.topic" anchor="popup-menus" />
+            <a href="guided-tour-around-the-user-interface.topic" anchor="popup-menus" summary=""/>
+            <a href="installation-guide.topic" anchor="simplified-chinese-language" summary=""/>
         </category>
     </seealso>
 </topic>

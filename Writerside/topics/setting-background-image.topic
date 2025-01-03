@@ -6,22 +6,22 @@
        title="背景图像" id="setting-background-image">
     <p>您可以将任何图像设置为 IntelliJ IDEA 中 <include from="reuse-library.topic" element-id="editor-snippet" /> 和所有 <include from="reuse-library.topic" element-id="tool-window-snippet"/> 的自定义背景。</p>
     <procedure id="configure-background-image" title="配置背景图像" type="steps">
-        <step>在 <format style="bold">设置（ <shortcut>Ctrl</shortcut><shortcut>Alt</shortcut><shortcut>S</shortcut> ）</format> 中选择 <ui-path>外观与行为 | 外观</ui-path> 。</step>
+        <step>在 <control>设置（ <shortcut>Ctrl</shortcut><shortcut>Alt</shortcut><shortcut>S</shortcut> ）</control> 中选择 <ui-path>外观与行为 | 外观</ui-path> 。</step>
         <step>
-            <p>找到并单击 <format style="bold">UI 选项</format> 部分中的 <format style="bold">背景图像</format> 按钮。</p>
+            <p>找到并单击 <format style="bold">UI 选项</format> 部分中的 <format style="bold">背景图像</format> 。</p>
             <img alt="设置背景图像" src="设置背景图像.png" width="706" thumbnail="true"/>
-            <note>或者，如果图像已在您的项目中，请在 <include from="reuse-library.topic" element-id="editor-snippet" /> 或 <include from="reuse-library.topic" element-id="project-tool-window-snippet" /> 中右键单击该图像，然后从 <include from="reuse-library.topic" element-id="context-menus-snippet" /> 中选择 <format style="bold">设置背景图像</format> 。您也可以按 <shortcut>Ctrl</shortcut><shortcut>Shift</shortcut><shortcut>A</shortcut> ，找到并选择 <format style="bold">设置背景图像</format> 操作。</note>
+            <note>或者，如果图像已在您的项目中，请在 <include from="reuse-library.topic" element-id="editor-snippet" /> 或 <include from="reuse-library.topic" element-id="project-tool-window-snippet" /> 中右键单击该图像，然后从 <include from="reuse-library.topic" element-id="context-menus-snippet" /> 中选择 <ui-path>设置背景图像</ui-path> 。您也可以按 <shortcut>Ctrl</shortcut><shortcut>Shift</shortcut><shortcut>A</shortcut> ，找到并选择 <ui-path>设置背景图像</ui-path> 操作。</note>
             <video src="https://www.youtube.com/watch?v=5MUVc8hu0UM" width="706"/>
         </step>
         <step>
-            <p>在 <format style="bold">背景图像</format> 对话框中，指定图像并单击 <format style="bold">确定</format> 按钮应用更改。</p>
+            <p>在 <control>背景图像</control> 中，指定图像并单击 <format style="bold">确定</format> 应用更改。</p>
             <p>有关于选项的详细信息，请参阅 <a anchor="background-image-settings" summary=""/> 。</p>
             <img alt="背景图像对话框" src="背景图像对话框.png" width="706" thumbnail="true"/>
             <video src="https://www.youtube.com/watch?v=Cbln0_vuxss" width="706"/>
         </step>
     </procedure>
     <chapter id="background-image-settings" title="背景图像设置">
-        <p><format style="bold">背景图像</format> 对话框中有以下选项：</p>
+        <p><control>背景图像</control> 中有以下选项：</p>
         <table style="none" column-width="auto">
             <tr>
                 <td width="250">图像</td>

@@ -7,9 +7,6 @@
     <show-structure depth="1" for="chapter,procedure" />
     <primary-label ref="Ultimate"/>
     <secondary-label ref="FreeTrial"/>
-    <snippet id="close-idea-prompt-information">
-        <warning>特别强调，在卸载和配置激活补丁脚本前，请确保 IntelliJ IDEA 处于关闭状态。</warning>
-    </snippet>
     <note>您可以免费试用 IntelliJ IDEA Ultimate（旗舰版）至多 <format style="bold">30</format> 天。当安装 <tooltip term="ide">IDE</tooltip> 后，请登录您的 <a href="https://account.jetbrains.com/login">JetBrains 帐户</a> 以便开始试用 IntelliJ IDEA Ultimate。</note>
     <tip>
         <list>
@@ -81,7 +78,7 @@
             </step>
         </procedure>
         <procedure title="配置与激活步骤" id="configuration-and-activation" default-state="collapsed" collapsible="true">
-            <include from="register.topic" element-id="close-idea-prompt-information"/>
+            <include from="reuse-library.topic" element-id="close-idea-prompt-information"/>
             <step>
                 <p>进入 <path>scripts</path> 文件夹中找到适用于当前 <tooltip term="operating-system">操作系统</tooltip> 的可执行脚本并运行它。</p>
                 <img src="可用的激活脚本.png" alt="可用的激活脚本" width="706" thumbnail="true"/>
@@ -107,7 +104,7 @@
             </step>
         </procedure>
         <procedure title="卸载破解激活脚本" id="uninstall-crack-activation-script" default-state="collapsed" collapsible="true">
-            <include from="register.topic" element-id="close-idea-prompt-information" />
+            <include from="reuse-library.topic" element-id="close-idea-prompt-information" />
             <step>
                 <p>进入 <path>scripts</path> 文件夹中找到适用于当前操作系统的可执行卸载脚本并运行它。</p>
                 <note>

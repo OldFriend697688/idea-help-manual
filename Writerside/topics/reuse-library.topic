@@ -4,6 +4,9 @@
 <topic xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
        xsi:noNamespaceSchemaLocation="https://resources.jetbrains.com/writerside/1.0/topic.v2.xsd"
        title="reuse-library" id="reuse-library">
+    <snippet id="close-idea-prompt-information">
+        <warning>特别强调，在卸载和配置激活补丁脚本前，请确保 IntelliJ IDEA 处于关闭状态。</warning>
+    </snippet>
     <snippet id="shortcut-key-priority-tips-snippet">
         <warning>您可以忽略冲突并为多个操作分配相同快捷键。但是，建议您避免使用相同的快捷键绑定两个操作，因为这些操作的优先级并未定义。</warning>
         <video src="https://www.youtube.com/watch?v=wRKNspj_-dU" width="706"/>

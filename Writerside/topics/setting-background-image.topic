@@ -14,15 +14,18 @@
             <video src="https://www.youtube.com/watch?v=5MUVc8hu0UM" width="706"/>
         </step>
         <step>
-            <p>在 <control>背景图像</control> 中，指定图像并单击 <format style="bold">确定</format> 应用更改。</p>
-            <p>有关于选项的详细信息，请参阅 <a anchor="background-image-settings" summary=""/> 。</p>
+            <p>在 <control>背景图像</control> 中，指定图像并单击 <control>确定</control> 应用更改。</p>
+            <p>有关于这些选项的详细用途，请参阅 <a anchor="background-image-settings" summary=""/> 。</p>
             <img alt="背景图像对话框" src="背景图像对话框.png" width="706" thumbnail="true"/>
             <video src="https://www.youtube.com/watch?v=Cbln0_vuxss" width="706"/>
         </step>
     </procedure>
     <chapter id="background-image-settings" title="背景图像设置">
-        <p><control>背景图像</control> 中有以下选项：</p>
         <table style="none" column-width="auto">
+            <tr>
+                <td>选项名称</td>
+                <td>用途描述</td>
+            </tr>
             <tr>
                 <td width="250">图像</td>
                 <td width="500">指定本地文件系统中图像的路径，或者远程服务器上图像的 URL。</td>

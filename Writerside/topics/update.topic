@@ -27,7 +27,7 @@
             </step>
             <step>
                 <p>单击 <ui-path>设置</ui-path> ，然后展开 <ui-path>工具</ui-path> 并启用 <ui-path>自动更新所有工具</ui-path> 。</p>
-                <img alt="为 Toolbox App 启用自动更新所有工具选项.gif" src="为 Toolbox App 启用自动更新所有工具选项.gif" width="706" thumbnail="true"/>
+                <img alt="为 Toolbox App 启用自动更新所有工具选项" src="为 Toolbox App 启用自动更新所有工具选项.gif" width="706" thumbnail="true"/>
             </step>
             <step>
                 <p>如果取消 <control>自动更新所有工具</control> ，当工具有新版本出现时，请单击工具名称旁边的 <control>更新</control> 。</p>

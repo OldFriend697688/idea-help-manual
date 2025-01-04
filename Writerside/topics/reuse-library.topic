@@ -15,58 +15,58 @@
         <a href="find-tool-window.topic" summary=""/>
     </snippet>
     <snippet id="maven-tool-windows-snippet">
-        <a href="maven-projects-tool-window.topic" summary="Maven 工具窗口会在创建或打开 Maven 项目时自动启用。"/>
+        <a href="maven-projects-tool-window.topic" summary=""/>
     </snippet>
     <snippet id="gradle-tool-windows-snippet">
-        <a href="jetgradle-tool-window.topic" summary="Gradle 工具窗口会在创建或打开 Gradle 项目时自动启用。单击右侧边栏中的 Gradle 打开工具窗口。该工具窗口显示 Gradle 链接的项目、其任务、依赖项以及对底层 build.gradle 文件所做的所有更改。"/>
+        <a href="jetgradle-tool-window.topic" summary=""/>
     </snippet>
     <snippet id="dsm-tool-window-snippet">
-        <a href="dsm-analysis.topic" anchor="dsm-tool-window" summary="DSM 分析完成后，此工具窗口将可用并显示依赖关系。"/>
+        <a href="dsm-analysis.topic" anchor="dsm-tool-window" summary=""/>
     </snippet>
     <snippet id="debug-tool-window-snippet">
-        <a href="debug-tool-window.topic" summary="当您启动调试器会话时，调试工具窗口将出现。使用此窗口来控制调试器会话，显示和分析程序数据（帧、线程、变量等），并执行各种调试器操作。"/>
+        <a href="debug-tool-window.topic" summary=""/>
     </snippet>
     <snippet id="notifications-tool-windows-snippet">
-        <a href="notifications.topic" anchor="notifications-tool-window" summary="通知工具窗口是 IntelliJ IDEA 中一个非常实用的功能，它可以集中显示各种类型的通知。"/>
+        <a href="notifications.topic" anchor="notifications-tool-window" summary=""/>
     </snippet>
     <snippet id="project-tool-window-snippet">
-        <a href="project-tool-window.topic" summary="通过项目工具窗口，您可以从不同的视角查看项目，并执行不同的任务，如创建新项目（目录、文件、类等）、在编辑器中打开文件、导航到必要的代码片段等。"/>
+        <a href="project-tool-window.topic" summary=""/>
     </snippet>
     <snippet id="run-tool-windows-snippet">
-        <a href="run-tool-window.topic" summary="运行工具窗口显示应用程序生成的输出。每个选项卡的外观取决于正在运行的应用程序类型，并可能包括其他工具箱和面板。"/>
+        <a href="run-tool-window.topic" summary=""/>
     </snippet>
     <snippet id="tool-window-snippet">
-        <a href="tool-window.topic" summary="工具窗口提供访问开发任务的途径：查看您的项目结构、运行和调试您的应用程序、与版本控制系统和其他外部工具集成、代码分析、搜索、导航等等。"/>
+        <a href="tool-window.topic" summary=""/>
+    </snippet>
+    <snippet id="main-windows-snippet">
+        <a href="guided-tour-around-the-user-interface.topic" anchor="main-windows" summary=""/>
+    </snippet>
+    <snippet id="status-bar-snippet">
+        <a href="guided-tour-around-the-user-interface.topic" anchor="status-bar" summary=""/>
+    </snippet>
+    <snippet id="toolbar-snippet">
+        <a href="guided-tour-around-the-user-interface.topic" anchor="vcs-file-color" summary="">主工具栏</a>
+    </snippet>
+    <snippet id="navigation-bar-snippet">
+        <a href="guided-tour-around-the-user-interface.topic" anchor="navigation-bar" summary="" />
+    </snippet>
+    <snippet id="main-menus-snippet">
+        <a anchor="main-menus" instance="hi" href="guided-tour-around-the-user-interface.topic" summary=""/>
+    </snippet>
+    <snippet id="editor-snippet">
+        <a anchor="editor" href="guided-tour-around-the-user-interface.topic" summary=""/>
+    </snippet>
+    <snippet id="context-menus-snippet">
+        <a anchor="context-menus" href="guided-tour-around-the-user-interface.topic" summary="" />
     </snippet>
     <snippet id="invalid-shortcut-key-prompt-snippet">
-        <note>如果发现无法通过快捷键触发代码补全，请尝试关闭中文输入法后再按对应的快捷键。&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;</note>
+        <note>如果发现无法通过 <a href="mastering-keyboard-shortcuts.topic" summary=""/> 触发代码补全，请尝试关闭中文输入法后再按对应的快捷键。</note>
     </snippet>
     <snippet id="plugins-install-tips-snippet">
         <warning>安装过多的插件可能会影响到 IntelliJ IDEA 的整体性能。&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;</warning>
     </snippet>
     <snippet id="toolbox-login-tips-snippet">
         <note>从 Toolbox App 登录 JetBrains 帐户，它将自动激活安装的任何 <tooltip term="ide">IDE</tooltip> 的可用许可证。</note>
-    </snippet>
-    <snippet id="main-windows-snippet">
-        <a href="guided-tour-around-the-user-interface.topic" anchor="main-windows" summary="IntelliJ IDEA 提供了一个非常强大的主窗口，它集成了代码编辑、调试、构建、版本控制以及许多其他功能。"/>
-    </snippet>
-    <snippet id="status-bar-snippet">
-        <a href="guided-tour-around-the-user-interface.topic" anchor="status-bar" summary="IntelliJ IDEA 的状态栏位于主窗口的底部，状态栏提供了一些有用的信息，并允许用户快速访问某些功能。"/>
-    </snippet>
-    <snippet id="toolbar-snippet">
-        <a href="guided-tour-around-the-user-interface.topic" anchor="vcs-file-color" summary="在默认情况下，含有打开和保存文件、撤销和重做操作按钮的主工具栏是隐藏的。">主工具栏</a>
-    </snippet>
-    <snippet id="navigation-bar-snippet">
-        <a href="guided-tour-around-the-user-interface.topic" anchor="navigation-bar" summary="IntelliJ IDEA 中的导航栏是一个便捷的功能，它允许用户快速导航到项目中的不同部分，如文件、类、方法或工具窗口。导航栏通常位于编辑器的顶部，提供了一个紧凑的界面来键入搜索查询或选择目标位置。" />
-    </snippet>
-    <snippet id="main-menus-snippet">
-        <a anchor="main-menus" instance="hi" href="guided-tour-around-the-user-interface.topic" summary="IntelliJ IDEA 中的主菜单包含了多个顶级菜单项，每个菜单项下都有相应的子菜单和功能选项，这些菜单提供了对 IDE 的各种功能和设置的访问。" />
-    </snippet>
-    <snippet id="editor-snippet">
-        <a anchor="editor" href="guided-tour-around-the-user-interface.topic" summary="IntelliJ IDEA 的编辑器是其核心功能之一，它为开发者提供了一个强大、智能和高度可配置的代码编写环境。"/>
-    </snippet>
-    <snippet id="context-menus-snippet">
-        <a anchor="context-menus" href="guided-tour-around-the-user-interface.topic" instance="hi" summary="IntelliJ IDEA 的上下文菜单（也称为右键菜单）是在用户在 IDE 的不同部分右键单击时弹出的菜单。上下文菜单提供了与当前上下文相关的操作和选项，这些选项根据用户单击的位置和选择的元素而变化。" />
     </snippet>
 
     <!-- 独立安装（手动安装）时的提示 -->
@@ -113,7 +113,7 @@
                 <video src="https://www.youtube.com/watch?v=wbDyS0xZbbU" width="706"/>
             </procedure>
             <procedure title="为快速列表分配快捷键" id="quick-list-shortcut">
-                <step>在 <control>设置 （ <shortcut>Ctrl</shortcut><shortcut>Alt</shortcut><shortcut>S</shortcut> ）</control> 中选择 <ui-path>按键映射</ui-path> 。</step>
+                <step>在 <control>设置 （ <shortcut>Ctrl</shortcut><shortcut>Alt</shortcut><shortcut>S</shortcut> ）</control> 中选择 <ui-path><a href="mastering-keyboard-shortcuts.topic" summary="">按键映射</a></ui-path> 。</step>
                 <step>展开 <ui-path>快速列表</ui-path> 节点并选择目标快速列表，鼠标右键单击并选择 <ui-path>添加键盘快捷键</ui-path> 。</step>
                 <step>单击 <ui-path>确定</ui-path> 保存更改。</step>
                 <step>在 <include from="reuse-library.topic" element-id="editor-snippet" /> 中，按下分配的快捷键以便调用快速列表。</step>

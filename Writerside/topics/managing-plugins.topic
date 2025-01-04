@@ -4,8 +4,8 @@
 <topic xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
        xsi:noNamespaceSchemaLocation="https://resources.jetbrains.com/writerside/1.0/topic.v2.xsd"
        title="安装插件" id="managing-plugins">
-    <show-structure for="chapter" />
-    <include from="reuse-library.topic" element-id="plugins-install-tips-snippet" />
+    <show-structure for="chapter"/>
+    <include from="reuse-library.topic" element-id="plugins-install-tips-snippet"/>
     <p>插件可以扩展 IntelliJ IDEA 的核心功能。例如：安装插件可获得以下功能：</p>
     <list>
         <li>与 <tooltip term="version-control">版本控制系统</tooltip> 、问题跟踪器、构建管理服务器及其他工具集成。</li>
@@ -90,7 +90,7 @@
     <chapter id="suggested-plugins" title="建议插件">
         <note>官方文档手册中对此功能的描述文本存在细节错误，详见： <a href="https://youtrack.jetbrains.com/issue/IJPL-6102/Check-for-Suggested-Plugins-action-doesnt-suggest-installing-the-Writerside-plugin-if-the-Writerside-project-or-a-Writerside">建议插件功能异常</a> 。&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;</note>
         <p>当您在 IntelliJ IDEA 中打开某个未知类型的文件时，它将会尝试从 <a href="https://plugins.jetbrains.com/">JetBrains 插件库</a> 中搜索是否有与之匹配的可用插件，并给出提示建议您安装。如果您不想安装此插件，可以单击 <control>忽略扩展</control> 。</p>
-        <img src="建议插件.png" alt="建议插件" width="706" thumbnail="true"/>
+        <img src="建议安装 Writerside 插件的提示信息.png" alt="建议安装 Writerside 插件的提示信息" width="706" thumbnail="true"/>
         <p>一旦您单击了 <control>忽略扩展</control> 后，IntelliJ IDEA 将不会在为此未知类型的文件弹出可安装插件的提示。此时，您只能够手动搜索此建议插件并进行安装。</p>
         <img src="安装 Writerside 插件.png" alt="安装 Writerside 插件" width="706" thumbnail="true"/>
     </chapter>

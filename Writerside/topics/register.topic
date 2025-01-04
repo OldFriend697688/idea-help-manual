@@ -17,17 +17,17 @@
     <procedure title="开始免费试用" id="start-trial" type="choices">
         <note>请先阅读 <a href="installation-guide.topic" summary=""/> 并正确安装 IntelliJ IDEA 后再阅读此处内容。 &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;</note>
         <step>
-            <p>启动 IntelliJ IDEA 时将会弹出 <control>许可证</control> ，请选中其中的 <ui-path>开始试用</ui-path> 。</p>
+            <p>启动 IntelliJ IDEA 时将会弹出 <control>许可证</control> ，请勾选 <ui-path>开始试用</ui-path> 。</p>
             <img src="开始试用（1）.png" alt="开始试用" thumbnail="true" width="706"/>
             <img src="登录 JetBrains 账号（1）.png" alt="登录 JetBrains 账号" width="706" thumbnail="true"/>
         </step>
         <step>
-            <p>登录在 JetBrains 网站上的帐户，然后在 <control>许可证</control> 中单击 <control>开始试用</control> 并开始试用。</p>
+            <p>登录在 JetBrains 网站上的帐户，然后在 <control>许可证</control> 中单击 <control>开始试用</control> 。</p>
             <img src="登录 JetBrains 账号（2）.png" alt="登录 JetBrains 账号" width="706" thumbnail="true"/>
             <img src="登录 JetBrains 账号（3）.png" alt="登录 JetBrains 账号" width="706" thumbnail="true"/>
             <img src="开始试用（2）.png" alt="开始试用" width="706" thumbnail="true"/>
         </step>
-        <warning>若提示 <format style="bold">Error fetching licenses for ll/lwu584742@gmail.com: Your trial has expired. To continue using Intellij IDEA Ultimate 2022.3, you must purchase a subscription.</format> 等类似信息，则代表此账号已过试用期。您可以尝试注册新的账号再次尝试免费试用。</warning>
+        <warning>若出现 <format style="bold">Error fetching licenses for ll/lwu584742@gmail.com: Your trial has expired. To continue using Intellij IDEA Ultimate 2022.3, you must purchase a subscription.</format> 等类似提示信息，则代表此账号已过试用期。</warning>
         <img src="试用期已到期提示.png" alt="试用期已过期" width="706" thumbnail="true"/>
     </procedure>
     <note>试用版到期后，您需要购买并注册许可证才能继续使用 IntelliJ IDEA Ultimate。&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;</note>
@@ -92,7 +92,7 @@
             </step>
             <step>
                 <p>复制激活码。</p>
-                <img alt="复制激活码.gif" src="复制激活码.gif" width="706" thumbnail="true"/>
+                <img alt="复制激活码" src="复制激活码.gif" width="706" thumbnail="true"/>
             </step>
             <step>
                 <p>启动 IntelliJ IDEA 并在 <ui-path>激活码</ui-path> 选项卡中粘贴激活码，然后单击 <control>激活</control> 。</p>

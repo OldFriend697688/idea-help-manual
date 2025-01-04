@@ -107,7 +107,7 @@
                     <step>
                         <a href="https://www.jetbrains.com/zh-cn/idea/download/other.html">下载 .tar.gz 压缩包。</a>
                         <note><tooltip term="arm64">ARM64 处理器</tooltip> 有单独的 <tooltip term="tarball">tarball 文件</tooltip> 。&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;</note>
-                        <img src="IDEA 2022.3.3 Linux tar.gz 镜像下载.png" alt="IDEA 2022.3.3 Linux tar.gz 镜像下载" width="706" thumbnail="true"/>
+                        <img src="IntelliJ IDEA 2022.3.3 Linux tar.gz 镜像下载.png" alt="IntelliJ IDEA 2022.3.3 Linux tar.gz 镜像下载" width="706" thumbnail="true"/>
                     </step>
                     <step>
                         <p>将 tar 文件解压到支持文件运行的目标文件夹。</p>
@@ -146,7 +146,7 @@
         <tabs>
             <tab title="Windows">
                 <procedure title="安装 Toolbox App">
-                    <step>从 <a href="https://www.jetbrains.com/zh-cn/toolbox-app/">官网</a> 下载 <format style="bold">.exe</format> 安装程序。</step>
+                    <step>从 <a href="https://www.jetbrains.com/zh-cn/toolbox-app/">官网</a> 下载 <path>.exe</path> 安装程序。</step>
                     <step>运行安装程序并按照向导步骤完成安装。</step>
                     <step>
                         <p>运行 Toolbox App，单击操作系统通知栏区域中的 <img src="toolbox 图标.svg" alt=""/> ，然后选择想安装的 JetBrains 产品。</p>
@@ -162,10 +162,10 @@
             </tab>
             <tab title="Linux">
                 <procedure title="安装 Toolbox App">
-                    <step>从 <a href="https://www.jetbrains.com/zh-cn/toolbox-app/">官网</a> 下载 <format style="bold">.tar.gz</format> 压缩包。</step>
+                    <step>从 <a href="https://www.jetbrains.com/zh-cn/toolbox-app/">官网</a> 下载 <path>.tar.gz</path> 压缩包。</step>
                     <step>
                         <p>将 tar 包解压到支持文件执行的文件夹。</p>
-                        <p>例如：如果下载的版本是 1.17.7391，可以使用以下命令将其解压到推荐的 <format style="bold">/opt</format> 文件夹。</p>
+                        <p>例如：如果下载的版本是 1.17.7391，可以使用以下命令将其解压到推荐的 <path>/opt</path> 文件夹。</p>
                         <code-block lang="shell" prompt="$">sudo tar -xzf jetbrains-toolbox-1.17.7391.tar.gz -C /opt</code-block>
                     </step>
                     <step>
@@ -174,7 +174,7 @@
                     </step>
                     <step>
                         <p>选择想安装的产品。</p>
-                        <p>如果要安装特定版本，请单击 <img src="toolbox app 更多按钮.svg" alt="toolbox app 更多按钮"/> ，然后选择可用版本。</p>
+                        <p>如果要安装特定版本，请单击 <img src="toolbox app 更多按钮.svg" alt="toolbox app 更多按钮"/> ，然后选择 <ui-path>其他版本</ui-path> 。</p>
                     </step>
                     <include from="reuse-library.topic" element-id="toolbox-login-tips-snippet"/>
                 </procedure>
@@ -182,13 +182,13 @@
             <tab title="macOS">
                 <procedure title="安装 Toolbox App">
                     <step>
-                        <p>从 <a href="https://www.jetbrains.com/zh-cn/toolbox-app/">官网</a> 下载 <format style="bold">.dmg</format> 镜像文件。</p>
+                        <p>从 <a href="https://www.jetbrains.com/zh-cn/toolbox-app/">官网</a> 下载 <path>.dmg</path> 镜像文件。</p>
                         <note>英特尔和苹果芯片分别有独立的映像文件，在下载时请注意分辨。&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;</note>
                     </step>
-                    <step><p>将镜像文件挂载并拖动 Toolbox App 到 <format style="bold">应用程序（Applications）</format> 文件夹。</p></step>
+                    <step><p>将镜像文件挂载并拖动 Toolbox App 到 <tooltip term="applications">Applications</tooltip> 文件夹。</p></step>
                     <step>
                         <p>运行 Toolbox App，单击主菜单中的图标，选择要安装的产品。</p>
-                        <p>如果要安装特定版本，请单击 <img src="toolbox app 更多按钮.svg" alt="toolbox app 更多按钮"/> ，然后选择可用版本。</p>
+                        <p>如果要安装特定版本，请单击 <img src="toolbox app 更多按钮.svg" alt="toolbox app 更多按钮"/> ，然后选择 <ui-path>其他版本</ui-path> 。</p>
                     </step>
                     <include from="reuse-library.topic" element-id="toolbox-login-tips-snippet"/>
                 </procedure>

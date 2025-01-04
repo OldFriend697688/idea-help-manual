@@ -99,7 +99,7 @@
                 <li>编辑器标签页现在采用更多空间和更大字体，以提高可读性。</li>
                 <li>
                     <p>如果编辑器标签页与屏幕不适配，可选择使用滚动条或挤压标签页，以将所有标签页放在屏幕上。</p>
-                    <p>您可通过 <ui-path>设置（ <shortcut>Ctrl</shortcut><shortcut>Alt</shortcut><shortcut>S</shortcut> ） | 编辑器 | 常规 | 编辑器标签页</ui-path> 中的选项进行调整。</p>
+                    <p>您可通过 <ui-path>设置（ <shortcut>Ctrl</shortcut><shortcut>Alt</shortcut><shortcut>S</shortcut> ） | <include from="reuse-library.topic" element-id="editor-snippet"/> | 常规 | 编辑器标签页</ui-path> 中的选项进行调整。</p>
                     <video src="https://www.youtube.com/watch?v=hODc7eqx980" width="706"/>
                 </li>
             </list>
@@ -120,7 +120,7 @@
         <chapter id="navigation-bar" title="导航栏">
             <p>导航栏现在默认位于 <include from="reuse-library.topic" element-id="main-windows-snippet" /> 底部的 <include from="reuse-library.topic" element-id="status-bar-snippet" /> 中。</p>
             <img alt="新 UI 中导航栏默认在主窗口的底部" src="新 UI 中导航栏默认在主窗口的底部.png" width="706" thumbnail="true"/>
-            <p>如果喜爱旧布局，您可以将其移回顶部，甚至是不显示它。为此，您需要通过 <ui-path> <include from="reuse-library.topic" element-id="main-menus-snippet" />  | 视图 | 外观 | 导航栏</ui-path> 中的相关选项调整它。</p>
+            <p>如果喜爱旧布局，您可以将其移回顶部，甚至是不显示它。为此，您需要通过 <ui-path> <include from="reuse-library.topic" element-id="main-menus-snippet" />  | 视图 | 外观 | <include from="reuse-library.topic" element-id="navigation-bar-snippet" /></ui-path> 中的相关选项调整它。</p>
             <video src="https://www.youtube.com/watch?v=t6Zq5GEx5eY" width="706"/>
         </chapter>
     </chapter>

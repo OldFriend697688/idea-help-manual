@@ -60,7 +60,7 @@
             <p>IntelliJ IDEA 提供的是高级编辑器而非普通的 <tooltip term="plain-text-editor">纯文本编辑器</tooltip> ，这意味着它具有 <tooltip term="code-completion">智能代码补全</tooltip> 、 <tooltip term="code-highlighting">代码高亮</tooltip> 、 <tooltip term="code-formatting">代码格式化</tooltip> 、 <tooltip term="idea-code-refactoring">代码重构</tooltip> 等功能。</p>
             <p>尽管可用功能非常之多，但它们都是开箱即用的，因此无需任何额外配置。</p>
         </note>
-        <p>编辑器是 IntelliJ IDEA 的核心功能，它提供了一个强大、智能和高度可配置的代码编写环境。</p>
+        <p><a href="using-code-editor.topic" summary="">编辑器</a> 是 IntelliJ IDEA 的核心功能，它提供了一个强大、智能和高度可配置的代码编写环境。</p>
         <p>以下是 IntelliJ IDEA 中编辑器的一些特点和功能：</p>
         <list type="decimal">
             <li>
@@ -82,7 +82,7 @@
             </li>
             <li>
                 <format style="bold">导航与搜索（Navigation and Search）</format>
-                <p>编辑器具备强大的导航功能，可以快速跳转到类、方法、变量、文件等定义处，还支持全局搜索。</p>
+                <p>强大的导航功能，可以快速跳转到类、方法、变量、文件等定义处，还支持全局搜索。</p>
             </li>
             <li>
                 <format style="bold">代码调试（Code Debugging）</format>
@@ -191,7 +191,7 @@
         </procedure>
     </chapter>
     <chapter title="工具窗口" id="tool-windows">
-        <tldr><p>隐藏/显示： <ui-path><include from="reuse-library.topic" element-id="main-menus-snippet"/> | 视图 | 工具窗口 | 工具窗口名</ui-path></p></tldr>
+        <tldr><p>隐藏/显示： <ui-path><include from="reuse-library.topic" element-id="main-menus-snippet"/> | 视图 | <include from="reuse-library.topic" element-id="tool-window-snippet"/> | 工具窗口名</ui-path></p></tldr>
         <include from="reuse-library.topic" element-id="tool-window-snippet"/> 提供的功能是对代码编辑的补充，例如：<include from="reuse-library.topic" element-id="project-tool-window-snippet"/> 用于显示项目的结构，而 <include from="reuse-library.topic" element-id="run-tool-windows-snippet"/> 则用于显示程序运行时的输出结果。
         <img src="项目工具窗口.png" alt="项目工具窗口" width="706" thumbnail="true"/>
         <p>默认情况下，工具窗口将会停靠在 <include from="reuse-library.topic" element-id="main-windows-snippet"/> 的两侧和底部。您可以根据个人习惯重新排列、取消停靠、调整大小或者是隐藏它们。您可以通过鼠标右键单击工具窗口标题或者是鼠标左键单击标题中的 <img src="设置.svg" alt=""/> 查看其支持的排列选项。</p>

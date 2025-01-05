@@ -4,14 +4,15 @@
 <topic xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
        xsi:noNamespaceSchemaLocation="https://resources.jetbrains.com/writerside/1.0/topic.v2.xsd"
        title="无障碍" id="accessibility">
+    <tip>如果视觉系统正常且无缺陷，您可以选择跳过阅读此章节中的内容。&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;</tip>
     <note>
-        <p>IntelliJ IDEA 允许启用各种辅助功能以满足您的实际需求。</p>
+        <p>IntelliJ IDEA 允许您启用各种辅助功能以满足实际需求。</p>
         <p>您可以使用 <tooltip term="screen-reader">屏幕阅读器</tooltip> 或调整字体大小、颜色以及某些 <tooltip term="user-interface">UI</tooltip> 元素的行为。&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;</p>
     </note>
     <chapter id="screen-reader" title="屏幕阅读器">
         <procedure id="enable-screen-reader" title="启用屏幕阅读器" type="steps">
             <step>
-                <p>下载并启用适配当前 <tooltip term="operating-system">操作系统</tooltip> 的屏幕阅读器。</p>
+                <p>下载并启用适配当前 <tooltip term="os">操作系统</tooltip> 的屏幕阅读器。</p>
                 <tabs>
                     <tab title="Windows" id="windows-screen-reader">
                         <list>
@@ -38,15 +39,15 @@
         </procedure>
         <procedure title="安装并设置 IntelliJ IDEA" id="install-and-set-up" type="steps">
             <warning>请先下载并启用屏幕阅读器，然后再执行以下操作。否则，您将无法看到任何效果。&nbsp;</warning>
-            <note>对于 <tooltip term="windows">Windows</tooltip> 和 <tooltip term="macos">macOS</tooltip> 而言，当 IntelliJ IDEA 在首次启动时检测到屏幕阅读器后，它会显示一个对话框，您可以在其中为其启用屏幕阅读器。</note>
+            <note>对于 <tooltip term="windows">Windows</tooltip> 和 <tooltip term="macos">macOS</tooltip> 而言，当 IntelliJ IDEA 在首次启动时若检测到屏幕阅读器，它会显示一个对话框，您可以在其中为其启用屏幕阅读器。</note>
             <step><a href="installation-guide.topic" summary="">下载并安装 IntelliJ IDEA</a> 。</step>
             <step>
-                <p>要在首次启动 IntelliJ IDEA 之前先行启用屏幕阅读器支持，请执行以下操作：</p>
+                <p>要在首次启动 IntelliJ IDEA 之前先启用屏幕阅读器支持，请执行以下操作：</p>
                 <list type="bullet">
                     <li>
                         <p>打开包含个人设置（例如： <a href="mastering-keyboard-shortcuts.topic" summary="">按键映射</a> 、 <a href="configuring-colors-and-fonts.topic" anchor="select-color-scheme" summary="">配色方案</a> 等）的配置目录。</p>
                         <tabs>
-                            <tab title="Windows" id="windows-settings">
+                            <tab title="windows" id="windows-settings">
                                 <deflist>
                                     <def title="语法" id="windows-grammar">&#37;APPDATA&#37;\JetBrains\&lt;product&gt;&lt;version&gt;</def>
                                     <def title="例子" id="windows-grammar-example">C:\Users\OldFriend\AppData\Roaming\JetBrains\IntelliJIdea2022.3</def>
@@ -66,8 +67,8 @@
                 </list>
             </step>
             <step>
-                <p>启动 IntelliJ IDEA， <ui-path>设置（ <shortcut>Ctrl</shortcut><shortcut>Alt</shortcut><shortcut>S</shortcut> ） | 外观与行为 | 外观 | 支持屏幕阅读器</ui-path> 将被启用。</p>
-                <img src="启用屏幕阅读器支持.png" alt="启用屏幕阅读器支持" width="706" thumbnail="true"/>
+                <p>启动 IntelliJ IDEA， <ui-path>设置（ <shortcut>Ctrl</shortcut><shortcut>Alt</shortcut><shortcut>S</shortcut> ） | 外观与行为 | 外观 | 支持屏幕阅读器</ui-path> 已被启用。</p>
+                <img src="支持屏幕阅读器.png" alt="支持屏幕阅读器" width="706" thumbnail="true"/>
             </step>
         </procedure>
     </chapter>
@@ -78,7 +79,7 @@
             <step>
                 <p>勾选 <control>针对红-绿色觉缺陷调整颜色</control> 并保存更改。</p>
                 <img src="针对红-绿色觉缺陷调整颜色.png" alt="针对红-绿色觉缺陷调整颜色" width="706" thumbnail="true"/>
-                <p>请看下面的图片示例， <format style="bold" color="#498b49">String</format> 用绿色突出显示， <format style="bold" color="#ff5069">Errors</format> 用红色突出显示：</p>
+                <p>请看如下图片示例， 其中 <format style="bold" color="#498b49">String</format> 用绿色突出显示， <format style="bold" color="#ff5069">Errors</format> 用红色突出显示：</p>
                 <tabs>
                     <tab title="调整前" id="before-adjustment"><img src="https://resources.jetbrains.com/help/img/idea/2022.3/before_color_adjustment.png" alt="调整前" thumbnail="true" width="706"/></tab>
                     <tab title="调整后" id="after-adjustment"><img src="https://resources.jetbrains.com/help/img/idea/2022.3/after_color_adjustment.png" alt="调整后" thumbnail="true" width="706"/></tab>
@@ -87,8 +88,8 @@
             </step>
         </procedure>
         <procedure id="scrollbars-contrast" title="为滚动条添加对比色">
-            <note>过此处的步骤可以使 <include from="reuse-library.topic" element-id="editor-snippet"/> 中的滚动条更显眼。&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;</note>
-            <note>配置 <include from="reuse-library.topic" element-id="editor-snippet"/> 的垂直滚动条颜色和不透明度，请使用 <a anchor="color-config" summary="">配色方案</a> 设置。&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;</note>
+            <note>此处的步骤可以使 <include from="reuse-library.topic" element-id="editor-snippet"/> 中的滚动条更显眼。&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;</note>
+            <note>配置 <include from="reuse-library.topic" element-id="editor-snippet"/> 的垂直滚动条颜色和不透明度，请使用 <a anchor="color-config" summary="">配色方案</a> 设置。&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;</note>
             <step>在 <control>设置（ <shortcut>Ctrl</shortcut><shortcut>Alt</shortcut><shortcut>S</shortcut> ）</control> 中选择 <ui-path>外观与行为 | 外观</ui-path> 。</step>
             <step>
                 <p>在右侧的 <format style="bold">无障碍功能</format> 部分中，勾选 <control>使用对比度滚动条</control> 。</p>
@@ -117,9 +118,9 @@
             <note>还可以调整 <include from="reuse-library.topic" element-id="editor-snippet"/>、控制台和其他 <tooltip term="ide">IDE</tooltip> 部分的颜色。这些设置位置位于 <ui-path>设置 | <include from="reuse-library.topic" element-id="editor-snippet"/> | <a href="configuring-colors-and-fonts.topic" anchor="select-color-scheme" summary="">配色方案</a></ui-path> 列表中的相应节点内。</note>
             <img src="调整调试器、控制台以及 IDE 其他部分的颜色.png" alt="调整调试器、控制台以及 IDE 其他部分的颜色" width="706" thumbnail="true"/>
         </procedure>
-        <procedure id="ui-fonts" title="调整默认的 UI 字体">
-            <note>可以调整 <tooltip term="user-interface">UI</tooltip> 元素使用的默认字体。&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;</note>
-            <note>过安装新字体，您可以丰富 IntelliJ IDEA 中可供选择的字体种类。&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;</note>
+        <procedure id="ui-fonts" title="调整UI 使用的默认字体">
+            <note>可以调整 <tooltip term="user-interface">UI</tooltip> 元素使用的默认字体。&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;</note>
+            <note>过安装新字体，您可以丰富 IntelliJ IDEA 中可供选择的字体种类。&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;</note>
             <step>在 <control>设置（ <shortcut>Ctrl</shortcut><shortcut>Alt</shortcut><shortcut>S</shortcut> ）</control> 中选择 <ui-path>外观与行为 | 外观</ui-path> 。</step>
             <step>
                 <p>在右侧找到 <ui-path>字体</ui-path> 下拉列表，然后从其中选择一种字体并指定字体大小。</p>
@@ -131,7 +132,7 @@
             </step>
         </procedure>
         <procedure id="resize-tool-window" title="调整工具窗口大小">
-            <note>可以使用 <a href="mastering-keyboard-shortcuts.topic" summary=""/> 垂直或水平调整 <include from="reuse-library.topic" element-id="tool-window-snippet"/> 的大小。&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;</note>
+            <note>可以使用 <a href="mastering-keyboard-shortcuts.topic" summary=""/> 垂直或水平调整 <include from="reuse-library.topic" element-id="tool-window-snippet"/> 的大小。&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;</note>
             <step>垂直方向调整工具窗口大小请按 <shortcut>Ctrl</shortcut><shortcut>Alt</shortcut><shortcut>Shift</shortcut><shortcut>Up</shortcut> 或 <shortcut>Ctrl</shortcut><shortcut>Alt</shortcut><shortcut>Shift</shortcut><shortcut>Down</shortcut> 。</step>
             <step>
                 <p>水平方向调整工具窗口大小请按 <shortcut>Ctrl</shortcut><shortcut>Alt</shortcut><shortcut>Shift</shortcut><shortcut>Left</shortcut> 或 <shortcut>Ctrl</shortcut><shortcut>Alt</shortcut><shortcut>Shift</shortcut><shortcut>Right</shortcut> 。</p>
@@ -139,7 +140,7 @@
             </step>
         </procedure>
         <procedure id="editor-text" title="调整编辑器中的文字大小">
-            <note>可以在 <include from="reuse-library.topic" element-id="editor-snippet"/> 中更改文字的字体和大小。&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;</note>
+            <note>可以在 <include from="reuse-library.topic" element-id="editor-snippet"/> 中更改文字的字体和大小。&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;</note>
             <step>在 <control>设置（ <shortcut>Ctrl</shortcut><shortcut>Alt</shortcut><shortcut>S</shortcut> ）</control> 中选择 <ui-path><include from="reuse-library.topic" element-id="editor-snippet"/> | 常规</ui-path> 。</step>
             <step>
                 <p>勾选 <format style="bold">鼠标控制</format> 部分中的 <control>使用 Ctrl + 鼠标滚轮更改字号</control> 。</p>
@@ -203,7 +204,7 @@
             </warning>
             <step>在 <control>设置（ <shortcut>Ctrl</shortcut><shortcut>Alt</shortcut><shortcut>S</shortcut> ）</control> 中选择 <ui-path><include from="reuse-library.topic" element-id="editor-snippet"/> | 常规 | 代码补全</ui-path> 。</step>
             <step>
-                <p>取消勾选 <control>类型匹配补全</control> 。如有必要，还可取消勾选 <control>基本补全</control> 以禁用基本完成。</p>
+                <p>取消勾选 <control>类型匹配补全</control> 。如有必要，还可取消勾选 <control>基本补全</control> 以禁用基本补全。</p>
                 <img src="代码补全.png" alt="代码补全" width="706" thumbnail="true"/>
                 <video src="https://www.youtube.com/watch?v=xlZZhOeUv3o" width="706"/>
             </step>

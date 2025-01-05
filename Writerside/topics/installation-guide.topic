@@ -246,7 +246,7 @@
             <p>您可以下载 IntelliJ IDEA 的 <a href="https://download.jetbrains.com/idea/silent.config">默认静默配置文件</a> 。这个文件中定义了安装 IntelliJ IDEA 的选项。</p>
             <p><code>mode=user</code> 表示静默安装仅对当前用户执行。如果您想为所有用户安装 IntelliJ IDEA，请将安装模式选项的值更改为 <code>mode=admin</code> 并以管理员身份运行 IntelliJ IDEA 的安装程序。</p>
             <p>每个 JetBrains 产品的默认静默配置文件都是唯一的，可按需修改它来启用或禁用各种安装选项。</p>
-            <note>可以无需静默配置文件执行静默安装，在这种情况下，您应该省略 <code>/CONFIG</code> 参数，并以管理员身份运行 IntelliJ IDEA 的安装程序。如果没有静默配置文件，安装程序将忽略所有其他安装选项：它不会创建 <tooltip term="desktop-shortcut">桌面快捷方式</tooltip> ，添加文件关联，或更新 <code>PATH</code> 变量。但是，它仍然会在 <tooltip term="operating-system">操作系统</tooltip> 的 <format style="bold">开始</format> 菜单下为 IntelliJ IDEA 创建快捷方式。</note>
+            <note>可以无需静默配置文件执行静默安装，在这种情况下，您应该省略 <code>/CONFIG</code> 参数，并以管理员身份运行 IntelliJ IDEA 的安装程序。如果没有静默配置文件，安装程序将忽略所有其他安装选项：它不会创建 <tooltip term="desktop-shortcut">桌面快捷方式</tooltip> ，添加文件关联，或更新 <code>PATH</code> 变量。但是，它仍然会在 <tooltip term="os">操作系统</tooltip> 的 <format style="bold">开始</format> 菜单下为 IntelliJ IDEA 创建快捷方式。</note>
         </chapter>
     </chapter>
     <chapter id="simplified-chinese-language" title="简体中文语言包">

@@ -4,67 +4,88 @@
 <topic xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
        xsi:noNamespaceSchemaLocation="https://resources.jetbrains.com/writerside/1.0/topic.v2.xsd"
        title="reuse-library" id="reuse-library">
+    <!-- 关闭 IntelliJ IDEA 提示 -->
     <snippet id="close-idea-prompt-information">
         <warning>特别强调，在卸载和配置激活补丁脚本前，请确保 IntelliJ IDEA 处于关闭状态。</warning>
     </snippet>
+    <!-- 快捷键优先级未定义提示-->
     <snippet id="shortcut-key-priority-tips-snippet">
         <warning>您可以忽略冲突并为多个操作分配相同快捷键。但是，建议您避免使用相同的快捷键绑定两个操作，因为这些操作的优先级并未定义。</warning>
         <video src="https://www.youtube.com/watch?v=wRKNspj_-dU" width="706"/>
     </snippet>
+    <!-- 查找工具窗口 -->
     <snippet id="find-tool-window-snippet">
         <a href="find-tool-window.topic" summary=""/>
     </snippet>
+    <!-- Maven 工具窗口 -->
     <snippet id="maven-tool-windows-snippet">
         <a href="maven-projects-tool-window.topic" summary=""/>
     </snippet>
+    <!-- Gradle 工具窗口 -->
     <snippet id="gradle-tool-windows-snippet">
         <a href="jetgradle-tool-window.topic" summary=""/>
     </snippet>
+    <!-- DSM 工具窗口 -->
     <snippet id="dsm-tool-window-snippet">
         <a href="dsm-analysis.topic" anchor="dsm-tool-window" summary=""/>
     </snippet>
+    <!-- 调试（Debug）工具窗口 -->
     <snippet id="debug-tool-window-snippet">
         <a href="debug-tool-window.topic" summary=""/>
     </snippet>
+    <!-- 通知工具窗口 -->
     <snippet id="notifications-tool-windows-snippet">
         <a href="notifications.topic" anchor="notifications-tool-window" summary=""/>
     </snippet>
+    <!-- 项目工具窗口 -->
     <snippet id="project-tool-window-snippet">
         <a href="project-tool-window.topic" summary=""/>
     </snippet>
+    <!-- 运行工具窗口 -->
     <snippet id="run-tool-windows-snippet">
         <a href="run-tool-window.topic" summary=""/>
     </snippet>
+    <!-- 工具窗口 -->
     <snippet id="tool-window-snippet">
         <a href="tool-window.topic" summary=""/>
     </snippet>
+    <!-- 主窗口 -->
     <snippet id="main-windows-snippet">
         <a href="guided-tour-around-the-user-interface.topic" anchor="main-windows" summary=""/>
     </snippet>
+    <!-- 状态栏 -->
     <snippet id="status-bar-snippet">
         <a href="guided-tour-around-the-user-interface.topic" anchor="status-bar" summary=""/>
     </snippet>
-    <snippet id="toolbar-snippet">
+    <!-- 主工具栏 -->
+    <snippet id="main-toolbar-snippet">
         <a href="guided-tour-around-the-user-interface.topic" anchor="vcs-file-color" summary="">主工具栏</a>
     </snippet>
+    <!-- 导航栏 -->
     <snippet id="navigation-bar-snippet">
-        <a href="guided-tour-around-the-user-interface.topic" anchor="navigation-bar" summary="" />
+        <a href="guided-tour-around-the-user-interface.topic" anchor="navigation-bar" summary=""/>
     </snippet>
+    <!-- 主菜单 -->
     <snippet id="main-menus-snippet">
         <a anchor="main-menus" instance="hi" href="guided-tour-around-the-user-interface.topic" summary=""/>
     </snippet>
+    <!-- 编辑器 -->
     <snippet id="editor-snippet">
         <a anchor="editor" href="guided-tour-around-the-user-interface.topic" summary=""/>
     </snippet>
+    <!-- 上下文菜单 -->
     <snippet id="context-menus-snippet">
         <a anchor="context-menus" href="guided-tour-around-the-user-interface.topic" summary="" />
     </snippet>
+    <!-- 关闭中文输入法确保正常触发代码补全功能的提示 -->
     <snippet id="invalid-shortcut-key-prompt-snippet">
-        <note>如果发现无法通过 <a href="mastering-keyboard-shortcuts.topic" summary=""/> 触发代码补全，请尝试关闭中文输入法后再按对应的快捷键。</note>
+        <note>如果发现无法通过 <a href="mastering-keyboard-shortcuts.topic" summary=""/> 触发代码补全，请关闭中文输入法后再按对应的快捷键。&nbsp;&nbsp;&nbsp;</note>
     </snippet>
+    <!-- 插件过多时影响 IntelliJ IDEA 性能的提示 -->
     <snippet id="plugins-install-tips-snippet">
         <warning>安装过多的插件可能会影响到 IntelliJ IDEA 的整体性能。&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;</warning>
     </snippet>
+    <!-- 从 Toolbox App 登录 JetBrains 帐户将自动激活 IntelliJ IDEA 的提示 -->
     <snippet id="toolbox-login-tips-snippet">
         <note>从 Toolbox App 登录 JetBrains 帐户，它将自动激活安装的任何 <tooltip term="ide">IDE</tooltip> 的可用许可证。</note>
     </snippet>
@@ -126,7 +147,7 @@
 
     <!-- 反转布尔值 -->
     <snippet id="invert-boolean-refactoring-snippet">
-        <p>反转布尔值重构是一种能够将布尔方法或变量的含义更改为相反含义的功能。</p>
+        <p>反转布尔值重构是一种能够将布尔方法或变量的含义变更为相反含义的功能。</p>
         <procedure title="操作步骤" id="operation-steps" type="steps">
             <step>将插入符号（闪烁光标）放在待重构的 <tooltip term="method">方法</tooltip> 或 <tooltip term="variables">变量</tooltip> 的名称处。</step>
             <step>在 <include from="reuse-library.topic" element-id="main-menus-snippet" /> 或 <include from="reuse-library.topic" element-id="context-menus-snippet" /> 中选择 <ui-path>重构 | 反转布尔值</ui-path> 。</step>
@@ -181,23 +202,23 @@
     <snippet id="to-search-structurally-snippet">
         <procedure id="to-search-structurally" title="从结构上搜索目标" default-state="collapsed" collapsible="true">
             <step>
-                <p>单击 <ui-path><include from="reuse-library.topic" element-id="main-menus-snippet"/> | 编辑 | 查找 | 结构搜索</ui-path> 以打开 <format style="bold">结构搜索</format> 对话框。</p>
-                <note>在 <format style="bold">结构搜索</format> 对话框中，可通过单击 <img src="刷新.svg" alt=""/> 按钮快速切换至 <format style="bold">结构替换</format> 对话框。&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;</note>
+                <p>单击 <ui-path><include from="reuse-library.topic" element-id="main-menus-snippet"/> | 编辑 | 查找 | 结构搜索</ui-path> 以打开 <control>结构搜索</control> <control>结构替换</control> 。</p>
+                <note>在 <control>结构搜索</control> 中单击 <img src="刷新.svg" alt=""/> 按钮快速切换至 <control>结构替换</control> 。&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;</note>
                 <video src="https://www.youtube.com/watch?v=QcOUjW25lZw" width="706"/>
             </step>
             <step>
-                <p>在 <format style="bold">结构搜索</format> 对话框中，可执行如下操作之一：</p>
+                <p>在 <control>结构搜索</control> 对话框中，可执行如下操作之一：</p>
                 <list>
                     <li>
                         <p><format style="italic" color="BurlyWood">从头开始创建新的模板</format></p>
-                        <p>可以从模板列表中选择 <format style="bold">草稿模板</format> ，然后在模板的编辑区域中，键入代码模板（注： 使用 <code>$variable$</code> 表示模板中的查找变量），在对话框的工具栏中单击 <img src="保存.svg" alt=""/> 以供将来重复使用。同时，如果需要可以将它保存为 <a instance="hi" href="inspections-settings.topic">检查</a>。</p>
+                        <p>可以从模板列表中选择 <format style="bold">草稿模板</format> ，然后在模板的编辑区域中，键入代码模板（注： 使用 <code>$variable$</code> 表示模板中的查找变量），在的工具栏中单击 <img src="保存.svg" alt=""/> 以供将来重复使用。同时，如果需要可以将它保存为 <a instance="hi" href="inspections-settings.topic" summary=""/> 。</p>
                         <img src="结构搜索对话框.png" alt="结构搜索对话框" width="706" thumbnail="true"/>
                         <p>IntelliJ IDEA 会将创建以及使用过的模板添加至 <format style="bold">最近</format> 节点中。</p>
                         <img src="结构搜索对话框中最近添加的模板.png" alt="结构搜索对话框中最近添加的模板" width="706" thumbnail="true"/>
                     </li>
                     <li>
                         <p><format style="italic" color="BurlyWood">使用现有模板之一作为原型</format></p>
-                        <p>在可用的现有模板列表中，选择所需的模板。现在，让我们查找类中的某个 <tooltip term="java-field">字段</tooltip> 。在现有的模板列表中，单击 <format style="bold">Java</format> 并打开 <format style="bold">基于类</format> 然后找到并选择其中的 <format style="bold">类的字段</format>。</p>
+                        <p>在可用的现有模板列表中，选择所需的模板。现在，让我们查找类中的某个 <tooltip term="java-field">字段</tooltip> 。在现有的模板列表中，单击 <format style="bold">Java</format> 并打开 <format style="bold">基于类</format> 然后找到并选择其中的 <format style="bold">类的字段</format> 。</p>
                         <img src="已预设的基于类的字段进行查找的模板.png" alt="已预设的基于类的字段进行查找的模板" width="706" thumbnail="true"/>
                         <p>单击 <ui-path>查找</ui-path> 按钮，将会突出显示找到的所有匹配字段。</p>
                         <video src="https://www.youtube.com/watch?v=SFC4wna_f88" width="706"/>
@@ -205,7 +226,7 @@
                 </list>
             </step>
             <step>
-                <p><format style="bold">结构搜索</format> 对话框显示选定的模板以及模板中使用的过滤器的值，可以编辑现有过滤器或添加新的过滤条件，例如：添加一些 <tooltip term="regex">正则表达式</tooltip> 或脚本约束。可以将插入符号（闪烁光标）放在代码变量处并通过过滤器区域来管理过滤器。 <img src="在结构搜索对话框中为变量声明过滤规则.png" alt="在结构搜索对话框中为变量声明过滤规则" width="706" thumbnail="true"/> 作为示例，让我们为 <code>$Field$</code> 变量声明一个条件。在过滤器区域中单击 <img src="添加.svg" alt=""/> 添加新条件。例如：如果需要添加正则表达式，则应选择 <format style="bold">文本</format> ，在闪烁的键入框中键入需要的条件。例如：键入正则表达式 <code>\b[A-Z].*?\b</code>。<img src="在结构搜索对话框中为目标变量添加过滤规则.png" alt="在结构搜索对话框中为目标变量添加过滤规" width="706" thumbnail="true"/> 在这种情况下，当勾选 <ui-path>区分大小写</ui-path> 后，IntelliJ IDEA 将仅搜索包含有大写字符的字段。</p>
+                <p><control>结构搜索</control> 显示选定的模板以及模板中使用的过滤器的值，可以编辑现有过滤器或添加新的过滤条件，例如：添加一些 <tooltip term="regex">正则表达式</tooltip> 或脚本约束。可以将插入符号（闪烁光标）放在代码变量处并通过过滤器区域来管理过滤器。 <img src="在结构搜索对话框中为变量声明过滤规则.png" alt="在结构搜索对话框中为变量声明过滤规则" width="706" thumbnail="true"/> 作为示例，让我们为 <code>$Field$</code> 变量声明一个条件。在过滤器区域中单击 <img src="添加.svg" alt=""/> 添加新条件。例如：如果需要添加正则表达式，则应选择 <format style="bold">文本</format> ，在闪烁的键入框中键入需要的条件。例如：键入正则表达式 <code>\b[A-Z].*?\b</code> 。 <img src="在结构搜索对话框中为目标变量添加过滤规则.png" alt="在结构搜索对话框中为目标变量添加过滤规" width="706" thumbnail="true"/> 在这种情况下，当勾选 <ui-path>区分大小写</ui-path> 后，IntelliJ IDEA 将仅搜索包含有大写字符的字段。</p>
                 <video src="https://www.youtube.com/watch?v=zGfbfszkdh8" width="706"/>
                 <p>请注意，根据所选程序语言的不同会有不同的附加选项可用。例如：以下可能的选项：</p>
                 <list>
@@ -215,7 +236,7 @@
                     <li><format style="bold">注入的代码</format> ：如果勾选此选项，则注入的代码（例如： <tooltip term="html">HTML</tooltip> 代码中注入的 <tooltip term="javascript">JavaScript</tooltip> 代码或 <tooltip term="java">Java</tooltip> 中注入的 <tooltip term="sql">SQL</tooltip> ）将会成为搜索过程中的一部分。</li>
                     <li><format style="bold">区分大小写</format> ：如果勾选此选项，搜索结果将匹配搜索目标的大小写。</li>
                 </list>
-                <p>除上述选项外，还可以从 <format style="bold">在项目</format>、<format style="bold">模块</format>、<format style="bold">文件夹</format>、<format style="bold">作用域</format> 中选择一个作为搜索范围。</p>
+                <p>除上述选项外，还可以从 <format style="bold">在项目</format> 、 <format style="bold">模块</format> 、 <format style="bold">文件夹</format> 、 <format style="bold">作用域</format> 中选择一个作为搜索范围。</p>
             </step>
             <step>
                 <p>单击 <format style="bold">查找</format> ，IntelliJ IDEA 将会在 <include from="reuse-library.topic" element-id="find-tool-window-snippet" /> 中显示查找结果。</p>
@@ -226,11 +247,11 @@
         </procedure>
         <procedure id="structural-replace" title="从结构上替换目标" default-state="collapsed" collapsible="true">
             <step>
-                <p>单击 <ui-path><include from="reuse-library.topic" element-id="main-menus-snippet"/> | 编辑 | 查找 | 结构化替换</ui-path> 以打开 <format style="bold">结构替换</format> 对话框。</p>
-                <note>在 <format style="bold">结构替换</format> 对话框中，可通过单击 <img src="刷新.svg" alt=""/> 按钮快速切换至 <format style="bold">结构搜索</format> 对话框。&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;</note>
+                <p>单击 <ui-path><include from="reuse-library.topic" element-id="main-menus-snippet"/> | 编辑 | 查找 | 结构化替换</ui-path> 以打开 <control>结构替换</control> 。</p>
+                <note>在 <control>结构替换</control> 中单击 <img src="刷新.svg" alt=""/> 按钮快速切换至 <control>结构搜索</control> 。&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;</note>
                 <video src="https://www.youtube.com/watch?v=QcOUjW25lZw" width="706"/>
             </step>
-            <step><p>在 <format style="bold">结构替换</format> 对话框中，将新的或现有的模板添加至搜索和替换模板区域。可以按照与 <a anchor="to-search-structurally" summary="">搜索模板</a> 相同的方式保存替换模板。</p></step>
+            <step>在 <control>结构替换</control> 中，将新的或现有的模板添加至搜索和替换模板区域。可以按照与 <a anchor="to-search-structurally" summary="">搜索模板</a> 相同的方式保存替换模板。</step>
             <step>
                 <p>如果需要在替换模板中为变量添加过滤器，请选中目标变量，并使用过滤器区域来管理过滤器。在过滤器区域中，可以为目标 <a href="search-templates.topic" summary="">过滤器</a> 添加指定条件。</p>
                 <p>例如：下图所示的替换模板可以将找到的模板中的字段替换为小写字符。</p>
@@ -241,12 +262,12 @@
                 <list>
                     <li><p><format style="bold">缩短完全限定名称</format> - 用简短的名称和导入替换 <tooltip term="fully-qualified-class-name">完全限定的类名</tooltip></p></li>
                     <li><p><format style="bold">重新格式化</format> - 自动格式化被替换的代码</p></li>
-                    <li><p><format style="bold">使用静态导入</format> - 尽可能使用 <tooltip term="java-static-import">静态导入</tooltip> 进行替换，例如：勾选该选项后， <tooltip term="java-static-method">静态方法</tooltip><code>Math.abs(i)</code> 的方法调用就会被替换为 <code>abs(i)</code>。</p></li>
+                    <li><p><format style="bold">使用静态导入</format> - 尽可能使用 <tooltip term="java-static-import">静态导入</tooltip> 进行替换，例如：勾选该选项后， <tooltip term="java-static-method">静态方法</tooltip><code>Math.abs(i)</code> 的方法调用就会被替换为 <code>abs(i)</code> 。</p></li>
                 </list>
                 <img src="结构替换对话框中用于缩短结果长度的选项.png" alt="结构替换对话框中用于缩短结果长度的选项" width="706" thumbnail="true"/>
                 <p>勾选必要的选项后，单击 <format style="bold">查找</format> ， IntelliJ IDEA 会在 <include from="reuse-library.topic" element-id="find-tool-window-snippet" /> 中显示结果。</p>
             </step>
-            <step><p>在 <include from="reuse-library.topic" element-id="find-tool-window-snippet" /> 中，可以进一步处理查找结果，逐个替换找到的内容，或者是一次性替换所有内容，又或者是预览可能的更改。还可以将替换模板添加至<a href="pro-tips.topic" anchor="search-template" summary="">结构搜索检查</a> 中，并将其作为代码的快速检查修复工具。</p></step>
+            <step><p>在 <include from="reuse-library.topic" element-id="find-tool-window-snippet" /> 中，可以进一步处理查找结果，逐个替换找到的内容，或者是一次性替换所有内容，又或者是预览可能的更改。还可以将替换模板添加至 <a href="pro-tips.topic" anchor="search-template" summary="">结构搜索检查</a> 中，并将其作为代码的快速检查修复工具。</p></step>
             <video src="https://www.youtube.com/watch?v=HNpeVv2uqMM" width="706"/>
         </procedure>
     </snippet>

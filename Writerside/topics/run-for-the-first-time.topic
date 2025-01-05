@@ -6,7 +6,7 @@
        title="首次运行" id="run-for-the-first-time">
     <note>英文不佳将导致观看英语视频有难度。请安装 <a href="https://immersivetranslate.cn/">沉浸式翻译</a> 浏览器插件简化理解过程。&nbsp;&nbsp;&nbsp;</note>
     <video src="https://www.youtube.com/watch?v=MsEPqMmVrRg" width="706"/>
-    <p>您可以使用 <a href="installation-guide.topic" anchor="toolbox" summary="">Toolbox App</a> 运行任何 <a href="https://www.jetbrains.com.cn/">JetBrains</a> 产品。如果您基于 <a href="installation-guide.topic" anchor="standalone" summary=""/> 方式安装 IntelliJ IDEA，如何运行它则取决于您的 <tooltip term="operating-system">操作系统</tooltip> 。</p>
+    <p>您可以使用 <a href="installation-guide.topic" anchor="toolbox" summary="">Toolbox App</a> 运行任何 <a href="https://www.jetbrains.com.cn/">JetBrains</a> 产品。如果您基于 <a href="installation-guide.topic" anchor="standalone" summary=""/> 方式安装 IntelliJ IDEA，如何运行它则取决于您的 <tooltip term="os">操作系统</tooltip> 。</p>
     <tabs>
         <tab title="Windows" id="windows">
             <p>要运行 IntelliJ IDEA，您可以在 <tooltip term="windows">Windows</tooltip> <format style="bold">开始</format> 菜单中找到它，或使用 <tooltip term="desktop-shortcut">桌面快捷方式</tooltip> 。也可以运行启动器批脚本或安装目录 <format style="bold">bin</format> 下的可执行文件。</p>

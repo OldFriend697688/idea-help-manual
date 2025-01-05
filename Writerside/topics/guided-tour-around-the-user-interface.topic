@@ -7,10 +7,10 @@
     <p>在 IntelliJ IDEA 中打开项目时，将会根据您的操作在用户界面中呈现出如下图所示相关部分：</p>
     <img src="IntelliJ IDEA 默认用户界面（Darcula 主题）.png" alt="IntelliJ IDEA 默认用户界面（Darcula 主题）" width="706" thumbnail="true"/>
     <list type="decimal">
-        <li><a anchor="navigation-bar" summary="IntelliJ IDEA 中的导航栏是一个便捷的功能，它允许用户快速导航到项目中的不同部分，如文件、类、方法或工具窗口。导航栏通常位于编辑器的顶部，提供了一个紧凑的界面来键入搜索查询或选择目标位置。"/></li>
-        <li>项目 <a anchor="tool-windows" summary="IntelliJ IDEA 中的工具窗口是 IDE 界面的重要组成部分，它们为开发者提供了各种辅助工具和功能，以支持软件开发的不同方面。"/></li>
+        <li><a anchor="navigation-bar" summary="IntelliJ IDEA 中的导航栏是一个便捷的功能，它允许用户快速导航到项目中的不同部分，例如：文件、类、方法或工具窗口。导航栏通常位于编辑器的顶部，提供了一个紧凑的界面来键入搜索查询或选择目标位置。"/></li>
+        <li>项目 <a anchor="tool-windows" summary="IntelliJ IDEA 中的工具窗口是 IDE 的重要组成部分，它们提供了一系列功能，帮助开发者更有效地编写、调试和管理代码。"/></li>
         <li><a anchor="editor" summary="IntelliJ IDEA 的编辑器是其核心功能之一，它为开发者提供了一个强大、智能和高度可配置的代码编写环境。"/></li>
-        <li><a anchor="popup-menus" summary="IntelliJ IDEA 的弹出菜单通常指的是在编辑器中特定操作（如单击、按键等）触发的菜单，它提供了对常用操作的快速访问。弹出菜单与上下文菜单（右键菜单）类似，但它们的出现通常是基于特定的触发条件，而不是简单的右键单击。"/></li>
+        <li><a anchor="popup-menus" summary="IntelliJ IDEA 的弹出菜单通常指的是在编辑器中特定操作（例如：单击、按键等）触发的菜单，它提供了对常用操作的快速访问。弹出菜单与上下文菜单（右键菜单）类似，但它们的出现通常是基于特定的触发条件，而不是简单的右键单击。"/></li>
         <li><a anchor="context-menus" summary="IntelliJ IDEA 的上下文菜单（也称为右键菜单）是在用户在 IDE 的不同部分右键单击时弹出的菜单。上下文菜单提供了与当前上下文相关的操作和选项，这些选项根据用户单击的位置和选择的元素而变化。"/></li>
         <li><a anchor="status-bar" summary="IntelliJ IDEA 的状态栏位于主窗口的底部，状态栏提供了一些有用的信息，并允许用户快速访问某些功能。"/></li>
         <li><a anchor="main-menus" summary="IntelliJ IDEA 中的主菜单包含了多个顶级菜单项，每个菜单项下都有相应的子菜单和功能选项，这些菜单提供了对 IDE 的各种功能和设置的访问。"/></li>
@@ -18,21 +18,22 @@
     </list>
     <note>根据 <tooltip term="idea">IDEA</tooltip> 安装的 <a href="managing-plugins.topic" summary="">插件</a> 集、版本和配置设置的不同， <tooltip term="ide">IDE</tooltip> 可能会有不同的外观和行为。&nbsp;&nbsp;&nbsp;&nbsp;</note>
     <chapter title="主菜单" id="main-menus">
-        <p>通过主菜单，您将可以快速调用 IntelliJ IDEA 提供的各项常用功能。</p>
-        <p>您可以通过在 <control>操作（ <shortcut>Ctrl</shortcut><shortcut>Shift</shortcut><shortcut>A</shortcut> ）</control> 中键入目标操作名称以实现相同的功能调用。</p>
+        <p>您可以通过主菜单快速调用 IntelliJ IDEA 提供的各项常用功能。</p>
+        <p>您也可以通过在 <control>操作（ <shortcut>Ctrl</shortcut><shortcut>Shift</shortcut><shortcut>A</shortcut> ）</control> 中键入目标操作名称以实现相同的功能调用。</p>
         <p>例如：在 <control>操作</control> 中键入 <format style="bold">导航栏</format> ，等待片刻后将会在列表中列举出与 <format style="bold">导航栏</format> 相关的所有操作。</p>
         <video src="https://www.youtube.com/watch?v=mK0ZbLqEj9w" width="706"/>
-        <note>绝大多数的操作都有与之对应的 <a href="configuring-keyboard-and-mouse-shortcuts.topic" summary="">快捷键</a> ，如果想执行的操作没有预设快捷键，请尝试为其设置快捷键或者直接在 <control>操作（ <shortcut>Ctrl</shortcut><shortcut>Shift</shortcut><shortcut>A</shortcut> ）</control> 中键入目标操作的名称，然后在展开的列表中选择需要执行的操作。</note>
+        <note>绝大多数的操作都有与之对应的 <a href="configuring-keyboard-and-mouse-shortcuts.topic" summary="">快捷键</a> ，如果想执行的操作未预设快捷键，请尝试为其设置快捷键或者直接在 <control>操作（ <shortcut>Ctrl</shortcut><shortcut>Shift</shortcut><shortcut>A</shortcut> ）</control> 中键入目标操作的名称，然后在展开的列表中选择需要执行的操作。</note>
         <img alt="在操作中键入目标操作的名称" src="在操作中键入目标操作的名称.png" width="706" thumbnail="true"/>
     </chapter>
     <chapter title="主窗口" id="main-windows">
-        <p>主窗口集成了代码编辑、调试、构建、 <tooltip term="version-control">版本控制</tooltip> 以及许多其他功能。您可以将它理解为是一种容器，用于将 <include from="reuse-library.topic" element-id="main-menus-snippet"/>、<include from="reuse-library.topic" element-id="navigation-bar-snippet"/> 等聚合在一起。</p>
+        <p>主窗口集成了代码编辑、调试、构建、 <tooltip term="vcs">版本控制</tooltip> 以及许多其他功能。</p>
+        <p>您可以将它理解为是一种容器，用于将 <include from="reuse-library.topic" element-id="main-menus-snippet"/>、<include from="reuse-library.topic" element-id="navigation-bar-snippet"/> 等聚合在一起。</p>
         <p>在主窗口中，可以处理单个 IntelliJ IDEA 项目。您可同时打开多个主窗口以便同时处理多个项目。</p>
         <p>在默认情况下，主窗口的标题位置将会显示项目名称和当前打开文件的名称。</p>
         <img alt="主窗口标题位置显示的项目名称和打开文件的名称" src="主窗口标题位置显示的项目名称和打开文件的名称.png" width="706" thumbnail="true"/>
-        <p>如果项目中存在多个 <a href="creating-and-managing-modules.topic" summary=""/> 时，它还将会额外显示相关模块的名称。</p>
+        <p>当项目中存在多个 <a href="creating-and-managing-modules.topic" summary=""/> 时，主窗口的标题位置还将会额外显示相关模块的名称。</p>
         <video src="https://www.youtube.com/watch?v=MHIisxc-eL8" width="706"/>
-        <p>如果您想要显示项目和当前打开文件的完整路径， 请勾选 <ui-path>设置（ <shortcut>Ctrl</shortcut><shortcut>Alt</shortcut><shortcut>S</shortcut> ） | 外观与行为 | 外观 | 始终在窗口标题中显示完整路径</ui-path> 选项。</p>
+        <p>如果要显示当前打开项目及文件的完整路径， 请勾选 <ui-path>设置（ <shortcut>Ctrl</shortcut><shortcut>Alt</shortcut><shortcut>S</shortcut> ） | 外观与行为 | 外观 | 始终在窗口标题中显示完整路径</ui-path> 。</p>
         <video src="https://www.youtube.com/watch?v=Kne0jZxIjIg" width="706"/>
     </chapter>
     <chapter title="导航栏" id="navigation-bar">
@@ -42,15 +43,15 @@
         </tldr>
         <p>导航栏是项目视图的快捷方式，通过它可以快速浏览项目结构并在 <include from="reuse-library.topic" element-id="editor-snippet"/> 中打开文件进行编辑。</p>
         <video src="https://www.youtube.com/watch?v=HTVYOEKplrc" width="706"/>
-        <note>如果为项目启用了 <tooltip term="version-control">VCS</tooltip> 集成，则导航栏中的内容将会根据 VCS 文件状态颜色突出显示。&nbsp;&nbsp;<</note>
+        <note>如果为项目启用了 <tooltip term="vcs">VCS</tooltip> 集成，则导航栏中的内容将会根据 VCS 文件状态颜色突出显示。&nbsp;&nbsp;</note>
         <img alt="导航栏中 VCS 文件的状态颜色" src="导航栏中 VCS 文件的状态颜色.png" width="706" height="706" id="vcs-file-color" thumbnail="true"/>
-        <note>在默认情况下，含有打开和保存文件、撤销和重做操作按钮的主工具栏是隐藏的。要显示它，请选择 <ui-path><include from="reuse-library.topic" element-id="main-menus-snippet"/> | 视图 | 外观 | 工具栏</ui-path> 。</note>
+        <note>含有打开和保存文件、撤销和重做操作按钮的主工具栏默认是隐藏的。如果要显示它，请选择 <ui-path><include from="reuse-library.topic" element-id="main-menus-snippet"/> | 视图 | 外观 | 工具栏</ui-path> 。</note>
         <video src="https://www.youtube.com/watch?v=SzeOmPgR5gs" width="706"/>
         <note>
-            <p>IntelliJ IDEA 设计的精妙之处在于，近乎于所有按钮提供的功能都有对应的快捷键。</p>
-            <p>例如：当要构建项目时请按 <shortcut>Ctrl</shortcut><shortcut>F9</shortcut> ，需要运行源文件时请按 <shortcut>Shift</shortcut><shortcut>F10</shortcut> 。如果想要查看项目结构设置时请按 <shortcut>Ctrl</shortcut><shortcut>Alt</shortcut><shortcut>Shift</shortcut><shortcut>S</shortcut> 。</p>
+            <p>IntelliJ IDEA 设计的精妙之处在于，近乎于所有按钮提供的功能都有关联的 <a href="mastering-keyboard-shortcuts.topic" summary=""/> 。</p>
+            <p>例如：您可以按 <shortcut>Ctrl</shortcut><shortcut>F9</shortcut> 构建项目，按 <shortcut>Shift</shortcut><shortcut>F10</shortcut> 运行源文件，按 <shortcut>Ctrl</shortcut><shortcut>Alt</shortcut><shortcut>Shift</shortcut><shortcut>S</shortcut> 查看项目结构设置。</p>
         </note>
-        <p>使用导航栏右侧的按钮可以构建 <img src="构建.svg" alt=""/> 、运行 <img src="运行.svg" alt=""/> 和调试应用程序 <img src="调试.svg" alt=""/> 、访问项目结构设置 <img src="项目结构设置.svg" alt=""/> 和执行基本的 <tooltip term="version-control">版本控制</tooltip> 操作（ <format style="bold">前提是先启用 VCS 集成</format> ）。</p>
+        <p>使用导航栏右侧的按钮可以构建 <img src="构建.svg" alt=""/> 、运行 <img src="运行.svg" alt=""/> 和调试应用程序 <img src="调试.svg" alt=""/> 、访问项目结构设置 <img src="项目结构设置.svg" alt=""/> 及执行基本的 <tooltip term="vcs">版本控制</tooltip> 操作（ <format style="bold">前提是先启用 VCS 集成</format> ）。</p>
         <p>它还含有 <control>运行任何内容</control> <img src="运行任何内容.svg" alt=""/> （ <shortcut>Ctrl</shortcut><shortcut>Ctrl</shortcut> ）和 <control>随处搜索</control> <img src="随处搜索.svg" alt=""/> （ <shortcut>Shift</shortcut><shortcut>Shift</shortcut> ）按钮。</p>
         <video src="https://www.youtube.com/watch?v=1oejfKQenoc" width="706"/>
     </chapter>
@@ -65,12 +66,12 @@
         <list type="decimal">
             <li>
                 <format style="bold">智能代码补全（Code Completion）</format>
-                <p>根据上下文自动提示并补全代码，包括 <tooltip term="class-name">类名</tooltip> 、 <tooltip term="method-name">方法名</tooltip> 、 <tooltip term="variable-name">变量名</tooltip> 等，减少了键入量并减少了错误。键入 <code>System.out.</code> 时， IntelliJ IDEA 将会提示可用的方法，例如： <code>println()</code> 和 <code>print()</code> 。</p>
+                <p>根据上下文自动提示并补全代码，包括 <tooltip term="class-name">类名</tooltip> 、 <tooltip term="method-name">方法名</tooltip> 、 <tooltip term="variable-name">变量名</tooltip> 等，减少了键入量并减少了错误。键入 <code>System.out.</code> 时， 编辑器将会提示可用的方法，例如： <code>println()</code> 和 <code>print()</code> 。</p>
             </li>
             <li>
                 <format style="bold">代码高亮（Syntax Highlighting）</format>
                 <p>代码高亮功能可以根据不同的语法元素对代码进行着色，使代码更易于阅读和理解。</p>
-                <p>例如： <tooltip term="keywords">关键字</tooltip> 、 <tooltip term="identifier">标识符</tooltip> 、 字符串和 <tooltip term="comments">注释</tooltip> 等会使用不同的颜色进行标注。</p>
+                <p>例如： <tooltip term="keywords">关键字</tooltip> 、 <tooltip term="identifier">标识符</tooltip> 、 <tooltip term="string">字符串</tooltip> 和 <tooltip term="comments">注释</tooltip> 等会使用不同的颜色进行标注。</p>
             </li>
             <li>
                 <format style="bold">代码检查（Code Inspections）</format>
@@ -89,7 +90,7 @@
                 <p>集成了功能强大的调试器，可以设置断点、单步执行、查看变量值、表达式求值等。</p>
             </li>
         </list>
-        <note>如果当前项目已启用了 <tooltip term="version-control">VCS</tooltip> 集成，则编辑器标签页会根据 VCS 文件状态颜色突出显示。</note>
+        <note>如果当前项目已启用了 <tooltip term="vcs">VCS</tooltip> 集成，则编辑器标签页会根据 VCS 文件状态颜色突出显示。&nbsp;&nbsp;</note>
         <img alt="编辑器界面（Darcula 主题配色方案）" src="编辑器界面（Darcula 主题配色方案）.png" width="706" thumbnail="true"/>
     </chapter>
     <chapter title="状态栏" id="status-bar">
@@ -103,8 +104,8 @@
         <video src="https://www.youtube.com/watch?v=jgdkJlJVyyc" width="706"/>
         <p>状态栏还将会显示后台任务的处理进度，您可以通过鼠标左键单击状态栏右侧区域的进度条来查看。</p>
         <video src="https://www.youtube.com/watch?v=P69pYzI77zw" width="706"/>
-        <p>状态栏的右侧部分包含显示整个项目和 <tooltip term="ide">IDE</tooltip> 状态的各种微件，并提供各种设置的快速访问方式。</p>
-        <img alt="状态栏及其微件" src="状态栏.png" width="706" thumbnail="true"/>
+        <p>状态栏的右侧部分包含显示整个项目和 <tooltip term="ide">IDE</tooltip> 状态的各种微件，并提供各种设置的快捷访问方式。</p>
+        <img alt="状态栏及其微件" src="状态栏及其微件.png" width="706" thumbnail="true"/>
         <procedure title="微件列表" id="widget-list">
             <note>
                 <p>根据插件集和配置设置的不同，这些微件提供的设置和行为可能会有所不同。&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;</p>
@@ -113,7 +114,7 @@
             <table id="widget-list-table" column-width="fixed">
                 <tr>
                     <td width="100">微件</td>
-                    <td>用途</td>
+                    <td>用途描述</td>
                 </tr>
                 <tr>
                     <td><format style="bold">52:11</format></td>
@@ -142,7 +143,7 @@
                     <td>
                         <p>显示当前文件正在使用的文件编码，单击此微件可以更改文件编码。</p>
                         <video src="https://www.youtube.com/watch?v=OBYn9tjk5yA"/>
-                        <note><p>在实际的设置中，请选择彼此之间相互兼容的文件编码，否则将导致文件中的内容乱码。</p></note>
+                        <note>在实际的设置中，请选择彼此之间相互兼容的文件编码，否则将导致文件中的内容乱码。</note>
                     </td>
                 </tr>
                 <tr>
@@ -165,7 +166,7 @@
                 <tr>
                     <td><img src="版本控制分支图标.svg" alt=""/> master</td>
                     <td>
-                        <p>如果项目启用了 <tooltip term="version-control">版本控制集成</tooltip> ，此微件将显示当前分支的名称，单击它可以管理 VCS 分支。</p>
+                        <p>如果项目启用了 <tooltip term="vcs">版本控制集成</tooltip> ，此微件将显示当前分支的名称，单击它可以管理 VCS 分支。</p>
                         <video src="https://www.youtube.com/watch?v=riSd-JynLD8"/>
                     </td>
                 </tr>
@@ -185,7 +186,7 @@
                 </tr>
                 <tr>
                     <td><img src="默认部署服务器.png" alt=""/></td>
-                    <td><p>单击可将任何已配置的部署服务器或服务器组设置为执行部署操作的默认设置。</p></td>
+                    <td>单击可将任何已配置的部署服务器或服务器组设置为执行部署操作的默认设置。</td>
                 </tr>
             </table>
         </procedure>
@@ -220,7 +221,7 @@
                 <video src="https://www.youtube.com/watch?v=iaWNokaiL10" width="706"/>
             </li>
             <li>
-                <p>使用 <control>VCS 操作（ <shortcut>Alt</shortcut><shortcut>`</shortcut> ）</control> ，其中包含 <tooltip term="version-control">版本控制系统</tooltip> 的上下文可用操作。</p>
+                <p>使用 <control>VCS 操作（ <shortcut>Alt</shortcut><shortcut>`</shortcut> ）</control> ，其中包含 <tooltip term="vcs">版本控制系统</tooltip> 的上下文可用操作。</p>
                 <video src="https://www.youtube.com/watch?v=R3bXb7tIuQs" width="706"/>
             </li>
             <li>
@@ -243,7 +244,7 @@
             <a href="https://zh.wikipedia.org/zh-cn/软件版本控制" summary="版本控制是一种软件开发中用于管理和跟踪代码变更的系统。它允许开发者在开发过程中的不同时间点保存代码的状态，也就是创建“快照”，从而可以追踪每个文件的变更历史，比较不同版本之间的差异，以及在必要时回退到之前的版本。版本控制对于团队协作尤为重要，因为它帮助团队成员管理代码的合并、分支和发布。">版本控制</a>
             <a href="user-interface-themes.topic" summary=""/>
             <a href="installation-guide.topic" anchor="simplified-chinese-language" summary=""/>
-            <a href="register.topic" summary="" />
+            <a href="register.topic" summary=""/>
             <a href="https://plugins.jetbrains.com/" summary="JetBrains 插件库是一个在线平台，提供各种插件，这些插件可以扩展 IntelliJ IDEA 以及其他 JetBrains 开发的 IDE（如 WebStorm、PyCharm、CLion 等）的功能。在这个网站上，用户可以浏览、搜索和下载各种插件，以增强他们的开发工具。">JetBrains 插件库</a>
         </category>
         <include from="reuse-library.topic" element-id="programming-language-snippet"/>

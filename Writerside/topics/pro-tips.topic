@@ -6,11 +6,13 @@
        title="专业技巧" id="pro-tips">
     <chapter id="refactorings" title="重构">
         <chapter id="undo-refactorings" title="撤销重构" default-state="collapsed" collapsible="true">
-            <p>使用 IntelliJ IDEA 可以非常轻松地撤销已执行过的 <tooltip term="refactoring">重构</tooltip> 操作。这意味着无论您执行多少次重构操作，都可以通过按 <shortcut>Ctrl</shortcut><shortcut>Z</shortcut> 触发撤销操作来逐步撤销它们。如果想要将代码还原至未执行过撤销重构操作前的状态，请按 <shortcut>Ctrl</shortcut><shortcut>Shift</shortcut><shortcut>Z</shortcut> 。</p>
+            <p>无论您执行过多少次 <tooltip term="refactoring">重构</tooltip> ，都可以通过 <format style="bold">撤销</format> （ <shortcut>Ctrl</shortcut><shortcut>Z</shortcut> ）来逐步撤销它们。</p>
+            <p>同时，如果您想要还原至未进行 <format style="bold">撤销</format> 前的状态，请执行 <format style="bold">重做</format> （ <shortcut>Ctrl</shortcut><shortcut>Shift</shortcut><shortcut>Z</shortcut> ）。</p>
             <video src="https://www.youtube.com/watch?v=HXVjGoIs2_E" width="706"/>
         </chapter>
         <chapter id="type-migration" title="类型迁移" default-state="collapsed" collapsible="true">
-            <p>在执行重构操作时，通常会重命名 <tooltip term="symbol">符号</tooltip> 或者是提取并移动代码中的语句。然而，重构的意义远不止于此，有些时候还可以通过 <control>类型迁移（ <shortcut>Ctrl</shortcut><shortcut>Shift</shortcut><shortcut>F6</shortcut> ）</control> 操作快速更改 <tooltip term="variables">变量</tooltip> 、 <tooltip term="java-field">字段</tooltip> 、 <tooltip term="parameter">参数</tooltip> 或是 <tooltip term="method">方法</tooltip> 的 <tooltip term="method-return-value">返回值</tooltip> 的类型并更新相关代码以便解决可能的冲突。</p>
+            <p>在执行 <tooltip term="refactoring">重构</tooltip> 时，通常会选择重命名 <tooltip term="symbol">符号</tooltip> 或者是提取并移动代码中的语句。</p>
+            <p>还可以通过 <control>类型迁移（ <shortcut>Ctrl</shortcut><shortcut>Shift</shortcut><shortcut>F6</shortcut> ）</control> 快速更改 <tooltip term="variables">变量</tooltip> 、 <tooltip term="java-field">字段</tooltip> 、 <tooltip term="parameter">参数</tooltip> 或是 <tooltip term="method">方法</tooltip> 的 <tooltip term="method-return-value">返回值</tooltip> 的类型并更新相关代码以便解决可能的冲突。</p>
             <code-block collapsed-title="TestTypeMigration.java" collapsible="true" default-state="collapsed" lang="java" src="TestTypeMigration.java"/>
             <video src="https://www.youtube.com/watch?v=hP4bU9hbTlU" width="706"/>
         </chapter>
@@ -19,7 +21,7 @@
             <video src="https://www.youtube.com/watch?v=-vj-_OwfThE" width="706"/>
         </chapter>
         <chapter id="extract-string-fragments" title="提取字符串片段等内容" default-state="collapsed" collapsible="true">
-            <p>IntelliJ IDEA 不仅能够重构可执行代码，还能够重构字符串文本等内容。只需要选中它们并打开 <control>重构此（ <shortcut>Ctrl</shortcut><shortcut>Alt</shortcut><shortcut>Shift</shortcut><shortcut>T</shortcut> ）</control> <a href="guided-tour-around-the-user-interface.topic" anchor="popup-menus" summary=""/> ，然后选择 <ui-path>引入变量</ui-path> 、 <ui-path>引入常量</ui-path> 、 <ui-path>引入字段</ui-path> 、 <ui-path>引入形参</ui-path> 即可提取它们为对应的 <tooltip term="variables">变量</tooltip> 、 <tooltip term="constant">常量</tooltip> 、 <tooltip term="java-field">字段</tooltip> 或是 <tooltip term="formal-parameter">形参</tooltip> 并在整个代码中替换其用法。</p>
+            <p>IntelliJ IDEA 不仅允许重构可执行代码，还允许重构字符串文本等内容。只需要选中它们并打开 <control>重构此（ <shortcut>Ctrl</shortcut><shortcut>Alt</shortcut><shortcut>Shift</shortcut><shortcut>T</shortcut> ）</control> <a href="guided-tour-around-the-user-interface.topic" anchor="popup-menus" summary=""/> ，然后选择 <ui-path>引入变量</ui-path> 、 <ui-path>引入常量</ui-path> 、 <ui-path>引入字段</ui-path> 、 <ui-path>引入形参</ui-path> 即可提取它们为对应的 <tooltip term="variables">变量</tooltip> 、 <tooltip term="constant">常量</tooltip> 、 <tooltip term="java-field">字段</tooltip> 或是 <tooltip term="formal-parameter">形参</tooltip> 并在整个代码中替换其用法。</p>
             <video src="https://www.youtube.com/watch?v=p9A56GsAvu4" width="706"/>
         </chapter>
     </chapter>
@@ -29,20 +31,20 @@
             <video src="https://www.youtube.com/watch?v=4Rcm4O9kYF0" width="706"/>
         </chapter>
         <chapter id="multiple-selections" title="多重选择" default-state="collapsed" collapsible="true">
-            <note>要查看某个代码片段在当前文件中的所有用法，请选中此代码片段并按 <shortcut>Ctrl</shortcut><shortcut>Shift</shortcut><shortcut>F7</shortcut> 。</note>
-            <p>多重选择是一个相对较新且非常强大的 <a href="using-code-editor.topic" summary="">编辑器</a> 功能，它允许快速选择并同时编辑多个（相邻或不相邻）代码片段。要使用此功能可以先按 <shortcut>Alt</shortcut><shortcut>J</shortcut> 选中某个代码片段，然后继续按 <shortcut>Alt</shortcut><shortcut>J</shortcut> ，IntelliJ IDEA 将会在当前打开的文件中向前搜索，直到搜索到匹配的内容，并将其添加至选择中。</p>
+            <note>要查看某个代码片段在当前文件中的所有用法，请选中此代码片段并按 <shortcut>Ctrl</shortcut><shortcut>Shift</shortcut><shortcut>F7</shortcut> 。&nbsp;&nbsp;&nbsp;</note>
+            <p>多重选择是一个相对较新且非常强大的 <a href="using-code-editor.topic" summary="">编辑器</a> 功能，它允许快速选择并同时编辑多个相邻或不相邻代码片段。要使用此功能请先按 <shortcut>Alt</shortcut><shortcut>J</shortcut> 选中某个代码片段，然后继续按 <shortcut>Alt</shortcut><shortcut>J</shortcut> ，IntelliJ IDEA 将会在当前打开的文件中向前搜索，直到搜索到匹配的内容，并将其添加至选择中。</p>
             <img src="将下一个匹配项添加至选择.png" alt="将下一个匹配项添加至选择" width="706" thumbnail="true"/>
             <p>此时，可以再次按 <shortcut>Alt</shortcut><shortcut>J</shortcut> 继续向前搜索，或按 <shortcut>Alt</shortcut><shortcut>Shift</shortcut><shortcut>J</shortcut> 取消上一个匹配的搜索项。</p>
-            <p>但请注意，当搜索到达文件末尾时，它将会从文件开头重新开始搜索。当匹配操作完成后，您就可以像编辑一个整体一样直接编辑所有选中的代码片段。</p>
+            <p>当搜索到达文件末尾时，它将会从文件开头重新开始搜索。当整个匹配操作完成后，您就可以像编辑一个整体一样直接编辑所有选中的代码片段。</p>
             <video src="https://www.youtube.com/watch?v=DOLtv_KFBOQ" width="706"/>
         </chapter>
         <chapter id="regex" title="正则表达式" default-state="collapsed" collapsible="true">
-            <p><tooltip term="regex">正则表达式</tooltip> 功能强大且被广泛应用，但想要正确编写并验证它们的确是太困难了。</p>
-            <p>但是，在 IntelliJ IDEA 中您只需要将光标移动至其上并按 <shortcut>Alt</shortcut><shortcut>Enter</shortcut> 然后选择 <ui-path>检查正则表达式</ui-path> 即可验证当前的正则表达式是否可以匹配目标文本。</p>
+            <p><tooltip term="regex">正则表达式</tooltip> 功能强大且被广泛应用，但想要正确编写并验证它们的确太困难了。</p>
+            <p>在 IntelliJ IDEA 中您只需选中正则表达式字符串并按 <shortcut>Alt</shortcut><shortcut>Enter</shortcut> 然后选择 <ui-path>检查正则表达式</ui-path> 即可验证当前的正则表达式是否可以匹配目标文本。</p>
             <code-block collapsed-title="TestRegex.java" collapsible="true" default-state="collapsed" lang="java" src="TestRegex.java"/>
             <video src="https://www.youtube.com/watch?v=hjTBcFciPE0" width="706"/>
             <chapter id="find-and-replace-with-regex-groups" title="使用正则表达式组进行查找和替换">
-                <p>IntelliJ IDEA 在 <a href="tutorial-finding-and-replacing-text-using-regular-expressions.topic" summary="">查找和替换</a> 中支持使用正则表达式。它同时也支持替换正则表达式的捕获组。</p>
+                <p><a href="tutorial-finding-and-replacing-text-using-regular-expressions.topic" summary="">查找和替换</a> 中支持使用正则表达式，它同时也支持替换正则表达式的捕获组。</p>
                 <img src="在查找和替换中使用正则表达式捕获组.png" alt="在查找和替换中使用正则表达式捕获组" width="706" thumbnail="true"/>
                 <video src="https://www.youtube.com/watch?v=CfYbKfgbOSI" width="706"/>
             </chapter>
@@ -52,7 +54,7 @@
             <video src="https://www.youtube.com/watch?v=sYCl-Uxuo1A" width="706"/>
         </chapter>
         <chapter id="compare-with-clipboard" title="与剪贴板比较" default-state="collapsed" collapsible="true">
-            <p>IntelliJ IDEA 内置了针对代码、 <tooltip term="java-jar-file">JAR 文件</tooltip> 、 <tooltip term="revision">修订版本</tooltip> 、甚至是图像之间的差异化查看器。要使用此功能，请选择任意一对文件并按 <shortcut>Ctrl</shortcut><shortcut>D</shortcut> 。</p>
+            <p>IntelliJ IDEA 内置了针对代码、 <tooltip term="java-jar-file">JAR 文件</tooltip> 、 <tooltip term="revision">修订版本</tooltip> 、甚至是图像之间的差异化查看器。要使用它，请选择任意一对文件并按 <shortcut>Ctrl</shortcut><shortcut>D</shortcut> 。</p>
             <p>如果您选择的是一个单独的文件， <tooltip term="ide">IDE</tooltip> 将会提示选择需要进行比较的文件。</p>
             <p>要快速将活动 <include from="reuse-library.topic" element-id="editor-snippet" /> 与剪贴板中的内容进行比较，请选择 <ui-path><include from="reuse-library.topic" element-id="main-menus-snippet"/> | 视图 | 与剪贴板比较</ui-path> 。</p>
             <video src="https://www.youtube.com/watch?v=cdWNI-W3OYM" width="706"/>
@@ -61,22 +63,26 @@
             <p>IntelliJ IDEA 会记录放在剪贴板上的所有内容。只要按 <shortcut>Ctrl</shortcut><shortcut>Shift</shortcut><shortcut>V</shortcut> ，就可以选择并粘贴它们。</p>
             <video src="https://www.youtube.com/watch?v=WU3GJSRP_qQ" width="706"/>
             <note>
-                <p>IntelliJ IDEA 会从系统中读取剪贴板的内容并将其显示在 <format style="bold">选择要粘贴的内容</format> 中。</p>
-                <p>以 Windows 10 系统为例，如果想要清空这些内容，请进入系统设置，然后选择 <format style="bold">系统 | 剪贴板</format> ，找到 <format style="bold">清除剪贴板数据</format> 并单击 <format style="bold">清除</format> ，然后关闭并重启 IntelliJ IDEA 即可。</p>
+                <p>IntelliJ IDEA 会从系统中读取剪贴板的内容并将其显示在 <ui-path>选择要粘贴的内容</ui-path> 中。</p>
+                <p>以 Windows 10 系统为例，如果想要清空这些内容，请进入系统设置，然后选择 <ui-path>系统 | 剪贴板</ui-path> ，找到 <control>清除剪贴板数据</control> 并单击 <control>清除</control> ，然后关闭并重启 IntelliJ IDEA 即可。</p>
             </note>
             <video src="https://www.youtube.com/watch?v=VXd8qm5JOR8" width="706"/>
         </chapter>
     </chapter>
     <chapter id="coding-assistance" title="编码辅助">
         <chapter id="type-info" title="类型信息" default-state="collapsed" collapsible="true">
-            <note>对于自定义的 <tooltip term="java-class">类</tooltip> 、 <tooltip term="java-interface">接口</tooltip> 、 <tooltip term="method">方法</tooltip> 等符号而言，需先通过 <a href="working-with-code-documentation.topic" summary="">JavaDoc</a><tooltip term="java-annotations">注解</tooltip> + <tooltip term="java-document-comments">文档注释</tooltip> 的组合形式对其进行标注。在此之后，每当按 <shortcut>Ctrl</shortcut><shortcut>Q</shortcut> 时才会在 <format style="bold">快速文档</format> 中显示这些信息。一个非常简单的例子是，当按 <shortcut>Ctrl</shortcut><shortcut>N</shortcut> 并键入 <code>java.lang.String</code> 后进入其内部，将可以明确看到 <tooltip term="java-class-declaration">类声明</tooltip> 及 <tooltip term="java-method-declaration">方法声明</tooltip> 上方的注释信息。</note>
+            <note>
+                <p>对于自定义的 <tooltip term="java-class">类</tooltip> 、 <tooltip term="java-interface">接口</tooltip> 、 <tooltip term="method">方法</tooltip> 等符号而言，需先通过 <a href="working-with-code-documentation.topic" summary="">JavaDoc</a><tooltip term="java-annotations">注解</tooltip> + <tooltip term="java-document-comments">文档注释</tooltip> 的组合形式对其进行标注。在此之后，每当按 <shortcut>Ctrl</shortcut><shortcut>Q</shortcut> 时才会在 <format style="bold">快速文档</format> 中显示这些信息。</p>
+                <p>一个非常简单的例子是，当按 <shortcut>Ctrl</shortcut><shortcut>N</shortcut> 并键入 <code>java.lang.String</code> 后进入其内部，将可以明确看到 <tooltip term="java-class-declaration">类声明</tooltip> 及 <tooltip term="java-method-declaration">方法声明</tooltip> 上方的注释信息。</p>
+            </note>
             <p>如果想获得有关于某个 <tooltip term="symbol">符号</tooltip> 的详细信息，例如：它来自于哪里、它用于解决什么问题？作者又是谁？。此时，使用 <format style="bold">快速文档（ <shortcut>Alt</shortcut><shortcut>Q</shortcut> ）</format> 将是最佳选择。它将会弹出一个包含这些详细信息的窗口。</p>
             <video src="https://www.youtube.com/watch?v=LWFJu6zgfn4" width="706"/>
             <p>但是，如果您想要查看某个表达式所返回的实际类型时通过 <format style="bold">快速文档</format> 是无法实现的。此时，请选中目标符号并按 <shortcut>Ctrl</shortcut><shortcut>Shift</shortcut><shortcut>P</shortcut> 然后选中需要执行 <format style="bold">类型信息</format> 操作的目标 <tooltip term="expression">表达式</tooltip> 并按 <shortcut>Enter</shortcut> 即可计算出此表达式返回的实际类型。</p>
             <video src="https://www.youtube.com/watch?v=tvl0uP_6M2I" width="706"/>
         </chapter>
         <chapter id="hippie-completion" title="嬉皮补全" default-state="collapsed" collapsible="true">
-            <include from="reuse-library.topic" element-id="invalid-shortcut-key-prompt-snippet"/>
+            <note>如果发现无法通过 <a href="mastering-keyboard-shortcuts.topic" summary=""/> 触发代码补全，请关闭中文输入法后再按对应的快捷键。&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;</note>
+            <!--<include from="reuse-library.topic" element-id="invalid-shortcut-key-prompt-snippet"/>-->
             <p>IntelliJ IDEA 提供 <ui-path>基本补全（ <shortcut>Ctrl</shortcut><shortcut>Space</shortcut> ）</ui-path> 、 <ui-path>智能类型匹配补全（ <shortcut>Ctrl</shortcut><shortcut>Shift</shortcut><shortcut>Space</shortcut> ）</ui-path> 以及 <ui-path>语句补全（ <shortcut>Ctrl</shortcut><shortcut>Shift</shortcut><shortcut>Enter</shortcut> ）</ui-path> 。所有这些补全功能都是基于对代码结构的分析理解而来。</p>
             <p>但是，您可能需要一种更琐碎但灵活的逻辑来建议选择当前文件中较早时候使用过的单词。这个功能叫做 <format style="bold">嬉皮补全（ <shortcut>Atl</shortcut><shortcut>/</shortcut> ）</format> 。</p>
             <video src="https://www.youtube.com/watch?v=h_TzczqiiAs" width="706"/>
@@ -135,7 +141,7 @@
     </chapter>
     <chapter id="user-interface" title="用户界面">
         <chapter id="search-everywhere" title="随处搜索" default-state="collapsed" collapsible="true">
-            <note>如果想要使用随处搜索功能，请确保位于 <a href="guided-tour-around-the-user-interface.topic" summary=""/> 的任意位置中时快速按两次 <shortcut>Shift</shortcut> 。</note>
+            <note>如果想要使用随处搜索功能，请确保位于 <a href="guided-tour-around-the-user-interface.topic" summary=""/> 的任意位置中时快速按两次 <shortcut>Shift</shortcut> 。&nbsp;&nbsp;&nbsp;&nbsp;</note>
             <p>通过使用 <a href="searching-everywhere.topic" summary=""/> 功能，开发者将可以在代码、 <tooltip term="library">库</tooltip> 、 <a href="guided-tour-around-the-user-interface.topic" summary=""/> 、设置（需要在设置名称前加上 <format style="bold">/</format> ），甚至是搜索任何与给定文本内容匹配的目标结果，并根据此结果进行下一步的操作。</p>
             <video src="https://www.youtube.com/watch?v=TW0tqmg4KsE" width="706"/>
             <p>例如：我们可以键入 <code>/editor</code> 并按 <shortcut>Enter</shortcut> 以此快速打开进行与 <a anchor="editor" summary=""/> 相关的设置。</p>
@@ -168,7 +174,7 @@
             <video src="https://www.youtube.com/watch?v=pYFxhBCyaIw" width="706"/>
         </chapter>
         <chapter id="add-stop-and-resume-buttons" title="在工具栏中添加停止和恢复按钮" default-state="collapsed" collapsible="true">
-            <p>将停止 <img src="停止.svg" alt=""/> 和恢复 <img src="恢复.svg" alt=""/> 按钮添加至 <include from="reuse-library.topic" element-id="toolbar-snippet"/> 中可能会更方便。您可以通过在 <ui-path>设置（ <shortcut>Ctrl</shortcut><shortcut>Alt</shortcut><shortcut>S</shortcut> ）| 外观和行为 | 菜单与工具栏</ui-path> 中进行配置来实现它。例如：进行此配置后将无需打开 <include from="reuse-library.topic" element-id="debug-tool-window-snippet"/> 即可管理当前的调试会话。</p>
+            <p>将停止 <img src="停止.svg" alt=""/> 和恢复 <img src="恢复.svg" alt=""/> 按钮添加至 <include from="reuse-library.topic" element-id="main-toolbar-snippet"/> 中可能会更方便。您可以通过在 <ui-path>设置（ <shortcut>Ctrl</shortcut><shortcut>Alt</shortcut><shortcut>S</shortcut> ）| 外观和行为 | 菜单与工具栏</ui-path> 中进行配置来实现它。例如：进行此配置后将无需打开 <include from="reuse-library.topic" element-id="debug-tool-window-snippet"/> 即可管理当前的调试会话。</p>
             <video src="https://www.youtube.com/watch?v=x6eBG0lybQg" width="706"/>
         </chapter>
     </chapter>
@@ -181,7 +187,7 @@
             <video src="https://www.youtube.com/watch?v=pob8-oZMC8A" width="706"/>
         </chapter>
         <chapter id="shelves-and-patches" title="搁置与补丁" default-state="collapsed" collapsible="true">
-            <p><format style="bold">搁置</format> 是一个类似于 <a href="https://git-scm.com/book/zh/v2/Git-工具-贮藏与清理" summary="有时，当您在项目的一部分上已经工作一段时间后，所有东西都进入了混乱的状态， 而这时您想要切换至另一个分支做一点别的事情。 问题是，您不想仅仅因为过会儿回到这一点而为做了一半的工作创建一次提交。 针对这个问题的答案是 git stash 命令。">Git Stash</a> 的 <tooltip term="ide">IDE</tooltip> 功能，但它适用于所有 <tooltip term="version-control">版本控制系统</tooltip> 。当需要暂时停滞处理当前遇到的一些棘手问题，但又不想丢失当前已进行的工作进度时此功能将会很有用处， <format style="bold">它能在不提交本地更改的情况下处理已更改的文件，因此再也不会丢失更改或匆忙进行合并提交。</format> 更多信息请参阅 <a href="work-on-several-features-simultaneously.topic" summary=""/> 。</p>
+            <p><format style="bold">搁置</format> 是一个类似于 <a href="https://git-scm.com/book/zh/v2/Git-工具-贮藏与清理" summary="有时，当您在项目的一部分上已经工作一段时间后，所有东西都进入了混乱的状态， 而这时您想要切换至另一个分支做一点别的事情。 问题是，您不想仅仅因为过会儿回到这一点而为做了一半的工作创建一次提交。 针对这个问题的答案是 git stash 命令。">Git Stash</a> 的 <tooltip term="ide">IDE</tooltip> 功能，但它适用于所有 <tooltip term="vcs">版本控制系统</tooltip> 。当需要暂时停滞处理当前遇到的一些棘手问题，但又不想丢失当前已进行的工作进度时此功能将会很有用处， <format style="bold">它能在不提交本地更改的情况下处理已更改的文件，因此再也不会丢失更改或匆忙进行合并提交。</format> 更多信息请参阅 <a href="work-on-several-features-simultaneously.topic" summary=""/> 。</p>
             <p><format style="bold">补丁</format> 允许保存对文本文件进行的更改，并将其通过电子邮件（或者是其它更加古老的媒介）传输，然后应用到项目中。当遇到不可靠的网络环境时，此功能将非常有用。更多信息请参阅 <a href="using-patches.topic" summary="可以将本地更改放入一个 .patch 文件中，而不是提交它们，然后可以稍后将其应用到项目中，或者通过电子邮件发送等等。使用补丁是一种方便的机制，可以在不将更改检入版本控制系统（VCS）存储库的情况下共享更改。"/> 。</p>
         </chapter>
     </chapter>

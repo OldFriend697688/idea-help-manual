@@ -5,19 +5,18 @@
        xsi:noNamespaceSchemaLocation="https://resources.jetbrains.com/writerside/1.0/topic.v2.xsd"
        title="简要概述" id="discover-intellij-idea">
     <chapter id="overview" title="概述">
-        <p><a href="https://www.jetbrains.com/zh-cn/idea/">IntelliJ IDEA</a> 是 <tooltip term="java">Java</tooltip> <tooltip term="programming-language">语言</tooltip> 的 <tooltip term="ide">IDE</tooltip> 。其被业界誉为是最好的 Java 开发工具，尤其在 <tooltip term="idea-code-completion">智能代码助手</tooltip> 、 <tooltip term="idea-code-automatic-prompt">代码自动提示</tooltip> 、 <tooltip term="idea-code-refactoring">代码重构</tooltip> 、 <tooltip term="jakarta-ee">Jakarta EE</tooltip> 支持 、 <tooltip term="version-control">版本控制</tooltip> 工具（ <tooltip term="git">Git</tooltip> 、 <tooltip term="svn">SVN</tooltip> 等）、 <tooltip term="unit-test">单元测试</tooltip> （ <tooltip term="JUnit">JUnit</tooltip> 等）、 <tooltip term="code-static-analysis">代码分析</tooltip> 、创新的 <tooltip term="gui">GUI</tooltip> 设计等方面的功能可以说是超常的。</p>
+        <p><a href="https://www.jetbrains.com/zh-cn/idea/">IntelliJ IDEA</a> 是 <tooltip term="java">Java</tooltip> <tooltip term="programming-language">语言</tooltip> 的 <tooltip term="ide">IDE</tooltip> 。其被业界誉为是最好的 Java 开发工具，尤其在 <tooltip term="idea-code-completion">智能代码助手</tooltip> 、 <tooltip term="idea-code-automatic-prompt">代码自动提示</tooltip> 、 <tooltip term="idea-code-refactoring">代码重构</tooltip> 、 <tooltip term="jakarta-ee">Jakarta EE</tooltip> 支持 、 <tooltip term="vcs">版本控制</tooltip> 工具（ <tooltip term="git">Git</tooltip> 、 <tooltip term="svn">SVN</tooltip> 等）、 <tooltip term="unit-test">单元测试</tooltip> （ <tooltip term="JUnit">JUnit</tooltip> 等）、 <tooltip term="code-static-analysis">代码分析</tooltip> 、创新的 <tooltip term="gui">GUI</tooltip> 设计等方面的功能可以说是超常的。</p>
         <img src="IntelliJ-IDEA-Icon.svg" alt="IntelliJ IDEA Logo" width="706" border-effect="line"/>
         <p>IntelliJ IDEA 是由 <tooltip term="jetbrains">JetBrains</tooltip> 公司研发的产品，以严谨著称的东欧程序员是其主要开发者。</p>
         <p>IntelliJ IDEA 有 <format style="bold">社区版</format> 和 <format style="bold">旗舰版</format> 两个主要版本。社区版提供长期免费支持，但在功能丰富程度上不及旗舰版，且支持的 <tooltip term="programming-language">语言</tooltip> 较少。旗舰版包含更多高级功能和更多语言支持，但仅提供 <format style="bold">30</format> 天免费试用，之后则需要购买激活码。</p>
     </chapter>
     <chapter id="cross-platform" title="跨平台">
-        <note>不同 <tooltip term="operating-system">操作系统</tooltip> 在设计理念上存在着根本的差异，这种差异直接导致了它们在视觉和用户体验上的明显区别。</note>
         <note>尽管 IntelliJ IDEA 在 Windows、Linux 和 macOS 这三大主流操作系统平台上均提供相应版本，并确保了核心功能的一致性，但在各个平台上的操作习惯和界面布局仍略有不同。</note>
         <p>IntelliJ IDEA 是一款 <tooltip term="cross-platform">跨平台</tooltip> 的 <tooltip term="ide">IDE</tooltip> ，可在 <tooltip term="windows">Windows</tooltip> 、 <tooltip term="macos">macOS</tooltip> 及 <tooltip term="linux">Linux</tooltip> 上提供一致的体验。</p>
         <img src="IntelliJ IDEA 支持的三大平台.png" alt="IntelliJ IDEA 支持的三大平台" width="706" thumbnail="true" border-effect="line"/>
     </chapter>
     <chapter id="editions" title="版本介绍">
-        <note>此手册将会重点讨论旗舰版的相关内容，而忽略社区版、 <tooltip term="release-candidate">RC</tooltip> 版、 <a href="product-educational-tools.topic">教育版</a> 等其它的版本。</note>
+        <note>此手册将重点讨论旗舰版的相关内容，而忽略社区版、 <tooltip term="rc">RC</tooltip> 版、 <a href="product-educational-tools.topic" summary="">教育版</a> 等其它的版本。&nbsp;&nbsp;&nbsp;&nbsp;</note>
         <p>IntelliJ IDEA 拥有旗舰版、教育版、社区版、RC 版、 <tooltip term="eap">EAP</tooltip> 等多种版本。</p>
         <p>常见且使用频次最高的是旗舰版和社区版，旗舰版功能强大，它支持多种 <tooltip term="programming-language">语言</tooltip> 及 Web 应用和企业级应用的开发，包括社区版本的全部功能，同时增加了对其他基于 IntelliJ 平台的 <tooltip term="ide">IDE</tooltip> 所关注的语言的支持，以及对各种服务器端和 <tooltip term="frontend">前端</tooltip> 框架、应用服务器、 <tooltip term="database">数据库</tooltip> 集成和分析工具等的支持。</p>
         <p><format style="bold">社区版是免费且开源的，这意味着您可以长期免费使用，无需支付任何额外费用</format> 。然而，与旗舰版相比，社区版支持的语言数量较少，并且可能不包含旗舰版中独有的某些高级开发辅助工具。</p>
@@ -31,7 +30,7 @@
         <p>IntelliJ IDEA 被设计为基于 <tooltip term="jvm">JVM</tooltip> 的语言的 <tooltip term="ide">IDE</tooltip> ，但许多 <a href="managing-plugins.topic" summary="">插件</a> 可以扩展它对其它语言的支持。</p>
         <tabs>
             <tab title="JVM 语言" id="jvm">
-                <p>IntelliJ IDEA 支持下列可编译为 <tooltip term="jvm">JVM</tooltip><tooltip term="java-bytecode">字节码</tooltip> 的语言。</p>
+                <p>IntelliJ IDEA 支持下列可编译为 <tooltip term="jvm">JVM</tooltip><tooltip term="bytecode">字节码</tooltip> 的语言。</p>
                 <list>
                     <li><a href="https://www.oracle.com/java/technologies/javase-downloads.html" summary="Java 是一种广泛使用的面向对象的编程语言。JDK（Java Development Kit）是用于开发 Java 应用程序的官方工具包，提供了编译器、运行时环境和其他工具。">Java</a></li>
                     <li><a href="https://www.scala-lang.org/" summary="Scala 是一种多范式的编程语言，它结合了面向对象和函数式编程的特点。Scala 在 JVM 上运行，并且能够利用 Java 的库和框架。它以其表达力和简洁的语法而闻名，适合开发复杂和大规模的应用程序。">Scala</a></li>

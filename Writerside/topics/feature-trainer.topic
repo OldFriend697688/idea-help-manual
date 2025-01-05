@@ -31,7 +31,7 @@
     </procedure>
     <procedure title="从学习工具窗口开始教程" id="start-a-lesson-from-the-learn-tool-window">
         <step>
-            <p>选择 <ui-path><include from="reuse-library.topic" element-id="main-menus-snippet" /> | 视图 | 工具窗口 | 学习</ui-path> 。</p>
+            <p>选择 <ui-path><include from="reuse-library.topic" element-id="main-menus-snippet"/> | 视图 | <include from="reuse-library.topic" element-id="tool-window-snippet"/> | 学习</ui-path> 。</p>
             <img src="通过主菜单打开学习工具窗口.png" alt="通过主菜单打开学习工具窗口" width="706" thumbnail="true"/>
         </step>
         <step>
@@ -51,11 +51,12 @@
     <procedure title="在课程和教程之间切换" id="switching-between-lessons-and-tutorials">
         <note>可只学习您认为最相关的教程和课程，也可以轻松跳过课程、切换教程或放弃课程。</note>
         <step>
-            <p>要转到下一课，请打开 <ui-path>学习</ui-path> 工具窗口，滚动到底部，然后单击 <format style="bold">下一个：&lt;课程名称&gt;</format> 或单击另一课链接。</p>
+            <p>转到下一课，请打开 <ui-path>学习</ui-path> 并滚至底部，然后单击 <format style="bold">下一个：&lt;课程名称&gt;</format> 或单击另一课链接。</p>
             <video src="https://www.youtube.com/watch?v=oz1J0lOpQU8" width="706"/>
         </step>
         <step>
-            <p>要切换至另一个教程而不丢失当前教程的进度，请单击 <ui-path>学习</ui-path> 工具窗口顶部的名称链接。然后单击您感兴趣的教程，并选择要完成的课程。</p>
+            <p>要切换至另一个教程而不丢失当前教程的进度，请单击 <ui-path>学习</ui-path> 顶部的名称链接。</p>
+            <p>然后单击您感兴趣的教程，并选择要完成的课程。</p>
             <video src="https://www.youtube.com/watch?v=iRP64ed02zc" width="706"/>
         </step>
         <note>如果您想要在不保存学习进度的情况下放弃教程，请单击 <ui-path>设置（ <shortcut>Ctrl</shortcut><shortcut>Alt</shortcut><shortcut>S</shortcut> ） | 工具 | IDE Features Trainer | 重置单元进度</ui-path> 。 单击 <control>确定</control> 后，您将返回到 <ui-path>学习</ui-path> 工具窗口，此时您的学习进度已被成功重置。</note>

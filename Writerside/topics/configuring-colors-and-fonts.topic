@@ -90,7 +90,7 @@
     </chapter>
     <chapter title="字体" id="fonts">
         <p>要自定义 <include from="reuse-library.topic" element-id="editor-snippet"/> 中使用的默认字体，请通过 <ui-path>设置（ <shortcut>Ctrl</shortcut><shortcut>Alt</shortcut><shortcut>S</shortcut> ） | <include from="reuse-library.topic" element-id="editor-snippet" /> | 字体</ui-path> 进行调整 。默认情况下，所有配色方案都使用并继承该字体，更多信息请参阅 <a href="settings-editor-font.topic" summary="">字体设置</a> 。</p>
-        <p>IntelliJ IDEA 可以使用操作系统中可用的任何字体。要在字体列表中添加其他字体，可将其安装到 <tooltip term="operating-system">操作系统</tooltip> 中或安装到用于运行 IntelliJ IDEA 的 <a href="switching-boot-jdk.topic" summary="">Java 运行时</a> 中。 </p>
+        <p>IntelliJ IDEA 可以使用操作系统中可用的任何字体。要在字体列表中添加其他字体，可将其安装到 <tooltip term="os">操作系统</tooltip> 中或安装到用于运行 IntelliJ IDEA 的 <a href="switching-boot-jdk.topic" summary="">Java 运行时</a> 中。 </p>
         <note>要配置 <a href="guided-tour-around-the-user-interface.topic"/> 元素（例如： <include from="reuse-library.topic" element-id="tool-window-snippet" /> 、 <a href="guided-tour-around-the-user-interface.topic" anchor="vcs-file-color" summary="">工具栏</a> 、<include from="reuse-library.topic" element-id="main-menus-snippet" /> ）使用的字体，请通过 <ui-path>设置（ <shortcut>Ctrl</shortcut><shortcut>Alt</shortcut><shortcut>S</shortcut> ） | 外观与行为 | 外观</ui-path> 进行调整。您可以通过 <ui-path>字体</ui-path> 列表选择字体，并通过 <ui-path>大小</ui-path> 指定字体大小。</note>
         <video src="https://www.youtube.com/watch?v=b7Pt1jbpe40" width="706"/>
         <procedure id="custom-cs-font" type="steps" title="自定义配色方案字体">

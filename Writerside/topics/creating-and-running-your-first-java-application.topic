@@ -24,7 +24,7 @@
                 <img alt="为项目命名以及更改默认存储位置" src="为项目命名以及更改默认存储位置.png" width="706" thumbnail="true"/>
             </step>
             <step>
-                本教程不涉及使用 <tooltip term="version-control">版本控制系统</tooltip> ，请您不要勾选 <ui-path>创建 Git 仓库</ui-path> 。
+                本教程不涉及使用 <tooltip term="vcs">版本控制系统</tooltip> ，请您不要勾选 <ui-path>创建 Git 仓库</ui-path> 。
                 <img alt="请勿勾选创建 Git 仓库选项" src="请勿勾选创建 Git 仓库选项.png" width="706" thumbnail="true"/>
             </step>
             <step>
@@ -101,10 +101,8 @@
                 <p>键入 <code>"</code> 。IntelliJ IDEA 将会自动插入第二个引号，然后键入 <code>Hello World!</code> 。</p>
                 <video src="https://www.youtube.com/watch?v=7Nn92ve7lao" width="706"/>
             </step>
-            <note>
-                <p>基本自动代码补全功能会分析当前字符输入位置周围的上下文，并在输入时提供建议。您可以按 <shortcut>Ctrl</shortcut><shortcut>Space</shortcut> 手动打开补全列表。 有关于其他类型的补全功能，请参阅 <a href="auto-completing-code.topic" /> 。</p>
-            </note>
-            <include from="reuse-library.topic" element-id="invalid-shortcut-key-prompt-snippet" />
+            <note>基本自动代码补全功能会分析当前字符输入位置周围的上下文，并在输入时提供建议。您可以按 <shortcut>Ctrl</shortcut><shortcut>Space</shortcut> 手动打开补全列表。 有关于其他类型的补全功能，请参阅 <a href="auto-completing-code.topic" /> 。</note>
+            <include from="reuse-library.topic" element-id="invalid-shortcut-key-prompt-snippet"/>
         </procedure>
         <procedure id="call-println-sout" title="使用实时模板调用 println() 方法" default-state="collapsed" collapsible="true" type="steps">
             <p>使用 <code>sout</code> <a href="using-live-templates.topic" summary=""/> 可以更快地调用 <code>println()</code> 方法。</p>
@@ -184,7 +182,7 @@
         </procedure>
         <procedure id="run-jar-run-config" title="执行 JAR 运行配置">
             <step>在 <include from="reuse-library.topic" element-id="navigation-bar-snippet" /> 上选择 <code>HelloWorldJar</code> 配置，然后单击运行配置选择器右侧的 <img src="运行.svg" alt="" /> 。</step>
-            <step>或者，您更喜欢快捷键，也可以按 <shortcut>Shift</shortcut><shortcut>F10</shortcut> 实现相同效果。</step>
+            <step>您也可以按 <shortcut>Shift</shortcut><shortcut>F10</shortcut> 实现相同效果。</step>
             <include from="reuse-library.topic" element-id="run-tool-windows-snippet" />  会打开并显示输出结果。如果进程已成功退出，则意味着应用程序已正确打包。
             <video src="https://www.youtube.com/watch?v=iuyrrTn0tFU" width="706"/>
         </procedure>

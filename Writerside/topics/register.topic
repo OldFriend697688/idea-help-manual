@@ -80,7 +80,7 @@
         <procedure title="配置与激活步骤" id="configuration-and-activation" default-state="collapsed" collapsible="true">
             <include from="reuse-library.topic" element-id="close-idea-prompt-information"/>
             <step>
-                <p>进入 <path>scripts</path> 文件夹中找到适用于当前 <tooltip term="operating-system">操作系统</tooltip> 的可执行脚本并运行它。</p>
+                <p>进入 <path>scripts</path> 文件夹中找到适用于当前 <tooltip term="os">操作系统</tooltip> 的可执行脚本并运行它。</p>
                 <img src="可用的激活脚本.png" alt="可用的激活脚本" width="706" thumbnail="true"/>
                 <note>对于 <tooltip term="windows">Windows</tooltip> 系统而言，请运行 <path>.vbs</path> 可执行脚本。&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;</note>
                 <note>对于 <tooltip term="macos">macOS</tooltip> 和 <tooltip term="linux">Linux</tooltip> 系统而言，请运行 <path>.sh</path> 可执行脚本。&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;</note>

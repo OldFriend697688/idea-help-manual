@@ -10,13 +10,13 @@
 
         <spotlight>
             <a href="register.topic" type="key" summary="注册 IntelliJ IDEA，摆脱试用限制，尽享高效开发。"/>
-            <a href="working-offline.topic" type="world" summary="借助离线模式，IntelliJ IDEA 让您随时随地都能高效开发，即使在没有网络的环境中也能保持工作效率。" />
+            <a href="working-offline.topic" type="world" summary="即使在没有网络的环境中 IntelliJ IDEA 的大部分功能也依旧可用。" />
         </spotlight>
 
         <primary>
             <title>快速开始</title>
             <a href="installation-guide.topic" summary="根据您的操作系统，选择合适的 IntelliJ IDEA 安装方式。">安装 IntelliJ IDEA</a>
-            <a href="installation-guide.topic" summary="为 IntelliJ IDEA 安装简体中文语言包，改善使用体验，降低学习门槛。" anchor="simplified-chinese-language" />
+            <a href="installation-guide.topic" summary="安装简体中文语言包，改善使用体验，降低学习门槛。" anchor="simplified-chinese-language" />
             <a href="user-interface-themes.topic" summary="安装个性化主题，告别单调的界面，打造专属的视觉体验。">主题</a>
             <a href="guided-tour-around-the-user-interface.topic" summary="掌握 IntelliJ IDEA 用户界面的主要构成，提高开发效率。"/>
             <a href="setting-background-image.topic" summary="用个性背景图美化您的 IntelliJ IDEA。"/>
@@ -27,7 +27,7 @@
             <title>高级知识</title>
             <a href="debugging-code.topic" summary="掌握代码调试技巧，高效解决程序中的异常和漏洞。">调试应用程序</a>
             <a href="managing-plugins.topic" summary="插件可以扩展 IntelliJ IDEA 的核心功能。">插件系统</a>
-            <a href="tests-in-ide.topic" summary="测试应用程序，旨在发现并解决潜在问题，确保其按照设计规格执行。">测试应用程序</a>
+            <a href="tests-in-ide.topic" summary="测试应用程序，发现并解决潜在问题，确保其按照预期执行。">测试应用程序</a>
             <a href="decompiler.topic" summary="使用 Java 字节码反编译器查看字节码文件的内容。">字节码反编译器</a>
         </secondary>
 

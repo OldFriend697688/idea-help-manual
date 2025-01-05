@@ -11,7 +11,7 @@
             <tab title="Windows" id="windows">
                 <list type="decimal">
                     <li>
-                        <p>在 <control>控制面板</control> 中打开 <ui-path>程序和功能</ui-path> 部分，选择 IntelliJ IDEA 应用程序并单击 <control>卸载</control> 。</p>
+                        <p>在 <control>控制面板</control> 中打开 <ui-path>程序和功能</ui-path> ，选择 IntelliJ IDEA 应用程序并单击 <control>卸载</control> 。</p>
                         <img alt="在 Windows 程序和面板中卸载 IntelliJ IDEA" src="在 Windows 程序和面板中卸载 IntelliJ IDEA（1）.png" width="706" thumbnail="true"/>
                         <img alt="在 Windows 程序和面板中卸载 IntelliJ IDEA" src="在 Windows 程序和面板中卸载 IntelliJ IDEA（2）.png" thumbnail="true" width="706"/>
                         <img alt="在 Windows 程序和面板中卸载 IntelliJ IDEA" src="在 Windows 程序和面板中卸载 IntelliJ IDEA（3）.png" thumbnail="true" width="706"/>

@@ -3,88 +3,108 @@
         SYSTEM "https://resources.jetbrains.com/writerside/1.0/xhtml-entities.dtd">
 <topic xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
        xsi:noNamespaceSchemaLocation="https://resources.jetbrains.com/writerside/1.0/topic.v2.xsd"
-       title="reuse-library" id="reuse-library">
-    <!-- 关闭 IntelliJ IDEA 提示 -->
-    <snippet id="close-idea-prompt-information">
+       title="reuse-library" id="reuse-library" is-library="true">
+    <!-- 执行卸载和配置激活补丁脚本前，请确保 IntelliJ IDEA 处于关闭状态 -->
+    <snippet id="close-idea-prompt-information-snippet">
         <warning>特别强调，在卸载和配置激活补丁脚本前，请确保 IntelliJ IDEA 处于关闭状态。</warning>
     </snippet>
+
     <!-- 快捷键优先级未定义提示-->
     <snippet id="shortcut-key-priority-tips-snippet">
         <warning>您可以忽略冲突并为多个操作分配相同快捷键。但是，建议您避免使用相同的快捷键绑定两个操作，因为这些操作的优先级并未定义。</warning>
         <video src="https://www.youtube.com/watch?v=wRKNspj_-dU" width="706"/>
     </snippet>
+
     <!-- 查找工具窗口 -->
     <snippet id="find-tool-window-snippet">
         <a href="find-tool-window.topic" summary=""/>
     </snippet>
+
     <!-- Maven 工具窗口 -->
     <snippet id="maven-tool-windows-snippet">
         <a href="maven-projects-tool-window.topic" summary=""/>
     </snippet>
+
     <!-- Gradle 工具窗口 -->
     <snippet id="gradle-tool-windows-snippet">
         <a href="jetgradle-tool-window.topic" summary=""/>
     </snippet>
+
     <!-- DSM 工具窗口 -->
     <snippet id="dsm-tool-window-snippet">
         <a href="dsm-analysis.topic" anchor="dsm-tool-window" summary=""/>
     </snippet>
+
     <!-- 调试（Debug）工具窗口 -->
     <snippet id="debug-tool-window-snippet">
         <a href="debug-tool-window.topic" summary=""/>
     </snippet>
+
     <!-- 通知工具窗口 -->
     <snippet id="notifications-tool-windows-snippet">
         <a href="notifications.topic" anchor="notifications-tool-window" summary=""/>
     </snippet>
+
     <!-- 项目工具窗口 -->
     <snippet id="project-tool-window-snippet">
         <a href="project-tool-window.topic" summary=""/>
     </snippet>
+
     <!-- 运行工具窗口 -->
     <snippet id="run-tool-windows-snippet">
         <a href="run-tool-window.topic" summary=""/>
     </snippet>
+
     <!-- 工具窗口 -->
     <snippet id="tool-window-snippet">
         <a href="tool-window.topic" summary=""/>
     </snippet>
+
     <!-- 主窗口 -->
     <snippet id="main-windows-snippet">
         <a href="guided-tour-around-the-user-interface.topic" anchor="main-windows" summary=""/>
     </snippet>
+
     <!-- 状态栏 -->
     <snippet id="status-bar-snippet">
         <a href="guided-tour-around-the-user-interface.topic" anchor="status-bar" summary=""/>
     </snippet>
+
     <!-- 主工具栏 -->
     <snippet id="main-toolbar-snippet">
         <a href="guided-tour-around-the-user-interface.topic" anchor="vcs-file-color" summary="">主工具栏</a>
     </snippet>
+
     <!-- 导航栏 -->
     <snippet id="navigation-bar-snippet">
         <a href="guided-tour-around-the-user-interface.topic" anchor="navigation-bar" summary=""/>
     </snippet>
+
     <!-- 主菜单 -->
     <snippet id="main-menus-snippet">
-        <a anchor="main-menus" instance="hi" href="guided-tour-around-the-user-interface.topic" summary=""/>
+        <a anchor="main-menus" href="guided-tour-around-the-user-interface.topic" summary=""/>
     </snippet>
+
     <!-- 编辑器 -->
     <snippet id="editor-snippet">
         <a anchor="editor" href="guided-tour-around-the-user-interface.topic" summary=""/>
     </snippet>
+
     <!-- 上下文菜单 -->
     <snippet id="context-menus-snippet">
         <a anchor="context-menus" href="guided-tour-around-the-user-interface.topic" summary="" />
     </snippet>
+
     <!-- 关闭中文输入法确保正常触发代码补全功能的提示 -->
     <snippet id="invalid-shortcut-key-prompt-snippet">
         <note>如果发现无法通过 <a href="mastering-keyboard-shortcuts.topic" summary=""/> 触发代码补全，请关闭中文输入法后再按对应的快捷键。&nbsp;&nbsp;&nbsp;</note>
     </snippet>
+
     <!-- 插件过多时影响 IntelliJ IDEA 性能的提示 -->
     <snippet id="plugins-install-tips-snippet">
         <warning>安装过多的插件可能会影响到 IntelliJ IDEA 的整体性能。&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;</warning>
     </snippet>
+
     <!-- 从 Toolbox App 登录 JetBrains 帐户将自动激活 IntelliJ IDEA 的提示 -->
     <snippet id="toolbox-login-tips-snippet">
         <note>从 Toolbox App 登录 JetBrains 帐户，它将自动激活安装的任何 <tooltip term="ide">IDE</tooltip> 的可用许可证。</note>
@@ -93,8 +113,8 @@
     <!-- 独立安装（手动安装）时的提示 -->
     <snippet id="standalone-tips-snippet">
         <p>首次运行 IntelliJ IDEA 时，您可以自定义 <tooltip term="idea">IDEA</tooltip> 实例并开始使用它。</p>
-        <p>如需要了解更多信息，请参阅 <a instance="hi" href="run-for-the-first-time.topic" summary="">首次运行 IntelliJ IDEA</a> 。</p>
-        <p>有关默认 IDE 文件夹（包含用户特定文件）位置的信息，请参阅 <a instance="hi" href="directories-used-by-the-ide-to-store-settings-caches-plugins-and-logs.topic" summary=""/> 。</p>
+        <p>如需要了解更多信息，请参阅 <a href="run-for-the-first-time.topic" summary="">首次运行 IntelliJ IDEA</a> 。</p>
+        <p>有关默认 IDE 文件夹（包含用户特定文件）位置的信息，请参阅 <a href="directories-used-by-the-ide-to-store-settings-caches-plugins-and-logs.topic" summary=""/> 。</p>
     </snippet>
 
     <!-- 独立安装和运行提示 -->
@@ -108,7 +128,7 @@
     <!-- 配置自定义快速列表 -->
     <snippet id="configure-quick-lists-snippet">
         <chapter id="configure-quick-lists" title="自定义快速列表">
-            <p>快速列表是一个 <a instance="hi" anchor="popup-menus" href="guided-tour-around-the-user-interface.topic" summary=""/> ，其中包含一组自定义的 IntelliJ IDEA 操作。您可以将其视为自定义菜单或工具栏，并且可以为其指定 <a href="mastering-keyboard-shortcuts.topic" summary=""/> 以便快速访问。</p>
+            <p>快速列表是一个 <a anchor="popup-menus" href="guided-tour-around-the-user-interface.topic" summary=""/> ，其中包含一组自定义的 IntelliJ IDEA 操作。您可以将其视为自定义菜单或工具栏，并且可以为其指定 <a href="mastering-keyboard-shortcuts.topic" summary=""/> 以便快速访问。</p>
             <p>您可根据需要创建任意多个快速列表。快速列表中的每个操作都由从 0 到 9 的数字来标识。</p>
             <p>IntelliJ IDEA 中已有许多预设的快速列表，但请注意它们不可以被重新配置，例如：</p>
             <list>
@@ -145,7 +165,7 @@
         </chapter>
     </snippet>
 
-    <!-- 反转布尔值 -->
+    <!-- 反转布尔值重构 -->
     <snippet id="invert-boolean-refactoring-snippet">
         <p>反转布尔值重构是一种能够将布尔方法或变量的含义变更为相反含义的功能。</p>
         <procedure title="操作步骤" id="operation-steps" type="steps">
@@ -211,7 +231,7 @@
                 <list>
                     <li>
                         <p><format style="italic" color="BurlyWood">从头开始创建新的模板</format></p>
-                        <p>可以从模板列表中选择 <format style="bold">草稿模板</format> ，然后在模板的编辑区域中，键入代码模板（注： 使用 <code>$variable$</code> 表示模板中的查找变量），在的工具栏中单击 <img src="保存.svg" alt=""/> 以供将来重复使用。同时，如果需要可以将它保存为 <a instance="hi" href="inspections-settings.topic" summary=""/> 。</p>
+                        <p>可以从模板列表中选择 <format style="bold">草稿模板</format> ，然后在模板的编辑区域中，键入代码模板（注： 使用 <code>$variable$</code> 表示模板中的查找变量），在的工具栏中单击 <img src="保存.svg" alt=""/> 以供将来重复使用。同时，如果需要可以将它保存为 <a href="inspections-settings.topic" summary=""/> 。</p>
                         <img src="结构搜索对话框.png" alt="结构搜索对话框" width="706" thumbnail="true"/>
                         <p>IntelliJ IDEA 会将创建以及使用过的模板添加至 <format style="bold">最近</format> 节点中。</p>
                         <img src="结构搜索对话框中最近添加的模板.png" alt="结构搜索对话框中最近添加的模板" width="706" thumbnail="true"/>

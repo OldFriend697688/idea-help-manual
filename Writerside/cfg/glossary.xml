@@ -57,6 +57,7 @@
    <term name="idea-context">上下文是与变更列表相关联的一组已打开文件。</term>
    <term name="java-artifact">构建好的 Java 归档（*.jar）称为 Artifact（工件）。</term>
    <term name="applications">Applications 文件夹是 macOS 系统中所有应用程序的默认存放位置。</term>
+   <term name="viewport">视口，简单来说就是显示页面内容的屏幕区域。它就像是一扇窗口，通过这扇窗口，我们能看到网页的内容。</term>
    <term name="code-formatting">代码格式化是指按照特定的规则对代码进行排版，使其结构清晰、层次分明，从而提高代码的可读性、可维护性。</term>
    <term name="identifier">在编程语言中，标识符（Identifier）就像给事物起名字一样，用于标识程序中的各种元素，例如：变量、函数、类、模块等等。</term>
    <term name="idea-code-automatic-prompt">IntelliJ IDEA 的代码智能提示功能是一个非常实用的特性，它可以在您编写代码时提供实时的辅助和提示。</term>

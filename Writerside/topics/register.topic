@@ -78,7 +78,7 @@
             </step>
         </procedure>
         <procedure title="配置与激活步骤" id="configuration-and-activation" default-state="collapsed" collapsible="true">
-            <include from="reuse-library.topic" element-id="close-idea-prompt-information"/>
+            <include from="reuse-library.topic" element-id="close-idea-prompt-information-snippet"/>
             <step>
                 <p>进入 <path>scripts</path> 文件夹中找到适用于当前 <tooltip term="os">操作系统</tooltip> 的可执行脚本并运行它。</p>
                 <img src="可用的激活脚本.png" alt="可用的激活脚本" width="706" thumbnail="true"/>
@@ -104,7 +104,7 @@
             </step>
         </procedure>
         <procedure title="卸载破解激活脚本" id="uninstall-crack-activation-script" default-state="collapsed" collapsible="true">
-            <include from="reuse-library.topic" element-id="close-idea-prompt-information" />
+            <include from="reuse-library.topic" element-id="close-idea-prompt-information-snippet" />
             <step>
                 <p>进入 <path>scripts</path> 文件夹中找到适用于当前操作系统的可执行卸载脚本并运行它。</p>
                 <note>

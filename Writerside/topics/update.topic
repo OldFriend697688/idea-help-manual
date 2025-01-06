@@ -61,7 +61,7 @@
                 <table column-width="auto" border="true">
                     <tr>
                         <td>选项</td>
-                        <td>用途</td>
+                        <td>用途描述</td>
                     </tr>
                     <tr>
                         <td>为之检查 IDE 更新</td>

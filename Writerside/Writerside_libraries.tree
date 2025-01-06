@@ -2,9 +2,7 @@
 <!DOCTYPE instance-profile
         SYSTEM "https://resources.jetbrains.com/writerside/1.0/product-profile.dtd">
 
-<instance-profile id="lib"
-                  name="lib"
-                  start-page="reuse-library.topic" is-library="true">
-
+<instance-profile id="Writerside_libraries"
+                  name="Writerside_libraries" is-library="true">
     <toc-element topic="reuse-library.topic"/>
 </instance-profile>

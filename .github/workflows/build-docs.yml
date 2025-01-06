@@ -11,7 +11,7 @@ permissions:
 
 env:
   INSTANCE: 'Writerside/hi'
-  DOCKER_VERSION: '243.21565'
+  DOCKER_VERSION: '243.22562'
   ALGOLIA_APP_NAME: 'TWGIU9062V'
   ALGOLIA_INDEX_NAME: 'help-manual-index'
   CONFIG_JSON_PRODUCT: 'HI'

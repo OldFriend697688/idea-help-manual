@@ -8,7 +8,7 @@
     <p>IntelliJ IDEA 现主要提供以下版本：</p>
     <list>
         <li><format style="bold">社区版</format> 免费且开源，采用 <a href="https://zh.wikipedia.org/zh-hans/Apache许可证">Apache 2.0 许可证</a> 。它提供用于 <tooltip term="jvm">JVM</tooltip> 和 <tooltip term="android">Android</tooltip> 开发的基本功能。</li>
-        <li><format style="bold">旗舰版</format> 是商业软件， <format style="italic" >仅提供 30 天免费试用</format> 。它为 Web 和企业开发提供了额外的工具和功能。</li>
+        <li><format style="bold">旗舰版</format> 是商业软件， <format style="italic" color="Crimson">仅提供 30 天免费试用</format> 。它为 Web 和企业开发提供了额外的工具和功能。</li>
     </list>
     <p>有关旗舰版和社区版之间的具体差异，请参阅 <a href="https://www.jetbrains.com/zh-cn/products/compare/?product=idea&amp;product=idea-ce">IntelliJ IDEA 的版本比较矩阵</a> 。</p>
     <chapter id="requirements" title="系统要求">
@@ -55,13 +55,13 @@
                 <td>注意事项</td>
                 <td colspan="2">
                     <note>您无需安装 <a href="https://www.oracle.com/java/technologies/javase-downloads.html" summary="Java 是一种广泛使用的、面向对象的编程语言，由 Sun Microsystems 公司（现已被 Oracle 公司收购）于 1995 年推出。它设计用来有一个最小的实现依赖，易于理解，并且能够一次编写，到处运行。Java 广泛应用于企业级应用、移动应用（尤其是 Android）以及云计算中。">Java</a> 即可运行 IntelliJ IDEA，这是因为 <tooltip term="jetbrains runtime">JetBrains Runtime</tooltip> 已与 <tooltip term="ide">IDE</tooltip> （基于 <tooltip term="jre">JRE</tooltip> 17）捆绑在一起。但是，要开发 Java 应用程序，则需要独立的 <a href="https://www.oracle.com/cn/java/technologies/downloads/">JDK</a> 。</note>
-                    <warning>较旧的 Linux 发行版（Ubuntu 18.04 和 <a href="https://www.centos.org/">CentOS</a> 8 之前）不支持 IntelliJ IDEA 2022.1 版本及以上所需的 <a href="https://github.com/JetBrains/jcef">JCEF</a> 版本。这意味着依赖嵌入式浏览器的组件将无法工作，例如 <a href="https://www.jetbrains.com/help/idea/2022.3/markdown.html#preview">Markdown HTML 预览</a> 和 <a href="https://www.jetbrains.com/help/idea/2022.3/interactive-debugger-console.html">交互式调试控制台</a> 。</warning>
+                    <warning>较旧的 Linux 发行版（Ubuntu 18.04 和 <a href="https://www.centos.org/">CentOS</a> 8 之前）不支持 IntelliJ IDEA 2022.1 版本及以上所需的 <a href="https://github.com/JetBrains/jcef">JCEF</a> 版本。这意味着依赖嵌入式浏览器的组件将无法工作，例如： <a href="https://www.jetbrains.com/help/idea/2022.3/markdown.html#preview">Markdown HTML 预览</a> 和 <a href="https://www.jetbrains.com/help/idea/2022.3/interactive-debugger-console.html">交互式调试控制台</a> 。</warning>
                 </td>
             </tr>
         </table>
     </chapter>
     <chapter id="standalone" title="独立安装">
-        <p>您可以手动安装并管理每个 IntelliJ IDEA 实例以及所有配置文件的位置。</p>
+        <p>您可以手动安装并管理每个 IntelliJ IDEA 实例以及配置文件的位置。</p>
         <tabs>
             <tab title="Windows" id="windows">
                 <procedure id="windows-standalone-installation-steps">
@@ -77,13 +77,16 @@
                         <list>
                             <li>为 IntelliJ IDEA 创建 <tooltip term="desktop-shortcut">桌面快捷方式</tooltip> 。</li>
                             <li>将含有 <a href="working-with-the-ide-features-from-command-line.topic" summary="">命令行启动器</a> 的文件夹添加至 <code>PATH</code> 环境变量，以便能够从 <tooltip term="cmd">命令提示符</tooltip> 中的任意工作目录中运行它们。</li>
-                            <li>把 <format style="bold">将文件夹作为项目打开</format> 操作添加至系统上下文菜单中（鼠标右键单击文件夹时）。</li>
+                            <li>把 <ui-path>将文件夹作为项目打开</ui-path> 操作添加至系统上下文菜单中（鼠标右键单击文件夹时）。</li>
                             <li>将特定 <tooltip term="file-extension">文件扩展名</tooltip> 类型的文件与 IntelliJ IDEA 关联，以便双击后在 <tooltip term="idea">IDEA</tooltip> 中打开它们。</li>
                         </list>
                         <img src="IntelliJ IDEA 安装时的可配置选项.png" alt="IntelliJ IDEA 安装时的可配置选项" width="706" thumbnail="true"/>
                     </step>
                     <video src="https://www.youtube.com/watch?v=kRU2ypcvTfk" width="706"/>
-                    <note>要运行 IntelliJ IDEA，请在 Windows <ui-path>开始</ui-path> 菜单中找到它，或者双击桌面快捷方式。您也可以在安装文件夹下的 <path>bin</path> 文件夹中运行启动器批处理脚本（ <path>idea.bat</path> ）或可执行文件（ <path>idea64.exe</path> ）。</note>
+                    <note>
+                        <p>要运行 IntelliJ IDEA，请在 Windows <ui-path>开始</ui-path> 菜单中找到它，或者双击桌面快捷方式。</p>
+                        <p>您也可以在安装文件夹下的 <path>bin</path> 文件夹中运行启动器批处理脚本（ <path>idea.bat</path> ）或可执行文件（ <path>idea64.exe</path> ）。</p>
+                    </note>
                 </procedure>
                 <include from="reuse-library.topic" element-id="standalone-tips-snippet"/>
             </tab>
@@ -119,7 +122,7 @@
                 <p>要创建 <tooltip term="desktop-shortcut">桌面快捷方式</tooltip> ，请执行以下操作之一：</p>
                 <list>
                     <li>在 <format style="bold">欢迎界面</format> 上，单击 <ui-path>配置 | 创建桌面快捷方式</ui-path> 。</li>
-                    <li>在 <include from="reuse-library.topic" element-id="main-menus-snippet"/> 中单击 <ui-path>工具 | 创建桌面快捷方式</ui-path> 。</li>
+                    <li>选择 <ui-path> <include from="reuse-library.topic" element-id="main-menus-snippet"/> | 工具 | 创建桌面快捷方式</ui-path> 。</li>
                 </list>
                 <include from="reuse-library.topic" element-id="standalone-tips-snippet"/>
             </tab>
@@ -142,7 +145,7 @@
         <note>通过使用 Toolbox App 安装、管理、更新及卸载 JetBrains IDEs 并非是强制性的。 &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;</note>
         <note>若安装 Toolbox App 之前安装过任何 JetBrains IDEs，则它将会自动开始管理这些 <tooltip term="ide">IDE</tooltip> 。</note>
         <a href="https://www.jetbrains.com/zh-cn/toolbox-app/">JetBrains Toolbox App</a> 是安装 JetBrains 产品的推荐工具。您可以使用它来安装和管理不同产品或同一产品的多个版本，包括 <a href="https://www.jetbrains.com/community/eap/">早期访问计划（EAP）</a> ，必要时可进行更新和回滚，并轻松删除这些产品。它维护所有项目的列表，以便快速在正确的 <tooltip term="ide">IDE</tooltip> 和版本中打开这些项目。
-        <img src="JetBrains Toolbox App 中文官网首页.png" alt="JetBrains Toolbox App 中文官网首页" width="706" thumbnail="true"/>
+        <img src="JetBrains Toolbox App 中文官网首页.png" alt="JetBrains Toolbox App 中文官网首页" width="706" thumbnail="true" border-effect="line"/>
         <tabs>
             <tab title="Windows">
                 <procedure title="安装 Toolbox App">
@@ -156,7 +159,7 @@
                     <include from="reuse-library.topic" element-id="toolbox-login-tips-snippet"/>
                     <warning>因软件更新迭代较快，现 Toolbox App 已不支持下载 IntelliJ IDEA 2022.3.3 版本。&nbsp;&nbsp;</warning>
                     <video src="https://www.youtube.com/watch?v=jNRMf4Bltco" width="706"/>
-                    <note>如果临时改变注意不想继续使用 Toolbox App，请参考如下视频卸载 Toolbox App。</note>
+                    <note>如果临时改变主意不想继续使用 Toolbox App，请参考如下视频卸载 Toolbox App。</note>
                     <video src="https://www.youtube.com/watch?v=FpcWwcAeulE" width="706"/>
                 </procedure>
             </tab>
@@ -164,7 +167,7 @@
                 <procedure title="安装 Toolbox App">
                     <step>从 <a href="https://www.jetbrains.com/zh-cn/toolbox-app/">官网</a> 下载 <path>.tar.gz</path> 压缩包。</step>
                     <step>
-                        <p>将 tar 包解压到支持文件执行的文件夹。</p>
+                        <p>将 <tooltip term="tarball">tar 包</tooltip> 解压到支持文件执行的文件夹。</p>
                         <p>例如：如果下载的版本是 1.17.7391，可以使用以下命令将其解压到推荐的 <path>/opt</path> 文件夹。</p>
                         <code-block lang="shell" prompt="$">sudo tar -xzf jetbrains-toolbox-1.17.7391.tar.gz -C /opt</code-block>
                     </step>
@@ -194,7 +197,7 @@
                 </procedure>
             </tab>
         </tabs>
-        <note>您可以通过 Toolbox App 找到 IntelliJ IDEA 的安装文件夹，打开 <tooltip term="ide">IDE</tooltip> 实例的 <ui-path>设置</ui-path> 页面，然后找到 <ui-path>安装位置</ui-path> 。</note>
+        <note>您可以通过 Toolbox App 找到 IntelliJ IDEA 的安装文件夹，为此请打开 <tooltip term="ide">IDE</tooltip> 实例的 <ui-path>设置</ui-path> 页面，然后找到 <ui-path>安装位置</ui-path> 。</note>
         <video src="https://www.youtube.com/watch?v=3udJjW6EYUA" width="706"/>
     </chapter>
     <chapter id="snap" title="在 Linux 上安装为 Snap 包">
@@ -281,8 +284,6 @@
         </procedure>
     </chapter>
     <seealso>
-        <include from="reuse-library.topic" element-id="ides-snippet"/>
-        <include from="reuse-library.topic" element-id="core-references-snippet"/>
-        <include from="reuse-library.topic" element-id="programming-language-snippet"/>
+        <include from="reuse-library.topic" element-id="list-of-suggested-seealso-snippet"/>
     </seealso>
 </topic>

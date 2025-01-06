@@ -4,7 +4,6 @@
 <topic xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
        xsi:noNamespaceSchemaLocation="https://resources.jetbrains.com/writerside/1.0/topic.v2.xsd"
        title="离线工作" id="working-offline">
-    <note>如果您在离线环境中使用 IntelliJ IDEA，则您务必要注意一些有关的事项。&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;</note>
     <chapter id="updates" title="更新">
         <warning>如果无法访问网络，就无法使用 <a href="installation-guide.topic" anchor="toolbox" summary="">Toolbox App</a> 和 <a href="installation-guide.topic" anchor="snap" summary="">Snap</a> 安装 IntelliJ IDEA。&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;</warning>
         <p>默认情况下，IntelliJ IDEA 被配置为自动检查更新，并在新版本可用时通知您。</p>
@@ -28,7 +27,7 @@
         <p>有些代码检查会验证外部资源。例如：不存在的网络资源检查会突出显示 <tooltip term="dead-link">死链接</tooltip> 。如果无法访问互联网，这些检查将不起作用，死链接也不会突出显示。更多相关信息，请参阅 <a href="code-inspection.topic" summary=""/> 。</p>
     </chapter>
     <chapter id="external-docs" title="外部文档">
-        <p>外部文档可以在浏览器中打开必要的信息，这样您就可以浏览相关内容，同时保存信息以备进一步参考。但是，如果没有互联网连接，则无法访问在线文档。在这种情况下，您可以下载外部文档并通过 <a href="viewing-reference-information.topic" anchor="inline-quick-documentation" /> 打开。</p>
+        <p>外部文档可以在浏览器中打开必要的信息，这样您就可以浏览相关内容，同时保存信息以备进一步参考。但是，如果没有互联网连接，则无法访问在线文档。在这种情况下，您可以下载外部文档并通过 <a href="viewing-reference-information.topic" anchor="inline-quick-documentation"/> 打开。</p>
         <include from="reuse-library.topic" element-id="sdk-open-offline-snippet"/>
         <include from="reuse-library.topic" element-id="library-open-offline-snippet"/>
         <p>下载并配置好文档后，将鼠标悬停在 <include from="reuse-library.topic" element-id="editor-snippet" /> 中的 <tooltip term="symbol">符号</tooltip> 上，然后按 <shortcut>Ctrl</shortcut><shortcut>Q</shortcut> 即可触发离线文档。</p>
@@ -68,8 +67,6 @@
         </procedure>
     </chapter>
     <seealso>
-        <include from="reuse-library.topic" element-id="ides-snippet"/>
-        <include from="reuse-library.topic" element-id="core-references-snippet"/>
-        <include from="reuse-library.topic" element-id="programming-language-snippet"/>
+        <include from="reuse-library.topic" element-id="list-of-suggested-seealso-snippet"/>
     </seealso>
 </topic>

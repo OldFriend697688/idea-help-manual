@@ -10,8 +10,8 @@
     <note>您可以免费试用 IntelliJ IDEA Ultimate（旗舰版）至多 <format style="bold">30</format> 天。当安装 <tooltip term="ide">IDE</tooltip> 后，请登录您的 <a href="https://account.jetbrains.com/login">JetBrains 帐户</a> 以便开始试用 IntelliJ IDEA Ultimate。</note>
     <tip>
         <list>
-            <li>如果您使用 <a href="https://www.jetbrains.com.cn/toolbox-app/">Toolbox</a> 安装 JetBrains 产品，并且已登录您的 JetBrains 帐户，IntelliJ IDEA 将会自动登录您的 JetBrains 帐户。</li>
-            <li>如果您使用 JetBrains 账户的双因素身份验证，您可以指定生成的应用密码，而不是主要的 JetBrains 账户密码。</li>
+            <li>如果您使用 <a href="https://www.jetbrains.com.cn/toolbox-app/">Toolbox</a> 安装 JetBrains 产品，并在其中已登录您的 JetBrains 帐户，则 IntelliJ IDEA 将会自动登录您的 JetBrains 帐户。</li>
+            <li>如果您使用 JetBrains 账户的双因素身份验证功能，您可以指定生成的应用密码，而不是主要的 JetBrains 账户密码。</li>
         </list>
     </tip>
     <procedure title="开始免费试用" id="start-trial" type="choices">
@@ -19,10 +19,10 @@
         <step>
             <p>启动 IntelliJ IDEA 时将会弹出 <control>许可证</control> ，请勾选 <ui-path>开始试用</ui-path> 。</p>
             <img src="开始试用（1）.png" alt="开始试用" thumbnail="true" width="706"/>
-            <img src="登录 JetBrains 账号（1）.png" alt="登录 JetBrains 账号" width="706" thumbnail="true"/>
         </step>
         <step>
             <p>登录在 JetBrains 网站上的帐户，然后在 <control>许可证</control> 中单击 <control>开始试用</control> 。</p>
+            <img src="登录 JetBrains 账号（1）.png" alt="登录 JetBrains 账号" width="706" thumbnail="true"/>
             <img src="登录 JetBrains 账号（2）.png" alt="登录 JetBrains 账号" width="706" thumbnail="true"/>
             <img src="登录 JetBrains 账号（3）.png" alt="登录 JetBrains 账号" width="706" thumbnail="true"/>
             <img src="开始试用（2）.png" alt="开始试用" width="706" thumbnail="true"/>
@@ -31,12 +31,12 @@
         <img src="试用期已到期提示.png" alt="试用期已过期" width="706" thumbnail="true"/>
     </procedure>
     <note>试用版到期后，您需要购买并注册许可证才能继续使用 IntelliJ IDEA Ultimate。&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;</note>
-    <note><a href="https://www.jetbrains.com/idea/download/other.html">IntelliJ IDEA Community Edition（社区版）</a> 和 <a href="https://www.jetbrains.com/edu-products/download/#section=idea">IntelliJ IDEA Edu（教育版）</a> 无需任何许可证即可 <format style="bold">免费</format> 使用。但您不能将它们直接升级至 IntelliJ IDEA Ultimate（旗舰版），如果您需要使用它，请按照 <a href="installation-guide.topic" anchor="standalone" summary=""/> 中的说明单独下载并安装它。</note>
+    <note><a href="https://www.jetbrains.com/idea/download/other.html">IntelliJ IDEA Community Edition（社区版）</a> 和 <a href="https://www.jetbrains.com/edu-products/download/#section=idea">IntelliJ IDEA Edu（教育版）</a> 无需任何许可证即可 <format style="bold">免费</format> 使用。但您不能将它们直接升级至 IntelliJ IDEA Ultimate（旗舰版），如果您需要使用旗舰版，请按照 <a href="installation-guide.topic" anchor="standalone" summary=""/> 中的说明单独下载并安装它。</note>
     <procedure title="激活 IntelliJ IDEA" id="activate-license" type="steps">
         <step>
             <p>执行以下操作之一打开 <control>许可证</control> ：</p>
             <list>
-                <li>从 <include from="reuse-library.topic" element-id="main-menus-snippet" /> 中选择 <ui-path>帮助 | 注册</ui-path> 。</li>
+                <li>选择 <ui-path><include from="reuse-library.topic" element-id="main-menus-snippet" /> | 帮助 | 注册</ui-path> 。</li>
                 <li>
                     <p>在 <control>欢迎界面</control> ，单击 <ui-path>帮助 | 管理许可证</ui-path> 。</p>
                     <img src="管理许可证.gif" alt="管理许可证" thumbnail="true" width="706"/>
@@ -47,7 +47,7 @@
         <step>
             <p>选择激活 IntelliJ IDEA 许可证的方式：</p>
             <tabs>
-                <tab title="JetBrains 账户（不推荐）" id="jb-account">
+                <tab title="JetBrains 账户（不建议）" id="jb-account">
                     <p>使用 <a href="https://account.jetbrains.com/login">JetBrains 帐户</a> 注册。</p>
                     <img src="使用 JetBrains 账号注册 IDEA.png" alt="使用 JetBrains 账号注册 IDEA" width="706" thumbnail="true"/>
                     <note>IntelliJ IDEA 将自动显示许可证列表及其详细信息，例如到期日期。单击 <control>Activate（激活）</control> 开始使用许可证。 如果列表中未显示您的许可证，请单击 <control>Refresh license list（刷新许可证列表）</control> 。</note>
@@ -56,25 +56,25 @@
                     <p>使用激活码注册。购买相应产品的许可证时，您可以获得激活码。</p>
                     <img src="使用激活码注册 IDEA.png" alt="使用激活码注册 IDEA" width="706" thumbnail="true"/>
                 </tab>
-                <tab title="许可证服务器（不推荐）" id="license-server">
+                <tab title="许可证服务器（不建议）" id="license-server">
                     <p>使用 <a href="https://www.jetbrains.com/license-server/">许可证服务器</a> 注册。</p>
                     <img src="使用许可服务器激活 IDEA.png" alt="使用许可服务器激活 IDEA" width="706" thumbnail="true"/>
                 </tab>
             </tabs>
         </step>
     </procedure>
-    <!-- 非官方正版途径激活 IntelliJ IDEA，仅用于学习交流用途，切勿用于实际项目开发。-->
+    <!-- 非官方正版途径激活 IntelliJ IDEA，仅用于学习交流用途，切勿将此方法激活后的 IDE 用于实际项目开发中。-->
     <chapter id="crack-activation" title="使用破解激活脚本激活">
-        <primary-label ref="CrackScript" />
+        <primary-label ref="CrackScript"/>
         <warning>以下所述的激活方法仅供学术探讨与知识交流之用。在此郑重提醒，一旦您通过此方式激活了 IntelliJ IDEA，务必不得将其应用于任何形式的商业项目或个人开发工作中。若因忽视此警告，导致软件使用不当，从而引发的经济损失、法律纠纷或商业信誉损害，本人将概不负责。</warning>
         <procedure title="下载破解激活脚本" id="download-hacker-script" default-state="collapsed" collapsible="true">
             <step>
-                <p><a href="https://3.jetbra.in/">单击此处</a> 获取激活补丁脚本。</p>
+                <p><a href="https://3.jetbra.in/">单击此处获取激活补丁脚本</a> 。</p>
                 <img src="访问 JetBrains 破解激活脚本发布页.png" alt="访问 JetBrains 破解激活脚本发布页" width="706" thumbnail="true"/>
             </step>
             <step>
                 <p>单击 <format color="#5380f7" style="bold">jetbra.zip</format> 蓝色文本，开始下载激活补丁并妥善保存。</p>
-                <img src="单击 jetbra.zip 蓝色文本开始下载破解激活脚本.png" alt="单击 jetbra.zip 蓝色文本开始下载破解激活脚本" width="706" thumbnail="true"/>
+                <img src="下载破解激活脚本.png" alt="下载破解激活脚本" width="706" thumbnail="true"/>
             </step>
         </procedure>
         <procedure title="配置与激活步骤" id="configuration-and-activation" default-state="collapsed" collapsible="true">
@@ -129,7 +129,7 @@
         <p>如果想要解除 IntelliJ IDEA 的激活状态，您可以通过单击 <control>移除许可证</control> 实现。</p>
         <p>您可以通过以下几种方式找到 <control>移除许可证</control> ：</p>
         <list>
-            <li>从 <include from="reuse-library.topic" element-id="main-menus-snippet" /> 中选择 <ui-path>帮助 | 注册</ui-path> ，然后找到 <control>移除许可证</control> 。</li>
+            <li>选择 <ui-path><include from="reuse-library.topic" element-id="main-menus-snippet" />  | 帮助 | 注册</ui-path> ，然后找到 <control>移除许可证</control> 。</li>
             <li>在 <format style="bold">欢迎界面</format> 中单击 <ui-path>帮助 | 管理许可证</ui-path> ，然后找到 <control>移除许可证</control> 。 <img src="移除许可证.png" alt="移除许可证" thumbnail="true" width="706"/></li>
             <li>
                 <p>在 <control>操作（ <shortcut>Ctrl</shortcut><shortcut>Shift</shortcut><shortcut>A</shortcut> ）</control> 中键入 <ui-path>注册</ui-path> 并按 <shortcut>Enter</shortcut> 然后在 <control>许可证</control> 中找到 <control>移除许可证</control> 。</p>

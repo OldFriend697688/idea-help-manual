@@ -12,10 +12,10 @@
         <step>
             从 <control>主题</control> 下拉列表中选择一个主题：
             <list>
-                <li><format style="bold">IntelliJ Light</format> : 基于 IntelliJ 的 IDE 的传统亮色主题。</li>
-                <li><format style="bold">macOS Light or Windows 10 Light</format> : 作为捆绑插件提供的操作系统特定亮色主题。</li>
-                <li><format style="bold">Darcula</format> ：默认深色主题。</li>
-                <li><format style="bold">High contrast</format> ：为色盲用户设计的主题。</li>
+                <li><ui-path>IntelliJ Light</ui-path> : 基于 IntelliJ 的 IDE 的传统亮色主题。</li>
+                <li><ui-path>macOS Light or Windows 10 Light</ui-path> : 作为捆绑插件提供的操作系统特定亮色主题。</li>
+                <li><ui-path>Darcula</ui-path> ：默认深色主题。</li>
+                <li><ui-path>High contrast</ui-path> ：为色盲用户设计的主题。</li>
             </list>
             <img alt="通过主题下拉列表切换主题" src="通过主题下拉列表切换主题.png" width="706" thumbnail="true"/>
             <note>选择 <control>与操作系统同步</control> ，可以让 IntelliJ IDEA 检测当前系统设置，并相应地使用默认的深色或浅色主题。</note>

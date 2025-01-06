@@ -16,10 +16,10 @@
             <p>使用 <ui-path>方案</ui-path> 下拉列表选择配色方案。</p>
             <p>默认情况下，已有以下预设的配色方案：</p>
             <list>
-                <li><format style="bold">Classic Light</format> ：专为 <tooltip term="macos">macOS</tooltip> 浅色和 <tooltip term="windows 10">Windows 10</tooltip> 浅色界面主题设计。</li>
-                <li><format style="bold">Darcula</format> ：专为 Darcula 主题界面设计。</li>
-                <li><format style="bold">High contrast</format> ：专为高对比度界面主题设计（建议视力障碍用户使用）。</li>
-                <li><format style="bold">IntelliJ Light:</format> ：专为 IntelliJ Light 主题界面设计。</li>
+                <li><ui-path>Classic Light</ui-path> ：专为 <tooltip term="macos">macOS</tooltip> 浅色和 <tooltip term="windows 10">Windows 10</tooltip> 浅色界面主题设计。</li>
+                <li><ui-path>Darcula</ui-path> ：专为 Darcula 主题界面设计。</li>
+                <li><ui-path>High contrast</ui-path> ：专为高对比度界面主题设计（建议视力障碍用户使用）。</li>
+                <li><ui-path>IntelliJ Light:</ui-path> ：专为 IntelliJ Light 主题界面设计。</li>
             </list>
         </step>
         <note>如果您安装的 <a href="managing-plugins.topic" summary="">插件</a> 中附带有配色方案，则该方案将被添加至预设方案列表中。&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;</note>
@@ -34,8 +34,8 @@
             <video src="https://www.youtube.com/watch?v=9-DJVWVB3ZE" width="706"/>
         </procedure>
         <note>
-            <p>预设配色方案采用粗体字显示。若您对这些方案进行了自定义调整，它们将以蓝色标识。</p>
-            <p>要将预设配色方案的各项设置还原至默认设置，请单击 <img src="设置.svg" alt=""/> 并选择 <control>还原为默认设置</control> 。</p>
+            <p>预设配色方案采用粗体字显示。若您对这些方案进行了自定义调整，它们将以蓝色标识。&nbsp;&nbsp;</p>
+            <p>要将预设配色方案的各项设置还原至默认值，请单击 <img src="设置.svg" alt=""/> 并选择 <control>还原为默认设置</control> 。</p>
         </note>
         <video src="https://www.youtube.com/watch?v=zFz3AvYku7E" width="706"/>
         <p>要自定义颜色和字体设置，请通过 <ui-path>设置（ <shortcut>Ctrl</shortcut><shortcut>Alt</shortcut><shortcut>S</shortcut> ） | <include from="reuse-library.topic" element-id="editor-snippet"/> | 配色方案</ui-path> 进行调整。例如：</p>

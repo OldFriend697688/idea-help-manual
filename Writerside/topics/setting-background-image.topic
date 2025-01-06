@@ -8,9 +8,9 @@
     <procedure id="configure-background-image" title="配置背景图像" type="steps">
         <step>在 <control>设置（ <shortcut>Ctrl</shortcut><shortcut>Alt</shortcut><shortcut>S</shortcut> ）</control> 中选择 <ui-path>外观与行为 | 外观</ui-path> 。</step>
         <step>
-            <p>找到并单击 <format style="bold">UI 选项</format> 部分中的 <format style="bold">背景图像</format> 。</p>
+            <p>找到并单击 <format style="bold">UI 选项</format> 中的 <control>背景图像</control> 。</p>
             <img alt="设置背景图像" src="设置背景图像.png" width="706" thumbnail="true"/>
-            <note>或者，如果图像已在您的项目中，请在 <include from="reuse-library.topic" element-id="editor-snippet" /> 或 <include from="reuse-library.topic" element-id="project-tool-window-snippet" /> 中右键单击该图像，然后从 <include from="reuse-library.topic" element-id="context-menus-snippet" /> 中选择 <ui-path>设置背景图像</ui-path> 。您也可以按 <shortcut>Ctrl</shortcut><shortcut>Shift</shortcut><shortcut>A</shortcut> ，找到并选择 <ui-path>设置背景图像</ui-path> 操作。</note>
+            <note>如果图像在您的项目中，请在 <include from="reuse-library.topic" element-id="editor-snippet"/> 或 <include from="reuse-library.topic" element-id="project-tool-window-snippet" /> 中右键单击该图像，然后从 <include from="reuse-library.topic" element-id="context-menus-snippet" /> 中选择 <ui-path>设置背景图像</ui-path> 。您也可以按 <shortcut>Ctrl</shortcut><shortcut>Shift</shortcut><shortcut>A</shortcut> ，找到并选择 <ui-path>设置背景图像</ui-path> 操作。</note>
             <video src="https://www.youtube.com/watch?v=5MUVc8hu0UM" width="706"/>
         </step>
         <step>

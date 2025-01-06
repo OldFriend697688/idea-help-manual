@@ -4,9 +4,8 @@
 <topic xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
        xsi:noNamespaceSchemaLocation="https://resources.jetbrains.com/writerside/1.0/topic.v2.xsd"
        title="卸载 IntelliJ IDEA" id="uninstall">
-    <note>卸载 IntelliJ IDEA 的正确方法取决于您选择的 <a href="installation-guide.topic" summary="">安装</a> 方法。&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;</note>
     <chapter id="standalone" title="卸载独立实例">
-        <note>如果运行的是 <a href="installation-guide.topic" anchor="standalone" summary="">独立的 IntelliJ IDEA 实例</a> ，则在删除实例时将保留 <a href="directories-used-by-the-ide-to-store-settings-caches-plugins-and-logs.topic">默认的 IDE 文件夹</a> ，以备日后保留设置或在另一个实例、另一个版本或另一个 <tooltip term="ide">IDE</tooltip> 中使用。如果确定不需要这些文件夹，可以手动将其删除。</note>
+        <note>如果运行的是 <a href="installation-guide.topic" anchor="standalone" summary="">独立的 IntelliJ IDEA 实例</a> ，则在删除实例时将保留 <a href="directories-used-by-the-ide-to-store-settings-caches-plugins-and-logs.topic" summary="">默认的 IDE 文件夹</a> ，以备日后保留设置或在另一个实例、另一个版本或另一个 <tooltip term="ide">IDE</tooltip> 中使用。如果您确定不需要这些文件夹，可以手动将其删除。</note>
         <tabs>
             <tab title="Windows" id="windows">
                 <list type="decimal">
@@ -24,8 +23,8 @@
                         <p>勾选卸载后需要被一并移除的内容，然后单击 <control><format style="underline">U</format>ninstall</control> 。</p>
                         <list>
                             <li>移除 IntelliJ IDEA 2022.3.3 的缓存以及本地历史记录。</li>
-                            <li>移除 IntelliJ IDEA 2022.3.3 的相关设置以及已安装的 <a href="managing-plugins.topic" summary="插件系统赋予了 IntelliJ IDEA 强大的功能拓展能力。">插件</a> 。</li>
-                            <li>参与卸载反馈。（ <format style="bold">通常无需勾选</format> ）</li>
+                            <li>移除 IntelliJ IDEA 2022.3.3 的相关设置以及已安装的 <a href="managing-plugins.topic" summary="">插件</a> 。</li>
+                            <li>参与卸载反馈。（ <format style="bold" color="Crimson">通常无需勾选</format> ）</li>
                         </list>
                         <img alt="在 Windows 平台上卸载 IntelliJ IDEA" src="在 Windows 平台上卸载 IntelliJ IDEA（1）.png" width="706" thumbnail="true"/>
                     </li>
@@ -91,11 +90,10 @@
     </chapter>
     <chapter id="toolbox" title="使用 Toolbox App 卸载">
         <primary-label ref="Toolbox"/>
-        <p>如果使用 <a href="installation-guide.topic" anchor="toolbox" summary="">Toolbox App 安装了 IntelliJ IDEA</a> ，请执行以下操作：</p>
+        <p>如果 <a href="installation-guide.topic" anchor="toolbox" summary="">使用 Toolbox App 安装 IntelliJ IDEA</a> ，请执行以下操作对其进行卸载：</p>
         <procedure type="choices" id="uninstall-step">
-            <warning>因软件更新迭代较快，现 Toolbox App 已不支持下载 IntelliJ IDEA 2022.3.3 版本。&nbsp;&nbsp;</warning>
-            <note>虽然 Toolbox App 不再提供 IntelliJ IDEA 2022.3.3 的下载，但若已安装该版本则仍可由 Toolbox App 进行管理。</note>
-            <step>打开 Toolbox App，单击实例的 <img src="toolbox app 更多按钮.svg" alt=""/> 图标，然后选择 <ui-path>卸载</ui-path> 。</step>
+            <include from="reuse-library.topic" element-id="toolbox-version-download-is-limited-snippet"/>
+            <step>打开 Toolbox App，单击实例后方的 <img src="toolbox app 更多按钮.svg" alt=""/> ，然后选择 <ui-path>卸载</ui-path> 。</step>
             <img alt="单击实例中卸载按钮卸载实例" src="单击实例中卸载按钮卸载实例.png" width="706" thumbnail="true"/>
             <video src="https://www.youtube.com/watch?v=s9_MJQr0Utg" width="706"/>
         </procedure>
@@ -110,12 +108,10 @@
     <!-- 注意：非必要情况下尽量不要使用静默卸卸载。 -->
     <chapter id="silent" title="在 Windows 系统上静默卸载">
         <p>如果以 <a href="installation-guide.topic" anchor="silent" summary="">静默方式安装 IntelliJ IDEA</a> ，可以使用 <code>/S</code> 参数以管理员身份运行卸载程序。</p>
-        <p>以管理员身份运行 <tooltip term="cmd">CMD</tooltip> ，并进入到 IntelliJ IDEA 安装文件夹，然后运行以下内容：</p>
+        <p>以管理员身份运行 <tooltip term="cmd">CMD</tooltip> ，并进入到 IntelliJ IDEA 安装文件夹，然后执行以下命令：</p>
         <code-block prompt=">" lang="bash">bin\uninstall.exe /S</code-block>
     </chapter>
     <seealso>
-        <include from="reuse-library.topic" element-id="ides-snippet"/>
-        <include from="reuse-library.topic" element-id="core-references-snippet"/>
-        <include from="reuse-library.topic" element-id="programming-language-snippet"/>
+        <include from="reuse-library.topic" element-id="list-of-suggested-seealso-snippet"/>
     </seealso>
 </topic>

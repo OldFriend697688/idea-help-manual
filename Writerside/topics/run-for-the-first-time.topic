@@ -9,14 +9,15 @@
     <p>您可以使用 <a href="installation-guide.topic" anchor="toolbox" summary="">Toolbox App</a> 运行任何 <a href="https://www.jetbrains.com.cn/">JetBrains</a> 产品。如果您基于 <a href="installation-guide.topic" anchor="standalone" summary=""/> 方式安装 IntelliJ IDEA，如何运行它则取决于您的 <tooltip term="os">操作系统</tooltip> 。</p>
     <tabs>
         <tab title="Windows" id="windows">
-            <p>要运行 IntelliJ IDEA，您可以在 <tooltip term="windows">Windows</tooltip> <format style="bold">开始</format> 菜单中找到它，或使用 <tooltip term="desktop-shortcut">桌面快捷方式</tooltip> 。也可以运行启动器批脚本或安装目录 <format style="bold">bin</format> 下的可执行文件。</p>
+            <p>要运行 IntelliJ IDEA，您可以在 <tooltip term="windows">Windows</tooltip> <format style="bold">开始</format> 菜单中找到它，或使用 <tooltip term="desktop-shortcut">桌面快捷方式</tooltip> 。</p>
+            <p>也可以运行启动器批脚本或安装文件夹下的 <path>bin</path> 文件夹下的可执行文件（ <path>idea.bat</path> / <path>idea64.exe</path> ）。</p>
             <p>有关从命令行运行 IntelliJ IDEA 的信息，请参阅 <a href="working-with-the-ide-features-from-command-line.topic" summary=""/> 。</p>
             <p>启动 IntelliJ IDEA 后，您将看到 <control>欢迎界面</control> ，这是您使用 <tooltip term="ide">IDE</tooltip> 和配置其设置的起点。</p>
             <p>关闭所有已打开的项目时也会出现该界面。您可以单击左侧的选项卡切换至特定的功能对话框。</p>
             <img src="IntelliJ IDEA 欢迎界面（Windows）.png" alt="IntelliJ IDEA 欢迎界面（Windows）" width="706" thumbnail="true"/>
         </tab>
         <tab title="macOS" id="macos">
-            <p>从 <tooltip term="applications">Applications</tooltip> 目录、 <tooltip term="launchpad">Launchpad</tooltip> 或 <tooltip term="spotlight">Spotlight</tooltip> 启动 IntelliJ IDEA 应用程序。</p>
+            <p>从 <tooltip term="applications">Applications</tooltip> 文件夹、 <tooltip term="launchpad">Launchpad</tooltip> 或 <tooltip term="spotlight">Spotlight</tooltip> 启动 IntelliJ IDEA 应用程序。</p>
             <include from="reuse-library.topic" element-id="standalone-installation-and-running-tips-snippet"/>
         </tab>
         <tab title="Linux" id="linux">
@@ -27,7 +28,7 @@
     <chapter id="select-ui-theme" title="自定义 IDE 外观">
         <p>单击 <control>自定义</control> 并选择心仪的 <a href="user-interface-themes.topic" summary="">主题</a> ，或选择 <ui-path>与操作系统同步</ui-path> 以使用系统默认主题。</p>
         <p>在这里，您还可以 <a href="accessibility.topic" anchor="red-green-deficiency" summary="">配置辅助功能设置</a> 或调整 <a href="configuring-keyboard-and-mouse-shortcuts.topic" summary="">按键映射</a> 。</p>
-        <note>您可以尝试新的 IntelliJ IDEA <a href="new-ui.topic" summary="">用户界面</a> 。&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;</note>
+        <note>您可以尝试 <a href="new-ui.topic" summary="">新的 IntelliJ IDEA 用户界面</a> 。&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;</note>
         <img src="IntelliJ IDEA 欢迎界面（Windows_Darcula 主题）.png" alt="IntelliJ IDEA 欢迎界面（Windows_Darcula 主题）" width="706" thumbnail="true"/>
     </chapter>
     <chapter id="configure-default-settings" title="配置默认设置">
@@ -58,8 +59,6 @@
         <img src="欢迎界面中的项目选项卡.png" alt="欢迎界面中的项目选项卡" width="706" thumbnail="true"/>
     </chapter>
     <seealso>
-        <include from="reuse-library.topic" element-id="ides-snippet"/>
-        <include from="reuse-library.topic" element-id="core-references-snippet"/>
-        <include from="reuse-library.topic" element-id="programming-language-snippet"/>
+        <include from="reuse-library.topic" element-id="list-of-suggested-seealso-snippet"/>
     </seealso>
 </topic>

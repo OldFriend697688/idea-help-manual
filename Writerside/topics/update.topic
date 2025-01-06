@@ -9,18 +9,18 @@
         <p>针对 <tooltip term="windows">Windows</tooltip> 或 <tooltip term="linux">Linux</tooltip>  ： <ui-path>设置 （ <shortcut>Ctrl</shortcut><shortcut>Alt</shortcut><shortcut>S</shortcut> ） | 外观与行为 | 系统设置 | 更新 &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;</ui-path></p>
         <p>针对 <tooltip term="macos">macOS</tooltip> ： <ui-path>IntelliJ IDEA | 设置 | 外观与行为 | 系统设置 | 更新</ui-path> &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;</p>
     </tldr>
-    <p>默认情况下，IntelliJ IDEA 被配置为自动检查更新，并在新版本可用时通知您。</p>
-    <p>更新通常是基于补丁形式的，它们会应用到现有的安装中，只需要重新启动 <tooltip term="ide">IDE</tooltip> 即可。不过，有时补丁更新并不可用，您必须安装新版本的 IntelliJ IDEA。</p>
+    <warning>如果 IntelliJ IDEA 没有 <tooltip term="http">HTTP</tooltip> 访问权限，则无法检查更新和应用补丁。在这种情况下，您必须先下载新版本，然后进行 <a href="installation-guide.topic" anchor="standalone" summary=""/> 。</warning>
+    <p>默认情况下，IntelliJ IDEA 被配置为自动检查更新，并在有新版本可用时通知您。</p>
+    <p>更新通常是基于补丁形式的，它们会应用到现有的安装中，您只需要重新启动 <tooltip term="ide">IDE</tooltip> 即可完成更新。</p>
+    <p>不过，有时补丁更新可能并不可用，您必须安装新版本的 IntelliJ IDEA。</p>
     <img src="IntelliJ IDEA 更新设置.png" alt="IntelliJ IDEA 更新设置" width="706" thumbnail="true"/>
-    <p>当 IntelliJ IDEA 更新到一个新的主要版本时，它会在 <a href="guided-tour-around-the-user-interface.topic" anchor="editor" summary="编辑器是 IntelliJ IDEA 的核心功能之一，它为开发者提供了一个强大、智能和高度可配置的代码编写环境。" /> 中打开 <control>IntelliJ IDEA 最新变化</control> 选项卡，其中包含有关更改、改进和修复的信息。要手动打开该选项卡，请选择 <ui-path><include from="reuse-library.topic" element-id="main-menus-snippet" /> | 帮助 | IntelliJ IDEA 最新变化。</ui-path></p>
+    <p>当 IntelliJ IDEA 更新到一个新的主要版本时，它将在 <include from="reuse-library.topic" element-id="editor-snippet"/> 中打开 <control>IntelliJ IDEA 最新变化</control> ，以此显示包含有关更改、改进和修复的信息。要手动打开该选项卡，请选择 <ui-path><include from="reuse-library.topic" element-id="main-menus-snippet" /> | 帮助 | IntelliJ IDEA 最新变化。</ui-path></p>
     <img src="IntelliJ IDEA 最新变化.png" alt="IntelliJ IDEA 最新变化" width="706" thumbnail="true"/>
-    <p>如果 IntelliJ IDEA 没有 <tooltip term="http">HTTP</tooltip> 访问权限，则无法检查更新和应用补丁。在这种情况下，您必须先下载新版本，然后进行 <a href="installation-guide.topic" anchor="standalone" summary=""/> 。</p>
     <chapter id="toolbox" title="Toolbox App">
         <primary-label ref="Toolbox"/>
-        <p>如果您使用 <a href="installation-guide.topic" anchor="toolbox" summary="">Toolbox App</a> 安装了 IntelliJ IDEA，当有新版本可用时，它会建议您更新 <tooltip term="ide">IDE</tooltip> 。</p>
+        <p>如果您使用 <a href="installation-guide.topic" anchor="toolbox" summary="">使用 Toolbox App 安装 IntelliJ IDEA</a> ，当有新版本可用时，它会建议您更新 <tooltip term="ide">IDE</tooltip> 。</p>
         <procedure title="自动更新所有已管理工具" id="update-all-tools" type="steps">
-            <warning>因软件更新迭代较快，现 Toolbox App 已不支持下载 IntelliJ IDEA 2022.3.3 版本。&nbsp;&nbsp;</warning>
-            <note>Toolbox App 虽不再提供 IntelliJ IDEA 2022.3.3 的下载，但若已安装该版本则仍可由 Toolbox App 管理。</note>
+            <include from="reuse-library.topic" element-id="toolbox-version-download-is-limited-snippet"/>
             <step>
                 <p>打开 Toolbox App 然后单击 <format style="bold">Toolbox App 菜单</format> 。</p>
                 <img src="Toolbox App 菜单.png" alt="Toolbox App 菜单" width="706" thumbnail="true"/>
@@ -51,11 +51,11 @@
         </procedure>
     </chapter>
     <chapter id="standalone" title="独立实例">
-        <p>如果您 <a href="installation-guide.topic" anchor="standalone" summary="">手动安装</a> 了 IntelliJ IDEA，独立的 <tooltip term="ide">IDE</tooltip> 实例将自行管理更新。当有新版本可用时，它会通过 <control>IntelliJ IDEA 和插件更新</control> 提醒您。您可以选择 <control>更新并重启</control> 、 <control>稍后提醒我</control> 或 <control>忽略这个更新</control> 。</p>
+        <p>如果您 <a href="installation-guide.topic" anchor="standalone" summary="">手动安装了 IntelliJ IDEA</a> ，独立的 <tooltip term="ide">IDE</tooltip> 实例将自行管理更新。当有新版本可用时，它会通过 <control>IntelliJ IDEA 和插件更新</control> 提醒您。您可以选择 <control>更新并重启</control> 、 <control>稍后提醒我</control> 或 <control>忽略这个更新</control> 。</p>
         <img src="IntelliJ IDEA 和插件更新.png" alt="IntelliJ IDEA 和插件更新" width="706" thumbnail="true"/>
         <chapter id="update-settings" title="配置更新策略">
             <p>要管理 IntelliJ IDEA 的更新策略，请选择 <ui-path>设置（ <shortcut>Ctrl</shortcut><shortcut>Alt</shortcut><shortcut>S</shortcut> ）| 外观和行为 | 系统设置 | 更新</ui-path> 。</p>
-            <note>如果 <tooltip term="ide">IDE</tooltip> 实例由 <format style="bold">Toolbox App</format> 管理，这些设置将只影响 <a href="managing-plugins.topic" summary="">插件</a> 更新。&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;</note>
+            <note>如果 <tooltip term="ide">IDE</tooltip> 实例由 <format style="bold">Toolbox App</format> 管理，这些设置将仅影响 <a href="managing-plugins.topic" summary="">插件</a> 更新。&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;</note>
             <procedure collapsible="true" default-state="collapsed" title="更新页面包含的设置" id="settings-page">
                 <img src="更新设置界面.png" alt="更新设置界面" width="706" thumbnail="true"/>
                 <table column-width="auto" border="true">
@@ -91,7 +91,8 @@
         </chapter>
     </chapter>
     <chapter id="snap" title="Snap 包">
-        <p>如果您将 <a href="installation-guide.topic" anchor="snap" summary="">IntelliJ IDEA 作为 Snap 包安装</a> ，它将自动管理更新。所有快照每天都会在后台自动更新。您也可以随时手动获取所有快照的最新版本，只需运行以下命令即可：</p>
+        <p>如果您 <a href="installation-guide.topic" anchor="snap" summary="">将 IntelliJ IDEA 作为 Snap 包安装</a> ，它将自动管理更新。</p>
+        <p>所有快照每天都会在后台自动更新。您可以手动获取所有快照的最新版本，只需执行以下命令即可：</p>
         <code-block lang="sh" prompt="$">sudo snap refresh</code-block>
         <p>或者说，如果您只想更新 IntelliJ IDEA Snap，您可以执行以下命令：</p>
         <tabs>
@@ -101,8 +102,6 @@
         </tabs>
     </chapter>
     <seealso>
-        <include from="reuse-library.topic" element-id="ides-snippet"/>
-        <include from="reuse-library.topic" element-id="core-references-snippet"/>
-        <include from="reuse-library.topic" element-id="programming-language-snippet"/>
+        <include from="reuse-library.topic" element-id="list-of-suggested-seealso-snippet"/>
     </seealso>
 </topic>

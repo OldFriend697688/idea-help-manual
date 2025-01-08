@@ -68,7 +68,7 @@
                     <step>
                         <a href="https://www.jetbrains.com/zh-cn/idea/download/other.html">下载 .exe 安装程序</a> 。
                         <note><tooltip term="arm64">ARM64 处理器</tooltip> 有单独的安装程序。&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;</note>
-                        <img src="IDEA 2022.3.3 Windows .exe 安装包下载.png" alt="IDEA 2022.3.3 Windows .exe 安装包下载" width="706" thumbnail="true"/>
+                        <img src="IntelliJ IDEA 2022.3.3 Windows .exe 安装包下载.png" alt="IntelliJ IDEA 2022.3.3 Windows .exe 安装包下载" width="706" thumbnail="true"/>
                         <video src="https://www.youtube.com/watch?v=7QrP3h5mKiY" width="706"/>
                     </step>
                     <step>

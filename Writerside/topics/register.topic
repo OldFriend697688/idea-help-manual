@@ -54,7 +54,7 @@
                 </tab>
                 <tab title="激活码" id="activation-code">
                     <p>使用激活码注册。购买相应产品的许可证时，您可以获得激活码。</p>
-                    <img src="使用激活码注册 IDEA.png" alt="使用激活码注册 IDEA" width="706" thumbnail="true"/>
+                    <img src="使用激活码注册 IntelliJ IDEA.png" alt="使用激活码注册 IntelliJ IDEA" width="706" thumbnail="true"/>
                 </tab>
                 <tab title="许可证服务器（不建议）" id="license-server">
                     <p>使用 <a href="https://www.jetbrains.com/license-server/">许可证服务器</a> 注册。</p>

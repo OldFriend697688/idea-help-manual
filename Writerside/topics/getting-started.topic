@@ -74,6 +74,13 @@
                     <a href="https://mp.baomidou.com/" summary="MyBatis Plus （简称 MP）是一个 MyBatis 的增强工具，在 MyBatis 的基础上只做增强不做改变，为简化开发、提高效率而生。我们的愿景是成为 MyBatis 最好的搭档，就像魂斗罗中的 1P、2P，基友搭配，效率翻倍。">MyBatis Plus</a>
                     <a href="https://spring.io/projects/spring-cloud" summary="Spring Cloud 是一个基于 Spring Boot 实现的云原生应用开发平台，它为开发者提供了快速构建分布式系统的一些工具，使用 Spring Boot 的开发风格，巧妙地简化了分布式系统基础设施的开发">Spring Cloud</a>
                 </group>
+                <group>
+                    <title>推荐网站</title>
+                    <a href="https://github.com/PKUFlyingPig/cs-self-learning">CS 自学指南</a>
+                    <a href="https://javabetter.cn/">二哥的 Java 进阶之路</a>
+                    <a href="https://github.com/justjavac/free-programming-books-zh_CN">免费的编程中文书籍索引</a>
+                    <a href="https://github.com/CodingDocs/awesome-cs?tab=readme-ov-file">计算机优质书籍搜罗 + 学习路线推荐</a>
+                </group>
             </links>
         </misc>
     </section-starting-page>

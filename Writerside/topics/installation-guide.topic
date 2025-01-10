@@ -68,7 +68,7 @@
                     <step>
                         <a href="https://www.jetbrains.com/zh-cn/idea/download/other.html">下载 .exe 安装程序</a> 。
                         <note><tooltip term="arm64">ARM64 处理器</tooltip> 有单独的安装程序。&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;</note>
-                        <img src="IntelliJ IDEA 2022.3.3 Windows .exe 安装包下载.png" alt="IntelliJ IDEA 2022.3.3 Windows .exe 安装包下载" width="706" thumbnail="true"/>
+                        <img src="https://i.imgur.com/MQSsoIh.png" alt="IntelliJ IDEA 2022.3.3 Windows .exe 安装包下载" width="706" thumbnail="true"/>
                         <video src="https://www.youtube.com/watch?v=7QrP3h5mKiY" width="706"/>
                     </step>
                     <step>
@@ -80,7 +80,7 @@
                             <li>把 <ui-path>将文件夹作为项目打开</ui-path> 操作添加至系统上下文菜单中（鼠标右键单击文件夹时）。</li>
                             <li>将特定 <tooltip term="file-extension">文件扩展名</tooltip> 类型的文件与 IntelliJ IDEA 关联，以便双击后在 <tooltip term="idea">IDEA</tooltip> 中打开它们。</li>
                         </list>
-                        <img src="IntelliJ IDEA 安装时的可配置选项.png" alt="IntelliJ IDEA 安装时的可配置选项" width="706" thumbnail="true"/>
+                        <img src="https://i.imgur.com/VVkEre2.png" alt="IntelliJ IDEA 安装时的可配置选项" width="706" thumbnail="true"/>
                     </step>
                     <video src="https://www.youtube.com/watch?v=kRU2ypcvTfk" width="706"/>
                     <note>
@@ -94,7 +94,7 @@
                 <procedure id="windows-zip-standalone-installation-steps">
                     <step>
                         <a href="https://www.jetbrains.com/zh-cn/idea/download/other.html">下载 ZIP 压缩包。</a>
-                        <img src="IntelliJ IDEA 2022.3.3 Windows ZIP 压缩包.png" alt="IntelliJ IDEA 2022.3.3 Windows ZIP 压缩包" width="706" thumbnail="true"/>
+                        <img src="https://i.imgur.com/B682P27.png" alt="IntelliJ IDEA 2022.3.3 Windows ZIP 压缩包" width="706" thumbnail="true"/>
                     </step>
                     <step>将压缩包中的内容解压缩至选定的目标文件夹。</step>
                     <step>进入目标文件夹下的 <path>bin</path> 文件夹。</step>
@@ -110,7 +110,7 @@
                     <step>
                         <a href="https://www.jetbrains.com/zh-cn/idea/download/other.html">下载 .tar.gz 压缩包。</a>
                         <note><tooltip term="arm64">ARM64 处理器</tooltip> 有单独的 <tooltip term="tarball">tarball 文件</tooltip> 。&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;</note>
-                        <img src="IntelliJ IDEA 2022.3.3 Linux tar.gz 镜像下载.png" alt="IntelliJ IDEA 2022.3.3 Linux tar.gz 镜像下载" width="706" thumbnail="true"/>
+                        <img src="https://i.imgur.com/FgTJiCQ.png" alt="IntelliJ IDEA 2022.3.3 Linux tar.gz 镜像下载" width="706" thumbnail="true"/>
                     </step>
                     <step>
                         <p>将 tar 文件解压到支持文件运行的目标文件夹。</p>
@@ -131,7 +131,7 @@
                     <step>
                         <a href="https://www.jetbrains.com/zh-cn/idea/download/other.html">下载映像文件。</a>
                         <note>英特尔和苹果芯片分别有独立的 <tooltip term="image-file">映像文件</tooltip> ，在下载时请注意分辨。&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;</note>
-                        <img src="IntelliJ IDEA 2022.3.3 macOS dmg 映像下载.png" alt="IntelliJ IDEA 2022.3.3 macOS dmg 映像下载" width="706" thumbnail="true"/>
+                        <img src="https://i.imgur.com/5L8qDEL.png" alt="IntelliJ IDEA 2022.3.3 macOS dmg 映像下载" width="706" thumbnail="true"/>
                     </step>
                     <step>将映像文件挂载并拖动到 <tooltip term="applications">Applications</tooltip> 文件夹。</step>
                     <step>从 Applications 文件夹、 <tooltip term="launchpad">Launchpad</tooltip> 或 <tooltip term="spotlight">Spotlight</tooltip> 中启动 IntelliJ IDEA。</step>
@@ -145,7 +145,7 @@
         <note>通过使用 Toolbox App 安装、管理、更新及卸载 JetBrains IDEs 并非是强制性的。 &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;</note>
         <note>若安装 Toolbox App 之前安装过任何 JetBrains IDEs，则它将会自动开始管理这些 <tooltip term="ide">IDE</tooltip> 。</note>
         <a href="https://www.jetbrains.com/zh-cn/toolbox-app/">JetBrains Toolbox App</a> 是安装 JetBrains 产品的推荐工具。您可以使用它来安装和管理不同产品或同一产品的多个版本，包括 <a href="https://www.jetbrains.com/community/eap/">早期访问计划（EAP）</a> ，必要时可进行更新和回滚，并轻松删除这些产品。它维护所有项目的列表，以便快速在正确的 <tooltip term="ide">IDE</tooltip> 和版本中打开这些项目。
-        <img src="JetBrains Toolbox App 中文官网首页.png" alt="JetBrains Toolbox App 中文官网首页" width="706" thumbnail="true" border-effect="line"/>
+        <img src="https://i.imgur.com/GJymz6Y.png" alt="JetBrains Toolbox App 中文官网首页" width="706" thumbnail="true" border-effect="line"/>
         <tabs>
             <tab title="Windows">
                 <procedure title="安装 Toolbox App">
@@ -258,27 +258,27 @@
         <procedure title="安装简体中文语言包" id="configure-simplified-chinese-language-pack" type="choices">
             <step>
                 <p>启动 IntelliJ IDEA 并单击 <control>欢迎界面</control> 中的 <ui-path>Plugins</ui-path> 。</p>
-                <img alt="为 IntelliJ IDEA 安装简体中文语言包" src="为 IntelliJ IDEA 安装简体中文语言包（1）.png" width="706" thumbnail="true"/>
+                <img alt="为 IntelliJ IDEA 安装简体中文语言包" src="https://i.imgur.com/R0TxQYZ.png" width="706" thumbnail="true"/>
             </step>
             <step>
                 <p>在 <control>Marketplace</control> 的搜索框中键入 <format style="bold">Chinese</format> 并等待搜索结果。</p>
-                <img alt="为 IntelliJ IDEA 安装简体中文语言包" src="为 IntelliJ IDEA 安装简体中文语言包（2）.png" width="706" thumbnail="true"/>
+                <img alt="为 IntelliJ IDEA 安装简体中文语言包" src="https://i.imgur.com/i3CFA3R.png" width="706" thumbnail="true"/>
             </step>
             <step>
                 <p>找到 <format style="bold">Chinese (Simplified) Language Pack/ 中文语言包</format> 并单击 <control>Install</control> 。</p>
-                <img alt="为 IntelliJ IDEA 安装简体中文语言包" src="为 IntelliJ IDEA 安装简体中文语言包（3）.png" width="706" thumbnail="true"/>
+                <img alt="为 IntelliJ IDEA 安装简体中文语言包" src="https://i.imgur.com/CPvgefC.png" width="706" thumbnail="true"/>
             </step>
             <step>
-                <p>等待 IntelliJ IDEA 完成插件的下载以及安装，然后单击 <control>Restart IDE</control> 。</p>
-                <img alt="为 IntelliJ IDEA 安装简体中文语言包" src="为 IntelliJ IDEA 安装简体中文语言包（4）.png" thumbnail="true" width="706"/>
+                <p>等待 IntelliJ IDEA 完成 <a href="managing-plugins.topic" summary="">插件</a> 的下载以及安装，然后单击 <control>Restart IDE</control> 。</p>
+                <img alt="为 IntelliJ IDEA 安装简体中文语言包" src="https://i.imgur.com/bBFmht8.png" thumbnail="true" width="706"/>
             </step>
             <step>
                 <p>单击 <control>Restart</control> 并等待 IntelliJ IDEA 完成重启。</p>
-                <img alt="为 IntelliJ IDEA 安装简体中文语言包" src="为 IntelliJ IDEA 安装简体中文语言包（5）.png" thumbnail="true" width="706"/>
+                <img alt="为 IntelliJ IDEA 安装简体中文语言包" src="https://i.imgur.com/Wtn7P5G.png" thumbnail="true" width="706"/>
             </step>
             <step>
                 <p>重启后，IntelliJ IDEA 已成功安装并应用简体中文语言补丁。</p>
-                <img alt="为 IntelliJ IDEA 安装简体中文语言包" src="为 IntelliJ IDEA 安装简体中文语言包（6）.png" thumbnail="true" width="706"/>
+                <img alt="为 IntelliJ IDEA 安装简体中文语言包" src="https://i.imgur.com/9CeQV90.png" thumbnail="true" width="706"/>
                 <note>如果您想要将 IntelliJ IDEA 恢复至英文状态，请单击 <control>禁用</control> 以便禁用中文语言包。&nbsp;</note>
             </step>
         </procedure>

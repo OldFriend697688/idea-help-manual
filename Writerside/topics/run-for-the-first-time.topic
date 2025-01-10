@@ -14,14 +14,14 @@
             <p>有关从命令行运行 IntelliJ IDEA 的信息，请参阅 <a href="working-with-the-ide-features-from-command-line.topic" summary=""/> 。</p>
             <p>启动 IntelliJ IDEA 后，您将看到 <control>欢迎界面</control> ，这是您使用 <tooltip term="ide">IDE</tooltip> 和配置其设置的起点。</p>
             <p>关闭所有已打开的项目时也会出现该界面。您可以单击左侧的选项卡切换至特定的功能对话框。</p>
-            <img src="IntelliJ IDEA 欢迎界面（Windows）.png" alt="IntelliJ IDEA 欢迎界面（Windows）" width="706" thumbnail="true"/>
+            <img src="https://i.imgur.com/s9qnhPo.png" alt="IntelliJ IDEA 欢迎界面（Windows）" width="706" thumbnail="true"/>
         </tab>
         <tab title="macOS" id="macos">
             <p>从 <tooltip term="applications">Applications</tooltip> 文件夹、 <tooltip term="launchpad">Launchpad</tooltip> 或 <tooltip term="spotlight">Spotlight</tooltip> 启动 IntelliJ IDEA 应用程序。</p>
             <include from="reuse-library.topic" element-id="standalone-installation-and-running-tips-snippet"/>
         </tab>
         <tab title="Linux" id="linux">
-            <p>运行安装文件夹 <format style="bold">bin</format> 下的 <format style="bold">idea.sh</format> 。如果在安装过程中创建了 <tooltip term="desktop-shortcut">桌面快捷方式</tooltip> ，也可使用它。</p>
+            <p>运行安装文件夹 <path>bin</path> 下的 <path>idea.sh</path> 。如果在安装过程中创建了 <tooltip term="desktop-shortcut">桌面快捷方式</tooltip> ，也可使用它。</p>
             <include from="reuse-library.topic" element-id="standalone-installation-and-running-tips-snippet" />
         </tab>
     </tabs>
@@ -29,24 +29,24 @@
         <p>单击 <control>自定义</control> 并选择心仪的 <a href="user-interface-themes.topic" summary="">主题</a> ，或选择 <ui-path>与操作系统同步</ui-path> 以使用系统默认主题。</p>
         <p>在这里，您还可以 <a href="accessibility.topic" anchor="red-green-deficiency" summary="">配置辅助功能设置</a> 或调整 <a href="configuring-keyboard-and-mouse-shortcuts.topic" summary="">按键映射</a> 。</p>
         <note>您可以尝试 <a href="new-ui.topic" summary="">新的 IntelliJ IDEA 用户界面</a> 。&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;</note>
-        <img src="IntelliJ IDEA 欢迎界面（Windows_Darcula 主题）.png" alt="IntelliJ IDEA 欢迎界面（Windows_Darcula 主题）" width="706" thumbnail="true"/>
+        <img src="https://i.imgur.com/9nOXIgp.png" alt="IntelliJ IDEA 欢迎界面（Windows_Darcula 主题）" width="706" thumbnail="true"/>
     </chapter>
     <chapter id="configure-default-settings" title="配置默认设置">
         <p>单击 <ui-path>自定义</ui-path> ，如果您 <a href="sharing-your-ide-settings.topic" anchor="export-settings-to-a-zip-archive">已有要应用的所需设置副本</a> ，则选择 <ui-path>导入设置</ui-path> 。</p>
         <p>单击 <ui-path>所有设置</ui-path> 打开 <control>设置（ <shortcut>Ctrl</shortcut><shortcut>Alt</shortcut><shortcut>S</shortcut> ）</control> ，此时调整的设置将成为所有新项目和 <tooltip term="ide">IDE</tooltip> 的默认配置。</p>
-        <img src="单击所有设置打开设置对话框.gif" alt="单击所有设置打开设置对话框" width="706" thumbnail="true"/>
+        <img src="https://i.imgur.com/TWRYkUS.gif" alt="单击所有设置打开设置对话框" width="706" thumbnail="true"/>
     </chapter>
     <chapter id="additional-plugins" title="安装附加插件">
         <p>单击 <format style="bold">欢迎界面</format> 左侧的 <ui-path>插件</ui-path> ，然后从 <a href="https://plugins.jetbrains.com/idea">JetBrains 插件库</a> 中下载并 <a href="managing-plugins.topic" summary="">安装</a> 其他插件。</p>
-        <img src="欢迎界面中的插件选项卡.png" alt="欢迎界面中的插件选项卡" width="706" thumbnail="true"/>
+        <img src="https://i.imgur.com/bZRTfvt.png" alt="欢迎界面中的插件选项卡" width="706" thumbnail="true"/>
     </chapter>
     <chapter id="learn-ide" title="学习 IDE 功能">
         <p>单击 <format style="bold">欢迎界面</format> 左侧的 <ui-path>学习</ui-path> ，进一步熟悉 <tooltip term="ide">IDE</tooltip> 提供的 <a href="configuring-keyboard-and-mouse-shortcuts.topic" summary="">快捷键</a> 、功能和工作流程。有关详细信息，请参阅 <a href="feature-trainer.topic" summary=""/> 。</p>
-        <img src="欢迎界面中的学习选项卡.png" alt="欢迎界面中的学习选项卡" width="706" thumbnail="true"/>
+        <img src="https://i.imgur.com/IvMFAM7.png" alt="欢迎界面中的学习选项卡" width="706" thumbnail="true"/>
     </chapter>
     <chapter id="work-remotely" title="远程开发应用程序">
         <p>单击 <ui-path>远程开发</ui-path> 配置连接到远程服务器的入口点，并进行远程编码、运行、调试和部署项目。更多信息，请参阅 <a href="remote-development-starting-page.topic" summary=""/> 。</p>
-        <img src="欢迎界面中的远程开发选项卡.png" alt="欢迎界面中的远程开发选项卡" width="706" thumbnail="true"/>
+        <img src="https://i.imgur.com/kRU82sl.png" alt="欢迎界面中的远程开发选项卡" width="706" thumbnail="true"/>
     </chapter>
     <chapter id="start-project" title="启动一个项目">
         <p>当您启动 IntelliJ IDEA 时，它首先会显示 <format style="bold">欢迎界面</format> 。</p>
@@ -56,7 +56,7 @@
             <li><a href="import-project-or-module-wizard.topic" anchor="open-project" summary="">打开一个项目</a></li>
             <li><a href="import-project-or-module-wizard.topic" summary="">通过版本控制系统获取项目</a></li>
         </list>
-        <img src="欢迎界面中的项目选项卡.png" alt="欢迎界面中的项目选项卡" width="706" thumbnail="true"/>
+        <img src="https://i.imgur.com/rbhv5L9.png" alt="欢迎界面中的项目选项卡" width="706" thumbnail="true"/>
     </chapter>
     <seealso>
         <include from="reuse-library.topic" element-id="list-of-suggested-seealso-snippet"/>

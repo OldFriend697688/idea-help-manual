@@ -10,15 +10,15 @@
         <step>下载 <a href="https://www.jetbrains.com/idea/download/other.html">IntelliJ IDEA</a> 并将其用于教学目的。如果您需要进一步说明，请参阅 <a href="installation-guide.topic"  summary=""/> 。</step>
         <step>
             <p>在 <control>欢迎界面</control> 中单击左侧的 <ui-path>学习</ui-path> 。</p>
-            <img src="欢迎界面中的学习选项卡.png" alt="欢迎界面中的学习选项卡" width="706" thumbnail="true"/>
+            <img src="https://i.imgur.com/F9OscmM.png" alt="欢迎界面中的学习选项卡" width="706" thumbnail="true"/>
         </step>
         <step>
             <p>在右侧窗口中，单击 <ui-path>学习编程 | 启用访问</ui-path> 。</p>
-            <img src="单击学习编程下方的启用访问按钮.png" alt="单击学习编程下方的启用访问按钮" width="706" thumbnail="true"/>
+            <img src="https://i.imgur.com/X4jPrTL.png" alt="单击学习编程下方的启用访问按钮" width="706" thumbnail="true"/>
         </step>
         <step>
             <p>单击 <control>开始</control> ，然后在 <control>选择课程</control> 中选择要学习的课程，然后单击课程名称下方的 <control>开始</control> 。</p>
-            <img src="选择感兴趣的目标课程.png" alt="选择感兴趣的目标课程" width="706" thumbnail="true"/>
+            <img src="https://i.imgur.com/oeG9C4W.png" alt="选择感兴趣的目标课程" width="706" thumbnail="true"/>
             <video src="https://www.youtube.com/watch?v=l-v6mCqBkAw" width="706"/>
         </step>
     </procedure>
@@ -28,11 +28,11 @@
     <procedure id="work-with-main-menu" title="使用主菜单">
         <step>
             <p>通过 <ui-path><include from="reuse-library.topic" element-id="main-menus-snippet" /> | 文件</ui-path> 选择 <ui-path>浏览课程</ui-path> 或 <ui-path>创建新课程</ui-path> 。</p>
-            <img src="浏览与创建新课程.png" alt="浏览与创建新课程" width="706" thumbnail="true"/>
+            <img src="https://i.imgur.com/mFXpIb6.png" alt="浏览与创建新课程" width="706" thumbnail="true"/>
         </step>
         <step>
             <p>通过 <ui-path><include from="reuse-library.topic" element-id="main-menus-snippet" /> | 帮助 | 向 JetBrains Academy 团队报告问题</ui-path> 将项目中发现的问题上报。</p>
-            <img src="向 JetBrains Academy 团队报告问题.png" alt="向 JetBrains Academy 团队报告问题" width="706" thumbnail="true"/>
+            <img src="https://i.imgur.com/dBT3AAN.png" alt="向 JetBrains Academy 团队报告问题" width="706" thumbnail="true"/>
         </step>
     </procedure>
     <seealso>

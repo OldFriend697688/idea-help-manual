@@ -8,15 +8,15 @@
     <procedure id="configure-background-image" title="配置背景图像" type="steps">
         <step>在 <control>设置（ <shortcut>Ctrl</shortcut><shortcut>Alt</shortcut><shortcut>S</shortcut> ）</control> 中选择 <ui-path>外观与行为 | 外观</ui-path> 。</step>
         <step>
-            <p>找到并单击 <format style="bold">UI 选项</format> 中的 <control>背景图像</control> 。</p>
-            <img alt="设置背景图像" src="设置背景图像.png" width="706" thumbnail="true"/>
+            <p>找到并单击 <ui-path>UI 选项</ui-path> 中的 <control>背景图像</control> 。</p>
+            <img alt="设置背景图像" src="https://i.imgur.com/DBfpKhF.png" width="706" thumbnail="true"/>
             <note>如果图像在您的项目中，请在 <include from="reuse-library.topic" element-id="editor-snippet"/> 或 <include from="reuse-library.topic" element-id="project-tool-window-snippet" /> 中右键单击该图像，然后从 <include from="reuse-library.topic" element-id="context-menus-snippet" /> 中选择 <ui-path>设置背景图像</ui-path> 。您也可以按 <shortcut>Ctrl</shortcut><shortcut>Shift</shortcut><shortcut>A</shortcut> ，找到并选择 <ui-path>设置背景图像</ui-path> 操作。</note>
             <video src="https://www.youtube.com/watch?v=5MUVc8hu0UM" width="706"/>
         </step>
         <step>
             <p>在 <control>背景图像</control> 中，指定图像并单击 <control>确定</control> 应用更改。</p>
             <p>有关于这些选项的详细用途，请参阅 <a anchor="background-image-settings" summary=""/> 。</p>
-            <img alt="背景图像对话框" src="背景图像对话框.png" width="706" thumbnail="true"/>
+            <img alt="背景图像对话框" src="https://i.imgur.com/Mhu5lfa.png" width="706" thumbnail="true"/>
             <video src="https://www.youtube.com/watch?v=Cbln0_vuxss" width="706"/>
         </step>
     </procedure>
@@ -41,11 +41,11 @@
                     <list>
                         <li>
                             <p>垂直或水平镜像图像</p>
-                            <img alt="垂直或水平镜像图像" src="垂直或水平镜像图像.png" width="706" thumbnail="true"/>
+                            <img alt="垂直或水平镜像图像" src="https://i.imgur.com/4b93T7z.png" width="706" thumbnail="true"/>
                         </li>
                         <li>
                             <p>选择是否将图像以原始大小放置一份，缩放图像以适应整个宽度，或用原始大小的图像副本填充整个宽度。如果选择保持原始尺寸，请选择将图像放置在中间、一侧还是一个角。</p>
-                            <img alt="选择背景图像的填充方式" src="选择背景图像的填充方式.png" width="706" thumbnail="true"/>
+                            <img alt="选择背景图像的填充方式" src="https://i.imgur.com/XeVenNM.png" width="706" thumbnail="true"/>
                             <video src="https://www.youtube.com/watch?v=09Kefiuageo" width="706"/>
                         </li>
                     </list>
@@ -72,4 +72,12 @@
             </tr>
         </table>
     </chapter>
+    <seealso>
+        <category ref="references">
+            <include from="reuse-library.topic" element-id="ides-snippet"/>
+            <include from="reuse-library.topic" element-id="core-references-snippet"/>
+            <include from="reuse-library.topic" element-id="associated-websites-snippet"/>
+            <include from="reuse-library.topic" element-id="programming-language-snippet"/>
+        </category>
+    </seealso>
 </topic>

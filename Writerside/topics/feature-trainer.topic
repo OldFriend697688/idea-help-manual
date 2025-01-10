@@ -13,18 +13,18 @@
         <step>确保正在使用的 IntelliJ IDEA 为 2020.3 及更高版本。</step>
         <step>
             <p>确保已正确安装并启用 <format style="bold">IDE Features Trainer</format> 插件。</p>
-            <img src="确保已正确安装并启用 IDE Features Trainer 插件.png" alt="确保已正确安装并启用 IDE Features Trainer 插件" width="706" thumbnail="true"/>
+            <img src="https://i.imgur.com/qZjdMgJ.png" alt="确保已正确安装并启用 IDE Features Trainer 插件" width="706" thumbnail="true"/>
         </step>
     </procedure>
     <procedure title="开始学习课程" id="start-a-lesson-from-the-welcome-screen">
         <step>单击 <control>欢迎界面</control> 左侧的 <ui-path>学习</ui-path> 。</step>
         <step>
             <p>在右侧的窗口中，单击 <ui-path>学习 IDE 功能 | 开始学习</ui-path> 。</p>
-            <img src="单击交互式课程下的开始学习按钮.png" alt="单击交互式课程下的开始学习按钮" width="706" thumbnail="true"/>
+            <img src="https://i.imgur.com/76XW3dW.png" alt="单击交互式课程下的开始学习按钮" width="706" thumbnail="true"/>
         </step>
         <step>
             <p>IntelliJ IDEA 将生成一个学习项目，并打开与所选教程的第一课相对应的上下文。</p>
-            <img src="IntelliJ IDEA 生成的学习项目.png" alt="IntelliJ IDEA 生成的学习项目" width="706" thumbnail="true"/>
+            <img src="https://i.imgur.com/KUNcGez.png" alt="IntelliJ IDEA 生成的学习项目" width="706" thumbnail="true"/>
         </step>
         <note>您可以删除 <code>&#37;LOCALAPPDATA&#37;\JetBrains\IntelliJIdea2022.3\demo</code> 文件夹中的子文件夹，以便在 <tooltip term="windows">Windows</tooltip> 系统中删除自动生成的学习项目 。</note>
         <video src="https://www.youtube.com/watch?v=fLujFmVI7Yo" width="706"/>
@@ -32,20 +32,20 @@
     <procedure title="从学习工具窗口开始教程" id="start-a-lesson-from-the-learn-tool-window">
         <step>
             <p>选择 <ui-path><include from="reuse-library.topic" element-id="main-menus-snippet"/> | 视图 | <include from="reuse-library.topic" element-id="tool-window-snippet"/> | 学习</ui-path> 。</p>
-            <img src="通过主菜单打开学习工具窗口.png" alt="通过主菜单打开学习工具窗口" width="706" thumbnail="true"/>
+            <img src="https://i.imgur.com/kNpJy5f.png" alt="通过主菜单打开学习工具窗口" width="706" thumbnail="true"/>
         </step>
         <step>
             <p>单击要完成的课程，然后在 <control>打开学习项目</control> 中单击 <control>打开</control> 。</p>
-            <img src="单击打开学习项目中的打开按钮.png" alt="单击打开学习项目中的打开按钮" width="706" thumbnail="true"/>
+            <img src="https://i.imgur.com/rWULxmi.png" alt="单击打开学习项目中的打开按钮" width="706" thumbnail="true"/>
         </step>
         <step>
             <p>在 <control>打开项目</control> 中选择打开课程的方式。</p>
             <list>
-                <li><format style="bold">此窗口</format> ：在当前窗口中打开新教程，它将会关闭已打开的课程窗口。</li>
-                <li><format style="bold">新窗口</format> ：在新窗口中打开教程，它将会保留已打开的课程窗口。</li>
-                <li><format style="bold">取消</format> ：不进行任何操作，保留已打开的全部课程窗口。</li>
+                <li><control>此窗口</control> ：在当前窗口中打开新教程，它将会关闭已打开的课程窗口。</li>
+                <li><control>新窗口</control> ：在新窗口中打开教程，它将会保留已打开的课程窗口。</li>
+                <li><control>取消</control> ：不进行任何操作，保留已打开的全部课程窗口。</li>
             </list>
-            <img alt="以合适的方式打开新课程" src="以合适的方式打开新课程.png" width="706" thumbnail="true"/>
+            <img alt="以合适的方式打开新课程" src="https://i.imgur.com/LPrhSd4.png" width="706" thumbnail="true"/>
         </step>
     </procedure>
     <procedure title="在课程和教程之间切换" id="switching-between-lessons-and-tutorials">

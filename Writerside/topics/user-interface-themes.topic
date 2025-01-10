@@ -17,7 +17,7 @@
                 <li><ui-path>Darcula</ui-path> ：默认深色主题。</li>
                 <li><ui-path>High contrast</ui-path> ：为色盲用户设计的主题。</li>
             </list>
-            <img alt="通过主题下拉列表切换主题" src="通过主题下拉列表切换主题.png" width="706" thumbnail="true"/>
+            <img alt="通过主题下拉列表切换主题" src="https://i.imgur.com/fhJUFtj.png" width="706" thumbnail="true"/>
             <note>选择 <control>与操作系统同步</control> ，可以让 IntelliJ IDEA 检测当前系统设置，并相应地使用默认的深色或浅色主题。</note>
             <video src="https://www.youtube.com/watch?v=BemqyrDkFJc" width="706"/>
         </step>
@@ -36,6 +36,7 @@
         <category ref="references">
             <include from="reuse-library.topic" element-id="ides-snippet"/>
             <include from="reuse-library.topic" element-id="core-references-snippet"/>
+            <include from="reuse-library.topic" element-id="associated-websites-snippet"/>
             <include from="reuse-library.topic" element-id="programming-language-snippet"/>
         </category>
     </seealso>

@@ -35,8 +35,9 @@
         <step>将切换视图模式的快捷键与您偏好的 <a href="configuring-colors-and-fonts.topic" summary="">快捷键</a> 绑定。</step>
     </procedure>
     <seealso>
-      <include from="reuse-library.topic" element-id="ides-snippet"/>
-      <include from="reuse-library.topic" element-id="core-references-snippet"/>
-      <include from="reuse-library.topic" element-id="programming-language-snippet"/>
+        <include from="reuse-library.topic" element-id="ides-snippet"/>
+        <include from="reuse-library.topic" element-id="core-references-snippet"/>
+        <include from="reuse-library.topic" element-id="programming-language-snippet"/>
+        <include from="reuse-library.topic" element-id="associated-websites-snippet"/>
     </seealso>
 </topic>

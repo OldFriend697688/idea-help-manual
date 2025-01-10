@@ -5,7 +5,7 @@
        xsi:noNamespaceSchemaLocation="https://resources.jetbrains.com/writerside/1.0/topic.v2.xsd"
        title="用户界面" id="guided-tour-around-the-user-interface">
     <p>在 IntelliJ IDEA 中打开项目时，将会根据您的操作在用户界面中呈现出如下图所示相关部分：</p>
-    <img src="IntelliJ IDEA 默认用户界面（Darcula 主题）.png" alt="IntelliJ IDEA 默认用户界面（Darcula 主题）" width="706" thumbnail="true"/>
+    <img src="https://i.imgur.com/WGDyEgk.png" alt="IntelliJ IDEA 默认用户界面（Darcula 主题）" width="706" thumbnail="true"/>
     <list type="decimal">
         <li><a anchor="navigation-bar" summary="IntelliJ IDEA 中的导航栏是一个便捷的功能，它允许用户快速导航到项目中的不同部分，例如：文件、类、方法或工具窗口。导航栏通常位于编辑器的顶部，提供了一个紧凑的界面来键入搜索查询或选择目标位置。"/></li>
         <li>项目 <a anchor="tool-windows" summary="IntelliJ IDEA 中的工具窗口是 IDE 的重要组成部分，它们提供了一系列功能，帮助开发者更有效地编写、调试和管理代码。"/></li>
@@ -23,14 +23,14 @@
         <p>例如：在 <control>操作</control> 中键入 <format style="bold">导航栏</format> ，等待片刻后将会在列表中列举出与 <format style="bold">导航栏</format> 相关的所有操作。</p>
         <video src="https://www.youtube.com/watch?v=mK0ZbLqEj9w" width="706"/>
         <note>绝大多数的操作都有与之对应的 <a href="configuring-keyboard-and-mouse-shortcuts.topic" summary="">快捷键</a> ，如果想执行的操作未预设快捷键，请尝试为其设置快捷键或者直接在 <control>操作（ <shortcut>Ctrl</shortcut><shortcut>Shift</shortcut><shortcut>A</shortcut> ）</control> 中键入目标操作的名称，然后在展开的列表中选择需要执行的操作。</note>
-        <img alt="在操作中键入目标操作的名称" src="在操作中键入目标操作的名称.png" width="706" thumbnail="true"/>
+        <img alt="在操作中键入目标操作的名称" src="https://i.imgur.com/jvqLvXU.png" width="706" thumbnail="true"/>
     </chapter>
     <chapter title="主窗口" id="main-windows">
         <p>主窗口集成了代码编辑、调试、构建、 <tooltip term="vcs">版本控制</tooltip> 以及许多其他功能。</p>
         <p>您可以将它理解为是一种容器，用于将 <include from="reuse-library.topic" element-id="main-menus-snippet"/>、<include from="reuse-library.topic" element-id="navigation-bar-snippet"/> 等聚合在一起。</p>
         <p>在主窗口中，可以处理单个 IntelliJ IDEA 项目。您可同时打开多个主窗口以便同时处理多个项目。</p>
         <p>在默认情况下，主窗口的标题位置将会显示项目名称和当前打开文件的名称。</p>
-        <img alt="主窗口标题位置显示的项目名称和打开文件的名称" src="主窗口标题位置显示的项目名称和打开文件的名称.png" width="706" thumbnail="true"/>
+        <img alt="主窗口标题位置显示的项目名称和打开文件的名称" src="https://i.imgur.com/aQQn5vN.png" width="706" thumbnail="true"/>
         <p>当项目中存在多个 <a href="creating-and-managing-modules.topic" summary=""/> 时，主窗口的标题位置还将会额外显示相关模块的名称。</p>
         <video src="https://www.youtube.com/watch?v=MHIisxc-eL8" width="706"/>
         <p>如果要显示当前打开项目及文件的完整路径， 请勾选 <ui-path>设置（ <shortcut>Ctrl</shortcut><shortcut>Alt</shortcut><shortcut>S</shortcut> ） | 外观与行为 | 外观 | 始终在窗口标题中显示完整路径</ui-path> 。</p>
@@ -44,7 +44,7 @@
         <p>导航栏是项目视图的快捷方式，通过它可以快速浏览项目结构并在 <include from="reuse-library.topic" element-id="editor-snippet"/> 中打开文件进行编辑。</p>
         <video src="https://www.youtube.com/watch?v=HTVYOEKplrc" width="706"/>
         <note>如果为项目启用了 <tooltip term="vcs">VCS</tooltip> 集成，则导航栏中的内容将会根据 VCS 文件状态颜色突出显示。&nbsp;&nbsp;</note>
-        <img alt="导航栏中 VCS 文件的状态颜色" src="导航栏中 VCS 文件的状态颜色.png" width="706" height="706" id="vcs-file-color" thumbnail="true"/>
+        <img alt="导航栏中 VCS 文件的状态颜色" src="https://i.imgur.com/TvGWTuD.png" width="706" height="706" id="vcs-file-color" thumbnail="true"/>
         <note>含有打开和保存文件、撤销和重做操作按钮的主工具栏默认是隐藏的。如果要显示它，请选择 <ui-path><include from="reuse-library.topic" element-id="main-menus-snippet"/> | 视图 | 外观 | 工具栏</ui-path> 。</note>
         <video src="https://www.youtube.com/watch?v=SzeOmPgR5gs" width="706"/>
         <note>
@@ -91,7 +91,7 @@
             </li>
         </list>
         <note>如果当前项目已启用了 <tooltip term="vcs">VCS</tooltip> 集成，则编辑器标签页会根据 VCS 文件状态颜色突出显示。&nbsp;&nbsp;</note>
-        <img alt="编辑器界面（Darcula 主题配色方案）" src="编辑器界面（Darcula 主题配色方案）.png" width="706" thumbnail="true"/>
+        <img alt="编辑器界面（Darcula 主题配色方案）" src="https://i.imgur.com/a9dRran.png" width="706" thumbnail="true"/>
     </chapter>
     <chapter title="状态栏" id="status-bar">
         <tldr><p>隐藏/显示： <ui-path><include from="reuse-library.topic" element-id="main-menus-snippet"/> | 视图 | 外观 | 状态栏</ui-path></p></tldr>
@@ -105,7 +105,7 @@
         <p>状态栏还将会显示后台任务的处理进度，您可以通过鼠标左键单击状态栏右侧区域的进度条来查看。</p>
         <video src="https://www.youtube.com/watch?v=P69pYzI77zw" width="706"/>
         <p>状态栏的右侧部分包含显示整个项目和 <tooltip term="ide">IDE</tooltip> 状态的各种微件，并提供各种设置的快捷访问方式。</p>
-        <img alt="状态栏及其微件" src="状态栏及其微件.png" width="706" thumbnail="true"/>
+        <img alt="状态栏及其微件" src="https://i.imgur.com/D2jRXaK.png" width="706" thumbnail="true"/>
         <procedure title="微件列表" id="widget-list">
             <note>
                 <p>根据插件集和配置设置的不同，这些微件提供的设置和行为可能会有所不同。&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;</p>
@@ -178,14 +178,14 @@
                     </td>
                 </tr>
                 <tr>
-                    <td><img src="显示堆内存用量.png" alt=""/></td>
+                    <td><img src="https://i.imgur.com/tiVuDU3.png" alt=""/></td>
                     <td>
                         <p>用于显示 IntelliJ IDEA 在堆内存总量中消耗的内存量，更多信息，请参阅 <a href="increasing-memory-heap.topic" summary=""/> 。</p>
                         <video src="https://www.youtube.com/watch?v=Qaf-o8nxdAM"/>
                     </td>
                 </tr>
                 <tr>
-                    <td><img src="默认部署服务器.png" alt=""/></td>
+                    <td><img src="https://i.imgur.com/KVMHLPH.png" alt=""/></td>
                     <td>单击可将任何已配置的部署服务器或服务器组设置为执行部署操作的默认设置。</td>
                 </tr>
             </table>
@@ -194,7 +194,7 @@
     <chapter title="工具窗口" id="tool-windows">
         <tldr><p>隐藏/显示： <ui-path><include from="reuse-library.topic" element-id="main-menus-snippet"/> | 视图 | <include from="reuse-library.topic" element-id="tool-window-snippet"/> | 工具窗口名</ui-path></p></tldr>
         <include from="reuse-library.topic" element-id="tool-window-snippet"/> 提供的功能是对代码编辑的补充，例如：<include from="reuse-library.topic" element-id="project-tool-window-snippet"/> 用于显示项目的结构，而 <include from="reuse-library.topic" element-id="run-tool-windows-snippet"/> 则用于显示程序运行时的输出结果。
-        <img src="项目工具窗口.png" alt="项目工具窗口" width="706" thumbnail="true"/>
+        <img src="https://i.imgur.com/xeUhXIZ.png" alt="项目工具窗口" width="706" thumbnail="true"/>
         <p>默认情况下，工具窗口将会停靠在 <include from="reuse-library.topic" element-id="main-windows-snippet"/> 的两侧和底部。您可以根据个人习惯重新排列、取消停靠、调整大小或者是隐藏它们。您可以通过鼠标右键单击工具窗口标题或者是鼠标左键单击标题中的 <img src="设置.svg" alt=""/> 查看其支持的排列选项。</p>
         <video src="https://www.youtube.com/watch?v=eA2ZODgt3bk" width="706"/>
         <p>您可以为这些工具窗口指定 <a href="configuring-keyboard-and-mouse-shortcuts.topic" summary="">快捷键</a> ，以便快速访问常用的工具窗口。</p>
@@ -203,7 +203,7 @@
     </chapter>
     <chapter title="弹出菜单" id="popup-menus">
         <note>分辨弹出菜单和上下文菜单的最简单方法是：上下文菜单不会在菜单的顶部位置标识任何名称。而 <control>重构此（ <shortcut>Ctrl</shortcut><shortcut>Alt</shortcut><shortcut>Shift</shortcut><shortcut>T</shortcut> ）</control> 弹出菜单正上方的名称正是 <control>重构此</control> 。</note>
-        <img alt="重构此弹出菜单" src="重构此弹出菜单.png" width="706" thumbnail="true"/>
+        <img alt="重构此弹出菜单" src="https://i.imgur.com/twGDzm3.png" width="706" thumbnail="true"/>
         <p>弹出菜单可以快速访问与当前上下文相关的操作，可以将它理解为是 <include from="reuse-library.topic" element-id="context-menus-snippet"/> 中某些功能子项的直接快捷方式。例如：在 <include from="reuse-library.topic" element-id="editor-snippet"/> 中选定某个代码片段，然后选中上下文菜单中的 <ui-path>重构</ui-path> 选项和直接打开 <control>重构此</control> （ <shortcut>Ctrl</shortcut><shortcut>Alt</shortcut><shortcut>Shift</shortcut><shortcut>T</shortcut> ）弹出菜单时提供的功能实际上是基本一致的。</p>
         <p>除了可以使用预设的弹出菜单外，您还可以为个人常用的操作创建 <a anchor="configure-quick-lists" summary="快速列表是一个弹出菜单，其中包含一组自定义的 IntelliJ IDEA 操作。可以将其视为自定义菜单或工具栏，并为其指定快捷键以便快速访问。"/> 。</p>
         <p>IntelliJ IDEA 中有很多弹出菜单，以下列举的是一些使用频次较高的预设弹出菜单：</p>
@@ -235,7 +235,7 @@
         <p>通过鼠标右键单击用户界面上的各个元素，将可以查看与当前上下文相关的可用操作。例如：鼠标右键单击 <include from="reuse-library.topic" element-id="project-tool-window-snippet"/> 中的文件，将可以查看与该文件相关的操作。鼠标右键单击 <include from="reuse-library.topic" element-id="editor-snippet"/>，将可以查看适用于当前选中代码片段的可用操作。</p>
         <video src="https://www.youtube.com/watch?v=GGg1Nps7cO4" width="706"/>
         <note>这些操作大多都可以通过 <include from="reuse-library.topic" element-id="main-menus-snippet"/> 或 <include from="reuse-library.topic" element-id="main-windows-snippet"/> 执行。带有 <a href="mastering-keyboard-shortcuts.topic" summary=""/> 的操作会在操作名称旁边显示快捷键。在实际应用中，可以更高效的通过快捷键来执行这些操作，而不是通过上下文菜单来执行它们。</note>
-        <img src="上下文菜单中的操作和与之对应的快捷键.png" alt="上下文菜单中的操作和与之对应的快捷键" width="706" thumbnail="true"/>
+        <img src="https://i.imgur.com/vUGwKiw.png" alt="上下文菜单中的操作和与之对应的快捷键" width="706" thumbnail="true"/>
     </chapter>
     <seealso>
         <category ref="references">
@@ -247,7 +247,15 @@
             <a href="register.topic" summary=""/>
             <a href="https://plugins.jetbrains.com/" summary="JetBrains 插件库是一个在线平台，提供各种插件，这些插件可以扩展 IntelliJ IDEA 以及其他 JetBrains 开发的 IDE（如 WebStorm、PyCharm、CLion 等）的功能。在这个网站上，用户可以浏览、搜索和下载各种插件，以增强他们的开发工具。">JetBrains 插件库</a>
         </category>
-        <include from="reuse-library.topic" element-id="programming-language-snippet"/>
         <include from="reuse-library.topic" element-id="ides-snippet"/>
+        <include from="reuse-library.topic" element-id="programming-language-snippet"/>
+        <category ref="associated-websites">
+            <a href="https://www.freedomscientific.com/Products/software/JAWS/" summary="JAWS（Job Access With Speech）是世界上最流行的屏幕阅读器，专为因视力障碍而无法看到屏幕内容或使用鼠标导航的电脑用户开发。JAWS 可为电脑上最常用的计算机应用程序提供语音和盲文输出。您可以在办公室、远程桌面或家中浏览互联网、撰写文档、阅读电子邮件和制作演示文稿。">JAWS</a>
+            <a href="https://www.nvaccess.org/" summary="NV Access 是一个免费的、高质量的屏幕阅读器，可以帮助盲人和视障人士使用计算机。">Nv Access</a>
+            <a href="https://github.com/PKUFlyingPig/cs-self-learning">CS 自学指南</a>
+            <a href="https://javabetter.cn/">二哥的 Java 进阶之路</a>
+            <a href="https://github.com/justjavac/free-programming-books-zh_CN">免费的编程中文书籍索引</a>
+            <a href="https://github.com/CodingDocs/awesome-cs?tab=readme-ov-file">计算机优质书籍搜罗 + 学习路线推荐</a>
+        </category>
     </seealso>
 </topic>

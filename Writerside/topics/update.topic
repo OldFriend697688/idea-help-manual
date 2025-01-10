@@ -13,9 +13,9 @@
     <p>默认情况下，IntelliJ IDEA 被配置为自动检查更新，并在有新版本可用时通知您。</p>
     <p>更新通常是基于补丁形式的，它们会应用到现有的安装中，您只需要重新启动 <tooltip term="ide">IDE</tooltip> 即可完成更新。</p>
     <p>不过，有时补丁更新可能并不可用，您必须安装新版本的 IntelliJ IDEA。</p>
-    <img src="IntelliJ IDEA 更新设置.png" alt="IntelliJ IDEA 更新设置" width="706" thumbnail="true"/>
+    <img src="https://i.imgur.com/Rqfq6Wk.png" alt="IntelliJ IDEA 更新设置" width="706" thumbnail="true"/>
     <p>当 IntelliJ IDEA 更新到一个新的主要版本时，它将在 <include from="reuse-library.topic" element-id="editor-snippet"/> 中打开 <control>IntelliJ IDEA 最新变化</control> ，以此显示包含有关更改、改进和修复的信息。要手动打开该选项卡，请选择 <ui-path><include from="reuse-library.topic" element-id="main-menus-snippet" /> | 帮助 | IntelliJ IDEA 最新变化。</ui-path></p>
-    <img src="IntelliJ IDEA 最新变化.png" alt="IntelliJ IDEA 最新变化" width="706" thumbnail="true"/>
+    <img src="https://i.imgur.com/5wocCmZ.png" alt="IntelliJ IDEA 最新变化" width="706" thumbnail="true"/>
     <chapter id="toolbox" title="Toolbox App">
         <primary-label ref="Toolbox"/>
         <p>如果您使用 <a href="installation-guide.topic" anchor="toolbox" summary="">使用 Toolbox App 安装 IntelliJ IDEA</a> ，当有新版本可用时，它会建议您更新 <tooltip term="ide">IDE</tooltip> 。</p>
@@ -23,22 +23,22 @@
             <include from="reuse-library.topic" element-id="toolbox-version-download-is-limited-snippet"/>
             <step>
                 <p>打开 Toolbox App 然后单击 <format style="bold">Toolbox App 菜单</format> 。</p>
-                <img src="Toolbox App 菜单.png" alt="Toolbox App 菜单" width="706" thumbnail="true"/>
+                <img src="https://i.imgur.com/8D3RlaZ.png" alt="Toolbox App 菜单" width="706" thumbnail="true"/>
             </step>
             <step>
                 <p>单击 <ui-path>设置</ui-path> ，然后展开 <ui-path>工具</ui-path> 并启用 <ui-path>自动更新所有工具</ui-path> 。</p>
-                <img alt="为 Toolbox App 启用自动更新所有工具选项" src="为 Toolbox App 启用自动更新所有工具选项.gif" width="706" thumbnail="true"/>
+                <img alt="为 Toolbox App 启用自动更新所有工具选项" src="https://i.imgur.com/ZlQjCZq.gif" width="706" thumbnail="true"/>
             </step>
             <step>
                 <p>如果取消 <control>自动更新所有工具</control> ，当工具有新版本出现时，请单击工具名称旁边的 <control>更新</control> 。</p>
-                <img src="Toolbox App 实例旁的更新按钮.png" alt="Toolbox App 实例旁的更新按钮" width="706" thumbnail="true"/>
+                <img src="https://i.imgur.com/IFoRU8D.png" alt="Toolbox App 实例旁的更新按钮" width="706" thumbnail="true"/>
             </step>
         </procedure>
         <note>您甚至还可以为被 Toolbox App 管理的各个 <tooltip term="ide">IDE</tooltip> 分配完全不同的更新策略。&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;</note>
         <procedure title="为特定实例配置更新策略" id="update-specific-tool">
             <step>
-                <p>打开 Toolbox App，单击相关 <tooltip term="ide">IDE</tooltip> 实例旁边的 <img src="Toolbox IDE 设置.png" alt=""/> 然后选择 <ui-path>设置</ui-path> 。</p>
-                <img src="Toolbox App 特定 IDE 实例后的设置选项.png" alt="Toolbox App 特定 IDE 实例后的设置选项" width="706" thumbnail="true"/>
+                <p>打开 Toolbox App，单击相关 <tooltip term="ide">IDE</tooltip> 实例旁边的 <img src="https://i.imgur.com/j4LJL1w.png" alt=""/> 然后选择 <ui-path>设置</ui-path> 。</p>
+                <img src="https://i.imgur.com/uwjJ6FR.png" alt="Toolbox App 特定 IDE 实例后的设置选项" width="706" thumbnail="true"/>
             </step>
             <step>
                 <p>在 <control>设置</control> 中，选择该 IDE 实例要使用的更新通道：</p>
@@ -46,18 +46,18 @@
                     <li>更新为 <format style="bold">发布（Release）</format> 版本：仅更新至建议用于生产环境的稳定版本。</li>
                     <li>更新为 <format style="bold">抢先体验计划 </format> 版本：包含 <tooltip term="rc">发布候选版本</tooltip> 、 <tooltip term="beta">BETA</tooltip> 版本和 <a href="https://www.jetbrains.com/resources/eap/">EAP</a> 版本的更新，强烈不建议将其用于生产环境。</li>
                 </list>
-                <img src="为特定 IDE 实例选择更新通道.png" alt="为特定 IDE 实例选择更新通道" width="706" thumbnail="true"/>
+                <img src="https://i.imgur.com/r6k9ZfH.png" alt="为特定 IDE 实例选择更新通道" width="706" thumbnail="true"/>
             </step>
         </procedure>
     </chapter>
     <chapter id="standalone" title="独立实例">
         <p>如果您 <a href="installation-guide.topic" anchor="standalone" summary="">手动安装了 IntelliJ IDEA</a> ，独立的 <tooltip term="ide">IDE</tooltip> 实例将自行管理更新。当有新版本可用时，它会通过 <control>IntelliJ IDEA 和插件更新</control> 提醒您。您可以选择 <control>更新并重启</control> 、 <control>稍后提醒我</control> 或 <control>忽略这个更新</control> 。</p>
-        <img src="IntelliJ IDEA 和插件更新.png" alt="IntelliJ IDEA 和插件更新" width="706" thumbnail="true"/>
+        <img src="https://i.imgur.com/lMNXJkE.png" alt="IntelliJ IDEA 和插件更新" width="706" thumbnail="true"/>
         <chapter id="update-settings" title="配置更新策略">
             <p>要管理 IntelliJ IDEA 的更新策略，请选择 <ui-path>设置（ <shortcut>Ctrl</shortcut><shortcut>Alt</shortcut><shortcut>S</shortcut> ）| 外观和行为 | 系统设置 | 更新</ui-path> 。</p>
             <note>如果 <tooltip term="ide">IDE</tooltip> 实例由 <format style="bold">Toolbox App</format> 管理，这些设置将仅影响 <a href="managing-plugins.topic" summary="">插件</a> 更新。&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;</note>
             <procedure collapsible="true" default-state="collapsed" title="更新页面包含的设置" id="settings-page">
-                <img src="更新设置界面.png" alt="更新设置界面" width="706" thumbnail="true"/>
+                <img src="https://i.imgur.com/S2Svyhm.png" alt="更新设置界面" width="706" thumbnail="true"/>
                 <table column-width="auto" border="true">
                     <tr>
                         <td>选项</td>
@@ -103,5 +103,6 @@
     </chapter>
     <seealso>
         <include from="reuse-library.topic" element-id="list-of-suggested-seealso-snippet"/>
+        <include from="reuse-library.topic" element-id="associated-websites-snippet"/>
     </seealso>
 </topic>

@@ -14,7 +14,7 @@
     <chapter id="plugins" title="插件">
         <include from="reuse-library.topic" element-id="plugins-install-tips-snippet"/>
         <p>通常，插件是从 <a href="https://plugins.jetbrains.com/">JetBrains 插件库</a> 中下载并进行安装的。不过，您可以在本地网络中设置一个 <a href="managing-plugins.topic" anchor="repos" summary=""/> ，并配置 IntelliJ IDEA 使用它来 <a href="managing-plugins.topic" summary="">安装</a> 和 <a href="managing-plugins.topic" anchor="update-plugin" summary="">更新</a> 插件。您还可以 <a href="managing-plugins.topic" anchor="install-plugin-from-disk" summary=""/> 。</p>
-        <img src="IntelliJ IDEA 欢迎界面中的插件选项.png" alt="IntelliJ IDEA 欢迎界面中的插件选项" width="706" thumbnail="true"/>
+        <img src="https://i.imgur.com/TKvOE9f.png" alt="IntelliJ IDEA 欢迎界面中的插件选项" width="706" thumbnail="true"/>
     </chapter>
     <chapter id="licenses" title="激活许可证">
         <primary-label ref="Ultimate"/>
@@ -63,7 +63,7 @@
         <procedure id="disable-usage-stats" title="禁用匿名使用统计">
             <step>在 <control>设置（ <shortcut>Ctrl</shortcut><shortcut>Alt</shortcut><shortcut>S</shortcut> ）</control> 中选择 <ui-path>外观与行为 | 系统设置 | 数据共享</ui-path> 。</step>
             <step>取消勾选 <ui-path>Send usage statistics</ui-path> 。</step>
-            <img src="为 IntelliJ IDEA 取消数据共享.png" alt="为 IntelliJ IDEA 取消数据共享" width="706" thumbnail="true"/>
+            <img src="https://i.imgur.com/GwJVQqd.png" alt="为 IntelliJ IDEA 取消数据共享" width="706" thumbnail="true"/>
         </procedure>
     </chapter>
     <seealso>

@@ -139,7 +139,11 @@
                 </tr>
                 <tr>
                     <td><a href="https://plugins.jetbrains.com/plugin/11386-alibaba-cloud-toolkit">Alibaba Cloud Toolkit</a></td>
-                    <td>Alibaba Cloud Toolkit 可以帮助开发者更高效地部署、测试、开发和诊断应用。Cloud Toolkit 与主流 IDE 及阿里云其他产品无缝集成，帮助您大大简化应用部署到服务器，尤其是阿里云服务器中的操作。您还可以通过其内嵌的 Arthas 程序诊断、Terminal Shell 终端和 MySQL 执行器等工具，简化应用开发、测试和诊断的过程。</td>
+                    <td>Alibaba Cloud Toolkit 可以帮助开发者更高效地部署、测试、开发和诊断应用。Cloud Toolkit 与主流 <tooltip term="ide">IDE</tooltip> 及阿里云其他产品无缝集成，帮助您大大简化应用部署到服务器，尤其是阿里云服务器中的操作。您还可以通过其内嵌的 Arthas 程序诊断、Terminal Shell 终端和 MySQL 执行器等工具，简化应用开发、测试和诊断的过程。</td>
+                </tr>
+                <tr>
+                    <td><a href="https://plugins.jetbrains.com/plugin/10046-alibaba-java-coding-guidelines">Alibaba Java Coding Guidelines</a></td>
+                    <td>阿里巴巴 Java 代码规范插件。</td>
                 </tr>
                 <tr>
                     <td><a href="https://plugins.jetbrains.com/plugin/23491-converterx">ConverterX</a></td>
@@ -151,12 +155,21 @@
                 </tr>
                 <tr>
                     <td><a href="https://plugins.jetbrains.com/plugin/7125-grep-console">Grep Console</a></td>
-                    <td>Grep Console 专门用于增强 IDE 的控制台日志查看和分析能力。它通过提供高级的过滤、颜色高亮、模式匹配等功能，极大地提升了开发者在处理大量日志信息时的效率。</td>
+                    <td>Grep Console 专门用于增强 <tooltip term="ide">IDE</tooltip> 的控制台日志查看和分析能力。它通过提供高级的过滤、颜色高亮、模式匹配等功能，极大地提升了开发者在处理大量日志信息时的效率。</td>
                 </tr>
                 <tr>
                     <td><a href="https://plugins.jetbrains.com/plugin/7160-camelcase">CamelCase</a></td>
                     <td>用于快速实现驼峰式命名（CamelCase）和下划线命名（snake_case）之间的转换。它能大大提高开发效率，确保代码风格的一致性。</td>
                 </tr>
+                <tr>
+                    <td><a href="https://plugins.jetbrains.com/plugin/24648-xcodemap">XCodeMap</a></td>
+                    <td>新一代源码重现及调试工具。</td>
+                </tr>
+                <tr>
+                    <td><a href="https://plugins.jetbrains.com/plugin/12798-tabnine-ai-chat--autocomplete-for-javascript-python--more">Tabnine</a></td>
+                    <td>Tabnine 是由您控制的人工智能代码助手--帮助各种规模的开发团队利用人工智能加速和简化软件开发流程，同时不牺牲隐私、安全或合规性。</td>
+                </tr>
+               
               </table>
         </procedure>
     </chapter>

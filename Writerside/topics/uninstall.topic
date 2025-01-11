@@ -11,13 +11,13 @@
                 <list type="decimal">
                     <li>
                         <p>在 <control>控制面板</control> 中打开 <ui-path>程序和功能</ui-path> ，选择 IntelliJ IDEA 应用程序并单击 <control>卸载</control> 。</p>
-                        <img alt="在 Windows 程序和面板中卸载 IntelliJ IDEA" src="https://i.imgur.com/ekPYoSH.png" width="706" thumbnail="true"/>
-                        <img alt="在 Windows 程序和面板中卸载 IntelliJ IDEA" src="https://i.imgur.com/m5B5jD0.png" thumbnail="true" width="706"/>
-                        <img alt="在 Windows 程序和面板中卸载 IntelliJ IDEA" src="https://i.imgur.com/AYbt3pv.png" thumbnail="true" width="706"/>
+                        <img alt="在 Windows 程序和面板中卸载 IntelliJ IDEA" src="https://i.imgur.com/ekPYoSH.png" width="706" thumbnail="true" border-effect="rounded"/>
+                        <img alt="在 Windows 程序和面板中卸载 IntelliJ IDEA" src="https://i.imgur.com/m5B5jD0.png" thumbnail="true" width="706" border-effect="rounded"/>
+                        <img alt="在 Windows 程序和面板中卸载 IntelliJ IDEA" src="https://i.imgur.com/AYbt3pv.png" thumbnail="true" width="706" border-effect="rounded"/>
                     </li>
                     <li>
                         <p>您还可以手动运行 <path>bin</path> 文件夹中 <path>Uninstall.exe</path> 进行卸载。</p>
-                        <img alt="通过 bin 文件夹中的 Uninstall 卸载 IntelliJ IDEA" src="https://i.imgur.com/5Za3kur.png" width="706" thumbnail="true"/>
+                        <img alt="通过 bin 文件夹中的 Uninstall 卸载 IntelliJ IDEA" src="https://i.imgur.com/5Za3kur.png" width="706" thumbnail="true" border-effect="rounded"/>
                     </li>
                     <li>
                         <p>勾选卸载后需要被一并移除的内容，然后单击 <control><format style="underline">U</format>ninstall</control> 。</p>
@@ -26,11 +26,11 @@
                             <li>移除 IntelliJ IDEA 2022.3.3 的相关设置以及已安装的 <a href="managing-plugins.topic" summary="">插件</a> 。</li>
                             <li>参与卸载反馈。（ <format style="bold" color="Crimson">通常无需勾选</format> ）</li>
                         </list>
-                        <img alt="在 Windows 平台上卸载 IntelliJ IDEA" src="https://i.imgur.com/d5NmsMb.png" width="706" thumbnail="true"/>
+                        <img alt="在 Windows 平台上卸载 IntelliJ IDEA" src="https://i.imgur.com/d5NmsMb.png" width="706" thumbnail="true" border-effect="rounded"/>
                     </li>
                     <li>
                         <p>卸载完成后单击 <control>Close</control> 完成卸载。如有需要可以单击 <control>Show <format style="underline">d</format>etails</control> 查看详细内容。</p>
-                        <img alt="在 Windows 平台上卸载 IntelliJ IDEA" src="https://i.imgur.com/0tXo6NI.png" width="706" thumbnail="true"/>
+                        <img alt="在 Windows 平台上卸载 IntelliJ IDEA" src="https://i.imgur.com/0tXo6NI.png" width="706" thumbnail="true" border-effect="rounded"/>
                     </li>
                     <li>
                         <p>删除以下文件夹（可选）：</p>
@@ -44,7 +44,7 @@
                                 <p>C:\Users\OldFriend\AppData\Local\JetBrains\IntelliJIdea2022.3</p>
                             </def>
                         </deflist>
-                        <video src="https://www.youtube.com/watch?v=U8XQXztfDVc" width="706"/>
+                        <video src="https://www.youtube.com/watch?v=U8XQXztfDVc" width="706" border-effect="rounded"/>
                     </li>
                 </list>
             </tab>
@@ -94,8 +94,8 @@
         <procedure type="choices" id="uninstall-step">
             <include from="reuse-library.topic" element-id="toolbox-version-download-is-limited-snippet"/>
             <step>打开 Toolbox App，单击实例后方的 <img src="toolbox app 更多按钮.svg" alt=""/> ，然后选择 <ui-path>卸载</ui-path> 。</step>
-            <img alt="单击实例中卸载按钮卸载实例" src="https://i.imgur.com/gFG8lMq.png" width="706" thumbnail="true"/>
-            <video src="https://www.youtube.com/watch?v=s9_MJQr0Utg" width="706"/>
+            <img alt="单击实例中卸载按钮卸载实例" src="https://i.imgur.com/gFG8lMq.png" width="706" thumbnail="true" border-effect="rounded"/>
+            <video src="https://www.youtube.com/watch?v=s9_MJQr0Utg" width="706" border-effect="rounded"/>
         </procedure>
     </chapter>
     <chapter title="在 Linux 上卸载 Snap 包" id="snap">

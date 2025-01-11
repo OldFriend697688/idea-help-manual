@@ -9,15 +9,15 @@
         <description>完全中文化帮助手册，全面覆盖基础至高级的各方面知识。</description>
 
         <spotlight>
-            <a href="register.topic" type="key" summary="注册 IntelliJ IDEA，摆脱试用限制，尽享高效开发。"/>
+            <a href="register.topic" type="key" summary="激活 IntelliJ IDEA，摆脱试用限制，尽享高效开发。"/>
             <a href="working-offline.topic" type="world" summary="即使在没有网络的环境中 IntelliJ IDEA 的大部分功能也依旧可用。" />
         </spotlight>
 
         <primary>
             <title>快速开始</title>
             <a href="installation-guide.topic" summary="根据您的操作系统，选择合适的 IntelliJ IDEA 安装方式。">安装 IntelliJ IDEA</a>
-            <a href="installation-guide.topic" summary="安装简体中文语言包，改善使用体验，降低学习门槛。" anchor="simplified-chinese-language" />
-            <a href="user-interface-themes.topic" summary="安装个性化主题，告别单调的界面，打造专属的视觉体验。">主题</a>
+            <a href="installation-guide.topic" summary="启用简体中文语言包，改善使用体验，降低学习门槛。" anchor="simplified-chinese-language" />
+            <a href="user-interface-themes.topic" summary="启用个性化主题，告别单调的界面，打造专属的视觉体验。">主题</a>
             <a href="guided-tour-around-the-user-interface.topic" summary="掌握 IntelliJ IDEA 用户界面的主要构成，提高开发效率。"/>
             <a href="setting-background-image.topic" summary="用个性背景图美化您的 IntelliJ IDEA。"/>
             <a href="tool-window.topic" summary="工具窗口为您提供了一个直观且便捷的界面，让您可以轻松地浏览项目结构、运行调试应用程序、进行代码分析，以及与各种外部工具进行交互，从而大大提高您的开发效率。"/>
@@ -78,6 +78,7 @@
                     <title>推荐网站</title>
                     <a href="https://github.com/PKUFlyingPig/cs-self-learning">CS 自学指南</a>
                     <a href="https://javabetter.cn/">二哥的 Java 进阶之路</a>
+                    <a href="https://github.com/xiaolincoder/CS-Base">小林 x 图解计算机基础</a>
                     <a href="https://github.com/justjavac/free-programming-books-zh_CN">免费的编程中文书籍索引</a>
                     <a href="https://github.com/CodingDocs/awesome-cs?tab=readme-ov-file">计算机优质书籍搜罗 + 学习路线推荐</a>
                 </group>

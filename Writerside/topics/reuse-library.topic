@@ -18,7 +18,7 @@
     <!-- 快捷键优先级未定义提示-->
     <snippet id="shortcut-key-priority-tips-snippet">
         <warning>您可以忽略冲突并为多个操作分配相同快捷键。但是，建议您避免使用相同的快捷键绑定两个操作，因为这些操作的优先级并未定义。</warning>
-        <video src="https://www.youtube.com/watch?v=wRKNspj_-dU" width="706"/>
+        <video border-effect="rounded" src="https://www.youtube.com/watch?v=wRKNspj_-dU" width="706"/>
     </snippet>
 
     <!-- 查找工具窗口 -->
@@ -128,7 +128,7 @@
         <p>有关从命令行运行 IntelliJ IDEA 的信息，请参阅 <a href="working-with-the-ide-features-from-command-line.topic" summary=""/> 。</p>
         <p>启动 IntelliJ IDEA 后，您将看到 <control>欢迎界面</control> ，这是您使用 <tooltip term="ide">IDE</tooltip> 和配置其设置的起点。</p>
         <p>关闭所有已打开的项目时也会出现该界面。您可以单击左侧的选项卡切换至特定的功能对话框。</p>
-        <img src="https://i.imgur.com/Vn0z3ez.png" alt="IntelliJ IDEA 欢迎界面" width="706" thumbnail="true"/>
+        <img border-effect="rounded" src="https://i.imgur.com/Vn0z3ez.png" alt="IntelliJ IDEA 欢迎界面" width="706" thumbnail="true"/>
     </snippet>
 
     <!-- 配置自定义快速列表 -->
@@ -157,16 +157,16 @@
                     </list>
                 </step>
                 <step>单击 <control>确定</control> 保存更改。</step>
-                <video src="https://www.youtube.com/watch?v=wbDyS0xZbbU" width="706"/>
+                <video border-effect="rounded" src="https://www.youtube.com/watch?v=wbDyS0xZbbU" width="706"/>
             </procedure>
             <procedure title="为快速列表分配快捷键" id="quick-list-shortcut">
                 <step>在 <control>设置 （ <shortcut>Ctrl</shortcut><shortcut>Alt</shortcut><shortcut>S</shortcut> ）</control> 中选择 <ui-path><a href="mastering-keyboard-shortcuts.topic" summary="">按键映射</a></ui-path> 。</step>
                 <step>展开 <ui-path>快速列表</ui-path> 节点并选择目标快速列表，鼠标右键单击并选择 <ui-path>添加键盘快捷键</ui-path> 。</step>
                 <step>单击 <ui-path>确定</ui-path> 保存更改。</step>
                 <step>在 <include from="reuse-library.topic" element-id="editor-snippet" /> 中，按下分配的快捷键以便调用快速列表。</step>
-                <video src="https://www.youtube.com/watch?v=Sg_utwZdkZU" width="706"/>
+                <video border-effect="rounded" src="https://www.youtube.com/watch?v=Sg_utwZdkZU" width="706"/>
                 <note>如果不记得快速列表的快捷键，可以按 <shortcut>Shift</shortcut> 两次，然后键入快速列表名称搜索它。&nbsp;</note>
-                <img src="https://i.imgur.com/htXZ8n8.png" alt="搜索快速列表" width="706" thumbnail="true"/>
+                <img border-effect="rounded" src="https://i.imgur.com/htXZ8n8.png" alt="搜索快速列表" width="706" thumbnail="true"/>
             </procedure>
         </chapter>
     </snippet>
@@ -230,7 +230,7 @@
             <step>
                 <p>选择 <ui-path><include from="reuse-library.topic" element-id="main-menus-snippet"/> | 编辑 | 查找 | 结构搜索</ui-path> 以打开 <control>结构搜索</control> 。</p>
                 <note>在 <control>结构搜索</control> 中单击 <img src="刷新.svg" alt=""/> 按钮快速可切换至 <control>结构替换</control> 。&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;</note>
-                <video src="https://www.youtube.com/watch?v=QcOUjW25lZw" width="706"/>
+                <video border-effect="rounded" src="https://www.youtube.com/watch?v=QcOUjW25lZw" width="706"/>
             </step>
             <step>
                 <p>在 <control>结构搜索</control> 中，可执行如下操作之一：</p>
@@ -238,34 +238,34 @@
                     <li>
                         <p><format style="italic" color="Crimson">从头开始创建新的模板</format></p>
                         <p>可以从模板列表中选择 <ui-path>草稿模板</ui-path> ，然后在模板的编辑区域中，键入代码模板（注： 使用 <code>$variable$</code> 表示模板中的查找变量），在的工具栏中单击 <img src="保存.svg" alt=""/> 以供将来重复使用。同时，如果需要可以将它保存为 <a href="inspections-settings.topic" summary=""/> 。</p>
-                        <img src="https://i.imgur.com/JQ9eref.png" alt="结构搜索对话框" width="706" thumbnail="true"/>
+                        <img border-effect="rounded" src="https://i.imgur.com/JQ9eref.png" alt="结构搜索对话框" width="706" thumbnail="true"/>
                         <p>IntelliJ IDEA 会将创建以及使用过的模板添加至 <ui-path>最近</ui-path> 节点中。</p>
-                        <img src="https://i.imgur.com/y5AJn3a.png" alt="结构搜索对话框中最近添加的模板" width="706" thumbnail="true"/>
+                        <img border-effect="rounded" src="https://i.imgur.com/y5AJn3a.png" alt="结构搜索对话框中最近添加的模板" width="706" thumbnail="true"/>
                     </li>
                     <li>
                         <p><format style="italic" color="Crimson">使用现有模板之一作为原型</format></p>
                         <p>在可用的现有模板列表中，选择所需的模板。现在，让我们查找 <tooltip term="java-class">类</tooltip> 中的某个 <tooltip term="java-field">字段</tooltip> 。在现有的模板列表中，单击 <ui-path>Java</ui-path> 并打开 <ui-path>基于类</ui-path> 然后找到并选择其中的 <ui-path>类的字段</ui-path> 。</p>
-                        <img src="https://i.imgur.com/7gA8ZHe.png" alt="已预设的基于类的字段进行查找的模板" width="706" thumbnail="true"/>
+                        <img border-effect="rounded" src="https://i.imgur.com/7gA8ZHe.png" alt="已预设的基于类的字段进行查找的模板" width="706" thumbnail="true"/>
                         <p>单击 <control>查找</control> ，将会突出显示找到的所有匹配字段。</p>
-                        <video src="https://www.youtube.com/watch?v=SFC4wna_f88" width="706"/>
+                        <video border-effect="rounded" src="https://www.youtube.com/watch?v=SFC4wna_f88" width="706"/>
                     </li>
                 </list>
             </step>
             <step>
                 <control>结构搜索</control> 显示选定的模板以及模板中使用的过滤器的值，可以编辑现有过滤器或添加新的过滤条件，例如：添加一些 <tooltip term="regex">正则表达式</tooltip> 或脚本约束。可以将插入符号（闪烁光标）放在代码变量处并通过过滤器区域来管理过滤器。
-                <img src="https://i.imgur.com/vt2CwOP.png" alt="在结构搜索对话框中为变量声明过滤规则" width="706" thumbnail="true"/>
+                <img border-effect="rounded" src="https://i.imgur.com/vt2CwOP.png" alt="在结构搜索对话框中为变量声明过滤规则" width="706" thumbnail="true"/>
                 <p>作为示例，让我们为 <code>$Field$</code> 变量声明一个条件。在过滤器区域中单击 <img src="添加.svg" alt=""/> 添加新条件。例如：如果需要添加正则表达式，则应选择 <format style="bold">文本</format> ，在闪烁的键入框中键入需要的条件。例如：键入正则表达式 <code>\b[A-Z].*?\b</code> 。</p>
                 <img src="https://i.imgur.com/9U2tlv1.png" alt="在结构搜索对话框中为目标变量添加过滤规" width="706" thumbnail="true"/> 在这种情况下，当勾选 <ui-path>区分大小写</ui-path> 后，IntelliJ IDEA 将仅搜索包含有大写字符的字段。
-                <video src="https://www.youtube.com/watch?v=zGfbfszkdh8" width="706"/>
+                <video border-effect="rounded" src="https://www.youtube.com/watch?v=zGfbfszkdh8" width="706"/>
                 <p>请注意，根据所选 <tooltip term="programming-language">语言</tooltip> 的不同会有不同的附加选项可用。例如：以下的选项：</p>
                 <list>
                     <li>
                         <ui-path>语言</ui-path> ：使用列表来选择哪些文件类型应成为搜索的一部分。
-                        <img src="https://i.imgur.com/h55Ng35.png" alt="在结构搜索中指定搜索目标文件的类型" width="706" thumbnail="true"/>
+                        <img border-effect="rounded" src="https://i.imgur.com/h55Ng35.png" alt="在结构搜索中指定搜索目标文件的类型" width="706" thumbnail="true"/>
                     </li>
                     <li>
                         <ui-path>目标</ui-path> ：在此选项列表中，选择要搜索的目标。
-                        <img src="https://i.imgur.com/cl40Wc8.png" alt="在结构搜索中指定要搜索的目标" width="706" thumbnail="true"/></li>
+                        <img border-effect="rounded" src="https://i.imgur.com/cl40Wc8.png" alt="在结构搜索中指定要搜索的目标" width="706" thumbnail="true"/></li>
                     <li><ui-path>递归</ui-path> ：如果选中此选项，IntelliJ IDEA 将会执行递归操作，所有嵌套项都将包含在结果中。例如：当搜索方法调用时，启用此选项后，将会在 <code>foo(foo(foo()))</code> 查找嵌套方法调用。禁用此选项后，将仅找到外部方法调用。</li>
                     <li><ui-path>注入的代码</ui-path> ：如果勾选此选项，则注入的代码（例如： <tooltip term="html">HTML</tooltip> 代码中注入的 <tooltip term="javascript">JavaScript</tooltip> 代码或 <tooltip term="java">Java</tooltip> 中注入的 <tooltip term="sql">SQL</tooltip> ）将会成为搜索过程中的一部分。</li>
                     <li><ui-path>区分大小写</ui-path> ：如果勾选此选项，搜索结果将匹配搜索目标的大小写。</li>
@@ -274,22 +274,22 @@
             </step>
             <step>
                 <p>单击 <control>查找</control> ，IntelliJ IDEA 将会在 <include from="reuse-library.topic" element-id="find-tool-window-snippet" /> 中显示查找结果。</p>
-                <img src="https://i.imgur.com/1gvaXcz.png" alt="在查找工具窗口中显示的查找结果" width="706" thumbnail="true"/>
+                <img border-effect="rounded" src="https://i.imgur.com/1gvaXcz.png" alt="在查找工具窗口中显示的查找结果" width="706" thumbnail="true"/>
                 <note>通过单击 <include from="reuse-library.topic" element-id="find-tool-window-snippet" /> 中的 <control>从模板创建检查</control> ，可以将目标搜索模板添加至 <a anchor="search-template" href="pro-tips.topic" summary="结构搜索检查">结构搜索检查</a> 中，并在以后使用它来检查代码。</note>
-                <video src="https://www.youtube.com/watch?v=jk5GZ7-PZL0" width="706"/>
+                <video border-effect="rounded" src="https://www.youtube.com/watch?v=jk5GZ7-PZL0" width="706"/>
             </step>
         </procedure>
         <procedure id="structural-replace" title="从结构上替换目标" default-state="collapsed" collapsible="true">
             <step>
                 <p>选择 <ui-path><include from="reuse-library.topic" element-id="main-menus-snippet"/> | 编辑 | 查找 | 结构化替换</ui-path> 以打开 <control>结构替换</control> 。</p>
                 <note>在 <control>结构替换</control> 中单击 <img src="刷新.svg" alt=""/> 快速切换至 <control>结构搜索</control> 。&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;</note>
-                <video src="https://www.youtube.com/watch?v=QcOUjW25lZw" width="706"/>
+                <video border-effect="rounded" src="https://www.youtube.com/watch?v=QcOUjW25lZw" width="706"/>
             </step>
             <step>在 <control>结构替换</control> 中，将新的或现有的模板添加至搜索和替换模板区域。可以按照与 <a anchor="to-search-structurally" summary="">搜索模板</a> 相同的方式保存替换模板。</step>
             <step>
                 <p>如果需要在替换模板中为变量添加过滤器，请选中目标变量，并使用过滤器区域来管理过滤器。在过滤器区域中，可以为目标 <a href="search-templates.topic" summary="">过滤器</a> 添加指定条件。</p>
                 <p>例如：下图所示的替换模板可以将找到的模板中的字段替换为小写字符。</p>
-                <img src="https://i.imgur.com/1FAVKds.png" alt="用于将字段从大写替换为小写的替换模板" width="706" thumbnail="true"/>
+                <img border-effect="rounded" src="https://i.imgur.com/1FAVKds.png" alt="用于将字段从大写替换为小写的替换模板" width="706" thumbnail="true"/>
             </step>
             <step>
                 <p>想要缩小替换结果的长度，可以选择以下选项：</p>
@@ -298,11 +298,11 @@
                     <li><ui-path>重新格式化</ui-path> ：自动格式化被替换的代码</li>
                     <li><ui-path>使用静态导入</ui-path> ：尽可能使用 <tooltip term="java-static-import">静态导入</tooltip> 进行替换，例如：勾选该选项后， <tooltip term="java-static-method">静态方法</tooltip><code>Math.abs(i)</code> 的方法调用就会被替换为 <code>abs(i)</code> 。</li>
                 </list>
-                <img src="https://i.imgur.com/1odB6bD.png" alt="结构替换对话框中用于缩短结果长度的选项" width="706" thumbnail="true"/>
+                <img border-effect="rounded" src="https://i.imgur.com/1odB6bD.png" alt="结构替换对话框中用于缩短结果长度的选项" width="706" thumbnail="true"/>
                 <p>勾选必要的选项后，单击 <control>查找</control> ， IntelliJ IDEA 会在 <include from="reuse-library.topic" element-id="find-tool-window-snippet" /> 中显示结果。</p>
             </step>
             <step><p>在 <include from="reuse-library.topic" element-id="find-tool-window-snippet" /> 中，可以进一步处理查找结果，逐个替换找到的内容，或者是一次性替换所有内容，又或者是预览可能的更改。还可以将替换模板添加至 <a href="pro-tips.topic" anchor="search-template" summary="">结构搜索检查</a> 中，并将其作为代码的快速检查修复工具。</p></step>
-            <video src="https://www.youtube.com/watch?v=HNpeVv2uqMM" width="706"/>
+            <video border-effect="rounded" src="https://www.youtube.com/watch?v=HNpeVv2uqMM" width="706"/>
         </procedure>
     </snippet>
 
@@ -316,10 +316,8 @@
             </step>
             <step>在 <control>项目结构（ <shortcut>Ctrl</shortcut><shortcut>Alt</shortcut><shortcut>Shift</shortcut><shortcut>S</shortcut> ）</control> 中选择 <tooltip term="sdk"><ui-path>SDK</ui-path></tooltip> 。</step>
             <step>如果配置了多个 <tooltip term="jdk">JDK</tooltip> ，请选择必要的 JDK 版本，然后单击右侧的 <ui-path>文档路径</ui-path> 。</step>
-            <step>
-                <p>单击 <img src="添加.svg" alt=""/> 并指定已下载文档包的所在文件夹。</p>
-                <img src="https://i.imgur.com/TqlN2yt.png" alt="为 JDK 指定离线文档" width="706" thumbnail="true"/>
-            </step>
+            <step>单击 <img src="添加.svg" alt=""/> 并指定已下载文档包的所在文件夹。</step>
+            <img border-effect="rounded" src="https://i.imgur.com/TqlN2yt.png" alt="为 JDK 指定离线文档" width="706" thumbnail="true"/>
             <step><control>应用</control> 更改并关闭对话框。</step>
         </procedure>
     </snippet>
@@ -328,15 +326,11 @@
     <snippet id="library-open-offline-snippet">
         <procedure id="library-open-offline" title="离线访问 Library（库）文档" collapsible="true" default-state="collapsed" type="steps">
             <step>在 <control>项目结构（ <shortcut>Ctrl</shortcut><shortcut>Alt</shortcut><shortcut>Shift</shortcut><shortcut>S</shortcut> ）</control> 中选择 <tooltip term="library"><ui-path>库</ui-path></tooltip> 。</step>
-            <step>
-                <p>选择要添加离线文档的库，然后单击对话框右侧的 <img src="添加.svg" alt=""/> 。</p>
-                <img src="https://i.imgur.com/X5p7ZAF.png" alt="单击添加按钮为库添加离线文档" width="706" thumbnail="true"/>
-            </step>
+            <step>选择要添加离线文档的库，然后单击对话框右侧的 <img src="添加.svg" alt=""/> 。</step>
+            <img border-effect="rounded" src="https://i.imgur.com/X5p7ZAF.png" alt="单击添加按钮为库添加离线文档" width="706" thumbnail="true"/>
             <step>在打开的对话框中，选择包含离线文档的文件。</step>
-            <step>
-                <p>在 <control>选择所选文件的类别</control> 中，指定离线文档的类别。</p>
-                <img src="https://i.imgur.com/1c2IACY.png" alt="告知 IntelliJ IDEA 库的离线文档类型为 JavaDocs" width="706" thumbnail="true"/>
-            </step>
+            <step>在 <control>选择所选文件的类别</control> 中，指定离线文档的类别。</step>
+            <img border-effect="rounded" src="https://i.imgur.com/1c2IACY.png" alt="告知 IntelliJ IDEA 库的离线文档类型为 JavaDocs" width="706" thumbnail="true"/>
             <step><control>应用</control> 更改并关闭对话框。</step>
         </procedure>
     </snippet>
@@ -352,6 +346,7 @@
         <category ref="associated-websites" >
             <a href="https://github.com/PKUFlyingPig/cs-self-learning">CS 自学指南</a>
             <a href="https://javabetter.cn/">二哥的 Java 进阶之路</a>
+            <a href="https://github.com/xiaolincoder/CS-Base">小林 x 图解计算机基础</a>
             <a href="https://github.com/justjavac/free-programming-books-zh_CN">免费的编程中文书籍索引</a>
             <a href="https://github.com/CodingDocs/awesome-cs?tab=readme-ov-file">计算机优质书籍搜罗 + 学习路线推荐</a>
         </category>

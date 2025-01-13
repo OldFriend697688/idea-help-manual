@@ -19,7 +19,7 @@
     <note>根据 <tooltip term="idea">IDEA</tooltip> 安装的 <a href="managing-plugins.topic" summary="">插件</a> 集、版本和配置设置的不同， <tooltip term="ide">IDE</tooltip> 可能会有不同的外观和行为。&nbsp;&nbsp;&nbsp;&nbsp;</note>
     <chapter title="主菜单" id="main-menus">
         <p>您可以通过主菜单快速调用 IntelliJ IDEA 提供的各项常用功能。</p>
-        <p>您也可以通过在 <control>操作（ <shortcut>Ctrl</shortcut><shortcut>Shift</shortcut><shortcut>A</shortcut> ）</control> 中键入目标操作名称以实现相同的功能调用。</p>
+        <p>您也可以通过在 <control>操作（ <shortcut>Ctrl</shortcut><shortcut>Shift</shortcut><shortcut>A</shortcut> ）</control> 中键入目标操作名称以实现目标功能的调用。</p>
         <p>例如：在 <control>操作</control> 中键入 <ui-path>导航栏</ui-path> ，等待片刻后将会在列表中列举出与 <ui-path>导航栏</ui-path> 相关的所有操作。</p>
         <video src="https://www.youtube.com/watch?v=mK0ZbLqEj9w" width="706" border-effect="rounded"/>
         <note>绝大多数的操作都有与之对应的 <a href="configuring-keyboard-and-mouse-shortcuts.topic" summary="">快捷键</a> ，如果想执行的操作未预设快捷键，请尝试为其设置快捷键或者直接在 <control>操作（ <shortcut>Ctrl</shortcut><shortcut>Shift</shortcut><shortcut>A</shortcut> ）</control> 中键入目标操作的名称，然后在展开的列表中选择需要执行的操作。</note>
@@ -29,11 +29,12 @@
         <p>主窗口集成了代码编辑、调试、构建、 <tooltip term="vcs">版本控制</tooltip> 以及许多其他功能。</p>
         <p>您可以将它理解为是一种容器，用于将 <include from="reuse-library.topic" element-id="main-menus-snippet"/>、<include from="reuse-library.topic" element-id="navigation-bar-snippet"/> 等聚合在一起。</p>
         <p>在主窗口中，可以处理单个 IntelliJ IDEA 项目。您可同时打开多个主窗口以便同时处理多个项目。</p>
-        <p>在默认情况下，主窗口的标题位置将会显示项目名称和当前打开文件的名称。</p>
+        <p>在默认情况下，主窗口的标题位置将会显示当前打开的项目及文件的名称。</p>
         <img alt="主窗口标题位置显示的项目名称和打开文件的名称" src="https://i.imgur.com/aQQn5vN.png" width="706" thumbnail="true" border-effect="rounded"/>
         <p>当项目中存在多个 <a href="creating-and-managing-modules.topic" summary=""/> 时，主窗口的标题位置还将会额外显示相关模块的名称。</p>
         <video src="https://www.youtube.com/watch?v=MHIisxc-eL8" width="706" border-effect="rounded"/>
-        <p>如果要显示当前打开项目及文件的完整路径， 请勾选 <ui-path>设置（ <shortcut>Ctrl</shortcut><shortcut>Alt</shortcut><shortcut>S</shortcut> ） | 外观与行为 | 外观 | 始终在窗口标题中显示完整路径</ui-path> 。</p>
+        <p>您可勾选 <ui-path>设置（ <shortcut>Ctrl</shortcut><shortcut>Alt</shortcut><shortcut>S</shortcut> ） | 外观与行为 | 外观 | 始终在窗口标题中显示完整路径</ui-path> 以显示当前打开项目及文件的完整路径。</p>
+        <img src="https://i.imgur.com/j8UkHBD.png" alt="始终在窗口标题中显示完整路径" width="706" thumbnail="true"/>
         <video src="https://www.youtube.com/watch?v=Kne0jZxIjIg" width="706" border-effect="rounded"/>
     </chapter>
     <chapter title="导航栏" id="navigation-bar">
@@ -58,8 +59,8 @@
     <chapter title="编辑器" id="editor">
         <tldr><p>获取焦点： <shortcut>Esc</shortcut></p></tldr>
         <note>
-            <p>IntelliJ IDEA 提供的是高级编辑器而非普通的 <tooltip term="plain-text-editor">纯文本编辑器</tooltip> ，这意味着它具有 <tooltip term="code-completion">智能代码补全</tooltip> 、 <tooltip term="code-highlighting">代码高亮</tooltip> 、 <tooltip term="code-formatting">代码格式化</tooltip> 、 <tooltip term="idea-code-refactoring">代码重构</tooltip> 等功能。</p>
-            <p>尽管可用功能非常之多，但它们都是开箱即用的，因此无需任何额外配置。</p>
+            <p>IntelliJ IDEA 提供的是高级编辑器而非普通的 <tooltip term="plain-text-editor">纯文本编辑器</tooltip> ，这意味着它具有 <tooltip term="code-completion">智能代码补全</tooltip> 、 <tooltip term="code-highlighting">代码高亮</tooltip> 、 <tooltip term="code-formatting">代码格式化</tooltip> 、 <tooltip term="idea-code-refactoring">代码重构</tooltip> 等高级功能。</p>
+            <p>尽管可用功能非常之多，但它们都是开箱即用的，您无需进行任何额外配置。</p>
         </note>
         <p><a href="using-code-editor.topic" summary="">编辑器</a> 是 IntelliJ IDEA 的核心功能，它提供了一个强大、智能和高度可配置的代码编写环境。</p>
         <p>以下是 IntelliJ IDEA 中编辑器的一些特点和功能：</p>
@@ -96,9 +97,9 @@
     <chapter title="状态栏" id="status-bar">
         <tldr><p>隐藏/显示： <ui-path><include from="reuse-library.topic" element-id="main-menus-snippet"/> | 视图 | 外观 | 状态栏</ui-path></p></tldr>
         <video src="https://www.youtube.com/watch?v=haF47YiwqtE" width="706" border-effect="rounded"/>
-        <p>当将鼠标悬停在状态栏上时，<include from="reuse-library.topic" element-id="main-windows-snippet"/> 底部状态栏的左侧部分将显示最新的事件消息和操作描述。</p>
+        <p>当将鼠标悬停在状态栏上时，它的左侧部分将显示最新的事件消息和操作描述信息。</p>
         <p>鼠标左键单击状态栏中的信息将可以在 <include from="reuse-library.topic" element-id="notifications-tool-windows-snippet"/> 中查看该信息。</p>
-        <p>鼠标右键单击状态栏中的消息并选择 <ui-path>复制</ui-path> ，可将其作为搜索问题的解决方案或是使用 <a href="https://youtrack.jetbrains.com/" summary="这是一个功能丰富的项目管理和团队协作工具，可用于跟踪错误、管理任务和与团队成员协作。它提供两种部署选项：云端部署和本地部署。对于最多 10 个用户，它是免费的。">问题跟踪器</a> 时粘贴的消息文本。</p>
+        <p>鼠标右键单击状态栏中的消息并选择 <ui-path>复制</ui-path> ，可将其作为搜索问题的解决方案或是使用 <a href="https://youtrack.jetbrains.com/" summary="">问题跟踪器</a> 时粘贴的消息文本。</p>
         <video src="https://www.youtube.com/watch?v=N0ZIhcswyYQ" width="706" border-effect="rounded"/>
         <p>使用 <img src="显示工具栏按钮.svg" alt=""/> 和 <img src="隐藏工具栏按钮.svg" alt=""/> 可以在 <include from="reuse-library.topic" element-id="tool-window-snippet"/> 之间进行切换并隐藏或显示工具窗口栏。</p>
         <video src="https://www.youtube.com/watch?v=jgdkJlJVyyc" width="706" border-effect="rounded"/>
@@ -108,7 +109,7 @@
         <img alt="状态栏及其微件" src="https://i.imgur.com/D2jRXaK.png" width="706" thumbnail="true" border-effect="rounded"/>
         <procedure title="微件列表" id="widget-list">
             <note>
-                <p>根据插件集和配置设置的不同，这些微件提供的设置和行为可能会有所不同。&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;</p>
+                <p>根据 <a href="managing-plugins.topic" summary="">插件</a> 集和配置设置的不同，这些微件提供的设置和行为可能会有所不同。&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;</p>
                 <p>您可以右键单击状态栏，然后选择需要隐藏或显示的微件。</p>
             </note>
             <table id="widget-list-table" column-width="fixed">
@@ -117,13 +118,13 @@
                     <td>用途描述</td>
                 </tr>
                 <tr>
-                    <td><format style="bold">52:11</format></td>
+                    <td><ui-path>52:11</ui-path></td>
                     <td>
                         <p>显示 <include from="reuse-library.topic" element-id="editor-snippet"/> 中当前光标闪烁位置的行号和列号。</p>
                         <p>单击数字（或按 <shortcut>Ctrl</shortcut><shortcut>G</shortcut> ）后可以自行调整并移动光标至指定的行和列位置。</p>
                         <p>如果在编辑器中选中的是一个代码片段，它还将额外显示所选代码片段中的总字符数和总换行符数。</p>
                         <video src="https://www.youtube.com/watch?v=C2t1OixBv0w" border-effect="rounded"/>
-                        <note>当文件内容过多时您可能会迷失当前光标闪烁位置，请按 <shortcut>Ctrl</shortcut><shortcut>M</shortcut> 快速定位至当前光标闪烁位置。</note>
+                        <note>当文件内容过多时您可能会丢失当前光标闪烁位置，请按 <shortcut>Ctrl</shortcut><shortcut>M</shortcut> 快速定位至当前光标闪烁位置。</note>
                         <video src="https://www.youtube.com/watch?v=JO6kaO25__E" border-effect="rounded"/>
                     </td>
                 </tr>
@@ -143,13 +144,14 @@
                     <td>
                         <p>显示当前文件正在使用的文件编码，单击此微件可以更改文件编码。</p>
                         <video src="https://www.youtube.com/watch?v=OBYn9tjk5yA" border-effect="rounded"/>
-                        <note>在实际的设置中，请选择彼此之间相互兼容的文件编码，否则将导致文件中的内容乱码。</note>
+                        <note>请选择彼此相互兼容的文件编码，否则将导致文件内容乱码。</note>
                     </td>
                 </tr>
                 <tr>
                     <td>列</td>
                     <td>
-                        <p>表示当前编辑器选项卡已启用列选择模式，可以通过按 <shortcut>Alt</shortcut><shortcut>Shift</shortcut><shortcut>Insert</shortcut> 来启用和关闭此模式。</p>
+                        <p>表示当前编辑器标签页已启用列选择模式。</p>
+                        <p>可以通过按 <shortcut>Alt</shortcut><shortcut>Shift</shortcut><shortcut>Insert</shortcut> 来启用和关闭此模式。</p>
                         <video src="https://www.youtube.com/watch?v=QujaNQyz-wQ" border-effect="rounded"/>
                     </td>
                 </tr>
@@ -180,7 +182,8 @@
                 <tr>
                     <td><img src="https://i.imgur.com/tiVuDU3.png" alt=""/></td>
                     <td>
-                        <p>用于显示 IntelliJ IDEA 在堆内存总量中消耗的内存量，更多信息，请参阅 <a href="increasing-memory-heap.topic" summary=""/> 。</p>
+                        <p>用于显示 IntelliJ IDEA 在堆内存总量中消耗的内存量。</p>
+                        <p>更多信息，请参阅 <a href="increasing-memory-heap.topic" summary=""/> 。</p>
                         <video src="https://www.youtube.com/watch?v=Qaf-o8nxdAM" border-effect="rounded"/>
                     </td>
                 </tr>
@@ -195,25 +198,27 @@
         <tldr><p>隐藏/显示： <ui-path><include from="reuse-library.topic" element-id="main-menus-snippet"/> | 视图 | <include from="reuse-library.topic" element-id="tool-window-snippet"/> | 工具窗口名</ui-path></p></tldr>
         <include from="reuse-library.topic" element-id="tool-window-snippet"/> 提供的功能是对代码编辑的补充，例如：<include from="reuse-library.topic" element-id="project-tool-window-snippet"/> 用于显示项目的结构，而 <include from="reuse-library.topic" element-id="run-tool-windows-snippet"/> 则用于显示程序运行时的输出结果。
         <img src="https://i.imgur.com/xeUhXIZ.png" alt="项目工具窗口" width="706" thumbnail="true" border-effect="rounded"/>
-        <p>默认情况下，工具窗口将会停靠在 <include from="reuse-library.topic" element-id="main-windows-snippet"/> 的两侧和底部。您可以根据个人习惯重新排列、取消停靠、调整大小或者是隐藏它们。您可以通过鼠标右键单击工具窗口标题或者是鼠标左键单击标题中的 <img src="设置.svg" alt=""/> 查看其支持的排列选项。</p>
+        <p>默认情况下，工具窗口将会停靠在 <include from="reuse-library.topic" element-id="main-windows-snippet"/> 的两侧和底部。您可以根据个人习惯重新排列、取消停靠、调整大小或者是隐藏它们。</p>
+        <p>您可以通过鼠标右键单击工具窗口标题或者是鼠标左键单击标题中的 <img src="设置.svg" alt=""/> 查看其支持的排列选项。</p>
         <video src="https://www.youtube.com/watch?v=eA2ZODgt3bk" width="706" border-effect="rounded"/>
         <p>您可以为这些工具窗口指定 <a href="configuring-keyboard-and-mouse-shortcuts.topic" summary="">快捷键</a> ，以便快速访问常用的工具窗口。</p>
         <p>一些工具窗口已预设快捷键，例如：按 <shortcut>Alt</shortcut><shortcut>1</shortcut> 可以快速打开或隐藏 <include from="reuse-library.topic" element-id="project-tool-window-snippet"/>，又例如说想要打开或隐藏 <a href="terminal-emulator.topic" summary="">终端工具窗口</a> 则只需要按 <shortcut>Alt</shortcut><shortcut>F12</shortcut> 即可。如果想要从 <include from="reuse-library.topic" element-id="editor-snippet"/> 快速跳转到上一个活动工具窗口，请按 <shortcut>F12</shortcut> 。</p>
         <video src="https://www.youtube.com/watch?v=9E4rI5A8I74" width="706" border-effect="rounded"/>
     </chapter>
     <chapter title="弹出菜单" id="popup-menus">
-        <note>分辨弹出菜单和上下文菜单的最简单方法是：上下文菜单不会在菜单的顶部位置标识任何名称。而 <control>重构此（ <shortcut>Ctrl</shortcut><shortcut>Alt</shortcut><shortcut>Shift</shortcut><shortcut>T</shortcut> ）</control> 弹出菜单正上方的名称正是 <control>重构此</control> 。</note>
+        <note>上下文菜单不会在菜单的标题位置标识任何名称，而弹出菜单则会在标题位置标识它的名称。例如： <control>重构此（ <shortcut>Ctrl</shortcut><shortcut>Alt</shortcut><shortcut>Shift</shortcut><shortcut>T</shortcut> ）</control> 弹出菜单 。</note>
         <img alt="重构此弹出菜单" src="https://i.imgur.com/twGDzm3.png" width="706" thumbnail="true" border-effect="rounded"/>
         <p>弹出菜单可以快速访问与当前上下文相关的操作，可以将它理解为是 <include from="reuse-library.topic" element-id="context-menus-snippet"/> 中某些功能子项的直接快捷方式。例如：在 <include from="reuse-library.topic" element-id="editor-snippet"/> 中选定某个代码片段，然后选中上下文菜单中的 <ui-path>重构</ui-path> 选项和直接打开 <control>重构此</control> （ <shortcut>Ctrl</shortcut><shortcut>Alt</shortcut><shortcut>Shift</shortcut><shortcut>T</shortcut> ）弹出菜单时提供的功能实际上是基本一致的。</p>
+        <img thumbnail="true" src="https://imgur.com/RLbUyLj.png" alt="重构选项和重构此弹出菜单" border-effect="rounded" width="706"/>
         <p>除了可以使用预设的弹出菜单外，您还可以为个人常用的操作创建 <a anchor="configure-quick-lists" summary="快速列表是一个弹出菜单，其中包含一组自定义的 IntelliJ IDEA 操作。可以将其视为自定义菜单或工具栏，并为其指定快捷键以便快速访问。"/> 。</p>
-        <p>IntelliJ IDEA 中有很多弹出菜单，以下列举的是一些使用频次较高的预设弹出菜单：</p>
+        <p>以下是 IntelliJ IDEA 中一些使用频次较高的预设弹出菜单：</p>
         <list>
             <li>
-                <p>使用 <control>生成</control> （ <shortcut>Alt</shortcut><shortcut>Insert</shortcut> ） 将可以根据上下文生成模板代码。</p>
+                <p>使用 <control>生成（ <shortcut>Alt</shortcut><shortcut>Insert</shortcut> ）</control> 将可以根据上下文生成模板代码。</p>
                 <video src="https://www.youtube.com/watch?v=a8jGNA6lPOE" width="706" border-effect="rounded"/>
             </li>
             <li>
-                <p>使用 <control>重构此</control> （ <shortcut>Ctrl</shortcut><shortcut>Alt</shortcut><shortcut>Shift</shortcut><shortcut>T</shortcut> ）将可以根据上下文提供可用的重构选项列表。</p>
+                <p>使用 <control>重构此（ <shortcut>Ctrl</shortcut><shortcut>Alt</shortcut><shortcut>Shift</shortcut><shortcut>T</shortcut> ）</control> 将可以根据上下文提供可用的重构选项列表。</p>
                 <video src="https://www.youtube.com/watch?v=s7tgMwpLgpA" width="706" border-effect="rounded"/>
             </li>
             <li>
@@ -225,13 +230,15 @@
                 <video src="https://www.youtube.com/watch?v=R3bXb7tIuQs" width="706" border-effect="rounded"/>
             </li>
             <li>
-                <p>打开 <control>切换 （ <shortcut>Ctrl</shortcut><shortcut>`</shortcut> ）</control> 后按 <ui-path>5</ui-path> 进入 <control>主题</control> 可以快速为 IntelliJ IDEA 切换 <a href="user-interface-themes.topic" summary="">主题</a> 。</p>
+                <p>打开 <control>切换 （ <shortcut>Ctrl</shortcut><shortcut>`</shortcut> ）</control> 后按 <ui-path>5</ui-path> 进入 <ui-path>主题</ui-path> 可以快速为 IntelliJ IDEA 切换 <a href="user-interface-themes.topic" summary="">主题</a> 。</p>
                 <video src="https://www.youtube.com/watch?v=-HJSUSO6jDU" width="706" border-effect="rounded"/>
             </li>
         </list>
+        <!-- 自定义快速列表 -->
         <include from="reuse-library.topic" element-id="configure-quick-lists-snippet"/>
     </chapter>
     <chapter title="上下文菜单" id="context-menus">
+        <note>上下文菜单不会使用任何字符标识其名称。但是， <a anchor="popup-menus" summary=""/> 会在标题位置标识它的名称。</note>
         <p>通过鼠标右键单击用户界面上的各个元素，将可以查看与当前上下文相关的可用操作。例如：鼠标右键单击 <include from="reuse-library.topic" element-id="project-tool-window-snippet"/> 中的文件，将可以查看与该文件相关的操作。鼠标右键单击 <include from="reuse-library.topic" element-id="editor-snippet"/>，将可以查看适用于当前选中代码片段的可用操作。</p>
         <video src="https://www.youtube.com/watch?v=GGg1Nps7cO4" width="706" border-effect="rounded"/>
         <note>这些操作大多都可以通过 <include from="reuse-library.topic" element-id="main-menus-snippet"/> 或 <include from="reuse-library.topic" element-id="main-windows-snippet"/> 执行。带有 <a href="mastering-keyboard-shortcuts.topic" summary=""/> 的操作会在操作名称旁边显示快捷键。在实际应用中，可以更高效的通过快捷键来执行这些操作，而不是通过上下文菜单来执行它们。</note>

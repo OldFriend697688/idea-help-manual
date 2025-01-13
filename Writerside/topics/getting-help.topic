@@ -50,14 +50,14 @@
         <p>如果您无法通过互联网访问在线文档，可以尝试使用 <a href="https://plugins.jetbrains.com/plugin/10260-intellij-idea-help">IntelliJ IDEA 离线帮助插件</a> ，它将通过内置的 Web 服务器提供帮助页面，以便离线使用。</p>
         <img src="https://i.imgur.com/0Qm1Ia6.png" alt="IntelliJ IDEA Help 插件" width="706" thumbnail="true" border-effect="rounded"/>
         <warning>此插件将在 IntelliJ IDEA 发布新的主要版本时同步更新。在发布周期内添加至在线帮助文档中的更改可能在离线帮助文档中不可用。</warning>
-        <video src="https://www.youtube.com/watch?v=adYsa7FNe2s" width="706"border-effect="rounded"/>
+        <video src="https://www.youtube.com/watch?v=adYsa7FNe2s" width="706" border-effect="rounded"/>
     </procedure>
     <procedure title="通过 IDE 访问在线文档" id="open-help">
         <p>要从 IntelliJ IDEA 中访问在线帮助文档，请执行以下操作之一：</p>
         <step>选择 <ui-path><include from="reuse-library.topic" element-id="main-menus-snippet"/> | 帮助 | 帮助</ui-path> 。</step>
         <step>在 IntelliJ IDEA 中按 <shortcut>F1</shortcut> 。</step>
         <step>单击 <a href="guided-tour-around-the-user-interface.topic" anchor="tool-windows" summary=""/> 或对话框中的 <img src="帮助.svg" alt=""/> 。</step>
-        <video src="https://www.youtube.com/watch?v=Fepv_lNEjsc" width="706"border-effect="rounded"/>
+        <video src="https://www.youtube.com/watch?v=Fepv_lNEjsc" width="706" border-effect="rounded"/>
     </procedure>
     <seealso>
         <category ref="references">

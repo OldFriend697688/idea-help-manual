@@ -5,7 +5,7 @@
        xsi:noNamespaceSchemaLocation="https://resources.jetbrains.com/writerside/1.0/topic.v2.xsd"
        title="简要概述" id="discover-intellij-idea">
     <chapter id="overview" title="概述">
-        <p><a href="https://www.jetbrains.com/zh-cn/idea/">IntelliJ IDEA</a> 是 <tooltip term="java">Java</tooltip> <tooltip term="programming-language">语言</tooltip> 的 <tooltip term="ide">IDE</tooltip> 。其被业界誉为是最好的 Java 开发工具，尤其在 <tooltip term="idea-code-completion">智能代码助手</tooltip> 、 <tooltip term="idea-code-automatic-prompt">代码自动提示</tooltip> 、 <tooltip term="idea-code-refactoring">代码重构</tooltip> 、 <tooltip term="jakarta-ee">Jakarta EE</tooltip> 支持 、 <tooltip term="vcs">版本控制</tooltip> 工具（ <tooltip term="git">Git</tooltip> 、 <tooltip term="svn">SVN</tooltip> 等）、 <tooltip term="unit-test">单元测试</tooltip> （ <tooltip term="JUnit">JUnit</tooltip> 等）、 <tooltip term="code-static-analysis">代码分析</tooltip> 、创新的 <tooltip term="gui">GUI</tooltip> 设计等方面的功能可以说是超常的。</p>
+        <p><a href="https://www.jetbrains.com/zh-cn/idea/">IntelliJ IDEA</a> 是 <tooltip term="java">Java</tooltip> <tooltip term="programming-language">语言</tooltip> 的 <tooltip term="ide">IDE</tooltip> 。其被业界誉为是最好的 Java 开发工具，尤其在 <tooltip term="idea-code-completion">智能代码助手</tooltip> 、 <tooltip term="idea-code-automatic-prompt">代码自动提示</tooltip> 、 <tooltip term="idea-code-refactoring">代码重构</tooltip> 、 <tooltip term="jakarta-ee">Jakarta EE</tooltip> 支持 、 <tooltip term="vcs">版本控制</tooltip> 工具（ <tooltip term="git">Git</tooltip> 、 <tooltip term="svn">SVN</tooltip> 等）、 <tooltip term="unit-test">单元测试</tooltip> （ <tooltip term="JUnit">JUnit</tooltip> 等）、 <tooltip term="code-static-analysis">代码分析</tooltip> 、创新的 <tooltip term="gui">GUI</tooltip> 设计等方面的功能可以说是无与伦比的。</p>
         <img src="IntelliJ-IDEA-Icon.svg" alt="IntelliJ IDEA Logo" width="706" style="block" border-effect="rounded"/>
         <p>IntelliJ IDEA 是由 <tooltip term="jetbrains">JetBrains</tooltip> 公司研发的产品，以严谨著称的东欧程序员是其主要开发者。</p>
         <p>IntelliJ IDEA 有 <format style="bold">社区版</format> 和 <format style="bold">旗舰版</format> 两个主要版本。社区版提供长期免费支持，但在功能丰富程度上不及旗舰版，且支持的 <tooltip term="programming-language">语言</tooltip> 较少。旗舰版包含更多高级功能和更多语言支持，但仅提供 <format style="bold">30</format> 天免费试用，之后则需要购买激活码。</p>
@@ -26,7 +26,7 @@
             <p>您可以通过浏览 <a href="https://plugins.jetbrains.com/marketplace">JetBrains 插件库</a> 查找官方插件，这些插件可为当今使用的几乎所有 <tooltip term="programming-language">语言</tooltip> 、 <tooltip term="framework">框架</tooltip> 或技术提供支持，也可以通过它查找第三方插件。</p>
             <p>有关如何在 IntelliJ IDEA 中管理插件的详细信息，请参阅 <a href="managing-plugins.topic" summary=""/> 。</p>
         </note>
-        <p>现代应用程序的开发涉及同时使用多种语言、工具、框架和技术。</p>
+        <p>现代应用程序的开发涉及同时使用多种语言、工具、 <tooltip term="framework">框架</tooltip> 和技术。</p>
         <p>IntelliJ IDEA 被设计为基于 <tooltip term="jvm">JVM</tooltip> 的语言的 <tooltip term="ide">IDE</tooltip> ，但许多 <a href="managing-plugins.topic" summary="">插件</a> 可以扩展它对其它语言的支持。</p>
         <tabs>
             <tab title="JVM 语言" id="jvm">
@@ -54,7 +54,7 @@
                     <li><a href="https://www.w3.org/html/" summary="HTML 是超文本标记语言，用于创建网页和 Web 应用程序的标准标记语言。">HTML</a></li>
                     <li><a href="https://www.w3.org/XML/" summary="XML 是可扩展标记语言，用于存储和传输数据。">XML</a> 和 <tooltip term="xsl">XSL</tooltip></li>
                     <li><a href="https://www.w3.org/TR/xpath/" summary="XPath 是一种在 XML 文档中查找信息的语言。">XPath</a> 和 <tooltip term="xslt">XSLT</tooltip></li>
-                    <li><a href="http://velocity.apache.org/engine/1.7/user-guide.html" summary="Velocity 是一个基于 Java 的模板引擎，用于生成 Web 页面、电子邮件和其他文本。">Velocity</a> 和 <a href="https://freemarker.apache.org/" summary="FreeMarker 是一个用 Java 编写的模板引擎，用于生成基于模板和变化数据的文本输出，如 HTML 网页、电子邮件、配置文件和源代码等。">FreeMarker</a></li>
+                    <li><a href="https://velocity.apache.org/engine/1.7/user-guide.html" summary="Velocity 是一个基于 Java 的模板引擎，用于生成 Web 页面、电子邮件和其他文本。">Velocity</a> 和 <a href="https://freemarker.apache.org/" summary="FreeMarker 是一个用 Java 编写的模板引擎，用于生成基于模板和变化数据的文本输出，如 HTML 网页、电子邮件、配置文件和源代码等。">FreeMarker</a></li>
                     <li>样式表（ <a href="https://www.w3.org/Style/CSS/" summary="CSS 是一种用于描述 HTML 或 XML 文档样式的样式表语言。Less 和 Sass 是 CSS 的扩展语言，提供了更多的功能。">CSS</a> ， <a href="https://lesscss.org/" summary="LESS 是一种向后兼容的 CSS 语言扩展，提供变量、混入、嵌套、操作等功能，使得编写样式表更加高效和灵活。">LESS</a> ， <a href="https://sass-lang.com/" summary="Sass 是一个成熟且强大的 CSS 扩展语言，它提供了变量、嵌套、混入、扩展等功能，可以极大地提高前端开发的效率。">Sass</a> ）</li>
                     <li><a href="https://dart.dev/" summary="Dart 是一种由 Google 开发的客户端优化的编程语言，用于 Web、服务器、移动应用和物联网。">Dart</a></li>
                     <li><a href="https://www.erlang.org/" summary="Erlang 是一种通用的并发编程语言和运行时环境，用于构建并行、分布式、容错和高可用性的系统。">Erlang</a></li>

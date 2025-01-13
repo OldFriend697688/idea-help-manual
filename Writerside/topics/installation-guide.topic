@@ -122,7 +122,7 @@
             <tab title="macOS" id="macos">
                 <procedure id="macos-standalone-installation-steps">
                     <step><a href="https://www.jetbrains.com/zh-cn/idea/download/other.html">下载映像文件。</a></step>
-                    <note>英特尔和苹果芯片分别有独立的 <tooltip term="image-file">映像文件</tooltip> ，在下载时请注意分辨。&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;</note>
+                    <note>英特尔和苹果芯片分别有独立的 <tooltip term="image-file">映像文件</tooltip> ，在下载时请注意分辨。&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;</note>
                     <img src="https://i.imgur.com/5L8qDEL.png" alt="IntelliJ IDEA 2022.3.3 macOS dmg 映像下载" width="706" thumbnail="true" border-effect="rounded"/>
                     <step>将映像文件挂载并拖动到 <tooltip term="applications">Applications</tooltip> 文件夹。</step>
                     <step>从 Applications 文件夹、 <tooltip term="launchpad">Launchpad</tooltip> 或 <tooltip term="spotlight">Spotlight</tooltip> 中启动 IntelliJ IDEA。</step>

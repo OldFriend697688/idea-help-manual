@@ -18,10 +18,11 @@
         <note>请先阅读 <a href="installation-guide.topic" summary=""/> 并正确安装 IntelliJ IDEA 后再阅读此处内容。 &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;</note>
         <step>启动 IntelliJ IDEA 时将会弹出 <control>许可证</control> ，请勾选 <ui-path>开始试用</ui-path> 。</step>
         <img src="https://i.imgur.com/vJUDz5u.png" alt="开始试用" thumbnail="true" width="706" border-effect="rounded"/>
-        <step>登录在 JetBrains 网站上的帐户，然后在 <control>许可证</control> 中单击 <control>开始试用</control> 。</step>
+        <step>登录在 JetBrains 网站上的帐户。</step>
         <img src="https://i.imgur.com/yDGbZI9.png" alt="登录 JetBrains 账号" width="706" thumbnail="true" border-effect="rounded"/>
         <img src="https://i.imgur.com/31d3f98.png" alt="登录 JetBrains 账号" width="706" thumbnail="true" border-effect="rounded"/>
         <img src="https://i.imgur.com/p2ygksC.png" alt="登录 JetBrains 账号" width="706" thumbnail="true" border-effect="rounded"/>
+        <step>在 <control>许可证</control> 中单击 <control>开始试用</control> 。</step>
         <img src="https://i.imgur.com/sziREZ4.png" alt="开始试用" width="706" thumbnail="true" border-effect="rounded"/>
         <warning>若出现 <format style="bold">Error fetching licenses for ll/lwu584742@gmail.com: Your trial has expired. To continue using Intellij IDEA Ultimate 2022.3, you must purchase a subscription.</format> 等类似提示信息，则代表此账号已过试用期。</warning>
         <img src="https://i.imgur.com/8eRXzdq.png" alt="试用期已过期" width="706" thumbnail="true" border-effect="rounded"/>

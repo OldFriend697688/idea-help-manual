@@ -32,17 +32,17 @@
                 </tabs>
             </step>
             <step>
-                <p>如果 IntelliJ IDEA 检测到系统中已安装了屏幕阅读器，将会自动提示并建议您启用它。</p>
-                <p>当您首次启动 IntelliJ IDEA 时，请在打开的对话框中单击 <control>启用</control> 。</p>
+                <p>如果 IntelliJ IDEA 检测到系统中已安装了屏幕阅读器，它将自动提示并建议您启用它。</p>
+                <p>当首次启动 IntelliJ IDEA 时，您需要在打开的对话框中单击 <control>启用</control> 。</p>
                 <note>对于已经安装和配置过的 IntelliJ IDEA，您可以稍后或手动激活屏幕阅读器支持。</note>
             </step>
         </procedure>
         <procedure title="安装并设置 IntelliJ IDEA" id="install-and-set-up" type="steps">
-            <warning>请先下载并启用屏幕阅读器，然后再执行以下操作。否则，您将无法看到任何效果。&nbsp;</warning>
-            <note>对于 <tooltip term="windows">Windows</tooltip> 和 <tooltip term="macos">macOS</tooltip> 而言，当 IntelliJ IDEA 在首次启动时若检测到屏幕阅读器，它会显示一个对话框，您可以在其中为其启用屏幕阅读器。</note>
+            <warning>请先下载并启用屏幕阅读器，然后再执行以下操作。否则，您将无法见证实际效果。&nbsp;</warning>
+            <note>对于 <tooltip term="windows">Windows</tooltip> 和 <tooltip term="macos">macOS</tooltip> 而言，当 IntelliJ IDEA 在首次启动时若检测到屏幕阅读器，它会显示一个对话框，您可以在其中为它启用屏幕阅读器。</note>
             <step><a href="installation-guide.topic" summary="">下载并安装 IntelliJ IDEA</a> 。</step>
             <step>
-                <p>要在首次启动 IntelliJ IDEA 之前先行启用屏幕阅读器支持，请执行以下操作：</p>
+                <p>要在首次启动 IntelliJ IDEA 之前便先行启用屏幕阅读器支持，请执行以下操作：</p>
                 <list type="alpha-lower">
                     <li>
                         <p>打开包含个人设置（例如： <a href="mastering-keyboard-shortcuts.topic" summary="">按键映射</a> 、 <a href="configuring-colors-and-fonts.topic" anchor="select-color-scheme" summary="">配色方案</a> 等）的 <a href="directories-used-by-the-ide-to-store-settings-caches-plugins-and-logs.topic" summary="">配置目录</a> 。</p>
@@ -62,8 +62,8 @@
                             </tab>
                         </tabs>
                     </li>
-                    <li>在配置目录中创建名为 <path>idea.properties</path> 的文件。</li>
-                    <li>将 <code>ide.support.screenreaders.enabled=true</code> 属性添加至创建的文件中。</li>
+                    <li id="idea-properties-file">在配置目录中创建名为 <path>idea.properties</path> 的文件。</li>
+                    <li>将 <code>ide.support.screenreaders.enabled=true</code> 属性添加至 <a anchor="idea-properties-file" summary="">创建的文件</a> 中。</li>
                 </list>
             </step>
             <step>启动 IntelliJ IDEA， <ui-path>设置（ <shortcut>Ctrl</shortcut><shortcut>Alt</shortcut><shortcut>S</shortcut> ） | 外观与行为 | 外观 | 支持屏幕阅读器</ui-path> 已被启用。</step>
@@ -154,10 +154,10 @@
             <step>
                 <p>在打开的对话框中，为目标操作指定一个快捷键。</p>
                 <p>如果您需要，可勾选 <control>第二次按下</control> 并指定第一个快捷键的额外附加键。</p>
-                <p>单击 <control>确定</control> 保存更改。</p>
+                <p>操作完毕后，请单击 <control>确定</control> 保存更改。</p>
             </step>
             <img src="https://i.imgur.com/cuuIAFf.png" alt="为目标操作添加第二次按的附加快捷键" width="706" thumbnail="true" border-effect="rounded"/>
-            <step>单击 <control>确定</control> 保存更改。（注：切勿按 <shortcut>Enter</shortcut> （回车键），它将被视为快捷键。）</step>
+            <step>单击 <control>确定</control> 保存更改。（注：切勿按 <shortcut>Enter</shortcut> （回车键），因为它将被视为快捷键。）</step>
             <video src="https://www.youtube.com/watch?v=CNxkoEmOY-Y" width="706" border-effect="rounded"/>
             <include from="reuse-library.topic" element-id="shortcut-key-priority-tips-snippet"/>
         </procedure>
@@ -166,8 +166,8 @@
             <step>在 <control>设置（ <shortcut>Ctrl</shortcut><shortcut>Alt</shortcut><shortcut>S</shortcut> ）</control> 中选择 <ui-path><include from="reuse-library.topic" element-id="editor-snippet"/>| 常规 | 智能按键</ui-path> 。</step>
             <img src="https://i.imgur.com/YVOB2Wv.png" alt="智能按键" width="706" thumbnail="true" border-effect="rounded"/>
             <step>
-                <p>从右侧选项中启用或清除智能按键选项。</p>
-                <p>例如：您可以取消勾选 <control>插入成对中括号</control> 或 <control>插入成对引号</control> ，该选项会自动插入闭合括号或引号，因为在使用 <a anchor="screen-reader" summary=""/> 时，它可能没有用。</p>
+                <p>从右侧选项中启用或禁用智能按键选项。</p>
+                <p>例如：您可以禁用 <control>插入成对中括号</control> 或 <control>插入成对引号</control> ，该选项会自动插入闭合括号或引号。</p>
             </step>
             <step>单击 <control>确定</control> 保存更改。</step>
             <video src="https://www.youtube.com/watch?v=v5hXoOs4nTc" width="706" border-effect="rounded"/>
@@ -176,18 +176,18 @@
             <note>您可禁用自动代码补全，以免在使用 <a anchor="screen-reader" summary=""/> 时 <include from="reuse-library.topic" element-id="editor-snippet"/> 自动插入代码元素。&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;</note>
             <warning>
                 <p>在实际应用中，IntelliJ IDEA 可能无法自动触发代码补全。</p>
-                <p>因此，在实际应用中建议通过 <a href="mastering-keyboard-shortcuts.topic" summary=""/> 手动触发代码补全。</p>
-                <p>如果按快捷键后无任何实际效果，请检查是否已将正确切换至英文输入法。&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;</p>
+                <p>因此，建议通过 <a href="mastering-keyboard-shortcuts.topic" summary=""/> 手动触发代码补全。</p>
+                <p>如果按快捷键后无任何实际效果，请检查是否已经正确切换至英文输入法。&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;</p>
             </warning>
             <step>在 <control>设置（ <shortcut>Ctrl</shortcut><shortcut>Alt</shortcut><shortcut>S</shortcut> ）</control> 中选择 <ui-path><include from="reuse-library.topic" element-id="editor-snippet"/> | 常规 | 代码补全</ui-path> 。</step>
-            <step>取消勾选 <control>类型匹配补全</control> 。如有必要，还可取消勾选 <control>基本补全</control> 以禁用基本补全。</step>
+            <step>取消勾选 <control>类型匹配补全</control> 。如有必要，您还可取消勾选 <control>基本补全</control> 以禁用基本补全。</step>
             <img src="https://i.imgur.com/2HpEQjB.png" alt="代码补全" width="706" thumbnail="true" border-effect="rounded"/>
             <video src="https://www.youtube.com/watch?v=xlZZhOeUv3o" width="706" border-effect="rounded"/>
         </procedure>
         <procedure id="custom-code-fold" title="自定义代码折叠">
             <note>您可以控制代码折叠行为，并指定哪些代码应该或不应该折叠。&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;</note>
             <step>在 <control>设置（ <shortcut>Ctrl</shortcut><shortcut>Alt</shortcut><shortcut>S</shortcut> ）</control> 中选择 <ui-path><include from="reuse-library.topic" element-id="editor-snippet"/> | 常规 | 代码折叠</ui-path> 。</step>
-            <step>从右侧选项中选择要默认折叠的内容。</step>
+            <step>从右侧选项中选择默认要折叠的内容。</step>
             <video src="https://www.youtube.com/watch?v=A7z5bR0vuq8" width="706" border-effect="rounded"/>
         </procedure>
         <procedure id="custom-code-style" title="自定义代码样式">
@@ -211,7 +211,7 @@
             <img src="https://i.imgur.com/HIfKMvN.png" alt="为高对比度主题设置配色方案" width="706" thumbnail="true" border-effect="rounded"/>
         </procedure>
     </chapter>
-    <p>另外，您还可以参阅 <a href="using-code-editor.topic" summary="">编辑器基础</a> 、 <a href="mastering-keyboard-shortcuts.topic" summary=""/> 和 <a href="guided-tour-around-the-user-interface.topic" summary=""/> 以熟悉其他有用的快捷键和相关知识。</p>
+    <p>另外，您还可参阅 <a href="using-code-editor.topic" summary="">编辑器基础</a> 、 <a href="mastering-keyboard-shortcuts.topic" summary=""/> 、 <a href="guided-tour-around-the-user-interface.topic" summary=""/> 等内容，以熟悉有用的快捷键和相关知识。</p>
     <seealso>
         <include from="reuse-library.topic" element-id="ides-snippet"/>
         <include from="reuse-library.topic" element-id="core-references-snippet"/>

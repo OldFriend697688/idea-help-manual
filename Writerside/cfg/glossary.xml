@@ -146,6 +146,8 @@
    <term name="gradle">Gradle 是一个开源的构建自动化工具，它非常灵活，可以构建几乎任何类型的软件。它不限制您构建什么或如何构建，这使得 Gradle 非常通用。简单来说，Gradle 就是一个运行在 JVM（Java 虚拟机）上的自动化项目构建工具，用来帮助我们自动构建项目。</term>
 
    <!-- 文件格式/数据格式 -->
+   <term name="svg">SVG 是一种基于 XML 的矢量图形格式。</term>
+   <term name="png">PNG 是一种无损压缩的位图图像格式。</term>
    <term name="tarball">tarball 文件，您也可以叫它 tar 包，是一种常见的文件打包和压缩格式，特别在 Linux 系统中被广泛使用。</term>
    <term name="image-file">映像文件（image file）是一种非常重要的计算机文件。它可以帮助我们备份数据、分发软件、创建虚拟机等。</term>
    <term name="json">JSON (JavaScript Object Notation) 是一种轻量级的数据交换格式，易于人阅读和编写，同时也易于机器解析和生成。</term>
@@ -155,7 +157,6 @@
    <term name="shell-script">Shell 脚本（Shell Script）是一种为 shell 编写的脚本程序。它是一个包含一系列 shell 命令的文本文件，可以用来自动化一系列操作。简单来说，就是把一系列命令写在一个文件中，然后一次性执行这些命令。</term>
    <term name="csv">CSV（Comma Separated Values）文件，中文译为“逗号分隔值”，是一种简单而通用的文本文件格式，用来存储表格数据。你可以把它想象成一个电子表格，每一行代表表格的一行，每一列代表表格的一列，而逗号则用来分隔不同的列。</term>
    <term name="xml">XML（Extensible Markup Language），中文译为可扩展标记语言，是一种用于标记电子文件使其具有结构性的标记语言。它可以用来标记数据、定义数据的类型，使用简单，非常适合在网络上传输数据，也适合处理分布式结构的信息数据。</term>
-
 
    <!-- CPU 架构-->
    <term name="arm64">ARM64 是 ARM 架构的 64 位处理器。ARM 架构以其低功耗、高性能和灵活的设计而著称，广泛应用于移动设备、嵌入式系统以及越来越多的服务器领域。</term>

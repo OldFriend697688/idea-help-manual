@@ -96,6 +96,11 @@
         <a anchor="editor" href="guided-tour-around-the-user-interface.topic" summary=""/>
     </snippet>
 
+    <!-- 书签工具窗口 -->
+    <snippet id="bookmarks-snippet">
+        <a href="bookmarks.topic" summary=""/>
+    </snippet>
+
     <!-- 上下文菜单 -->
     <snippet id="context-menus-snippet">
         <a anchor="context-menus" href="guided-tour-around-the-user-interface.topic" summary="" />

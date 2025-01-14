@@ -206,7 +206,7 @@
         <procedure id="high-contrast-scheme" title="设置高对比度配色方案">
             <note>您可以为 <include from="reuse-library.topic" element-id="editor-snippet"/> 设置高对比度的配色方案。IntelliJ IDEA 使用 <a anchor="color-config" summary="">配色方案</a> 来帮助您定义编辑器中的首选颜色和字体。</note>
             <step>在 <control>设置（ <shortcut>Ctrl</shortcut><shortcut>Alt</shortcut><shortcut>S</shortcut> ）</control> 中选择 <ui-path><include from="reuse-library.topic" element-id="editor-snippet"/> | <a href="configuring-colors-and-fonts.topic" anchor="select-color-scheme" summary="">配色方案</a></ui-path> 。</step>
-            <step>在 <control>配色方案</control> 页面，从 <ui-path>方案</ui-path> 列表中选择 <ui-path>高对比度</ui-path> 。</step>
+            <step>从 <ui-path>方案</ui-path> 列表中选择 <ui-path>高对比度</ui-path> 。</step>
             <step>单击 <control>确定</control> 保存更改。</step>
             <img src="https://i.imgur.com/HIfKMvN.png" alt="为高对比度主题设置配色方案" width="706" thumbnail="true" border-effect="rounded"/>
         </procedure>

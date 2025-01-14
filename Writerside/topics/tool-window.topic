@@ -5,5 +5,7 @@
        xsi:noNamespaceSchemaLocation="https://resources.jetbrains.com/writerside/1.0/topic.v2.xsd"
        title="工具窗口" id="tool-window">
 
-    <p>Start typing here...</p>
+    <chapter id="bars-and-buttons" title="工具窗口栏和按钮">
+
+    </chapter>
 </topic>

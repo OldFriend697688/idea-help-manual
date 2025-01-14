@@ -26,7 +26,7 @@
         </step>
         <video border-effect="rounded" src="https://www.youtube.com/watch?v=s-sHNqt-uvc" width="706"/>
         <step>
-            <p>在 <control>操作（ <shortcut>Ctrl</shortcut><shortcut>Shift</shortcut><shortcut>A</shortcut> ）</control> 中输入视图模式的名称。</p>
+            <p>在 <control>操作（ <shortcut>Ctrl</shortcut><shortcut>Shift</shortcut><shortcut>A</shortcut> ）</control> 中键入视图模式的名称。</p>
             <p>然后从列表中选择 <ui-path>进入 &lt;视图模式&gt;</ui-path> 或 <ui-path>退出 &lt;视图模式&gt;</ui-path></p>
         </step>
         <video border-effect="rounded" src="https://www.youtube.com/watch?v=V51CjOmuzNo" width="706"/>

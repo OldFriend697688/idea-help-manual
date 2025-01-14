@@ -18,7 +18,7 @@
         <img src="https://i.imgur.com/dYBghPf.png" alt="在欢迎界面中打开插件设置" width="706" thumbnail="true" border-effect="rounded"/>
         <step>或在 <control>设置</control> （ <shortcut>Ctrl</shortcut><shortcut>Alt</shortcut><shortcut>S</shortcut> ）中选择 <ui-path>插件</ui-path> 。</step>
         <img src="https://i.imgur.com/eaMCZ8j.png" alt="在 IDE 设置中找到插件设置" width="706" thumbnail="true" border-effect="rounded"/>
-        <p>您可以在 <ui-path>Marketplace</ui-path> 中浏览并安装 <a href="https://plugins.jetbrains.com/">JetBrains 插件库</a> 中的插件或者是 <a anchor="repos" summary=""/> 。</p>
+        <p>您可以在 <ui-path>Marketplace</ui-path> 中浏览并安装 <include from="reuse-library.topic" element-id="jetbrains-plugin-library-snippet"/> 中的插件或者是 <a anchor="repos" summary=""/> 。</p>
         <p>通过 <ui-path>已安装</ui-path> 浏览捆绑和已安装的插件，启用、 <a anchor="disable-plugin" summary="">禁用</a> 、 <a anchor="update-plugin" summary="">更新</a> 或 <a anchor="remove-plugin" summary="">卸载</a> 它们。</p>
         <p>您还可以禁用不必要的插件以提高 IntelliJ IDEA 的性能。</p>
         <video src="https://www.youtube.com/watch?v=rVls_vLVTz0" width="706" border-effect="rounded"/>
@@ -29,7 +29,7 @@
     <p>如果现有插件无法提供您需要的某些功能，您可以为 IntelliJ IDEA 创建属于您自己的插件。有关详细信息，请参阅 <a anchor="plugin-dev" summary=""/> 。</p>
     <p>IntelliJ IDEA 默认包含多个捆绑插件。您可以禁用捆绑的插件，但不能卸载它们。</p>
     <procedure id="install-plugin-from-repo" title="从官方仓库中安装插件">
-        <note>要安装插件的某个特定版本，请访问该插件位于 <a href="https://plugins.jetbrains.com/">JetBrains 插件库</a> 的主页面，然后按照 <a anchor="install-plugin-from-disk" summary=""/> 中的步骤下载并安装它。</note>
+        <note>要安装插件的某个特定版本，请访问该插件位于 <include from="reuse-library.topic" element-id="jetbrains-plugin-library-snippet"/> 的主页面，然后按照 <a anchor="install-plugin-from-disk" summary=""/> 中的步骤下载并安装它。</note>
         <step>在 <control>欢迎界面</control> 中选择 <ui-path>插件</ui-path> ，或在 <control>设置</control> （ <shortcut>Ctrl</shortcut><shortcut>Alt</shortcut><shortcut>S</shortcut> ）中选择 <ui-path>插件</ui-path> 。</step>
         <step>在 <ui-path>Marketplace</ui-path> 中搜索目标插件，然后单击 <control>安装</control> 。</step>
         <video src="https://www.youtube.com/watch?v=gsg4Af8yp-w" width="706" border-effect="rounded"/>
@@ -83,7 +83,7 @@
     </chapter>
     <chapter id="suggested-plugins" title="建议插件">
         <warning>官方文档手册中对此功能的描述文本存在细节错误，详见： <a href="https://youtrack.jetbrains.com/issue/IJPL-6102/Check-for-Suggested-Plugins-action-doesnt-suggest-installing-the-Writerside-plugin-if-the-Writerside-project-or-a-Writerside">建议插件功能异常</a> 。&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;</warning>
-        <p>当您在 IntelliJ IDEA 中打开某个未知类型的文件时，它将会尝试从 <a href="https://plugins.jetbrains.com/">JetBrains 插件库</a> 中搜索是否有与之匹配的可用插件，并给出提示建议您安装。如果您不想安装此插件，可以单击 <ui-path>忽略扩展</ui-path> 。</p>
+        <p>当您在 IntelliJ IDEA 中打开某个未知类型的文件时，它将会尝试从 <include from="reuse-library.topic" element-id="jetbrains-plugin-library-snippet"/> 中搜索是否有与之匹配的可用插件，并给出提示建议您安装。如果您不想安装此插件，可以单击 <ui-path>忽略扩展</ui-path> 。</p>
         <img src="https://i.imgur.com/7DhZI8c.png" alt="建议安装 Writerside 插件的提示信息" width="706" thumbnail="true" border-effect="rounded"/>
         <p>一旦您单击了 <ui-path>忽略扩展</ui-path> 后，IntelliJ IDEA 将不会在为此未知类型的文件弹出可安装插件的提示。以后，您只能够手动搜索此建议插件并进行安装。</p>
         <img src="https://i.imgur.com/4f5z67z.png" alt="安装 Writerside 插件" width="706" thumbnail="true" border-effect="rounded"/>
@@ -177,7 +177,7 @@
         <video src="https://www.youtube.com/watch?v=EvY1bN0aHMk" width="706" border-effect="rounded"/>
     </chapter>
     <chapter id="repos" title="自定义插件库">
-        <p>默认情况下，IntelliJ IDEA 将使用 <a href="https://plugins.jetbrains.com/">JetBrains 插件库</a> 中提供的插件。这是一个公共资源库，每个人都可以在其中托管自己的插件。但是，如果 <a anchor="plugin-dev" summary="">您开发的插件</a> 仅供内部使用，您可以为它们设置一个自定义插件库。</p>
+        <p>默认情况下，IntelliJ IDEA 将使用 <include from="reuse-library.topic" element-id="jetbrains-plugin-library-snippet"/> 中提供的插件。这是一个公共资源库，每个人都可以在其中托管自己的插件。但是，如果 <a anchor="plugin-dev" summary="">您开发的插件</a> 仅供内部使用，您可以为它们设置一个自定义插件库。</p>
         <procedure id="add-plugin-repos" title="添加自定义插件库">
             <step>在 <control>欢迎界面</control> 中选择 <ui-path>插件</ui-path> ，或在 <control>设置</control> （ <shortcut>Ctrl</shortcut><shortcut>Alt</shortcut><shortcut>S</shortcut> ）中选择 <ui-path>插件</ui-path> 。</step>
             <step>单击 <ui-path>已安装</ui-path> 后方的 <img src="设置.svg" alt=""/> ，然后选择其中的 <ui-path>管理插件仓库</ui-path> 。</step>
@@ -190,7 +190,7 @@
             <img src="https://i.imgur.com/mV1cEHj.png" alt="自定义插件仓库" width="706" thumbnail="true" border-effect="rounded"/>
             <step>单击 <control>确定</control> ，保存设置。</step>
         </procedure>
-        <p>当您搜索插件时，IntelliJ IDEA 将显示来自默认 <a href="https://plugins.jetbrains.com/">JetBrains 插件库</a> 和您指定的自定义插件库中的结果。如果只需浏览某个自定义插件库，请在 <ui-path>Marketplace</ui-path> 中输入 <code>repository:</code> ，然后输入该库的 URL。例如：</p>
+        <p>当您搜索插件时，IntelliJ IDEA 将显示来自默认 <include from="reuse-library.topic" element-id="jetbrains-plugin-library-snippet"/> 和您指定的自定义插件库中的结果。如果只需浏览某个自定义插件库，请在 <ui-path>Marketplace</ui-path> 中输入 <code>repository:</code> ，然后输入该库的 URL。例如：</p>
         <code-block lang="plain text">repository:http://plugins.example.com:8080/updatePlugins.xml myPlugin</code-block>
         <p>您也可以使用 <code>idea.plugin.hosts</code> 属性添加自定义插件库：</p>
         <procedure>
@@ -202,7 +202,7 @@
             <img src="https://i.imgur.com/QbCWEAg.png" alt="添加 idea.plugin.hosts 属性" width="706" thumbnail="true" border-effect="rounded"/>
             <step>重启 IntelliJ IDEA，以使设置生效。</step>
         </procedure>
-        <p>您可以使用自定义插件库替换默认的 <a href="https://plugins.jetbrains.com/">JetBrains 插件库</a> 。</p>
+        <p>您可以使用自定义插件库替换默认的 <include from="reuse-library.topic" element-id="jetbrains-plugin-library-snippet"/> 。</p>
         <procedure id="replace-plugin-repo" title="替换默认的插件库">
             <note>如果替换了默认插件库， 您将只能够在 <ui-path>Marketplace</ui-path> 中浏览新的默认插件库和您添加的任何自定义插件库中的插件。</note>
             <step>选择 <ui-path><include from="reuse-library.topic" element-id="main-menus-snippet" /> | 帮助 | 编辑自定义属性</ui-path> 。</step>

@@ -341,6 +341,11 @@
         </procedure>
     </snippet>
 
+    <!-- JetBrains 官方插件库地址 -->
+    <snippet id="jetbrains-plugin-library-snippet">
+        <a href="https://plugins.jetbrains.com/idea">JetBrains 插件库</a>
+    </snippet>
+
     <!-- 页面底部 <seealso> 标签部分中的可重用内容 -->
     <snippet id="list-of-suggested-seealso-snippet">
         <include from="reuse-library.topic" element-id="ides-snippet"/>

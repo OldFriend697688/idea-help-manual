@@ -23,7 +23,7 @@
             <video src="https://www.youtube.com/watch?v=BemqyrDkFJc" width="706" border-effect="rounded"/>
         </step>
     </procedure>
-    <p>您可以通过从 <a href="https://plugins.jetbrains.com/">JetBrains 插件库</a> 中安装自定义主题，正如 <a href="managing-plugins.topic" summary="">管理插件</a> 中所述。</p>
+    <p>您可以通过从 <include from="reuse-library.topic" element-id="jetbrains-plugin-library-snippet"/> 中安装自定义主题，正如 <a href="managing-plugins.topic" summary="">管理插件</a> 中所述。</p>
     <video src="https://www.youtube.com/watch?v=gsg4Af8yp-w" width="706" border-effect="rounded"/>
     <p>您可以创建自己的 IntelliJ IDEA UI 主题并自定义内置主题。有关更多信息，请参阅 <a href="http://www.jetbrains.org/intellij/sdk/docs/reference_guide/ui_themes/themes_intro.html">IntelliJ 平台 SDK 文档</a> 。</p>
     <chapter id="tips" title="生产力提示">

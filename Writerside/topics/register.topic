@@ -24,7 +24,7 @@
         <img src="https://i.imgur.com/p2ygksC.png" alt="登录 JetBrains 账号" width="706" thumbnail="true" border-effect="rounded"/>
         <step>在 <control>许可证</control> 中单击 <control>开始试用</control> 。</step>
         <img src="https://i.imgur.com/sziREZ4.png" alt="开始试用" width="706" thumbnail="true" border-effect="rounded"/>
-        <warning>若出现 <format style="bold">Error fetching licenses for ll/lwu584742@gmail.com: Your trial has expired. To continue using Intellij IDEA Ultimate 2022.3, you must purchase a subscription.</format> 等类似提示信息，则代表此账号已过试用期。</warning>
+        <warning>若出现 <format style="bold">Error fetching licenses for ll/lwu584742@gmail.com: Your trial has expired. To continue using IntelliJ IDEA Ultimate 2022.3, you must purchase a subscription.</format> 等类似提示信息，则代表此账号已过试用期。</warning>
         <img src="https://i.imgur.com/8eRXzdq.png" alt="试用期已过期" width="706" thumbnail="true" border-effect="rounded"/>
     </procedure>
     <note>试用版到期后，您需要购买并注册许可证才能继续使用 IntelliJ IDEA Ultimate。&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;</note>

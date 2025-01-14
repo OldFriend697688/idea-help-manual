@@ -3,7 +3,7 @@
         SYSTEM "https://resources.jetbrains.com/writerside/1.0/product-profile.dtd">
 
 <instance-profile id="hi"
-                  name="Intellij IDEA 帮助手册"
+                  name="IntelliJ IDEA 帮助手册"
                   start-page="getting-started.topic">
     <toc-element topic="getting-started.topic">
         <toc-element topic="accessibility.topic"/>
@@ -42,6 +42,7 @@
             <toc-element topic="customize-actions-menus-and-toolbars.topic"/>
             <toc-element topic="user-interface-themes.topic"/>
             <toc-element topic="ide-viewing-modes.topic"/>
+            <toc-element topic="linux-native-menu.topic"/>
         </toc-element>
         <toc-element topic="mastering-keyboard-shortcuts.topic">
             <toc-element topic="configuring-keyboard-and-mouse-shortcuts.topic"/>

@@ -4,7 +4,7 @@
 <topic xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
        xsi:noNamespaceSchemaLocation="https://resources.jetbrains.com/writerside/1.0/topic.v2.xsd"
        title="更新 IntelliJ IDEA" id="update">
-    <warning>如果已通过 <a href="register.topic" anchor="crack-activation" summary="">特殊方式</a> 激活了 Intellij IDEA，则强烈建议您不要考虑将它更新至更高版本。&nbsp;</warning>
+    <warning>如果已通过 <a href="register.topic" anchor="crack-activation" summary="">特殊方式</a> 激活了 IntelliJ IDEA，则强烈建议您不要考虑将它更新至更高版本。</warning>
     <tldr>
         <p>针对 <tooltip term="windows">Windows</tooltip> 或 <tooltip term="linux">Linux</tooltip>  ： <ui-path>设置 （ <shortcut>Ctrl</shortcut><shortcut>Alt</shortcut><shortcut>S</shortcut> ） | 外观与行为 | 系统设置 | 更新 &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;</ui-path></p>
         <p>针对 <tooltip term="macos">macOS</tooltip> ： <ui-path>IntelliJ IDEA | 设置 | 外观与行为 | 系统设置 | 更新</ui-path> &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;</p>

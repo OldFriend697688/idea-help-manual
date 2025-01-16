@@ -346,6 +346,11 @@
         <a href="https://plugins.jetbrains.com/idea">JetBrains 插件库</a>
     </snippet>
 
+    <!-- JetBrains 账户网址 -->
+    <snippet id="jetbrains-account-web-url-snippet">
+        <a href="https://sales.jetbrains.com/hc/en-gb/articles/208459005-What-is-JetBrains-Account-" summary="">JetBrains 账户</a>
+    </snippet>
+
     <!-- 页面底部 <seealso> 标签部分中的可重用内容 -->
     <snippet id="list-of-suggested-seealso-snippet">
         <include from="reuse-library.topic" element-id="ides-snippet"/>

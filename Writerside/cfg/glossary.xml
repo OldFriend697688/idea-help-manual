@@ -70,6 +70,7 @@
    <term name="library">在编程领域，“库”（Library）是一个非常重要的概念，它指的是一组预先编写好的代码的集合，可以被其他程序重复使用。库的主要目的是提高代码的复用率、减少开发时间和成本。</term>
    <term name="cross-platform">“跨平台”指的是软件或技术能够在多个不同的操作系统、硬件平台或设备上运行的能力。它的核心思想是“一次编写，多处运行”，旨在提高开发效率、降低成本并扩大用户覆盖面。</term>
    <term name="code-completion">代码补全是一种智能化的编程辅助功能，它能根据上下文和已有的代码，自动补全您正在编写的代码。这大大提高了编程效率，减少了打字错误，让开发者可以更专注于解决问题。</term>
+   <term name="jetbrains-ide">JetBrains 提供了一系列针对不同编程语言和技术的 IDE，旨在帮助开发者提高工作效率，编写出高质量的代码。例如：IntelliJ IDEA、Fleet、WebStorm、PhpStorm 等。</term>
    <term name="programming-language">编程语言是人与计算机沟通的桥梁，它是一组用于定义计算机程序的形式化的指令。简单来说，就是人类编写的计算机能够理解和执行的指令集，用来控制计算机完成各种任务。</term>
    <term name="fully-qualified-class-name">完全限定类名（Fully Qualified Class Name，FQCN）是用于在编程语言中唯一标识一个类的重要概念。它包含了类的完整路径，包括包名（或命名空间）以及类名本身。</term>
    <term name="openjdk">OpenJDK（Open Java Development Kit）是 Java 平台标准版（Java SE）的开源实现。简单来说，它是一个免费的、开源的 Java 开发工具包，包含了编译、运行 Java 程序所需的一切工具和库。</term>

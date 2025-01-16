@@ -5,5 +5,11 @@
        xsi:noNamespaceSchemaLocation="https://resources.jetbrains.com/writerside/1.0/topic.v2.xsd"
        title="项目设置" id="configure-project-settings">
 
-    <p>Start typing here...</p>
+    <chapter title="通过 VCS 共享项目设置" id="share-project-through-vcs">
+
+    </chapter>
+
+    <chapter title="通过设置同步共享设置" id="ide-settings-sync">
+        
+    </chapter>
 </topic>

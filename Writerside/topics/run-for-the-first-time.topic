@@ -32,8 +32,8 @@
         <img src="https://i.imgur.com/9nOXIgp.png" alt="IntelliJ IDEA 欢迎界面（Windows_Darcula 主题）" width="706" thumbnail="true" border-effect="rounded"/>
     </chapter>
     <chapter id="configure-default-settings" title="配置默认设置">
-        <p>单击 <ui-path>自定义</ui-path> ，如果您 <a href="sharing-your-ide-settings.topic" anchor="export-settings-to-a-zip-archive">已有要应用的所需设置副本</a> ，则选择 <ui-path>导入设置</ui-path> 。</p>
-        <p>单击 <ui-path>所有设置</ui-path> 打开 <control>设置（ <shortcut>Ctrl</shortcut><shortcut>Alt</shortcut><shortcut>S</shortcut> ）</control> ，此时调整的设置将成为所有新项目和 <tooltip term="ide">IDE</tooltip> 的默认配置。</p>
+        <p>单击 <ui-path>自定义</ui-path> ，如果您 <a href="sharing-your-ide-settings.topic" anchor="export-settings-to-a-zip-archive" summary="">已有要应用的所需设置副本</a> ，则选择 <ui-path>导入设置</ui-path> 。</p>
+        <p>单击 <ui-path>所有设置</ui-path> 打开 <control>设置（ <shortcut>Ctrl</shortcut><shortcut>Alt</shortcut><shortcut>S</shortcut> ）</control> ，此时调整的设置将成为所有新项目和 <tooltip term="ide">IDE</tooltip> 的默认设置。</p>
         <img src="https://i.imgur.com/TWRYkUS.gif" alt="单击所有设置打开设置对话框" width="706" thumbnail="true" border-effect="rounded"/>
     </chapter>
     <chapter id="additional-plugins" title="安装附加插件">

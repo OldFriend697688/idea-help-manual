@@ -55,7 +55,7 @@
             <tr>
                 <td>注意事项</td>
                 <td colspan="2">
-                    <note>您无需安装 <a href="https://www.oracle.com/java/technologies/javase-downloads.html" summary="Java 是一种广泛使用的、面向对象的编程语言，由 Sun Microsystems 公司（现已被 Oracle 公司收购）于 1995 年推出。它设计用来有一个最小的实现依赖，易于理解，并且能够一次编写，到处运行。Java 广泛应用于企业级应用、移动应用（尤其是 Android）以及云计算中。">Java</a> 即可运行 IntelliJ IDEA，这是因为 <tooltip term="jetbrains runtime">JetBrains Runtime</tooltip> 已与 <tooltip term="ide">IDE</tooltip> （基于 <tooltip term="jre">JRE</tooltip> 17）捆绑在一起。但是，要开发 Java 应用程序，则需要独立的 <a href="https://www.oracle.com/cn/java/technologies/downloads/">JDK</a> 。</note>
+                    <note>您无需安装 <a href="https://www.oracle.com/java/technologies/javase-downloads.html" summary="Java 是一种广泛使用的、面向对象的编程语言，由 Sun Microsystems 公司（现已被 Oracle 公司收购）于 1995 年推出。它设计用来有一个最小的实现依赖，易于理解，并且能够一次编写，到处运行。Java 广泛应用于企业级应用、移动应用（尤其是 Android）以及云计算中。">Java</a> 即可运行 IntelliJ IDEA，这是因为 <tooltip term="jetbrains-runtime">JetBrains Runtime</tooltip> 已与 <tooltip term="ide">IDE</tooltip> （基于 <tooltip term="jre">JRE</tooltip> 17）捆绑在一起。但是，要开发 Java 应用程序，则需要独立的 <a href="https://www.oracle.com/cn/java/technologies/downloads/">JDK</a> 。</note>
                     <warning>较旧的 Linux 发行版（Ubuntu 18.04 和 <a href="https://www.centos.org/">CentOS</a> 8 之前）不支持 IntelliJ IDEA 2022.1 版本及以上所需的 <a href="https://github.com/JetBrains/jcef">JCEF</a> 版本。这意味着依赖嵌入式浏览器的组件将无法工作，例如： <a href="https://www.jetbrains.com/help/idea/2022.3/markdown.html#preview">Markdown HTML 预览</a> 和 <a href="https://www.jetbrains.com/help/idea/2022.3/interactive-debugger-console.html">交互式调试控制台</a> 。</warning>
                 </td>
             </tr>
@@ -193,7 +193,7 @@
     </chapter>
     <chapter id="snap" title="在 Linux 上安装为 Snap 包">
         <p>您可以将 IntelliJ IDEA 安装为一个独立的 <a href="https://snapcraft.io/">Snap</a> 包。</p>
-        <p>由于 <tooltip term="snap">Snap 包</tooltip> 会自动更新，因此您的 IntelliJ IDEA 将始终保持最新。 </p>
+        <p>由于 <tooltip term="snap-package">Snap 包</tooltip> 会自动更新，因此您的 IntelliJ IDEA 将始终保持最新。 </p>
         <note>
             <p>要使用 Snap，请按照 <a href="https://docs.snapcraft.io/core/install">安装指南</a> 安装并运行 snapd 服务。&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;</p>
             <p>在 <code>Ubuntu 16.04 LTS</code> 及更高版本中，此服务已预先安装。</p>

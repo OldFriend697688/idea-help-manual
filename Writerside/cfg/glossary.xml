@@ -59,6 +59,7 @@
    <term name="applications">Applications 文件夹是 macOS 系统中所有应用程序的默认存放位置。</term>
    <term name="viewport">视口，简单来说就是显示页面内容的屏幕区域。它就像是一扇窗口，通过这扇窗口，我们能看到网页的内容。</term>
    <term name="code-formatting">代码格式化是指按照特定的规则对代码进行排版，使其结构清晰、层次分明，从而提高代码的可读性、可维护性。</term>
+   <term name="neutral-colors">中性色，顾名思义，就是介于冷暖色系之间，不偏向任何一种颜色的色系。它们通常给人一种平和、低调、百搭的感觉。</term>
    <term name="identifier">在编程语言中，标识符（Identifier）就像给事物起名字一样，用于标识程序中的各种元素，例如：变量、函数、类、模块等等。</term>
    <term name="idea-code-automatic-prompt">IntelliJ IDEA 的代码智能提示功能是一个非常实用的特性，它可以在您编写代码时提供实时的辅助和提示。</term>
    <term name="java-static-import">在 Java 中，静态导入（Static Import）是一种简化代码书写的方法，允许您直接使用静态成员（例如：方法或变量），而无需前缀类名。</term>
@@ -100,8 +101,8 @@
    <term name="facets">Facets 在应用程序开发领域指的是一种设计理念，它提倡将复杂的应用程序分解为多个独立的、可复用的组件，每个组件负责应用程序的一个特定方面（Facet）。这种模块化设计方法有助于提高应用程序的可维护性、可扩展性和可测试性。</term>
    <term name="sdk">SDK（Software Development Kit，软件开发工具包）是一系列工具、库、文档、代码示例和过程的集合，旨在帮助开发者针对特定平台、操作系统、硬件或编程语言创建应用程序。简单来说，SDK 就是为了方便开发者而提供的一整套开发工具。</term>
    <term name="java-package">在 Java 中，“包”（Package）是一种用于组织类和接口的机制。它提供了一种命名空间，可以避免类名冲突，并帮助开发者更好地组织和管理大量的代码文件。您可以把包想象成电脑上的文件夹，用于存放不同的文件，方便管理和查找。</term>
+   <term name="jetbrains-runtime">JetBrains Runtime 是一个基于 OpenJDK 的开源 Java 运行时环境（JRE），由 JetBrains 公司开发和维护。它是为了优化 IntelliJ IDEA、PyCharm、WebStorm 等 JetBrains 开发工具的性能和稳定性而创建的。</term>
    <term name="velocity-and-freemarker">Velocity 和 FreeMarker 都是 Java 平台上的模板引擎，用于生成文本（例如： HTML、电子邮件、配置文件等）的强大工具。它们通过在模板中插入特定的标记，然后替换这些标记为实际的数据，从而生成最终的输出。</term>
-   <term name="jetbrains runtime">JetBrains Runtime 是一个基于 OpenJDK 的开源 Java 运行时环境（JRE），由 JetBrains 公司开发和维护。它是为了优化 IntelliJ IDEA、PyCharm、WebStorm 等 JetBrains 开发工具的性能和稳定性而创建的。</term>
    <term name="formal-parameter">形式参数（Formal Parameter），简称形参，是编程语言中函数或方法定义的一部分。它就像一个“占位符”，用于接收调用函数时传递进来的数据。您可以把形式参数想象成函数定义中的变量名，它们在函数被调用之前并没有实际的值。</term>
    <term name="library">库（Lib）是一种组织好的、可重用的代码和数据集合，旨在简化开发过程、提高效率。它包含预编译的模块或函数，供程序员调用以实现特定功能，无需从头编写。库广泛应用于软件工程，适用于各种编程语言，是现代软件开发中不可或缺的组成部分。</term>
    <term name="class-name">在编程领域，类名（Class Name）是用于标识面向对象编程（OOP）中类的名称。类是创建对象的蓝图或模板，它们封装了数据（属性）和操作这些数据的方法。定义清晰、直观且符合命名规范的类名对于代码的可读性、可维护性和协作开发非常重要。</term>
@@ -153,8 +154,8 @@
    <term name="image-file">映像文件（image file）是一种非常重要的计算机文件。它可以帮助我们备份数据、分发软件、创建虚拟机等。</term>
    <term name="json">JSON (JavaScript Object Notation) 是一种轻量级的数据交换格式，易于人阅读和编写，同时也易于机器解析和生成。</term>
    <term name="zip">ZIP 是一种广泛使用的压缩文件格式，它可以将一个或多个文件或文件夹压缩至一个文件中，以便于存储、传输和共享。压缩后的文件通常以 .zip 为扩展名。</term>
-   <term name="snap">Snap 包是 Canonical 公司推出的一种新的软件打包格式，它为 Linux 系统的软件安装和管理提供了一种全新的方式。Snap 包旨在解决传统软件包管理的一些问题，例如：依赖冲突、版本不兼容等。</term>
    <term name="file-extension">文件后缀名，也称为文件扩展名，是文件名的一部分，通常位于文件名末尾，以一个句点“.”分隔。它是操作系统用来识别文件类型的一种机制，帮助操作系统和应用程序确定如何处理该文件。</term>
+   <term name="snap-package">Snap 包是 Canonical 公司推出的一种新的软件打包格式，它为 Linux 系统的软件安装和管理提供了一种全新的方式。Snap 包旨在解决传统软件包管理的一些问题，例如：依赖冲突、版本不兼容等。</term>
    <term name="shell-script">Shell 脚本（Shell Script）是一种为 shell 编写的脚本程序。它是一个包含一系列 shell 命令的文本文件，可以用来自动化一系列操作。简单来说，就是把一系列命令写在一个文件中，然后一次性执行这些命令。</term>
    <term name="csv">CSV（Comma Separated Values）文件，中文译为“逗号分隔值”，是一种简单而通用的文本文件格式，用来存储表格数据。你可以把它想象成一个电子表格，每一行代表表格的一行，每一列代表表格的一列，而逗号则用来分隔不同的列。</term>
    <term name="xml">XML（Extensible Markup Language），中文译为可扩展标记语言，是一种用于标记电子文件使其具有结构性的标记语言。它可以用来标记数据、定义数据的类型，使用简单，非常适合在网络上传输数据，也适合处理分布式结构的信息数据。</term>

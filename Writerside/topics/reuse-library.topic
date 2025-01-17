@@ -12,7 +12,7 @@
     <!-- Toolbox App 不在支持下载 IntelliJ IDEA 2022.3.3 的提示 -->
     <snippet id="toolbox-version-download-is-limited-snippet">
         <warning>因软件更新迭代较快，现 Toolbox App 已不支持下载 IntelliJ IDEA 2022.3.3 版本。&nbsp;&nbsp;</warning>
-        <note>虽然 Toolbox App 不再提供 IntelliJ IDEA 2022.3.3 的下载，但若已安装该版本则仍可由 Toolbox App 进行管理。</note>
+        <note>尽管 Toolbox App 不再提供 IntelliJ IDEA 2022.3.3 的下载，但若已安装该版本则仍可由 Toolbox App 进行管理。</note>
     </snippet>
 
     <!-- 快捷键优先级未定义提示-->
@@ -112,7 +112,7 @@
     </snippet>
 
     <!-- 插件过多时影响 IntelliJ IDEA 性能的提示 -->
-    <snippet id="plugins-install-tips-snippet">
+    <snippet id="too-many-plugins-tips-snippet">
         <warning>安装过多的插件可能会影响到 IntelliJ IDEA 的整体性能。&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;</warning>
     </snippet>
 

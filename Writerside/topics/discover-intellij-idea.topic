@@ -20,7 +20,8 @@
         <p>IntelliJ IDEA 拥有旗舰版、教育版、社区版、RC 版、 <tooltip term="eap">EAP</tooltip> 等多种版本。</p>
         <p>常见且使用频次最高的是旗舰版和社区版，旗舰版功能强大，它支持多种 <tooltip term="programming-language">语言</tooltip> 及 Web 应用和企业级应用的开发，包括社区版本的全部功能，同时增加了对其他基于 IntelliJ 平台的 <tooltip term="ide">IDE</tooltip> 所关注的语言的支持，以及对各种服务器端和 <tooltip term="frontend">前端</tooltip> 框架、应用服务器、 <tooltip term="database">数据库</tooltip> 集成和分析工具等的支持。</p>
         <p><format style="bold">社区版是免费且开源的，这意味着您可以长期免费使用，无需支付任何额外费用</format> 。然而，与旗舰版相比，社区版支持的语言数量较少，并且可能不包含旗舰版中独有的某些高级开发辅助工具。</p>
-        <p>有关旗舰版和社区版的详细差异，请参阅 <a href="https://www.jetbrains.com/zh-cn/products/compare/?product=idea&amp;product=idea-ce">IntelliJ IDEA 的版本比较矩阵</a> 。</p></chapter>
+        <p>有关旗舰版和社区版的详细差异，请参阅 <a href="https://www.jetbrains.com/zh-cn/products/compare/?product=idea&amp;product=idea-ce">IntelliJ IDEA 的版本比较矩阵</a> 。</p>
+    </chapter>
     <chapter id="supported-programming-languages" title="支持的语言">
         <note>
             <p>您可以通过浏览 <include from="reuse-library.topic" element-id="jetbrains-plugin-library-snippet"/> 查找官方插件，这些插件可为当今使用的几乎所有 <tooltip term="programming-language">语言</tooltip> 、 <tooltip term="framework">框架</tooltip> 或技术提供支持，也可以通过它查找第三方插件。</p>
@@ -29,7 +30,7 @@
         <p>现代应用程序的开发涉及同时使用多种语言、工具、 <tooltip term="framework">框架</tooltip> 和技术。</p>
         <p>IntelliJ IDEA 被设计为基于 <tooltip term="jvm">JVM</tooltip> 的语言的 <tooltip term="ide">IDE</tooltip> ，但许多 <a href="managing-plugins.topic" summary="">插件</a> 可以扩展它对其它语言的支持。</p>
         <tabs>
-            <tab title="JVM 语言" id="jvm">
+            <tab title="JVM 语言" id="jvm-language">
                 <p>IntelliJ IDEA 支持下列可编译为 <tooltip term="jvm">JVM</tooltip><tooltip term="bytecode">字节码</tooltip> 的语言。</p>
                 <list>
                     <li><a href="https://www.oracle.com/java/technologies/javase-downloads.html" summary="Java 是一种广泛使用的面向对象的编程语言。JDK（Java Development Kit）是用于开发 Java 应用程序的官方工具包，提供了编译器、运行时环境和其他工具。">Java</a></li>
@@ -38,7 +39,7 @@
                     <li><a href="https://groovy-lang.org/" summary="Groovy 是一种在 JVM 上运行的敏捷动态语言，它提供了简洁的语法和强大的编程特性，如闭包和动态类型。Groovy 的设计目标是简化 Java 语言的冗余，同时提供更高的开发效率。">Groovy</a></li>
                 </list>
             </tab>
-            <tab title="非 JVM 语言" id="not-jvm">
+            <tab title="非 JVM 语言" id="not-jvm-language">
                 <p>与 IntelliJ IDEA 捆绑且开箱即用的插件提供了对以下语言的支持。</p>
                 <list>
                     <li><a href="https://www.python.org/" summary="Python 是一种广泛使用的高级编程语言，以其简洁明了的语法和强大的库支持而著称。">Python</a> （完整的 <a href="https://www.jetbrains.com.cn/pycharm/" summary="PyCharm 是一款功能强大的集成开发环境（IDE），专门为 Python 语言开发而设计。它由 JetBrains 公司开发，提供了一套完整的工具，帮助开发者更高效地编写、调试和测试 Python 代码。">PyCharm</a> 功能）</li>
@@ -62,6 +63,7 @@
             </tab>
         </tabs>
         <note>IntelliJ IDEA 官方不支持 <tooltip term="c">C</tooltip>/<tooltip term="c++">C++</tooltip> ，但可以使用 <a href="https://www.jetbrains.com/zh-cn/clion/" summary="CLion 是一款专为 C 和 C++ 开发者打造的跨平台集成开发环境（IDE），由 JetBrains 公司出品。它基于 IntelliJ IDEA 平台，继承了 IntelliJ IDEA 的强大功能，并针对 C 和 C++ 开发进行了深度优化。">CLion</a> 。&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;</note>
+        <img src="https://i.imgur.com/iBgXBI9.png" alt="CLion 中文官网" width="706" thumbnail="true" border-effect="rounded"/>
         <note id="language-plugin-vs-separate-IDE" title="选择语言插件还是单独的 IDE？">
             <p>IntelliJ IDEA Ultimate（旗舰版）是绝大多数基于 IntelliJ 平台的 <tooltip term="ide">IDE</tooltip> 的超集。</p>
             <p>如果启用了捆绑的语言 <a href="managing-plugins.topic" summary="">插件</a> ，它将支持在更具体的 JetBrains IDE 中所具有的全部功能，例如： <a href="https://www.jetbrains.com.cn/pycharm/" summary="PyCharm 是一款功能强大的集成开发环境（IDE），专门为 Python 语言开发而设计。它由 JetBrains 公司开发，提供了一套完整的工具，帮助开发者更高效地编写、调试和测试 Python 代码。">PyCharm</a> 、 <a href="https://www.jetbrains.com.cn/webstorm/" summary="WebStorm 是一款由 JetBrains 公司开发的集成开发环境（IDE），专门为开发 Web 应用程序而设计。它被广大前端开发者誉为 “Web 前端开发神器”、“最强大的 HTML5 编辑器”、“最智能的 JavaScript IDE”等。">WebStorm</a> 、 <a href="https://www.jetbrains.com.cn/phpstorm/" summary="PhpStorm 是一款专为 PHP 开发者打造的集成开发环境（IDE），由 JetBrains 公司开发。它以其强大的智能代码补全、调试、重构等功能，深受广大 PHP 开发者的喜爱。">PhpStorm</a> 等。</p>

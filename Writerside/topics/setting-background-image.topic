@@ -25,8 +25,8 @@
                 <td>用途描述</td>
             </tr>
             <tr>
-                <td width="250">图像</td>
-                <td width="500">指定本地文件系统中图像的路径，或者远程服务器上图像的 URL。</td>
+                <td >图像</td>
+                <td>指定本地文件系统中图像的路径，或者远程服务器上图像的 URL。</td>
             </tr>
             <tr>
                 <td>不透明度</td>
@@ -55,12 +55,12 @@
             </tr>
             <tr>
                 <td>编辑器和工具</td>
-                <td>配置图像作为 <include from="reuse-library.topic" element-id="editor-snippet" /> 和 <include from="reuse-library.topic" element-id="tool-window-snippet" /> 的背景。</td>
+                <td>配置图像作为 <include from="reuse-library.topic" element-id="editor-snippet"/> 和 <include from="reuse-library.topic" element-id="tool-window-snippet"/> 的背景。</td>
             </tr>
             <tr>
                 <td>空框架</td>
                 <td>
-                    <p>配置一个图像，作为 <include from="reuse-library.topic" element-id="editor-snippet" /> 中没有打开文件时的背景。</p>
+                    <p>配置一个图像，作为 <include from="reuse-library.topic" element-id="editor-snippet"/> 中没有打开文件时的背景。</p>
                     <video border-effect="rounded" src="https://www.youtube.com/watch?v=u9pSXDqhtlQ" width="706"/>
                 </td>
             </tr>

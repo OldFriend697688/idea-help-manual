@@ -10,8 +10,11 @@
             <tab title="Windows" id="windows">
                 <list type="decimal">
                     <li>
-                        <p>在 <control>控制面板</control> 中打开 <ui-path>程序和功能</ui-path> ，选择 IntelliJ IDEA 应用程序并单击 <control>卸载</control> 。</p>
+                        <p>在 <control>控制面板</control> 中选择 <ui-path>程序和功能</ui-path> 。</p>
                         <img alt="在 Windows 程序和面板中卸载 IntelliJ IDEA" src="https://i.imgur.com/ekPYoSH.png" width="706" thumbnail="true" border-effect="rounded"/>
+                    </li>
+                    <li>
+                        <p>选择 IntelliJ IDEA 2022.3.3 应用程序并单击 <control>卸载</control> 。</p>
                         <img alt="在 Windows 程序和面板中卸载 IntelliJ IDEA" src="https://i.imgur.com/m5B5jD0.png" thumbnail="true" width="706" border-effect="rounded"/>
                         <img alt="在 Windows 程序和面板中卸载 IntelliJ IDEA" src="https://i.imgur.com/AYbt3pv.png" thumbnail="true" width="706" border-effect="rounded"/>
                     </li>
@@ -22,15 +25,15 @@
                     <li>
                         <p>勾选卸载后需要被一并移除的内容，然后单击 <control><format style="underline">U</format>ninstall</control> 。</p>
                         <list>
-                            <li>移除 IntelliJ IDEA 2022.3.3 的缓存以及本地历史记录。</li>
+                            <li>移除 IntelliJ IDEA 2022.3.3 的 <a href="invalidate-caches.topic" summary="">缓存</a> 以及本地历史记录。</li>
                             <li>移除 IntelliJ IDEA 2022.3.3 的相关设置以及已安装的 <a href="managing-plugins.topic" summary="">插件</a> 。</li>
                             <li>参与卸载反馈。（ <format style="bold" color="Crimson">通常无需勾选</format> ）</li>
                         </list>
-                        <img alt="在 Windows 平台上卸载 IntelliJ IDEA" src="https://i.imgur.com/d5NmsMb.png" width="706" thumbnail="true" border-effect="rounded"/>
+                        <img alt="在 Windows 平台上卸载 IntelliJ IDEA" src="https://i.imgur.com/0tXo6NI.png" width="706" thumbnail="true" border-effect="rounded"/>
                     </li>
                     <li>
-                        <p>卸载完成后单击 <control>Close</control> 完成卸载。如有需要可以单击 <control>Show <format style="underline">d</format>etails</control> 查看详细内容。</p>
-                        <img alt="在 Windows 平台上卸载 IntelliJ IDEA" src="https://i.imgur.com/0tXo6NI.png" width="706" thumbnail="true" border-effect="rounded"/>
+                        <p>卸载完成后单击 <control>Close</control> 完成卸载。您可单击 <control>Show <format style="underline">d</format>etails</control> 查看详细信息。</p>
+                        <img alt="在 Windows 平台上卸载 IntelliJ IDEA" src="https://i.imgur.com/bkAakDZ.png" width="706" thumbnail="true" border-effect="rounded"/>
                     </li>
                     <li>
                         <p>删除以下文件夹（可选）：</p>
@@ -90,7 +93,7 @@
     </chapter>
     <chapter id="toolbox" title="使用 Toolbox App 卸载">
         <primary-label ref="Toolbox"/>
-        <p>如果 <a href="installation-guide.topic" anchor="toolbox" summary="">使用 Toolbox App 安装 IntelliJ IDEA</a> ，请执行以下操作对其进行卸载：</p>
+        <p>如果您 <a href="installation-guide.topic" anchor="toolbox" summary="">使用 Toolbox App 安装 IntelliJ IDEA</a> ，请执行以下操作对其进行卸载：</p>
         <procedure type="choices" id="uninstall-step">
             <include from="reuse-library.topic" element-id="toolbox-version-download-is-limited-snippet"/>
             <step>打开 Toolbox App，单击实例后方的 <img src="toolbox app 更多按钮.svg" alt=""/> ，然后选择 <ui-path>卸载</ui-path> 。</step>
@@ -99,7 +102,7 @@
         </procedure>
     </chapter>
     <chapter title="在 Linux 上卸载 Snap 包" id="snap">
-        <p>如果 <a href="installation-guide.topic" anchor="snap" summary="">将 IntelliJ IDEA 作为 Snap 包安装</a> ，请使用以下命令将其移除：</p>
+        <p>如果您 <a href="installation-guide.topic" anchor="snap" summary="">将 IntelliJ IDEA 作为 Snap 包安装</a> ，请使用以下命令将其移除：</p>
         <tabs>
             <tab title="IntelliJ IDEA Ultimate" id="iu"><code-block prompt="$" lang="shell">sudo snap remove intellij-idea-ultimate</code-block></tab>
             <tab title="Community Edition" id="ce"><code-block prompt="$" lang="shell">sudo snap remove intellij-idea-community</code-block></tab>
@@ -107,8 +110,8 @@
     </chapter>
     <!-- 注意：非必要情况下尽量不要使用静默卸卸载。 -->
     <chapter id="silent" title="在 Windows 系统上静默卸载">
-        <p>如果以 <a href="installation-guide.topic" anchor="silent" summary="">静默方式安装 IntelliJ IDEA</a> ，可以使用 <code>/S</code> 参数以管理员身份运行卸载程序。</p>
-        <p>以管理员身份运行 <tooltip term="cmd">CMD</tooltip> ，并进入到 IntelliJ IDEA 安装文件夹，然后执行以下命令：</p>
+        <p>如果您 <a href="installation-guide.topic" anchor="silent" summary="">以静默方式安装 IntelliJ IDEA</a> ，可以使用 <code>/S</code> 参数以管理员身份运行卸载程序。</p>
+        <p>您需要以管理员身份运行 <tooltip term="cmd">CMD</tooltip> ，并进入到 IntelliJ IDEA 安装文件夹，然后执行以下命令：</p>
         <code-block prompt=">" lang="bash">bin\uninstall.exe /S</code-block>
     </chapter>
     <seealso>

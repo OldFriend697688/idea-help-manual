@@ -209,7 +209,7 @@
         <note>上下文菜单不会在菜单的标题位置标识任何名称，而弹出菜单则会在标题位置标识它的名称。例如： <control>重构此（ <shortcut>Ctrl</shortcut><shortcut>Alt</shortcut><shortcut>Shift</shortcut><shortcut>T</shortcut> ）</control> 弹出菜单 。</note>
         <img alt="重构此弹出菜单" src="https://i.imgur.com/twGDzm3.png" width="706" thumbnail="true" border-effect="rounded"/>
         <p>弹出菜单可以快速访问与当前上下文相关的操作，可以将它理解为是 <include from="reuse-library.topic" element-id="context-menus-snippet"/> 中某些功能子项的直接快捷方式。例如：在 <include from="reuse-library.topic" element-id="editor-snippet"/> 中选定某个代码片段，然后选中上下文菜单中的 <ui-path>重构</ui-path> 选项和直接打开 <control>重构此</control> （ <shortcut>Ctrl</shortcut><shortcut>Alt</shortcut><shortcut>Shift</shortcut><shortcut>T</shortcut> ）弹出菜单时提供的功能实际上是基本一致的。</p>
-        <img thumbnail="true" src="https://imgur.com/RLbUyLj.png" alt="重构选项和重构此弹出菜单" border-effect="rounded" width="706"/>
+        <img thumbnail="true" src="https://i.imgur.com/RLbUyLj.png" alt="重构选项和重构此弹出菜单" border-effect="rounded" width="706"/>
         <p>除了可以使用预设的弹出菜单外，您还可以为个人常用的操作创建 <a anchor="configure-quick-lists" summary="快速列表是一个弹出菜单，其中包含一组自定义的 IntelliJ IDEA 操作。可以将其视为自定义菜单或工具栏，并为其指定快捷键以便快速访问。"/> 。</p>
         <p>以下是 IntelliJ IDEA 中一些使用频次较高的预设弹出菜单：</p>
         <list>

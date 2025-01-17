@@ -6,11 +6,11 @@
        title="新 UI" id="new-ui">
     <show-structure for="chapter" depth="3"/>
     <p>新 <tooltip term="user-interface">UI</tooltip> 减少了视觉上的复杂性，提供对基本功能的快速访问，并根据需要逐步显示更复杂的功能。</p>
-    <p>新 UI 的主要变化包括简化的 <a href="guided-tour-around-the-user-interface.topic" anchor="vcs-file-color" summary="">主工具栏</a> 、新的 <include from="reuse-library.topic" element-id="tool-window-snippet" /> 布局、新的 <a href="user-interface-themes.topic">主题</a> 和新的 UI 图标设计。</p>
-    <img border-effect="rounded" alt="新 UI" src="https://i.imgur.com/YnNgcVj.png" width="706" thumbnail="true"/>
+    <p>新 UI 的主要变化包括简化的 <a href="guided-tour-around-the-user-interface.topic" anchor="vcs-file-color" summary="">主工具栏</a> 、新的 <include from="reuse-library.topic" element-id="tool-window-snippet"/> 布局、新的 <a href="user-interface-themes.topic" summary="">主题</a> 和新的 UI 图标设计。</p>
+    <img border-effect="rounded" alt="新 UI（Darcula 主题）" src="https://i.imgur.com/YnNgcVj.png" width="706" thumbnail="true"/>
     <procedure id="enable-new-ui" title="启用新 UI">
         <step>在 <control>设置（ <shortcut>Ctrl</shortcut><shortcut>Alt</shortcut><shortcut>S</shortcut> ）</control> 中选择 <ui-path>外观与行为 | 新 UI</ui-path> 。</step>
-        <step>勾选 <ui-path>启用新 UI</ui-path> 并根据提示重启 <tooltip term="ide">IDE</tooltip> 。</step>
+        <step>勾选 <ui-path>启用新 UI</ui-path> 并根据提示重启 IntelliJ IDEA。</step>
         <video border-effect="rounded" src="https://www.youtube.com/watch?v=YOlG61MEaWY" width="706"/>
     </procedure>
     <procedure id="show-main-menus" title="在单独的工具栏中显示主菜单">
@@ -22,7 +22,7 @@
         <chapter id="new-themes-icons-font" title="新主题、图标和预设字体">
             <list>
                 <li>
-                    <p>新的 <ui-path>Light</ui-path> 和 <ui-path>ui-path">Dark</ui-path> <a href="user-interface-themes.topic" summary="">主题</a> 改进了对比度。</p>
+                    <p>新的 <ui-path>Light</ui-path> 和 <ui-path>Dark</ui-path> <a href="user-interface-themes.topic" summary="">主题</a> 改进了对比度。</p>
                     <tabs>
                         <tab title="Light 主题" id="light-theme">
                             <img border-effect="rounded" alt="新 UI（Light 主题）" src="https://i.imgur.com/u7LT4Bq.png" width="706" thumbnail="true"/>
@@ -57,13 +57,13 @@
                 <li>
                     <p>VCS 部件</p>
                     <p>该部件显示当前分支，允许切换分支，提供常用的 <a href="version-control-integration.topic" summary="">VCS 操作</a> ，例如更新项目、提交和推送更改。</p>
-                    <p>它已替代了主窗口底部 <include from="reuse-library.topic" element-id="status-bar-snippet" /> 中的旧小部件，以及以前位于右上角 <include from="reuse-library.topic" element-id="navigation-bar-snippet" /> 中的 VCS 操作图标。</p>
+                    <p>它已替代了 <include from="reuse-library.topic" element-id="status-bar-snippet"/> 中的旧微件，以及以前位于右上角 <include from="reuse-library.topic" element-id="navigation-bar-snippet" /> 中的 VCS 操作图标。</p>
                     <video border-effect="rounded" src="https://www.youtube.com/watch?v=Ngg941ioJiM" width="706"/>
                 </li>
                 <li>
                     <p>运行部件</p>
                     <p>该部件允许您启动 <a href="run-debug-configuration.topic" summary=""/> ，选择其他配置进行运行，更改当前配置的模式（运行或调试），以及编辑或删除当前配置。</p>
-                    <p>它显示流程的当前状态。当流程运行时，您可以使用小部件重新启动或停止它。</p>
+                    <p>它显示流程的当前状态。当流程运行时，您可以使用此小部件重新启动或停止它。</p>
                     <video border-effect="rounded" src="https://www.youtube.com/watch?v=5-w7c0OyKzc" width="706"/>
                 </li>
             </list>
@@ -72,7 +72,7 @@
             <p>新 UI 针对 <include from="reuse-library.topic" element-id="tool-window-snippet" /> 的布局和行为有所调整：</p>
             <list>
                 <li>
-                    <p>工具窗口栏中的 UI 图标设计较大，视觉导航更方便，外观也更整洁。</p>
+                    <p><a href="tool-window.topic" anchor="bars-and-buttons" summary="">工具窗口栏</a> 中的 UI 图标设计较大，视觉导航更方便，外观也更整洁。</p>
                     <img border-effect="rounded" alt="新 UI 中工具窗口栏上的 UI 图标" src="https://i.imgur.com/k5BocOc.png" width="706" thumbnail="true"/>
                     <p>要查看工具窗口的详细名称，可将鼠标悬停在其图标上查看工具提示。</p>
                     <video border-effect="rounded" src="https://www.youtube.com/watch?v=a6ZtzOITuGA" width="706"/>

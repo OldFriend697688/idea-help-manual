@@ -4,11 +4,11 @@
 <topic xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
        xsi:noNamespaceSchemaLocation="https://resources.jetbrains.com/writerside/1.0/topic.v2.xsd"
        title="无障碍" id="accessibility">
-    <tip>如果视觉系统正常且无缺陷，您可以选择跳过阅读此章节中的内容。&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;</tip>
     <note>
         <p>IntelliJ IDEA 允许您启用各种辅助功能以满足实际需求。</p>
         <p>您可以使用 <tooltip term="screen-reader">屏幕阅读器</tooltip> 或调整字体大小、颜色以及某些 <tooltip term="user-interface">UI</tooltip> 元素的行为。&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;</p>
     </note>
+    <tip>如果视觉系统正常且无缺陷，您可以选择跳过阅读此章节中的内容。&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;</tip>
     <chapter id="screen-reader" title="屏幕阅读器">
         <procedure id="enable-screen-reader" title="启用屏幕阅读器" type="steps">
             <step>
@@ -32,7 +32,7 @@
                 </tabs>
             </step>
             <step>
-                <p>如果 IntelliJ IDEA 检测到系统中已安装了屏幕阅读器，它将自动提示并建议您启用它。</p>
+                <p>如果 IntelliJ IDEA 检测到操作系统中已安装了屏幕阅读器，它将会提示并建议您启用它。</p>
                 <p>当首次启动 IntelliJ IDEA 时，您需要在打开的对话框中单击 <control>启用</control> 。</p>
                 <note>对于已经安装和配置过的 IntelliJ IDEA，您可以稍后或手动激活屏幕阅读器支持。</note>
             </step>
@@ -40,7 +40,7 @@
         <procedure title="安装并设置 IntelliJ IDEA" id="install-and-set-up" type="steps">
             <warning>请先下载并启用屏幕阅读器，然后再执行以下操作。否则，您将无法见证实际效果。&nbsp;</warning>
             <note>对于 <tooltip term="windows">Windows</tooltip> 和 <tooltip term="macos">macOS</tooltip> 而言，当 IntelliJ IDEA 在首次启动时若检测到屏幕阅读器，它会显示一个对话框，您可以在其中为它启用屏幕阅读器。</note>
-            <step><a href="installation-guide.topic" summary="">下载并安装 IntelliJ IDEA</a> 。</step>
+            <step>参阅 <a href="installation-guide.topic" summary=""/> 完成 IntelliJ IDEA 的下载和安装 。</step>
             <step>
                 <p>要在首次启动 IntelliJ IDEA 之前便先行启用屏幕阅读器支持，请执行以下操作：</p>
                 <list type="alpha-lower">
@@ -71,11 +71,11 @@
         </procedure>
     </chapter>
     <chapter id="customize-ide" title="自定义 IDE">
-        <procedure id="red-green-deficiency" title="调整红绿色盲的颜色">
-            <note>如果您不幸患有红绿色盲，可以调整 <tooltip term="ide">IDE</tooltip> 和 <include from="reuse-library.topic" element-id="editor-snippet"/> 的颜色。在这种情况下，代码通知（ <format style="italic" color="Black">例如：以红色高亮显示的错误或以绿色显示的字符串文本</format> ）将以中性色显示。</note>
+        <procedure id="red-green-deficiency" title="针对红-绿色觉缺陷调整颜色">
+            <note>如果您不幸患有红绿色盲，可以调整 <tooltip term="ide">IDE</tooltip> 和 <include from="reuse-library.topic" element-id="editor-snippet"/> 的颜色。在这种情况下，代码通知（ 例如：以 <format color="#ff5069" style="bold">红色</format> 高亮显示的错误或以 <format color="#498b49" style="bold">绿色</format> 显示的字符串文本 ）将以 <tooltip term="neutral-colors">中性色</tooltip> 显示。</note>
             <step>在 <control>设置（ <shortcut>Ctrl</shortcut><shortcut>Alt</shortcut><shortcut>S</shortcut> ）</control> 中选择 <ui-path>外观与行为 | 外观</ui-path> 。</step>
             <step>勾选 <control>针对红-绿色觉缺陷调整颜色</control> 并保存更改。</step>
-            <img src="https://i.imgur.com/DewNUqL.png" alt="针对红-绿色觉缺陷调整颜色" width="706" thumbnail="true" border-effect="rounded"/>
+            <img src="https://i.imgur.com/kqrh3EY.png" alt="针对红-绿色觉缺陷调整颜色" width="706" thumbnail="true" border-effect="rounded"/>
             <p>请查看如下图片示例， 其中 <format style="bold" color="#498b49">String</format> 用绿色突出显示， <format style="bold" color="#ff5069">Errors</format> 用红色突出显示：</p>
             <tabs>
                 <tab title="调整前" id="before-adjustment">
@@ -89,10 +89,9 @@
         </procedure>
         <procedure id="scrollbars-contrast" title="为滚动条添加对比色">
             <note>此处的步骤可以使 <include from="reuse-library.topic" element-id="editor-snippet"/> 中的滚动条更显眼。&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;</note>
-            <note>配置 <include from="reuse-library.topic" element-id="editor-snippet"/> 的垂直滚动条颜色和不透明度，请使用 <a anchor="color-config" summary="">配色方案</a> 设置。&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;</note>
             <step>在 <control>设置（ <shortcut>Ctrl</shortcut><shortcut>Alt</shortcut><shortcut>S</shortcut> ）</control> 中选择 <ui-path>外观与行为 | 外观</ui-path> 。</step>
-            <step>在右侧的 <format style="bold">无障碍功能</format> 部分中，勾选 <control>使用对比度滚动条</control> 。</step>
-            <img src="https://i.imgur.com/kXjNU5J.png" alt="使用对比度滚动条" width="706" thumbnail="true" border-effect="rounded"/>
+            <step>在右侧的 <ui-path>无障碍功能</ui-path> 部分中，勾选 <control>使用对比度滚动条</control> 。</step>
+            <img src="https://i.imgur.com/nhGoNsC.png" alt="使用对比度滚动条" width="706" thumbnail="true" border-effect="rounded"/>
             <video src="https://www.youtube.com/watch?v=a_l_pD5_ihc" width="706" border-effect="rounded"/>
         </procedure>
         <procedure id="color-config" title="为代码元素、编辑器、滚动条、超链接等配置颜色">
@@ -101,23 +100,23 @@
                 <p>您还可以配置 <include from="reuse-library.topic" element-id="editor-snippet"/> 中垂直滚动条的颜色。&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;</p>
             </note>
             <step>在 <control>设置（ <shortcut>Ctrl</shortcut><shortcut>Alt</shortcut><shortcut>S</shortcut> ）</control> 中选择 <ui-path><include from="reuse-library.topic" element-id="editor-snippet"/> | <a href="configuring-colors-and-fonts.topic" anchor="select-color-scheme" summary="">配色方案</a> | 常规</ui-path> 。</step>
-            <img src="https://i.imgur.com/6UBfyBU.png" alt="设置配色方案" width="706" thumbnail="true" border-effect="rounded"/>
+            <img src="https://i.imgur.com/hgCcwL9.png" alt="设置配色方案" width="706" thumbnail="true" border-effect="rounded"/>
             <step>
                 <p>从右侧的选项列表中，选择要调整颜色的元素。</p>
                 <p>例如：您可以选择并展开 <ui-path>代码</ui-path> ，然后调整 <ui-path>注入的语言片段</ui-path> 或 <ui-path>匹配的大括号</ui-path> 等部分的颜色。</p>
             </step>
-            <img src="https://i.imgur.com/nY5d6Xu.png" alt="调整语言片段或匹配的大括号的颜色" width="706" thumbnail="true" border-effect="rounded"/>
+            <img src="https://i.imgur.com/3XePJx8.png" alt="调整语言片段或匹配的大括号的颜色" width="706" thumbnail="true" border-effect="rounded"/>
             <step>单击 <control>确定</control> 保存更改。</step>
             <video src="https://www.youtube.com/watch?v=WS-3efMOxWI" width="706" border-effect="rounded"/>
-            <note>您还可以调整 <include from="reuse-library.topic" element-id="editor-snippet"/>、控制台和其他 <tooltip term="ide">IDE</tooltip> 部分的颜色。这些设置位置位于 <ui-path>设置 | <include from="reuse-library.topic" element-id="editor-snippet"/> | <a href="configuring-colors-and-fonts.topic" anchor="select-color-scheme" summary="">配色方案</a></ui-path> 列表的相应节点内。</note>
+            <note>您还可以调整控制台、调试器和其他 <tooltip term="ide">IDE</tooltip> 部分的颜色。这些设置位置位于 <ui-path>设置 | <include from="reuse-library.topic" element-id="editor-snippet"/> | <a href="configuring-colors-and-fonts.topic" anchor="select-color-scheme" summary="">配色方案</a></ui-path> 列表下的相应节点内。</note>
             <img src="https://i.imgur.com/BcUQTkb.png" alt="调整调试器、控制台以及 IDE 其他部分的颜色" width="706" thumbnail="true" border-effect="rounded"/>
         </procedure>
-        <procedure id="ui-fonts" title="调整UI 使用的默认字体">
+        <procedure id="ui-fonts" title="调整 UI 使用的默认字体">
             <note>可以调整 <tooltip term="user-interface">UI</tooltip> 元素使用的默认字体。&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;</note>
             <note>过安装新字体，您可以丰富 IntelliJ IDEA 中可供选择的字体种类。&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;</note>
             <step>在 <control>设置（ <shortcut>Ctrl</shortcut><shortcut>Alt</shortcut><shortcut>S</shortcut> ）</control> 中选择 <ui-path>外观与行为 | 外观</ui-path> 。</step>
             <step>在右侧找到 <ui-path>字体</ui-path> 下拉列表，然后从其中选择一种字体并指定字体大小。</step>
-            <img src="https://i.imgur.com/pEi0eBx.png" alt="调整 UI 默认字体以及大小" width="706" thumbnail="true" border-effect="rounded"/>
+            <img src="https://i.imgur.com/x3AiIVZ.gif" alt="调整 UI 默认字体以及大小" width="706" thumbnail="true" border-effect="rounded"/>
             <step>单击 <control>确定</control> 保存更改。</step>
             <video src="https://www.youtube.com/watch?v=8ip0YImjEps" width="706" border-effect="rounded"/>
         </procedure>
@@ -127,17 +126,23 @@
             <step>水平方向调整工具窗口大小请按 <shortcut>Ctrl</shortcut><shortcut>Alt</shortcut><shortcut>Shift</shortcut><shortcut>Left</shortcut> 或 <shortcut>Ctrl</shortcut><shortcut>Alt</shortcut><shortcut>Shift</shortcut><shortcut>Right</shortcut> 。</step>
             <video src="https://www.youtube.com/watch?v=6Gz1MgUAwJA" width="706" border-effect="rounded"/>
         </procedure>
-        <procedure id="editor-text" title="调整编辑器中的文字大小">
-            <note>可以在 <include from="reuse-library.topic" element-id="editor-snippet"/> 中更改文字的字体和大小。&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;</note>
+        <procedure id="editor-text" title="调整编辑器中文字的大小">
+            <note>您可以更改 <include from="reuse-library.topic" element-id="editor-snippet"/> 使用的文字的字体和大小。&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;</note>
             <step>在 <control>设置（ <shortcut>Ctrl</shortcut><shortcut>Alt</shortcut><shortcut>S</shortcut> ）</control> 中选择 <ui-path><include from="reuse-library.topic" element-id="editor-snippet"/> | 常规</ui-path> 。</step>
-            <step>勾选 <ui-path>鼠标控制</ui-path> 部分中的 <control>使用 Ctrl + 鼠标滚轮更改字号</control> 。</step>
+            <step>
+                <p>勾选 <ui-path>鼠标控制</ui-path> 部分中的 <control>使用 Ctrl + 鼠标滚轮更改字号</control> 。</p>
+                <list>
+                    <li><ui-path>活动编辑器</ui-path> ：只能更改在编辑器中打开的当前文件的字体大小。</li>
+                    <li><ui-path>所有编辑器</ui-path> ：可同时更改编辑器中打开的全部文件的字体大小。</li>
+                </list>
+            </step>
             <img alt="使用鼠标加快捷键更改编辑器字体大小" src="https://i.imgur.com/y772zY6.png" width="706" thumbnail="true" border-effect="rounded"/>
             <video src="https://www.youtube.com/watch?v=5sbMotGc9ZQ" width="706" border-effect="rounded"/>
             <step>
-                <p>如果需要指定更精确的字体大小，请选择 <ui-path>设置 | <include from="reuse-library.topic" element-id="editor-snippet"/> | <a href="configuring-colors-and-fonts.topic" anchor="fonts" summary=""/></ui-path> 。</p>
+                <p>如果需要指定更精确的字体大小，请选择 <ui-path>设置（ <shortcut>Ctrl</shortcut><shortcut>Alt</shortcut><shortcut>S</shortcut> ） | <include from="reuse-library.topic" element-id="editor-snippet"/> | <a href="configuring-colors-and-fonts.topic" anchor="fonts" summary=""/></ui-path> 。</p>
                 <p>从右侧选项中，您可以指定字体、大小、行距和其他可配置选项。</p>
             </step>
-            <img src="https://i.imgur.com/KaLXo6Y.png" alt="调整编辑器字体及相关设置" width="706" thumbnail="true" border-effect="rounded"/>
+            <img src="https://i.imgur.com/Z6Jg1cn.png" alt="调整编辑器字体及相关设置" width="706" thumbnail="true" border-effect="rounded"/>
             <step>单击 <control>确定</control> 保存更改。</step>
             <video src="https://www.youtube.com/watch?v=L6dr22ewXhY" width="706" border-effect="rounded"/>
         </procedure>
@@ -145,9 +150,10 @@
             <note>您可以配置自定义 <a href="mastering-keyboard-shortcuts.topic" summary=""/> 来执行您经常使用的操作。&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;</note>
             <step>在 <control>设置（ <shortcut>Ctrl</shortcut><shortcut>Alt</shortcut><shortcut>S</shortcut> ）</control> 中选择 <ui-path><a href="mastering-keyboard-shortcuts.topic" summary="">按键映射</a></ui-path> 。</step>
             <img src="https://i.imgur.com/vy6HjSV.png" alt="按键映射" width="706" thumbnail="true" border-effect="rounded"/>
-            <step>从右侧选项列表（例如： <ui-path><include from="reuse-library.topic" element-id="main-menus-snippet"/></ui-path> 、 <ui-path>编辑器操作</ui-path> 和 <ui-path><a href="pro-tips.topic" anchor="external-tools" summary=""/></ui-path> ）中选择您需要的目标操作。</step>
+            <step>从右侧选项列表（例如： <ui-path>编辑器操作</ui-path> 、 <ui-path><include from="reuse-library.topic" element-id="main-menus-snippet"/></ui-path> 和 <ui-path><a href="pro-tips.topic" anchor="external-tools" summary=""/></ui-path> ）中选择您需要的目标操作。</step>
+            <img src="https://i.imgur.com/iazTyuD.png" alt="为编辑器操作、主菜单、外部工具分配快捷键" width="706" thumbnail="true" border-effect="rounded"/>
             <step>
-                <p>右键单击所选目标操作，然后从上下文菜单中选择要配置的选项。</p>
+                <p>右键单击所选目标操作，然后从 <include from="reuse-library.topic" element-id="context-menus-snippet"/> 中选择要配置的选项。</p>
                 <p>例如： <ui-path>添加键盘快捷键</ui-path> 、 <ui-path>添加鼠标快捷方式</ui-path> 或 <ui-path>添加缩写</ui-path> 。</p>
             </step>
             <img src="https://i.imgur.com/i2kxkef.png" alt="添加键盘快捷键、 添加鼠标快捷键或添加缩写" width="706" thumbnail="true" border-effect="rounded"/>
@@ -164,11 +170,12 @@
         <procedure id="smart-keys" title="自定义智能按键行为">
             <note>您可以配置智能键的行为。&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;</note>
             <step>在 <control>设置（ <shortcut>Ctrl</shortcut><shortcut>Alt</shortcut><shortcut>S</shortcut> ）</control> 中选择 <ui-path><include from="reuse-library.topic" element-id="editor-snippet"/>| 常规 | 智能按键</ui-path> 。</step>
-            <img src="https://i.imgur.com/YVOB2Wv.png" alt="智能按键" width="706" thumbnail="true" border-effect="rounded"/>
+            <img src="https://i.imgur.com/DKmnSHk.png" alt="智能按键" width="706" thumbnail="true" border-effect="rounded"/>
             <step>
                 <p>从右侧选项中启用或禁用智能按键选项。</p>
                 <p>例如：您可以禁用 <control>插入成对中括号</control> 或 <control>插入成对引号</control> ，该选项会自动插入闭合括号或引号。</p>
             </step>
+            <img src="https://i.imgur.com/nl0Q7qh.png" alt="智能按键" width="706" thumbnail="true" border-effect="rounded"/>
             <step>单击 <control>确定</control> 保存更改。</step>
             <video src="https://www.youtube.com/watch?v=v5hXoOs4nTc" width="706" border-effect="rounded"/>
         </procedure>
@@ -187,12 +194,16 @@
         <procedure id="custom-code-fold" title="自定义代码折叠">
             <note>您可以控制代码折叠行为，并指定哪些代码应该或不应该折叠。&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;</note>
             <step>在 <control>设置（ <shortcut>Ctrl</shortcut><shortcut>Alt</shortcut><shortcut>S</shortcut> ）</control> 中选择 <ui-path><include from="reuse-library.topic" element-id="editor-snippet"/> | 常规 | 代码折叠</ui-path> 。</step>
+            <img src="https://i.imgur.com/Ydfva0W.png" alt="代码折叠" width="706" thumbnail="true" border-effect="rounded"/>
             <step>从右侧选项中选择默认要折叠的内容。</step>
             <video src="https://www.youtube.com/watch?v=A7z5bR0vuq8" width="706" border-effect="rounded"/>
         </procedure>
         <procedure id="custom-code-style" title="自定义代码样式">
             <note>您可以配置空格、制表符和缩进。&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;</note>
-            <step>在 <control>设置（ <shortcut>Ctrl</shortcut><shortcut>Alt</shortcut><shortcut>S</shortcut> ）</control> 中选择 <ui-path><include from="reuse-library.topic" element-id="editor-snippet"/> | 代码样式 | 目标语言</ui-path> 。</step>
+            <step>
+                <p>在 <control>设置（ <shortcut>Ctrl</shortcut><shortcut>Alt</shortcut><shortcut>S</shortcut> ）</control> 中选择 <ui-path><include from="reuse-library.topic" element-id="editor-snippet"/> | 代码样式 | 目标语言</ui-path> 。</p>
+                <p>例如：您想要自定义 <tooltip term="java">Java</tooltip> 代码的样式，则应选择 <ui-path>编辑器 | 代码样式 | Java</ui-path> 。</p>
+            </step>
             <step>从右侧选项中，单击 <ui-path>制表符和缩进</ui-path> 来配置制表符或 <ui-path>空格</ui-path> 来配置空格的使用位置和方式。</step>
             <step>单击 <control>确定</control> 保存更改。</step>
             <img src="https://i.imgur.com/vxFaADq.png" alt="代码样式" width="706" thumbnail="true" border-effect="rounded"/>
@@ -200,7 +211,7 @@
         <procedure id="high-contrast-theme" title="设置高对比度颜色主题">
             <note>您可以设置高对比度的 <a href="user-interface-themes.topic" summary="">界面主题</a> 。界面主题定义了窗口、对话框和控件的外观。&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;</note>
             <step>在 <control>设置（ <shortcut>Ctrl</shortcut><shortcut>Alt</shortcut><shortcut>S</shortcut> ）</control> 中选择 <ui-path>外观与行为 | 外观</ui-path> 。</step>
-            <step>从 <control>主题</control> 列表中选择 <ui-path>High Contrast</ui-path> ，然后单击 <control>确定</control> 保存更改。</step>
+            <step>从 <control>主题</control> 列表中选择 <ui-path>High contrast</ui-path> ，然后单击 <control>确定</control> 保存更改。</step>
             <img src="https://i.imgur.com/4Lr6wNA.gif" alt="设置高对比度主题" width="706" thumbnail="true" border-effect="rounded"/>
         </procedure>
         <procedure id="high-contrast-scheme" title="设置高对比度配色方案">
@@ -211,7 +222,7 @@
             <img src="https://i.imgur.com/HIfKMvN.png" alt="为高对比度主题设置配色方案" width="706" thumbnail="true" border-effect="rounded"/>
         </procedure>
     </chapter>
-    <p>另外，您还可参阅 <a href="using-code-editor.topic" summary="">编辑器基础</a> 、 <a href="mastering-keyboard-shortcuts.topic" summary=""/> 、 <a href="guided-tour-around-the-user-interface.topic" summary=""/> 等内容，以熟悉有用的快捷键和相关知识。</p>
+    <p>另外，您还可参阅 <a href="using-code-editor.topic" summary="">编辑器基础</a> 、 <a href="mastering-keyboard-shortcuts.topic" summary="">按键映射</a> 、 <a href="guided-tour-around-the-user-interface.topic" summary=""/> 等内容，以熟悉有用的快捷键和相关知识。</p>
     <seealso>
         <include from="reuse-library.topic" element-id="ides-snippet"/>
         <include from="reuse-library.topic" element-id="core-references-snippet"/>

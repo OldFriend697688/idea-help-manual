@@ -16,7 +16,7 @@
         <img border-effect="rounded" src="https://i.imgur.com/oeG9C4W.png" alt="选择感兴趣的目标课程" width="706" thumbnail="true"/>
         <video border-effect="rounded" src="https://www.youtube.com/watch?v=l-v6mCqBkAw" width="706"/>
     </procedure>
-    <p>在 <tooltip term="ide">IDE</tooltip> 中打开选中的课程后，您就可以开始学习了。</p>
+    <p>在 IntelliJ IDEA 中打开选中的课程后，您就可以开始学习了。</p>
     <p>如果您想要了解更多信息，请参阅 <a href="https://www.jetbrains.com/zh-cn/idea-edu/">IntelliJ IDEA for Education</a> 。</p>
     <p>您还可以使用 <include from="reuse-library.topic" element-id="main-menus-snippet" /> 浏览其他课程、创建新课程或报告问题。</p>
     <procedure id="work-with-main-menu" title="使用主菜单">

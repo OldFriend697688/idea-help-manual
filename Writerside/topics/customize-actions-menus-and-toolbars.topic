@@ -4,8 +4,9 @@
 <topic xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
        xsi:noNamespaceSchemaLocation="https://resources.jetbrains.com/writerside/1.0/topic.v2.xsd"
        title="菜单与工具栏" id="customize-actions-menus-and-toolbars">
-    <p>在使用 IntelliJ IDEA 时，您可能会频繁使用某些操作。为了提高您的工作效率，您需要学习感兴趣的操作所对应的默认 <a href="mastering-keyboard-shortcuts.topic" summary=""/> ，或者是为它们 <a href="configuring-keyboard-and-mouse-shortcuts.topic" summary=""/> 。您还可以自定义菜单与工具栏，使它们仅包含您需要的操作，并且为它们调整排列组合及配置自定义图标。</p>
-    <p>例如：如果您正在进行 <tooltip term="java">Java</tooltip> 项目开发，则可能需要从 <ui-path><include from="reuse-library.topic" element-id="main-menus-snippet"/> | 文件 | 新建</ui-path> 中移除您不需要使用的其它选项，仅留下需要的选项，以使菜单变得更短。更多信息请参阅 <include from="reuse-library.topic" element-id="context-menus-snippet"/> 。</p>
+    <p>您可能会在 IntelliJ IDEA 中频繁使用某些操作。为了提升您的工作效率，您需要学习感兴趣的操作所对应的默认 <a href="mastering-keyboard-shortcuts.topic" summary=""/> ，或者是为它们 <a href="configuring-keyboard-and-mouse-shortcuts.topic" summary=""/> 。</p>
+    <p>您可以自定义菜单与工具栏，使它们仅包含需要的操作，并为它们调整排列组合及配置自定义图标。</p>
+    <p>例如：如果您正在进行 <tooltip term="java">Java</tooltip> 项目开发，则可能想要从 <ui-path><include from="reuse-library.topic" element-id="main-menus-snippet"/> | 文件 | 新建</ui-path> 中移除您不需要使用的其它选项，仅留下需要的选项，以使菜单变得更短。更多信息请参阅 <include from="reuse-library.topic" element-id="context-menus-snippet"/> 。</p>
     <note>您可以使用 <include from="reuse-library.topic" element-id="bookmarks-snippet"/><include from="reuse-library.topic" element-id="tool-window-snippet"/> 快速访问您喜欢的文件、目录、书签和断点。&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;</note>
     <procedure title="自定义菜单与工具栏" id="customize-menus-and-toolbars" type="steps">
         <step>在 <control>设置（ <shortcut>Ctrl</shortcut><shortcut>Alt</shortcut><shortcut>S</shortcut> ）</control> 中选择 <ui-path>外观与行为 | 菜单与工具栏</ui-path> 。</step>

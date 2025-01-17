@@ -11,7 +11,7 @@
     <video src="https://www.youtube.com/watch?v=vsUx-kod2O4" width="706" border-effect="rounded"/>
     <procedure id="ws-features-trainer-before-you-start" title="准备工作">
         <step>确保正在使用的 IntelliJ IDEA 为 2020.3 及更高版本。</step>
-        <step>确保已正确安装并启用 <ui-path>IDE Features Trainer</ui-path> 插件。</step>
+        <step>确保已正确安装并启用 <ui-path>IDE Features Trainer</ui-path> <a href="managing-plugins.topic" summary="">插件</a> 。</step>
         <img border-effect="rounded" src="https://i.imgur.com/qZjdMgJ.png" alt="确保已正确安装并启用 IDE Features Trainer 插件" width="706" thumbnail="true"/>
     </procedure>
     <procedure title="开始学习课程" id="start-a-lesson-from-the-welcome-screen">
@@ -42,10 +42,8 @@
         <note>可只学习您认为最相关的教程和课程，也可以轻松跳过课程、切换教程或放弃课程。</note>
         <step>转到下一课，请打开 <ui-path>学习</ui-path> 并滚至底部，然后单击 <format style="bold">下一个：&lt;课程名称&gt;</format> 或单击另一课链接。</step>
         <video src="https://www.youtube.com/watch?v=oz1J0lOpQU8" width="706" border-effect="rounded"/>
-        <step>
-            <p>要切换至另一个教程而不丢失当前教程的进度，请单击 <ui-path>学习</ui-path> 顶部的名称链接。</p>
-            <p>然后单击您感兴趣的教程，并选择要完成的课程。</p>
-        </step>
+        <step>要切换至另一个教程而不丢失当前教程的进度，请单击 <ui-path>学习</ui-path> 顶部的名称链接。</step>
+        <step>然后单击您感兴趣的教程，并选择要完成的课程。</step>
         <video src="https://www.youtube.com/watch?v=iRP64ed02zc" width="706" border-effect="rounded"/>
         <note>如果您想要在不保存学习进度的情况下放弃教程，请单击 <ui-path>设置（ <shortcut>Ctrl</shortcut><shortcut>Alt</shortcut><shortcut>S</shortcut> ） | 工具 | IDE Features Trainer | 重置单元进度</ui-path> 。 单击 <control>确定</control> 后，您将返回到 <ui-path>学习</ui-path> 工具窗口，此时您的学习进度已被成功重置。</note>
         <video src="https://www.youtube.com/watch?v=ITTneCd8kD8" width="706" border-effect="rounded"/>

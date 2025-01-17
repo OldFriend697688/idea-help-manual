@@ -10,17 +10,17 @@
 
         <spotlight>
             <a href="register.topic" type="key" summary="激活 IntelliJ IDEA，摆脱试用限制，尽享高效开发。"/>
-            <a href="working-offline.topic" type="world" summary="即使在没有网络的环境中 IntelliJ IDEA 的大部分功能也依旧可用。" />
+            <a href="working-offline.topic" type="world" summary="即使在没有网络的环境中 IntelliJ IDEA 的大部分功能也依旧可用。"/>
         </spotlight>
 
         <primary>
             <title>快速开始</title>
             <a href="installation-guide.topic" summary="根据您的操作系统，选择合适的 IntelliJ IDEA 安装方式。">安装 IntelliJ IDEA</a>
-            <a href="installation-guide.topic" summary="启用简体中文语言包，改善使用体验，降低学习门槛。" anchor="simplified-chinese-language" />
+            <a href="installation-guide.topic" summary="启用简体中文语言包，改善使用体验，降低学习门槛。" anchor="simplified-chinese-language"/>
             <a href="user-interface-themes.topic" summary="启用个性化主题，告别单调的界面，打造专属的视觉体验。">主题</a>
             <a href="guided-tour-around-the-user-interface.topic" summary="掌握 IntelliJ IDEA 用户界面的主要构成，提高开发效率。"/>
             <a href="setting-background-image.topic" summary="用个性背景图美化您的 IntelliJ IDEA。"/>
-            <a href="tool-window.topic" summary="工具窗口为您提供了一个直观且便捷的界面，让您可以轻松地浏览项目结构、运行调试应用程序、进行代码分析，以及与各种外部工具进行交互，从而大大提高您的开发效率。"/>
+            <a href="tool-window.topic" summary="工具窗口提供围绕编码相关的辅助功能，使得开发效率得以提升。"/>
         </primary>
 
         <secondary>
@@ -48,7 +48,7 @@
                     <a href="https://git-scm.com/" summary="Git 是一种分布式版本控制系统，用于跟踪文件随时间的变化。它最初是为 Linux 内核开发而设计的，但现在已被广泛应用于各种软件开发项目。与传统的集中式版本控制系统（如 SVN）不同，Git 在本地存储库中保存了完整的项目历史，这使得它在速度、灵活性和离线工作方面具有显著优势。">Git</a>
                     <a href="https://subversion.apache.org/" summary="SVN，全称 Subversion，是一个开源的版本控制系统。它可以帮助我们管理文件和目录随时间变化的所有修改，这样就可以回溯文件的历史，谁修改过什么，什么时候修改，修改了什么内容，这些都一目了然。SVN 特别适合多人协同开发项目，可以有效地管理代码，减少冲突，提高开发效率。">SVN</a>
                     <a href="https://gitee.com/" summary="GitEE （码云）是开源中国社区于 2013 年推出的基于 Git 的代码托管服务，目前已经成为国内知名的代码托管平台，致力于为国内开发者提供优质稳定的托管服务。">GitEE</a>
-                    <a href="https://gitlab.com/" summary="GitLab 是一个用于仓库管理系统的开源项目，使用 Git 作为代码管理工具，并在此基础上搭建起来的 Web 服务">GitLab</a>
+                    <a href="https://gitlab.com/" summary="GitLab 是一个用于仓库管理系统的开源项目，使用 Git 作为代码管理工具，并在此基础上搭建起来的 Web 服务。">GitLab</a>
                     <a href="https://github.com/" summary="GitHub 是一个基于 Web 的平台，它使用分布式版本控制系统 Git 来促进版本控制和协作软件开发。它允许开发者托管他们的代码存储库、跟踪更改并与其他人合作完成项目。">GitHub</a>
                 </group>
                 <group>

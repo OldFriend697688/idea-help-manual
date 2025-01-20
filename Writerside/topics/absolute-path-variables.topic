@@ -8,7 +8,7 @@
     <p>一旦配置完成，这些路径变量对于使用 IntelliJ IDEA 打开的任何项目都具有相同的值。</p>
     <procedure title="创建新的路径变量" id="create-new-path-variable">
         <step>选择 <ui-path>设置（ <shortcut>Ctrl</shortcut><shortcut>Alt</shortcut><shortcut>S</shortcut> ） | 外观与行为 | 路径变量</ui-path> 。</step>
-        <img border-effect="rounded" alt="路径变量" src="https://i.imgur.com/Fgzn1bg.png" width="706" thumbnail="true"/>
+        <img border-effect="rounded" alt="路径变量" src="路径变量.png" width="706" thumbnail="true"/>
         <step>单击 <img src="添加.svg" alt=""/> ，然后键入变量名称和对应的值，并单击 <ui-path>确定</ui-path> 。</step>
         <video border-effect="rounded" src="https://www.youtube.com/watch?v=R4lX3NanzPI" width="706"/>
     </procedure>
@@ -27,12 +27,12 @@
     <procedure id="ignore-path-variables" title="忽略路径变量" type="steps">
         <p>无论何时打开或更新项目，IntelliJ IDEA 都会检查是否存在未配置的路径变量。</p>
         <p>如果 <tooltip term="ide">IDE</tooltip> 检测到任何未配置的路径变量，它会要求您为它们定义值。</p>
-        <img border-effect="rounded" src="https://i.imgur.com/AgzEYUC.png" alt="修复未定义的路径变量" width="706" thumbnail="true"/>
+        <img border-effect="rounded" src="修复未定义的路径变量.png" alt="修复未定义的路径变量" width="706" thumbnail="true"/>
         <p>如果不打算使用带有未配置路径变量的文件或目录，可以将它们添加到 <ui-path>忽略变量</ui-path> 列表中。</p>
         <step>选择 <ui-path>设置（ <shortcut>Ctrl</shortcut><shortcut>Alt</shortcut><shortcut>S</shortcut> ） | 外观与行为 | 路径变量</ui-path> 。</step>
         <step>在 <ui-path>忽略的变量</ui-path> 中键入不应被视为路径变量的变量名称。</step>
         <step><p>单击 <control>确定</control> 保存更改。</p></step>
-        <img border-effect="rounded" alt="忽略路径变量" src="https://i.imgur.com/sUklIcD.png" width="706" thumbnail="true"/>
+        <img border-effect="rounded" alt="忽略路径变量" src="忽略路径变量.png" width="706" thumbnail="true"/>
     </procedure>
     <seealso>
         <include from="reuse-library.topic" element-id="list-of-suggested-seealso-snippet"/>

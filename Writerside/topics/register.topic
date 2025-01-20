@@ -17,17 +17,17 @@
     <procedure title="开始免费试用" id="start-trial" type="steps">
         <note>请先阅读 <a href="installation-guide.topic" summary=""/> 并正确安装 IntelliJ IDEA 后再阅读此处内容。 &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;</note>
         <step>启动 IntelliJ IDEA 时将会弹出 <control>许可证</control> ，请在其中勾选 <ui-path>开始试用</ui-path> 。</step>
-        <img src="https://i.imgur.com/vJUDz5u.png" alt="开始试用" thumbnail="true" width="706" border-effect="rounded"/>
+        <img src="开始试用（1）.png" alt="开始试用" thumbnail="true" width="706" border-effect="rounded"/>
         <step>单击 <control>登录到 JetBrains Account</control> 。</step>
-        <img src="https://i.imgur.com/yDGbZI9.png" alt="登录 JetBrains 账号" width="706" thumbnail="true" border-effect="rounded"/>
+        <img src="登录 JetBrains 账号（1）.png" alt="登录 JetBrains 账号" width="706" thumbnail="true" border-effect="rounded"/>
         <step>在 JetBrains 网站上选择一种适合您的方式进行登录。</step>
-        <img src="https://i.imgur.com/31d3f98.png" alt="登录 JetBrains 账号" width="706" thumbnail="true" border-effect="rounded"/>
+        <img src="登录 JetBrains 账号（2）.png" alt="登录 JetBrains 账号" width="706" thumbnail="true" border-effect="rounded"/>
         <step>登录成功后，您将在浏览器中看到相应的提示信息。</step>
-        <img src="https://i.imgur.com/p2ygksC.png" alt="登录 JetBrains 账号" width="706" thumbnail="true" border-effect="rounded"/>
+        <img src="登录 JetBrains 账号（3）.png" alt="登录 JetBrains 账号" width="706" thumbnail="true" border-effect="rounded"/>
         <step>在 <control>许可证</control> 中单击 <control>开始试用</control> 。</step>
-        <img src="https://i.imgur.com/sziREZ4.png" alt="开始试用" width="706" thumbnail="true" border-effect="rounded"/>
+        <img src="开始试用（2）.png" alt="开始试用" width="706" thumbnail="true" border-effect="rounded"/>
         <warning>若出现 <format style="bold">Error fetching licenses for ll/lwu584742@gmail.com: Your trial has expired. To continue using IntelliJ IDEA Ultimate 2022.3, you must purchase a subscription.</format> 等类似提示信息，则代表此账号已过试用期。</warning>
-        <img src="https://i.imgur.com/8eRXzdq.png" alt="试用期已过期" width="706" thumbnail="true" border-effect="rounded"/>
+        <img src="试用期已过期.png" alt="试用期已过期" width="706" thumbnail="true" border-effect="rounded"/>
         <note>试用版到期后，您需要购买并注册许可证才能继续使用 IntelliJ IDEA Ultimate。&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;</note>
         <note><a href="https://www.jetbrains.com/idea/download/other.html">IntelliJ IDEA Community Edition（社区版）</a> 和 <a href="https://www.jetbrains.com/edu-products/download/#section=idea">IntelliJ IDEA Edu（教育版）</a> 无需任何许可证即可 <format style="bold">免费</format> 使用。但您不能将它们直接升级至 IntelliJ IDEA Ultimate（旗舰版），如果您需要使用旗舰版，请按照 <a href="installation-guide.topic" anchor="standalone" summary=""/> 中的说明单独下载并安装它。</note>
     </procedure>
@@ -38,7 +38,7 @@
                 <li>选择 <ui-path><include from="reuse-library.topic" element-id="main-menus-snippet"/> | 帮助 | 注册</ui-path> 。</li>
                 <li>
                     <p>在 <control>欢迎界面</control> 中单击 <ui-path>帮助 | 管理许可证</ui-path> 。</p>
-                    <img src="https://i.imgur.com/sxqtvom.gif" alt="管理许可证" thumbnail="true" width="706" border-effect="rounded"/>
+                    <img src="管理许可证.gif" alt="管理许可证" thumbnail="true" width="706" border-effect="rounded"/>
                 </li>
             </list>
         </step>
@@ -48,16 +48,16 @@
             <tabs>
                 <tab title="激活码" id="activation-code">
                     <p>购买相应 <tooltip term="jetbrains">JetBrains 产品</tooltip> 的许可证时，您可以获得激活码。</p>
-                    <img src="https://i.imgur.com/bs4FOTN.png" alt="使用激活码激活 IntelliJ IDEA" width="706" thumbnail="true" border-effect="rounded"/>
+                    <img src="使用激活码激活 IntelliJ IDEA.png" alt="使用激活码激活 IntelliJ IDEA" width="706" thumbnail="true" border-effect="rounded"/>
                 </tab>
                 <tab title="JetBrains 账户（不建议）" id="jb-account">
-                    <p>使用 <a href="https://account.jetbrains.com/login">JetBrains 帐户</a> 激活您的 IntelliJ IDEA。</p>
-                    <img src="https://i.imgur.com/17WXqSK.png" alt="使用 JetBrains 账号激活 IntelliJ IDEA" width="706" thumbnail="true" border-effect="rounded"/>
+                    <p>使用 <a href="https://account.jetbrains.com/login">JetBrains 帐户</a> 激活您的 IntelliJ IDEA。您随时可以 <a href="sharing-your-ide-settings.topic" summary="" anchor="log-out-of-jb-account"/> 。</p>
+                    <img src="使用 JetBrains 账号激活 IntelliJ IDEA.png" alt="使用 JetBrains 账号激活 IntelliJ IDEA" width="706" thumbnail="true" border-effect="rounded"/>
                     <note>IntelliJ IDEA 将自动显示许可证列表及其详细信息，例如到期日期。单击 <control>Activate（激活）</control> 开始使用许可证。 如果列表中未显示您的许可证，请单击 <control>Refresh license list（刷新许可证列表）</control> 。</note>
                 </tab>
                 <tab title="许可证服务器（不建议）" id="license-server">
                     <p>使用 <a href="https://www.jetbrains.com/license-server/">许可证服务器</a> 激活您的 IntelliJ IDEA。</p>
-                    <img src="https://i.imgur.com/vboltbH.png" alt="使用许可服务器激活 IntelliJ IDEA" width="706" thumbnail="true" border-effect="rounded"/>
+                    <img src="使用许可服务器激活 IntelliJ IDEA.png" alt="使用许可服务器激活 IntelliJ IDEA" width="706" thumbnail="true" border-effect="rounded"/>
                 </tab>
             </tabs>
         </step>
@@ -67,9 +67,9 @@
         <warning>以下所述的激活方法仅供学术探讨与知识交流之用。在此郑重提醒，一旦您通过此方式激活了 IntelliJ IDEA，务必不得将其应用于任何形式的商业项目或个人开发工作中。若因忽视此警告，导致软件使用不当，从而引发的经济损失、法律纠纷或商业信誉损害，本人将概不负责。</warning>
         <procedure title="下载破解激活脚本" id="download-hacker-script" default-state="collapsed" collapsible="true">
             <step><a href="https://3.jetbra.in/">单击此处获取激活补丁脚本</a> 。</step>
-            <img src="https://i.imgur.com/PmNaKco.png" alt="访问 JetBrains 破解激活脚本发布页" width="706" thumbnail="true" border-effect="rounded"/>
+            <img src="访问 JetBrains 破解激活脚本发布页.png" alt="访问 JetBrains 破解激活脚本发布页" width="706" thumbnail="true" border-effect="rounded"/>
             <step>单击 <format color="#5380f7" style="bold">jetbra.zip</format> 开始下载激活补丁并妥善保存。</step>
-            <img src="https://i.imgur.com/JKLHAYl.png" alt="下载破解激活脚本" width="706" thumbnail="true" border-effect="rounded"/>
+            <img src="下载破解激活脚本.png" alt="下载破解激活脚本" width="706" thumbnail="true" border-effect="rounded"/>
         </procedure>
         <procedure title="配置与激活步骤" id="configuration-and-activation" default-state="collapsed" collapsible="true">
             <include from="reuse-library.topic" element-id="close-idea-prompt-information-snippet"/>
@@ -79,11 +79,11 @@
                 <p>对于 <tooltip term="macos">macOS</tooltip> 和 <tooltip term="linux">Linux</tooltip> 系统而言，请运行 <path>.sh</path> 可执行脚本。&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;</p>
                 <p>如果您正在使用 <tooltip term="windows">Windows</tooltip> 系统，并且仅需要为当前用户安装激活脚本补丁，则请运行 <path>install-current-user.vbs</path> 。 但是，如果您想要为所有用户安装激活脚本补丁则请运行 <path>install-all-users.vbs</path> 。</p>
             </note>
-            <img src="https://i.imgur.com/eBpUGfZ.png" alt="可用的激活脚本" width="706" thumbnail="true" border-effect="rounded"/>
+            <img src="可用的激活脚本.png" alt="可用的激活脚本" width="706" thumbnail="true" border-effect="rounded"/>
             <step>运行脚本后单击 <control>确定</control> ，然后等待 <control>Done.</control> 的提示出现。</step>
-            <img src="https://i.imgur.com/kr3euVq.gif" alt="等待 Done. 提示出现" width="706" thumbnail="true" border-effect="rounded"/>
+            <img src="等待 Done. 提示出现.gif" alt="等待 Done. 提示出现" width="706" thumbnail="true" border-effect="rounded"/>
             <step>复制激活码。</step>
-            <img alt="复制激活码" src="https://i.imgur.com/ktZvUJC.gif" width="706" thumbnail="true" border-effect="rounded"/>
+            <img alt="复制激活码" src="复制激活码.gif" width="706" thumbnail="true" border-effect="rounded"/>
             <step>启动 IntelliJ IDEA 并在 <ui-path>激活码</ui-path> 选项卡中粘贴激活码，然后单击 <control>激活</control> 。</step>
             <video src="https://www.youtube.com/watch?v=ak344p7DpFI" width="706" border-effect="rounded"/>
             <step>完整操作步骤请查看如下演示视频。</step>
@@ -98,7 +98,7 @@
             </note>
             <step>运行脚本后单击 <control>确定</control> ，然后等待 <control>Done.</control> 的提示出现。</step>
             <step>卸载完毕后，IntelliJ IDEA 将会还原至未激活状态。</step>
-            <img src="https://i.imgur.com/vrwxE9E.png" alt="卸载破解激活脚本后激活码将会失效" width="706" thumbnail="true" border-effect="rounded"/>
+            <img src="卸载破解激活脚本后激活码将会失效.png" alt="卸载破解激活脚本后激活码将会失效" width="706" thumbnail="true" border-effect="rounded"/>
             <step>完整操作步骤请查看如下演示视频。</step>
             <video src="https://www.youtube.com/watch?v=PSrJQW7qBZs" width="706" border-effect="rounded"/>
         </procedure>
@@ -112,7 +112,7 @@
             <li>选择 <ui-path><include from="reuse-library.topic" element-id="main-menus-snippet" />  | 帮助 | 注册</ui-path> ，然后找到 <control>移除许可证</control> 。</li>
             <li>
                 在 <format style="bold">欢迎界面</format> 中单击 <ui-path>帮助 | 管理许可证</ui-path> ，然后找到 <control>移除许可证</control> 。
-                <img src="https://i.imgur.com/I8aRByo.png" alt="移除许可证" thumbnail="true" width="706" border-effect="rounded"/>
+                <img src="移除许可证.png" alt="移除许可证" thumbnail="true" width="706" border-effect="rounded"/>
             </li>
             <li>
                 <p>在 <control>操作（ <shortcut>Ctrl</shortcut><shortcut>Shift</shortcut><shortcut>A</shortcut> ）</control> 中键入 <ui-path>注册</ui-path> 并按 <shortcut>Enter</shortcut> 然后在 <control>许可证</control> 中找到 <control>移除许可证</control> 。</p>

@@ -25,17 +25,17 @@
         <procedure title="搁置更改" id="ChList" type="steps">
             <step>
                 <p>在 <control>提交</control> 工具窗口 （ <shortcut>Alt</shortcut><shortcut>0</shortcut> ）中，右键单击要搁置的文件或更改列表，并从 <include from="reuse-library.topic" element-id="context-menus-snippet" /> 中选择 <ui-path>搁置更改</ui-path> 。</p>
-                <img src="https://i.imgur.com/WNu3nXw.png" alt="搁置更改" width="706" thumbnail="true"/>
+                <img src="搁置更改.png" alt="搁置更改" width="706" thumbnail="true"/>
             </step>
             <step>在 <control>托管更改</control> 中，查看已修改文件的列表。</step>
             <step>
                 <p>在 <control>提交消息</control> 中，键入要创建的搁置列表的名称，然后单击 <control>托管更改</control> 。</p>
-                <img src="https://i.imgur.com/QYhQXUL.png" alt="托管更改对话框" width="706" thumbnail="true"/>
+                <img src="托管更改对话框.png" alt="托管更改对话框" width="706" thumbnail="true"/>
             </step>
             <step>
                 <p>您还可以静默地暂存更改，而不显示 <control>托管更改</control> 对话框。</p>
                 <p>要实现此操作，请先选择要暂存的文件或更改列表，然后单击 <include from="reuse-library.topic" element-id="tool-window-snippet"/> 中工具栏上的 <ui-path>无提示搁置 </ui-path> <img src="无提示搁置.svg" alt=""/> （ <shortcut>Ctrl</shortcut><shortcut>Shift</shortcut><shortcut>H</shortcut> ）。 包含想要暂存的更改的 <tooltip term="changelist">更改列表</tooltip> 名称将用作暂存名称。</p>
-                <img src="https://i.imgur.com/BKIORUA.png" alt="无提示搁置" width="706" thumbnail="true"/>
+                <img src="无提示搁置.png" alt="无提示搁置" width="706" thumbnail="true"/>
                 <p>为了避免创建多个相同名称的搁置（例如： <format style="bold">Default</format> ），可以将文件或更改列表从 <control>提交至 &lt;分支名&gt;</control> 标签拖动到 <control>搁置</control> 标签的 <control>提交</control> 工具窗口中，等待一秒钟直到它被激活，并在释放鼠标按钮时即时编辑新的暂存名称.</p>
                 <video src="https://www.youtube.com/watch?v=jbIavpBPRxI" width="706"/>
                 <tip>如果希望在不重置本地更改的情况下将更改复制到搁置上，请按 <shortcut>Ctrl</shortcut><shortcut>Shift</shortcut><shortcut>A</shortcut> 然后查找并执行 <ui-path>保存到搁置</ui-path> 操作。</tip>
@@ -47,11 +47,11 @@
             <step>在 <a href="shelf-tab.topic" summary="">搁置</a> 标签中，选择想要取消搁置的更改列表或文件。</step>
             <step>
                 <p>从所选内容的 <include from="reuse-library.topic" element-id="context-menus-snippet"/> 中选择 <ui-path>取消搁置</ui-path> （ <shortcut>Ctrl</shortcut><shortcut>Shift</shortcut><shortcut>U</shortcut> ）。</p>
-                <img src="https://i.imgur.com/ITGl7Wn.png" alt="取消搁置" width="706"/>
+                <img src="取消搁置.png" alt="取消搁置" width="706"/>
             </step>
             <step>
                 <p>打开 <control>取消搁置更改</control> 对话框，在 <ui-path>名称</ui-path> 中指定要取消的搁置要恢复到哪个提交列表。可以选择一个现有的变更列表，也可以键入要创建的包含要取消的搁置的新 <tooltip term="changelist">变更列表</tooltip> 的名称。可以在 <ui-path>注释</ui-path> 中键入新变更列表的描述（可选）。</p>
-                <img src="https://i.imgur.com/c3C2S6n.png" alt="取消搁置更改对话框" width="706"/>
+                <img src="取消搁置更改对话框.png" alt="取消搁置更改对话框" width="706"/>
                 <p>如果希望使新的变更列表变为活动状态，请选择 <ui-path>设为活动</ui-path> 。否则，当前活动的变更列表将保持活动状态。</p>
                 <video src="https://www.youtube.com/watch?v=LjLTj26swZo" width="706"/>
             </step>

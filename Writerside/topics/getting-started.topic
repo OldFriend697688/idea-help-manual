@@ -10,7 +10,7 @@
 
         <spotlight>
             <a href="register.topic" type="key" summary="激活 IntelliJ IDEA，摆脱试用限制，尽享高效开发。"/>
-            <a href="working-offline.topic" type="world" summary="即使在没有网络的环境中 IntelliJ IDEA 的大部分功能也依旧可用。"/>
+            <a href="working-offline.topic" type="open-source" summary="即使在没有网络的环境中 IntelliJ IDEA 的大部分功能也依旧可用。"/>
         </spotlight>
 
         <primary>

@@ -10,7 +10,7 @@
     </tldr>
     <p>每当 <tooltip term="ide">IDE</tooltip> 中有重要事件或建议时，您将可以在 <include from="reuse-library.topic" element-id="status-bar-snippet"/> 右侧看到一个弹出通知气球。</p>
     <p>同时，您也可以在 <include from="reuse-library.topic" element-id="notifications-tool-windows-snippet" /> 中访问所有通知和事件。</p>
-    <img border-effect="rounded" alt="通知气泡" src="https://i.imgur.com/xB20NoU.png" width="706" thumbnail="true"/>
+    <img border-effect="rounded" alt="通知气泡" src="通知气泡.png" width="706" thumbnail="true"/>
     <p>您可以为每组事件单独配置通知设置。例如：您可以禁用所有 <tooltip term="vcs">VCS</tooltip> 通知，或启用声音通知来告知您应用程序已构建完成。</p>
     <procedure id="configure-notifications-per-event-group" type="steps" title="为每个事件组配置通知">
         <step>
@@ -27,14 +27,14 @@
                 <li><ui-path>无弹出窗口</ui-path> ：通知气球不会出现。</li>
             </list>
         </step>
-        <img border-effect="rounded" alt="弹出窗口类型" src="https://i.imgur.com/Fi4wAHe.png" width="706" thumbnail="true"/>
+        <img border-effect="rounded" alt="弹出窗口类型" src="通知弹出窗口类型.png" width="706" thumbnail="true"/>
         <step id="show-in-tool-window-step">勾选 <control>在工具窗口中显示</control> ，以便在 <include from="reuse-library.topic" element-id="notifications-tool-windows-snippet"/> 中显示所选事件组的通知。</step>
         <video border-effect="rounded" src="https://www.youtube.com/watch?v=pY2pcOhLgJA" width="706"/>
         <step>
             <p>勾选 <control>播放声音</control> 以启用声音通知。</p>
             <p>或选择 <control>朗读</control> （仅限 <tooltip term="macos">macOS</tooltip> ）以从通知文本生成语音通知。</p>
         </step>
-        <img border-effect="rounded" alt="播放声音" src="https://i.imgur.com/UL3fu5J.png" width="706" thumbnail="true"/>
+        <img border-effect="rounded" alt="播放声音" src="播放声音.png" width="706" thumbnail="true"/>
     </procedure>
     <chapter id="notification-balloons" title="通知气球">
         <p>气球通知位于 <include from="reuse-library.topic" element-id="status-bar-snippet"/> 右侧，它将向您报告重要事件与建议信息。</p>
@@ -49,7 +49,7 @@
     <chapter id="notifications-tool-window" title="通知工具窗口">
         <p>您可以通过单击相应的工具窗口栏或选择 <include from="reuse-library.topic" element-id="main-menus-snippet"/> | 视图 | <include from="reuse-library.topic" element-id="tool-window-snippet"/> | 通知，来打开 <format style="bold">通知工具窗口</format> 。 </p>
         <p>您可以通过单击 <include from="reuse-library.topic" element-id="status-bar-snippet"/> 中的信息，以便在 <control>通知工具窗口</control> 中查看这些信息。</p>
-        <img border-effect="rounded" alt="通知中心" src="https://i.imgur.com/0bvbdGm.png" width="706" thumbnail="true"/>
+        <img border-effect="rounded" alt="通知中心" src="通知中心.png" width="706" thumbnail="true"/>
         <list type="decimal">
             <li>
                 <p>单击工具窗口栏处的 <img src="通知工具窗口栏图标.svg" alt=""/> ，可快速打开 <control>通知工具窗口</control> 。</p>
@@ -67,7 +67,7 @@
         <p><ui-path>建议</ui-path> 可帮助优化 <tooltip term="ide">IDE</tooltip> 的工作。它会提示缺失组件、 <a summary="" href="managing-plugins.topic">插件</a> 和禁用的选项，并提示您相应地更改配置。</p>
         <procedure id="dont-show-suggestions" title="不再显示建议">
             <step>单击要隐藏建议后方的 <img src="更多.svg" alt=""/> ，然后选择 <ui-path>不再显示</ui-path> 或 <ui-path>不再为此项目显示</ui-path> 。</step>
-            <img border-effect="rounded" alt="不再显示建议" src="https://i.imgur.com/oHucWye.png" width="706" thumbnail="true"/>
+            <img border-effect="rounded" alt="不再显示建议" src="不再显示建议.png" width="706" thumbnail="true"/>
             <video border-effect="rounded" src="https://www.youtube.com/watch?v=n262OJKu5EE" width="706"/>
         </procedure>
         <procedure title="恢复隐藏的建议" id="restore-suggestions">
@@ -81,7 +81,7 @@
     <chapter id="timeline" title="时间线">
         <p><control>时间线</control> 用于列出在 IntelliJ IDEA 中按照时间顺序发生的通知和事件。</p>
         <p>当出现错误时，提供错误描述和链接，单击它以打开另一个对话框或 <include from="reuse-library.topic" element-id="tool-window-snippet"/> ，供详细检查问题。</p>
-        <img border-effect="rounded" alt="通知工具窗口中的时间线" src="https://i.imgur.com/1OKMu5m.png" width="706" thumbnail="true"/>
+        <img border-effect="rounded" alt="通知工具窗口中的时间线" src="通知工具窗口中的时间线.png" width="706" thumbnail="true"/>
         <video border-effect="rounded" src="https://www.youtube.com/watch?v=pS7Gb5Rt4Hc" width="706"/>
     </chapter>
     <seealso>

@@ -6,14 +6,14 @@
        title="简要概述" id="discover-intellij-idea">
     <chapter id="overview" title="概述">
         <p><a href="https://www.jetbrains.com/zh-cn/idea/">IntelliJ IDEA</a> 是 <tooltip term="java">Java</tooltip> <tooltip term="programming-language">语言</tooltip> 的 <tooltip term="ide">IDE</tooltip> 。其被业界誉为是最好的 Java 开发工具，尤其在 <tooltip term="idea-code-completion">智能代码助手</tooltip> 、 <tooltip term="idea-code-automatic-prompt">代码自动提示</tooltip> 、 <tooltip term="idea-code-refactoring">代码重构</tooltip> 、 <tooltip term="jakarta-ee">Jakarta EE</tooltip> 支持 、 <tooltip term="vcs">版本控制</tooltip> 工具（ <tooltip term="git">Git</tooltip> 、 <tooltip term="svn">SVN</tooltip> 等）、 <tooltip term="unit-test">单元测试</tooltip> （ <tooltip term="JUnit">JUnit</tooltip> 等）、 <tooltip term="code-static-analysis">代码分析</tooltip> 、创新的 <tooltip term="gui">GUI</tooltip> 设计等方面的功能可以说是无与伦比的。</p>
-        <img src="IntelliJ-IDEA-Icon.svg" alt="IntelliJ IDEA Logo" width="706" style="block" border-effect="rounded"/>
+        <img src="logo.svg" alt="IntelliJ IDEA Logo" width="706" style="block" border-effect="rounded"/>
         <p>IntelliJ IDEA 是由 <tooltip term="jetbrains">JetBrains</tooltip> 公司研发的产品，以严谨著称的东欧程序员是其主要开发者。</p>
         <p>IntelliJ IDEA 有 <format style="bold">社区版</format> 和 <format style="bold">旗舰版</format> 两个主要版本。社区版提供长期免费支持，但在功能丰富程度上不及旗舰版，且支持的 <tooltip term="programming-language">语言</tooltip> 较少。旗舰版包含更多高级功能和更多语言支持，但仅提供 <format style="bold">30</format> 天免费试用，之后则需要购买激活码。</p>
     </chapter>
     <chapter id="cross-platform" title="跨平台">
         <note>尽管 IntelliJ IDEA 在 Windows、Linux 和 macOS 这三大主流操作系统平台上均提供相应版本，并确保了核心功能的一致性，但在各个平台上的操作习惯和界面布局仍略有不同。</note>
         <p>IntelliJ IDEA 是一款 <tooltip term="cross-platform">跨平台</tooltip> 的 <tooltip term="ide">IDE</tooltip> ，可在 <tooltip term="windows">Windows</tooltip> 、 <tooltip term="macos">macOS</tooltip> 及 <tooltip term="linux">Linux</tooltip> 上提供一致的体验。</p>
-        <img src="https://i.imgur.com/03ptcFX.png" alt="IntelliJ IDEA 支持的三大平台" width="706" thumbnail="true" border-effect="rounded"/>
+        <img src="IntelliJ IDEA 支持的三大平台.png" alt="IntelliJ IDEA 支持的三大平台" width="706" thumbnail="true" border-effect="rounded"/>
     </chapter>
     <chapter id="editions" title="版本介绍">
         <note>此手册将重点讨论旗舰版的相关内容，而忽略社区版、 <tooltip term="rc">RC</tooltip> 版、 <a href="product-educational-tools.topic" summary="">教育版</a> 等其它的版本。&nbsp;&nbsp;&nbsp;&nbsp;</note>
@@ -63,7 +63,7 @@
             </tab>
         </tabs>
         <note>IntelliJ IDEA 官方不支持 <tooltip term="c">C</tooltip>/<tooltip term="c++">C++</tooltip> ，但可以使用 <a href="https://www.jetbrains.com/zh-cn/clion/" summary="CLion 是一款专为 C 和 C++ 开发者打造的跨平台集成开发环境（IDE），由 JetBrains 公司出品。它基于 IntelliJ IDEA 平台，继承了 IntelliJ IDEA 的强大功能，并针对 C 和 C++ 开发进行了深度优化。">CLion</a> 。&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;</note>
-        <img src="https://i.imgur.com/iBgXBI9.png" alt="CLion 中文官网" width="706" thumbnail="true" border-effect="rounded"/>
+        <img alt="CLion 官网" src="CLion 官网.png" width="706" thumbnail="true" border-effect="rounded"/>
         <note id="language-plugin-vs-separate-IDE" title="选择语言插件还是单独的 IDE？">
             <p>IntelliJ IDEA Ultimate（旗舰版）是绝大多数基于 IntelliJ 平台的 <tooltip term="ide">IDE</tooltip> 的超集。</p>
             <p>如果启用了捆绑的语言 <a href="managing-plugins.topic" summary="">插件</a> ，它将支持在更具体的 JetBrains IDE 中所具有的全部功能，例如： <a href="https://www.jetbrains.com.cn/pycharm/" summary="PyCharm 是一款功能强大的集成开发环境（IDE），专门为 Python 语言开发而设计。它由 JetBrains 公司开发，提供了一套完整的工具，帮助开发者更高效地编写、调试和测试 Python 代码。">PyCharm</a> 、 <a href="https://www.jetbrains.com.cn/webstorm/" summary="WebStorm 是一款由 JetBrains 公司开发的集成开发环境（IDE），专门为开发 Web 应用程序而设计。它被广大前端开发者誉为 “Web 前端开发神器”、“最强大的 HTML5 编辑器”、“最智能的 JavaScript IDE”等。">WebStorm</a> 、 <a href="https://www.jetbrains.com.cn/phpstorm/" summary="PhpStorm 是一款专为 PHP 开发者打造的集成开发环境（IDE），由 JetBrains 公司开发。它以其强大的智能代码补全、调试、重构等功能，深受广大 PHP 开发者的喜爱。">PhpStorm</a> 等。</p>

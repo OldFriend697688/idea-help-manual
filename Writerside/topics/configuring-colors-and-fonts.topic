@@ -7,7 +7,7 @@
     <p>作为开发人员，您需要处理多种文本资源，例如：源代码、搜索结果、调试信息和控制台输出。</p>
     <p>使用颜色和字体样式调整这些文本，将可以提高可读性，使关键信息更突出，更容易理解。</p>
     <p>您可以在 <control>配色方案</control> 中调整 <tooltip term="ide">IDE</tooltip> 文本使用的颜色和字体。</p>
-    <img border-effect="rounded" src="https://i.imgur.com/KpfSHB8.png" alt="ColorSchemeExample-Java" width="706" thumbnail="true"/>
+    <img border-effect="rounded" src="ColorSchemeExample-Java.png" alt="ColorSchemeExample-Java" width="706" thumbnail="true"/>
     <note><control>配色方案</control> 与 <a href="user-interface-themes.topic" summary=""/> 不同，后者定义了窗口、对话框和控件的外观。&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;</note>
     <p>您可以使用预设的配色方案，也可以根据个人喜好自定义它。还可以 <a anchor="share-color-scheme" summary=""/> 。</p>
     <procedure id="select-color-scheme" title="选择配色方案" type="steps">
@@ -42,13 +42,13 @@
         <list>
             <li>
                 <p><ui-path>常规</ui-path> 部分定义了基本的 <include from="reuse-library.topic" element-id="editor-snippet" /> 颜色，如：间距图标、行号、错误、警告、弹出窗口、提示等。</p>
-                <img border-effect="rounded" alt="配色方案下的常规部分" src="https://i.imgur.com/qcnJ6Ch.png" width="706" thumbnail="true"/>
+                <img border-effect="rounded" alt="配色方案下的常规部分" src="配色方案下的常规部分.png" width="706" thumbnail="true"/>
             </li>
             <li>
                 <p><ui-path>语言默认设置</ui-path> 部分包含常用的语法高亮设置，默认应用于所有支持的编程语言。</p>
                 <p>在大多数情况下，只需配置 <ui-path>语言默认值</ui-path> ，必要时再针对特定 <tooltip term="programming-language">语言</tooltip> 进行调整即可。</p>
                 <p>如果要更改选项的颜色设置，请取消勾选 <ui-path>值继承自：</ui-path> 。</p>
-                <img border-effect="rounded" alt="配色方案下的语言默认设置部分" src="https://i.imgur.com/r9S5R5m.png" width="706" thumbnail="true"/>
+                <img border-effect="rounded" alt="配色方案下的语言默认设置部分" src="配色方案下的语言默认设置部分.png" width="706" thumbnail="true"/>
             </li>
         </list>
     </chapter>
@@ -57,7 +57,7 @@
         <procedure id="enable-semantic-hl" title="启用语义高亮" type="steps">
             <step>在 <control>设置（ <shortcut>Ctrl</shortcut><shortcut>Alt</shortcut><shortcut>S</shortcut> ）</control> 中选择 <ui-path><include from="reuse-library.topic" element-id="editor-snippet" /> | 配色方案 | 语言默认值 | 语义高亮显示</ui-path> 。</step>
             <step>勾选 <control>语义高亮显示</control> 复选框，并根据需要自定义颜色。</step>
-            <img border-effect="rounded" alt="语义高亮显示" src="https://i.imgur.com/g4ju6CB.png" width="706" thumbnail="true"/>
+            <img border-effect="rounded" alt="语义高亮显示" src="语义高亮显示.png" width="706" thumbnail="true"/>
             <video border-effect="rounded" src="https://www.youtube.com/watch?v=XxomJxZkgUM" width="706"/>
             <note>这将为所有从 <ui-path>语言默认值</ui-path> 继承此设置的 <tooltip term="programming-language">语言</tooltip> 启用语义高亮。如果要为特定语言（例如： <tooltip term="java">Java</tooltip> ）单独启用语义高亮，请取消勾选 <ui-path>设置（ <shortcut>Ctrl</shortcut><shortcut>Alt</shortcut><shortcut>S</shortcut> ） | <include from="reuse-library.topic" element-id="editor-snippet" /> | 配色方案 | Java | 语义高亮显示</ui-path> 中的 <ui-path>值继承自：</ui-path> 。</note>
             <video border-effect="rounded" src="https://www.youtube.com/watch?v=JOivPEO8hUw" width="706"/>

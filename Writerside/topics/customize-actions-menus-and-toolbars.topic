@@ -10,7 +10,7 @@
     <note>您可以使用 <include from="reuse-library.topic" element-id="bookmarks-snippet"/><include from="reuse-library.topic" element-id="tool-window-snippet"/> 快速访问您喜欢的文件、目录、书签和断点。&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;</note>
     <procedure title="自定义菜单与工具栏" id="customize-menus-and-toolbars" type="steps">
         <step>在 <control>设置（ <shortcut>Ctrl</shortcut><shortcut>Alt</shortcut><shortcut>S</shortcut> ）</control> 中选择 <ui-path>外观与行为 | 菜单与工具栏</ui-path> 。</step>
-        <img src="https://i.imgur.com/a6HmRL3.png" alt="菜单与工具栏" width="706" thumbnail="true" border-effect="rounded"/>
+        <img alt="菜单与工具栏" src="菜单与工具栏.png" width="706" thumbnail="true" border-effect="rounded"/>
         <step>
             <p>在可用的菜单与工具栏列表中，展开要自定义的节点并选择所需配置的项目。</p>
             <list>
@@ -21,7 +21,7 @@
                 <li>单击 <img src="回退.svg" alt=""/> 恢复所选操作或所有操作至默认设置。</li>
             </list>
         </step>
-        <img src="https://i.imgur.com/iCTx17R.png" alt="为主菜单下的编辑节点增删以及调整目标操作" width="706" thumbnail="true" border-effect="rounded"/>
+        <img alt="为主菜单下的编辑节点增删以及调整目标操作" src="为主菜单下的编辑节点增删以及调整目标操作.png" width="706" thumbnail="true" border-effect="rounded"/>
         <step>单击 <control>确定</control> 保存更改。</step>
         <video src="https://www.youtube.com/watch?v=h40kdWC1BCw" width="706" border-effect="rounded"/>
     </procedure>
@@ -32,13 +32,13 @@
             <p>然后单击 <img src="向下移动.svg" alt=""/> 从列表中选择图标，或单击 <img src="打开磁盘.svg" alt=""/> 上传您自己的图标。</p>
             <p>请注意，目前仅支持将 <tooltip term="png">PNG</tooltip> 或 <tooltip term="svg">SVG</tooltip> 格式的文件作为图标。</p>
         </step>
-        <img src="https://i.imgur.com/3CJPpge.gif" alt="为目标菜单选项配置自定义图标" width="706" thumbnail="true" border-effect="rounded"/>
+        <video src="https://www.youtube.com/watch?v=08C97LgKq5I" width="706" border-effect="rounded"/>
     </procedure>
     <chapter id="show-hide" title="显示与隐藏 UI 元素">
         <p>如果您的显示器尺寸较小，可以隐藏一些从未使用的 <tooltip term="user-interface">UI</tooltip> 元素。您可以参阅 <a href="guided-tour-around-the-user-interface.topic" summary=""/> 来了解它们。</p>
         <procedure>
             <step>选择 <ui-path><include from="reuse-library.topic" element-id="main-menus-snippet"/> | 视图 | 外观</ui-path> ，并根据需要启用或禁用 UI 元素。</step>
-            <img src="https://i.imgur.com/gIcXt1F.png" alt="选择要隐藏或显示的 UI 元素" width="706" thumbnail="true" border-effect="rounded"/>
+            <img alt="选择要隐藏或显示的 UI 元素" src="选择要隐藏或显示的 UI 元素.png" width="706" thumbnail="true" border-effect="rounded"/>
         </procedure>
         <list>
             <li><format style="bold">工具栏</format> ：位于 <include from="reuse-library.topic" element-id="main-windows-snippet"/> 的顶部，这是包含打开文件、撤销和重做按钮的主工具栏。</li>

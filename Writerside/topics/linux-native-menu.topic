@@ -6,12 +6,12 @@
        title="Linux 原生菜单" id="linux-native-menu">
     <warning>这是 IntelliJ IDEA 提供的一项实验性功能。&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;</warning>
     <p>如果正在使用适配 <tooltip term="linux">Linux</tooltip> 的 IntelliJ IDEA，您将可以使用类似于 <tooltip term="macos">macOS</tooltip> 的全局主菜单。它是一个附着在屏幕顶部的水平菜单。默认情况下，此菜单已启用，但并非所有 Linux 桌面环境都原生支持它。</p>
-    <img src="https://i.imgur.com/bd06KDg.png" alt="Linux 原生菜单" width="706" thumbnail="true" border-effect="rounded"/>
+    <img alt="Linux 原生菜单" src="Linux 原生菜单.png" width="706" thumbnail="true" border-effect="rounded"/>
     <procedure title="禁用原生菜单" id="disable-linux-native-menu" type="steps">
         <step>在 <control>操作（ <shortcut>Ctrl</shortcut><shortcut>Shift</shortcut><shortcut>A</shortcut> ）</control> 中键入 <ui-path>实验性功能</ui-path> ，然后找到它并按 <shortcut>Enter</shortcut> （回车键）。</step>
-        <img src="https://i.imgur.com/m9t5VFH.png" alt="实验性功能" width="706" thumbnail="true" border-effect="rounded"/>
+        <img src="实验性功能.png" alt="实验性功能" width="706" thumbnail="true" border-effect="rounded"/>
         <step>取消勾选 <ui-path>linux.native.menu</ui-path> 旁边的复选框。</step>
-        <img src="https://i.imgur.com/r8dzLVC.png" alt="取消勾选 linux.native.menu 旁边的复选框" width="706" thumbnail="true" border-effect="rounded"/>
+        <img src="取消勾选 linux.native.menu 旁边的复选框.png" alt="取消勾选 linux.native.menu 旁边的复选框" width="706" thumbnail="true" border-effect="rounded"/>
         <step>应用更改并关闭对话框，然后重启 IntelliJ IDEA。</step>
     </procedure>
     <chapter title="问题排查" id="troubleshoot">

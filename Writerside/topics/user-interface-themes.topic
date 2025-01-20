@@ -18,14 +18,14 @@
                 <li><ui-path>Darcula</ui-path> ：默认深色主题。</li>
                 <li><ui-path>High contrast</ui-path> ：为色盲用户设计的主题。</li>
             </list>
-            <img border-effect="rounded" alt="通过主题下拉列表切换主题" src="https://i.imgur.com/fhJUFtj.png" width="706" thumbnail="true"/>
+            <img border-effect="rounded" alt="通过主题下拉列表切换主题" src="通过主题下拉列表切换主题.png" width="706" thumbnail="true"/>
             <note>选择 <control>与操作系统同步</control> ，可以让 IntelliJ IDEA 检测当前系统设置，并相应地使用默认的深色或浅色主题。</note>
             <video src="https://www.youtube.com/watch?v=BemqyrDkFJc" width="706" border-effect="rounded"/>
         </step>
     </procedure>
     <p>您可以通过从 <include from="reuse-library.topic" element-id="jetbrains-plugin-library-snippet"/> 中安装自定义主题，正如 <a href="managing-plugins.topic" summary="">管理插件</a> 中所述。</p>
     <video src="https://www.youtube.com/watch?v=gsg4Af8yp-w" width="706" border-effect="rounded"/>
-    <p>您可以创建自己的 IntelliJ IDEA UI 主题并自定义内置主题。有关更多信息，请参阅 <a href="http://www.jetbrains.org/intellij/sdk/docs/reference_guide/ui_themes/themes_intro.html">IntelliJ 平台 SDK 文档</a> 。</p>
+    <p>您可以创建自己的 IntelliJ IDEA UI 主题并自定义内置主题。有关更多信息，请参阅 <a href="https://www.jetbrains.org/intellij/sdk/docs/reference_guide/ui_themes/themes_intro.html">IntelliJ 平台 SDK 文档</a> 。</p>
     <chapter id="tips" title="生产力提示">
         <procedure id="quickly-switch-themes" title="快速切换主题">
             <step>按 <shortcut>Ctrl</shortcut><shortcut>`</shortcut> 或选择 <ui-path><include from="reuse-library.topic" element-id="main-menus-snippet" /> | 视图 | 快速切换方案</ui-path> 。</step>

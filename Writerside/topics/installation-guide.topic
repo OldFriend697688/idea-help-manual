@@ -176,10 +176,10 @@
             <tab title="macOS">
                 <procedure title="安装 Toolbox App">
                     <step>
-                        <p>从 <a href="https://www.jetbrains.com/zh-cn/toolbox-app/">官网</a> 下载 <path>.dmg</path> 镜像文件。</p>
+                        <p>从 <a href="https://www.jetbrains.com/zh-cn/toolbox-app/">官网</a> 下载 <path>.dmg</path> 映像文件。</p>
                         <note>英特尔和苹果芯片分别有独立的映像文件，在下载时请注意分辨。&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;</note>
                     </step>
-                    <step><p>将镜像文件挂载并拖动 Toolbox App 到 <tooltip term="applications">Applications</tooltip> 文件夹。</p></step>
+                    <step><p>将映像文件挂载并拖动 Toolbox App 到 <tooltip term="applications">Applications</tooltip> 文件夹。</p></step>
                     <step>
                         <p>运行 Toolbox App，单击主菜单中的图标，选择要安装的产品。</p>
                         <p>如果要安装特定版本，请单击 <img src="toolbox app 更多按钮.svg" alt="toolbox app 更多按钮"/> ，然后选择 <ui-path>其他版本</ui-path> 。</p>

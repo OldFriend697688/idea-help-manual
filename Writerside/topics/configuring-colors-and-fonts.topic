@@ -7,7 +7,7 @@
     <p>作为开发人员，您需要处理多种文本资源，例如：源代码、搜索结果、调试信息和控制台输出。</p>
     <p>使用颜色和字体样式调整这些文本，将可以提高可读性，使关键信息更突出，更容易理解。</p>
     <p>您可以在 <control>配色方案</control> 中调整 <tooltip term="ide">IDE</tooltip> 文本使用的颜色和字体。</p>
-    <img border-effect="rounded" src="ColorSchemeExample-Java.png" alt="ColorSchemeExample-Java" width="706" thumbnail="true"/>
+    <img border-effect="rounded" src="配色方案案例（Java）.png" alt="ColorSchemeExample-Java" width="706" thumbnail="true"/>
     <note><control>配色方案</control> 与 <a href="user-interface-themes.topic" summary=""/> 不同，后者定义了窗口、对话框和控件的外观。&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;</note>
     <p>您可以使用预设的配色方案，也可以根据个人喜好自定义它。还可以 <a anchor="share-color-scheme" summary=""/> 。</p>
     <procedure id="select-color-scheme" title="选择配色方案" type="steps">

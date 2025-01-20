@@ -133,7 +133,7 @@
         <p>有关从命令行运行 IntelliJ IDEA 的信息，请参阅 <a href="working-with-the-ide-features-from-command-line.topic" summary=""/> 。</p>
         <p>启动 IntelliJ IDEA 后，您将看到 <control>欢迎界面</control> ，这是您使用 <tooltip term="ide">IDE</tooltip> 和配置其设置的起点。</p>
         <p>关闭所有已打开的项目时也会出现该界面。您可以单击左侧的选项卡切换至特定的功能对话框。</p>
-        <img border-effect="rounded" src="ij-welcome-window.png" alt="IntelliJ IDEA 欢迎界面" width="706" thumbnail="true"/>
+        <img border-effect="rounded" src="IntelliJ IDEA 欢迎界面（macOS_Linux）.png" alt="IntelliJ IDEA 欢迎界面" width="706" thumbnail="true"/>
     </snippet>
 
     <!-- 在 IntelliJ IDEA 中退出已登录的 JB（JetBrains） 账号 -->

@@ -9,7 +9,7 @@
             <note>在 IntelliJ IDEA 中，项目可以帮助您将源代码、测试代码、使用的 <tooltip term="library">库</tooltip> 、构建说明和个人设置组织在一起。</note>
             <step>若您在 <control>欢迎界面</control> 中，请选中左侧的 <ui-path>项目</ui-path> ，然后单击右侧的 <ui-path>新建项目</ui-path> 。</step>
             <img border-effect="rounded" alt="在欢迎界面单击新建项目" src="在欢迎界面单击新建项目.png" width="706" thumbnail="true"/>
-            <step>否则，您需要选择 <ui-path><include from="reuse-library.topic" element-id="main-menus-snippet" /> | 文件 | 新建 | 项目</ui-path> 。</step>
+            <step>否则，您需要选择 <ui-path><include from="reuse-library.topic" element-id="main-menus-snippet"/> | 文件 | 新建 | 项目</ui-path> 。</step>
             <img border-effect="rounded" alt="通过主菜单新建项目" src="通过主菜单新建项目.png" width="706" thumbnail="true"/>
             <step>在 <ui-path>新建项目</ui-path> 向导中，从左侧列表中选择 <ui-path>新建项目</ui-path> 。</step>
             <img border-effect="rounded" alt="新建项目的引导列表" src="新建项目的引导列表.png" width="706" thumbnail="true"/>
@@ -20,7 +20,7 @@
             <img border-effect="rounded" alt="请勿勾选创建 Git 仓库选项" src="请勿勾选创建 Git 仓库选项.png" width="706" thumbnail="true"/>
             <step>确认使用的 <tooltip term="programming-language">语言</tooltip> 为 <tooltip term="java">Java</tooltip> ，并使用 <ui-path>IntelliJ</ui-path> 作为项目构建系统。</step>
             <img border-effect="rounded" alt="确保项目使用的语言为 Java 且使用 IntelliJ 作为项目构建系统" src="确保项目使用的语言为 Java 且使用 IntelliJ 作为项目构建系统.png" width="706" thumbnail="true"/>
-            <step>要在 IntelliJ IDEA 中开发 Java 应用程序，您需要 Java SDK (<a href="https://www.oracle.com/cn/java/technologies/downloads/">JDK</a>)。</step>
+            <step>要在 IntelliJ IDEA 中开发 Java 应用程序，您需要 <tooltip term="jdk">Java SDK</tooltip> (<a href="https://www.oracle.com/cn/java/technologies/downloads/">JDK</a>)。</step>
             <step>若必要的 JDK 已在 IntelliJ IDEA 中定义，您需要从 JDK 列表中选择它。</step>
             <img border-effect="rounded" alt="从 JDK 列表中为项目选择主 JDK" src="从 JDK 列表中为项目选择主 JDK.png" width="706" thumbnail="true"/>
             <step>若 JDK 已安装，但未在 IntelliJ IDEA 中定义，请选择 <ui-path>添加 JDK</ui-path> 并指定 <tooltip term="jdk">JDK</tooltip> 主目录的路径。</step>
@@ -36,9 +36,9 @@
         </procedure>
         <procedure id="create-package-and-class" type="steps" title="创建包和类">
             <note><tooltip term="java-package">包</tooltip> 用于将属于同一类别或提供类似功能的 <tooltip term="java-class">类</tooltip> 组合在一起，用于结构化和组织包含数百个类的大型应用程序。</note>
-            <step>在 <include from="reuse-library.topic" element-id="project-tool-window-snippet" /> 中，选中 <path>src</path> 文件夹，右键单击 <ui-path>新建</ui-path> ，然后选择 <ui-path>Java 类</ui-path> 。</step>
+            <step>在 <include from="reuse-library.topic" element-id="project-tool-window-snippet"/> 中，选中 <path>src</path> 文件夹，右键单击 <ui-path>新建</ui-path> ，然后选择 <ui-path>Java 类</ui-path> 。</step>
             <img border-effect="rounded" alt="通过在 src 文件夹上右键的方式新建 Java 类" src="通过在 src 文件夹上右键的方式新建 Java 类.png" width="706" thumbnail="true"/>
-            <step>或者，您也可以按 <shortcut>Alt</shortcut><shortcut>Insert</shortcut> 以实现相同效果。</step>
+            <step>或者，您也可以选中 <path>src</path> 文件夹并按 <shortcut>Alt</shortcut><shortcut>Insert</shortcut> 以实现相同效果。</step>
             <img border-effect="rounded" alt="通过快捷键打开弹出菜单的方式创建 Java 类" src="通过快捷键打开弹出菜单的方式创建 Java 类.png" width="706" thumbnail="true"/>
             <note>您可以通过按 <shortcut>Alt</shortcut><shortcut>1</shortcut> 快速打开 <include from="reuse-library.topic" element-id="project-tool-window-snippet" />。&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;</note>
             <video border-effect="rounded" src="https://www.youtube.com/watch?v=tijgIG-RwnQ" width="706"/>
@@ -70,7 +70,7 @@
         </procedure>
         <procedure type="steps" title="使用代码自动补全功能调用 println() 方法" id="call-println">
             <step>键入 <code>Sy</code> ，然后从代码补全建议列表中选择 <code>System</code> 类（它来自标准 <code>java.lang</code> 包）。</step>
-            <img border-effect="rounded" alt="选中候选列表建议中的 System 类" src="选中候选列表建议中的 System 类.png.png" width="706" thumbnail="true"/>
+            <img border-effect="rounded" alt="选中候选列表建议中的 System 类" src="选中候选列表建议中的 System 类.png" width="706" thumbnail="true"/>
             <step>紧接着，键入 <code>.</code> ，然后选择 <code>out</code> 。</step>
             <img border-effect="rounded" alt="选择候选列表建议中的 out" src="选择候选列表建议中的 out.png" width="706" thumbnail="true"/>
             <step>紧接着，键入 <code>.</code> ，然后选择 <code>println(String x)</code> 方法，然后按 <shortcut>Enter</shortcut> 。</step>
@@ -116,7 +116,7 @@
         <p>代码编写完成后，您可以将应用程序打包成 Java 归档文件（ <tooltip term="java-jar-file">JAR</tooltip> ），以便与其他开发人员共享。</p>
         <p>构建好的 Java 归档被称为 <format style="bold">Artifact（工件）</format> 。</p>
         <procedure id="configure-artifact" title="为 JAR 创建 Artifact 配置" type="steps">
-            <step>选择 <ui-path><include from="reuse-library.topic" element-id="main-menus-snippet" />  | 文件 | 项目结构（ <shortcut>Ctrl</shortcut><shortcut>Alt</shortcut><shortcut>Shift</shortcut><shortcut>S</shortcut> ）</ui-path> ，然后单击 <ui-path>工件</ui-path> 。</step>
+            <step>选择 <ui-path><include from="reuse-library.topic" element-id="main-menus-snippet"/>  | 文件 | 项目结构（ <shortcut>Ctrl</shortcut><shortcut>Alt</shortcut><shortcut>Shift</shortcut><shortcut>S</shortcut> ）</ui-path> ，然后单击 <ui-path>工件</ui-path> 。</step>
             <step>单击 <img src="添加.svg" alt=""/> ，选择 <ui-path>JAR</ui-path> ，然后选择 <ui-path>来自具有依赖项的模块</ui-path> 。</step>
             <img border-effect="rounded" alt="来自具有依赖项的模块" src="来自具有依赖项的模块.png" width="706" thumbnail="true"/>
             <step>在 <ui-path>主类</ui-path> 右侧，单击 <img src="打开磁盘.svg" alt=""/> 。然后选择 <ui-path>HelloWorld (com.example.helloworld) </ui-path> 。</step>

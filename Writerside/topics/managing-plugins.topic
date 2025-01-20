@@ -11,7 +11,7 @@
         <li>与 <tooltip term="vcs">版本控制系统</tooltip> 、问题跟踪器、构建管理服务器及其他工具集成。</li>
         <li>为各种 <tooltip term="programming-language">语言</tooltip> 和 <tooltip term="framework">框架</tooltip> 提供编码辅助支持。</li>
         <li><a href="mastering-keyboard-shortcuts.topic" summary=""/> 实时提示、实时预览、文件监视器等等。</li>
-        <li>编码练习，帮助您学习新的语言。您可以参阅 <a href="feature-trainer.topic" summary="" /> 以掌握 IntelliJ IDEA 的基础用法。</li>
+        <li>编码练习，帮助您学习新的语言。您可以参阅 <a href="feature-trainer.topic" summary=""/> 以掌握 IntelliJ IDEA 的基础用法。</li>
     </list>
     <procedure id="open-plugin-settings" title="打开插件设置" type="choices">
         <step>在 <control>欢迎界面</control> 中选择 <ui-path>插件</ui-path> 。</step>

@@ -5,7 +5,7 @@
        xsi:noNamespaceSchemaLocation="https://resources.jetbrains.com/writerside/1.0/topic.v2.xsd"
        title="用户界面" id="guided-tour-around-the-user-interface">
     <p>在 IntelliJ IDEA 中打开项目时，将会根据您的操作在用户界面中呈现出如下图所示相关部分：</p>
-    <img alt="IntelliJ IDEA 默认用户界面（Darcula 主题）" src="IntelliJ IDEA 默认用户界面（Darcula 主题）.png" width="706" thumbnail="true" border-effect="rounded"/>
+    <img alt="IntelliJ IDEA 默认用户界面（Darcula 主题）" src="IntelliJ IDEA 默认用户界面（Windows_Darcula 主题）.png" width="706" thumbnail="true" border-effect="rounded"/>
     <list type="decimal">
         <li><a anchor="navigation-bar" summary="IntelliJ IDEA 中的导航栏是一个便捷的功能，它允许用户快速导航到项目中的不同部分，例如：文件、类、方法或工具窗口。导航栏通常位于编辑器的顶部，提供了一个紧凑的界面来键入搜索查询或选择目标位置。"/></li>
         <li>项目 <a anchor="tool-windows" summary="IntelliJ IDEA 中的工具窗口是 IDE 的重要组成部分，它们提供了一系列功能，帮助开发者更有效地编写、调试和管理代码。"/></li>

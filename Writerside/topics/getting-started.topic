@@ -10,7 +10,7 @@
 
         <spotlight>
             <a href="register.topic" type="key" summary="激活 IntelliJ IDEA，摆脱试用限制，尽享高效开发。"/>
-            <a href="working-offline.topic" type="open-source" summary="即使在没有网络的环境中 IntelliJ IDEA 的大部分功能也依旧可用。"/>
+            <a href="working-offline.topic" type="network" summary="即使在没有网络的环境中 IntelliJ IDEA 的大部分功能也依旧可用。"/>
         </spotlight>
 
         <primary>
@@ -18,8 +18,8 @@
             <a href="installation-guide.topic" summary="根据您的操作系统，选择合适的 IntelliJ IDEA 安装方式。">安装 IntelliJ IDEA</a>
             <a href="installation-guide.topic" summary="启用简体中文语言包，改善使用体验，降低学习门槛。" anchor="simplified-chinese-language"/>
             <a href="user-interface-themes.topic" summary="启用个性化主题，告别单调的界面，打造专属的视觉体验。">主题</a>
-            <a href="guided-tour-around-the-user-interface.topic" summary="掌握 IntelliJ IDEA 用户界面的主要构成，提高开发效率。"/>
-            <a href="setting-background-image.topic" summary="用个性背景图美化您的 IntelliJ IDEA。"/>
+            <a href="guided-tour-around-the-user-interface.topic" summary="掌握 IntelliJ IDEA 用户界面的主要构成部分。"/>
+            <a href="setting-background-image.topic" summary="用个性背景图片美化您的 IntelliJ IDEA。"/>
             <a href="tool-window.topic" summary="工具窗口提供围绕编码相关的辅助功能，使得开发效率得以提升。"/>
         </primary>
 

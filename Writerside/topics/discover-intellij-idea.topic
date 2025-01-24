@@ -8,11 +8,11 @@
         <p><a href="https://www.jetbrains.com/zh-cn/idea/">IntelliJ IDEA</a> 是 <tooltip term="java">Java</tooltip> <tooltip term="programming-language">语言</tooltip> 的 <tooltip term="ide">IDE</tooltip> 。其被业界誉为是最好的 Java 开发工具，尤其在 <tooltip term="idea-code-completion">智能代码助手</tooltip> 、 <tooltip term="idea-code-automatic-prompt">代码自动提示</tooltip> 、 <tooltip term="idea-code-refactoring">代码重构</tooltip> 、 <tooltip term="jakarta-ee">Jakarta EE</tooltip> 支持 、 <tooltip term="vcs">版本控制</tooltip> 工具（ <tooltip term="git">Git</tooltip> 、 <tooltip term="svn">SVN</tooltip> 等）、 <tooltip term="unit-test">单元测试</tooltip> （ <tooltip term="JUnit">JUnit</tooltip> 等）、 <tooltip term="code-static-analysis">代码分析</tooltip> 、创新的 <tooltip term="gui">GUI</tooltip> 设计等方面的功能可以说是无与伦比的。</p>
         <img src="logo.svg" alt="IntelliJ IDEA Logo" width="706" style="block" border-effect="rounded"/>
         <p>IntelliJ IDEA 是由 <tooltip term="jetbrains">JetBrains</tooltip> 公司研发的产品，以严谨著称的东欧程序员是其主要开发者。</p>
-        <p>IntelliJ IDEA 有 <format style="bold">社区版</format> 和 <format style="bold">旗舰版</format> 两个主要版本。社区版提供长期免费支持，但在功能丰富程度上不及旗舰版，且支持的 <tooltip term="programming-language">语言</tooltip> 较少。旗舰版包含更多高级功能和更多语言支持，但仅提供 <format style="bold">30</format> 天免费试用，之后则需要购买激活码。</p>
+        <p>IntelliJ IDEA 有 <format style="bold">社区版</format> 和 <format style="bold">旗舰版</format> 两个主要版本。社区版提供长期免费支持，但在功能丰富程度上不及旗舰版，且支持的 <tooltip term="programming-language">语言</tooltip> 较少。旗舰版包含更多高级功能和更多语言支持，但仅提供 <format style="bold">30</format> 天免费试用，过期后则需要购买激活码。</p>
     </chapter>
     <chapter id="cross-platform" title="跨平台">
-        <note>尽管 IntelliJ IDEA 在 Windows、Linux 和 macOS 这三大主流操作系统平台上均提供相应版本，并确保了核心功能的一致性，但在各个平台上的操作习惯和界面布局仍略有不同。</note>
-        <p>IntelliJ IDEA 是一款 <tooltip term="cross-platform">跨平台</tooltip> 的 <tooltip term="ide">IDE</tooltip> ，可在 <tooltip term="windows">Windows</tooltip> 、 <tooltip term="macos">macOS</tooltip> 及 <tooltip term="linux">Linux</tooltip> 上提供一致的体验。</p>
+        <note>IntelliJ IDEA 在 Windows、Linux 和 macOS 这三大主流 <tooltip term="os">操作系统</tooltip> 平台上均提供相应版本，并确保了核心功能的一致性，但在各个平台上的操作习惯和界面布局仍略有不同。</note>
+        <p>IntelliJ IDEA 是一款 <tooltip term="cross-platform">跨平台</tooltip> 的 <tooltip term="ide">IDE</tooltip> ，可在 <tooltip term="windows">Windows</tooltip> 、 <tooltip term="macos">macOS</tooltip> 及 <tooltip term="linux">Linux</tooltip> 上提供一致的使用体验。</p>
         <img src="IntelliJ IDEA 支持的三大平台.png" alt="IntelliJ IDEA 支持的三大平台" width="706" thumbnail="true" border-effect="rounded"/>
     </chapter>
     <chapter id="editions" title="版本介绍">

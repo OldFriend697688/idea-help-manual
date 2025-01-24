@@ -76,7 +76,7 @@
             <step>单击 <include from="reuse-library.topic" element-id="main-windows-snippet"/> 左下角的快速访问按钮 <img src="隐藏工具栏按钮.svg" alt=""/> 来隐藏工具窗口栏。</step>
             <video src="https://www.youtube.com/watch?v=zCYHcmTnkD8" width="706" border-effect="rounded"/>
             <step>双击并按住 <shortcut>Alt</shortcut> 显示被隐藏的工具窗口栏，松开 <shortcut>Alt</shortcut> 后工具窗口栏将再次进入隐藏状态。</step>
-            <video src="双击并按住 Alt 来显示被隐藏的工具窗口栏.mp4" width="706" border-effect="rounded" preview-src="CLion 官网.png"/>
+            <video src="https://www.youtube.com/watch?v=Pylq3c-ovjo" width="706" border-effect="rounded"/>
         </procedure>
     </chapter>
     <chapter id="general-tool-windows-layout" title="工具窗口组件">
@@ -135,6 +135,15 @@
                 <tr>
                     <td colspan="2">
                         <video src="https://www.youtube.com/watch?v=6Gz1MgUAwJA" width="706" border-effect="rounded"/>
+                    </td>
+                </tr>
+                <tr>
+                    <td>最大化工具窗口/还原工具窗口大小</td>
+                    <td><shortcut>Ctrl</shortcut><shortcut>Shift</shortcut><shortcut>'</shortcut></td>
+                </tr>
+                <tr>
+                    <td colspan="2">
+                        <video src="https://www.youtube.com/watch?v=II-LG7z8gfQ" width="706" border-effect="rounded"/>
                     </td>
                 </tr>
                 <tr>
@@ -224,16 +233,16 @@
                 </tr>
                 <tr>
                     <td colspan="2">
-                        <video src="显示和隐藏提交工具窗口.mp4"  width="706" preview-src="DSM 工具窗口界面.png" border-effect="rounded"/>
+                        <video src="https://www.youtube.com/watch?v=M4jpIW6smGo"  width="706" border-effect="rounded"/>
                     </td>
                 </tr>
                 <tr>
                     <td>显示 <include from="reuse-library.topic" element-id="terminal-windows-tool-snippet"/> 工具窗口 。</td>
-                    <td><shortcut>Alt</shortcut><shortcut>12</shortcut></td>
+                    <td><shortcut>Alt</shortcut><shortcut>F12</shortcut></td>
                 </tr>
                 <tr>
                     <td colspan="2">
-                        <video src="显示和隐藏终端工具窗口.mp4"  width="706" preview-src="DSM 工具窗口界面.png" border-effect="rounded"/>
+                        <video src="https://www.youtube.com/watch?v=bbrNDhfywHI"  width="706" border-effect="rounded"/>
                     </td>
                 </tr>
             </table>

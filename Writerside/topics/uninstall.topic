@@ -27,7 +27,7 @@
                         <list>
                             <li>移除 IntelliJ IDEA 2022.3.3 的 <a href="invalidate-caches.topic" summary="">缓存</a> 以及本地历史记录。</li>
                             <li>移除 IntelliJ IDEA 2022.3.3 的相关设置以及已安装的 <a href="managing-plugins.topic" summary="">插件</a> 。</li>
-                            <li>参与卸载反馈。（ <format style="bold" color="Crimson">通常无需勾选</format> ）</li>
+                            <li>参与卸载原因反馈。（ <format style="bold" color="Crimson">通常无需勾选</format> ）</li>
                         </list>
                         <img alt="在 Windows 平台上卸载 IntelliJ IDEA" src="在 Windows 平台上卸载 IntelliJ IDEA（1）.png" width="706" thumbnail="true" border-effect="rounded"/>
                     </li>

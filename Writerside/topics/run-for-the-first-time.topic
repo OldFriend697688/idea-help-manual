@@ -29,11 +29,11 @@
         <p>单击 <control>自定义</control> 并选择心仪的 <a href="user-interface-themes.topic" summary="">主题</a> ，或选择 <ui-path>与操作系统同步</ui-path> 以使用系统默认主题。</p>
         <p>在这里，您还可以 <a href="accessibility.topic" anchor="red-green-deficiency" summary="">配置辅助功能设置</a> 或调整 <a href="configuring-keyboard-and-mouse-shortcuts.topic" summary="">按键映射</a> 。</p>
         <note>您可以尝试 <a href="new-ui.topic" summary="">新的 IntelliJ IDEA 用户界面</a> 。&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;</note>
-        <img src="IntelliJ IDEA 欢迎界面（Windows_Darcula 主题）.png" alt="IntelliJ IDEA 欢迎界面（Windows_Darcula 主题）" width="706" thumbnail="true" border-effect="rounded"/>
+        <img src="IntelliJ IDEA 欢迎界面（Windows-Darcula 主题）.png" alt="IntelliJ IDEA 欢迎界面（Windows_Darcula 主题）" width="706" thumbnail="true" border-effect="rounded"/>
     </chapter>
     <chapter id="configure-default-settings" title="配置默认设置">
         <p>单击 <ui-path>自定义</ui-path> ，如果您 <a href="sharing-your-ide-settings.topic" anchor="export-settings-to-a-zip-archive" summary="">已有要应用的所需设置副本</a> ，则选择 <ui-path>导入设置</ui-path> 。</p>
-        <p>单击 <ui-path>所有设置</ui-path> 打开 <control>设置（ <shortcut>Ctrl</shortcut><shortcut>Alt</shortcut><shortcut>S</shortcut> ）</control> ，此时调整的设置将成为所有新项目和 <tooltip term="ide">IDE</tooltip> 的默认设置。</p>
+        <p>单击 <ui-path>所有设置</ui-path> 打开 <control><include from="reuse-library.topic" element-id="idea-settings-keywords-snippet"/></control> ，此时调整的设置将成为所有新项目和 <tooltip term="ide">IDE</tooltip> 的默认设置。</p>
         <img src="单击所有设置打开设置对话框.gif" alt="单击所有设置打开设置对话框" width="706" thumbnail="true" border-effect="rounded"/>
     </chapter>
     <chapter id="additional-plugins" title="安装附加插件">

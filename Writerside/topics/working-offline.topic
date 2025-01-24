@@ -51,7 +51,7 @@
     <chapter id="gradle" title="Gradle 依赖">
         <p>默认情况下， <tooltip term="gradle">Gradle</tooltip> 会连接到远程仓库源，并在每次启动时检查更新。解决 <a href="https://gradle.org/">Gradle</a> 依赖性问题可能需要下载新的工件。如果希望 Gradle 只使用本地可用的资源，可以切换至离线模式。</p>
         <procedure id="gradle-offline-mode" title="切换 Maven 到离线模式">
-            <step>在 <include from="reuse-library.topic" element-id="gradle-tool-windows-snippet" /> 中，单击 <img src="Maven 离线模式.svg" alt=""/> 。</step>
+            <step>在 <include from="reuse-library.topic" element-id="gradle-tool-windows-snippet" /> 工具窗口中，单击 <img src="Maven 离线模式.svg" alt=""/> 。</step>
             <p>这将在 IntelliJ IDEA 运行的所有 Gradle 命令中附加 <code>--offline</code> 选项。</p>
             <p>同时，它还会报告任何无法在本地版本库中找到的 <tooltip term="library">库</tooltip> 。</p>
         </procedure>
@@ -62,7 +62,7 @@
         <p>即使启用了匿名使用统计，如果除了本地网络外没有互联网访问权限，则不会发送匿名使用统计。</p>
         <p>此外，如果您一开始同意，但后来又改变了主意，也可以禁用发送匿名使用统计数据。</p>
         <procedure id="disable-usage-stats" title="禁用匿名使用统计">
-            <step>在 <control>设置（ <shortcut>Ctrl</shortcut><shortcut>Alt</shortcut><shortcut>S</shortcut> ）</control> 中选择 <ui-path>外观与行为 | 系统设置 | 数据共享</ui-path> 。</step>
+            <step>在 <control><include from="reuse-library.topic" element-id="idea-settings-keywords-snippet"/></control> 中选择 <ui-path>外观与行为 | 系统设置 | 数据共享</ui-path> 。</step>
             <step>取消勾选 <ui-path>Send usage statistics</ui-path> 。</step>
             <img src="为 IntelliJ IDEA 取消数据共享.png" alt="为 IntelliJ IDEA 取消数据共享" width="706" thumbnail="true" border-effect="rounded"/>
         </procedure>

@@ -5,5 +5,7 @@
        xsi:noNamespaceSchemaLocation="https://resources.jetbrains.com/writerside/1.0/topic.v2.xsd"
        title="Terminal" id="terminal-emulator">
 
-    <p>Start typing here...</p>
+    <procedure id="open-terminal" type="steps" title="打开终端工具窗口">
+
+    </procedure>
 </topic>

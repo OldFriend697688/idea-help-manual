@@ -36,11 +36,11 @@
         </procedure>
         <procedure id="create-package-and-class" type="steps" title="创建包和类">
             <note><tooltip term="java-package">包</tooltip> 用于将属于同一类别或提供类似功能的 <tooltip term="java-class">类</tooltip> 组合在一起，用于结构化和组织包含数百个类的大型应用程序。</note>
-            <step>在 <include from="reuse-library.topic" element-id="project-tool-window-snippet"/> 中，选中 <path>src</path> 文件夹，右键单击 <ui-path>新建</ui-path> ，然后选择 <ui-path>Java 类</ui-path> 。</step>
+            <step>在 <include from="reuse-library.topic" element-id="project-tool-window-snippet"/> 工具窗口中，选中 <path>src</path> 文件夹，右键单击 <ui-path>新建</ui-path> ，然后选择 <ui-path>Java 类</ui-path> 。</step>
             <img border-effect="rounded" alt="通过在 src 文件夹上右键的方式新建 Java 类" src="通过在 src 文件夹上右键的方式新建 Java 类.png" width="706" thumbnail="true"/>
             <step>或者，您也可以选中 <path>src</path> 文件夹并按 <shortcut>Alt</shortcut><shortcut>Insert</shortcut> 以实现相同效果。</step>
             <img border-effect="rounded" alt="通过快捷键打开弹出菜单的方式创建 Java 类" src="通过快捷键打开弹出菜单的方式创建 Java 类.png" width="706" thumbnail="true"/>
-            <note>您可以通过按 <shortcut>Alt</shortcut><shortcut>1</shortcut> 快速打开 <include from="reuse-library.topic" element-id="project-tool-window-snippet" />。&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;</note>
+            <note>您可以通过按 <shortcut>Alt</shortcut><shortcut>1</shortcut> 快速打开 <include from="reuse-library.topic" element-id="project-tool-window-snippet"/> 工具窗口。&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;</note>
             <video border-effect="rounded" src="https://www.youtube.com/watch?v=tijgIG-RwnQ" width="706"/>
             <step>
                 <p>在 <ui-path>名称</ui-path> 中键入 <code>com.example.helloworld.HelloWorld</code> ，然后按 <shortcut>Enter</shortcut> （回车键） 。</p>
@@ -93,21 +93,21 @@
             <img border-effect="rounded" alt="编辑器和工具栏中的运行按钮" src="编辑器和工具栏中的运行按钮.png" width="706" thumbnail="true"/>
             <step>单击间距图标处的 <img src="运行.svg" alt=""/> 按钮，在弹出的窗口中选择 <ui-path>HelloWorld.main()</ui-path> 。</step>
             <img  border-effect="rounded" alt="单击间距图标位置的运行按钮" src="单击间距图标位置的运行按钮.png" width="706" thumbnail="true"/>
-            <step>当编译完成后，屏幕底部会打开 <include from="reuse-library.topic" element-id="run-tool-windows-snippet" /> 。</step>
+            <step>当编译完成后，屏幕底部会打开 <include from="reuse-library.topic" element-id="run-tool-windows-snippet" /> 工具窗口。</step>
             <note>
                 <p>第一行显示 IntelliJ IDEA 用于运行编译类的命令。 &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;</p>
                 <p>第二行显示的是程序输出： <code>Hello, World!</code> 。</p>
                 <p>最后一行显示退出代码 <code>0</code> ，表示程序成功退出。</p>
-                <p>若代码不正确，程序将无法编译， <include from="reuse-library.topic" element-id="run-tool-windows-snippet" />  将显示相应的退出代码。</p>
+                <p>若代码不正确，程序将无法编译， <include from="reuse-library.topic" element-id="run-tool-windows-snippet" /> 工具窗口将显示相应的退出代码。</p>
             </note>
             <img  border-effect="rounded" alt="运行工具窗口中显示的运行结果和信息" src="运行工具窗口中显示的运行结果和信息.png" width="706" thumbnail="true"/>
             <note>单击 <ui-path>运行</ui-path> 按钮时，IntelliJ IDEA 会创建一个特殊的运行配置，执行一系列操作。首先，它会构建您的应用程序。在这个阶段，javac 会将您的源代码编译成 JVM 字节码。</note>
             <img  border-effect="rounded" alt="临时创建的运行和调试配置" src="临时创建的运行和调试配置.png" width="706" thumbnail="true"/>
-            <note>javac 完成编译后，会将编译好的字节码放入 <path>out</path> 文件夹，该文件夹在 <include from="reuse-library.topic" element-id="project-tool-window-snippet"/> 中以黄色突出显示。之后，JVM 将运行字节码。</note>
+            <note>javac 完成编译后，会将编译好的字节码放入 <path>out</path> 文件夹，该文件夹在 <include from="reuse-library.topic" element-id="project-tool-window-snippet"/> 工具窗口中以黄色突出显示。之后，JVM 将运行字节码。</note>
             <img  border-effect="rounded" alt="项目工具窗口中的 out 文件夹" src="项目工具窗口中的 out 文件夹.png" width="706" thumbnail="true"/>
         </procedure>
         <note>自动创建的运行配置是临时的，但可以修改和保存。&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;</note>
-        <note>若要重新打开 <include from="reuse-library.topic" element-id="run-tool-windows-snippet"/>  ，请按 <shortcut>Alt</shortcut><shortcut>4</shortcut> 。&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;</note>
+        <note>若要重新打开 <include from="reuse-library.topic" element-id="run-tool-windows-snippet"/> 工具窗口  ，请按 <shortcut>Alt</shortcut><shortcut>4</shortcut> 。&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;</note>
         <video border-effect="rounded" src="https://www.youtube.com/watch?v=Vdsp47jjLi0" width="706"/>
         <note>IntelliJ IDEA 会自动分析当前在 <include from="reuse-library.topic" element-id="editor-snippet" /> 中打开的文件，并搜索不同类型的问题：从语法错误到拼写错误。通过 <include from="reuse-library.topic" element-id="editor-snippet" /> 右上角的 <ui-path>检查</ui-path> 微件，您可以快速查看所有检测到的问题，并详细查看每个问题。更多信息，请参阅 <a href="file-and-project-analysis.topic" anchor="analysis-current-file" summary=""/> 。</note>
         <img border-effect="rounded" alt="自动检查文件中存在的问题" src="自动检查文件中存在的问题.png" width="706" thumbnail="true"/>
@@ -151,7 +151,7 @@
         <procedure id="run-jar-run-config" title="执行 JAR 运行配置">
             <step>在 <include from="reuse-library.topic" element-id="navigation-bar-snippet"/> 上选择 <code>HelloWorldJar</code> 配置，然后单击运行配置选择器右侧的 <img src="运行.svg" alt="" /> 。</step>
             <step>您也可以按 <shortcut>Shift</shortcut><shortcut>F10</shortcut> 实现相同效果。</step>
-            <include from="reuse-library.topic" element-id="run-tool-windows-snippet"/>  会打开并显示输出结果。若进程已成功退出，则意味着应用程序已正确打包。
+            <include from="reuse-library.topic" element-id="run-tool-windows-snippet"/> 工具窗口会打开并显示输出结果。若进程已成功退出，则意味着应用程序已正确打包。
             <video border-effect="rounded" src="https://www.youtube.com/watch?v=iuyrrTn0tFU" width="706"/>
         </procedure>
     </chapter>

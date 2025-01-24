@@ -9,12 +9,12 @@
     <p>新 UI 的主要变化包括简化的 <a href="guided-tour-around-the-user-interface.topic" anchor="vcs-file-color" summary="">主工具栏</a> 、新的 <include from="reuse-library.topic" element-id="tool-window-snippet"/> 布局、新的 <a href="user-interface-themes.topic" summary="">主题</a> 和新的 UI 图标设计。</p>
     <img border-effect="rounded" alt="新 UI（Darcula 主题）" src="新 UI（Darcula 主题）.png" width="706" thumbnail="true"/>
     <procedure id="enable-new-ui" title="启用新 UI">
-        <step>在 <control>设置（ <shortcut>Ctrl</shortcut><shortcut>Alt</shortcut><shortcut>S</shortcut> ）</control> 中选择 <ui-path>外观与行为 | 新 UI</ui-path> 。</step>
+        <step>在 <control><include from="reuse-library.topic" element-id="idea-settings-keywords-snippet"/></control> 中选择 <ui-path>外观与行为 | 新 UI</ui-path> 。</step>
         <step>勾选 <ui-path>启用新 UI</ui-path> 并根据提示重启 IntelliJ IDEA。</step>
         <video border-effect="rounded" src="https://www.youtube.com/watch?v=YOlG61MEaWY" width="706"/>
     </procedure>
     <procedure id="show-main-menus" title="在单独的工具栏中显示主菜单">
-        <step>在 <control>设置（ <shortcut>Ctrl</shortcut><shortcut>Alt</shortcut><shortcut>S</shortcut> ）</control> 中选择 <ui-path>外观与行为 | 新 UI</ui-path> 。</step>
+        <step>在 <control><include from="reuse-library.topic" element-id="idea-settings-keywords-snippet"/></control> 中选择 <ui-path>外观与行为 | 新 UI</ui-path> 。</step>
         <step>勾选 <ui-path>在单独的工具栏中显示主菜单</ui-path> 。</step>
         <video border-effect="rounded" src="https://www.youtube.com/watch?v=3xhd7UwzoNs" width="706"/>
     </procedure>
@@ -103,7 +103,7 @@
                 <li>编辑器标签页现在采用更多空间和更大字体，以提高可读性。</li>
                 <li>
                     <p>如果编辑器标签页与屏幕不适配，可选择使用滚动条或挤压标签页，以将所有标签页放在屏幕上。</p>
-                    <p>您可通过 <ui-path>设置（ <shortcut>Ctrl</shortcut><shortcut>Alt</shortcut><shortcut>S</shortcut> ） | <include from="reuse-library.topic" element-id="editor-snippet"/> | 常规 | 编辑器标签页</ui-path> 中的选项进行调整。</p>
+                    <p>您可通过 <ui-path><include from="reuse-library.topic" element-id="idea-settings-keywords-snippet"/> | <include from="reuse-library.topic" element-id="editor-snippet"/> | 常规 | 编辑器标签页</ui-path> 中的选项进行调整。</p>
                     <video border-effect="rounded" src="https://www.youtube.com/watch?v=hODc7eqx980" width="706"/>
                 </li>
             </list>

@@ -4,6 +4,21 @@
 <topic xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
        xsi:noNamespaceSchemaLocation="https://resources.jetbrains.com/writerside/1.0/topic.v2.xsd"
        title="reuse-library" id="reuse-library" is-library="true">
+    <!-- 设置 | 外观与行为 | 外观 -->
+    <snippet id="ide-appearance-settings-snippet">
+        <ui-path>外观与行为 | 外观</ui-path>
+    </snippet>
+
+    <!-- 主菜单 | 视图 | 工具窗口 | 工具窗口名 -->
+    <snippet id="hide-show-tool-windows-snippet">
+        <ui-path><include from="reuse-library.topic" element-id="main-menus-snippet"/> | 视图 | 工具窗口 | 工具窗口名</ui-path>
+    </snippet>
+
+    <!-- IntelliJ IDEA 设置快捷键 -->
+    <snippet id="idea-settings-keywords-snippet">
+        设置（ <shortcut>Ctrl</shortcut><shortcut>Alt</shortcut><shortcut>S</shortcut> ）
+    </snippet>
+
     <!-- 执行卸载和配置激活补丁脚本前，请确保 IntelliJ IDEA 处于关闭状态 -->
     <snippet id="close-idea-prompt-information-snippet">
         <warning>特别强调，在卸载和配置激活补丁脚本前，请确保 IntelliJ IDEA 处于关闭状态。</warning>
@@ -15,50 +30,85 @@
         <note>尽管 Toolbox App 不再提供 IntelliJ IDEA 2022.3.3 的下载，但若已安装该版本则仍可由 Toolbox App 进行管理。</note>
     </snippet>
 
+    <!-- 从 Toolbox App 登录 JetBrains 帐户将自动激活 IntelliJ IDEA 的提示 -->
+    <snippet id="toolbox-login-tips-snippet">
+        <note>从 Toolbox App 登录 JetBrains 帐户，它将自动激活安装的任何 <tooltip term="ide">IDE</tooltip> 的可用许可证。</note>
+    </snippet>
+
     <!-- 快捷键优先级未定义提示-->
     <snippet id="shortcut-key-priority-tips-snippet">
         <warning>您可以忽略冲突并为多个操作分配相同快捷键。但是，建议您避免使用相同的快捷键绑定两个操作，因为这些操作的优先级并未定义。</warning>
         <video border-effect="rounded" src="https://www.youtube.com/watch?v=wRKNspj_-dU" width="706"/>
     </snippet>
 
+    <!-- 终端工具窗口 -->
+    <snippet id="terminal-windows-tool-snippet">
+        <a href="terminal-emulator.topic" anchor="open-terminal" summary="">终端</a>
+    </snippet>
+
+    <!-- 结构工具窗口 -->
+    <snippet id="structure-tool-windows-snippet">
+        <a href="viewing-structure-of-a-source-file.topic" summary="">结构</a>
+    </snippet>
+
+    <!-- 问题工具窗口 -->
+    <snippet id="problems-tool-windows-snippet">
+        <a href="problems-tool-window.topic" summary="">问题</a>
+    </snippet>
+
+    <!-- 服务工具窗口 -->
+    <snippet id="services-tool-windows-snippet">
+        <a href="services-tool-window.topic" summary="">服务</a>
+    </snippet>
+
+    <!-- 版本控制工具窗口 -->
+    <snippet id="version-control-tool-windows-snippet">
+        <a href="version-control-integration.topic" summary=""/>
+    </snippet>
+
+    <!-- 提交工具窗口 -->
+    <snippet id="commit-tool-windows-snippet">
+        <a href="commit-and-push-changes.topic" summary="">提交</a>
+    </snippet>
+
     <!-- 查找工具窗口 -->
     <snippet id="find-tool-window-snippet">
-        <a href="find-tool-window.topic" summary=""/>
+        <a href="find-tool-window.topic" summary="">查找</a>
     </snippet>
 
     <!-- Maven 工具窗口 -->
     <snippet id="maven-tool-windows-snippet">
-        <a href="maven-projects-tool-window.topic" summary=""/>
+        <a href="maven-projects-tool-window.topic" summary="">Maven</a>
     </snippet>
 
     <!-- Gradle 工具窗口 -->
     <snippet id="gradle-tool-windows-snippet">
-        <a href="jetgradle-tool-window.topic" summary=""/>
+        <a href="jetgradle-tool-window.topic" summary="">Gradle</a>
     </snippet>
 
     <!-- DSM 工具窗口 -->
     <snippet id="dsm-tool-window-snippet">
-        <a href="dsm-analysis.topic" anchor="dsm-tool-window" summary=""/>
+        <a href="dsm-analysis.topic" anchor="dsm-tool-window" summary="">DSM</a>
     </snippet>
 
     <!-- 调试（Debug）工具窗口 -->
     <snippet id="debug-tool-window-snippet">
-        <a href="debug-tool-window.topic" summary=""/>
+        <a href="debug-tool-window.topic" summary="">调试</a>
     </snippet>
 
     <!-- 通知工具窗口 -->
     <snippet id="notifications-tool-windows-snippet">
-        <a href="notifications.topic" anchor="notifications-tool-window" summary=""/>
+        <a href="notifications.topic" anchor="notifications-tool-window" summary="">通知</a>
     </snippet>
 
     <!-- 项目工具窗口 -->
     <snippet id="project-tool-window-snippet">
-        <a href="project-tool-window.topic" summary=""/>
+        <a href="project-tool-window.topic" summary="">项目</a>
     </snippet>
 
     <!-- 运行工具窗口 -->
     <snippet id="run-tool-windows-snippet">
-        <a href="run-tool-window.topic" summary=""/>
+        <a href="run-tool-window.topic" summary="">运行</a>
     </snippet>
 
     <!-- 工具窗口 -->
@@ -103,7 +153,7 @@
 
     <!-- 上下文菜单 -->
     <snippet id="context-menus-snippet">
-        <a anchor="context-menus" href="guided-tour-around-the-user-interface.topic" summary="" />
+        <a anchor="context-menus" href="guided-tour-around-the-user-interface.topic" summary=""/>
     </snippet>
 
     <!-- 关闭中文输入法确保正常触发代码补全功能的提示 -->
@@ -114,11 +164,6 @@
     <!-- 插件过多时影响 IntelliJ IDEA 性能的提示 -->
     <snippet id="too-many-plugins-tips-snippet">
         <warning>安装过多的插件可能会影响到 IntelliJ IDEA 的整体性能。&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;</warning>
-    </snippet>
-
-    <!-- 从 Toolbox App 登录 JetBrains 帐户将自动激活 IntelliJ IDEA 的提示 -->
-    <snippet id="toolbox-login-tips-snippet">
-        <note>从 Toolbox App 登录 JetBrains 帐户，它将自动激活安装的任何 <tooltip term="ide">IDE</tooltip> 的可用许可证。</note>
     </snippet>
 
     <!-- 独立安装（手动安装）时的提示 -->
@@ -133,7 +178,7 @@
         <p>有关从命令行运行 IntelliJ IDEA 的信息，请参阅 <a href="working-with-the-ide-features-from-command-line.topic" summary=""/> 。</p>
         <p>启动 IntelliJ IDEA 后，您将看到 <control>欢迎界面</control> ，这是您使用 <tooltip term="ide">IDE</tooltip> 和配置其设置的起点。</p>
         <p>关闭所有已打开的项目时也会出现该界面。您可以单击左侧的选项卡切换至特定的功能对话框。</p>
-        <img border-effect="rounded" src="IntelliJ IDEA 欢迎界面（macOS_Linux）.png" alt="IntelliJ IDEA 欢迎界面" width="706" thumbnail="true"/>
+        <img border-effect="rounded" src="IntelliJ IDEA 欢迎界面（macOS-Linux）.png" alt="IntelliJ IDEA 欢迎界面" width="706" thumbnail="true"/>
     </snippet>
 
     <!-- 在 IntelliJ IDEA 中退出已登录的 JB（JetBrains） 账号 -->
@@ -148,10 +193,15 @@
         </procedure>
     </snippet>
 
+    <!-- 弹出菜单 -->
+    <snippet id="popup-menus-snippet">
+        <a anchor="popup-menus" href="guided-tour-around-the-user-interface.topic" summary=""/>
+    </snippet>
+
     <!-- 配置自定义快速列表 -->
     <snippet id="configure-quick-lists-snippet">
         <chapter id="configure-quick-lists" title="自定义快速列表">
-            <p>快速列表是一个 <a anchor="popup-menus" href="guided-tour-around-the-user-interface.topic" summary=""/> ，其中包含一组自定义的 IntelliJ IDEA 操作。您可以将其视为自定义菜单或工具栏，并且可以为其指定 <a href="mastering-keyboard-shortcuts.topic" summary=""/> 以便快速访问。</p>
+            <p>快速列表是一个 <include from="reuse-library.topic" element-id="popup-menus-snippet"/> ，其中包含一组自定义的 IntelliJ IDEA 操作。您可以将其视为自定义菜单或工具栏，并且可以为其指定 <a href="mastering-keyboard-shortcuts.topic" summary=""/> 以便快速访问。</p>
             <p>您可根据需要创建任意多个快速列表。快速列表中的每个操作都由从 0 到 9 的数字来标识。</p>
             <p>IntelliJ IDEA 中已有许多预设的快速列表，但请注意它们不可以被重新配置，例如：</p>
             <list>
@@ -160,7 +210,7 @@
                 <li><ui-path>生成 （ <shortcut>Alt</shortcut><shortcut>Insert</shortcut> ）</ui-path></li>
             </list>
             <procedure title="创建快速列表" id="create-quick-list">
-                <step>在 <ui-path>设置（ <shortcut>Ctrl</shortcut><shortcut>Alt</shortcut><shortcut>S</shortcut> ）</ui-path> 中选择 <ui-path>外观与行为 | 快速列表</ui-path> 。</step>
+                <step>在 <control><include from="reuse-library.topic" element-id="idea-settings-keywords-snippet"/></control> 中选择 <ui-path>外观与行为 | 快速列表</ui-path> 。</step>
                 <step>单击左侧的 <img src="添加.svg" alt=""/> （ <shortcut>Alt</shortcut><shortcut>Insert</shortcut> ）创建新的快速列表。</step>
                 <step>在 <ui-path>显示名称</ui-path> 中，指定快速列表的名称。</step>
                 <step>如有必要，可以在 <ui-path>描述</ui-path> 中为快速列表提供用途说明。</step>
@@ -177,7 +227,7 @@
                 <video border-effect="rounded" src="https://www.youtube.com/watch?v=wbDyS0xZbbU" width="706"/>
             </procedure>
             <procedure title="为快速列表分配快捷键" id="quick-list-shortcut">
-                <step>在 <control>设置 （ <shortcut>Ctrl</shortcut><shortcut>Alt</shortcut><shortcut>S</shortcut> ）</control> 中选择 <ui-path><a href="mastering-keyboard-shortcuts.topic" summary="">按键映射</a></ui-path> 。</step>
+                <step>在 <control><include from="reuse-library.topic" element-id="idea-settings-keywords-snippet"/></control> 中选择 <ui-path><a href="mastering-keyboard-shortcuts.topic" summary="">按键映射</a></ui-path> 。</step>
                 <step>展开 <ui-path>快速列表</ui-path> 节点并选择目标快速列表，鼠标右键单击并选择 <ui-path>添加键盘快捷键</ui-path> 。</step>
                 <step>单击 <ui-path>确定</ui-path> 保存更改。</step>
                 <step>在 <include from="reuse-library.topic" element-id="editor-snippet" /> 中，按下分配的快捷键以便调用快速列表。</step>
@@ -194,6 +244,8 @@
         <procedure title="操作步骤" id="operation-steps" type="steps">
             <step>将插入符号（闪烁光标）放在待重构的 <tooltip term="method">方法</tooltip> 或 <tooltip term="variables">变量</tooltip> 的名称处。</step>
             <step>在 <include from="reuse-library.topic" element-id="main-menus-snippet" /> 或 <include from="reuse-library.topic" element-id="context-menus-snippet" /> 中选择 <ui-path>重构 | 反转布尔值</ui-path> 。</step>
+            <img src="主菜单中的反转布尔值重构选项.png" alt="主菜单中的反转布尔值重构选项" width="706" border-effect="rounded" thumbnail="true"/>
+            <img src="上下文菜单中的反转布尔值选项.png" alt="上下文菜单中的反转布尔值选项" width="706" border-effect="rounded" thumbnail="true"/>
             <step>在打开的对话框中，指定待反转方法或变量的名称。</step>
             <step>预览并应用更改。</step>
         </procedure>

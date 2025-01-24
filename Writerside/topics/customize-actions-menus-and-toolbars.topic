@@ -9,7 +9,7 @@
     <p>例如：如果您正在进行 <tooltip term="java">Java</tooltip> 项目开发，则可能想要从 <ui-path><include from="reuse-library.topic" element-id="main-menus-snippet"/> | 文件 | 新建</ui-path> 中移除您不需要使用的其它选项，仅留下需要的选项，以使菜单变得更短。更多信息请参阅 <include from="reuse-library.topic" element-id="context-menus-snippet"/> 。</p>
     <note>您可以使用 <include from="reuse-library.topic" element-id="bookmarks-snippet"/><include from="reuse-library.topic" element-id="tool-window-snippet"/> 快速访问您喜欢的文件、目录、书签和断点。&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;</note>
     <procedure title="自定义菜单与工具栏" id="customize-menus-and-toolbars" type="steps">
-        <step>在 <control>设置（ <shortcut>Ctrl</shortcut><shortcut>Alt</shortcut><shortcut>S</shortcut> ）</control> 中选择 <ui-path>外观与行为 | 菜单与工具栏</ui-path> 。</step>
+        <step>在 <control><include from="reuse-library.topic"  element-id="ide-appearance-settings-snippet"/></control> 中选择 <ui-path>外观与行为 | 菜单与工具栏</ui-path> 。</step>
         <img alt="菜单与工具栏" src="菜单与工具栏.png" width="706" thumbnail="true" border-effect="rounded"/>
         <step>
             <p>在可用的菜单与工具栏列表中，展开要自定义的节点并选择所需配置的项目。</p>
@@ -26,7 +26,7 @@
         <video src="https://www.youtube.com/watch?v=h40kdWC1BCw" width="706" border-effect="rounded"/>
     </procedure>
     <procedure title="为菜单选项配置自定义图标" id="custom-icons-menu" type="steps">
-        <step>在 <control>设置（ <shortcut>Ctrl</shortcut><shortcut>Alt</shortcut><shortcut>S</shortcut> ）</control> 中选择 <ui-path>外观与行为 | 菜单与工具栏</ui-path> 。</step>
+        <step>在 <control><include from="reuse-library.topic"  element-id="ide-appearance-settings-snippet"/></control> 中选择 <ui-path>外观与行为 | 菜单与工具栏</ui-path> 。</step>
         <step>选择要更改或添加图标的菜单选项，然后单击 <img src="编辑.svg" alt=""/> 。</step>
         <step>
             <p>然后单击 <img src="向下移动.svg" alt=""/> 从列表中选择图标，或单击 <img src="打开磁盘.svg" alt=""/> 上传您自己的图标。</p>
@@ -45,14 +45,14 @@
             <li><format style="bold">工具窗口栏</format> ：位于主窗口的边缘位置，它们包含用于显示、隐藏和排列工具窗口的按钮。详情请参阅 <a href="tool-window.topic" anchor="bars-and-buttons"/> 。</li>
             <li><format style="bold">状态栏</format> ：位于主窗口的底部位置，用于显示事件消息及指示整个项目和 <tooltip term="ide">IDE</tooltip> 的状态，并允许通过小部件提供快速访问某些设置。详情请参阅 <include from="reuse-library.topic" element-id="status-bar-snippet"/>。</li>
             <li><format style="bold">状态栏微件</format> ：位于状态栏的右侧，您可以通过右键单击状态栏以显示和隐藏微件。</li>
-            <li><format style="bold">导航栏</format> ：位于主窗口的顶部，您可以使用 <shortcut>Alt</shortcut><shortcut>Home</shortcut> 导航项目目录和文件。它是 <include from="reuse-library.topic" element-id="project-tool-window-snippet"/> 的替代方案。详情请参阅 <include from="reuse-library.topic" element-id="navigation-bar-snippet"/> 。</li>
+            <li><format style="bold">导航栏</format> ：位于主窗口的顶部，您可以使用 <shortcut>Alt</shortcut><shortcut>Home</shortcut> 导航项目目录和文件。它是 <include from="reuse-library.topic" element-id="project-tool-window-snippet"/> 工具窗口的替代方案。详情请参阅 <include from="reuse-library.topic" element-id="navigation-bar-snippet"/> 。</li>
             <li>
                 <p><format style="bold">主菜单</format> ：主菜单包含了多个顶级菜单项，每个菜单项下都有相应的子菜单和功能选项，这些菜单提供了对 <tooltip term="ide">IDE</tooltip> 的各种功能和设置的访问。</p>
                 <note>您可以通过在 <control>操作（ <shortcut>Ctrl</shortcut><shortcut>Alt</shortcut><shortcut>A</shortcut></control> ）中键入 <ui-path>主菜单</ui-path> 来实现快速显示和隐藏主菜单。&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;</note>
                 <video src="https://www.youtube.com/watch?v=prmDrr1rB18" width="706" border-effect="rounded"/>
             </li>
             <li>
-                <format style="bold">树视图中的详细信息</format> ：用于显示 <include from="reuse-library.topic" element-id="project-tool-window-snippet"/> 中文件的最后修改日期和大小。
+                <format style="bold">树视图中的详细信息</format> ：用于显示 <include from="reuse-library.topic" element-id="project-tool-window-snippet"/> 工具窗口中文件的最后修改日期和大小。
                 <video src="https://www.youtube.com/watch?v=XgSWf2roY_4" width="706" border-effect="rounded"/>
             </li>
         </list>

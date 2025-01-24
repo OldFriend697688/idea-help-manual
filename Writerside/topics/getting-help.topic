@@ -14,7 +14,8 @@
     </procedure>
     <procedure title="反馈错误" id="report-bug" type="choices">
         <p>如遇错误或想提议新功能，您可以尝试使用 <a href="https://youtrack.jetbrains.com/issues/IDEA">IntelliJ IDEA 问题跟踪器</a> 。</p>
-        <step>选择 <ui-path><include from="reuse-library.topic" element-id="main-menus-snippet"/>  | 帮助 | 提交错误报告</ui-path> 。</step>
+        <step>选择 <ui-path><include from="reuse-library.topic" element-id="main-menus-snippet"/> | 帮助 | 提交错误报告</ui-path> 。</step>
+        <img src="提交错误报告.png" alt="提交错误报告" width="706" thumbnail="true" border-effect="rounded"/>
         <p>在进行提交之前，您可以先尝试搜索问题跟踪器，查找是否已存在类似的报告或功能请求，以避免重复。如有类似，可以添加评论或者投票，以便引起开发团队的关注。</p>
         <p>如果需要 IntelliJ IDEA 的日志文件，可以通过 <ui-path><include from="reuse-library.topic" element-id="main-menus-snippet"/> | 帮助 | 在 Explorer 显示日志</ui-path> 找到它。</p>
         <img src="在资源管理器中显示日志.png" alt="在资源管理器中显示日志" width="706" thumbnail="true" border-effect="rounded"/>

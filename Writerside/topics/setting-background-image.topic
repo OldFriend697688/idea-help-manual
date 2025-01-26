@@ -79,6 +79,7 @@
             <include from="reuse-library.topic" element-id="core-references-snippet"/>
             <include from="reuse-library.topic" element-id="associated-websites-snippet"/>
             <include from="reuse-library.topic" element-id="programming-language-snippet"/>
+            <include from="reuse-library.topic" element-id="ai-editor-snippet"/>
         </category>
     </seealso>
 </topic>

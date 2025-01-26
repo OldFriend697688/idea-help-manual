@@ -84,7 +84,7 @@
         <img src="工具窗口中的组件.png" alt="工具窗口中的组件" width="706" border-effect="rounded"/>
         <p>您可以通过单击工具窗口中的 <img src="设置.svg" alt=""/> 并勾选或取消勾选 <ui-path>标签页分组</ui-path> 来改变工具窗口的分组模式。</p>
         <video src="https://www.youtube.com/watch?v=2ZCMo45vnwM" width="706" border-effect="rounded"/>
-        <p>工具窗口标题栏中的 <img src="设置.svg" alt=""/> 用于更改视图模式和工具窗口的位置。您也可以通过右键单击标题栏或工具窗口按钮来访问这些选项。某些工具窗口的 <img src="设置.svg" alt=""/> 中可能含有其他选项，这取决于它所提供的具体功能。</p>
+        <p id="tool-window-title-bar">工具窗口标题栏中的 <img src="设置.svg" alt=""/> 用于更改视图模式和工具窗口的位置。您也可以通过右键单击标题栏或工具窗口按钮来访问这些选项。某些工具窗口的 <img src="设置.svg" alt=""/> 中可能含有其他选项，这取决于它所提供的具体功能。</p>
         <video src="https://www.youtube.com/watch?v=k83HoMYpM7Q" width="706" border-effect="rounded"/>
         <p>您可以单击 <img src="移除.svg" alt=""/> 可隐藏工具窗口。</p>
         <video src="https://www.youtube.com/watch?v=gN5A0eHBkf0" width="706" border-effect="rounded"/>

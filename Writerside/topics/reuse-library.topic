@@ -19,6 +19,11 @@
         设置（ <shortcut>Ctrl</shortcut><shortcut>Alt</shortcut><shortcut>S</shortcut> ）
     </snippet>
 
+    <!-- IntelliJ IDEA 操作快捷键 -->
+    <snippet id="idea-operating-keywords-snippet">
+        操作（ <shortcut>Ctrl</shortcut><shortcut>Alt</shortcut><shortcut>A</shortcut> ）
+    </snippet>
+
     <!-- 执行卸载和配置激活补丁脚本前，请确保 IntelliJ IDEA 处于关闭状态 -->
     <snippet id="close-idea-prompt-information-snippet">
         <warning>特别强调，在卸载和配置激活补丁脚本前，请确保 IntelliJ IDEA 处于关闭状态。</warning>
@@ -429,7 +434,7 @@
             <a href="https://github.com/cline/cline" summary="Cline 是一个开源的AI助手插件，深度集成在 VS Code 中，提供从代码创建到运行验证的完整体验。">Cline</a>
             <a href="https://devin.ai/" summary="Devin 是一款为团队设计的自主AI开发助手，能够管理从代码编写到项目执行的全流程。">Devin</a>
             <a href="https://www.cursor.com/" summary="Cursor 是一款基于 AI 的代码编辑器，旨在通过智能化功能，极大提升开发者的编码效率和体验。它以其强大的代码补全、自然语言交互以及对多种编程语言的支持而著称。">Cursor</a>
-            <a href="https://codeium.com/windsurf" summary="Windsurf 是首个强调 Agentic 模式的 AI 代码编辑器，为开发者提供流畅的协作体验。">windsurf</a>
+            <a href="https://codeium.com/windsurf" summary="Windsurf 是首个强调 Agentic 模式的 AI 代码编辑器，为开发者提供流畅的协作体验。">Windsurf</a>
         </category>
     </snippet>
     <snippet id="associated-websites-snippet">

@@ -137,7 +137,7 @@
         <note>您可以通过 <control>操作 （ <shortcut>Ctrl</shortcut><shortcut>Shift</shortcut><shortcut>A</shortcut> ）</control> 在整个 <tooltip term="ide">IDE</tooltip> 中查找搜索操作和设置。&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;</note>
         <procedure id="create-jar-run-config" title="创建 JAR 运行配置">
             <p>要运行打包在 <tooltip term="java-jar-file">JAR</tooltip> 中的 Java 应用程序，IntelliJ IDEA 允许您创建专用的运行配置。</p>
-            <step>按 <shortcut>Ctrl</shortcut><shortcut>Alt</shortcut><shortcut>A</shortcut> 找到并运行 <ui-path>编辑配置</ui-path> 操作。</step>
+            <step>通过 <control><include from="reuse-library.topic" element-id="idea-operating-keywords-snippet"/></control> 找到并运行 <ui-path>编辑配置</ui-path> 操作。</step>
             <step>在 <ui-path>运行/调试配置</ui-path> 中，单击 <img src="添加.svg" alt=""/> 并选择 <ui-path>JAR 应用程序</ui-path> 。</step>
             <step>将新配置命名为： <code>HelloWorldJar</code> 。</step>
             <step>在 <ui-path>JAR 路径</ui-path> 中，单击 <img src="打开磁盘.svg" alt=""/> 并指定计算机上 JAR 文件的路径。</step>

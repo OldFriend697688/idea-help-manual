@@ -11,11 +11,14 @@
     <procedure id="enable-new-ui" title="启用新 UI">
         <step>在 <control><include from="reuse-library.topic" element-id="idea-settings-keywords-snippet"/></control> 中选择 <ui-path>外观与行为 | 新 UI</ui-path> 。</step>
         <step>勾选 <ui-path>启用新 UI</ui-path> 并根据提示重启 IntelliJ IDEA。</step>
+        <img alt="启用新 UI" src="启用新 UI.png" width="706" thumbnail="true" border-effect="rounded"/>
         <video border-effect="rounded" src="https://www.youtube.com/watch?v=YOlG61MEaWY" width="706"/>
     </procedure>
     <procedure id="show-main-menus" title="在单独的工具栏中显示主菜单">
         <step>在 <control><include from="reuse-library.topic" element-id="idea-settings-keywords-snippet"/></control> 中选择 <ui-path>外观与行为 | 新 UI</ui-path> 。</step>
+        <img alt="启用新 UI" src="启用新 UI.png" width="706" thumbnail="true" border-effect="rounded"/>
         <step>勾选 <ui-path>在单独的工具栏中显示主菜单</ui-path> 。</step>
+        <img alt="在单独的工具栏中显示主菜单" src="在单独的工具栏中显示主菜单.png" width="706" border-effect="rounded" thumbnail="true"/>
         <video border-effect="rounded" src="https://www.youtube.com/watch?v=3xhd7UwzoNs" width="706"/>
     </procedure>
     <chapter id="main-changes" title="主要变化">
@@ -69,7 +72,7 @@
             </list>
         </chapter>
         <chapter id="tool-windows" title="工具窗口">
-            <p>新 UI 针对 <include from="reuse-library.topic" element-id="tool-window-snippet" /> 的布局和行为有所调整：</p>
+            <p>新 UI 针对 <include from="reuse-library.topic" element-id="tool-window-snippet"/> 的布局和行为有所调整：</p>
             <list>
                 <li>
                     <p><a href="tool-window.topic" anchor="bars-and-buttons" summary="">工具窗口栏</a> 中的 UI 图标设计较大，视觉导航更方便，外观也更整洁。</p>
@@ -104,6 +107,7 @@
                 <li>
                     <p>如果编辑器标签页与屏幕不适配，可选择使用滚动条或挤压标签页，以将所有标签页放在屏幕上。</p>
                     <p>您可通过 <ui-path><include from="reuse-library.topic" element-id="idea-settings-keywords-snippet"/> | <include from="reuse-library.topic" element-id="editor-snippet"/> | 常规 | 编辑器标签页</ui-path> 中的选项进行调整。</p>
+                    <img alt="调整编辑器标签页的显示方式（新 UI）" src="调整编辑器标签页的显示方式（新 UI）.png" width="706" border-effect="rounded" thumbnail="true"/>
                     <video border-effect="rounded" src="https://www.youtube.com/watch?v=hODc7eqx980" width="706"/>
                 </li>
             </list>
@@ -112,7 +116,8 @@
             <list>
                 <li>
                     <p>断点图标现在默认放置在行号位置上，以此节省水平空间。</p>
-                    <p>您可以在 <control>操作（ <shortcut>Ctrl</shortcut><shortcut>Alt</shortcut><shortcut>S</shortcut> ）</control> 中键入 <ui-path>行号上的断点</ui-path> 以禁用在行号位置上显示断点图标。</p>
+                    <p>您可以在 <control><include from="reuse-library.topic" element-id="idea-operating-keywords-snippet"/></control> 中键入 <ui-path>行号上的断点</ui-path> 以禁用在行号位置上显示断点图标。</p>
+                    <img src="行号上的断点.png" alt="行号上的断点" width="706" border-effect="rounded" thumbnail="true"/>
                     <video border-effect="rounded" src="https://www.youtube.com/watch?v=YkJmSpazwlU" width="706"/>
                 </li>
                 <li>
@@ -125,6 +130,7 @@
             <p>导航栏现在默认位于 <include from="reuse-library.topic" element-id="main-windows-snippet" /> 底部的 <include from="reuse-library.topic" element-id="status-bar-snippet" /> 中。</p>
             <img border-effect="rounded" alt="新 UI 中导航栏默认在主窗口的底部" src="新 UI 中导航栏默认在主窗口的底部.png" width="706" thumbnail="true"/>
             <p>如果喜爱旧布局，您可以将其移回顶部，甚至是不显示它。为此，您需要通过 <ui-path> <include from="reuse-library.topic" element-id="main-menus-snippet" />  | 视图 | 外观 | <include from="reuse-library.topic" element-id="navigation-bar-snippet" /></ui-path> 中的相关选项调整它。</p>
+            <img alt="改变导航栏的位置（新 UI）" src="改变导航栏的位置（新 UI）.png" width="706" border-effect="rounded" thumbnail="true"/>
             <video border-effect="rounded" src="https://www.youtube.com/watch?v=t6Zq5GEx5eY" width="706"/>
         </chapter>
     </chapter>

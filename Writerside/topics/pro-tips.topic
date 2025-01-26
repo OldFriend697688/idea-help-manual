@@ -137,7 +137,7 @@
             <a href="structural-search-and-replace.topic" summary="">结构搜索和替换（SSR）</a> 功能非常强大 ，它可以用于静态代码分析和 <tooltip term="refactoring">重构</tooltip> 自动化。
             <p>简而言之，它允许搜索代码中的特定模式并用参数化模板替换它们。为此，它配备了自己的语言来定义代码模式，要阅读它们 <a href="https://www.jetbrains.com/idea/docs/ssr.pdf" summary="">请单击此处</a> 查看更详细的描述。要使用此功能，可以通过 <ui-path><include from="reuse-library.topic" element-id="main-menus-snippet"/> | 编辑 | 查找 | 结构搜索 / 结构化替换</ui-path> 打开相应功能的操作窗口。</p>
             <img alt="结构搜索和替换功能菜单" src="结构搜索和替换功能菜单.png" width="706" thumbnail="true" border-effect="rounded"/>
-            <note>在 <control>操作（ <shortcut>Ctrl</shortcut><shortcut>Alt</shortcut><shortcut>A</shortcut> ）</control> 中键入 <ui-path>结构搜索</ui-path> 或 <ui-path>结构化替换</ui-path> 并选中它们可以更快速的打开结构搜索和结构替换功能操作对话框。</note>
+            <note>在 <control><include from="reuse-library.topic" element-id="idea-operating-keywords-snippet"/></control> 中键入 <ui-path>结构搜索</ui-path> 或 <ui-path>结构化替换</ui-path> 并选中它们可以更快速的打开结构搜索和结构替换功能操作对话框。</note>
             <video src="https://www.youtube.com/watch?v=PJGhuNtl_Xk" width="706" border-effect="rounded"/>
             <p>另外，如果想要创建属于自己的代码模板或代码检查模式，请进入 <ui-path><include from="reuse-library.topic" element-id="idea-settings-keywords-snippet"/> | <include from="reuse-library.topic" element-id="editor-snippet"/> | 检查</ui-path> ，然后找到 <ui-path>结构搜索</ui-path> 节点，之后便可以根据实际需要启用相关的代码检查模式。</p>
             <img src="将结构搜索和替换规则作为代码检查规则.png" alt="将结构搜索和替换规则作为代码检查规则" width="706" id="search-template" thumbnail="true" border-effect="rounded"/>

@@ -76,9 +76,9 @@
                         <p>删除以下文件夹（可选）：</p>
                         <deflist>
                             <def title="语法" id="linux-grammar">
-                                <p>~/.config/JetBrains/&gt;product&lt;&gt;version&lt;</p>
-                                <p>~/.cache/JetBrains/&gt;product&lt;&gt;version&lt;</p>
-                                <p>~/.local/share/JetBrains/&gt;product&lt;&gt;version&lt;</p>
+                                <p>~/.config/JetBrains/&lt;product&gt;&lt;version&gt;</p>
+                                <p>~/.cache/JetBrains/&lt;product&gt;&lt;version&gt;</p>
+                                <p>~/.local/share/JetBrains/&lt;product&gt;&lt;version&gt;</p>
                             </def>
                             <def title="例子" id="linux-grammar-example">
                                 <p>~/.config/JetBrains/IntelliJIdea2022.3</p>

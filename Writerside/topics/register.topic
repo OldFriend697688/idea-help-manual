@@ -102,6 +102,8 @@
             <step>完整操作步骤请查看如下演示视频。</step>
             <video src="https://www.youtube.com/watch?v=PSrJQW7qBZs" width="706" border-effect="rounded"/>
         </procedure>
+        <!-- 破解补丁加激活的激活原理 -->
+        <p>如果您对激活原理有浓厚兴趣，请参阅 <a href="https://www.bilibili.com/video/BV1Jr421V758/" summary="">激活原理分析</a> 了解其背后的工作原理。</p>
     </chapter>
     <!-- 直接删除 %APPDATA%\JetBrains\IntelliJIdea2022.3\idea.key 文件可使 IntelliJ IDEA 恢复至未激活状态。 -->
     <chapter id="remove-activation-license" title="移除激活许可证">

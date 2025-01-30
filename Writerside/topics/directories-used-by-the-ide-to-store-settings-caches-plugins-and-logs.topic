@@ -4,8 +4,17 @@
 <topic xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
        xsi:noNamespaceSchemaLocation="https://resources.jetbrains.com/writerside/1.0/topic.v2.xsd"
        title="IDE 使用的重要文件夹" id="directories-used-by-the-ide-to-store-settings-caches-plugins-and-logs">
-
+    <procedure id="change-ide-dirs" title="更改 IDE 目录位置">
+        <step></step>
+    </procedure>
     <chapter id="plugins-directory" title="插件目录">
 
     </chapter>
+    <chapter id="config-directory" title="配置文件夹">
+
+    </chapter>
+
+    <seealso>
+        <include from="reuse-library.topic" element-id="list-of-suggested-seealso-snippet"/>
+    </seealso>
 </topic>

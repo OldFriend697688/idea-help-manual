@@ -10,6 +10,9 @@
     </chapter>
 
     <chapter title="通过设置同步共享设置" id="ide-settings-sync">
-        
+
     </chapter>
+    <seealso>
+        <include from="reuse-library.topic" element-id="list-of-suggested-seealso-snippet"/>
+    </seealso>
 </topic>

@@ -258,26 +258,26 @@
     </chapter>
     <seealso>
         <category ref="references">
-            <a href="guided-tour-around-the-user-interface.topic" summary=""/>
-            <a href="user-interface-themes.topic"/>
-            <a href="installation-guide.topic" anchor="simplified-chinese-language" summary=""/>
             <a href="register.topic" summary=""/>
+            <a href="user-interface-themes.topic"/>
+            <a href="guided-tour-around-the-user-interface.topic" summary=""/>
+            <a href="installation-guide.topic" anchor="simplified-chinese-language" summary=""/>
             <a href="https://www.jetbrains.com/guide/java/tutorials/dependency-matrix/introduction/" summary="在处理大型复杂软件项目时，我们需要了解项目中组件之间的依赖关系。IntelliJ IDEA 有一项名为依赖结构矩阵（DSM）或依赖矩阵（Dependency Matrix）的功能，可以帮助我们做到这一点。">利用依赖关系矩阵探索项目结构</a>
         </category>
         <category ref="associated-websites">
-            <a href="https://emmet.io/" summary="Emmet 是一款非常强大的前端开发工具，它能极大地提高您的 HTML 和 CSS 编写效率。您可以通过简短的表达式来快速生成复杂的代码结构，大大减少了手动输入代码的时间。">Emmet</a>
-            <a href="https://regexr-cn.com/" summary="集学习、构建和测试于一体的在线工具，支持 JavaScript 和 PHP / PCRE 正则表达式。">RegExr</a>
-            <a href="https://goregex.cn/" summary="提供正则表达式的在线测试、生成和解析工具。">GoRegex</a>
-            <a href="https://regex101.com/" summary="一个功能强大的正则表达式测试网站，支持多种编程语言的正则表达式语法，并提供详细的匹配信息。">Regex101</a>
-            <a href="https://github.com/PKUFlyingPig/cs-self-learning">CS 自学指南</a>
-            <a href="https://git-scm.com/book/zh/v2/起步-关于版本控制" summary="全中文化的 Git 使用手册">Git 中文使用手册</a>
             <a href="https://javabetter.cn/">二哥的 Java 进阶之路</a>
             <a href="https://github.com/xiaolincoder/CS-Base">小林 x 图解计算机基础</a>
+            <a href="https://github.com/PKUFlyingPig/cs-self-learning">CS 自学指南</a>
+            <a href="https://goregex.cn/" summary="提供正则表达式的在线测试、生成和解析工具。">GoRegex</a>
             <a href="https://github.com/justjavac/free-programming-books-zh_CN">免费的编程中文书籍索引</a>
+            <a href="https://git-scm.com/book/zh/v2/起步-关于版本控制" summary="全中文化的 Git 使用手册">Git 中文使用手册</a>
             <a href="https://github.com/CodingDocs/awesome-cs?tab=readme-ov-file">计算机优质书籍搜罗 + 学习路线推荐</a>
+            <a href="https://regex101.com/" summary="一个功能强大的正则表达式测试网站，支持多种编程语言的正则表达式语法，并提供详细的匹配信息。">Regex101</a>
+            <a href="https://regexr-cn.com/" summary="集学习、构建和测试于一体的在线工具，支持 JavaScript 和 PHP / PCRE 正则表达式。">RegExr</a>
+            <a href="https://emmet.io/" summary="Emmet 是一款非常强大的前端开发工具，它能极大地提高您的 HTML 和 CSS 编写效率。您可以通过简短的表达式来快速生成复杂的代码结构，大大减少了手动输入代码的时间。">Emmet</a>
         </category>
         <include from="reuse-library.topic" element-id="ides-snippet"/>
-        <include from="reuse-library.topic" element-id="programming-language-snippet"/>
         <include from="reuse-library.topic" element-id="ai-editor-snippet"/>
+        <include from="reuse-library.topic" element-id="programming-language-snippet"/>
     </seealso>
 </topic>

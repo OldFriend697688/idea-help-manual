@@ -6,4 +6,7 @@
        title="项目结构设置" id="project-settings-and-structure">
 
     <p>Start typing here...</p>
+    <seealso>
+        <include from="reuse-library.topic" element-id="list-of-suggested-seealso-snippet"/>
+    </seealso>
 </topic>

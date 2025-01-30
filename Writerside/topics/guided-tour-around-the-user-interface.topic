@@ -115,7 +115,7 @@
             <table id="widget-list-table" column-width="fixed">
                 <tr>
                     <td width="100">微件</td>
-                    <td>用途描述</td>
+                    <td>描述</td>
                 </tr>
                 <!-- 显示编辑器打开的当前文件中的光标闪烁位置的行号和列号 -->
                 <tr>
@@ -257,22 +257,22 @@
     </chapter>
     <seealso>
         <category ref="references">
-            <a href="https://zh.wikipedia.org/zh-cn/代码重构" summary="代码重构是在不改变软件外部行为的前提下，对软件内部结构进行调整，以提高软件的可理解性、可维护性、可扩展性，同时减少代码中的冗余和潜在的错误。">代码重构</a>
-            <a href="https://zh.wikipedia.org/zh-cn/软件版本控制" summary="版本控制是一种软件开发中用于管理和跟踪代码变更的系统。它允许开发者在开发过程中的不同时间点保存代码的状态，也就是创建“快照”，从而可以追踪每个文件的变更历史，比较不同版本之间的差异，以及在必要时回退到之前的版本。版本控制对于团队协作尤为重要，因为它帮助团队成员管理代码的合并、分支和发布。">版本控制</a>
+            <a href="register.topic" summary=""/>
             <a href="user-interface-themes.topic" summary=""/>
             <a href="installation-guide.topic" anchor="simplified-chinese-language" summary=""/>
-            <a href="register.topic" summary=""/>
+            <a href="https://zh.wikipedia.org/zh-cn/代码重构" summary="代码重构是在不改变软件外部行为的前提下，对软件内部结构进行调整，以提高软件的可理解性、可维护性、可扩展性，同时减少代码中的冗余和潜在的错误。">代码重构</a>
             <a href="https://plugins.jetbrains.com/" summary="JetBrains 插件库是一个在线平台，提供各种插件，这些插件可以扩展 IntelliJ IDEA 以及其他 JetBrains 开发的 IDE（如 WebStorm、PyCharm、CLion 等）的功能。在这个网站上，用户可以浏览、搜索和下载各种插件，以增强他们的开发工具。">JetBrains 插件库</a>
+            <a href="https://zh.wikipedia.org/zh-cn/软件版本控制" summary="版本控制是一种软件开发中用于管理和跟踪代码变更的系统。它允许开发者在开发过程中的不同时间点保存代码的状态，也就是创建“快照”，从而可以追踪每个文件的变更历史，比较不同版本之间的差异，以及在必要时回退到之前的版本。版本控制对于团队协作尤为重要，因为它帮助团队成员管理代码的合并、分支和发布。">版本控制</a>
         </category>
-        <include from="reuse-library.topic" element-id="ides-snippet"/>
-        <include from="reuse-library.topic" element-id="programming-language-snippet"/>
         <category ref="associated-websites">
-            <a href="https://github.com/PKUFlyingPig/cs-self-learning">CS 自学指南</a>
-            <a href="https://javabetter.cn/">二哥的 Java 进阶之路</a>
-            <a href="https://github.com/xiaolincoder/CS-Base">小林 x 图解计算机基础</a>
-            <a href="https://github.com/justjavac/free-programming-books-zh_CN">免费的编程中文书籍索引</a>
-            <a href="https://github.com/CodingDocs/awesome-cs?tab=readme-ov-file">计算机优质书籍搜罗 + 学习路线推荐</a>
+        <include from="reuse-library.topic" element-id="ides-snippet"/>
+            <include from="reuse-library.topic" element-id="ai-editor-snippet"/>
+        <include from="reuse-library.topic" element-id="programming-language-snippet"/>
+            <a href="https://javabetter.cn/" summary="分享 Java 技术文章和进阶教程。">二哥的 Java 进阶之路</a>
+            <a href="https://github.com/xiaolincoder/CS-Base" summary="图解计算机基础，适合初学者。">小林 x 图解计算机基础</a>
+            <a href="https://github.com/PKUFlyingPig/cs-self-learning" summary="提供计算机科学自学指南和学习路径。">CS 自学指南</a>
+            <a href="https://github.com/justjavac/free-programming-books-zh_CN" summary="汇集免费编程书籍资源。">免费编程中文书籍索引</a>
+            <a href="https://github.com/CodingDocs/awesome-cs?tab=readme-ov-file" summary="精选优质计算机书籍和学习路线。">计算机优质书籍搜罗 + 学习路线推荐</a>
         </category>
-        <include from="reuse-library.topic" element-id="ai-editor-snippet"/>
     </seealso>
 </topic>

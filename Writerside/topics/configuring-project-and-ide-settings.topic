@@ -13,7 +13,7 @@
     <p>而使用 <img src="非全局级设置图标.svg" alt=""/> 标记的选项是项目级设置，它只适用于 IntelliJ IDEA 打开的当前项目。</p>
     <img alt="分辨设置中的全局设置和非全局设置" src="分辨设置中的全局设置和非全局设置.png" width="706" thumbnail="true" border-effect="rounded"/>
     <note>请注意， <ui-path>插件</ui-path> 后方的 <img src="非全局级设置图标.svg" alt=""/>  图标标记为错误标记，它已在后续版本中得到修复。&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;</note>
-    <img alt="修复插件为非全局级设置的图标标识错误（IDEA 2024.3.x）" src="修复插件为非全局级设置的图标标识错误.png" width="706" border-effect="rounded" thumbnail="true"/>
+    <img alt="修复插件为非全局级设置的图标标识错误（IntelliJ IDEA 2024.3.x）" src="修复插件为非全局级设置的图标标识错误.png" width="706" border-effect="rounded" thumbnail="true"/>
     <chapter id="restore-defaults" title="重置 IDE 设置">
         <p>您可以尝试将 IntelliJ IDEA 还原至默认设置，它会将当前的配置备份至另一个目录，您可以随时从备份中恢复您的设置。</p>
         <procedure title="备份设置并恢复默认值" id="back-up-restore">
@@ -30,20 +30,20 @@
         <tabs>
             <tab title="Windows" id="windows">
                 <deflist>
-                    <def title="语法" id="windows-grammar">&#37;APPDATA&#37;\JetBrains\&lt;product&gt;&lt;version&gt;-backup</def>
-                    <def title="例子" id="windows-grammar-example">C:\Users\OldFriend\AppData\Roaming\JetBrains\IntelliJIdea2022.3-backup</def>
+                    <def title="语法" id="windows-grammar"><path>&#37;APPDATA&#37;\JetBrains\&lt;product&gt;&lt;version&gt;-backup</path></def>
+                    <def title="例子" id="windows-grammar-example"><path>C:\Users\OldFriend\AppData\Roaming\JetBrains\IntelliJIdea2022.3-backup</path></def>
                 </deflist>
             </tab>
             <tab title="macOS" id="macOS">
                 <deflist>
-                    <def title="语法" id="macos-grammar">~/Library/Application Support/JetBrains/&lt;product&gt;&lt;version&gt;-backup</def>
-                    <def title="例子" id="macos-grammar-example">~/Library/Application Support/JetBrains/IntelliJIdea2022.3-backup</def>
+                    <def title="语法" id="macos-grammar"><path>~/Library/Application Support/JetBrains/&lt;product&gt;&lt;version&gt;-backup</path></def>
+                <def title="例子" id="macos-grammar-example"><path>~/Library/Application Support/JetBrains/IntelliJIdea2022.3-backup</path></def>
                 </deflist>
             </tab>
             <tab title="Linux" id="linux">
                 <deflist>
-                    <def title="语法" id="linux-grammar">~/.config/JetBrains/&lt;product&gt;&lt;version&gt;-backup</def>
-                    <def title="例子" id="linux-grammar-example">~/.config/JetBrains/IntelliJIdea2022.3-backup</def>
+                    <def title="语法" id="linux-grammar"><path>~/.config/JetBrains/&lt;product&gt;&lt;version&gt;-backup</path></def>
+                    <def title="例子" id="linux-grammar-example"><path>~/.config/JetBrains/IntelliJIdea2022.3-backup</path></def>
                 </deflist>
             </tab>
         </tabs>

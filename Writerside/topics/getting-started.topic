@@ -15,12 +15,12 @@
 
         <primary>
             <title>快速开始</title>
-            <a href="installation-guide.topic" summary="根据您的操作系统，选择合适的 IntelliJ IDEA 安装方式。">安装 IntelliJ IDEA</a>
-            <a href="installation-guide.topic" summary="启用简体中文语言包，改善使用体验，降低学习门槛。" anchor="simplified-chinese-language"/>
-            <a href="user-interface-themes.topic" summary="启用个性化主题，告别单调的界面，打造专属的视觉体验。">主题</a>
-            <a href="guided-tour-around-the-user-interface.topic" summary="掌握 IntelliJ IDEA 用户界面的主要构成部分。"/>
-            <a href="setting-background-image.topic" summary="启用个性背景图片美化您的 IntelliJ IDEA。"/>
-            <a href="tool-window.topic" summary="工具窗口提供围绕编码相关的辅助功能，使得开发效率得以提升。"/>
+            <a href="installation-guide.topic" summary="选择适合操作系统的安装方式，确保顺利安装。">安装 IntelliJ IDEA</a>
+            <a href="installation-guide.topic" summary="启用中文语言包，提升用户体验和友好度。" anchor="simplified-chinese-language"/>
+            <a href="user-interface-themes.topic" summary="配置个性化主题，增强界面美观度。">主题</a>
+            <a href="guided-tour-around-the-user-interface.topic" summary="深入了解用户界面核心组件。"/>
+            <a href="setting-background-image.topic" summary="设置背景图片，美化您的开发环境。"/>
+            <a href="tool-window.topic" summary="利用工具窗口辅助功能，提高编码效率。"/>
         </primary>
 
         <secondary>
@@ -77,13 +77,12 @@
                 </group>
                 <group>
                     <title>推荐网站</title>
-                    <a href="https://github.com/PKUFlyingPig/cs-self-learning" summary="">CS 自学指南</a>
-                    <a href="https://javabetter.cn/" summary="">二哥的 Java 进阶之路</a>
-                    <a href="https://github.com/xiaolincoder/CS-Base" summary="">小林 x 图解计算机基础</a>
-                    <a href="https://github.com/justjavac/free-programming-books-zh_CN" summary="">免费的编程中文书籍索引</a>
-                    <a href="https://github.com/CodingDocs/awesome-cs?tab=readme-ov-file" summary="">计算机优质书籍搜罗 + 学习路线推荐</a>
+                    <a href="https://github.com/PKUFlyingPig/cs-self-learning" summary="提供计算机科学自学指南和学习路径。">CS 自学指南</a>
+                    <a href="https://javabetter.cn/" summary="分享 Java 技术文章和进阶教程。">二哥的 Java 进阶之路</a>
+                    <a href="https://github.com/xiaolincoder/CS-Base" summary="图解计算机基础，适合初学者。">小林 x 图解计算机基础</a>
+                    <a href="https://github.com/justjavac/free-programming-books-zh_CN" summary="汇集免费编程书籍资源。">免费编程中文书籍索引</a>
+                    <a href="https://github.com/CodingDocs/awesome-cs?tab=readme-ov-file" summary="精选优质计算机书籍和学习路线。">计算机优质书籍搜罗 + 学习路线推荐</a>
                 </group>
-                <!-- AI 编辑器 -->
                 <group>
                     <title>AI 编辑器</title>
                     <a href="https://aider.dev" summary="Aider 是一款命令行优先的 AI 编程助手，支持 Git 集成和多种 AI 模型。">Aider</a>

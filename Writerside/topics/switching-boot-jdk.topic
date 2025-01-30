@@ -6,4 +6,7 @@
        title="更改 IDE 启动时使用的 Java 运行时" id="switching-boot-jdk">
 
     <p>Start typing here...</p>
+    <seealso>
+        <include from="reuse-library.topic" element-id="list-of-suggested-seealso-snippet"/>
+    </seealso>
 </topic>

@@ -5,5 +5,10 @@
        xsi:noNamespaceSchemaLocation="https://resources.jetbrains.com/writerside/1.0/topic.v2.xsd"
        title="配置项目" id="working-with-projects">
 
+    <!-- 删除: <seealso> <include from="reuse-library.topic" element-id="list-of-suggested-seealso-snippet"/> </seealso> -->
     <p>Start typing here...</p>
+    <!-- 添加: -->
+    <seealso>
+        <include from="reuse-library.topic" element-id="list-of-suggested-seealso-snippet"/>
+    </seealso>
 </topic>

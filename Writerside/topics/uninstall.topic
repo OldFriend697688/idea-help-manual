@@ -39,12 +39,12 @@
                         <p>删除以下文件夹（可选）：</p>
                         <deflist>
                             <def title="语法" id="windows-grammar">
-                                <p>&#37;APPDATA&#37;\JetBrains\&lt;product&gt;&lt;version&gt;</p>
-                                <p>&#37;LOCALAPPDATA&#37;\JetBrains\&lt;product&gt;&lt;version&gt;</p>
+                                <path>&#37;APPDATA&#37;\JetBrains\&lt;product&gt;&lt;version&gt;</path>
+                                <path>&#37;LOCALAPPDATA&#37;\JetBrains\&lt;product&gt;&lt;version&gt;</path>
                             </def>
                             <def title="例子" id="windows-grammar-example">
-                                <p>C:\Users\OldFriend\AppData\Roaming\JetBrains\IntelliJIdea2022.3</p>
-                                <p>C:\Users\OldFriend\AppData\Local\JetBrains\IntelliJIdea2022.3</p>
+                                <path>C:\Users\OldFriend\AppData\Roaming\JetBrains\IntelliJIdea2022.3</path>
+                                <path>C:\Users\OldFriend\AppData\Local\JetBrains\IntelliJIdea2022.3</path>
                             </def>
                         </deflist>
                         <video src="https://www.youtube.com/watch?v=U8XQXztfDVc" width="706" border-effect="rounded"/>

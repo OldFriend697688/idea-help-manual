@@ -6,4 +6,7 @@
        title="格式化代码" id="reformat-and-rearrange-code">
 
     <p>Start typing here...</p>
+    <seealso>
+        <include from="reuse-library.topic" element-id="list-of-suggested-seealso-snippet"/>
+    </seealso>
 </topic>

@@ -6,4 +6,7 @@
        title="添加/编辑过滤器对话框" id="add-edit-filter">
 
     <p>Start typing here...</p>
+    <seealso>
+        <include from="reuse-library.topic" element-id="list-of-suggested-seealso-snippet"/>
+    </seealso>
 </topic>

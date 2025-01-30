@@ -4,6 +4,11 @@
 <topic xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
        xsi:noNamespaceSchemaLocation="https://resources.jetbrains.com/writerside/1.0/topic.v2.xsd"
        title="reuse-library" id="reuse-library" is-library="true">
+    <!-- IntelliJ IDEA 配置文件夹 -->
+    <snippet id="config-directory-snippet">
+        <a href="directories-used-by-the-ide-to-store-settings-caches-plugins-and-logs.topic" summary="" anchor="config-directory"/>
+    </snippet>
+
     <!-- 设置 | 外观与行为 | 外观 -->
     <snippet id="ide-appearance-settings-snippet">
         <ui-path>外观与行为 | 外观</ui-path>
@@ -423,10 +428,10 @@
     <!-- 页面底部 <seealso> 标签部分中的可重用内容 -->
     <snippet id="list-of-suggested-seealso-snippet">
         <include from="reuse-library.topic" element-id="ides-snippet"/>
+        <include from="reuse-library.topic" element-id="ai-editor-snippet"/>
         <include from="reuse-library.topic" element-id="core-references-snippet"/>
         <include from="reuse-library.topic" element-id="associated-websites-snippet"/>
         <include from="reuse-library.topic" element-id="programming-language-snippet"/>
-        <include from="reuse-library.topic" element-id="ai-editor-snippet"/>
     </snippet>
     <snippet id="ai-editor-snippet">
         <category ref="ai-editor">
@@ -439,11 +444,11 @@
     </snippet>
     <snippet id="associated-websites-snippet">
         <category ref="associated-websites" >
-            <a href="https://github.com/PKUFlyingPig/cs-self-learning">CS 自学指南</a>
-            <a href="https://javabetter.cn/">二哥的 Java 进阶之路</a>
-            <a href="https://github.com/xiaolincoder/CS-Base">小林 x 图解计算机基础</a>
-            <a href="https://github.com/justjavac/free-programming-books-zh_CN">免费的编程中文书籍索引</a>
-            <a href="https://github.com/CodingDocs/awesome-cs?tab=readme-ov-file">计算机优质书籍搜罗 + 学习路线推荐</a>
+            <a href="https://github.com/PKUFlyingPig/cs-self-learning" summary="提供计算机科学自学指南和学习路径。">CS 自学指南</a>
+            <a href="https://javabetter.cn/" summary="分享 Java 技术文章和进阶教程。">二哥的 Java 进阶之路</a>
+            <a href="https://github.com/xiaolincoder/CS-Base" summary="图解计算机基础，适合初学者。">小林 x 图解计算机基础</a>
+            <a href="https://github.com/justjavac/free-programming-books-zh_CN" summary="汇集免费编程书籍资源。">免费编程中文书籍索引</a>
+            <a href="https://github.com/CodingDocs/awesome-cs?tab=readme-ov-file" summary="精选优质计算机书籍和学习路线。">计算机优质书籍搜罗 + 学习路线推荐</a>
         </category>
     </snippet>
     <snippet id="core-references-snippet">

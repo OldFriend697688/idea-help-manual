@@ -19,10 +19,11 @@
     <note>根据 <tooltip term="idea">IDEA</tooltip> 安装的 <a href="managing-plugins.topic" summary="">插件</a> 集、版本和配置设置的不同， <tooltip term="ide">IDE</tooltip> 可能会有不同的外观和行为。&nbsp;&nbsp;&nbsp;&nbsp;</note>
     <chapter title="主菜单" id="main-menus">
         <p>您可以通过主菜单快速调用 IntelliJ IDEA 提供的各项常用功能。</p>
-        <p>您也可以通过在 <control>操作（ <shortcut>Ctrl</shortcut><shortcut>Shift</shortcut><shortcut>A</shortcut> ）</control> 中键入目标操作名称以实现目标功能的调用。</p>
+        <p>您也可以通过在 <control><include from="reuse-library.topic" element-id="idea-operating-keywords-snippet"/></control> 中键入目标操作名称以实现目标功能的调用。</p>
         <p>例如：在 <control>操作</control> 中键入 <ui-path>导航栏</ui-path> ，等待片刻后将会在列表中列举出与 <ui-path>导航栏</ui-path> 相关的所有操作。</p>
+        <img alt="与导航栏相关的设置" src="与导航栏相关的设置.png" width="706" border-effect="rounded" thumbnail="true"/>
         <video src="https://www.youtube.com/watch?v=mK0ZbLqEj9w" width="706" border-effect="rounded"/>
-        <note>绝大多数的操作都有与之对应的 <a href="configuring-keyboard-and-mouse-shortcuts.topic" summary="">快捷键</a> ，如果想执行的操作未预设快捷键，请尝试为其设置快捷键或者直接在 <control>操作（ <shortcut>Ctrl</shortcut><shortcut>Shift</shortcut><shortcut>A</shortcut> ）</control> 中键入目标操作的名称，然后在展开的列表中选择需要执行的操作。</note>
+        <note>绝大多数的操作都有与之对应的 <a href="configuring-keyboard-and-mouse-shortcuts.topic" summary="">快捷键</a> ，如果想执行的操作未预设快捷键，请尝试为其设置快捷键或者直接在 <control><include from="reuse-library.topic" element-id="idea-operating-keywords-snippet"/></control> 中键入目标操作的名称，然后在展开的列表中选择需要执行的操作。</note>
         <img alt="在操作中键入目标操作的名称" src="在操作中键入目标操作的名称.png" width="706" thumbnail="true" border-effect="rounded"/>
     </chapter>
     <chapter title="主窗口" id="main-windows">
@@ -31,9 +32,9 @@
         <p>在主窗口中，可以处理单个 IntelliJ IDEA 项目。您可同时打开多个主窗口以便同时处理多个项目。</p>
         <p>在默认情况下，主窗口的标题位置将会显示当前打开的项目及文件的名称。</p>
         <img alt="主窗口标题位置显示的项目名称和打开文件的名称" src="主窗口标题位置显示的项目名称和打开文件的名称.png" width="706" thumbnail="true" border-effect="rounded"/>
-        <p>当项目中存在多个 <a href="creating-and-managing-modules.topic" summary=""/> 时，主窗口的标题位置还将会额外显示相关模块的名称。</p>
+        <p>当项目中存在多个 <a href="creating-and-managing-modules.topic" summary=""/> 时，主窗口的标题位置还将额外显示相关模块的名称。</p>
         <video src="https://www.youtube.com/watch?v=MHIisxc-eL8" width="706" border-effect="rounded"/>
-        <p>您可勾选 <ui-path><include from="reuse-library.topic" element-id="idea-settings-keywords-snippet"/> | 外观与行为 | 外观 | 始终在窗口标题中显示完整路径</ui-path> 以显示当前打开项目及文件的完整路径。</p>
+        <p>您可勾选 <ui-path><include from="reuse-library.topic" element-id="idea-settings-keywords-snippet"/> | <include from="reuse-library.topic" element-id="ide-appearance-settings-snippet"/> | 始终在窗口标题中显示完整路径</ui-path> 以显示当前打开项目及文件的完整路径。</p>
         <img alt="始终在窗口标题中显示完整路径" src="始终在窗口标题中显示完整路径.png" width="706" thumbnail="true"/>
         <video src="https://www.youtube.com/watch?v=Kne0jZxIjIg" width="706" border-effect="rounded"/>
     </chapter>
@@ -46,7 +47,7 @@
         <video src="https://www.youtube.com/watch?v=HTVYOEKplrc" width="706" border-effect="rounded"/>
         <note>如果为项目启用了 <tooltip term="vcs">VCS</tooltip> 集成，则导航栏中的内容将会根据 VCS 文件状态颜色突出显示。&nbsp;&nbsp;</note>
         <img alt="导航栏中 VCS 文件的状态颜色" src="导航栏中 VCS 文件的状态颜色.png"  width="706" height="706" id="vcs-file-color" thumbnail="true" border-effect="rounded"/>
-        <note>含有打开和保存文件、撤销和重做操作按钮的主工具栏默认是隐藏的。如果要显示它，请选择 <ui-path><include from="reuse-library.topic" element-id="main-menus-snippet"/> | 视图 | 外观 | 工具栏</ui-path> 。</note>
+        <note>主工具栏包含打开和保存文件、撤销和重做操作的按钮，默认情况下是隐藏的。如需显示，请选择 <ui-path><include from="reuse-library.topic" element-id="main-menus-snippet"/> | 视图 | 外观 | 工具栏</ui-path> 。</note>
         <video src="https://www.youtube.com/watch?v=SzeOmPgR5gs" width="706" border-effect="rounded"/>
         <note>
             <p>IntelliJ IDEA 设计的精妙之处在于，近乎于所有按钮提供的功能都有关联的 <a href="mastering-keyboard-shortcuts.topic" summary=""/> 。</p>
@@ -209,15 +210,16 @@
         <tldr><p>隐藏/显示： <ui-path><include from="reuse-library.topic" element-id="main-menus-snippet"/> | 视图 | <include from="reuse-library.topic" element-id="tool-window-snippet"/> | 工具窗口名</ui-path></p></tldr>
         <include from="reuse-library.topic" element-id="tool-window-snippet"/> 提供的功能是对代码编辑的补充，例如：<include from="reuse-library.topic" element-id="project-tool-window-snippet"/> 工具窗口用于显示项目的结构，而 <include from="reuse-library.topic" element-id="run-tool-windows-snippet"/> 工具窗口则用于显示程序运行时的输出结果。
         <img alt="项目工具窗口" src="项目工具窗口.png" width="706" thumbnail="true" border-effect="rounded"/>
-        <p>默认情况下，工具窗口将会停靠在 <include from="reuse-library.topic" element-id="main-windows-snippet"/> 的两侧和底部。您可以根据个人习惯重新排列、取消停靠、调整大小或者是隐藏它们。</p>
+        <p>默认情况下，工具窗口将会停靠在 <include from="reuse-library.topic" element-id="main-windows-snippet"/> 的两侧和底部。</p>
+        <p>您可以根据个人习惯重新排列、取消停靠、调整大小或者是隐藏它们。</p>
         <p>您可以通过鼠标右键单击工具窗口标题或者是鼠标左键单击标题中的 <img src="设置.svg" alt=""/> 查看其支持的排列选项。</p>
         <video src="https://www.youtube.com/watch?v=eA2ZODgt3bk" width="706" border-effect="rounded"/>
         <p>您可以为这些工具窗口指定 <a href="configuring-keyboard-and-mouse-shortcuts.topic" summary="">快捷键</a> ，以便快速访问常用的工具窗口。</p>
-        <p>一些工具窗口已预设快捷键，例如：按 <shortcut>Alt</shortcut><shortcut>1</shortcut> 可以快速打开或隐藏 <include from="reuse-library.topic" element-id="project-tool-window-snippet"/> 工具窗口，又例如说想要打开或隐藏 <include from="reuse-library.topic" element-id="terminal-windows-tool-snippet"/> 工具窗口，则只需要按 <shortcut>Alt</shortcut><shortcut>F12</shortcut> 即可。如果想要从 <include from="reuse-library.topic" element-id="editor-snippet"/> 快速跳转到上一个活动工具窗口，请按 <shortcut>F12</shortcut> 。</p>
+        <p>一些工具窗口已预设快捷键，例如：按 <shortcut>Alt</shortcut><shortcut>1</shortcut> 可以快速打开或隐藏 <include from="reuse-library.topic" element-id="project-tool-window-snippet"/> 工具窗口。例如，想要打开或隐藏 <include from="reuse-library.topic" element-id="terminal-windows-tool-snippet"/> 工具窗口，则只需要按 <shortcut>Alt</shortcut><shortcut>F12</shortcut> 即可。如果想要从 <include from="reuse-library.topic" element-id="editor-snippet"/> 快速跳转到上一个活动工具窗口，请按 <shortcut>F12</shortcut> 。</p>
         <video src="https://www.youtube.com/watch?v=9E4rI5A8I74" width="706" border-effect="rounded"/>
     </chapter>
     <chapter title="弹出菜单" id="popup-menus">
-        <note>上下文菜单不会在菜单的标题位置标识任何名称，而弹出菜单则会在标题位置标识它的名称。例如： <control>重构此（ <shortcut>Ctrl</shortcut><shortcut>Alt</shortcut><shortcut>Shift</shortcut><shortcut>T</shortcut> ）</control> 弹出菜单 。</note>
+        <note>上下文菜单不会在菜单的标题位置标识任何名称，而弹出菜单则会在标题位置标识其名称。例如： <control>重构此（ <shortcut>Ctrl</shortcut><shortcut>Alt</shortcut><shortcut>Shift</shortcut><shortcut>T</shortcut> ）</control> 弹出菜单。</note>
         <img alt="弹出菜单（重构此）" src="重构此弹出菜单.png" width="706" thumbnail="true" border-effect="rounded"/>
         <p>弹出菜单可以快速访问与当前上下文相关的操作，可以将它理解为是 <include from="reuse-library.topic" element-id="context-menus-snippet"/> 中某些功能子项的直接快捷方式。例如：在 <include from="reuse-library.topic" element-id="editor-snippet"/> 中选定某个代码片段，然后选中上下文菜单中的 <ui-path>重构</ui-path> 选项和直接打开 <control>重构此</control> （ <shortcut>Ctrl</shortcut><shortcut>Alt</shortcut><shortcut>Shift</shortcut><shortcut>T</shortcut> ）弹出菜单时提供的功能实际上是基本一致的。</p>
         <img alt="重构选项和重构弹出菜单" src="重构选项和重构弹出菜单.png" border-effect="rounded" width="706" thumbnail="true"/>
@@ -252,7 +254,7 @@
         <note>上下文菜单不会使用任何字符标识其名称。但是， <a anchor="popup-menus" summary=""/> 会在标题位置标识它的名称。</note>
         <p>通过鼠标右键单击用户界面上的各个元素，将可以查看与当前上下文相关的可用操作。例如：鼠标右键单击 <include from="reuse-library.topic" element-id="project-tool-window-snippet"/> 工具窗口中的文件，将可以查看与该文件相关的操作。鼠标右键单击 <include from="reuse-library.topic" element-id="editor-snippet"/>，将可以查看适用于当前选中代码片段的可用操作。</p>
         <video src="https://www.youtube.com/watch?v=GGg1Nps7cO4" width="706" border-effect="rounded"/>
-        <note>这些操作大多都可以通过 <include from="reuse-library.topic" element-id="main-menus-snippet"/> 或 <include from="reuse-library.topic" element-id="main-windows-snippet"/> 执行。带有 <a href="mastering-keyboard-shortcuts.topic" summary=""/> 的操作会在操作名称旁边显示快捷键。在实际应用中，可以更高效的通过快捷键来执行这些操作，而不是通过上下文菜单来执行它们。</note>
+        <note>这些操作大多可以通过 <include from="reuse-library.topic" element-id="main-menus-snippet"/> 或 <include from="reuse-library.topic" element-id="main-windows-snippet"/> 执行。带有 <a href="mastering-keyboard-shortcuts.topic" summary=""/> 的操作会显示快捷键。使用快捷键比上下文菜单更高效。</note>
         <img alt="上下文菜单中的操作和与之对应的快捷键" src="上下文菜单中的操作和与之对应的快捷键.png" width="706" thumbnail="true" border-effect="rounded"/>
     </chapter>
     <seealso>
@@ -266,7 +268,7 @@
         </category>
         <category ref="associated-websites">
         <include from="reuse-library.topic" element-id="ides-snippet"/>
-            <include from="reuse-library.topic" element-id="ai-editor-snippet"/>
+        <include from="reuse-library.topic" element-id="ai-editor-snippet"/>
         <include from="reuse-library.topic" element-id="programming-language-snippet"/>
             <a href="https://javabetter.cn/" summary="分享 Java 技术文章和进阶教程。">二哥的 Java 进阶之路</a>
             <a href="https://github.com/xiaolincoder/CS-Base" summary="图解计算机基础，适合初学者。">小林 x 图解计算机基础</a>

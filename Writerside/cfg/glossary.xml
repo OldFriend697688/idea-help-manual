@@ -66,6 +66,7 @@
    <term name="java-method-declaration">Java 中的方法声明用于定义类中的行为或功能。其基本格式如下：[修饰符] 返回类型 方法名(参数列表) [throws 异常列表] { 方法体 }。</term>
    <term name="idea-code-refactoring">代码重构是指在不改变软件外部行为的前提下，对代码进行结构性调整的过程。其核心目标是提高代码的可读性、可维护性和可扩展性，最终提升软件质量。</term>
    <term name="keywords">编程领域的关键字是编程语言中预设的保留字，它们具有特殊的含义，不能用作变量名或函数名等标识符。关键字是构成编程语言语法的基础，它们控制程序的结构和执行流程。</term>
+   <term name="oracle-jdk">Oracle JDK（Java Development Kit，Java 开发工具包）是由 Oracle 公司提供的一套完整的 Java 开发工具和运行环境，用于开发、测试和运行 Java 应用程序。</term>
    <term name="idea-code-completion">IntelliJ IDEA 的智能代码助手，也称为 Code Completion 或 Code Assistance，是一个非常强大的功能，它可以帮助开发者更快速、更准确地编写代码。</term>
    <term name="ssd">SSD (Solid State Drive)，中文译为固态硬盘，是一种使用固态电子存储芯片阵列制成的存储设备。它使用闪存芯片来存储数据，而不是像传统机械硬盘 (HDD) 那样使用旋转的磁盘。</term>
    <term name="library">在编程领域，“库”（Library）是一个非常重要的概念，它指的是一组预先编写好的代码的集合，可以被其他程序重复使用。库的主要目的是提高代码的复用率、减少开发时间和成本。</term>

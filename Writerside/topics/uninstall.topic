@@ -58,12 +58,12 @@
                         <p>删除以下文件夹（可选）：</p>
                         <deflist>
                             <def title="语法" id="macos-grammar">
-                                <p>~/Library/Application Support/JetBrains/&lt;product&gt;&lt;version&gt;</p>
-                                <p>~/Library/Caches/JetBrains/&lt;product&gt;&lt;version&gt;</p>
+                                <path>~/Library/Application Support/JetBrains/&lt;product&gt;&lt;version&gt;</path>
+                                <path>~/Library/Caches/JetBrains/&lt;product&gt;&lt;version&gt;</path>
                             </def>
                             <def title="例子" id="macos-grammar-example">
-                                <p>~/Library/Application Support/JetBrains/IntelliJIdea2022.3</p>
-                                <p>~/Library/Caches/JetBrains/IntelliJIdea2022.3</p>
+                                <path>~/Library/Application Support/JetBrains/IntelliJIdea2022.3</path>
+                                <path>~/Library/Caches/JetBrains/IntelliJIdea2022.3</path>
                             </def>
                         </deflist>
                     </li>
@@ -76,14 +76,14 @@
                         <p>删除以下文件夹（可选）：</p>
                         <deflist>
                             <def title="语法" id="linux-grammar">
-                                <p>~/.config/JetBrains/&lt;product&gt;&lt;version&gt;</p>
-                                <p>~/.cache/JetBrains/&lt;product&gt;&lt;version&gt;</p>
-                                <p>~/.local/share/JetBrains/&lt;product&gt;&lt;version&gt;</p>
+                                <path>~/.config/JetBrains/&lt;product&gt;&lt;version&gt;</path>
+                                <path>~/.cache/JetBrains/&lt;product&gt;&lt;version&gt;</path>
+                                <path>~/.local/share/JetBrains/&lt;product&gt;&lt;version&gt;</path>
                             </def>
                             <def title="例子" id="linux-grammar-example">
-                                <p>~/.config/JetBrains/IntelliJIdea2022.3</p>
-                                <p>~/.cache/JetBrains/IntelliJIdea2022.3</p>
-                                <p>~/.local/share/JetBrains/IntelliJIdea2022.3</p>
+                                <path>~/.config/JetBrains/IntelliJIdea2022.3</path>
+                                <path>~/.cache/JetBrains/IntelliJIdea2022.3</path>
+                                <path>~/.local/share/JetBrains/IntelliJIdea2022.3</path>
                             </def>
                         </deflist>
                     </li>

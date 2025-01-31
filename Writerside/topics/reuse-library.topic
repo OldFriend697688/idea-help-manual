@@ -26,7 +26,7 @@
 
     <!-- IntelliJ IDEA 操作快捷键 -->
     <snippet id="idea-operating-keywords-snippet">
-        操作（ <shortcut>Ctrl</shortcut><shortcut>Alt</shortcut><shortcut>A</shortcut> ）
+        操作（ <shortcut>Ctrl</shortcut><shortcut>Shift</shortcut><shortcut>A</shortcut> ）
     </snippet>
 
     <!-- 执行卸载和配置激活补丁脚本前，请确保 IntelliJ IDEA 处于关闭状态 -->
@@ -211,8 +211,9 @@
     <!-- 配置自定义快速列表 -->
     <snippet id="configure-quick-lists-snippet">
         <chapter id="configure-quick-lists" title="自定义快速列表">
-            <p>快速列表是一个 <include from="reuse-library.topic" element-id="popup-menus-snippet"/> ，其中包含一组自定义的 IntelliJ IDEA 操作。您可以将其视为自定义菜单或工具栏，并且可以为其指定 <a href="mastering-keyboard-shortcuts.topic" summary=""/> 以便快速访问。</p>
-            <p>您可根据需要创建任意多个快速列表。快速列表中的每个操作都由从 0 到 9 的数字来标识。</p>
+            <p>快速列表是一个 <include from="reuse-library.topic" element-id="popup-menus-snippet"/> ，其中包含一组自定义的 IntelliJ IDEA 操作。</p>
+            <p>您可以将其视为自定义 <a href="customize-actions-menus-and-toolbars.topic" summary="">菜单与工具栏</a>，并且可以为其指定 <a href="mastering-keyboard-shortcuts.topic" summary=""/> 以便快速访问。</p>
+            <p>您可根据需要创建任意多个快速列表。每个操作由 0 到 9 的数字标识。</p>
             <p>IntelliJ IDEA 中已有许多预设的快速列表，但请注意它们不可以被重新配置，例如：</p>
             <list>
                 <li><ui-path>VCS 操作（ <shortcut>Alt</shortcut><shortcut>`</shortcut> ）</ui-path></li>

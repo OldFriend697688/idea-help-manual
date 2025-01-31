@@ -38,7 +38,7 @@
             <note>对于已经安装和配置过的 IntelliJ IDEA，您可以稍后或手动激活屏幕阅读器支持。&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;</note>
         </procedure>
         <procedure title="安装并设置 IntelliJ IDEA" id="install-and-set-up" type="steps">
-            <warning>请先下载并启用屏幕阅读器，然后再执行以下操作。否则，您将无法感受实际效果。&nbsp;</warning>
+            <warning>请先下载并启用屏幕阅读器，然后再执行以下操作，否则将无法体验实际效果。&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;</warning>
             <note>对于 <tooltip term="windows">Windows</tooltip> 和 <tooltip term="macos">macOS</tooltip> 而言，当 IntelliJ IDEA 在首次启动时若检测到屏幕阅读器，它会显示一个对话框，您可以在其中为它启用屏幕阅读器。</note>
             <step>参阅 <a href="installation-guide.topic" summary=""/> 完成 IntelliJ IDEA 的下载和安装 。</step>
             <step>
@@ -97,7 +97,7 @@
         <procedure id="color-config" title="为代码元素、编辑器、滚动条、超链接等配置颜色">
             <note>
                 <p>您可以调整代码元素、<include from="reuse-library.topic" element-id="editor-snippet"/> 和 <include from="reuse-library.topic" element-id="tool-window-snippet"/> 的颜色。</p>
-                <p>您还可以配置 <include from="reuse-library.topic" element-id="editor-snippet"/> 中垂直滚动条的颜色。&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;</p>
+                <p>您还可以配置 <include from="reuse-library.topic" element-id="editor-snippet"/> 中垂直滚动条的颜色。&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;</p>
             </note>
             <step>在 <control><include from="reuse-library.topic" element-id="idea-settings-keywords-snippet"/></control> 中选择 <ui-path><include from="reuse-library.topic" element-id="editor-snippet"/> | <a href="configuring-colors-and-fonts.topic" anchor="select-color-scheme" summary="">配色方案</a> | 常规</ui-path> 。</step>
             <img src="配色方案-常规节点.png" alt="设置配色方案" width="706" thumbnail="true" border-effect="rounded"/>
@@ -204,7 +204,7 @@
             <video src="https://www.youtube.com/watch?v=A7z5bR0vuq8" width="706" border-effect="rounded"/>
         </procedure>
         <procedure id="custom-code-style" title="自定义代码样式">
-            <note>您可以配置空格、制表符和缩进。&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;</note>
+            <note>您可以配置空格、制表符和缩进。&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;</note>
             <step>
                 <p>在 <control><include from="reuse-library.topic" element-id="idea-settings-keywords-snippet"/></control> 中选择 <ui-path><include from="reuse-library.topic" element-id="editor-snippet"/> | 代码样式 | 目标语言</ui-path> 。</p>
                 <p>例如：您想要自定义 <tooltip term="java">Java</tooltip> 代码的样式，则应选择 <ui-path>编辑器 | 代码样式 | Java</ui-path> 。</p>

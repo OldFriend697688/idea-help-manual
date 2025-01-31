@@ -4,7 +4,7 @@
 <topic xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
        xsi:noNamespaceSchemaLocation="https://resources.jetbrains.com/writerside/1.0/topic.v2.xsd"
        title="注册 IntelliJ IDEA" id="register">
-    <show-structure depth="1" for="chapter,procedure" />
+    <show-structure depth="1" for="chapter,procedure"/>
     <primary-label ref="Ultimate"/>
     <secondary-label ref="FreeTrial"/>
     <note>您可以免费试用 IntelliJ IDEA Ultimate（旗舰版）至多 <format style="bold">30</format> 天。您需要登录您的 <a href="https://account.jetbrains.com/login">JetBrains 帐户</a> 以便开始试用它。</note>
@@ -102,7 +102,6 @@
             <step>完整操作步骤请查看如下演示视频。</step>
             <video src="https://www.youtube.com/watch?v=PSrJQW7qBZs" width="706" border-effect="rounded"/>
         </procedure>
-        <!-- 破解补丁加激活的激活原理 -->
         <p>如果您对激活原理有浓厚兴趣，请参阅 <a href="https://www.bilibili.com/video/BV1Jr421V758/" summary="">激活原理分析</a> 了解其背后的工作原理。</p>
     </chapter>
     <!-- 直接删除 %APPDATA%\JetBrains\IntelliJIdea2022.3\idea.key 文件可使 IntelliJ IDEA 恢复至未激活状态。 -->
@@ -117,7 +116,7 @@
                 <img src="移除许可证.png" alt="移除许可证" thumbnail="true" width="706" border-effect="rounded"/>
             </li>
             <li>
-                <p>在 <control>操作（ <shortcut>Ctrl</shortcut><shortcut>Shift</shortcut><shortcut>A</shortcut> ）</control> 中键入 <ui-path>注册</ui-path> 并按 <shortcut>Enter</shortcut> 然后在 <control>许可证</control> 中找到 <control>移除许可证</control> 。</p>
+                <p>在 <control><include from="reuse-library.topic" element-id="idea-operating-keywords-snippet"/></control> 中键入 <ui-path>注册</ui-path> 并按 <shortcut>Enter</shortcut> 然后在 <control>许可证</control> 中找到 <control>移除许可证</control> 。</p>
                 <video src="https://www.youtube.com/watch?v=MLYZ2UEhNI4" width="706" border-effect="rounded"/>
             </li>
         </list>
@@ -132,8 +131,8 @@
             <a href="https://3.jetbra.in/" summary="">激活补丁下载发布页（需挂代理）</a>
         </category>
         <include from="reuse-library.topic" element-id="ides-snippet"/>
-        <include from="reuse-library.topic" element-id="programming-language-snippet"/>
-        <include from="reuse-library.topic" element-id="associated-websites-snippet"/>
         <include from="reuse-library.topic" element-id="ai-editor-snippet"/>
+        <include from="reuse-library.topic" element-id="associated-websites-snippet"/>
+        <include from="reuse-library.topic" element-id="programming-language-snippet"/>
     </seealso>
 </topic>

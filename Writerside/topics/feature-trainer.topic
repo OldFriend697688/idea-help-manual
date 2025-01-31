@@ -20,7 +20,7 @@
         <img border-effect="rounded" src="单击交互式课程下的开始学习按钮.png" alt="单击交互式课程下的开始学习按钮" width="706" thumbnail="true"/>
         <step>IntelliJ IDEA 将生成一个学习项目，并打开与所选教程的第一课相对应的上下文。</step>
         <img border-effect="rounded" src="IntelliJ IDEA 生成的学习项目.png" alt="IntelliJ IDEA 生成的学习项目" width="706" thumbnail="true"/>
-        <note>您可以删除 <code>&#37;LOCALAPPDATA&#37;\JetBrains\IntelliJIdea2022.3\demo</code> 文件夹中的子文件夹，以便在 <tooltip term="windows">Windows</tooltip> 系统中删除自动生成的学习项目 。</note>
+        <note>您可以删除 <path>&#37;LOCALAPPDATA&#37;\JetBrains\IntelliJIdea2022.3\demo</path> 文件夹中的子文件夹，以便在 <tooltip term="windows">Windows</tooltip> 系统中删除自动生成的学习项目 。</note>
         <video src="https://www.youtube.com/watch?v=fLujFmVI7Yo" width="706" border-effect="rounded"/>
     </procedure>
     <procedure title="从学习工具窗口开始教程" id="start-a-lesson-from-the-learn-tool-window">
@@ -45,7 +45,7 @@
         <step>要切换至另一个教程而不丢失当前教程的进度，请单击 <ui-path>学习</ui-path> 顶部的名称链接。</step>
         <step>然后单击您感兴趣的教程，并选择要完成的课程。</step>
         <video src="https://www.youtube.com/watch?v=iRP64ed02zc" width="706" border-effect="rounded"/>
-        <note>如果您想要在不保存学习进度的情况下放弃教程，请单击 <ui-path>设置（ <shortcut>Ctrl</shortcut><shortcut>Alt</shortcut><shortcut>S</shortcut> ） | 工具 | IDE Features Trainer | 重置单元进度</ui-path> 。 单击 <control>确定</control> 后，您将返回到 <ui-path>学习</ui-path> 工具窗口，此时您的学习进度已被成功重置。</note>
+        <note>如果您想要在不保存学习进度的情况下放弃教程，请单击 <ui-path><include from="reuse-library.topic" element-id="idea-settings-keywords-snippet"/> | 工具 | IDE Features Trainer | 重置单元进度</ui-path> 。 单击 <control>确定</control> 后，您将返回到 <ui-path>学习</ui-path> 工具窗口，此时您的学习进度已被成功重置。</note>
         <video src="https://www.youtube.com/watch?v=ITTneCd8kD8" width="706" border-effect="rounded"/>
     </procedure>
     <seealso>

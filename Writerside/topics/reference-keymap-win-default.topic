@@ -6,4 +6,7 @@
        title="预设的键盘快捷键" id="reference-keymap-win-default">
 
     <p>Start typing here...</p>
+    <seealso>
+        <include from="reuse-library.topic" element-id="list-of-suggested-seealso-snippet"/>
+    </seealso>
 </topic>

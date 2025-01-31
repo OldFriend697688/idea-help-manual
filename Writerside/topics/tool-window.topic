@@ -92,7 +92,7 @@
         <video src="https://www.youtube.com/watch?v=3CEJpwr2YnU" width="706" border-effect="rounded"/>
         <p>您可以单击 <img src="定位文件.svg" alt=""/> 在工具窗口中定位在 <include from="reuse-library.topic" element-id="editor-snippet"/> 中打开的文件。</p>
         <video src="https://www.youtube.com/watch?v=UFQwlTJaX7o" width="706" border-effect="rounded"/>
-        <p>对于所有以树状结构显示内容的工具窗口而言（例如：<include from="reuse-library.topic" element-id="project-tool-window-snippet"/> 工具窗口），您可以使用垂直显示线来强化显示视图中的缩进级别，这将有助于帮助您更高的理解项目的层次结构。要显示它，请选择 <ui-path><include from="reuse-library.topic" element-id="idea-settings-keywords-snippet"/>| 外观与行为 | 外观 | 显示树缩进参考线</ui-path> 。</p>
+        <p>对于所有以树状结构显示内容的工具窗口而言（例如：<include from="reuse-library.topic" element-id="project-tool-window-snippet"/> 工具窗口），您可以使用垂直显示线来强化显示视图中的缩进级别，这将有助于帮助您更高的理解项目的层次结构。要显示它，请选择 <ui-path><include from="reuse-library.topic" element-id="idea-settings-keywords-snippet"/>| <include from="reuse-library.topic" element-id="idea-settings-keywords-snippet"/> | 显示树缩进参考线</ui-path> 。</p>
         <img src="显示树缩进参考线.png" alt="显示树缩进参考线" width="706" thumbnail="true" border-effect="rounded"/>
         <video src="https://www.youtube.com/watch?v=syYnLZEgqn8" width="706" border-effect="rounded"/>
         <!-- IntelliJ IDEA 中各工具窗口对应的预设快捷键 -->

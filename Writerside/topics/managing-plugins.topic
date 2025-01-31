@@ -16,7 +16,7 @@
     <procedure id="open-plugin-settings" title="打开插件设置" type="choices">
         <step>在 <control>欢迎界面</control> 中选择 <ui-path>插件</ui-path> 。</step>
         <img src="在欢迎界面中打开插件设置.png" alt="在欢迎界面中打开插件设置" width="706" thumbnail="true" border-effect="rounded"/>
-        <step>或在 <control>设置</control> （ <shortcut>Ctrl</shortcut><shortcut>Alt</shortcut><shortcut>S</shortcut> ）中选择 <ui-path>插件</ui-path> 。</step>
+        <step>或在 <control><include from="reuse-library.topic" element-id="idea-settings-keywords-snippet"/></control> （ <shortcut>Ctrl</shortcut><shortcut>Alt</shortcut><shortcut>S</shortcut> ）中选择 <ui-path>插件</ui-path> 。</step>
         <img src="在 IntelliJ IDEA 的设置中找到插件设置.png" alt="在 IntelliJ IDEA 的设置中找到插件设置" width="706" thumbnail="true" border-effect="rounded"/>
         <p>您可以在 <ui-path>Marketplace</ui-path> 中浏览并安装 <include from="reuse-library.topic" element-id="jetbrains-plugin-library-snippet"/> 中的插件或者是 <a anchor="repos" summary=""/> 。</p>
         <p>通过 <ui-path>已安装</ui-path> 浏览捆绑和已安装的插件，启用、 <a anchor="disable-plugin" summary="">禁用</a> 、 <a anchor="update-plugin" summary="">更新</a> 或 <a anchor="remove-plugin" summary="">卸载</a> 它们。</p>
@@ -30,13 +30,13 @@
     <p>IntelliJ IDEA 默认包含多个捆绑插件。您可以禁用捆绑的插件，但不能卸载它们。</p>
     <procedure id="install-plugin-from-repo" title="从官方插件仓库中安装插件">
         <note>要安装插件的某个特定版本，请访问该插件位于 <include from="reuse-library.topic" element-id="jetbrains-plugin-library-snippet"/> 的主页面，然后按照 <a anchor="install-plugin-from-disk" summary=""/> 中的步骤下载并安装它。</note>
-        <step>在 <control>欢迎界面</control> 中选择 <ui-path>插件</ui-path> ，或在 <control>设置</control> （ <shortcut>Ctrl</shortcut><shortcut>Alt</shortcut><shortcut>S</shortcut> ）中选择 <ui-path>插件</ui-path> 。</step>
+        <step>在 <control>欢迎界面</control> 中选择 <ui-path>插件</ui-path> ，或在 <control><include from="reuse-library.topic" element-id="idea-settings-keywords-snippet"/></control> （ <shortcut>Ctrl</shortcut><shortcut>Alt</shortcut><shortcut>S</shortcut> ）中选择 <ui-path>插件</ui-path> 。</step>
         <step>在 <ui-path>Marketplace</ui-path> 中搜索目标插件，然后单击 <control>安装</control> 。</step>
         <video src="https://www.youtube.com/watch?v=gsg4Af8yp-w" width="706" border-effect="rounded"/>
     </procedure>
     <procedure id="install-plugin-from-disk" title="通过本地磁盘安装插件">
         <step>下载目标插件的压缩包（ <tooltip term="zip"><path>ZIP</path></tooltip> 或 <tooltip term="java-jar-file"><path>JAR</path></tooltip> ）。</step>
-        <step>在 <control>欢迎界面</control> 中选择 <ui-path>插件</ui-path> ， 或在 <control>设置</control> （ <shortcut>Ctrl</shortcut><shortcut>Alt</shortcut><shortcut>S</shortcut> ）中选择 <ui-path>插件</ui-path> 。</step>
+        <step>在 <control>欢迎界面</control> 中选择 <ui-path>插件</ui-path> ， 或在 <control><include from="reuse-library.topic" element-id="idea-settings-keywords-snippet"/></control> （ <shortcut>Ctrl</shortcut><shortcut>Alt</shortcut><shortcut>S</shortcut> ）中选择 <ui-path>插件</ui-path> 。</step>
         <step>单击 <img src="设置.svg" alt=""/> ，然后选择 <ui-path>从磁盘安装插件</ui-path> 。</step>
         <step>选择目标插件的压缩包，然后单击 <control>确定</control> 。</step>
         <step>单击 <control>确定</control> 应用更改，并根据提示重启 IntelliJ IDEA。</step>
@@ -44,7 +44,7 @@
     </procedure>
     <procedure title="卸载插件" id="remove-plugin">
         <note>您无法卸载捆绑的插件。&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;</note>
-        <step>在 <control>欢迎界面</control> 中选择 <ui-path>插件</ui-path> ，或在 <control>设置</control> （ <shortcut>Ctrl</shortcut><shortcut>Alt</shortcut><shortcut>S</shortcut> ）中选择 <ui-path>插件</ui-path> 。</step>
+        <step>在 <control>欢迎界面</control> 中选择 <ui-path>插件</ui-path> ，或在 <control><include from="reuse-library.topic" element-id="idea-settings-keywords-snippet"/></control> （ <shortcut>Ctrl</shortcut><shortcut>Alt</shortcut><shortcut>S</shortcut> ）中选择 <ui-path>插件</ui-path> 。</step>
         <step>打开 <ui-path>已安装</ui-path> ，然后找到想要卸载的插件。</step>
         <step>在目标插件名称处单击鼠标右键，然后从其中选择 <control>卸载</control> 。</step>
         <video src="https://www.youtube.com/watch?v=xZnH7IKUkPE" width="706" border-effect="rounded"/>
@@ -53,7 +53,7 @@
     </procedure>
     <procedure title="禁用插件" id="disable-plugin">
         <note>如果您暂时不需要某些插件提供的功能，可以选择禁用它们，而不是卸载它们。&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;</note>
-        <step>在 <control>欢迎界面</control> 中选择 <ui-path>插件</ui-path> ，或在 <control>设置</control> （ <shortcut>Ctrl</shortcut><shortcut>Alt</shortcut><shortcut>S</shortcut> ）中选择 <ui-path>插件</ui-path> 。</step>
+        <step>在 <control>欢迎界面</control> 中选择 <ui-path>插件</ui-path> ，或在 <control><include from="reuse-library.topic" element-id="idea-settings-keywords-snippet"/></control> （ <shortcut>Ctrl</shortcut><shortcut>Alt</shortcut><shortcut>S</shortcut> ）中选择 <ui-path>插件</ui-path> 。</step>
         <step>打开 <ui-path>已安装</ui-path> ，然后找到想要禁用的插件。</step>
         <step>在目标插件名称处单击鼠标右键，然后从其中选择 <control>禁用</control> 。</step>
         <note>您还可以使用 <ui-path>已安装</ui-path> 后方的 <img src="设置.svg" alt=""/> 中的 <ui-path>禁用所有已下载的插件</ui-path> 来禁用所有非捆绑的插件（由您自行下载安装的插件）。</note>
@@ -61,7 +61,7 @@
     </procedure>
     <procedure title="更新插件" id="update-plugin">
         <note>请注意，这会将目标插件直接更新至最新版本。但是，如果您想要将插件更新至某个特定版本，请您参阅 <a anchor="install-plugin-from-disk" summary=""/> 予以实现。</note>
-        <step>在 <control>欢迎界面</control> 中选择 <ui-path>插件</ui-path> ，或在 <control>设置</control> （ <shortcut>Ctrl</shortcut><shortcut>Alt</shortcut><shortcut>S</shortcut> ）中选择 <ui-path>插件</ui-path> 。</step>
+        <step>在 <control>欢迎界面</control> 中选择 <ui-path>插件</ui-path> ，或在 <control><include from="reuse-library.topic" element-id="idea-settings-keywords-snippet"/></control> （ <shortcut>Ctrl</shortcut><shortcut>Alt</shortcut><shortcut>S</shortcut> ）中选择 <ui-path>插件</ui-path> 。</step>
         <step>打开 <ui-path>已安装</ui-path> ，然后找到想要更新的插件。</step>
         <step>单击目标插件后方的 <control>更新</control> 。</step>
         <video src="https://www.youtube.com/watch?v=oEFTHovS1X8" width="706" border-effect="rounded"/>
@@ -70,7 +70,7 @@
         <p>一个项目可能需要为某些技术或框架提供支持的插件。您可以将此类插件添加至当前项目的必需插件列表中，这样 IntelliJ IDEA 就会验证这些插件是否已安装并启用。如果您忘记了这些插件，或者您团队中的某个人在处理项目时没有注意到该依赖关系，IntelliJ IDEA 就会通知您。</p>
         <procedure id="add-required-plugin" title="为当前项目添加必需插件">
             <step>确保已安装所需的插件。</step>
-            <step>按 <shortcut>Ctrl</shortcut><shortcut>Alt</shortcut><shortcut>S</shortcut> 进入 <control>设置</control> ，然后展开 <ui-path>构建、执行、部署 | 必需插件</ui-path> 。</step>
+            <step>按 <shortcut>Ctrl</shortcut><shortcut>Alt</shortcut><shortcut>S</shortcut> 进入 <control><include from="reuse-library.topic" element-id="idea-settings-keywords-snippet"/></control> ，然后展开 <ui-path>构建、执行、部署 | 必需插件</ui-path> 。</step>
             <step>在右侧的操作面板中单击 <img src="添加.svg" alt=""/> 指定插件，并为此插件指定所需的最高和最低版本。</step>
             <video src="https://www.youtube.com/watch?v=EgCOOvcKCn8" width="706" border-effect="rounded"/>
             <note>要指定 IntelliJ IDEA 本身的所需版本，请将 <ui-path>IDE Core</ui-path> 添加至所需插件列表中。&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;</note>
@@ -180,7 +180,7 @@
         <p>默认情况下，IntelliJ IDEA 将使用 <include from="reuse-library.topic" element-id="jetbrains-plugin-library-snippet"/> 中提供的插件。这是一个公共资源库，每个人都可以在其中托管自己的插件。</p>
         <p>但是，如果 <a anchor="plugin-dev" summary="">您开发的插件</a> 仅供内部使用，您可以为它们设置一个自定义插件库。</p>
         <procedure id="add-plugin-repos" title="添加自定义插件库">
-            <step>在 <control>欢迎界面</control> 中选择 <ui-path>插件</ui-path> ，或在 <control>设置</control> （ <shortcut>Ctrl</shortcut><shortcut>Alt</shortcut><shortcut>S</shortcut> ）中选择 <ui-path>插件</ui-path> 。</step>
+            <step>在 <control>欢迎界面</control> 中选择 <ui-path>插件</ui-path> ，或在 <control><include from="reuse-library.topic" element-id="idea-settings-keywords-snippet"/></control> （ <shortcut>Ctrl</shortcut><shortcut>Alt</shortcut><shortcut>S</shortcut> ）中选择 <ui-path>插件</ui-path> 。</step>
             <step>单击 <ui-path>已安装</ui-path> 后方的 <img src="设置.svg" alt=""/> ，然后选择其中的 <ui-path>管理插件仓库</ui-path> 。</step>
             <img src="管理插件仓库.png" alt="管理插件仓库" width="706" thumbnail="true"  border-effect="rounded"/>
             <step>

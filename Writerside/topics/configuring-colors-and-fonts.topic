@@ -38,7 +38,7 @@
             <p>要将预设配色方案的各项设置还原至默认值，请单击 <img src="设置.svg" alt=""/> 并选择 <control>还原为默认设置</control> 。</p>
         </note>
         <video border-effect="rounded" src="https://www.youtube.com/watch?v=zFz3AvYku7E" width="706"/>
-        <p>要自定义颜色和字体设置，请通过 <ui-path>设置（ <shortcut>Ctrl</shortcut><shortcut>Alt</shortcut><shortcut>S</shortcut> ） | <include from="reuse-library.topic" element-id="editor-snippet"/> | 配色方案</ui-path> 进行调整。例如：</p>
+        <p>要自定义颜色和字体设置，请通过 <ui-path><include from="reuse-library.topic" element-id="idea-settings-keywords-snippet"/> | <include from="reuse-library.topic" element-id="editor-snippet"/> | 配色方案</ui-path> 进行调整。例如：</p>
         <list>
             <li>
                 <p><ui-path>常规</ui-path> 部分定义了基本的 <include from="reuse-library.topic" element-id="editor-snippet" /> 颜色，如：间距图标、行号、错误、警告、弹出窗口、提示等。</p>
@@ -59,7 +59,7 @@
             <step>勾选 <control>语义高亮显示</control> 复选框，并根据需要自定义颜色。</step>
             <img border-effect="rounded" alt="语义高亮显示" src="语义高亮显示.png" width="706" thumbnail="true"/>
             <video border-effect="rounded" src="https://www.youtube.com/watch?v=XxomJxZkgUM" width="706"/>
-            <note>这将为所有从 <ui-path>语言默认值</ui-path> 继承此设置的 <tooltip term="programming-language">语言</tooltip> 启用语义高亮。如果要为特定语言（例如： <tooltip term="java">Java</tooltip> ）单独启用语义高亮，请取消勾选 <ui-path>设置（ <shortcut>Ctrl</shortcut><shortcut>Alt</shortcut><shortcut>S</shortcut> ） | <include from="reuse-library.topic" element-id="editor-snippet" /> | 配色方案 | Java | 语义高亮显示</ui-path> 中的 <ui-path>值继承自：</ui-path> 。</note>
+            <note>这将为所有从 <ui-path>语言默认值</ui-path> 继承此设置的 <tooltip term="programming-language">语言</tooltip> 启用语义高亮。如果要为特定语言（例如： <tooltip term="java">Java</tooltip> ）单独启用语义高亮，请取消勾选 <ui-path><include from="reuse-library.topic" element-id="idea-settings-keywords-snippet"/> | <include from="reuse-library.topic" element-id="editor-snippet" /> | 配色方案 | Java | 语义高亮显示</ui-path> 中的 <ui-path>值继承自：</ui-path> 。</note>
             <video border-effect="rounded" src="https://www.youtube.com/watch?v=JOivPEO8hUw" width="706"/>
         </procedure>
     </chapter>
@@ -87,9 +87,9 @@
         </procedure>
     </chapter>
     <chapter title="字体" id="fonts">
-        <p>要自定义 <include from="reuse-library.topic" element-id="editor-snippet"/> 中使用的默认字体，请通过 <ui-path>设置（ <shortcut>Ctrl</shortcut><shortcut>Alt</shortcut><shortcut>S</shortcut> ） | <include from="reuse-library.topic" element-id="editor-snippet"/> | 字体</ui-path> 进行调整 。默认情况下，所有配色方案都使用并继承该字体，更多信息请参阅 <a href="settings-editor-font.topic" summary="">字体设置</a> 。</p>
+        <p>要自定义 <include from="reuse-library.topic" element-id="editor-snippet"/> 中使用的默认字体，请通过 <ui-path><include from="reuse-library.topic" element-id="idea-settings-keywords-snippet"/> | <include from="reuse-library.topic" element-id="editor-snippet"/> | 字体</ui-path> 进行调整 。默认情况下，所有配色方案都使用并继承该字体，更多信息请参阅 <a href="settings-editor-font.topic" summary="">字体设置</a> 。</p>
         <p>IntelliJ IDEA 可以使用操作系统中可用的任何字体。要在字体列表中添加其他字体，可将其安装到 <tooltip term="os">操作系统</tooltip> 中或安装到用于运行 IntelliJ IDEA 的 <a href="switching-boot-jdk.topic" summary="">Java 运行时</a> 中。 </p>
-        <note>要配置 <a href="guided-tour-around-the-user-interface.topic"/> 元素（例如： <include from="reuse-library.topic" element-id="tool-window-snippet" /> 、 <a href="guided-tour-around-the-user-interface.topic" anchor="vcs-file-color" summary="">工具栏</a> 、<include from="reuse-library.topic" element-id="main-menus-snippet" /> ）使用的字体，请通过 <ui-path>设置（ <shortcut>Ctrl</shortcut><shortcut>Alt</shortcut><shortcut>S</shortcut> ） | 外观与行为 | 外观</ui-path> 进行调整。您可以通过 <ui-path>字体</ui-path> 列表选择字体，并通过 <ui-path>大小</ui-path> 指定字体大小。</note>
+        <note>要配置 <a href="guided-tour-around-the-user-interface.topic"/> 元素（例如： <include from="reuse-library.topic" element-id="tool-window-snippet" /> 、 <a href="guided-tour-around-the-user-interface.topic" anchor="vcs-file-color" summary="">工具栏</a> 、<include from="reuse-library.topic" element-id="main-menus-snippet" /> ）使用的字体，请通过 <ui-path><include from="reuse-library.topic" element-id="idea-settings-keywords-snippet"/> | <include from="reuse-library.topic" element-id="idea-settings-keywords-snippet"/></ui-path> 进行调整。您可以通过 <ui-path>字体</ui-path> 列表选择字体，并通过 <ui-path>大小</ui-path> 指定字体大小。</note>
         <video border-effect="rounded" src="https://www.youtube.com/watch?v=b7Pt1jbpe40" width="706"/>
         <procedure id="custom-cs-font" type="steps" title="自定义配色方案字体">
             <warning>如果您打算 <a anchor="share-color-scheme" summary=""/> ，或将其用于可能不支持所选字体的其他系统平台，则不建议您自定义配色方案的字体。在这种情况下，请使用默认的全局字体设置。</warning>
@@ -107,12 +107,12 @@
     <chapter title="生产力提示" id="tips">
         <procedure id="jump-to-colors-and-fonts" type="steps" title="查看与选中符号相关的配色方案设置">
             <step>将闪烁光标放置在所需要的 <tooltip term="symbol">符号</tooltip> 上。</step>
-            <step>在 <control>操作（ <shortcut>Ctrl</shortcut><shortcut>Shift</shortcut><shortcut>A</shortcut> ）</control> 中搜索并执行 <ui-path>跳转到颜色和字体</ui-path> 操作。</step>
+            <step><control>在 <include from="reuse-library.topic" element-id="idea-operating-keywords-snippet"/></control> 中搜索并执行 <ui-path>跳转到颜色和字体</ui-path> 操作。</step>
             <step>这将打开与选中符号相关的配色方案设置。</step>
             <video border-effect="rounded" src="https://www.youtube.com/watch?v=4psbaPNSKCg" width="706"/>
         </procedure>
         <procedure title="查看编辑器中使用的字体" id="used-fonts">
-            <step>在 <control>操作（ <shortcut>Ctrl</shortcut><shortcut>Shift</shortcut><shortcut>A</shortcut> ）</control> 中搜索并执行 <ui-path>显示编辑器使用的字体</ui-path> 操作。</step>
+            <step><control>在 <include from="reuse-library.topic" element-id="idea-operating-keywords-snippet"/></control> 中搜索并执行 <ui-path>显示编辑器使用的字体</ui-path> 操作。</step>
             <step>这将打开 <format style="bold"> 编辑器中使用的字体</format> ，并显示使用中的字体列表。</step>
             <video border-effect="rounded" src="https://www.youtube.com/watch?v=pnTUEnhRoMU" width="706"/>
         </procedure>
@@ -126,12 +126,6 @@
         <include from="reuse-library.topic" element-id="shortcut-key-priority-tips-snippet"/>
     </chapter>
     <seealso>
-        <category ref="references">
-            <include from="reuse-library.topic" element-id="ides-snippet"/>
-            <include from="reuse-library.topic" element-id="core-references-snippet"/>
-            <include from="reuse-library.topic" element-id="associated-websites-snippet"/>
-            <include from="reuse-library.topic" element-id="programming-language-snippet"/>
-            <include from="reuse-library.topic" element-id="ai-editor-snippet"/>
-        </category>
+        <include from="reuse-library.topic" element-id="list-of-suggested-seealso-snippet"/>
     </seealso>
 </topic>

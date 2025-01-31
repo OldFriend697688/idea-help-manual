@@ -39,7 +39,7 @@
                 <list>
                     <li>正在运行的 JetBrains IDE 实例： 从 <include from="reuse-library.topic" element-id="main-menus-snippet"/> 中选择 <ui-path>帮助 | 注册</ui-path> ，选择 <a href="register.topic" anchor="jb-account" summary="">使用 JetBrains 帐户激活您的许可证</a> ，并在输入框中输入您的凭据。</li>
                     <li><a href="https://www.jetbrains.com.cn/toolbox-app/" summary="">Toolbox App</a> ：单击右上角位置进入 <ui-path>设置</ui-path> ，然后单击 <control>登录</control> 。注意：登录 Toolbox App 将自动为正在运行的所有 JetBrains 产品登录账号。</li>
-                    <li>如果通过 <a href="register.topic" anchor="activation-code" summary="">激活码</a> 或 <a href="register.topic" anchor="license-server" summary="">许可证服务器</a> 激活 IntelliJ IDEA。请在 <ui-path>设置（ <shortcut>Ctrl</shortcut><shortcut>Alt</shortcut><shortcut>S</shortcut> ）</ui-path> 中选择 <ui-path>设置同步 | 使用 JetBrains 账户登录</ui-path> 以便登录您的 <include from="reuse-library.topic" element-id="jetbrains-account-web-url-snippet"/> 。</li>
+                    <li>如果通过 <a href="register.topic" anchor="activation-code" summary="">激活码</a> 或 <a href="register.topic" anchor="license-server" summary="">许可证服务器</a> 激活 IntelliJ IDEA。请在 <ui-path><include from="reuse-library.topic" element-id="idea-settings-keywords-snippet"/></ui-path> 中选择 <ui-path>设置同步 | 使用 JetBrains 账户登录</ui-path> 以便登录您的 <include from="reuse-library.topic" element-id="jetbrains-account-web-url-snippet"/> 。</li>
                 </list>
             </step>
             <img src="使用 JetBrains 账户登录.png" alt="使用 JetBrains 账户登录" width="706" thumbnail="true" border-effect="rounded"/>
@@ -67,7 +67,7 @@
         <note>每次修改设置时，以及每次 JetBrains 服务器从其他 <include from="sharing-your-ide-settings.topic" element-id="jetbrains-ide-snippet"/> 接收设置更新时，本地设置都会自动与存储在 JetBrains 服务器上的设置同步。换言之，这会使您的 JetBrains IDE 始终使用的是服务器上共享的最新设置。</note>
         <procedure title="不同 Jetbrains IDE 实例之间的同步" id="synchronization-between-different-ide-instances" type="steps">
             <note>默认情况下，您的设置只会在同一 <include from="sharing-your-ide-settings.topic" element-id="jetbrains-ide-snippet"/> 产品的实例间同步，例如：在多个 IntelliJ IDEA 实例间同步。但是，您也可以在不同的 JetBrains IDE 实例之间进行设置同步。例如：您可以将 IntelliJ IDEA 的设置同步至 <a href="https://www.jetbrains.com.cn/webstorm/" summary="WebStorm 是一款由 JetBrains 公司开发的集成开发环境（IDE），专门为开发 Web 应用程序而设计。它被广大前端开发者誉为 “Web 前端开发神器”、“最强大的 HTML5 编辑器”、“最智能的 JavaScript IDE”等。">WebStorm</a> 。</note>
-            <step>在 <ui-path>设置（ <shortcut>Ctrl</shortcut><shortcut>Alt</shortcut><shortcut>S</shortcut> ）</ui-path> 中选择 <ui-path>设置同步</ui-path> 。</step>
+            <step>在 <ui-path><include from="reuse-library.topic" element-id="idea-settings-keywords-snippet"/></ui-path> 中选择 <ui-path>设置同步</ui-path> 。</step>
             <step>
                 <p>勾选 <control>在以下范围内同步设置</control> 部分下的 <ui-path>所有 JetBrains IDE 产品</ui-path> 。</p>
                 <list>
@@ -93,7 +93,7 @@
     <!-- 退出已登录的 JetBrains 账号 -->
     <include from="reuse-library.topic" element-id="log-out-of-jb-account-snippet"/>
     <chapter id="import-export-settings" title="导出您的设置">
-        <note>在 <control>操作（ <shortcut>Ctrl</shortcut><shortcut>Shift</shortcut><shortcut>A</shortcut> ）</control> 键入 <ui-path>导入设置</ui-path> 或 <ui-path>导出设置</ui-path> 可实现更快速地导入和导出设置。&nbsp;&nbsp;&nbsp;</note>
+        <note>在 <control><include from="reuse-library.topic" element-id="idea-operating-keywords-snippet"/></control> 键入 <ui-path>导入设置</ui-path> 或 <ui-path>导出设置</ui-path> 可实现更快速地导入和导出设置。&nbsp;&nbsp;&nbsp;</note>
         <video src="https://www.youtube.com/watch?v=UTPxti1BrnA" width="706" border-effect="rounded"/>
         <procedure title="将设置导出至 ZIP 压缩包" id="export-settings-to-a-zip-archive" type="steps">
             <step>选择 <ui-path><include from="reuse-library.topic" element-id="main-menus-snippet"/> | 管理 IDE 设置 | 导出设置</ui-path> 。</step>

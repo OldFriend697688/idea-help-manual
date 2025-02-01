@@ -6,4 +6,7 @@
        title="数据库图表" id="creating-diagrams">
 
     <p>Start typing here...</p>
+    <seealso>
+        <include from="reuse-library.topic" element-id="list-of-suggested-seealso-snippet"/>
+    </seealso>
 </topic>

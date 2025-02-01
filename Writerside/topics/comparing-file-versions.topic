@@ -6,4 +6,7 @@
        title="比较文件和文件夹版本" id="comparing-file-versions">
 
     <p>Start typing here...</p>
+    <seealso>
+        <include from="reuse-library.topic" element-id="list-of-suggested-seealso-snippet"/>
+    </seealso>
 </topic>

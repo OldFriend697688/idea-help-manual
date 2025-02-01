@@ -6,4 +6,7 @@
        title="更改检查严重程度" id="configuring-inspection-severities">
 
     <p>Start typing here...</p>
+    <seealso>
+        <include from="reuse-library.topic" element-id="list-of-suggested-seealso-snippet"/>
+    </seealso>
 </topic>

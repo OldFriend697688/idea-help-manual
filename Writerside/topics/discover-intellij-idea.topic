@@ -78,23 +78,23 @@
     </chapter>
     <seealso>
         <category ref="references">
-            <a href="register.topic" summary=""/>
-            <a href="user-interface-themes.topic" summary=""/>
-            <a href="configuring-colors-and-fonts.topic" summary=""/>
-            <a href="guided-tour-around-the-user-interface.topic" summary=""/>
-            <a href="installation-guide.topic" anchor="simplified-chinese-language" summary=""/>
-            <a href="directories-used-by-the-ide-to-store-settings-caches-plugins-and-logs.topic" summary=""/>
-            <a href="https://zh.wikipedia.org/zh-cn/代码重构" summary="代码重构是在不改变软件外部行为的前提下，对软件内部结构进行调整，以提高软件的可理解性、可维护性、可扩展性，同时减少代码中的冗余和潜在的错误。">代码重构</a>
-            <a href="https://zh.wikipedia.org/zh-cn/静态程序分析" summary="静态程序分析是指在不实际运行程序的情况下，通过对程序代码的静态分析（例如源码或字节码），推断程序的属性、发现潜在错误并验证程序是否满足特定规范的一种技术。">静态代码分析</a>
             <a href="https://zh.wikipedia.org/zh-cn/Java_SE" summary="Java SE（Java Platform, Standard Edition）是 Java 编程语言的标准版，它是构建 Java 程序的基础。它提供了一组核心类库和运行环境，使开发者能够创建各种类型的 Java 应用程序。">Java SE</a>
             <a href="https://zh.wikipedia.org/zh-cn/Jakarta_EE" summary="Jakarta EE 是 Java EE 的继承者。由于 Oracle 将 Java EE 的所有权移交给了 Eclipse 基金会，为了避免与 Oracle 的 Java 商标产生冲突，Java EE 被更名为 Jakarta EE。Jakarta EE 保留了 Java EE 的核心概念和大部分 API，并在此基础上进行了改进和扩展，使其更符合现代云原生应用的需求。">Jakarta EE</a>
+            <a href="https://zh.wikipedia.org/zh-cn/代码重构" summary="代码重构是在不改变软件外部行为的前提下，对软件内部结构进行调整，以提高软件的可理解性、可维护性、可扩展性，同时减少代码中的冗余和潜在的错误。">代码重构</a>
+            <a href="guided-tour-around-the-user-interface.topic" summary=""/>
+            <a href="configuring-colors-and-fonts.topic" summary=""/>
+            <a href="https://zh.wikipedia.org/zh-cn/静态程序分析" summary="静态程序分析是指在不实际运行程序的情况下，通过对程序代码的静态分析（例如源码或字节码），推断程序的属性、发现潜在错误并验证程序是否满足特定规范的一种技术。">静态代码分析</a>
+            <a href="user-interface-themes.topic" summary=""/>
+            <a href="installation-guide.topic" anchor="simplified-chinese-language" summary=""/>
+            <a href="register.topic" summary=""/>
+            <a href="directories-used-by-the-ide-to-store-settings-caches-plugins-and-logs.topic" summary=""/>
         </category>
         <category ref="associated-websites">
         <include from="reuse-library.topic" element-id="ides-snippet"/>
         <include from="reuse-library.topic" element-id="programming-language-snippet"/>
+            <a href="https://github.com/PKUFlyingPig/cs-self-learning" summary="提供计算机科学自学指南和学习路径。">CS 自学指南</a>
             <a href="https://javabetter.cn/" summary="分享 Java 技术文章和进阶教程。">二哥的 Java 进阶之路</a>
             <a href="https://github.com/xiaolincoder/CS-Base" summary="图解计算机基础，适合初学者。">小林 x 图解计算机基础</a>
-            <a href="https://github.com/PKUFlyingPig/cs-self-learning" summary="提供计算机科学自学指南和学习路径。">CS 自学指南</a>
             <a href="https://github.com/justjavac/free-programming-books-zh_CN" summary="汇集免费编程书籍资源。">免费编程中文书籍索引</a>
             <a href="https://github.com/CodingDocs/awesome-cs?tab=readme-ov-file" summary="精选优质计算机书籍和学习路线。">计算机优质书籍搜罗 + 学习路线推荐</a>
         </category>

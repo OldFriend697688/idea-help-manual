@@ -6,4 +6,7 @@
        title="IntelliJ IDEA 中的文件监视器" id="tutorial-file-watchers-in-product">
 
     <p>Start typing here...</p>
+    <seealso>
+        <include from="reuse-library.topic" element-id="list-of-suggested-seealso-snippet"/>
+    </seealso>
 </topic>

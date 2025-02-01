@@ -6,4 +6,7 @@
        title="字段重命名对话框" id="rename-dialog-for-a-field">
 
     <p>Start typing here...</p>
+    <seealso>
+        <include from="reuse-library.topic" element-id="list-of-suggested-seealso-snippet"/>
+    </seealso>
 </topic>

@@ -6,4 +6,7 @@
        title="从命令行格式化文件" id="command-line-formatter">
 
     <p>Start typing here...</p>
+    <seealso>
+        <include from="reuse-library.topic" element-id="list-of-suggested-seealso-snippet"/>
+    </seealso>
 </topic>

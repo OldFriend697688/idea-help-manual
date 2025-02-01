@@ -6,4 +6,7 @@
        title="提取/引入变量" id="extract-variable">
 
     <p>Start typing here...</p>
+    <seealso>
+        <include from="reuse-library.topic" element-id="list-of-suggested-seealso-snippet"/>
+    </seealso>
 </topic>

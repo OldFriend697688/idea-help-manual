@@ -6,4 +6,7 @@
        title="配置与服务器的同步" id="configuring-synchronization-with-a-remote-host">
 
     <p>Start typing here...</p>
+    <seealso>
+        <include from="reuse-library.topic" element-id="list-of-suggested-seealso-snippet"/>
+    </seealso>
 </topic>

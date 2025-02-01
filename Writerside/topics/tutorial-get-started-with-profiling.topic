@@ -6,4 +6,7 @@
        title="教程：CPU 分析入门" id="tutorial-get-started-with-profiling">
 
     <p>Start typing here...</p>
+    <seealso>
+        <include from="reuse-library.topic" element-id="list-of-suggested-seealso-snippet"/>
+    </seealso>
 </topic>

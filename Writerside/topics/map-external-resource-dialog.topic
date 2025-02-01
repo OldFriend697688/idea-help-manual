@@ -6,4 +6,7 @@
        title="映射外部资源对话框" id="map-external-resource-dialog">
 
     <p>Start typing here...</p>
+    <seealso>
+        <include from="reuse-library.topic" element-id="list-of-suggested-seealso-snippet"/>
+    </seealso>
 </topic>

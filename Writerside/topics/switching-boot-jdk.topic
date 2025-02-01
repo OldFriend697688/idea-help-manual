@@ -29,7 +29,7 @@
         <video src="https://www.youtube.com/watch?v=pj8qvwKxBO0" width="706" border-effect="rounded"/>
     </procedure>
     <note>在 IntelliJ IDEA 中使用非默认 JRE 时，它不会随 IDE 更新，并且可能与新版本不兼容。更新 IntelliJ IDEA 时，请重置回默认 JRE，以获得最新兼容版本的 JBR。</note>
-    <p>已选 JRE 的路径信息存储在 <include from="reuse-library.topic" element-id="config-directory-snippet"/> 的 <path>idea.exe.jdk</path> 或 <path>idea64.exe.jdk</path> 文件中。如果当前选择的 JRE 存在问题，可删除该文件使 IntelliJ IDEA 恢复使用默认的 JBR。</p>
+    <p>已选 JRE 的路径信息存储在 <include from="reuse-library.topic" element-id="idea-config-directory-snippet"/> 的 <path>idea.exe.jdk</path> 或 <path>idea64.exe.jdk</path> 文件中。如果当前选择的 JRE 存在问题，可删除该文件使 IntelliJ IDEA 恢复使用默认的 JBR。</p>
     <img alt="idea64.exe.jdk 文件" src="idea64.exe.jdk 文件.png" width="706" border-effect="rounded" thumbnail="true"/>
     <video src="https://www.youtube.com/watch?v=td0h8HKswg0" width="706" border-effect="rounded"/>
     <p>您还可以通过使用 <code>IDEA_JDK</code> 环境变量并指定 JDK 的路径来覆盖 IntelliJ IDEA 使用的 JRE。</p>

@@ -9,4 +9,7 @@
    <chapter id="inline-quick-documentation" title="快速文档">
 
    </chapter>
+   <seealso>
+      <include from="reuse-library.topic" element-id="list-of-suggested-seealso-snippet"/>
+   </seealso>
 </topic>

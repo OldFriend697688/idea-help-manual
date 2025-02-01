@@ -6,4 +6,7 @@
        title="更改 Java 的签名" id="change-class-signature-dialog">
 
     <p>Start typing here...</p>
+    <seealso>
+        <include from="reuse-library.topic" element-id="list-of-suggested-seealso-snippet"/>
+    </seealso>
 </topic>

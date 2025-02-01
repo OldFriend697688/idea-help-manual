@@ -6,4 +6,7 @@
        title="导入表对话框" id="import-table-dialog">
 
     <p>Start typing here...</p>
+    <seealso>
+        <include from="reuse-library.topic" element-id="list-of-suggested-seealso-snippet"/>
+    </seealso>
 </topic>

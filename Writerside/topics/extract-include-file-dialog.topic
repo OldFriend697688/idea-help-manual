@@ -6,4 +6,7 @@
        title="提取包括字段" id="extract-include-file-dialog">
 
     <p>Start typing here...</p>
+    <seealso>
+        <include from="reuse-library.topic" element-id="list-of-suggested-seealso-snippet"/>
+    </seealso>
 </topic>

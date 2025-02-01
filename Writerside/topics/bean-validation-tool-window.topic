@@ -6,4 +6,7 @@
        title="Bean 验证工具窗口" id="bean-validation-tool-window">
 
     <p>Start typing here...</p>
+    <seealso>
+        <include from="reuse-library.topic" element-id="list-of-suggested-seealso-snippet"/>
+    </seealso>
 </topic>

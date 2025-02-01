@@ -6,4 +6,7 @@
        title="配置连接" id="configuring-database-connections">
 
     <p>Start typing here...</p>
+    <seealso>
+        <include from="reuse-library.topic" element-id="list-of-suggested-seealso-snippet"/>
+    </seealso>
 </topic>

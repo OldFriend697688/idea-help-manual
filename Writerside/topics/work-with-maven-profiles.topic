@@ -6,4 +6,7 @@
        title="Maven 简介" id="work-with-maven-profiles">
 
     <p>Start typing here...</p>
+    <seealso>
+        <include from="reuse-library.topic" element-id="list-of-suggested-seealso-snippet"/>
+    </seealso>
 </topic>

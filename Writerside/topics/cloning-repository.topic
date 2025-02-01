@@ -6,4 +6,7 @@
        title="克隆存储库" id="cloning-repository">
 
     <p>Start typing here...</p>
+    <seealso>
+        <include from="reuse-library.topic" element-id="list-of-suggested-seealso-snippet"/>
+    </seealso>
 </topic>

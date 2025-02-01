@@ -7,5 +7,7 @@
     <chapter id="structure-tool-window" title="结构工具窗口">
 
     </chapter>
-    <p>Start typing here...</p>
+    <seealso>
+        <include from="reuse-library.topic" element-id="list-of-suggested-seealso-snippet"/>
+    </seealso>
 </topic>

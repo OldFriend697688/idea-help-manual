@@ -6,4 +6,7 @@
        title="选择目标更改列表对话框" id="select-target-changelist-dialog">
 
     <p>Start typing here...</p>
+    <seealso>
+        <include from="reuse-library.topic" element-id="list-of-suggested-seealso-snippet"/>
+    </seealso>
 </topic>

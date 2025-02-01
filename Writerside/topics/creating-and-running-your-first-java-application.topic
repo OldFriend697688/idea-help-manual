@@ -156,6 +156,6 @@
         </procedure>
     </chapter>
     <seealso>
-       <include from="reuse-library.topic" element-id="list-of-suggested-seealso-snippet"/>
+        <include from="reuse-library.topic" element-id="list-of-suggested-seealso-snippet"/>
     </seealso>
 </topic>

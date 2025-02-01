@@ -6,4 +6,7 @@
        title="依赖结构矩阵" id="dsm-analysis">
 
     <chapter id="dsm-tool-window" title="DSM 工具窗口"></chapter>
+    <seealso>
+        <include from="reuse-library.topic" element-id="list-of-suggested-seealso-snippet"/>
+    </seealso>
 </topic>

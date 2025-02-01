@@ -25,4 +25,7 @@
     <chapter id="variables" title="检查/更新变量"></chapter>
     <chapter id="evaluating-expressions" title="评估表达式"></chapter>
     <chapter id="inline-view" title="内联调试视图"></chapter>
+    <seealso>
+        <include from="reuse-library.topic" element-id="list-of-suggested-seealso-snippet"/>
+    </seealso>
 </topic>

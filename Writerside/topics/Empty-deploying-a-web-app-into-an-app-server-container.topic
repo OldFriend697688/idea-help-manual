@@ -6,4 +6,7 @@
        title="在应用服务器容器内部署 Java 网络应用程序" id="Empty-deploying-a-web-app-into-an-app-server-container">
 
     <p>Start typing here...</p>
+    <seealso>
+        <include from="reuse-library.topic" element-id="list-of-suggested-seealso-snippet"/>
+    </seealso>
 </topic>

@@ -6,4 +6,7 @@
        title="在数据库工具窗口中找不到数据库对象" id="cannot-find-a-database-object-in-the-database-tree-view">
 
     <p>Start typing here...</p>
+    <seealso>
+        <include from="reuse-library.topic" element-id="list-of-suggested-seealso-snippet"/>
+    </seealso>
 </topic>

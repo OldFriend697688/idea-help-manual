@@ -6,4 +6,7 @@
        title="文件缓存冲突" id="file-cache-conflict">
 
     <p>Start typing here...</p>
+    <seealso>
+        <include from="reuse-library.topic" element-id="list-of-suggested-seealso-snippet"/>
+    </seealso>
 </topic>

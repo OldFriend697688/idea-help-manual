@@ -8,4 +8,7 @@
         <p>单击字段声明所在的行旁边的间距图标，或者将光标放在该行上并按 <shortcut>Ctrl</shortcut><shortcut>F8</shortcut> 。</p>
         <img src="字段断点或字段监视点-1.png" alt="字段断点或字段监视点" width="706"/>
     </procedure>
+    <seealso>
+        <include from="reuse-library.topic" element-id="list-of-suggested-seealso-snippet"/>
+    </seealso>
 </topic>

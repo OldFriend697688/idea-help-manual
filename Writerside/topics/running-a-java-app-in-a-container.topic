@@ -6,4 +6,7 @@
        title="在 Docker 容器中运行 Java 应用程序" id="running-a-java-app-in-a-container">
 
     <p>Start typing here...</p>
+    <seealso>
+        <include from="reuse-library.topic" element-id="list-of-suggested-seealso-snippet"/>
+    </seealso>
 </topic>

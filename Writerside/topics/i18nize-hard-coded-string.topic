@@ -6,4 +6,7 @@
        title="I18nize 硬编码字符串" id="i18nize-hard-coded-string">
 
     <p>Start typing here...</p>
+    <seealso>
+        <include from="reuse-library.topic" element-id="list-of-suggested-seealso-snippet"/>
+    </seealso>
 </topic>

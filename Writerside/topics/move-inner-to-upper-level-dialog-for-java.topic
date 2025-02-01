@@ -6,4 +6,7 @@
        title="将 Java 的内部对话框移至上层对话框" id="move-inner-to-upper-level-dialog-for-java">
 
     <p>Start typing here...</p>
+    <seealso>
+        <include from="reuse-library.topic" element-id="list-of-suggested-seealso-snippet"/>
+    </seealso>
 </topic>

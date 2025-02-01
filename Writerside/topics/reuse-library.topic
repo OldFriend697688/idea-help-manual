@@ -5,7 +5,7 @@
        xsi:noNamespaceSchemaLocation="https://resources.jetbrains.com/writerside/1.0/topic.v2.xsd"
        title="reuse-library" id="reuse-library" is-library="true">
     <!-- IntelliJ IDEA 配置文件夹 -->
-    <snippet id="config-directory-snippet">
+    <snippet id="idea-config-directory-snippet">
         <a href="directories-used-by-the-ide-to-store-settings-caches-plugins-and-logs.topic" summary="" anchor="config-directory"/>
     </snippet>
 

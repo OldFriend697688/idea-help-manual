@@ -6,4 +6,7 @@
        title="生成 equals() 和 hashCode() 向导" id="generate-equals-and-hashcode-wizard">
 
     <p>Start typing here...</p>
+    <seealso>
+        <include from="reuse-library.topic" element-id="list-of-suggested-seealso-snippet"/>
+    </seealso>
 </topic>

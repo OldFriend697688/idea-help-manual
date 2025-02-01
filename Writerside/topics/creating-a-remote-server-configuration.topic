@@ -6,4 +6,7 @@
        title="创建远程服务器配置" id="creating-a-remote-server-configuration">
 
     <p>Start typing here...</p>
+    <seealso>
+        <include from="reuse-library.topic" element-id="list-of-suggested-seealso-snippet"/>
+    </seealso>
 </topic>

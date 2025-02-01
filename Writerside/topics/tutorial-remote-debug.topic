@@ -6,4 +6,7 @@
        title="教程：远程调试" id="tutorial-remote-debug">
 
     <p>Start typing here...</p>
+    <seealso>
+        <include from="reuse-library.topic" element-id="list-of-suggested-seealso-snippet"/>
+    </seealso>
 </topic>

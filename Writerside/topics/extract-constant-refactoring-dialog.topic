@@ -6,4 +6,7 @@
        title="提取常量对话框" id="extract-constant-refactoring-dialog">
 
     <p>Start typing here...</p>
+    <seealso>
+        <include from="reuse-library.topic" element-id="list-of-suggested-seealso-snippet"/>
+    </seealso>
 </topic>

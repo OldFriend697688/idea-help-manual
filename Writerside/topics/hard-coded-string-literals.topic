@@ -6,4 +6,7 @@
        title="硬编码的字符串文本" id="hard-coded-string-literals">
 
     <p>Start typing here...</p>
+    <seealso>
+        <include from="reuse-library.topic" element-id="list-of-suggested-seealso-snippet"/>
+    </seealso>
 </topic>

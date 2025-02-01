@@ -6,4 +6,7 @@
        title="在 Space 中查看代码" id="review-code-in-space">
 
     <p>Start typing here...</p>
+    <seealso>
+        <include from="reuse-library.topic" element-id="list-of-suggested-seealso-snippet"/>
+    </seealso>
 </topic>

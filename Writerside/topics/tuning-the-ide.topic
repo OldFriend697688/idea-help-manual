@@ -28,16 +28,16 @@
         </tabs>
         <warning>请勿更改 <a anchor="default-vmoptions-file" summary="">上述文件</a> 中的 JVM 选项，因为当 IntelliJ IDEA 更新时会替换该文件。另外，在 <tooltip term="macos">macOS</tooltip> 中，编辑该文件会违反应用程序签名。</warning>
         <procedure id="procedure-jvm-options" title="配置 JVM 选项" type="choices">
-            <p>执行以下操作，可在 <include from="reuse-library.topic" element-id="config-directory-snippet"/> 中创建 <a anchor="default-vmoptions-file" summary="">默认 JVM 选项文件</a> 的副本，该副本将覆盖原始文件。</p>
+            <p>执行以下操作，可在 <include from="reuse-library.topic" element-id="idea-config-directory-snippet"/> 中创建 <a anchor="default-vmoptions-file" summary="">默认 JVM 选项文件</a> 的副本，该副本将覆盖原始文件。</p>
             <step>选择 <ui-path><include from="reuse-library.topic" element-id="main-menus-snippet"/> | 帮助 | 编辑自定义 VM 选项</ui-path> 。</step>
             <img alt="编辑自定义 VM 选项（主菜单）" src="编辑自定义 VM 选项（主菜单）.png" width="706" border-effect="rounded" thumbnail="true"/>
             <step>单击 <control>欢迎界面</control> 中的 <img src="设置.svg" alt=""/> 然后选择 <ui-path>编辑自定义 VM 选项</ui-path> 。</step>
             <img alt="编辑自定义 VM 选项（欢迎界面设置按钮）" src="编辑自定义 VM 选项（欢迎界面设置按钮）.png" width="706" border-effect="rounded" thumbnail="true"/>
             <video src="https://www.youtube.com/watch?v=31v-9X3DCvg" width="706" border-effect="rounded"/>
-            <warning>若无法启动 IntelliJ IDEA，请将 <a anchor="default-vmoptions-file" summary="">默认 JVM 选项文件</a> 复制到 <include from="reuse-library.topic" element-id="config-directory-snippet"/> 中。&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;</warning>
+            <warning>若无法启动 IntelliJ IDEA，请将 <a anchor="default-vmoptions-file" summary="">默认 JVM 选项文件</a> 复制到 <include from="reuse-library.topic" element-id="idea-config-directory-snippet"/> 中。&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;</warning>
             <video src="https://www.youtube.com/watch?v=GI0fCUz-93Y" width="706" border-effect="rounded"/>
         </procedure>
-        <p>如果没有 <include from="reuse-library.topic" element-id="config-directory-snippet"/> 的写入权限，请将 <code>IDEA_VM_OPTIONS</code> 添加至 <tooltip term="environment-variable">环境变量</tooltip> 并指定包含首选 JVM 选项的文件的位置。该文件将覆盖 <a anchor="default-vmoptions-file" summary="">默认 JVM 选项文件</a> 和 IntelliJ IDEA <include from="reuse-library.topic" element-id="config-directory-snippet"/> 中的副本文件。</p>
+        <p>如果没有 <include from="reuse-library.topic" element-id="idea-config-directory-snippet"/> 的写入权限，请将 <code>IDEA_VM_OPTIONS</code> 添加至 <tooltip term="environment-variable">环境变量</tooltip> 并指定包含首选 JVM 选项的文件的位置。该文件将覆盖 <a anchor="default-vmoptions-file" summary="">默认 JVM 选项文件</a> 和 IntelliJ IDEA <include from="reuse-library.topic" element-id="idea-config-directory-snippet"/> 中的副本文件。</p>
         <img alt="调整 IntelliJ IDEA 使用的默认 JVM 选项文件" src="调整 IntelliJ IDEA 使用的默认 JVM 选项文件.png" width="706" thumbnail="true"/>
         <video src="https://www.youtube.com/watch?v=F-d3nYdKan0" width="706" border-effect="rounded"/>
         <note>如果使用 <a href="installation-guide.topic" summary="" anchor="toolbox">Toolbox App</a> 管理已安装的 IDE 实例，您需要单击相关 IDE 实例右侧的 <img src="toolbox app 更多按钮.svg" alt=""/> ，然后选择 <ui-path>设置</ui-path> 。向下滑动鼠标滑轮后您将可以找到 <ui-path>默认 JVM 选项文件位置</ui-path> 和 <ui-path>编辑 JVM 选项</ui-path> 这两个选项。</note>
@@ -53,8 +53,8 @@
                 <note>如果未添加 <code>IDEA_VM_OPTIONS</code> 环境变量但使用 Toolbox App 管理 IntelliJ IDEA 实例，则它将使用在 Toolbox App 中的指定的 JVM 选项文件。</note>
             </step>
             <step>
-                <p>如果您独立管理 IntelliJ IDEA 实例，则使用 <include from="reuse-library.topic" element-id="config-directory-snippet"/> 中的 JVM 选项文件。</p>
-                <note>如果未添加 <code>IDEA_VM_OPTIONS</code> 环境变量且未使用 Toolbox App 管理 IntelliJ IDEA 实例，则它将使用 <include from="reuse-library.topic" element-id="config-directory-snippet"/> 中的 JVM 选项文件。</note>
+                <p>如果您独立管理 IntelliJ IDEA 实例，则使用 <include from="reuse-library.topic" element-id="idea-config-directory-snippet"/> 中的 JVM 选项文件。</p>
+                <note>如果未添加 <code>IDEA_VM_OPTIONS</code> 环境变量且未使用 Toolbox App 管理 IntelliJ IDEA 实例，则它将使用 <include from="reuse-library.topic" element-id="idea-config-directory-snippet"/> 中的 JVM 选项文件。</note>
             </step>
             <step>如果上述都未明确声明 JVM 配置文件的所在路径，将使用 <a anchor="default-vmoptions-file" summary="">默认 JVM 配置文件</a> 。</step>
         </procedure>
@@ -108,19 +108,19 @@
         </tabs>
         <warning>请勿更改默认文件中的平台属性，因为当 IntelliJ IDEA 更新时会替换该文件。另外，在 <tooltip term="macos">macOS</tooltip> 中，编辑该文件会违反应用程序签名。</warning>
         <procedure id="procedure-platform-properties" title="配置平台属性" type="choices">
-            <p>执行以下操作，可在 <include from="reuse-library.topic" element-id="config-directory-snippet"/> 中创建一个空的 <path> idea.properties</path> 。</p>
+            <p>执行以下操作，可在 <include from="reuse-library.topic" element-id="idea-config-directory-snippet"/> 中创建一个空的 <path> idea.properties</path> 。</p>
             <step>选择 <ui-path><include from="reuse-library.topic" element-id="main-menus-snippet"/> | 帮助 | 编辑自定义属性</ui-path> 。</step>
             <img alt="编辑自定义属性（主菜单）" src="编辑自定义属性（主菜单）.png" width="706" border-effect="rounded" thumbnail="true"/>
             <step>单击 <control>欢迎界面</control> 中的 <img src="设置.svg" alt=""/> 然后选择 <ui-path>编辑自定义属性</ui-path> 。</step>
             <img alt="编辑自定义属性（欢迎界面设置按钮）" src="编辑自定义属性（欢迎界面设置按钮）.png" width="706" border-effect="rounded" thumbnail="true"/>
             <video src="https://www.youtube.com/watch?v=TRrUi9fSnTk" width="706" border-effect="rounded"/>
-            <note>若无法启动 IntelliJ IDEA，请在 <include from="reuse-library.topic" element-id="config-directory-snippet"/> 中创建一个空白的 <path>idea.properties</path> 。&nbsp;&nbsp;</note>
+            <note>若无法启动 IntelliJ IDEA，请在 <include from="reuse-library.topic" element-id="idea-config-directory-snippet"/> 中创建一个空白的 <path>idea.properties</path> 。&nbsp;&nbsp;</note>
         </procedure>
-        <p>如果没有 <include from="reuse-library.topic" element-id="config-directory-snippet"/> 的写入权限，则请您将 <code>IDEA_PROPERTIES</code> 添加至 <tooltip term="environment-variable">环境变量</tooltip> 并为此变量指定 <path>idea.properties</path> 文件的路径。该文件中的值将会覆盖 <a anchor="default-idea-properties-file" summary="">默认文件</a> 和 <include from="reuse-library.topic" element-id="config-directory-snippet"/> 中的同名文件内的相应属性。</p>
+        <p>如果没有 <include from="reuse-library.topic" element-id="idea-config-directory-snippet"/> 的写入权限，则请您将 <code>IDEA_PROPERTIES</code> 添加至 <tooltip term="environment-variable">环境变量</tooltip> 并为此变量指定 <path>idea.properties</path> 文件的路径。该文件中的值将会覆盖 <a anchor="default-idea-properties-file" summary="">默认文件</a> 和 <include from="reuse-library.topic" element-id="idea-config-directory-snippet"/> 中的同名文件内的相应属性。</p>
         <img alt="IDEA_PROPERTIES 环境变量" src="IDEA_PROPERTIES 环境变量.png" width="706" thumbnail="true" border-effect="rounded"/>
         <!-- 常用的平台属性 -->
         <chapter id="common-platform-properties" title="常用的平台属性">
-            <p>您可以根据需要随时更改 IDE 默认目录的所在位置，更多信息请参阅 <include from="reuse-library.topic" element-id="config-directory-snippet"/> 。</p>
+            <p>您可以根据需要随时更改 IDE 默认目录的所在位置，更多信息请参阅 <include from="reuse-library.topic" element-id="idea-config-directory-snippet"/> 。</p>
             <procedure>
                 <p>在大多数情况下，JVM 选项的默认值已是最优值。以下是最常修改的一些选项：</p>
                 <table column-width="auto">

@@ -6,4 +6,7 @@
        title="Java 检查项列表" id="list-of-java-inspections">
 
     <p>Start typing here...</p>
+    <seealso>
+        <include from="reuse-library.topic" element-id="list-of-suggested-seealso-snippet"/>
+    </seealso>
 </topic>

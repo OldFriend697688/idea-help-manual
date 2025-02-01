@@ -6,4 +6,7 @@
        title="为现有项目添加 Maven 支持" id="convert-a-regular-project-into-a-maven-project">
 
     <p>Start typing here...</p>
+    <seealso>
+        <include from="reuse-library.topic" element-id="list-of-suggested-seealso-snippet"/>
+    </seealso>
 </topic>

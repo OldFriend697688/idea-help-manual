@@ -6,4 +6,7 @@
        title="安装方案" id="jetbrains-gateway">
 
     <p>Start typing here...</p>
+    <seealso>
+        <include from="reuse-library.topic" element-id="list-of-suggested-seealso-snippet"/>
+    </seealso>
 </topic>

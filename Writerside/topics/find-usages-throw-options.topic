@@ -6,4 +6,7 @@
        title="查找方法：异常选项" id="find-usages-throw-options">
 
     <p>Start typing here...</p>
+    <seealso>
+        <include from="reuse-library.topic" element-id="list-of-suggested-seealso-snippet"/>
+    </seealso>
 </topic>

@@ -6,4 +6,7 @@
        title="环绕代码片段" id="surrounding-blocks-of-code-with-language-constructs">
 
     <p>Start typing here...</p>
+    <seealso>
+        <include from="reuse-library.topic" element-id="list-of-suggested-seealso-snippet"/>
+    </seealso>
 </topic>

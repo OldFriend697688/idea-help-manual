@@ -6,4 +6,7 @@
        title="用构造方法替换构造函数" id="replace-constructor-with-factory-method">
 
     <p>Start typing here...</p>
+    <seealso>
+        <include from="reuse-library.topic" element-id="list-of-suggested-seealso-snippet"/>
+    </seealso>
 </topic>

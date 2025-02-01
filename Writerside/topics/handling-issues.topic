@@ -6,4 +6,7 @@
        title="VCS 与问题追踪器集成" id="handling-issues">
 
     <p>Start typing here...</p>
+    <seealso>
+        <include from="reuse-library.topic" element-id="list-of-suggested-seealso-snippet"/>
+    </seealso>
 </topic>

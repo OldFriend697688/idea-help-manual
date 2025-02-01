@@ -6,4 +6,7 @@
        title="将文件另存为模板对话框" id="save-file-as-template-dialog">
 
     <p>Start typing here...</p>
+    <seealso>
+        <include from="reuse-library.topic" element-id="list-of-suggested-seealso-snippet"/>
+    </seealso>
 </topic>

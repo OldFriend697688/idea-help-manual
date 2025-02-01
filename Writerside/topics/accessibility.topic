@@ -39,13 +39,13 @@
         </procedure>
         <procedure title="安装并设置 IntelliJ IDEA" id="install-and-set-up" type="steps">
             <warning>请先下载并启用屏幕阅读器，然后再执行以下操作，否则将无法体验实际效果。&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;</warning>
-            <note>对于 <tooltip term="windows">Windows</tooltip> 和 <tooltip term="macos">macOS</tooltip> 而言，当 IntelliJ IDEA 在首次启动时若检测到屏幕阅读器，它会显示一个对话框，您可以在其中为它启用屏幕阅读器。</note>
+            <note>对于 <tooltip term="windows">Windows</tooltip> 和 <tooltip term="macos">macOS</tooltip> 而言，当 IntelliJ IDEA 在首次启动时若检测到屏幕阅读器，其会显示一个对话框，您可以在其中为其启用屏幕阅读器。</note>
             <step>参阅 <a href="installation-guide.topic" summary=""/> 完成 IntelliJ IDEA 的下载和安装 。</step>
             <step>
                 <p>要在首次启动 IntelliJ IDEA 之前便先行启用屏幕阅读器支持，请执行以下操作：</p>
                 <list type="alpha-lower">
                     <li>
-                        <p>打开包含个人设置（例如： <a href="mastering-keyboard-shortcuts.topic" summary="">按键映射</a> 、 <a href="configuring-colors-and-fonts.topic" anchor="select-color-scheme" summary="">配色方案</a> 等）的 <a href="directories-used-by-the-ide-to-store-settings-caches-plugins-and-logs.topic" summary="">配置目录</a> 。</p>
+                        <p>打开包含个人设置（例如： <a href="mastering-keyboard-shortcuts.topic" summary="">按键映射</a> 、 <a href="configuring-colors-and-fonts.topic" anchor="select-color-scheme" summary="">配色方案</a> 等）的 <include from="reuse-library.topic" element-id="idea-config-directory-snippet"/> 。</p>
                         <tabs>
                             <tab title="Windows" id="windows-settings">
                                 <deflist>
@@ -62,7 +62,7 @@
                             </tab>
                         </tabs>
                     </li>
-                    <li id="idea-properties-file">在配置目录中创建名为 <path>idea.properties</path> 的文件。</li>
+                    <li id="idea-properties-file">在配置文件夹中创建名为 <path>idea.properties</path> 的文件。</li>
                     <li>将 <code>ide.support.screenreaders.enabled=true</code> 添加至 <a anchor="idea-properties-file" summary="">创建的文件</a> 中。</li>
                 </list>
             </step>
@@ -71,6 +71,7 @@
         </procedure>
     </chapter>
     <chapter id="customize-ide" title="自定义 IDE">
+        <p>如果您需要将 IntelliJ IDEA 还原至默认设置，请参阅 <a href="configuring-project-and-ide-settings.topic" summary="" anchor="restore-defaults"/> 。</p>
         <procedure id="red-green-deficiency" title="针对红-绿色觉缺陷调整颜色">
             <note>如果您不幸患有红绿色盲，可以尝试调整 <tooltip term="ide">IDE</tooltip> 和 <include from="reuse-library.topic" element-id="editor-snippet"/> 的颜色。在这种情况下，代码通知（ 例如：以 <format color="#ff5069" style="bold">红色</format> 高亮显示的错误或以 <format color="#498b49" style="bold">绿色</format> 显示的字符串文本 ）将以 <tooltip term="neutral-colors">中性色</tooltip> 显示。</note>
             <step>在 <control><include from="reuse-library.topic" element-id="idea-settings-keywords-snippet"/></control> 中选择 <include from="reuse-library.topic" element-id="ide-appearance-settings-snippet"/> 。</step>
@@ -204,7 +205,7 @@
             <video src="https://www.youtube.com/watch?v=A7z5bR0vuq8" width="706" border-effect="rounded"/>
         </procedure>
         <procedure id="custom-code-style" title="自定义代码样式">
-            <note>您可以配置空格、制表符和缩进。&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;</note>
+            <note>您可以配置空格、制表符和缩进。&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;</note>
             <step>
                 <p>在 <control><include from="reuse-library.topic" element-id="idea-settings-keywords-snippet"/></control> 中选择 <ui-path><include from="reuse-library.topic" element-id="editor-snippet"/> | 代码样式 | 目标语言</ui-path> 。</p>
                 <p>例如：您想要自定义 <tooltip term="java">Java</tooltip> 代码的样式，则应选择 <ui-path>编辑器 | 代码样式 | Java</ui-path> 。</p>
@@ -233,13 +234,13 @@
         <include from="reuse-library.topic" element-id="ides-snippet"/>
         <include from="reuse-library.topic" element-id="core-references-snippet"/>
         <include from="reuse-library.topic" element-id="programming-language-snippet"/>
+            <a href="https://www.freedomscientific.com/Products/software/JAWS/" summary="JAWS（Job Access With Speech）是世界上最流行的屏幕阅读器，专为因视力障碍而无法看到屏幕内容或使用鼠标导航的电脑用户开发。JAWS 可为电脑上最常用的计算机应用程序提供语音和盲文输出。您可以在办公室、远程桌面或家中浏览互联网、撰写文档、阅读电子邮件和制作演示文稿。">JAWS</a>
+            <a href="https://www.nvaccess.org/" summary="NV Access 是一个免费的、高质量的屏幕阅读器，可以帮助盲人和视障人士使用计算机。">Nv Access</a>
+            <a href="https://github.com/PKUFlyingPig/cs-self-learning" summary="提供计算机科学自学指南和学习路径。">CS 自学指南</a>
             <a href="https://javabetter.cn/" summary="分享 Java 技术文章和进阶教程。">二哥的 Java 进阶之路</a>
             <a href="https://github.com/xiaolincoder/CS-Base" summary="图解计算机基础，适合初学者。">小林 x 图解计算机基础</a>
-            <a href="https://github.com/PKUFlyingPig/cs-self-learning" summary="提供计算机科学自学指南和学习路径。">CS 自学指南</a>
-            <a href="https://www.nvaccess.org/" summary="NV Access 是一个免费的、高质量的屏幕阅读器，可以帮助盲人和视障人士使用计算机。">Nv Access</a>
             <a href="https://github.com/justjavac/free-programming-books-zh_CN" summary="汇集免费编程书籍资源。">免费编程中文书籍索引</a>
             <a href="https://github.com/CodingDocs/awesome-cs?tab=readme-ov-file" summary="精选优质计算机书籍和学习路线。">计算机优质书籍搜罗 + 学习路线推荐</a>
-            <a href="https://www.freedomscientific.com/Products/software/JAWS/" summary="JAWS（Job Access With Speech）是世界上最流行的屏幕阅读器，专为因视力障碍而无法看到屏幕内容或使用鼠标导航的电脑用户开发。JAWS 可为电脑上最常用的计算机应用程序提供语音和盲文输出。您可以在办公室、远程桌面或家中浏览互联网、撰写文档、阅读电子邮件和制作演示文稿。">JAWS</a>
         </category>
         <include from="reuse-library.topic" element-id="ai-editor-snippet"/>
     </seealso>

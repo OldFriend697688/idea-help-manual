@@ -6,4 +6,7 @@
        title="通过命令行合并文件" id="command-line-merge-tool">
 
     <p>Start typing here...</p>
+    <seealso>
+        <include from="reuse-library.topic" element-id="list-of-suggested-seealso-snippet"/>
+    </seealso>
 </topic>

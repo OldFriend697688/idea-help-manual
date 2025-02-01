@@ -6,4 +6,7 @@
        title="保存和还原更改" id="saving-and-reverting-changes">
 
     <p>Start typing here...</p>
+    <seealso>
+        <include from="reuse-library.topic" element-id="list-of-suggested-seealso-snippet"/>
+    </seealso>
 </topic>

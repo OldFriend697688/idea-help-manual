@@ -6,4 +6,7 @@
        title="结构搜索和替换" id="structural-search-and-replace">
 
     <p>Start typing here...</p>
+    <seealso>
+        <include from="reuse-library.topic" element-id="list-of-suggested-seealso-snippet"/>
+    </seealso>
 </topic>

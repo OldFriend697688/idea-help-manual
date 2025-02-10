@@ -1,0 +1,154 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE topic
+        SYSTEM "https://resources.jetbrains.com/writerside/1.0/xhtml-entities.dtd">
+<topic xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
+       xsi:noNamespaceSchemaLocation="https://resources.jetbrains.com/writerside/1.0/topic.v2.xsd"
+       title="高级设置" id="tuning-the-ide">
+    <p>您可以在 <control><include from="reuse-library.topic" element-id="idea-settings-keywords-snippet"/></control> 中调整 <tooltip term="idea">IDEA</tooltip> 的基本设置，还可修改其使用的 <tooltip term="java-runtime">Java 运行时环境</tooltip> 。</p>
+    <warning>通常，您无需更改这些高级设置。修改它们可能会导致 IntelliJ IDEA 无法正常运行或出现意外问题。如果遇到这些问题，请联系 <a href="https://intellij-support.jetbrains.com/hc/en-us">JetBrains 支持团队</a> 。</warning>
+    <!-- JVM 选项是用于配置 Java 虚拟机（JVM）行为的参数，它和 IntelliJ IDEA 自身的属性无任何关联关系。 -->
+    <chapter title="JVM 选项" id="jvm-options">
+        <p>IntelliJ IDEA 在 <tooltip term="jvm">JVM</tooltip> 上运行，您可以调整 JVM 选项来优化它的整体性能。</p>
+        <p>用于运行 IntelliJ IDEA 的默认 JVM 选项已在 <tooltip term="ide">IDE</tooltip> 安装文件夹中指定：</p>
+        <tabs id="default-vmoptions-file">
+            <tab title="Windows">
+                <deflist>
+                    <def title="语法" id="grammar"><path>&lt;IDE_HOME&gt;\bin\idea64.exe.vmoptions</path></def>
+                    <def title="例子" id="grammar-example"><path>C:\Program Development\IDEs\IntelliJ IDEA 2022.3.3\bin\idea64.exe.vmoptions</path></def>
+                </deflist>
+                <img alt="idea64.exe.vmoptions 文件" src="idea64.exe.vmoptions 文件.png" width="706" thumbnail="true" border-effect="rounded"/>
+                <img alt="idea64.exe.vmoptions 文件中的内容" src="idea64.exe.vmoptions 文件中的内容.png" width="706" thumbnail="true" border-effect="rounded"/>
+            </tab>
+            <tab title="macOS">
+                <path>IntelliJ IDEA.app/Contents/bin/idea.vmoptions</path>
+            </tab>
+            <tab title="Linux">
+                <path>&lt;IDE_HOME&gt;/bin/idea64.vmoptions</path>
+            </tab>
+        </tabs>
+        <warning>请勿更改 <a anchor="default-vmoptions-file" summary="">上述文件</a> 中的 JVM 选项，因为当 IntelliJ IDEA 更新时会替换该文件。另外，在 <tooltip term="macos">macOS</tooltip> 中，编辑该文件会违反应用程序签名。</warning>
+        <procedure id="procedure-jvm-options" title="配置 JVM 选项" type="choices">
+            <p>执行以下操作，在 <include from="reuse-library.topic" element-id="idea-config-directory-snippet"/> 中创建 <a anchor="default-vmoptions-file" summary="">默认 JVM 选项文件</a> 副本，该副本将覆盖原始文件。</p>
+            <step>选择 <ui-path><include from="reuse-library.topic" element-id="main-menus-snippet"/> | 帮助 | 编辑自定义 VM 选项</ui-path> 。</step>
+            <img alt="编辑自定义 VM 选项（主菜单）" src="编辑自定义 VM 选项（主菜单）.png" width="706" border-effect="rounded" thumbnail="true"/>
+            <step>单击 <control>欢迎界面</control> 中的 <img src="设置.svg" alt=""/> 然后选择 <ui-path>编辑自定义 VM 选项</ui-path> 。</step>
+            <img alt="编辑自定义 VM 选项（欢迎界面设置按钮）" src="编辑自定义 VM 选项（欢迎界面设置按钮）.png" width="706" border-effect="rounded" thumbnail="true"/>
+            <video src="https://www.youtube.com/watch?v=31v-9X3DCvg" width="706" border-effect="rounded"/>
+            <warning>若无法启动 IntelliJ IDEA，请将 <a anchor="default-vmoptions-file" summary="">默认 JVM 选项文件</a> 复制到 <include from="reuse-library.topic" element-id="idea-config-directory-snippet"/> 中。&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;</warning>
+            <video src="https://www.youtube.com/watch?v=GI0fCUz-93Y" width="706" border-effect="rounded"/>
+        </procedure>
+        <p>如果没有 <include from="reuse-library.topic" element-id="idea-config-directory-snippet"/> 的写入权限，请将 <code>IDEA_VM_OPTIONS</code> 添加至 <tooltip term="environment-variable">环境变量</tooltip> 并指定包含首选 JVM 选项的文件的位置。该文件将覆盖 <a anchor="default-vmoptions-file" summary="">默认 JVM 选项文件</a> 和 IntelliJ IDEA <include from="reuse-library.topic" element-id="idea-config-directory-snippet"/> 中的副本文件。</p>
+        <img alt="调整 IntelliJ IDEA 使用的默认 JVM 选项文件" src="调整 IntelliJ IDEA 使用的默认 JVM 选项文件.png" width="706" thumbnail="true"/>
+        <video src="https://www.youtube.com/watch?v=F-d3nYdKan0" width="706" border-effect="rounded"/>
+        <note>如果使用 <a href="installation-guide.topic" summary="" anchor="toolbox">Toolbox App</a> 管理已安装的 IDE 实例，您需要单击相关 IDE 实例右侧的 <img src="toolbox app 更多按钮.svg" alt=""/> ，然后选择 <ui-path>设置</ui-path> 。向下滑动鼠标滑轮后您将可以找到 <ui-path>默认 JVM 选项文件位置</ui-path> 和 <ui-path>编辑 JVM 选项</ui-path> 这两个选项。</note>
+        <img src="通过 Toolbox App 管理 IntelliJ IDEA 的 VM 选项配置文件及编辑 JVM 选项.png" alt="通过 Toolbox App 管理 IntelliJ IDEA 的 VM 选项配置文件及编辑 JVM 选项" width="706" border-effect="rounded"/>
+        <video src="https://www.youtube.com/watch?v=oHQ9zmuX6qA" width="706" border-effect="rounded"/>
+        <procedure id="locate-jvm-options-file" type="steps" title="找到正在使用的 JVM 选项文件">
+            <step>
+                <p>如果已添加 <code>IDEA_VM_OPTIONS</code> 环境变量，则优先从中获取 JVM 选项文件的位置。</p>
+                <note>此为最高优先级，如果 IntelliJ IDEA 在此步骤中能够找到 JVM 选项文件，则会优先使用它，进而跳过后续的查找步骤。以后，无论您是 <a href="installation-guide.topic" summary="" anchor="toolbox">通过 Toolbox App 管理 IntelliJ IDEA</a> 还是您 <a href="installation-guide.topic" summary="" anchor="standalone">独立管理</a> 它，始终都会使用 <code>IDEA_VM_OPTIONS</code> 环境变量中指定的 JVM 选项文件。</note>
+            </step>
+            <step>
+                <p>使用 <a href="installation-guide.topic" summary="" anchor="toolbox">Toolbox App</a> 中指定的 JVM 选项文件的位置。</p>
+                <note>如果未添加 <code>IDEA_VM_OPTIONS</code> 环境变量但使用 Toolbox App 管理 IntelliJ IDEA 实例，则它将使用在 Toolbox App 中的指定的 JVM 选项文件。</note>
+            </step>
+            <step>
+                <p>如果您独立管理 IntelliJ IDEA 实例，则使用 <include from="reuse-library.topic" element-id="idea-config-directory-snippet"/> 中的 JVM 选项文件。</p>
+                <note>如果未添加 <code>IDEA_VM_OPTIONS</code> 环境变量且未使用 Toolbox App 管理 IntelliJ IDEA 实例，则它将使用 <include from="reuse-library.topic" element-id="idea-config-directory-snippet"/> 中的 JVM 选项文件。</note>
+            </step>
+            <step>如果上述都未明确声明 JVM 配置文件的所在路径，将使用 <a anchor="default-vmoptions-file" summary="">默认 JVM 配置文件</a> 。</step>
+        </procedure>
+        <!-- 常用的 JVM 选项 -->
+        <chapter id="common-jvm-options" title="常用的 JVM 选项">
+            <procedure>
+                <p>在大多数情况下，JVM 选项的默认值已是最优值。以下是最常修改的一些选项：</p>
+                <table column-width="fixed">
+                    <tr>
+                        <td width="112">选项</td>
+                        <td>描述</td>
+                    </tr>
+                    <tr>
+                        <td><code>-Xmx</code></td>
+                        <td>
+                            <p>限制 JVM 为运行 IntelliJ IDEA 分配的最大堆内存大小。默认值取决于平台。如果您遇到性能下降，则可能需要增加此值。例如：将值设置为 2048 兆字节，则将此选项更改为 <code>-Xmx2048m</code> 。</p>
+                            <p>如需更多信息，请参阅 <a href="increasing-memory-heap.topic" summary=""/> 。</p>
+                        </td>
+                    </tr>
+                    <tr>
+                        <td><code>-Xms</code></td>
+                        <td>指定 JVM 为运行 IntelliJ IDEA 分配的初始内存。默认值取决于平台。通常设置为允许的最大内存 (-Xmx) 的一半左右，例如 <code>-Xms1024m</code> 。</td>
+                    </tr>
+                    <tr>
+                        <td><code>-XX:NewRatio</code></td>
+                        <td>指定堆的新生代和老一代之间的比例。大多数情况下，建议使用 2 到 4 之间的比例。这将使新一代堆的大小相应为老一代堆的 1/2-1/4，当你经常处理一个项目且一次只处理几个文件时，这样做是很好的。但是，如果你经常打开新文件并在多个项目之间切换，你可能需要增加年轻一代的大小。在这种情况下，请尝试设置 <code>-XX:NewRatio=1</code> ，这将使年轻一代与老一代一样大，从而使对象在年轻一代中保留更长时间。</td>
+                    </tr>
+                </table>
+            </procedure>
+            <p>有关可用 JVM 选项的更多信息，请参阅 <a href="https://docs.oracle.com/en/java/javase/11/tools/java.html" summary="">Java 命令参考指南</a> 。</p>
+        </chapter>
+    </chapter>
+    <!-- 平台属性是指可针对 IntelliJ IDEA 进行的更具个性化的设置，它和 JVM 选项的相关配置并无直接关系。 -->
+    <chapter id="configure-platform-properties" title="平台属性">
+        <p>IntelliJ IDEA 允许您自定义各种特定于平台（指 <tooltip term="idea">IDEA</tooltip> 自身）的属性。例如：用户安装的 <a href="directories-used-by-the-ide-to-store-settings-caches-plugins-and-logs.topic" summary="" anchor="plugins-directory"/> 和最大支持的文件大小。用于支撑 IntelliJ IDEA 运行的默认属性已在 <tooltip term="ide">IDE</tooltip> 安装文件夹中指定：</p>
+        <tabs>
+            <tab title="Windows" id="default-idea-properties-file">
+                <deflist>
+                    <def title="语法" id="idea-properties-grammar"><path>&lt;IDE_HOME&gt;\bin\idea.properties</path></def>
+                    <def title="例子" id="idea-properties-grammar-example"><path>C:\Program Development\IDEs\IntelliJ IDEA 2022.3.3\bin\idea.properties</path></def>
+                </deflist>
+                <img alt="idea.properties（Windows）" src="idea.properties（Windows）.png" width="706" border-effect="rounded" thumbnail="true"/>
+                <img alt="idea.properties 文件中的内容" src="idea.properties 文件中的内容.png" width="706" border-effect="rounded" thumbnail="true"/>
+            </tab>
+            <tab title="macOS">
+                <path>IntelliJ IDEA.app/Contents/bin/idea.properties</path>
+            </tab>
+            <tab title="Linux">
+                <path>&lt;IDE_HOME&gt;/bin/idea.properties</path>
+            </tab>
+        </tabs>
+        <warning>请勿更改默认文件中的平台属性，因为当 IntelliJ IDEA 更新时会替换该文件。另外，在 <tooltip term="macos">macOS</tooltip> 中，编辑该文件会违反应用程序签名。</warning>
+        <procedure id="procedure-platform-properties" title="配置平台属性" type="choices">
+            <p>执行以下操作，可在 <include from="reuse-library.topic" element-id="idea-config-directory-snippet"/> 中创建一个空的 <path> idea.properties</path> 。</p>
+            <step>选择 <ui-path><include from="reuse-library.topic" element-id="main-menus-snippet"/> | 帮助 | 编辑自定义属性</ui-path> 。</step>
+            <img alt="编辑自定义属性（主菜单）" src="编辑自定义属性（主菜单）.png" width="706" border-effect="rounded" thumbnail="true"/>
+            <step>单击 <control>欢迎界面</control> 中的 <img src="设置.svg" alt=""/> 然后选择 <ui-path>编辑自定义属性</ui-path> 。</step>
+            <img alt="编辑自定义属性（欢迎界面设置按钮）" src="编辑自定义属性（欢迎界面设置按钮）.png" width="706" border-effect="rounded" thumbnail="true"/>
+            <video src="https://www.youtube.com/watch?v=TRrUi9fSnTk" width="706" border-effect="rounded"/>
+        </procedure>
+        <p>如果没有 <include from="reuse-library.topic" element-id="idea-config-directory-snippet"/> 的写入权限，则请您将 <code>IDEA_PROPERTIES</code> 添加至 <tooltip term="environment-variable">环境变量</tooltip> 并为此变量指定 <path>idea.properties</path> 文件的路径。该文件中的值将会覆盖 <a anchor="default-idea-properties-file" summary="">默认文件</a> 和 <include from="reuse-library.topic" element-id="idea-config-directory-snippet"/> 中的同名文件内的相应属性。</p>
+        <img alt="IDEA_PROPERTIES 环境变量" src="IDEA_PROPERTIES 环境变量.png" width="706" thumbnail="true" border-effect="rounded"/>
+        <!-- 常用的平台属性 -->
+        <chapter id="common-platform-properties" title="常用的平台属性">
+            <p>您可以根据需要随时更改 <tooltip term="ide">IDE</tooltip> 默认目录的所在位置，更多信息请参阅 <a href="directories-used-by-the-ide-to-store-settings-caches-plugins-and-logs.topic" summary="" anchor="change-ide-dirs"/> 。</p>
+            <procedure>
+                <p>在大多数情况下，平台属性的默认值已是最优值。以下是可能影响性能的一些属性：</p>
+                <table column-width="auto">
+                    <tr>
+                        <td>选项</td>
+                        <td>描述</td>
+                    </tr>
+                    <tr>
+                        <td><code>idea.max.content.load.filesize</code></td>
+                        <td>IntelliJ IDEA 能够打开的最大文件大小（以千字节为单位）。处理大文件会影响编辑器性能并增加内存消耗。默认值为 <code>20000</code> 。</td>
+                    </tr>
+                    <tr>
+                        <td><code>idea.max.intellisense.filesize</code></td>
+                        <td>IntelliJ IDEA 提供编码帮助的文件最大大小（千字节）。为大文件提供编码辅助会影响编辑器性能并增加内存消耗。默认值为 <code>2500</code> 。</td>
+                    </tr>
+                    <tr>
+                        <td><code>idea.cycle.buffer</code></td>
+                        <td>控制台循环缓冲区的最大大小（千字节）。如果控制台输出大小超过此值，最旧的行将被删除。要禁用循环缓冲区，请设置 <code>idea.cycle.buffer.size=disabled</code> 。</td>
+                    </tr>
+                    <tr>
+                        <td><code>idea.max.vcs.loaded.size.kb</code></td>
+                        <td>IntelliJ IDEA 在比较更改时加载用于显示过去文件内容的最大大小（千字节）。默认值为 <code>20480</code> 。</td>
+                    </tr>
+                </table>
+            </procedure>
+            <p>IntelliJ IDEA 还提供了许多其他属性，用于定义与环境（窗口管理器、启动器、文件系统等）的交互。它们中的大多数都类似于隐藏设置（因为它们并没有明显地暴露出来），在某些情况下您可能需要启用或禁用它们。请根据 <a href="https://intellij-support.jetbrains.com/hc/en-us">JetBrains 支持团队</a> 的建议更改这些属性。</p>
+        </chapter>
+    </chapter>
+    <seealso>
+        <include from="reuse-library.topic" element-id="list-of-suggested-seealso-snippet"/>
+    </seealso>
+</topic>

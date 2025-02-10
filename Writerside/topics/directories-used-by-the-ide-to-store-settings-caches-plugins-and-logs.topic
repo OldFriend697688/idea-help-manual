@@ -1,0 +1,264 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE topic
+        SYSTEM "https://resources.jetbrains.com/writerside/1.0/xhtml-entities.dtd">
+<topic xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
+       xsi:noNamespaceSchemaLocation="https://resources.jetbrains.com/writerside/1.0/topic.v2.xsd"
+       title="IDE 使用的重要文件夹" id="directories-used-by-the-ide-to-store-settings-caches-plugins-and-logs">
+    <note>在 Windows 系统中，可使用 <code>&percnt;USERPROFILE&percnt;</code> 环境变量快速访问当前用户的主文件夹。</note>
+    <p>默认情况下，IntelliJ IDEA 会将每个 <tooltip term="ide">IDE</tooltip> 实例的用户特定文件（配置、 <a href="invalidate-caches.topic" summary="" anchor="caches"/> 、 <a href="managing-plugins.topic" summary="">插件</a> 、日志等）存储在用户的主文件夹中。不过，如有必要，您可以更改这些文件的存储位置。</p>
+    <video src="https://www.youtube.com/watch?v=TexdoXphMms" width="706" border-effect="rounded"/>
+    <!-- 更改 IDE 文件夹位置步骤：详细说明如何修改 IDE 各类文件夹的存储位置 -->
+    <procedure id="change-ide-dirs" title="更改 IDE 文件夹位置">
+        <note>您可以移动默认的 IDE 文件夹，例如：如果用户配置文件驱动器空间不足或位于速度较慢的磁盘上，如果主文件夹已加密（降低 IDE 速度）或位于网络驱动器上，如果您想创建便携式安装或从主文件夹备份中排除缓存，等等。</note>
+        <step>选择 <ui-path><include from="reuse-library.topic" element-id="main-menus-snippet"/> | 帮助 | 编辑自定义属性</ui-path> 。</step>
+        <img src="编辑自定义属性.png" alt="编辑自定义属性" width="706" border-effect="rounded" thumbnail="true"/>
+        <step>
+            <p>设置与必要文件夹相对应的属性：</p>
+            <table column-width="fixed">
+                <tr>
+                    <td width="156">属性名</td>
+                    <td>对应文件夹</td>
+                </tr>
+                <tr>
+                    <td><code id="config-dir-path">idea.config.path</code></td>
+                    <td><a anchor="config-directory" summary=""/></td>
+                </tr>
+                <tr>
+                    <td><code id="system-dir-path">idea.system.path</code></td>
+                    <td><a anchor="system-directory" summary=""/></td>
+                </tr>
+                <tr>
+                    <td><code id="plugins-dir-path">idea.plugins.path</code></td>
+                    <td><a anchor="plugins-directory" summary=""/></td>
+                </tr>
+                <tr>
+                    <td><code id="log-dir-path">idea.log.path</code></td>
+                    <td><a anchor="log-directory" summary=""/></td>
+                </tr>
+            </table>
+            <note>请使用 <code>/</code> 指定路径，例如： <path>C:/idea/system</path> 。&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;</note>
+            <p>您可以插入任何其他属性作为变量。例如：使用 <code>${user.home}</code> （标准 Java 系统属性）指定相对于用户主文件夹的路径：</p>
+            <code-block lang="plain text">idea.config.path=${user.home}/MyIdeaConfiguration</code-block>
+        </step>
+        <step>重启 IntelliJ IDEA 后，它将使用相应文件夹的新位置。</step>
+    </procedure>
+    <!-- 清理旧的 IDE 目录步骤：介绍如何清理和管理旧版本 IDE 的遗留文件 -->
+    <procedure id="clean-up-old-ide-dirs" title="清理旧的 IDE 目录">
+        <p>每次安装新的 IntelliJ IDEA 主版本时，它都会使用一组新的 <tooltip term="ide">IDE</tooltip> 文件夹，并自动删除过去 180 天内未更新的旧版本 IDE 的缓存和 <a anchor="log-directory" summary=""/> 。 但是， <a anchor="config-directory" summary=""/> 和 <a anchor="plugins-directory" summary=""/> 将永久保留，除非您手动删除它们。</p>
+        <step>选择 <ui-path><include from="reuse-library.topic" element-id="main-menus-snippet"/> | 帮助 | 删除残留的 IDE 目录</ui-path></step>
+        <img alt="删除残留的 IDE 目录.png" src="删除残留的 IDE 目录.png" width="706" border-effect="rounded" thumbnail="true"/>
+        <step>在 <control>删除残留的 IDE 存储目录</control> 中，选择您不打算使用的 IDE 版本，然后单击 <control>删除</control> 。</step>
+        <img alt="删除残留的 IDE 存储目录.png" src="删除残留的 IDE 存储目录.png" width="706" border-effect="rounded" thumbnail="true"/>
+    </procedure>
+    <!-- IDE 配置文件夹章节：详细介绍 IDE 配置文件的存储位置和管理方式 -->
+    <chapter id="config-directory" title="IDE 配置文件夹">
+        <p>IntelliJ IDEA 的配置文件夹包含用户自定义的 <tooltip term="ide">IDE</tooltip> 设置，例如： <a href="mastering-keyboard-shortcuts.topic" summary="">按键映射</a> 、 <a href="configuring-colors-and-fonts.topic" summary="" anchor="customize-color-scheme">配色方案</a> 、 <a href="tuning-the-ide.topic" summary="" anchor="common-jvm-options">自定义 VM 选项</a> 、 <a href="tuning-the-ide.topic" summary="" anchor="common-platform-properties">平台属性</a> 等。</p>
+        <tabs>
+            <tab title="Windows" id="windows">
+                <deflist>
+                    <def title="语法" id="windows-grammar">
+                        <path>&percnt;APPDATA&percnt;\JetBrains\&lt;product&gt;&lt;version&gt;</path>
+                    </def>
+                    <def title="例子" id="windows-grammar-example">
+                        <path>C:\Users\OldFriend\AppData\Roaming\JetBrains\IntelliJIdea2022.3</path>
+                    </def>
+                </deflist>
+                <video src="https://www.youtube.com/watch?v=kLTkHdQLT7U" width="706" border-effect="rounded"/>
+            </tab>
+            <tab title="macOS" id="macos">
+                <deflist>
+                    <def title="语法" id="macos-grammar"><path>~/Library/Application Support/JetBrains/&lt;product&gt;&lt;version&gt;</path></def>
+                    <def title="例子" id="macos-grammar-example"><path>~/Library/Application Support/JetBrains/IntelliJIdea2022.3</path></def>
+                </deflist>
+            </tab>
+            <tab title="Linux" id="linux">
+                <deflist>
+                    <def title="语法" id="linux-grammar"><path>~/.config/JetBrains/&lt;product&gt;&lt;version&gt;</path></def>
+                    <def title="例子" id="linux-grammar-example"><path>~/.config/JetBrains/IntelliJIdea2022.3</path></def>
+                </deflist>
+            </tab>
+        </tabs>
+        <p>您可以使用 <code><a anchor="config-dir-path" summary="">idea.config.path</a></code> 属性调整 IntelliJ IDEA 配置文件夹的位置。</p>
+        <img alt="使用属性调整配置文件夹的路径" src="使用属性调整配置文件夹的路径.png" width="706" border-effect="rounded" thumbnail="true"/>
+        <p>要共享个人 <tooltip term="ide">IDE</tooltip> 设置，请将配置文件夹中的文件复制到另一个 IntelliJ IDEA 的配置文件夹中。同时，请确保 IntelliJ IDEA 未运行，以免在关闭 IDE 时擦除复制的文件。根据您修改的设置，IntelliJ IDEA 配置文件夹中可能包含以下子文件夹：</p>
+        <!-- 配置文件夹内容步骤：说明配置文件夹可能包含的子文件夹及其用途 -->
+        <procedure id="the-configuration-folder-may-contain-the-following-subfolders" title="配置文件夹可能包含以下子文件夹">
+            <table>
+                <tr>
+                    <td>文件夹名称</td>
+                    <td>对应的设置</td>
+                </tr>
+                <tr>
+                    <td><path>codestyles</path></td>
+                    <td>自定义 <a href="configuring-code-style.topic" summary=""/> 。</td>
+                </tr>
+                <tr>
+                    <td><path>colors</path></td>
+                    <td>自定义 <a href="configuring-colors-and-fonts.topic" summary=""/> 。</td>
+                </tr>
+                <tr>
+                    <td><path>fileTemplates</path></td>
+                    <td>自定义的 <a href="using-file-and-code-templates.topic" summary=""/> 。</td>
+                </tr>
+                <tr>
+                    <td><path>filetypes</path></td>
+                    <td>自定义的 <a href="creating-and-registering-file-types.topic" summary=""/> 。</td>
+                </tr>
+                <tr>
+                    <td><path>inspection</path></td>
+                    <td><a href="code-inspection.topic" summary=""/> 。</td>
+                </tr>
+                <tr>
+                    <td><path>keymaps</path></td>
+                    <td>自定义的 <a href="configuring-keyboard-and-mouse-shortcuts.topic" summary=""/> 。</td>
+                </tr>
+                <tr>
+                    <td><path>options</path></td>
+                    <td>各种针对 IDE 进行的设置选项，例如：功能使用统计和宏定义等。</td>
+                </tr>
+                <tr>
+                    <td><path>scratches</path></td>
+                    <td><a href="scratches.topic" summary=""/> 。</td>
+                </tr>
+                <tr>
+                    <td><path>templates</path></td>
+                    <td>自定义的 <a href="using-live-templates.topic" summary=""/> 。</td>
+                </tr>
+                <tr>
+                    <td><path>tools</path></td>
+                    <td>自定义的 <a href="configuring-third-party-tools.topic" summary=""/> 的配置文件。</td>
+                </tr>
+                <tr>
+                    <td><path>shelf</path></td>
+                    <td><a href="work-on-several-features-simultaneously.topic" anchor="shelve" summary=""/> 。</td>
+                </tr>
+            </table>
+            <img alt="配置文件夹.png" src="配置文件夹.png" width="706" border-effect="rounded" thumbnail="true"/>
+        </procedure>
+    </chapter>
+    <!-- IDE 系统文件夹章节：说明系统相关文件的存储位置和用途 -->
+    <chapter id="system-directory" title="IDE 系统文件夹">
+        <p>IntelliJ IDEA 的系统文件夹包含 <a href="invalidate-caches.topic" summary="" anchor="caches"/> 和本地历史记录文件。</p>
+        <tabs>
+            <tab title="Windows" id="windows-sys">
+                <deflist>
+                    <def title="语法" id="windows-sys-grammar">
+                        <path>&percnt;LOCALAPPDATA&percnt;\JetBrains\&lt;product&gt;&lt;version&gt;</path>
+                    </def>
+                    <def title="例子" id="windows-sys-example">
+                        <path>C:\Users\OldFriend\AppData\Local\JetBrains\IntelliJIdea2022.3</path>
+                    </def>
+                </deflist>
+                <video src="https://www.youtube.com/watch?v=2Z4ozn5n_oI" width="706" border-effect="rounded"/>
+            </tab>
+            <tab title="macOS" id="macos-sys">
+                <deflist>
+                    <def title="语法" id="macos-sys-grammar">
+                        <path>~/Library/Caches/JetBrains/&lt;product&gt;&lt;version&gt;</path>
+                    </def>
+                    <def title="例子" id="macos-sys-example">
+                        <path>~/Library/Caches/JetBrains/IntelliJIdea2022.3</path>
+                    </def>
+                </deflist>
+            </tab>
+            <tab title="Linux" id="linux-sys">
+                <deflist>
+                    <def title="语法" id="linux-sys-grammar">
+                        <path>~/.cache/JetBrains/&lt;product&gt;&lt;version&gt;</path>
+                    </def>
+                    <def title="例子" id="linux-sys-example">
+                        <path>~/.cache/JetBrains/IntelliJIdea2022.3</path>
+                    </def>
+                </deflist>
+            </tab>
+        </tabs>
+        <p>您可以使用 <code><a anchor="system-dir-path" summary="">idea.system.path</a></code> 属性调整 IntelliJ IDEA 系统文件夹的位置。</p>
+        <img alt="使用属性调整系统文件夹的路径" src="使用属性调整系统文件夹的路径.png" width="706" border-effect="rounded" thumbnail="true"/>
+    </chapter>
+    <!-- IDE 插件文件夹章节：介绍插件的安装位置和管理方法 -->
+    <chapter id="plugins-directory" title="IDE 插件文件夹">
+        <p>IntelliJ IDEA 的插件文件夹包含用户安装的 <a href="managing-plugins.topic" summary="">插件</a> 。</p>
+        <tabs>
+            <tab title="Windows" id="windows-plugins">
+                <deflist>
+                    <def title="语法" id="windows-plugins-grammar">
+                        <path>&percnt;APPDATA&percnt;\JetBrains\&lt;product&gt;&lt;version&gt;\plugins</path>
+                    </def>
+                    <def title="例子" id="windows-plugins-example">
+                        <path>C:\Users\OldFriend\AppData\Roaming\JetBrains\IntelliJIdea2022.3\plugins</path>
+                    </def>
+                </deflist>
+                <video src="https://www.youtube.com/watch?v=oPNW9MSYEPs" width="706" border-effect="rounded"/>
+            </tab>
+            <tab title="macOS" id="macos-plugins">
+                <deflist>
+                    <def title="语法" id="macos-plugins-grammar">
+                        <path>~/Library/Application Support/JetBrains/&lt;product&gt;&lt;version&gt;/plugins</path>
+                    </def>
+                    <def title="例子" id="macos-plugins-example">
+                        <path>~/Library/Application Support/JetBrains/IntelliJIdea2022.3/plugins</path>
+                    </def>
+                </deflist>
+            </tab>
+            <tab title="Linux" id="linux-plugins">
+                <deflist>
+                    <def title="语法" id="linux-plugins-grammar">
+                        <path>~/.local/share/JetBrains/&lt;product&gt;&lt;version&gt;</path>
+                    </def>
+                    <def title="例子" id="linux-plugins-example">
+                        <path>~/.local/share/JetBrains/IntelliJIdea2022.3</path>
+                    </def>
+                </deflist>
+            </tab>
+        </tabs>
+        <p>您可以使用 <code><a anchor="plugins-dir-path" summary="">idea.plugins.path</a></code> 属性调整 IntelliJ IDEA 插件文件夹的位置。</p>
+        <img alt="使用属性调整插件文件夹的路径" src="使用属性调整插件文件夹的路径.png" width="706" border-effect="rounded" thumbnail="true"/>
+    </chapter>
+    <!-- IDE 日志文件夹章节：说明日志文件的存储位置和查看方式 -->
+    <chapter id="log-directory" title="IDE 日志文件夹">
+        <p>IntelliJ IDEA 的日志文件夹包含产品日志和线程转储文件。</p>
+        <tabs>
+            <tab title="Windows" id="windows-log">
+                <deflist>
+                    <def title="语法" id="windows-log-grammar">
+                        <path>&percnt;LOCALAPPDATA&percnt;\JetBrains\&lt;product&gt;&lt;version&gt;\log</path>
+                    </def>
+                    <def title="例子" id="windows-log-example">
+                        <path>C:\Users\OldFriend\AppData\Local\JetBrains\IntelliJIdea2022.3\log</path>
+                    </def>
+                </deflist>
+                <video src="https://www.youtube.com/watch?v=GgmBgDZT92s" width="706" border-effect="rounded"/>
+            </tab>
+            <tab title="macOS" id="macos-log">
+                <deflist>
+                    <def title="语法" id="macos-log-grammar">
+                        <path>~/Library/Logs/JetBrains/&lt;product&gt;&lt;version&gt;</path>
+                    </def>
+                    <def title="例子" id="macos-log-example">
+                        <path>~/Library/Logs/JetBrains/IntelliJIdea2022.3</path>
+                    </def>
+                </deflist>
+            </tab>
+            <tab title="Linux" id="linux-log">
+                <deflist>
+                    <def title="语法" id="linux-log-grammar">
+                        <path>~/.cache/JetBrains/&lt;product&gt;&lt;version&gt;/log</path>
+                    </def>
+                    <def title="例子" id="linux-log-example">
+                        <path>~/.cache/JetBrains/IntelliJIdea2022.3/log</path>
+                    </def>
+                </deflist>
+            </tab>
+        </tabs>
+        <p>您可以使用 <code><a anchor="log-dir-path" summary="">idea.log.path</a></code> 属性调整 IntelliJ IDEA 日志文件夹的位置。</p>
+        <img alt="使用属性调整日志文件夹的路径" src="使用属性调整日志文件夹的路径.png" width="706" border-effect="rounded" thumbnail="true"/>
+        <note>您可以选择 <ui-path><include from="reuse-library.topic" element-id="main-menus-snippet"/> | 帮助 | 在 Explorer 中显示日志</ui-path> 来打开日志文件夹的位置。&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;</note>
+        <img src="在资源管理器中显示日志-1.png" alt="在资源管理器中显示日志" width="706" border-effect="rounded" thumbnail="true"/>
+        <note>您还可以通过在 <control><include from="reuse-library.topic" element-id="idea-operating-keywords-snippet"/></control> 中键入并选择 <ui-path>在 Explorer 中显示日志</ui-path> 的方式来打开日志文件夹的位置。</note>
+        <img src="在资源管理器中显示日志-2.png" alt="在资源管理器中显示日志" width="706" border-effect="rounded" thumbnail="true"/>
+        <video src="https://www.youtube.com/watch?v=QS_vHjP7Tqk" width="706" border-effect="rounded"/>
+    </chapter>
+    <seealso>
+        <include from="reuse-library.topic" element-id="list-of-suggested-seealso-snippet"/>
+    </seealso>
+</topic>

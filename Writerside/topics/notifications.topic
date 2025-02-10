@@ -1,0 +1,97 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE topic
+        SYSTEM "https://resources.jetbrains.com/writerside/1.0/xhtml-entities.dtd">
+<topic xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
+       xsi:noNamespaceSchemaLocation="https://resources.jetbrains.com/writerside/1.0/topic.v2.xsd"
+       title="通知" id="notifications">
+    <tldr>
+        <p><ui-path>通知</ui-path> <img src="通知工具窗口栏图标.svg" alt=""/> 工具窗口栏</p>
+        <p><include from="reuse-library.topic" element-id="main-menus-snippet"/> | 视图 | 工具窗口 | 通知</p>
+    </tldr>
+    <p>每当 <tooltip term="ide">IDE</tooltip> 中有重要事件或建议时，您将可以在 <include from="reuse-library.topic" element-id="status-bar-snippet"/> 右侧看到一个弹出通知气球。</p>
+    <p>同时，您也可以在 <include from="reuse-library.topic" element-id="notifications-tool-windows-snippet"/> 工具窗口中访问所有通知和事件。</p>
+    <img border-effect="rounded" alt="通知气泡" src="通知气泡.png" width="706" thumbnail="true"/>
+    <p>您可以为每组事件单独配置通知设置。例如：您可以禁用所有 <tooltip term="vcs">VCS</tooltip> 通知，或启用声音通知来告知您应用程序已构建完成。</p>
+    <!-- 为每个事件组配置通知步骤：详细说明如何自定义不同类型事件的通知方式 -->
+    <procedure id="configure-notifications-per-event-group" type="steps" title="为每个事件组配置通知">
+        <step>
+            <p>选择 <ui-path><include from="reuse-library.topic" element-id="idea-settings-keywords-snippet"/> | 外观与行为 | 通知</ui-path> 。</p>
+            <p>或者从 <include from="reuse-library.topic" element-id="notifications-tool-windows-snippet"/> 工具窗口中单击 <img src="更多.svg" alt=""/> ，然后选择 <ui-path>设置</ui-path> 。</p>
+        </step>
+        <video border-effect="rounded" src="https://www.youtube.com/watch?v=O66bMnx3Xbk" width="706"/>
+        <step>选择要配置通知设置的事件组。</step>
+        <step id="popup-window-type">
+            <p>在 <ui-path>弹出窗口类型</ui-path> 中，选择展示信息时窗口的呈现方式。</p>
+            <list>
+                <li><ui-path>气球</ui-path> ：通知气球会在屏幕上短暂显示，然后自动消失。</li>
+                <li><ui-path>粘性气球</ui-path> ：通知气球会停留在屏幕上，直到您闭它们。</li>
+                <li><ui-path>无弹出窗口</ui-path> ：通知气球不会出现。</li>
+            </list>
+        </step>
+        <img border-effect="rounded" alt="弹出窗口类型" src="通知弹出窗口类型.png" width="706" thumbnail="true"/>
+        <step id="show-in-tool-window-step">勾选 <control>在工具窗口中显示</control> ，以便在 <include from="reuse-library.topic" element-id="notifications-tool-windows-snippet"/> 工具窗口中显示所选事件组的通知。</step>
+        <video border-effect="rounded" src="https://www.youtube.com/watch?v=pY2pcOhLgJA" width="706"/>
+        <step>
+            <p>勾选 <control>播放声音</control> 以启用声音通知。</p>
+            <p>或选择 <control>朗读</control> （仅限 <tooltip term="macos">macOS</tooltip> ）以从通知文本生成语音通知。</p>
+        </step>
+        <img border-effect="rounded" alt="播放声音" src="播放声音.png" width="706" thumbnail="true"/>
+    </procedure>
+    <!-- 通知气球章节：介绍通知气球的功能和配置方法 -->
+    <chapter id="notification-balloons" title="通知气球">
+        <p>气球通知位于 <include from="reuse-library.topic" element-id="status-bar-snippet"/> 右侧，它将向您报告重要事件与建议信息。</p>
+        <p>如果您不想被它们打扰，可以直接禁用所有气球通知。</p>
+        <!-- 禁用通知气球步骤：说明如何关闭所有气球通知 -->
+        <procedure title="禁用通知气球" id="disable-all-balloons" type="steps">
+            <step>选择 <ui-path><include from="reuse-library.topic" element-id="idea-settings-keywords-snippet"/> | 外观与行为 | 通知</ui-path> 。</step>
+            <step>禁用 <control>显示气球通知</control> 选项。</step>
+            <video border-effect="rounded" src="https://www.youtube.com/watch?v=HQRVQ-UEMKM" width="706"/>
+        </procedure>
+        <p>您还可以使用 <a anchor="popup-window-type" summary="">弹出窗口类型</a> 列表配置或完全禁用特定事件组的气泡通知。 </p>
+    </chapter>
+    <!-- 通知工具窗口章节：详细说明通知工具窗口的功能和使用方法 -->
+    <chapter id="notifications-tool-window" title="通知工具窗口">
+        <p>您可以通过单击相应的工具窗口栏或选择 <include from="reuse-library.topic" element-id="main-menus-snippet"/> | 视图 | <include from="reuse-library.topic" element-id="tool-window-snippet"/> | 通知，来打开 <format style="bold">通知工具窗口</format> 。 </p>
+        <p>您可以通过单击 <include from="reuse-library.topic" element-id="status-bar-snippet"/> 中的信息，以便在 <control>通知工具窗口</control> 中查看这些信息。</p>
+        <img border-effect="rounded" alt="通知中心" src="通知中心.png" width="706" thumbnail="true"/>
+        <list type="decimal">
+            <li>
+                <p>单击工具窗口栏处的 <img src="通知工具窗口栏图标.svg" alt=""/> ，可快速打开 <control>通知工具窗口</control> 。</p>
+                <p>在 <include from="reuse-library.topic" element-id="tool-window-snippet"/> 中将使用 <img src="通知工具窗口中的新事件图标.svg" alt=""/> 标记普通事件和不重要的建议，使用 <img src="通知工具窗口中的重要建议图标.svg" alt=""/> 标记错误和重要的建议。</p>
+            </li>
+            <li>显示重要建议。如需要了解更多信息，请参阅 <a anchor="suggestions" summary=""/> 。</li>
+            <li>显示常规事件和通知。如需要了解更多信息，请参阅 <a anchor="timeline" summary=""/> 。</li>
+            <li>新的通知消息。它们将在 <include from="reuse-library.topic" element-id="tool-window-snippet"/> 中带有蓝色背景。</li>
+            <li><include from="reuse-library.topic" element-id="status-bar-snippet"/> 中的消息，单击它可以 <control>通知工具窗口</control> 中查看。</li>
+        </list>
+        <note>通知信息将会长时间驻留在 <control>通知工具窗口</control> 中，直到您手动清除它们或重新打开您的项目。</note>
+        <note>您可以 <a summary="" anchor="show-in-tool-window-step">禁用和启用特定事件组的工具窗口通知</a> 。&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;</note>
+    </chapter>
+    <!-- 建议章节：介绍 IDE 建议功能及其配置方法 -->
+    <chapter id="suggestions" title="建议">
+        <p><ui-path>建议</ui-path> 可帮助优化 <tooltip term="ide">IDE</tooltip> 的工作。它会提示缺失组件、 <a summary="" href="managing-plugins.topic">插件</a> 和禁用的选项，并提示您相应地更改配置。</p>
+        <!-- 不再显示建议步骤：说明如何隐藏特定类型的建议 -->
+        <procedure id="dont-show-suggestions" title="不再显示建议">
+            <step>单击要隐藏建议后方的 <img src="更多.svg" alt=""/> ，然后选择 <ui-path>不再显示</ui-path> 或 <ui-path>不再为此项目显示</ui-path> 。</step>
+            <img border-effect="rounded" alt="不再显示建议" src="不再显示建议.png" width="706" thumbnail="true"/>
+            <video border-effect="rounded" src="https://www.youtube.com/watch?v=n262OJKu5EE" width="706"/>
+        </procedure>
+        <procedure title="恢复隐藏的建议" id="restore-suggestions">
+            <p>如果您改变了主意，可以在设置中恢复已禁用的建议。</p>
+            <step>选择 <ui-path><include from="reuse-library.topic" element-id="idea-settings-keywords-snippet"/> | 外观与行为 | 通知</ui-path> 。</step>
+            <step>在 <control>不再询问通知</control> 中，找到要恢复的建议并单击 <img src="移除.svg" alt=""/> 。</step>
+            <step>重启 IntelliJ IDEA，当以后再遇到类似的建议时，它们将再次显示。</step>
+            <video border-effect="rounded" src="https://www.youtube.com/watch?v=n3gliYIwRJg" width="706"/>
+        </procedure>
+    </chapter>
+    <!-- 时间线章节：说明通知时间线的功能和使用方法 -->
+    <chapter id="timeline" title="时间线">
+        <p><control>时间线</control> 用于列出在 IntelliJ IDEA 中按照时间顺序发生的通知和事件。</p>
+        <p>当出现错误时，提供错误描述和链接，单击它以打开另一个对话框或 <include from="reuse-library.topic" element-id="tool-window-snippet"/> ，供详细检查问题。</p>
+        <img border-effect="rounded" alt="通知工具窗口中的时间线" src="通知工具窗口中的时间线.png" width="706" thumbnail="true"/>
+        <video border-effect="rounded" src="https://www.youtube.com/watch?v=pS7Gb5Rt4Hc" width="706"/>
+    </chapter>
+    <seealso>
+        <include from="reuse-library.topic" element-id="list-of-suggested-seealso-snippet"/>
+    </seealso>
+</topic>

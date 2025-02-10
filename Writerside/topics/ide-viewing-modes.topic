@@ -1,0 +1,39 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE topic
+        SYSTEM "https://resources.jetbrains.com/writerside/1.0/xhtml-entities.dtd">
+<topic xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
+       xsi:noNamespaceSchemaLocation="https://resources.jetbrains.com/writerside/1.0/topic.v2.xsd"
+       title="IDE 视图模式" id="ide-viewing-modes">
+    <!-- IDE 视图模式章节：说明不同的 IDE 视图模式及其使用场景 -->
+    <p>IntelliJ IDEA 允许您在多种视图模式之间切换，以适应不同的使用风格和场景。例如：您需要专注于代码或向观众演示时。</p>
+    <deflist type="narrow">
+        <def title="全屏模式" id="full-screen-mode">展开主窗口，占据整个屏幕。在 <tooltip term="macos">macOS</tooltip> 上，所有操作系统控件都是隐藏的，但如果将鼠标指针悬停在屏幕顶部，则可以访问 <include from="reuse-library.topic" element-id="main-menus-snippet"/> 。</def>
+        <def title="免打扰模式" id="distraction-free-mode"><include from="reuse-library.topic" element-id="editor-snippet" /> 占据整个 <include from="reuse-library.topic" element-id="main-windows-snippet" />，源代码居中。 <a href="guided-tour-around-the-user-interface.topic" summary=""/> 的所有其他元素（<include from="reuse-library.topic" element-id="tool-window-snippet"/>、工具栏和编辑器标签页）都被隐藏起来，以帮助您专注于当前文件的源代码。您仍然可以使用 <a href="mastering-keyboard-shortcuts.topic" summary=""/> 打开工具窗口、导航和执行其他操作。</def>
+        <def title="演示模式" id="presentation-mode">将编辑器扩大到占据整个屏幕，并增大字体大小，使用户更容易看到自己正在做什么。用户界面的其他元素是隐藏的，但如果将鼠标指针悬停在屏幕上方，您可以通过相应的 <a href="mastering-keyboard-shortcuts.topic" summary=""/> 或 <include from="reuse-library.topic" element-id="main-menus-snippet"/> 调出它们。</def>
+        <def title="Zen 模式" id="zen-mode">结合了全屏模式和免打扰模式，因此 <include from="reuse-library.topic" element-id="main-windows-snippet"/> 会展开，只留下带有源代码的编辑器，让您专注于编程。</def>
+    </deflist>
+    <p>默认情况下， <format style="bold">免打扰</format> 和 <format style="bold">Zen</format> 视图模式下的 <include from="reuse-library.topic" element-id="editor-snippet"/> 文本将被垂直居中。这意味着，如果您的代码在格式正确的情况下会居中，但如果有较长的文本时，它可能会超出 <tooltip term="viewport">视口</tooltip> ，同时左侧有较大的边距。这种情况下，您可以通过 <ui-path><include from="reuse-library.topic" element-id="idea-settings-keywords-snippet"/> | 高级设置 | 免打扰模式下的左边距</ui-path> 来减少左侧边距。</p>
+    <video border-effect="rounded" src="https://www.youtube.com/watch?v=tNOYb5Nm4zE" width="706"/>
+    <procedure title="进入和退出视图模式" id="quickly-switch-view-modes" type="choices">
+        <step>选择 <ui-path><include from="reuse-library.topic" element-id="main-menus-snippet" /> | 视图 | 外观 | 进入 &lt;视图模式&gt;</ui-path> 或 <ui-path>退出 &lt;视图模式&gt;</ui-path> 。</step>
+        <video border-effect="rounded" src="https://www.youtube.com/watch?v=iWQ2CXJvztE" width="706"/>
+        <step>
+            <p>使用快速切换方案</p>
+            <list type="alpha-lower">
+                <li>选择 <ui-path><include from="reuse-library.topic" element-id="main-menus-snippet"/> | 视图 | 快速切换方案</ui-path> （或按 <shortcut>Ctrl</shortcut><shortcut>`</shortcut> ）。</li>
+                <li>在 <ui-path>切换</ui-path> <a href="guided-tour-around-the-user-interface.topic" anchor="popup-menus"/> 中选择 <ui-path>视图模式</ui-path> 。</li>
+                <li>然后，选择 <ui-path>进入 &lt;视图模式&gt;</ui-path> 或 <ui-path>退出 &lt;视图模式&gt;</ui-path> 。</li>
+            </list>
+        </step>
+        <video border-effect="rounded" src="https://www.youtube.com/watch?v=s-sHNqt-uvc" width="706"/>
+        <step>
+            <p>在 <control><include from="reuse-library.topic" element-id="idea-operating-keywords-snippet"/></control> 中键入视图模式的名称。</p>
+            <p>然后从列表中选择 <ui-path>进入 &lt;视图模式&gt;</ui-path> 或 <ui-path>退出 &lt;视图模式&gt;</ui-path></p>
+        </step>
+        <video border-effect="rounded" src="https://www.youtube.com/watch?v=V51CjOmuzNo" width="706"/>
+        <step>将切换视图模式的快捷键与您偏好的 <a href="configuring-colors-and-fonts.topic" summary="">快捷键</a> 绑定。</step>
+    </procedure>
+    <seealso>
+        <include from="reuse-library.topic" element-id="list-of-suggested-seealso-snippet"/>
+    </seealso>
+</topic>

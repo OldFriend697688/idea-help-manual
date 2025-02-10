@@ -1,0 +1,50 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE topic
+        SYSTEM "https://resources.jetbrains.com/writerside/1.0/xhtml-entities.dtd">
+<topic xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
+       xsi:noNamespaceSchemaLocation="https://resources.jetbrains.com/writerside/1.0/topic.v2.xsd"
+       title="工具窗口的视图模式" id="viewing-modes">
+    <tldr>
+        <p>调整工具窗口的视图模式： <ui-path><include from="reuse-library.topic" element-id="main-menus-snippet"/> | 窗口 | 活动工具窗口 | 视图模式</ui-path></p>
+    </tldr>
+    <p>默认情况下，<include from="reuse-library.topic" element-id="tool-window-snippet"/> 依附在 <include from="reuse-library.topic" element-id="main-windows-snippet"/> 的边缘，并且始终可见。</p>
+    <p>您可以更改某个工具窗口的视图模式，使它仅在活动时可见，或使其独立于 <a href="tool-window.topic" anchor="bars-and-buttons" summary="" >工具窗口栏</a> 外。</p>
+    <!-- 改变视图模式步骤：说明如何通过不同方式更改工具窗口的显示模式 -->
+    <procedure id="change" title="改变工具窗口的视图模式" type="choices">
+        <step>选择 <ui-path><include from="reuse-library.topic" element-id="main-menus-snippet"/> | 窗口 | 活动工具窗口 | 视图模式</ui-path> 中的选项。</step>
+        <img alt="工具窗口的视图模式设置（主菜单）" src="工具窗口的视图模式设置（主菜单）.png" width="706" border-effect="rounded" thumbnail="true"/>
+        <step>单击工具窗口的选项菜单 <img src="设置.svg" alt=""/> 或右键单击 <a href="tool-window.topic" anchor="tool-window-title-bar" summary="">工具窗口标题栏</a> ，然后选择 <ui-path>视图模式</ui-path> 。</step>
+        <img alt="通过工具窗口菜单栏上的选项菜单或右键菜单调整视图模式" src="通过工具窗口菜单栏上的选项菜单或右键菜单调整视图模式.gif" width="706" thumbnail="true" border-effect="rounded"/>
+    </procedure>
+    <p>目前工具窗口有以下可用的视图模式（ <format style="bold" color="Blue">通常情况下您无需调整它们</format> ）：</p>
+    <list>
+        <li>
+            <p><ui-path>停靠固定</ui-path></p>
+            <p>工具窗口依附到 <a href="tool-window.topic" anchor="bars-and-buttons" summary="">工具窗口栏</a> 时的默认视图模式，与 <include from="reuse-library.topic" element-id="editor-snippet"/> 和其他固定工具窗口一起始终可见。</p>
+            <video src="https://www.youtube.com/watch?v=ZsLW9v5IVS0" width="706" border-effect="rounded"/>
+        </li>
+        <li>
+            <p><ui-path>停靠不固定</ui-path></p>
+            <p>工具窗口依附在工具窗口栏上，但只有当它处于活动状态时才可见。当它失去焦点时，不会妨碍编辑器或其他工具窗口。</p>
+            <video src="https://www.youtube.com/watch?v=ACWTe8WSbP8" width="706" border-effect="rounded"/>
+        </li>
+        <li>
+            <p><ui-path>取消停靠</ui-path></p>
+            <p>工具窗口依附在工具窗口栏上，活动时会覆盖编辑器或其他工具窗口的一部分。当另一个工具窗口处于活动状态时，该工具窗口将不可见。</p>
+            <video src="https://www.youtube.com/watch?v=foHvkKWqMpQ" width="706" border-effect="rounded"/>
+        </li>
+        <li>
+            <p><ui-path>浮动</ui-path></p>
+            <p>工具窗口与工具窗口栏分离，漂浮在主窗口顶部。它仅与主项目窗口一起可见。如有必要，您可以将其移动到不同的显示器或桌面上。</p>
+            <video src="https://www.youtube.com/watch?v=s_ezCCHiEUU" width="706" border-effect="rounded"/>
+        </li>
+        <li>
+            <p><ui-path>窗口</ui-path></p>
+            <p>使工具窗口成为一个独立的应用程序窗口。您可以将其与主项目窗口分开查看，也可以将其移动到不同的显示器或桌面上。</p>
+            <video src="https://www.youtube.com/watch?v=UrJq9GOw67s" width="706" border-effect="rounded"/>
+        </li>
+    </list>
+    <seealso>
+        <include from="reuse-library.topic" element-id="list-of-suggested-seealso-snippet"/>
+    </seealso>
+</topic>

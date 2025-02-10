@@ -1,0 +1,131 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE topic
+        SYSTEM "https://resources.jetbrains.com/writerside/1.0/xhtml-entities.dtd">
+<topic xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
+       xsi:noNamespaceSchemaLocation="https://resources.jetbrains.com/writerside/1.0/topic.v2.xsd"
+       title="颜色和字体" id="configuring-colors-and-fonts">
+    <p>作为开发人员，您需要处理多种文本资源，例如：源代码、搜索结果、调试信息和控制台输出。</p>
+    <p>使用颜色和字体样式调整这些文本，将可以提高可读性，使关键信息更突出，更容易理解。</p>
+    <p>您可以在 <control>配色方案</control> 中调整 <tooltip term="ide">IDE</tooltip> 文本使用的颜色和字体。</p>
+    <img border-effect="rounded" src="配色方案案例（Java）.png" alt="ColorSchemeExample-Java" width="706" thumbnail="true"/>
+    <note><control>配色方案</control> 与 <a href="user-interface-themes.topic" summary=""/> 不同，后者定义了窗口、对话框和控件的外观。&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;</note>
+    <p>您可以使用预设的配色方案，也可以根据个人喜好自定义它。还可以 <a anchor="share-color-scheme" summary=""/> 。</p>
+    <procedure id="select-color-scheme" title="选择配色方案" type="steps">
+        <step>在 <control><include from="reuse-library.topic"  element-id="idea-settings-keywords-snippet"/></control> 中选择 <ui-path><include from="reuse-library.topic" element-id="editor-snippet" /> | 配色方案</ui-path> 。</step>
+        <step>
+            <p>使用 <ui-path>方案</ui-path> 下拉列表选择配色方案。</p>
+            <p>默认情况下，已有以下预设的配色方案：</p>
+            <list>
+                <li><ui-path>Classic Light</ui-path> ：专为 <tooltip term="macos">macOS</tooltip> 浅色和 <tooltip term="windows 10">Windows 10</tooltip> 浅色界面主题设计。</li>
+                <li><ui-path>Darcula</ui-path> ：专为 Darcula 主题界面设计。</li>
+                <li><ui-path>High contrast</ui-path> ：专为高对比度界面主题设计（建议视力障碍用户使用）。</li>
+                <li><ui-path>IntelliJ Light:</ui-path> ：专为 IntelliJ Light 主题界面设计。</li>
+            </list>
+        </step>
+        <note>如果您安装的 <a href="managing-plugins.topic" summary="">插件</a> 中附带有配色方案，则该方案将被添加至预设方案列表中。&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;</note>
+        <video border-effect="rounded" src="https://www.youtube.com/watch?v=yCPKT2mRf1Y" width="706"/>
+    </procedure>
+    <chapter id="customize-color-scheme" title="自定义配色方案">
+        <p>您可以自定义已预设的配色方案，但建议您为自定义的颜色和字体设置创建一个副本：</p>
+        <procedure id="duplicate-color-scheme" title="创建配色方案副本" type="steps">
+            <step>在 <control><include from="reuse-library.topic" element-id="idea-settings-keywords-snippet"/></control> 中选择 <ui-path><include from="reuse-library.topic" element-id="editor-snippet" /> | 配色方案</ui-path> 。</step>
+            <step>选择一个配色方案并单击 <img src="设置.svg" alt=""/> ，然后选择 <control>复制</control> 。</step>
+            <step>要重命名自定义配色方案，请单击 <img src="设置.svg" alt=""/> 并选择 <control>重命名</control> 。</step>
+            <video border-effect="rounded" src="https://www.youtube.com/watch?v=9-DJVWVB3ZE" width="706"/>
+        </procedure>
+        <note>
+            <p>预设配色方案采用粗体字显示。若您对这些方案进行了自定义调整，它们将以蓝色标识。&nbsp;&nbsp;</p>
+            <p>要将预设配色方案的各项设置还原至默认值，请单击 <img src="设置.svg" alt=""/> 并选择 <control>还原为默认设置</control> 。</p>
+        </note>
+        <video border-effect="rounded" src="https://www.youtube.com/watch?v=zFz3AvYku7E" width="706"/>
+        <p>要自定义颜色和字体设置，请通过 <ui-path><include from="reuse-library.topic" element-id="idea-settings-keywords-snippet"/> | <include from="reuse-library.topic" element-id="editor-snippet"/> | 配色方案</ui-path> 进行调整。例如：</p>
+        <list>
+            <li>
+                <p><ui-path>常规</ui-path> 部分定义了基本的 <include from="reuse-library.topic" element-id="editor-snippet" /> 颜色，如：间距图标、行号、错误、警告、弹出窗口、提示等。</p>
+                <img border-effect="rounded" alt="配色方案下的常规部分" src="配色方案下的常规部分.png" width="706" thumbnail="true"/>
+            </li>
+            <li>
+                <p><ui-path>语言默认设置</ui-path> 部分包含常用的语法高亮设置，默认应用于所有支持的编程语言。</p>
+                <p>在大多数情况下，只需配置 <ui-path>语言默认值</ui-path> ，必要时再针对特定 <tooltip term="programming-language">语言</tooltip> 进行调整即可。</p>
+                <p>如果要更改选项的颜色设置，请取消勾选 <ui-path>值继承自：</ui-path> 。</p>
+                <img border-effect="rounded" alt="配色方案下的语言默认设置部分" src="配色方案下的语言默认设置部分.png" width="706" thumbnail="true"/>
+            </li>
+        </list>
+    </chapter>
+    <chapter id="semantic-highlighting" title="语义高亮">
+        <p>默认情况下，配色方案为源代码中的保留字和其他符号定义了语法高亮：操作符、 <tooltip term="keywords">关键字</tooltip> 、建议、字符串字面量等。如果一个函数或方法有很多参数和局部变量，可能很难一眼将它们区分开来。您可以使用语义高亮为每个参数和局部变量指定不同的颜色。</p>
+        <procedure id="enable-semantic-hl" title="启用语义高亮" type="steps">
+            <step>在 <control><include from="reuse-library.topic"  element-id="idea-settings-keywords-snippet"/></control> 中选择 <ui-path><include from="reuse-library.topic" element-id="editor-snippet" /> | 配色方案 | 语言默认值 | 语义高亮显示</ui-path> 。</step>
+            <step>勾选 <control>语义高亮显示</control> 复选框，并根据需要自定义颜色。</step>
+            <img border-effect="rounded" alt="语义高亮显示" src="语义高亮显示.png" width="706" thumbnail="true"/>
+            <video border-effect="rounded" src="https://www.youtube.com/watch?v=XxomJxZkgUM" width="706"/>
+            <note>这将为所有从 <ui-path>语言默认值</ui-path> 继承此设置的 <tooltip term="programming-language">语言</tooltip> 启用语义高亮。如果要为特定语言（例如： <tooltip term="java">Java</tooltip> ）单独启用语义高亮，请取消勾选 <ui-path><include from="reuse-library.topic" element-id="idea-settings-keywords-snippet"/> | <include from="reuse-library.topic" element-id="editor-snippet" /> | 配色方案 | Java | 语义高亮显示</ui-path> 中的 <ui-path>值继承自：</ui-path> 。</note>
+            <video border-effect="rounded" src="https://www.youtube.com/watch?v=JOivPEO8hUw" width="706"/>
+        </procedure>
+    </chapter>
+    <chapter id="share-color-scheme" title="共享配色方案">
+        <p>如果您已经习惯了某种特定的配色方案，可以将其从一个 IntelliJ IDEA 实例中导出，然后导入至另一个 IntelliJ IDEA 实例中。您还可以与其他开发人员共享配色方案。</p>
+        <procedure title="将配色方案导出为 XML 文件" id="export-color-cheme-xml" collapsible="true" type="steps">
+            <note>IntelliJ IDEA 可以将您的配色方案设置保存在扩展名为 <path>.icls</path> 的 <tooltip term="xml">XML</tooltip> 文件。然后，您可以将该文件导入至另一个 IntelliJ IDEA 实例中。</note>
+            <step>在 <control><include from="reuse-library.topic"  element-id="idea-settings-keywords-snippet"/></control> 中选择 <ui-path><include from="reuse-library.topic" element-id="editor-snippet" /> | 配色方案</ui-path> 。</step>
+            <step>在 <ui-path>方案</ui-path> 列表中选择一个配色方案，单击 <img src="设置.svg" alt=""/> 。</step>
+            <step>然后单击 <control>导出</control> 并选择 <ui-path>IntelliJ IDEA 配色方案 (.icls)</ui-path> 。</step>
+            <video border-effect="rounded" src="https://www.youtube.com/watch?v=7i0-sVV6MAQ" width="706"/>
+        </procedure>
+        <procedure title="将配色方案导出为插件" id="export-color-scheme-plugin" collapsible="true" type="steps">
+            <note>插件可以上传至 <a href="managing-plugins.topic" anchor="install-plugin-from-repo" summary="">JetBrains 插件库</a> 供他人安装。与 <tooltip term="xml">XML</tooltip> 文件相比，这种格式有多种优势，包括元数据、反馈、下载统计和版本管理（当您上传新版本插件时，用户将收到相关通知）。</note>
+            <step>在 <control><include from="reuse-library.topic"  element-id="idea-settings-keywords-snippet"/></control> 中选择 <ui-path><include from="reuse-library.topic" element-id="editor-snippet" /> | 配色方案</ui-path> 。</step>
+            <step>在 <ui-path>方案</ui-path> 列表中选择一个配色方案，单击 <img src="设置.svg" alt=""/> ，然后单击 <control>导出</control> 并选择 <ui-path>配色方案插件 .jar</ui-path> 。</step>
+            <step>在 <control>创建配色方案插件</control> 中，指定版本详细信息和供应商信息，然后单击 <control>确定</control> 。</step>
+            <video border-effect="rounded" src="https://www.youtube.com/watch?v=ZoOBtNeEd9U" width="706"/>
+            <note>安装带有配色方案的插件时，该方案将被添加至预定义方案列表中。&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;</note>
+        </procedure>
+        <procedure title="导入配色方案" id="import-color-scheme" collapsible="true" type="steps">
+            <step>在 <control><include from="reuse-library.topic"  element-id="idea-settings-keywords-snippet"/></control> 中选择 <ui-path><include from="reuse-library.topic" element-id="editor-snippet" /> | 配色方案</ui-path> 。</step>
+            <step>在 <ui-path>方案</ui-path> 列表中选择一个配色方案，单击 <img src="设置.svg" alt=""/> ，然后选择 <ui-path>导入配色方案</ui-path> 。</step>
+            <video border-effect="rounded" src="https://www.youtube.com/watch?v=CQ8DAhzDbZk" width="706"/>
+        </procedure>
+    </chapter>
+    <chapter title="字体" id="fonts">
+        <p>要自定义 <include from="reuse-library.topic" element-id="editor-snippet"/> 中使用的默认字体，请通过 <ui-path><include from="reuse-library.topic" element-id="idea-settings-keywords-snippet"/> | <include from="reuse-library.topic" element-id="editor-snippet"/> | 字体</ui-path> 进行调整 。默认情况下，所有配色方案都使用并继承该字体，更多信息请参阅 <a href="settings-editor-font.topic" summary="">字体设置</a> 。</p>
+        <p>IntelliJ IDEA 可以使用操作系统中可用的任何字体。要在字体列表中添加其他字体，可将其安装到 <tooltip term="os">操作系统</tooltip> 中或安装到用于运行 IntelliJ IDEA 的 <a href="switching-boot-jdk.topic" summary="">Java 运行时</a> 中。 </p>
+        <note>要配置 <a href="guided-tour-around-the-user-interface.topic"/> 元素（例如： <include from="reuse-library.topic" element-id="tool-window-snippet" /> 、 <a href="guided-tour-around-the-user-interface.topic" anchor="vcs-file-color" summary="">工具栏</a> 、<include from="reuse-library.topic" element-id="main-menus-snippet" /> ）使用的字体，请通过 <ui-path><include from="reuse-library.topic" element-id="idea-settings-keywords-snippet"/> | <include from="reuse-library.topic" element-id="idea-settings-keywords-snippet"/></ui-path> 进行调整。您可以通过 <ui-path>字体</ui-path> 列表选择字体，并通过 <ui-path>大小</ui-path> 指定字体大小。</note>
+        <video border-effect="rounded" src="https://www.youtube.com/watch?v=b7Pt1jbpe40" width="706"/>
+        <procedure id="custom-cs-font" type="steps" title="自定义配色方案字体">
+            <warning>如果您打算 <a anchor="share-color-scheme" summary=""/> ，或将其用于可能不支持所选字体的其他系统平台，则不建议您自定义配色方案的字体。在这种情况下，请使用默认的全局字体设置。</warning>
+            <step>在 <control><include from="reuse-library.topic"  element-id="idea-settings-keywords-snippet"/></control> 中选择 <ui-path><include from="reuse-library.topic" element-id="editor-snippet" /> | 配色方案 | 配色方案字体</ui-path> 。</step>
+            <step>勾选 <control>使用配色方案字体，而不是默认</control> 。</step>
+            <video border-effect="rounded" src="https://www.youtube.com/watch?v=bn4S6zcwfDk" width="706"/>
+        </procedure>
+        <procedure id="custom-console-font" title="自定义控制台字体" type="steps">
+            <note>默认情况下，控制台中的文本使用与配色方案相同的字体，但您可以调整它们。&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;</note>
+            <step>在 <control><include from="reuse-library.topic"  element-id="idea-settings-keywords-snippet"/></control> 中选择 <ui-path><include from="reuse-library.topic" element-id="editor-snippet" /> | 配色方案 | 控制台字体</ui-path> 。</step>
+            <step>勾选 <control>使用控制台字体，而不是默认</control> 。</step>
+            <video border-effect="rounded" src="https://www.youtube.com/watch?v=lSV3z4cq-rU" width="706"/>
+        </procedure>
+    </chapter>
+    <chapter title="生产力提示" id="tips">
+        <procedure id="jump-to-colors-and-fonts" type="steps" title="查看与选中符号相关的配色方案设置">
+            <step>将闪烁光标放置在所需要的 <tooltip term="symbol">符号</tooltip> 上。</step>
+            <step><control>在 <include from="reuse-library.topic" element-id="idea-operating-keywords-snippet"/></control> 中搜索并执行 <ui-path>跳转到颜色和字体</ui-path> 操作。</step>
+            <step>这将打开与选中符号相关的配色方案设置。</step>
+            <video border-effect="rounded" src="https://www.youtube.com/watch?v=4psbaPNSKCg" width="706"/>
+        </procedure>
+        <procedure title="查看编辑器中使用的字体" id="used-fonts">
+            <step><control>在 <include from="reuse-library.topic" element-id="idea-operating-keywords-snippet"/></control> 中搜索并执行 <ui-path>显示编辑器使用的字体</ui-path> 操作。</step>
+            <step>这将打开 <format style="bold"> 编辑器中使用的字体</format> ，并显示使用中的字体列表。</step>
+            <video border-effect="rounded" src="https://www.youtube.com/watch?v=pnTUEnhRoMU" width="706"/>
+        </procedure>
+        <procedure title="使用快速切换器切换配色方案" id="use-quick-switch" type="steps">
+            <step>按 <shortcut>Ctrl</shortcut><shortcut>`</shortcut> 或从 <include from="reuse-library.topic" element-id="main-menus-snippet"/> 中选择 <ui-path>视图 | 快速切换方案</ui-path> 以此打开 <control>切换</control> 弹出菜单。</step>
+            <step>在 <format style="bold">切换</format> <a anchor="popup-menus" href="guided-tour-around-the-user-interface.topic" summary=""/> 中选择 <ui-path>编辑器配色方案</ui-path> ，然后选择目标配色方案。</step>
+            <video border-effect="rounded" src="https://www.youtube.com/watch?v=SPxxhU0-s-s" width="706"/>
+        </procedure>
+        <note><ui-path>跳转到颜色和字体</ui-path> 以及 <ui-path>显示编辑器使用的字体</ui-path> 这两个操作均未预设快捷键。要为某个操作指定 <a href="mastering-keyboard-shortcuts.topic" summary=""/> ，请在 <control>操作</control> 弹出窗口中选中该操作，然后按 <shortcut>Alt</shortcut><shortcut>Enter</shortcut> 。</note>
+        <video border-effect="rounded" src="https://www.youtube.com/watch?v=4psbaPNSKCg" width="706"/>
+        <include from="reuse-library.topic" element-id="shortcut-key-priority-tips-snippet"/>
+    </chapter>
+    <seealso>
+        <include from="reuse-library.topic" element-id="list-of-suggested-seealso-snippet"/>
+    </seealso>
+</topic>

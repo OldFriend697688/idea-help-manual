@@ -1,0 +1,45 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE topic
+        SYSTEM "https://resources.jetbrains.com/writerside/1.0/xhtml-entities.dtd">
+<topic xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
+       xsi:noNamespaceSchemaLocation="https://resources.jetbrains.com/writerside/1.0/topic.v2.xsd"
+       title="增加 IDE 的堆内存" id="increasing-memory-heap">
+    <p>运行 IntelliJ IDEA 的 <tooltip term="jvm">Java 虚拟机</tooltip> 会分配一定数量的预定义内存。默认值取决于平台。如果您遇到性能下降的情况，可以考虑增加堆内存。</p>
+    <note>用于运行 <tooltip term="ide">IDE</tooltip> 的堆大小与用于编译应用程序的堆大小不同。如果要配置编译代码的构建进程的堆大小，请打开 <control><include from="reuse-library.topic" element-id="idea-settings-keywords-snippet"/></control> ，选择 <ui-path>构建、执行、部署 | 编译器</ui-path> ，并在 <control>构建进程堆大小</control> 字段中指定所需的内存量。</note>
+    <img src="构建进程堆大小.png" alt="构建进程堆大小" width="706" border-effect="rounded" thumbnail="true"/>
+    <!-- 更改内存设置步骤：详细说明如何调整 IDE 的内存分配 -->
+    <procedure id="change-memory-settings" title="更改内存设置">
+        <step>选择 <ui-path><include from="reuse-library.topic" element-id="main-menus-snippet"/> | 帮助 | 更改内存设置</ui-path> 。</step>
+        <img src="更改内存设置.png" alt="更改内存设置" width="706" border-effect="rounded" thumbnail="true"/>
+        <step>设置要分配的内存量，然后单击 <control>保存并重启</control> 。</step>
+        <img src="设置堆内存的最大大小.png" alt="设置堆内存的最大大小" width="706" border-effect="rounded" thumbnail="true"/>
+        <p>此操作会更改 JVM 用于运行 IntelliJ IDEA 的 <code>-Xmx</code> 选项的值。重启 IntelliJ IDEA 后，新设置才会生效。</p>
+        <tip>从 IntelliJ IDEA 2019.2 版本开始才提供 <ui-path>更改内存设置</ui-path> 操作。对于旧版本或 <tooltip term="ide">IDE</tooltip> 崩溃的情况，您可以按照 <a href="tuning-the-ide.topic" anchor="common-jvm-options" summary="">JVM 选项</a> 中的说明手动更改 <code>-Xmx</code> 选项的值。</tip>
+    </procedure>
+    <p>当垃圾回收后的可用堆内存少于最大堆大小的 5% 时，IntelliJ IDEA 也会发出警告：</p>
+    <img src="内存不足警告.png" alt="内存不足警告" width="706" border-effect="rounded" thumbnail="true"/>
+    <p>单击 <control>配置</control> 增加 JVM 分配的内存量。如果不确定什么值比较合适，请使用 IntelliJ IDEA 建议的值。</p>
+    <img src="内存设置对话框.png" alt="内存设置对话框" width="706" border-effect="rounded" thumbnail="true"/>
+    <p>单击 <control>保存并重启</control> ，等待 IntelliJ IDEA 使用新的堆内存设置重新启动。</p>
+    <!-- 启用内存指示器步骤：说明如何在状态栏显示内存使用情况 -->
+    <procedure id="enable-memory-indicator" title="启用内存指示器">
+        <p>IntelliJ IDEA 可以在状态栏中显示已使用的内存量。使用它来判断需要分配多少内存。</p>
+        <step>右键单击 <include from="reuse-library.topic" element-id="status-bar-snippet"/>，然后选择 <control>内存指示器</control> 。</step>
+        <img src="启用状态栏中的内存指示器.png" alt="启用状态栏中的内存指示器" width="706" border-effect="rounded" thumbnail="true"/>
+    </procedure>
+    <!-- Toolbox App 设置章节：介绍如何在 Toolbox App 中配置内存设置 -->
+    <chapter id="toolbox-app" title="Toolbox App">
+        <p>如果您使用的是 Toolbox App，可以在不启动特定 <tooltip term="ide">IDE</tooltip> 实例的情况下更改其最大分配的堆大小。</p>
+        <procedure>
+            <step>打开 Toolbox App，单击相关 IDE 实例旁边的设置图标，然后选择 <control>设置</control> 。</step>
+            <img src="在 Toolbox App 中打开 IDE 实例设置.png" alt="在 Toolbox App 中打开 IDE 实例设置" width="706" border-effect="rounded" thumbnail="true"/>
+            <step>在实例设置选项卡中，展开 <control>配置</control> 并在 <control>最大堆大小</control> 字段中指定堆大小。</step>
+            <img src="在 Toolbox App 中更改 IDE 实例使用的堆内存大小.png" alt="在 Toolbox App 中更改 IDE 实例使用的堆内存大小" width="706" border-effect="rounded" thumbnail="true"/>
+        </procedure>
+        <p>如果 <tooltip term="ide">IDE</tooltip> 实例当前正在运行，则新设置将在重启后生效。</p>
+        <p>如果您使用的是未由 Toolbox App 管理的 <a href="installation-guide.topic" summary="" anchor="standalone">独立实例</a> ，并且无法启动它，则可以手动更改控制分配内存量的 <code>-Xmx</code> 选项。创建 <a href="tuning-the-ide.topic" summary="" anchor="default-vmoptions-file">默认 JVM 选项文件</a> 的副本，并在其中更改 <code>-Xmx</code> 选项的值。</p>
+    </chapter>
+    <seealso>
+        <include from="reuse-library.topic" element-id="list-of-suggested-seealso-snippet"/>
+    </seealso>
+</topic>

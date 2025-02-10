@@ -1,0 +1,103 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE topic
+        SYSTEM "https://resources.jetbrains.com/writerside/1.0/xhtml-entities.dtd">
+<topic xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
+       xsi:noNamespaceSchemaLocation="https://resources.jetbrains.com/writerside/1.0/topic.v2.xsd"
+       title="简要概述" id="discover-intellij-idea">
+    <chapter id="overview" title="概述">
+        <p><a href="https://www.jetbrains.com/zh-cn/idea/">IntelliJ IDEA</a> 是 <tooltip term="java">Java</tooltip> <tooltip term="programming-language">语言</tooltip> 的 <tooltip term="ide">IDE</tooltip> 。其被业界誉为是最好的 Java 开发工具，尤其在 <tooltip term="idea-code-completion">智能代码助手</tooltip> 、 <tooltip term="idea-code-automatic-prompt">代码自动提示</tooltip> 、 <tooltip term="idea-code-refactoring">代码重构</tooltip> 、 <tooltip term="jakarta-ee">Jakarta EE</tooltip> 支持 、 <tooltip term="vcs">版本控制</tooltip> 工具（ <tooltip term="git">Git</tooltip> 、 <tooltip term="svn">SVN</tooltip> 等）、 <tooltip term="unit-test">单元测试</tooltip> （ <tooltip term="JUnit">JUnit</tooltip> 等）、 <tooltip term="code-static-analysis">代码分析</tooltip> 、创新的 <tooltip term="gui">GUI</tooltip> 设计等方面的功能可以说是无与伦比的。</p>
+        <img src="logo.svg" alt="IntelliJ IDEA Logo" width="706" style="block" border-effect="rounded"/>
+        <p>IntelliJ IDEA 是由 <tooltip term="jetbrains">JetBrains</tooltip> 公司研发的产品，以严谨著称的东欧程序员是其主要开发者。</p>
+        <p>IntelliJ IDEA 有 <format style="bold">社区版</format> 和 <format style="bold">旗舰版</format> 两个主要版本。社区版提供长期免费支持，但在功能丰富程度上不及旗舰版，且支持的 <tooltip term="programming-language">语言</tooltip> 较少。旗舰版包含更多高级功能和更多语言支持，但仅提供 <format style="bold">30</format> 天免费试用，过期后则需要购买激活码。</p>
+    </chapter>
+    <chapter id="cross-platform" title="跨平台">
+        <note>IntelliJ IDEA 在 Windows、Linux 和 macOS 这三大主流 <tooltip term="os">操作系统</tooltip> 平台上均提供相应版本，并确保了核心功能的一致性，但在各个平台上的操作习惯和界面布局仍略有不同。</note>
+        <p>IntelliJ IDEA 是一款 <tooltip term="cross-platform">跨平台</tooltip> 的 <tooltip term="ide">IDE</tooltip> ，可在 <tooltip term="windows">Windows</tooltip> 、 <tooltip term="macos">macOS</tooltip> 及 <tooltip term="linux">Linux</tooltip> 上提供一致的使用体验。</p>
+        <img src="IntelliJ IDEA 支持的三大平台.png" alt="IntelliJ IDEA 支持的三大平台" width="706" thumbnail="true" border-effect="rounded"/>
+    </chapter>
+    <!-- 旗舰版：功能强大，支持多种语言及 Web 应用和企业级应用的开发，包括社区版本的全部功能，同时增加了对其他基于 IntelliJ 平台的 IDE 所关注的语言的支持，以及对各种服务器端和前端框架、应用服务器、数据库集成和分析工具等的支持。 -->
+    <!-- 社区版：免费且开源，支持的语言数量较少，并且可能不包含旗舰版中独有的某些高级开发辅助工具。 -->
+    <!-- 教育版：专为学生和教师设计，提供免费的使用权限，功能与社区版类似，但可能包含一些额外的教育资源。 -->
+    <!-- RC 版：发布候选版本，通常已经具备了大部分功能，但可能还存在一些已知或未知的问题。 -->
+    <!-- EAP 版：早期访问计划版本，包含最新的功能和改进，但可能存在不稳定性和兼容性问题，仅供技术爱好者和开发者测试使用。 -->
+    <!-- BETA 版：测试版本，功能尚不完善，可能存在较多问题，仅供测试使用。 -->
+    <chapter id="editions" title="版本介绍">
+        <note>此手册将重点讨论旗舰版的相关内容，而忽略社区版、 <tooltip term="rc">RC</tooltip> 版、 <a href="product-educational-tools.topic" summary="">教育版</a> 等其它的版本。&nbsp;&nbsp;&nbsp;&nbsp;</note>
+        <p>IntelliJ IDEA 拥有旗舰版、教育版、社区版、RC 版、 <tooltip term="eap">EAP</tooltip> 等多种版本。</p>
+        <p>常见且使用频次最高的是旗舰版和社区版，旗舰版功能强大，它支持多种 <tooltip term="programming-language">语言</tooltip> 及 Web 应用和企业级应用的开发，包括社区版本的全部功能，同时增加了对其他基于 IntelliJ 平台的 <tooltip term="ide">IDE</tooltip> 所关注的语言的支持，以及对各种服务器端和 <tooltip term="frontend">前端</tooltip> 框架、应用服务器、 <tooltip term="database">数据库</tooltip> 集成和分析工具等的支持。</p>
+        <p><format style="bold">社区版是免费且开源的，这意味着您可以长期免费使用，无需支付任何额外费用</format> 。然而，与旗舰版相比，社区版支持的语言数量较少，并且可能不包含旗舰版中独有的某些高级开发辅助工具。</p>
+        <p>有关旗舰版和社区版的详细差异，请参阅 <a href="https://www.jetbrains.com/zh-cn/products/compare/?product=idea&amp;product=idea-ce">IntelliJ IDEA 的版本比较矩阵</a> 。</p>
+    </chapter>
+    <chapter id="supported-programming-languages" title="支持的语言">
+        <note>
+            <p>您可以通过浏览 <include from="reuse-library.topic" element-id="jetbrains-plugin-library-snippet"/> 查找官方插件，这些插件可为当今使用的几乎所有 <tooltip term="programming-language">语言</tooltip> 、 <tooltip term="framework">框架</tooltip> 或技术提供支持，也可以通过它查找第三方插件。</p>
+            <p>有关如何在 IntelliJ IDEA 中管理插件的详细信息，请参阅 <a href="managing-plugins.topic" summary=""/> 。</p>
+        </note>
+        <p>现代应用程序的开发涉及同时使用多种语言、工具、 <tooltip term="framework">框架</tooltip> 和技术。</p>
+        <p>IntelliJ IDEA 被设计为基于 <tooltip term="jvm">JVM</tooltip> 的语言的 <tooltip term="ide">IDE</tooltip> ，但许多插件可以扩展它对其它语言的支持。</p>
+        <tabs>
+            <tab title="JVM 语言" id="jvm-language">
+                <p>IntelliJ IDEA 支持下列可编译为 <tooltip term="jvm">JVM</tooltip><tooltip term="bytecode">字节码</tooltip> 的语言。</p>
+                <list>
+                    <li><a href="https://www.oracle.com/java/technologies/javase-downloads.html" summary="Java 是一种广泛使用的面向对象的编程语言。JDK（Java Development Kit）是用于开发 Java 应用程序的官方工具包，提供了编译器、运行时环境和其他工具。">Java</a></li>
+                    <li><a href="https://www.scala-lang.org/" summary="Scala 是一种多范式的编程语言，它结合了面向对象和函数式编程的特点。Scala 在 JVM 上运行，并且能够利用 Java 的库和框架。它以其表达力和简洁的语法而闻名，适合开发复杂和大规模的应用程序。">Scala</a></li>
+                    <li><a href="https://kotlinlang.org/" summary="Kotlin 是一种在现代多平台应用的静态类型编程语言，由 JetBrains 开发。它可以在 JVM 上运行，也可以编译成 JavaScript 或原生代码。Kotlin 因其简洁性和强大的特性集而受到开发者的欢迎。">Kotlin</a></li>
+                    <li><a href="https://groovy-lang.org/" summary="Groovy 是一种在 JVM 上运行的敏捷动态语言，它提供了简洁的语法和强大的编程特性，如闭包和动态类型。Groovy 的设计目标是简化 Java 语言的冗余，同时提供更高的开发效率。">Groovy</a></li>
+                </list>
+            </tab>
+            <tab title="非 JVM 语言" id="not-jvm-language">
+                <p>与 IntelliJ IDEA 捆绑且开箱即用的插件提供了对以下语言的支持。</p>
+                <list>
+                    <li><a href="https://www.python.org/" summary="Python 是一种广泛使用的高级编程语言，以其简洁明了的语法和强大的库支持而著称。">Python</a> （完整的 <a href="https://www.jetbrains.com.cn/pycharm/" summary="PyCharm 是一款功能强大的集成开发环境（IDE），专门为 Python 语言开发而设计。它由 JetBrains 公司开发，提供了一套完整的工具，帮助开发者更高效地编写、调试和测试 Python 代码。">PyCharm</a> 功能）</li>
+                    <li><a href="https://www.ruby-lang.org/en/" summary="Ruby 是一种动态的、开源的编程语言，注重简洁和效率，广泛用于 Web 开发。">Ruby</a> （完整的 <a href="https://www.jetbrains.com.cn/ruby/" summary="RubyMine 是一款专为 Ruby 和 Ruby on Rails 开发者打造的高效智能的集成开发环境（IDE）。它由 JetBrains 公司开发，旨在为 Ruby 开发者提供全方位的开发体验。">RubyMine</a> 功能）</li>
+                    <li><a href="https://www.php.net/" summary="PHP 是一种流行的通用开源脚本语言，特别适用于 Web 开发。">PHP</a> （完整的 <a href="https://www.jetbrains.com.cn/phpstorm/" summary="PhpStorm 是一款专为 PHP 开发者打造的集成开发环境（IDE），由 JetBrains 公司开发。它以其强大的智能代码补全、调试、重构等功能，深受广大 PHP 开发者的喜爱。">PhpStorm</a> 功能）</li>
+                    <li><a href="https://www.sql.org/" summary="SQL 是结构化查询语言，用于管理关系数据库系统。">SQL</a> （完整的 <a href="https://www.jetbrains.com.cn/datagrip/" summary="DataGrip 是 JetBrains 公司推出的一款专业的数据库管理工具，专门为数据库开发人员设计。它支持多种数据库，如 MySQL、PostgreSQL、Oracle、SQL Server 等，并提供了丰富的功能，帮助开发者高效地管理和开发数据库。">DataGrip</a> 功能）</li>
+                    <li><a href="https://golang.org/" summary="Go 是一种开源编程语言，由 Google 开发，旨在简化大型软件的开发。">Go</a> （完整的 <a href="https://www.jetbrains.com.cn/go/" summary="GoLand 是一款由 JetBrains 公司专门为 Go 语言开发而设计的集成开发环境（IDE）。它深度整合了 Go 语言的特性，提供了丰富的工具和功能，旨在帮助开发者更高效地编写、调试和测试 Go 代码。">GoLand</a> 功能）</li>
+                    <li><a href="https://www.javascript.com/" summary="JavaScript 是一种广泛使用的脚本语言，用于实现网页的交互性。">JavaScript</a> （完整的 <a href="https://www.jetbrains.com.cn/webstorm/" summary="WebStorm 是一款由 JetBrains 公司开发的集成开发环境（IDE），专门为开发 Web 应用程序而设计。它被广大前端开发者誉为 “Web 前端开发神器”、“最强大的 HTML5 编辑器”、“最智能的 JavaScript IDE”等。">WebStorm</a> 功能）</li>
+                    <li><a href="https://www.typescriptlang.org/" summary="TypeScript 是 JavaScript 的一个超集，添加了静态类型选项。">TypeScript</a> （完整的 <a href="https://www.jetbrains.com.cn/webstorm/">WebStorm</a> 功能）</li>
+                    <li><a href="https://www.thymeleaf.org/" summary="Thymeleaf 是一个 Java 模板引擎，用于处理和生成 HTML、XML、JavaScript、CSS 和纯文本。">Thymeleaf</a></li>
+                    <li><a href="https://www.json.org/json-en.html" summary="JSON 是一种轻量级的数据交换格式，易于阅读和编写，同时也易于机器解析和生成。">JSON</a></li>
+                    <li><a href="https://commonmark.org/help/" summary="Markdown 是一种轻量级标记语言，用于格式化文本，常用于撰写 GitHub Readme 文件和网络论坛。">Markdown</a></li>
+                    <li><a href="https://www.w3.org/html/" summary="HTML 是超文本标记语言，用于创建网页和 Web 应用程序的标准标记语言。">HTML</a></li>
+                    <li><a href="https://www.w3.org/XML/" summary="XML 是可扩展标记语言，用于存储和传输数据。">XML</a> 和 <tooltip term="xsl">XSL</tooltip></li>
+                    <li><a href="https://www.w3.org/TR/xpath/" summary="XPath 是一种在 XML 文档中查找信息的语言。">XPath</a> 和 <tooltip term="xslt">XSLT</tooltip></li>
+                    <li><a href="https://velocity.apache.org/engine/1.7/user-guide.html" summary="Velocity 是一个基于 Java 的模板引擎，用于生成 Web 页面、电子邮件和其他文本。">Velocity</a> 和 <a href="https://freemarker.apache.org/" summary="FreeMarker 是一个用 Java 编写的模板引擎，用于生成基于模板和变化数据的文本输出，如 HTML 网页、电子邮件、配置文件和源代码等。">FreeMarker</a></li>
+                    <li>样式表（ <a href="https://www.w3.org/Style/CSS/" summary="CSS 是一种用于描述 HTML 或 XML 文档样式的样式表语言。Less 和 Sass 是 CSS 的扩展语言，提供了更多的功能。">CSS</a> ， <a href="https://lesscss.org/" summary="LESS 是一种向后兼容的 CSS 语言扩展，提供变量、混入、嵌套、操作等功能，使得编写样式表更加高效和灵活。">LESS</a> ， <a href="https://sass-lang.com/" summary="Sass 是一个成熟且强大的 CSS 扩展语言，它提供了变量、嵌套、混入、扩展等功能，可以极大地提高前端开发的效率。">Sass</a> ）</li>
+                    <li><a href="https://dart.dev/" summary="Dart 是一种由 Google 开发的客户端优化的编程语言，用于 Web、服务器、移动应用和物联网。">Dart</a></li>
+                    <li><a href="https://www.erlang.org/" summary="Erlang 是一种通用的并发编程语言和运行时环境，用于构建并行、分布式、容错和高可用性的系统。">Erlang</a></li>
+                </list>
+            </tab>
+        </tabs>
+        <note>IntelliJ IDEA 官方不支持 <tooltip term="c">C</tooltip>/<tooltip term="c++">C++</tooltip> ，但可以使用 <a href="https://www.jetbrains.com/zh-cn/clion/" summary="CLion 是一款专为 C 和 C++ 开发者打造的跨平台集成开发环境（IDE），由 JetBrains 公司出品。它基于 IntelliJ IDEA 平台，继承了 IntelliJ IDEA 的强大功能，并针对 C 和 C++ 开发进行了深度优化。">CLion</a> 。&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;</note>
+        <img alt="CLion 官网" src="CLion 官网.png" width="706" thumbnail="true" border-effect="rounded"/>
+        <note id="language-plugin-vs-separate-IDE" title="选择语言插件还是单独的 IDE？">
+            <p>IntelliJ IDEA Ultimate（旗舰版）是绝大多数基于 IntelliJ 平台的 <tooltip term="ide">IDE</tooltip> 的超集。</p>
+            <p>如果启用了捆绑的语言 <a href="managing-plugins.topic" summary="">插件</a> ，它将支持在更具体的 JetBrains IDE 中所具有的全部功能，例如： <a href="https://www.jetbrains.com.cn/pycharm/" summary="PyCharm 是一款功能强大的集成开发环境（IDE），专门为 Python 语言开发而设计。它由 JetBrains 公司开发，提供了一套完整的工具，帮助开发者更高效地编写、调试和测试 Python 代码。">PyCharm</a> 、 <a href="https://www.jetbrains.com.cn/webstorm/" summary="WebStorm 是一款由 JetBrains 公司开发的集成开发环境（IDE），专门为开发 Web 应用程序而设计。它被广大前端开发者誉为 “Web 前端开发神器”、“最强大的 HTML5 编辑器”、“最智能的 JavaScript IDE”等。">WebStorm</a> 、 <a href="https://www.jetbrains.com.cn/phpstorm/" summary="PhpStorm 是一款专为 PHP 开发者打造的集成开发环境（IDE），由 JetBrains 公司开发。它以其强大的智能代码补全、调试、重构等功能，深受广大 PHP 开发者的喜爱。">PhpStorm</a> 等。</p>
+            <p>举例来说：如果项目主要使用 <tooltip term="java">Java</tooltip> 进行开发，但也使用 <a href="https://www.python.org/" summary="Python 是一种广泛使用的高级编程语言，以其简洁明了的语法和强大的库支持而著称。">Python</a> 辅助进行开发，则建议使用 IntelliJ IDEA 并搭配 <a href="https://plugins.jetbrains.com/plugin/631-python" summary="">Python 语言插件</a> 。如果项目主要使用 Python 进行开发，则建议使用 PyCharm。</p>
+        </note>
+    </chapter>
+    <seealso>
+        <category ref="references">
+            <a href="https://zh.wikipedia.org/zh-cn/Java_SE" summary="Java SE（Java Platform, Standard Edition）是 Java 编程语言的标准版，它是构建 Java 程序的基础。它提供了一组核心类库和运行环境，使开发者能够创建各种类型的 Java 应用程序。">Java SE</a>
+            <a href="https://zh.wikipedia.org/zh-cn/Jakarta_EE" summary="Jakarta EE 是 Java EE 的继承者。由于 Oracle 将 Java EE 的所有权移交给了 Eclipse 基金会，为了避免与 Oracle 的 Java 商标产生冲突，Java EE 被更名为 Jakarta EE。Jakarta EE 保留了 Java EE 的核心概念和大部分 API，并在此基础上进行了改进和扩展，使其更符合现代云原生应用的需求。">Jakarta EE</a>
+            <a href="https://zh.wikipedia.org/zh-cn/代码重构" summary="代码重构是在不改变软件外部行为的前提下，对软件内部结构进行调整，以提高软件的可理解性、可维护性、可扩展性，同时减少代码中的冗余和潜在的错误。">代码重构</a>
+            <a href="guided-tour-around-the-user-interface.topic" summary=""/>
+            <a href="configuring-colors-and-fonts.topic" summary=""/>
+            <a href="https://zh.wikipedia.org/zh-cn/静态程序分析" summary="静态程序分析是指在不实际运行程序的情况下，通过对程序代码的静态分析（例如源码或字节码），推断程序的属性、发现潜在错误并验证程序是否满足特定规范的一种技术。">静态代码分析</a>
+            <a href="user-interface-themes.topic" summary=""/>
+            <a href="installation-guide.topic" anchor="simplified-chinese-language" summary=""/>
+            <a href="register.topic" summary=""/>
+            <a href="directories-used-by-the-ide-to-store-settings-caches-plugins-and-logs.topic" summary=""/>
+        </category>
+        <category ref="associated-websites">
+        <include from="reuse-library.topic" element-id="ides-snippet"/>
+        <include from="reuse-library.topic" element-id="programming-language-snippet"/>
+            <a href="https://github.com/PKUFlyingPig/cs-self-learning" summary="提供计算机科学自学指南和学习路径。">CS 自学指南</a>
+            <a href="https://javabetter.cn/" summary="分享 Java 技术文章和进阶教程。">二哥的 Java 进阶之路</a>
+            <a href="https://github.com/xiaolincoder/CS-Base" summary="图解计算机基础，适合初学者。">小林 x 图解计算机基础</a>
+            <a href="https://github.com/justjavac/free-programming-books-zh_CN" summary="汇集免费编程书籍资源。">免费编程中文书籍索引</a>
+            <a href="https://github.com/CodingDocs/awesome-cs?tab=readme-ov-file" summary="精选优质计算机书籍和学习路线。">计算机优质书籍搜罗 + 学习路线推荐</a>
+        </category>
+        <include from="reuse-library.topic" element-id="ai-editor-snippet"/>
+    </seealso>
+</topic>

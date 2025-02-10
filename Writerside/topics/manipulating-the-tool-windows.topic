@@ -1,0 +1,87 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE topic
+        SYSTEM "https://resources.jetbrains.com/writerside/1.0/xhtml-entities.dtd">
+<topic xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
+       xsi:noNamespaceSchemaLocation="https://resources.jetbrains.com/writerside/1.0/topic.v2.xsd"
+       title="排列工具窗口" id="manipulating-the-tool-windows">
+    <p>默认情况下，工具窗口依附在 <include from="reuse-library.topic" element-id="main-windows-snippet"/> 的边缘。您可以参阅 <a href="viewing-modes.topic" summary=""/> 中的说明，将它们分离出来作为独立的窗口。</p>
+    <!-- 移动工具窗口步骤：说明如何通过拖拽或菜单选项移动工具窗口的位置 -->
+    <procedure id="move" title="移动工具窗口" type="choices">
+        <step>单击并拖动 <a href="tool-window.topic" anchor="bars-and-buttons" summary="">工具窗口栏</a> 位置上的工具窗口按钮。</step>
+        <step>单击工具窗口的选项菜单 <img src="设置.svg" alt=""/> 或右键单击 <a href="tool-window.topic" anchor="tool-window-title-bar" summary="">工具窗口标题栏</a> ，然后在 <ui-path>移至</ui-path> 选择移动的位置。</step>
+        <video src="https://www.youtube.com/watch?v=I1szAyMMjkk" width="706" border-effect="rounded"/>
+    </procedure>
+    <!-- 调整工具窗口大小步骤：介绍多种调整工具窗口尺寸的方法，包括拖拽、快捷键和菜单操作 -->
+    <procedure id="resize" title="调整工具窗口大小" type="choices">
+        <step>单击并拖动工具窗口的边框。</step>
+        <video src="https://www.youtube.com/watch?v=WGDepr2oxMA" width="706" border-effect="rounded"/>
+        <step>垂直方向调整工具窗口大小请按 <shortcut>Ctrl</shortcut><shortcut>Alt</shortcut><shortcut>Shift</shortcut><shortcut>↑</shortcut> 或 <shortcut>Ctrl</shortcut><shortcut>Alt</shortcut><shortcut>Shift</shortcut><shortcut>↓</shortcut> 。</step>
+        <step>水平方向调整工具窗口大小请按 <shortcut>Ctrl</shortcut><shortcut>Alt</shortcut><shortcut>Shift</shortcut><shortcut>←</shortcut> 或 <shortcut>Ctrl</shortcut><shortcut>Alt</shortcut><shortcut>Shift</shortcut><shortcut>→</shortcut> 。</step>
+        <video src="https://www.youtube.com/watch?v=6Gz1MgUAwJA" width="706" border-effect="rounded"/>
+        <step>选择 <ui-path><include from="reuse-library.topic" element-id="main-menus-snippet"/> | 窗口 | 活动工具窗口 | 调整大小</ui-path> 中的选项。</step>
+        <img alt="调整活动工具窗口大小的选项" src="调整活动工具窗口大小的选项.png" width="706" border-effect="rounded" thumbnail="true"/>
+        <step>
+            <p>按 <shortcut>Ctrl</shortcut><shortcut>Shift</shortcut><shortcut>'</shortcut> 来最大化工具窗口，再次按下时可以还原工具窗口的大小。</p>
+            <p>或选择 <ui-path><include from="reuse-library.topic" element-id="main-menus-snippet"/> | 窗口 | 活动工具窗口 | 最大化工具窗口</ui-path> 。</p>
+        </step>
+        <img alt="最大化活动工具窗口" src="最大化活动工具窗口.png" width="706" border-effect="rounded" thumbnail="true"/>
+        <video src="https://www.youtube.com/watch?v=II-LG7z8gfQ" width="706" border-effect="rounded"/>
+    </procedure>
+    <!-- 还原工具窗口默认布局步骤：说明如何将工具窗口恢复到默认布局状态 -->
+    <procedure id="restore" type="choices" title="还原工具窗口的默认布局">
+        <step>选择 <ui-path><include from="reuse-library.topic" element-id="main-menus-snippet"/> | 窗口 | 还原为默认布局</ui-path> 或按 <shortcut>Shift</shortcut><shortcut>F12</shortcut> 。</step>
+        <img alt="还原为默认布局" src="还原为默认布局.png" width="706" thumbnail="true" border-effect="rounded"/>
+        <video src="https://www.youtube.com/watch?v=zDoqEmcbalk" width="706" border-effect="rounded"/>
+
+    </procedure>
+    <!-- 保存工具窗口布局步骤：介绍如何保存当前的工具窗口布局作为默认设置 -->
+    <procedure id="save-layout" type="choices" title="保存工具窗口的布局">
+        <step>选择 <ui-path><include from="reuse-library.topic" element-id="main-menus-snippet"/> | 窗口 | 将当前布局存储为默认布局</ui-path> 。</step>
+        <img alt="将当前布局存储为默认布局" src="将当前布局存储为默认布局.png" width="706" thumbnail="true" border-effect="rounded"/>
+        <video src="https://www.youtube.com/watch?v=suaoDfeHp6s" width="706" border-effect="rounded"/>
+    </procedure>
+    <!-- 宽屏显示器优化章节：介绍如何针对宽屏显示器优化工具窗口的布局和显示 -->
+    <chapter id="wide-screen" title="针对宽屏显示器进行优化">
+        <p>IntelliJ IDEA 提供了多个选项来优化宽屏显示器上工具窗口的定位。 </p>
+        <procedure>
+            <step>在 <control><include from="reuse-library.topic" element-id="idea-settings-keywords-snippet"/></control> 中选择 <include from="reuse-library.topic" element-id="ide-appearance-settings-snippet"/> 。</step>
+            <step>
+                <p>在 <ui-path>工具窗口</ui-path> 部分中，配置以下内容：</p>
+                <list>
+                    <li>
+                        <p><ui-path>宽屏工具窗口布局</ui-path> ：通过限制水平工具窗口的宽度，使垂直工具窗口的高度最大化。</p>
+                        <tabs>
+                            <tab title="启用前" id="before-use">
+                                <img src="启用宽屏工具窗口布局效果前.png" alt="启用宽屏工具窗口布局效果前" thumbnail="true" width="706" border-effect="rounded"/>
+                            </tab>
+                            <tab title="启用后" id="after-enabling">
+                                <img src="启用宽屏工具窗口布局效果后.png" alt="启用宽屏工具窗口布局效果后" thumbnail="true" width="706" border-effect="rounded"/>
+                            </tab>
+                        </tabs>
+                    </li>
+                    <li>
+                        <p><format style="strikethrough"><ui-path>左侧并排布局</ui-path> 或 <ui-path>右侧并排布局</ui-path> ：显示垂直工具窗口，它们附着在顶部和底部边缘，以两列的形式而不是堆叠在一起。</format></p>
+                        <warning>此两项在 IntelliJ IDEA 2022.3.3 版本中无法呈现任何实际效果。&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;</warning>
+                        <video src="https://www.youtube.com/watch?v=rwjE1Wy8hH0" width="706" border-effect="rounded"/>
+                    </li>
+                </list>
+            </step>
+            <step>单击 <control>确定</control> 应用更改。</step>
+        </procedure>
+    </chapter>
+    <!-- 独立框架布局章节：说明如何将工具窗口移动到独立窗口中管理 -->
+    <chapter id="lay-out-container" title="将工具窗口移至单独的框架">
+        <p>您可以自由地将 <a href="tool-window.topic" summary=""/> 和编辑器选项卡拖动到单独的框架中，并根据需要安排布局。例如，您可以在一个屏幕上只显示 <a href="guided-tour-around-the-user-interface.topic" summary="" anchor="editor"/> ，而在第二个屏幕上的独立 <tooltip term="ide">IDE</tooltip> 窗口中显示工具窗口。</p>
+        <!-- 独立框架布局步骤：详细说明如何在独立窗口中排列工具窗口 -->
+        <procedure id="lay-out-window" title="在单独的框架中排列工具窗口">
+            <step>
+                <p>单击并拖动 <a href="tool-window.topic" summary="" anchor="bars-and-buttons">工具窗口栏</a> 上的工具窗口按钮到需要的屏幕。</p>
+                <p>将已分离的选项卡置于单独的框架中后，可拖动工具窗口按钮并将其附加到工具窗口栏上。</p>
+            </step>
+            <video src="https://www.youtube.com/watch?v=M5ww0INcuYA" width="706" border-effect="rounded"/>
+        </procedure>
+    </chapter>
+    <seealso>
+        <include from="reuse-library.topic" element-id="list-of-suggested-seealso-snippet"/>
+    </seealso>
+</topic>

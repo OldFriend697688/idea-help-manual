@@ -1,0 +1,259 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE topic
+        SYSTEM "https://resources.jetbrains.com/writerside/1.0/xhtml-entities.dtd">
+<topic xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
+       xsi:noNamespaceSchemaLocation="https://resources.jetbrains.com/writerside/1.0/topic.v2.xsd"
+       title="工具窗口" id="tool-window">
+    <tldr><p>隐藏/显示工具窗口： <include from="reuse-library.topic" element-id="hide-show-tool-windows-snippet"/></p></tldr>
+    <p>工具窗口提供围绕编码相关的辅助功能，使得开发效率得以提升。它们可以用于查看项目结构、进行程序的运行和调试，并提供与 <tooltip term="vcs">版本控制系统</tooltip> 和其他 <a href="configuring-third-party-tools.topic" summary=""/> 的集成和代码分析等功能。</p>
+    <p>以下的截图显示了 <a href="guided-tour-around-the-user-interface.topic" anchor="editor" summary=""/> 周围的几个常见的工具窗口：</p>
+    <img src="编辑器周围常用的工具窗口.png" alt="编辑器周围常用的工具窗口" width="706" thumbnail="true" border-effect="rounded"/>
+    <list type="decimal">
+        <li><include from="reuse-library.topic" element-id="project-tool-window-snippet"/> 工具窗口</li>
+        <li><include from="reuse-library.topic" element-id="structure-tool-windows-snippet"/> 工具窗口</li>
+        <li><include from="reuse-library.topic" element-id="run-tool-windows-snippet"/> 工具窗口</li>
+        <li><include from="reuse-library.topic" element-id="maven-tool-windows-snippet"/> 工具窗口</li>
+    </list>
+    <p>有一些工具窗口始终处于可用状态，例如： <format style="bold">项目工具窗口</format> 和 <format style="bold">结构工具窗口</format> 。</p>
+    <p>有些工具窗口需要启用特定 <a href="managing-plugins.topic" summary="">插件</a> 或是当项目中具备特定结构时才可激活，例如： <format style="bold">Maven 工具窗口</format> 、 <format style="bold">Gradle 工具窗口</format>  、 <format style="bold">Spring 工具窗口</format> 。</p>
+    <img src="Spring 工具窗口.png" alt="Spring 工具窗口" width="706" border-effect="rounded" thumbnail="true"/>
+    <p>还有一些工具窗口需要在执行特定操作时才会显示。例如： <format style="bold">运行工具窗口</format> ，它只在运行代码后才会显示。您可以选择 <ui-path><include from="reuse-library.topic" element-id="main-menus-snippet"/> | 视图 | 工具窗口 | 运行</ui-path> 或按 <shortcut>Alt</shortcut><shortcut>4</shortcut> 来打开该工具窗口。</p>
+    <!-- 打开工具窗口步骤：详细说明多种打开工具窗口的方法，包括菜单、快捷键和按钮操作 -->
+    <procedure title="打开一个工具窗口" id="open" type="choices">
+        <p>要显示或隐藏一个工具窗口，请执行以下操作之一：</p>
+        <step>选择 <include from="reuse-library.topic" element-id="hide-show-tool-windows-snippet"/> 。</step>
+        <img alt="通过主菜单打开工具窗口" src="通过主菜单打开工具窗口.png" width="706" thumbnail="true" border-effect="rounded"/>
+        <step>
+            <p>使用工具窗口对应的 <a href="mastering-keyboard-shortcuts.topic" summary=""/> 。例如：可以使用 <shortcut>Alt</shortcut><shortcut>1</shortcut> 打开或隐藏 <include from="reuse-library.topic" element-id="project-tool-window-snippet"/> 工具窗口。</p>
+            <p>如果，某个工具窗口未预设快捷键，您可以为其指定您认为合适的快捷键。</p>
+        </step>
+        <video src="https://www.youtube.com/watch?v=nAasm48HsO0" width="706" border-effect="rounded"/>
+        <include from="reuse-library.topic" element-id="shortcut-key-priority-tips-snippet"/>
+        <step>单击 <a anchor="bars-and-buttons" summary="">工具窗口栏</a> 上的对应工具窗口按钮。</step>
+        <img src="工具窗口栏上的工具窗口按钮.png" alt="工具窗口栏上的工具窗口按钮" width="706" thumbnail="true" border-effect="rounded"/>
+        <video src="https://www.youtube.com/watch?v=1qPGE1kzgCQ" width="706" border-effect="rounded"/>
+        <step>将鼠标悬停在 <include from="reuse-library.topic" element-id="main-windows-snippet"/> 左下角的快速访问按钮 <img src="隐藏工具栏按钮.svg" alt=""/> / <img src="显示工具栏按钮.svg" alt=""/> ，然后从其中选择一个工具窗口。</step>
+        <img src="通过主窗口底部的快速访问按钮打开指定的工具窗口.png" alt="通过主窗口底部的快速访问按钮打开指定的工具窗口" width="706" thumbnail="true" border-effect="rounded"/>
+        <video src="https://www.youtube.com/watch?v=iQ4qSB5OjqA" width="706" border-effect="rounded"/>
+        <step>如果要跳转到上一个活动的工具窗口，请按 <shortcut>F12</shortcut> 。</step>
+        <video src="https://www.youtube.com/watch?v=E4famehLsBo" width="706" border-effect="rounded"/>
+    </procedure>
+    <!-- 隐藏活动工具窗口步骤：介绍如何隐藏当前活动的工具窗口 -->
+    <procedure title="隐藏活动工具窗口" id="hide-active" type="choices">
+        <step>按 <shortcut>Shift</shortcut><shortcut>Esc</shortcut> 。</step>
+        <video src="https://www.youtube.com/watch?v=PhQUCWsgldY" width="706" border-effect="rounded"/>
+        <step>选择 <ui-path><include from="reuse-library.topic" element-id="main-menus-snippet"/> | 窗口 | 活动工具窗口 | 隐藏活动工具窗口</ui-path> 。</step>
+        <video src="https://www.youtube.com/watch?v=Ok23vW910sA" width="706" border-effect="rounded"/>
+        <step>请使用对应的快捷键或通过 <include from="reuse-library.topic" element-id="hide-show-tool-windows-snippet"/> 来显示隐藏的工具窗口。 </step>
+        <video src="https://www.youtube.com/watch?v=QznLSVyzVww" width="706" border-effect="rounded"/>
+    </procedure>
+    <note>您可以关闭所有工具窗口，以使精力集中于在 <include from="reuse-library.topic" element-id="editor-snippet"/> 中进行的编码工作，等您有需要时可以随时重新恢复显示所有被隐藏的工具窗口。</note>
+    <!-- 隐藏和还原所有工具窗口步骤：说明如何一次性隐藏或显示所有工具窗口 -->
+    <procedure title="隐藏和还原所有工具窗口" id="hide-all" type="choices">
+        <step>按 <shortcut>Ctrl</shortcut><shortcut>Shift</shortcut><shortcut>F12</shortcut> 。</step>
+        <video src="https://www.youtube.com/watch?v=DfF_BI8RXb8" width="706" border-effect="rounded"/>
+        <step>双击编辑器标签页。</step>
+        <note>这项功能只有启用 <ui-path><include from="reuse-library.topic" element-id="idea-settings-keywords-snippet"/>| 高级设置 | 编辑器标签页 | 通过双击编辑器标签页执行"隐藏所有工具窗口"/"还原窗口"</ui-path> 时才有效。</note>
+        <img src="通过双击编辑器标签页执行隐藏所有工具窗口_还原窗口.png" alt="通过双击编辑器标签页执行隐藏所有工具窗口_还原窗口" width="706" thumbnail="true" border-effect="rounded"/>
+        <video src="https://www.youtube.com/watch?v=gCN_2EUCGj8" width="706" border-effect="rounded"/>
+        <step>选择 <ui-path><include from="reuse-library.topic" element-id="main-menus-snippet"/> | 窗口 | 活动工具窗口 | 还原窗口/隐藏所有窗口</ui-path> 。</step>
+        <video src="https://www.youtube.com/watch?v=napXiG3iBGU" width="706" border-effect="rounded"/>
+    </procedure>
+    <!-- 工具窗口与编辑器切换步骤：介绍在工具窗口和编辑器之间快速切换的方法 -->
+    <procedure title="在编辑器和工具窗口之间切换" id="navigate-tool-window-editor" type="choices">
+        <step>按 <shortcut>Esc</shortcut> 可快速从任何工具窗口切换至 <include from="reuse-library.topic" element-id="editor-snippet"/> 。</step>
+        <video src="https://www.youtube.com/watch?v=nupFB2GQuMs" width="706"/>
+        <step>如果在工具窗口中选中了代码片段，例如：搜索结果、代码问题或书签时，可按 <shortcut>F4</shortcut> 快速在编辑器中定位到对应的目标位置。</step>
+        <video src="https://www.youtube.com/watch?v=MLuyAl1RIUM" width="706" border-effect="rounded"/>
+        <step>
+            <p>要从编辑器中跳转到最后一个活动工具窗口，请按 <shortcut>F12</shortcut> 。</p>
+            <p>或者选择 <ui-path><include from="reuse-library.topic" element-id="main-menus-snippet"/> | 窗口 | 活动工具窗口 | 跳转到上一个工具窗口</ui-path> 。</p>
+        </step>
+        <video src="https://www.youtube.com/watch?v=9sYrnKjrP64" width="706" border-effect="rounded"/>
+    </procedure>
+    <chapter id="bars-and-buttons" title="工具窗口栏和按钮">
+        <p><include from="reuse-library.topic" element-id="main-windows-snippet"/> 周围位置的工具窗口栏包含用于显示或隐藏工具窗口的按钮。</p>
+        <img src="工具窗口栏上的工具窗口按钮.png" alt="工具窗口栏上的工具窗口按钮" width="706" thumbnail="true" border-effect="rounded"/>
+        <video src="https://www.youtube.com/watch?v=J23fBWRMObU" width="706" border-effect="rounded"/>
+        <p>右键单击这些按钮可以打开其 <include from="reuse-library.topic" element-id="context-menus-snippet"/> ，在其中您可以改变它们的视图模式或移动工具窗口的位置。当然，您也可以直接拖动工具窗口栏按钮来重新排列这些按钮。</p>
+        <!-- 隐藏显示工具窗口栏步骤：介绍如何控制工具窗口栏的显示状态 -->
+        <procedure title="隐藏或显示工具窗口栏" id="show-hide-tool-window-bars" type="choices">
+            <step>单击 <include from="reuse-library.topic" element-id="main-windows-snippet"/> 左下角的快速访问按钮 <img src="隐藏工具栏按钮.svg" alt=""/> 来隐藏工具窗口栏。</step>
+            <video src="https://www.youtube.com/watch?v=zCYHcmTnkD8" width="706" border-effect="rounded"/>
+            <step>双击并按住 <shortcut>Alt</shortcut> 显示被隐藏的工具窗口栏，松开 <shortcut>Alt</shortcut> 后工具窗口栏将再次进入隐藏状态。</step>
+            <video src="https://www.youtube.com/watch?v=Pylq3c-ovjo" width="706" border-effect="rounded"/>
+        </procedure>
+    </chapter>
+    <chapter id="general-tool-windows-layout" title="工具窗口组件">
+        <p>通常而言，所有的工具窗口都有标题栏、工具栏和内容面板。</p>
+        <img src="工具窗口中的组件.png" alt="工具窗口中的组件" width="706" border-effect="rounded"/>
+        <p>您可以通过单击工具窗口中的 <img src="设置.svg" alt=""/> 并勾选或取消勾选 <ui-path>标签页分组</ui-path> 来改变工具窗口的分组模式。</p>
+        <video src="https://www.youtube.com/watch?v=2ZCMo45vnwM" width="706" border-effect="rounded"/>
+        <p id="tool-window-title-bar">工具窗口标题栏中的 <img src="设置.svg" alt=""/> 用于更改视图模式和工具窗口的位置。您也可以通过右键单击标题栏或工具窗口按钮来访问这些选项。某些工具窗口的 <img src="设置.svg" alt=""/> 中可能含有其他选项，这取决于它所提供的具体功能。</p>
+        <video src="https://www.youtube.com/watch?v=k83HoMYpM7Q" width="706" border-effect="rounded"/>
+        <p>您可以单击 <img src="移除.svg" alt=""/> 可隐藏工具窗口。</p>
+        <video src="https://www.youtube.com/watch?v=gN5A0eHBkf0" width="706" border-effect="rounded"/>
+        <p>您可以单击 <img src="展开.svg" alt=""/> 和 <img src="折叠.svg" alt=""/> 来展开和折叠工具窗口中的内容。</p>
+        <video src="https://www.youtube.com/watch?v=3CEJpwr2YnU" width="706" border-effect="rounded"/>
+        <p>您可以单击 <img src="定位文件.svg" alt=""/> 在工具窗口中定位在 <include from="reuse-library.topic" element-id="editor-snippet"/> 中打开的文件。</p>
+        <video src="https://www.youtube.com/watch?v=UFQwlTJaX7o" width="706" border-effect="rounded"/>
+        <p>对于所有以树状结构显示内容的工具窗口而言（例如：<include from="reuse-library.topic" element-id="project-tool-window-snippet"/> 工具窗口），您可以使用垂直显示线来强化显示视图中的缩进级别，这将有助于帮助您更高的理解项目的层次结构。要显示它，请选择 <ui-path><include from="reuse-library.topic" element-id="idea-settings-keywords-snippet"/>| <include from="reuse-library.topic" element-id="idea-settings-keywords-snippet"/> | 显示树缩进参考线</ui-path> 。</p>
+        <img src="显示树缩进参考线.png" alt="显示树缩进参考线" width="706" thumbnail="true" border-effect="rounded"/>
+        <video src="https://www.youtube.com/watch?v=syYnLZEgqn8" width="706" border-effect="rounded"/>
+        <!-- 工具窗口快捷键步骤：列出并说明所有工具窗口相关的快捷键操作 -->
+        <procedure id="preset-shortcut-keys-corresponding-to-tool-windows" type="choices">
+            <p>您可以使用以下快捷键来管理 IntelliJ IDEA 的工具窗口：</p>
+            <table column-width="fixed">
+                <tr>
+                    <td>操作名</td>
+                    <td>快捷键</td>
+                </tr>
+                <tr>
+                    <td><a anchor="hide-active" summary=""/></td>
+                    <td><shortcut>Shift</shortcut><shortcut>Esc</shortcut></td>
+                </tr>
+                <tr>
+                    <td><a anchor="hide-all" summary="">隐藏/还原所有工具窗口</a></td>
+                    <td><shortcut>Ctrl</shortcut><shortcut>Shift</shortcut><shortcut>F12</shortcut></td>
+                </tr>
+                <tr>
+                    <td rowspan="1" >跳转到上一个工具窗口</td>
+                    <td><shortcut>F12</shortcut></td>
+                </tr>
+                <tr><td colspan="2"><video src="https://www.youtube.com/watch?v=E4famehLsBo" width="706" border-effect="rounded"/></td></tr>
+                <tr>
+                    <td><a href="manipulating-the-tool-windows.topic" summary="">向左拉伸</a></td>
+                    <td><shortcut>Ctrl</shortcut><shortcut>Alt</shortcut><shortcut>Shift</shortcut><shortcut>Left</shortcut></td>
+                </tr>
+                <tr>
+                    <td><a href="manipulating-the-tool-windows.topic" summary="">向右拉伸</a></td>
+                    <td><shortcut>Ctrl</shortcut><shortcut>Alt</shortcut><shortcut>Shift</shortcut><shortcut>Right</shortcut></td>
+                </tr>
+                <tr>
+                    <td><a href="manipulating-the-tool-windows.topic" summary="">拉伸到顶部</a></td>
+                    <td><shortcut>Ctrl</shortcut><shortcut>Alt</shortcut><shortcut>Shift</shortcut><shortcut>Up</shortcut></td>
+                </tr>
+                <tr>
+                    <td><a href="manipulating-the-tool-windows.topic" summary="">拉伸到底部</a></td>
+                    <td><shortcut>Ctrl</shortcut><shortcut>Alt</shortcut><shortcut>Shift</shortcut><shortcut>Down</shortcut></td>
+                </tr>
+                <tr>
+                    <td colspan="2">
+                        <video src="https://www.youtube.com/watch?v=6Gz1MgUAwJA" width="706" border-effect="rounded"/>
+                    </td>
+                </tr>
+                <tr>
+                    <td>最大化工具窗口/还原工具窗口大小</td>
+                    <td><shortcut>Ctrl</shortcut><shortcut>Shift</shortcut><shortcut>'</shortcut></td>
+                </tr>
+                <tr>
+                    <td colspan="2">
+                        <video src="https://www.youtube.com/watch?v=II-LG7z8gfQ" width="706" border-effect="rounded"/>
+                    </td>
+                </tr>
+                <tr>
+                    <td>显示 <include from="reuse-library.topic" element-id="project-tool-window-snippet"/> 工具窗口。</td>
+                    <td><shortcut>Alt</shortcut><shortcut>1</shortcut></td>
+                </tr>
+                <tr>
+                    <td colspan="2">
+                        <video src="https://www.youtube.com/watch?v=JC1CiRkAYec"  width="706" border-effect="rounded"/>
+                    </td>
+                </tr>
+                <tr>
+                    <td>显示 <include from="reuse-library.topic" element-id="bookmarks-snippet"/> 工具窗口。</td>
+                    <td><shortcut>Alt</shortcut><shortcut>2</shortcut></td>
+                </tr>
+                <tr>
+                    <td colspan="2">
+                        <video src="https://www.youtube.com/watch?v=YEIJfKypTec"  width="706" border-effect="rounded"/>
+                    </td>
+                </tr>
+                <tr>
+                    <td>显示 <include from="reuse-library.topic" element-id="find-tool-window-snippet"/> 工具窗口。</td>
+                    <td><shortcut>Alt</shortcut><shortcut>3</shortcut></td>
+                </tr>
+                <tr>
+                    <td colspan="2">
+                        <video src="https://www.youtube.com/watch?v=Q4zOXiOGCjc"  width="706" border-effect="rounded"/>
+                    </td>
+                </tr>
+                <tr>
+                    <td>显示 <include from="reuse-library.topic" element-id="run-tool-windows-snippet"/> 工具窗口。</td>
+                    <td><shortcut>Alt</shortcut><shortcut>4</shortcut></td>
+                </tr>
+                <tr>
+                    <td colspan="2">
+                        <video src="https://www.youtube.com/watch?v=IQNv4UkGAcU"  width="706" border-effect="rounded"/>
+                    </td>
+                </tr>
+                <tr>
+                    <td>显示 <include from="reuse-library.topic" element-id="debug-tool-window-snippet"/> 工具窗口。</td>
+                    <td><shortcut>Alt</shortcut><shortcut>5</shortcut></td>
+                </tr>
+                <tr>
+                    <td colspan="2">
+                        <video src="https://www.youtube.com/watch?v=lgzrIAC47gw"  width="706" border-effect="rounded"/>
+                    </td>
+                </tr>
+                <tr>
+                    <td>显示 <include from="reuse-library.topic" element-id="problems-tool-windows-snippet"/> 工具窗口。</td>
+                    <td><shortcut>Alt</shortcut><shortcut>6</shortcut></td>
+                </tr>
+                <tr>
+                    <td colspan="2">
+                        <video src="https://www.youtube.com/watch?v=KODaNWaz6Q0"  width="706" border-effect="rounded"/>
+                    </td>
+                </tr>
+                <tr>
+                    <td>显示 <include from="reuse-library.topic" element-id="structure-tool-windows-snippet"/> 工具窗口。</td>
+                    <td><shortcut>Alt</shortcut><shortcut>7</shortcut></td>
+                </tr>
+                <tr>
+                    <td colspan="2">
+                        <video src="https://www.youtube.com/watch?v=oMHs7Nu776Q"  width="706" border-effect="rounded"/>
+                    </td>
+                </tr>
+                <tr>
+                    <td>显示 <include from="reuse-library.topic" element-id="services-tool-windows-snippet"/> 工具窗口。</td>
+                    <td><shortcut>Alt</shortcut><shortcut>8</shortcut></td>
+                </tr>
+                <tr>
+                    <td colspan="2">
+                        <video src="https://www.youtube.com/watch?v=xF5cDg4WhAg"  width="706" border-effect="rounded"/>
+                    </td>
+                </tr>
+                <tr>
+                    <td>显示 <include from="reuse-library.topic" element-id="version-control-tool-windows-snippet"/> 工具窗口</td>
+                    <td><shortcut>Alt</shortcut><shortcut>9</shortcut></td>
+                </tr>
+                <tr>
+                    <td colspan="2">
+                        <video src="https://www.youtube.com/watch?v=gtRZtkZdsA0"  width="706" border-effect="rounded"/>
+                    </td>
+                </tr>
+                <tr>
+                    <td>显示 <include from="reuse-library.topic" element-id="commit-tool-windows-snippet"/> 工具窗口。</td>
+                    <td><shortcut>Alt</shortcut><shortcut>0</shortcut></td>
+                </tr>
+                <tr>
+                    <td colspan="2">
+                        <video src="https://www.youtube.com/watch?v=M4jpIW6smGo"  width="706" border-effect="rounded"/>
+                    </td>
+                </tr>
+                <tr>
+                    <td>显示 <include from="reuse-library.topic" element-id="terminal-windows-tool-snippet"/> 工具窗口 。</td>
+                    <td><shortcut>Alt</shortcut><shortcut>F12</shortcut></td>
+                </tr>
+                <tr>
+                    <td colspan="2">
+                        <video src="https://www.youtube.com/watch?v=bbrNDhfywHI"  width="706" border-effect="rounded"/>
+                    </td>
+                </tr>
+            </table>
+        </procedure>
+    </chapter>
+    <seealso>
+        <include from="reuse-library.topic" element-id="list-of-suggested-seealso-snippet"/>
+    </seealso>
+</topic>

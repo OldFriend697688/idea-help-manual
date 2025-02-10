@@ -1,0 +1,14 @@
+@font-face {
+    font-family: DFPGB_Y7_FTO;
+    src: url(DFPGB_Y7_FTO.ttf);
+}
+
+* {
+    font-family: DFPGB_Y7_FTO;
+}
+
+.footer__link {
+    font-size: 12px;
+}
+
+

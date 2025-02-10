@@ -1,0 +1,33 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE topic
+        SYSTEM "https://resources.jetbrains.com/writerside/1.0/xhtml-entities.dtd">
+<topic xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
+       xsi:noNamespaceSchemaLocation="https://resources.jetbrains.com/writerside/1.0/topic.v2.xsd"
+       title="IntelliJ IDEA 教育版" id="product-educational-tools">
+    <p>IntelliJ IDEA 可用于学习和教授编程。您可以从头开始学习 <tooltip term="java">Java</tooltip> 、 <tooltip term="kotlin">Kotlin</tooltip> 和 <tooltip term="scala">Scala</tooltip> ，也可以通过互动课程和编程竞赛完善和强化自己的 <tooltip term="programming-language">语言</tooltip> 技能。</p>
+    <p>如果您有兴趣创建自己的课程供他人学习，也可以直接在 IntelliJ IDEA 中完成。</p>
+    <!-- 开始学习课程步骤：详细说明如何开始使用 IntelliJ IDEA 的教育功能，包括下载、安装和选择课程 -->
+    <procedure title="开始学习课程" id="start-edu">
+        <step>下载 <a href="https://www.jetbrains.com/idea/download/other.html">IntelliJ IDEA</a> 并将其用于教学目的。如果您需要进一步说明，请参阅 <a href="installation-guide.topic"  summary=""/> 。</step>
+        <step>在 <control>欢迎界面</control> 中单击左侧的 <ui-path>学习</ui-path> 。</step>
+        <img border-effect="rounded" src="欢迎界面中的学习选项卡.png" alt="欢迎界面中的学习选项卡" width="706" thumbnail="true"/>
+        <step>在右侧窗口中，单击 <ui-path>学习编程 | 启用访问</ui-path> 。</step>
+        <img border-effect="rounded" src="单击学习编程下方的启用访问按钮.png" alt="单击学习编程下方的启用访问按钮" width="706" thumbnail="true"/>
+        <step>单击 <control>开始</control> ，然后在 <control>选择课程</control> 中选择要学习的课程，然后单击课程名称下方的 <control>开始</control> 。</step>
+        <img border-effect="rounded" src="选择感兴趣的目标课程.png" alt="选择感兴趣的目标课程" width="706" thumbnail="true"/>
+        <video border-effect="rounded" src="https://www.youtube.com/watch?v=l-v6mCqBkAw" width="706"/>
+    </procedure>
+    <p>在 IntelliJ IDEA 中打开选中的课程后，您就可以开始学习了。</p>
+    <p>如果您想要了解更多信息，请参阅 <a href="https://www.jetbrains.com/zh-cn/idea-edu/">IntelliJ IDEA for Education</a> 。</p>
+    <p>您还可以使用 <include from="reuse-library.topic" element-id="main-menus-snippet" /> 浏览其他课程、创建新课程或报告问题。</p>
+    <!-- 使用主菜单步骤：介绍如何通过主菜单访问教育相关功能，包括浏览课程、创建课程和问题报告 -->
+    <procedure id="work-with-main-menu" title="使用主菜单">
+        <step>通过 <ui-path><include from="reuse-library.topic" element-id="main-menus-snippet" /> | 文件</ui-path> 选择 <ui-path>浏览课程</ui-path> 或 <ui-path>创建新课程</ui-path> 。</step>
+        <img border-effect="rounded" src="浏览与创建新课程.png" alt="浏览与创建新课程" width="706" thumbnail="true"/>
+        <step>通过 <ui-path><include from="reuse-library.topic" element-id="main-menus-snippet" /> | 帮助 | 向 JetBrains Academy 团队报告问题</ui-path> 将项目中发现的问题上报。</step>
+        <img border-effect="rounded" src="向 JetBrains Academy 团队报告问题.png" alt="向 JetBrains Academy 团队报告问题" width="706" thumbnail="true"/>
+    </procedure>
+    <seealso>
+        <include from="reuse-library.topic" element-id="list-of-suggested-seealso-snippet"/>
+    </seealso>
+</topic>

@@ -1,0 +1,119 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE topic
+        SYSTEM "https://resources.jetbrains.com/writerside/1.0/xhtml-entities.dtd">
+<topic xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
+       xsi:noNamespaceSchemaLocation="https://resources.jetbrains.com/writerside/1.0/topic.v2.xsd"
+       title="共享 IDE 设置" id="sharing-your-ide-settings">
+    <p>您可以在 IntelliJ IDEA 的不同版本实例或团队成员之间共享您的 <snippet id="jetbrains-ide-snippet"><tooltip term="jetbrains-ide">JetBrains IDE</tooltip></snippet> 设置。</p>
+    <p>如果您需要在不同的电脑上工作，这将可以帮您快速找回熟悉的 <tooltip term="user-interface">UI</tooltip> 设置及工作习惯。</p>
+    <note>有关如何共享特定项目相关设置的信息，请参阅 <a href="configure-project-settings.topic" anchor="share-project-through-vcs" summary=""/> 。&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;</note>
+    <p>您可以通过以下方式共享您的 IDE 设置：</p>
+    <list>
+        <li>
+            <p><a href="configure-project-settings.topic" anchor="share-project-through-vcs" summary=""/> ：它是基于 JetBrains 服务器的，因此您无需额外配置。同步设置与您的 <include from="reuse-library.topic" element-id="jetbrains-account-web-url-snippet"/> 相关联，在您使用该账户登录的所有 <include from="sharing-your-ide-settings.topic" element-id="jetbrains-ide-snippet"/> 中均可使用。</p>
+            <p>您可以进行同步的设置内容包括： <a href="user-interface-themes.topic" summary="">主题</a> 、 <a href="mastering-keyboard-shortcuts.topic" summary="">按键映射</a> 、 <a href="configuring-colors-and-fonts.topic" anchor="select-color-scheme"  summary="">配色方案</a> 、系统设置、 UI 设置、 <a href="menus-and-toolbars-appearance-settings.topic" summary="" /> 、项目视图、 <a href="guided-tour-around-the-user-interface.topic" anchor="editor" summary=""/> 、代码补全设置、 <a href="using-live-templates.topic" summary=""/> 、代码样式及启用和禁用的 <a href="managing-plugins.topic" summary="">插件</a> 列表。</p>
+        </li>
+        <li>
+            <p>设置仓库：它允许您同步任何可配置内容（启用和禁用的插件列表除外），但需要设置一个包含您想共享的设置的 <a href="https://git-scm.com/" summary="Git 是一种分布式版本控制系统，由 Linus Torvalds 创建，用于追踪文件的变更历史。它具有快速、灵活的特点，支持分支管理，适合大型项目和团队协作。">Git</a> 仓库，其中包含您想要共享的设置。</p>
+            <p>如果您想在团队成员中执行相同的设置，或使用 <a href="managing-plugins.topic" summary="" anchor="repos">自定义设置存储库</a> ，该选项将非常有用。</p>
+        </li>
+        <li><a anchor="export-settings-to-a-zip-archive">将您想要共享的设置导出为 ZIP 压缩包</a> ，然后导入到不同的 <include from="sharing-your-ide-settings.topic" element-id="jetbrains-ide-snippet"/> 实例中。您可以导出代码样式设置、Git 设置（包括已注册的 GitHub 帐户）、调试器设置、注册表项、外观等。</li>
+    </list>
+    <!-- 如果通过特殊手段激活 IntelliJ IDEA，则不建议使用此方式共享设置 -->
+    <chapter id="ide-settings-sync" title="通过设置同步共享设置">
+        <warning>如果您通过 <a href="register.topic" summary="" anchor="crack-activation">特殊方式</a> 激活 IntelliJ IDEA，则建议您不要使用此方式共享设置。&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;</warning>
+        <p>IntelliJ IDEA 2022.3.3 捆绑了一个新的 <ui-path>Settings sync</ui-path> 插件，它的显著变化包括：</p>
+        <list>
+            <li>支持在所有 <include from="sharing-your-ide-settings.topic" element-id="jetbrains-ide-snippet"/> 之间进行设置同步。</li>
+            <li>支持在 IntelliJ IDEA Ultimate（旗舰版）和 IntelliJ IDEA Community（社区版）中使用。</li>
+            <li>
+                <p>支持同步插件（包含第三方插件）的设置。</p>
+                <p>如果您是 <a href="managing-plugins.topic" summary="">插件</a> 开发者，并希望您的插件设置可以被它进行同步，您需要 <a href="https://plugins.jetbrains.com/docs/intellij/persisting-state-of-components.html#settings-sync-plugin" switcher-key="">进行相关配置</a> 。</p>
+            </li>
+        </list>
+        <img alt="新的设置同步插件" src="新的设置同步插件.png" width="706" thumbnail="true" border-effect="rounded"/>
+        <warning>如果您使用 <a href="managing-plugins.topic" summary="" anchor="repos">自定义设置存储库</a> ，则不能通过 <a anchor="ide-settings-sync" summary="">设置同步</a> 共享您的设置。&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;</warning>
+        <procedure title="相同 Jetbrains IDE 实例之间的同步" id="sync-settings-between-ide-instances" type="steps">
+            <step>
+                <p>在需要共享设置的 <include from="sharing-your-ide-settings.topic" element-id="jetbrains-ide-snippet"/> 实例的电脑上，登录以下任意一项：</p>
+                <list>
+                    <li>正在运行的 JetBrains IDE 实例： 从 <include from="reuse-library.topic" element-id="main-menus-snippet"/> 中选择 <ui-path>帮助 | 注册</ui-path> ，选择 <a href="register.topic" anchor="jb-account" summary="">使用 JetBrains 帐户激活您的许可证</a> ，并在输入框中输入您的凭据。</li>
+                    <li><a href="https://www.jetbrains.com.cn/toolbox-app/" summary="">Toolbox App</a> ：单击右上角位置进入 <ui-path>设置</ui-path> ，然后单击 <control>登录</control> 。注意：登录 Toolbox App 将自动为正在运行的所有 JetBrains 产品登录账号。</li>
+                    <li>如果通过 <a href="register.topic" anchor="activation-code" summary="">激活码</a> 或 <a href="register.topic" anchor="license-server" summary="">许可证服务器</a> 激活 IntelliJ IDEA。请在 <ui-path><include from="reuse-library.topic" element-id="idea-settings-keywords-snippet"/></ui-path> 中选择 <ui-path>设置同步 | 使用 JetBrains 账户登录</ui-path> 以便登录您的 <include from="reuse-library.topic" element-id="jetbrains-account-web-url-snippet"/> 。</li>
+                </list>
+            </step>
+            <img src="使用 JetBrains 账户登录.png" alt="使用 JetBrains 账户登录" width="706" thumbnail="true" border-effect="rounded"/>
+            <step>选择一种适合您的方式进行登录。</step>
+            <img src="选择一种合适的方式登录到 JetBrains 账户.png" alt="选择一种合适的方式登录到 JetBrains 账户" width="706" thumbnail="true" border-effect="rounded"/>
+            <step>登录成功后，请返回至 IntelliJ IDEA 并单击 <control>开始</control> 。</step>
+            <img src="返回至 IntelliJ IDEA 并单击开始.png" alt="返回至 IntelliJ IDEA 并单击开始" width="706" thumbnail="true" border-effect="rounded"/>
+            <step>单击 <control>设置同步</control> 部分中的 <control>启用设置同步</control> 。</step>
+            <img src="启用设置同步.png" alt="启用设置同步" width="706" thumbnail="true" border-effect="rounded"/>
+            <step>选择您要进行共享的设置内容。</step>
+            <note>您可以通过单击 <control>配置</control> 来排除某些设置的同步。例如，如果您不想同步某些插件，则可以排除特定的插件。或者，如果您在不同的 <tooltip term="os">操作系统</tooltip> 上安装了 <include from="sharing-your-ide-settings.topic" element-id="jetbrains-ide-snippet"/> ，其中某些字体可能丢失，您可能希望保留编辑器的本地字体，而不是同步它们。</note>
+            <img src="可用的设置同步选项.png" alt="可用的设置同步选项" width="706" thumbnail="true" border-effect="rounded"/>
+            <step>单击 <control>启用同步</control> 。</step>
+            <step>
+                <p>之后，您可以在 <control>设置同步</control> 中重新配置需同步的设置内容及调整设置的同步范围。</p>
+                <list>
+                    <li><ui-path>仅 IntelliJ IDEA 实例</ui-path> ：您的设置只能够在不同的 IntelliJ IDEA 实例之间进行同步。</li>
+                    <li><ui-path>所有 JetBrains IDE 产品</ui-path> ：您的设置可以在不同的 <include from="sharing-your-ide-settings.topic" element-id="jetbrains-ide-snippet"/> 实例之间进行同步。</li>
+                </list>
+            </step>
+            <img src="在以下范围内同步设置.png" alt="在以下范围内同步设置" width="706" thumbnail="true" border-effect="rounded"/>
+            <note>如果您希望将这些设置同步至另外一个 <include from="sharing-your-ide-settings.topic" element-id="jetbrains-ide-snippet"/> 实例中，您需要启动待同步设置的 IDE，并在其 <control>设置同步</control> 页面中，单击 <control>使用 JetBrains 账户登录</control> 。一旦您完成登录后，您将可以在 <ui-path>设置同步</ui-path> 对话框中选择您需要进行同步的设置，您可以在这一步中更改配置并进行推送，亦或是将已同步的设置从远程服务器拉取并作为本地设置。</note>
+            <img src="将本地设置推送至远程或将远程数据作为本地设置进行同步.png" alt="将本地设置推送至远程或将远程数据作为本地设置进行同步" width="706" thumbnail="true" border-effect="rounded"/>
+        </procedure>
+        <note>每次修改设置时，以及每次 JetBrains 服务器从其他 <include from="sharing-your-ide-settings.topic" element-id="jetbrains-ide-snippet"/> 接收设置更新时，本地设置都会自动与存储在 JetBrains 服务器上的设置同步。换言之，这会使您的 JetBrains IDE 始终使用的是服务器上共享的最新设置。</note>
+        <procedure title="不同 Jetbrains IDE 实例之间的同步" id="synchronization-between-different-ide-instances" type="steps">
+            <note>默认情况下，您的设置只会在同一 <include from="sharing-your-ide-settings.topic" element-id="jetbrains-ide-snippet"/> 产品的实例间同步，例如：在多个 IntelliJ IDEA 实例间同步。但是，您也可以在不同的 JetBrains IDE 实例之间进行设置同步。例如：您可以将 IntelliJ IDEA 的设置同步至 <a href="https://www.jetbrains.com.cn/webstorm/" summary="WebStorm 是一款由 JetBrains 公司开发的集成开发环境（IDE），专门为开发 Web 应用程序而设计。它被广大前端开发者誉为 “Web 前端开发神器”、“最强大的 HTML5 编辑器”、“最智能的 JavaScript IDE”等。">WebStorm</a> 。</note>
+            <step>在 <ui-path><include from="reuse-library.topic" element-id="idea-settings-keywords-snippet"/></ui-path> 中选择 <ui-path>设置同步</ui-path> 。</step>
+            <step>
+                <p>勾选 <control>在以下范围内同步设置</control> 部分下的 <ui-path>所有 JetBrains IDE 产品</ui-path> 。</p>
+                <list>
+                    <li><ui-path>仅 IntelliJ IDEA 实例</ui-path> ：您的设置只能够在不同的 IntelliJ IDEA 实例之间进行同步。</li>
+                    <li><ui-path>所有 JetBrains IDE 产品</ui-path> ：您的设置可以在不同的 <include from="sharing-your-ide-settings.topic" element-id="jetbrains-ide-snippet"/> 实例之间进行同步。</li>
+                </list>
+            </step>
+            <img src="重新配置需同步的内容及调整设置的同步范围.png" alt="重新配置需同步的内容及调整设置的同步范围" width="706" thumbnail="true" border-effect="rounded"/>
+        </procedure>
+    </chapter>
+    <procedure title="禁用设置同步" id="disable-sync">
+        <note>您可以禁用单个 IDE 的设置同步，也可以从 JetBrains 云服务器上完全删除所有设置，并禁用连接到您 JetBrains 账户的所有 IDE 的同步。</note>
+        <step>单击 <include from="reuse-library.topic" element-id="status-bar-snippet"/> 中的 <img src="设置.svg" alt=""/> 并选择 <ui-path>设置同步</ui-path> 。</step>
+        <img src="通过状态栏查看设置同步的开启状态.png" alt="通过状态栏查看设置同步的开启状态" width="706" thumbnail="true" border-effect="rounded"/>
+        <step>在 <control>设置同步</control> 中单击 <control>禁用设置同步</control> 。</step>
+        <img src="禁用设置同步.png" alt="禁用设置同步" width="706" thumbnail="true" border-effect="rounded"/>
+        <step>
+            <p>单击 <control>禁用</control> 以便禁用设置同步。</p>
+            <p>要禁用所有 <include from="sharing-your-ide-settings.topic" element-id="jetbrains-ide-snippet"/> 实例之间的同步，请选择 <ui-path>从 JB 帐户中移除数据并禁用所有 IDE</ui-path> 。</p>
+        </step>
+        <img src="从 JB 帐户中移除数据并禁用所有 IDE.png" alt="从 JB 帐户中移除数据并禁用所有 IDE" width="706" thumbnail="true" border-effect="rounded"/>
+    </procedure>
+    <!-- 退出已登录的 JetBrains 账号 -->
+    <include from="reuse-library.topic" element-id="log-out-of-jb-account-snippet"/>
+    <chapter id="import-export-settings" title="导出您的设置">
+        <note>在 <control><include from="reuse-library.topic" element-id="idea-operating-keywords-snippet"/></control> 键入 <ui-path>导入设置</ui-path> 或 <ui-path>导出设置</ui-path> 可实现更快速地导入和导出设置。&nbsp;&nbsp;&nbsp;</note>
+        <video src="https://www.youtube.com/watch?v=UTPxti1BrnA" width="706" border-effect="rounded"/>
+        <procedure title="将设置导出至 ZIP 压缩包" id="export-settings-to-a-zip-archive" type="steps">
+            <step>选择 <ui-path><include from="reuse-library.topic" element-id="main-menus-snippet"/> | 管理 IDE 设置 | 导出设置</ui-path> 。</step>
+            <img src="导出设置.png" alt="导出设置" width="706" thumbnail="true" border-effect="rounded"/>
+            <step>选择要导出的设置内容并为目标压缩包指定存储路径。</step>
+            <video src="https://www.youtube.com/watch?v=JdaYMQRluEM" width="706" border-effect="rounded"/>
+        </procedure>
+        <procedure title="从 ZIP 压缩包导入设置" id="import-settings-from-a-zip-archive" type="steps">
+            <step>选择 <ui-path><include from="reuse-library.topic" element-id="main-menus-snippet"/> | 管理 IDE 设置 | 导入设置</ui-path> 。</step>
+            <img src="导入设置.png" alt="导入设置" width="706" thumbnail="true" border-effect="rounded"/>
+            <step>在 <control>导入文件的位置</control> 中选择包含设置信息的 <tooltip term="zip">ZIP</tooltip> 压缩包。例如： <path>settings.zip</path> 。</step>
+            <img src="导入文件的位置.png" alt="导入文件的位置" width="706" thumbnail="true" border-effect="rounded"/>
+            <step>在 <control>选择要导入的组件</control> 中选择要应用的设置。</step>
+            <img src="选择要导入的组件.png" alt="选择要导入的组件" width="706" thumbnail="true" border-effect="rounded"/>
+            <step>单击 <control>确定</control> ，然后继续单击 <control>导入并重启</control> 。</step>
+            <img src="导入并重启.png" alt="导入并重启" width="706" thumbnail="true" border-effect="rounded"/>
+            <video src="https://www.youtube.com/watch?v=UbL9XsZV_18" width="706" border-effect="rounded"/>
+        </procedure>
+    </chapter>
+    <seealso>
+        <include from="reuse-library.topic" element-id="list-of-suggested-seealso-snippet"/>
+    </seealso>
+</topic>

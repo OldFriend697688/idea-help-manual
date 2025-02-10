@@ -1,0 +1,757 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE instance-profile
+        SYSTEM "https://resources.jetbrains.com/writerside/1.0/product-profile.dtd">
+
+<instance-profile id="hi"
+                  name="IntelliJ IDEA 帮助手册"
+                  start-page="getting-started.topic">
+    <toc-element topic="getting-started.topic">
+        <toc-element topic="accessibility.topic"/>
+        <toc-element topic="discover-intellij-idea.topic">
+            <toc-element topic="guided-tour-around-the-user-interface.topic"/>
+            <toc-element topic="pro-tips.topic"/>
+            <toc-element topic="getting-help.topic"/>
+        </toc-element>
+        <toc-element topic="installation-guide.topic">
+            <toc-element topic="run-for-the-first-time.topic"/>
+            <toc-element topic="uninstall.topic" toc-title="卸载"/>
+            <toc-element topic="register.topic" toc-title="注册"/>
+            <toc-element topic="update.topic" toc-title="更新"/>
+        </toc-element>
+        <toc-element topic="working-offline.topic"/>
+        <toc-element topic="managing-plugins.topic" />
+        <toc-element topic="feature-trainer.topic"/>
+        <toc-element topic="creating-and-running-your-first-java-application.topic"/>
+        <toc-element toc-title="从 Eclipse 迁移" href="https://www.jetbrains.com/help/idea/2022.3/migrating-from-eclipse-to-intellij-idea.html">
+            <toc-element toc-title="从 Eclipse 导入项目" href="https://www.jetbrains.com/help/idea/2022.3/import-project-from-eclipse-page-1.html"/>
+            <toc-element toc-title="将 IntelliJ IDEA 项目导出到 Eclipse" href="https://www.jetbrains.com/help/idea/2022.3/exporting-an-intellij-idea-project-to-eclipse.html"/>
+        </toc-element>
+        <toc-element toc-title="从 NetBeans 迁移" href="https://www.jetbrains.com/help/idea/2022.3/netbeans.html" />
+        <toc-element toc-title="从 NetBeans  迁移" href="https://www.jetbrains.com/help/idea/2022.3/netbeans.html" />
+        <toc-element topic="product-educational-tools.topic"/>
+    </toc-element>
+    <toc-element topic="configuring-project-and-ide-settings.topic">
+        <toc-element toc-title="外观设置">
+            <toc-element topic="new-ui.topic"/>
+            <toc-element topic="tool-window.topic">
+                <toc-element topic="manipulating-the-tool-windows.topic"/>
+                <toc-element topic="viewing-modes.topic"/>
+                <toc-element topic="speed-search-in-the-tool-windows.topic"/>
+            </toc-element>
+            <toc-element topic="setting-background-image.topic"/>
+            <toc-element topic="customize-actions-menus-and-toolbars.topic"/>
+            <toc-element topic="user-interface-themes.topic"/>
+            <toc-element topic="ide-viewing-modes.topic"/>
+            <toc-element topic="linux-native-menu.topic"/>
+        </toc-element>
+        <toc-element topic="mastering-keyboard-shortcuts.topic">
+            <toc-element topic="configuring-keyboard-and-mouse-shortcuts.topic"/>
+            <toc-element topic="reference-keymap-win-default.topic"/>
+            <toc-element topic="keyboard-shortcuts-troubleshooting.topic"/>
+        </toc-element>
+        <toc-element topic="configuring-colors-and-fonts.topic"/>
+        <toc-element topic="notifications.topic"/>
+        <toc-element topic="absolute-path-variables.topic"/>
+        <toc-element topic="sharing-your-ide-settings.topic"/>
+        <toc-element topic="tuning-the-ide.topic">
+            <toc-element topic="directories-used-by-the-ide-to-store-settings-caches-plugins-and-logs.topic"/>
+            <toc-element topic="switching-boot-jdk.topic" toc-title="更改 IDE 启动时的 Java 运行时"/>
+            <toc-element topic="increasing-memory-heap.topic"/>
+            <toc-element topic="activity-monitor.topic"/>
+            <toc-element topic="ssl-certificates.topic"/>
+        </toc-element>
+    </toc-element>
+    <toc-element topic="working-with-projects.topic">
+        <toc-element topic="project-security.topic"/>
+        <toc-element topic="creating-and-managing-projects.topic">
+            <toc-element topic="new-project-wizard.topic"/>
+            <toc-element topic="import-project-or-module-wizard.topic"/>
+            <toc-element topic="open-close-and-move-projects.topic"/>
+            <toc-element topic="add-items-to-project.topic"/>
+            <toc-element topic="configure-project-settings.topic"/>
+            <toc-element topic="project-settings-and-structure.topic"/>
+            <toc-element topic="saving-project-as-template.topic"/>
+            <toc-element topic="project-tool-window.topic">
+                <toc-element topic="file-nesting-dialog.topic"/>
+            </toc-element>
+            <toc-element topic="indexing.topic">
+                <toc-element topic="shared-indexes.topic"/>
+            </toc-element>
+            <toc-element topic="creating-and-managing-modules.topic">
+                <toc-element topic="content-roots.topic">
+                </toc-element>
+                <toc-element topic="working-with-module-dependencies.topic"/>
+                <toc-element topic="configure-modules.topic"/>
+                <toc-element topic="adding-support-for-frameworks-and-technologies.topic"/>
+                <toc-element topic="unloading-modules.topic"/>
+            </toc-element>
+            <toc-element topic="sdks.topic"/>
+            <toc-element topic="library.topic"/>
+            <toc-element topic="configuring-scopes-and-file-colors.topic">
+                <toc-element topic="scope-language-syntax-reference.topic"/>
+            </toc-element>
+            <toc-element topic="invalidate-caches.topic"/>
+            <toc-element topic="repair-ide.topic"/>
+            <toc-element topic="resource-files.topic"/>
+        </toc-element>
+    </toc-element>
+    <toc-element topic="working-with-source-code.topic">
+        <toc-element topic="using-code-editor.topic"/>
+        <toc-element topic="multicursor.topic"/>
+        <toc-element topic="lightedit-mode.topic"/>
+        <toc-element topic="code-style.topic">
+            <toc-element topic="configuring-code-style.topic"/>
+            <toc-element topic="editorconfig.topic"/>
+            <toc-element topic="reformat-and-rearrange-code.topic"/>
+            <toc-element topic="rearrange-code.topic"/>
+            <toc-element topic="configuring-line-endings-and-line-separators.topic"/>
+            <toc-element topic="indentation.topic"/>
+        </toc-element>
+        <toc-element topic="navigating-through-the-source-code.topic">
+            <toc-element topic="bookmarks.topic"/>
+            <toc-element topic="viewing-structure-of-a-source-file.topic"/>
+            <toc-element topic="viewing-structure-and-hierarchy-of-the-source-code.topic"/>
+        </toc-element>
+        <toc-element toc-title="查找和替换">
+            <toc-element topic="finding-and-replacing-text-in-file.topic"/>
+            <toc-element topic="finding-and-replacing-text-in-project.topic"/>
+            <toc-element topic="tutorial-finding-and-replacing-text-using-regular-expressions.topic">
+                <toc-element topic="regular-expressions.topic"/>
+            </toc-element>
+            <toc-element topic="find-highlight-usages.topic"/>
+            <toc-element topic="structural-search-and-replace.topic">
+                <toc-element topic="search-templates.topic"/>
+                <toc-element topic="structural-search-and-replace-examples.topic"/>
+                <toc-element topic="tutorial-work-with-structural-search-and-replace.topic"/>
+            </toc-element>
+            <toc-element topic="searching-everywhere.topic"/>
+            <toc-element topic="full-text-search-for-databases.topic"/>
+        </toc-element>
+        <toc-element topic="creating-and-optimizing-imports.topic"/>
+        <toc-element topic="auto-completing-code.topic"/>
+        <toc-element topic="generating-code.topic">
+            <toc-element topic="generate-custom-code-constructs-using-live-templates.topic"/>
+            <toc-element topic="implementing-methods-of-an-interface.topic"/>
+            <toc-element topic="overriding-methods-of-a-superclass.topic"/>
+            <toc-element topic="surrounding-blocks-of-code-with-language-constructs.topic"/>
+            <toc-element topic="completing-punctuation.topic"/>
+        </toc-element>
+        <toc-element topic="refactoring-source-code.topic">
+            <toc-element topic="change-signature.topic">
+                <toc-element topic="change-class-signature-dialog.topic"/>
+            </toc-element>
+            <toc-element topic="convert-anonymous-to-inner.topic"/>
+            <toc-element topic="convert-to-instance-method.topic"/>
+            <toc-element topic="encapsulate-fields.topic"/>
+            <toc-element toc-title="提取/引入重构">
+                <toc-element topic="extract-constant.topic"/>
+                <toc-element topic="extract-field.topic"/>
+                <toc-element topic="extract-interface.topic"/>
+                <toc-element topic="extract-method.topic"/>
+                <toc-element topic="extract-superclass.topic"/>
+                <toc-element topic="extract-variable.topic"/>
+                <toc-element topic="extract-parameter.topic"/>
+                <toc-element topic="extract-into-class-refactorings.topic"/>
+                <toc-element topic="replace-conditional-logic-with-strategy-pattern.topic"/>
+            </toc-element>
+            <toc-element topic="find-and-replace-code-duplicates.topic"/>
+            <toc-element topic="generify-refactoring.topic"/>
+            <toc-element topic="Inline.topic">
+                <toc-element topic="inline-dialogs.topic"/>
+            </toc-element>
+            <toc-element topic="invert-boolean-refactoring.topic"/>
+            <toc-element topic="make-method-static.topic"/>
+            <toc-element topic="migrate.topic"/>
+            <toc-element topic="move-refactorings.topic"/>
+            <toc-element topic="pull-members-up.topic">
+                <toc-element topic="pull-members-up-dialog.topic"/>
+                <toc-element topic="push-members-down-dialog.topic"/>
+            </toc-element>
+            <toc-element topic="remove-middleman.topic"/>
+            <toc-element topic="rename-refactorings.topic"/>
+            <toc-element topic="replace-inheritance-with-delegation.topic"/>
+            <toc-element topic="safe-delete.topic"/>
+            <toc-element topic="type-migration.topic"/>
+            <toc-element topic="use-interface-where-possible.topic"/>
+            <toc-element topic="wrap-return-value.topic"/>
+            <toc-element topic="tutorial-introduction-to-refactoring.topic"/>
+            <toc-element toc-title="作为意图行为的重构">
+                <toc-element topic="replace-constructor-with-builder.topic"/>
+                <toc-element topic="replace-constructor-with-factory-method.topic"/>
+            </toc-element>
+        </toc-element>
+        <toc-element topic="working-with-code-documentation.topic"/>
+        <toc-element topic="viewing-reference-information.topic">
+            <toc-element topic="inlay-hints.topic"/>
+            <toc-element topic="viewing-definition.topic"/>
+        </toc-element>
+        <toc-element topic="code-inspection.topic">
+            <toc-element topic="file-and-project-analysis.topic"/>
+            <toc-element topic="running-inspections.topic"/>
+            <toc-element topic="resolving-problems.topic"/>
+            <toc-element topic="customizing-profiles.topic"/>
+            <toc-element topic="configuring-inspection-severities.topic"/>
+            <toc-element topic="disabling-and-enabling-inspections.topic"/>
+            <toc-element topic="creating-custom-inspections.topic"/>
+            <toc-element topic="problems-tool-window.topic"/>
+            <toc-element toc-title="详细检查">
+                <toc-element topic="list-of-java-inspections.topic"/>
+                <toc-element topic="analyzing-duplicates.topic"/>
+            </toc-element>
+        </toc-element>
+        <toc-element topic="intention-actions.topic"/>
+        <toc-element topic="using-file-and-code-templates.topic">
+            <toc-element topic="file-template-variables.topic"/>
+            <toc-element topic="parse-directive.topic"/>
+            <toc-element topic="templates-with-multiple-files.topic"/>
+        </toc-element>
+        <toc-element topic="using-live-templates.topic">
+            <toc-element topic="creating-and-editing-live-templates.topic"/>
+            <toc-element topic="template-variables.topic"/>
+            <toc-element topic="sharing-live-templates.topic"/>
+            <toc-element topic="emmet.topic"/>
+        </toc-element>
+        <toc-element topic="comparing-files-and-folders.topic"/>
+        <toc-element topic="annotating-source-code.topic">
+            <toc-element topic="contract-annotations.topic"/>
+            <toc-element topic="nullable-and-notnull-annotation.topic"/>
+            <toc-element topic="parametersarenonnullbydefault-annotation.topic"/>
+            <toc-element topic="inferring-nullity.topic"/>
+            <toc-element topic="external-annotations.topic"/>
+            <toc-element topic="inferred-annotations.topic"/>
+        </toc-element>
+        <toc-element topic="proofreading.topic">
+            <toc-element topic="grammar.topic"/>
+            <toc-element topic="spellchecking.topic"/>
+        </toc-element>
+        <toc-element topic="using-todo.topic"/>
+        <toc-element topic="using-language-injections.topic"/>
+        <toc-element topic="scratches.topic">
+            <toc-element topic="run-debug-configuration-java-scratch.topic"/>
+        </toc-element>
+        <toc-element topic="class-diagram.topic">
+            <toc-element toc-title="图表参考">
+                <toc-element topic="diagram-toolbar-and-context-menu.topic"/>
+                <toc-element topic="class-diagram-toolbar-and-context-menu.topic"/>
+            </toc-element>
+        </toc-element>
+        <toc-element topic="copyright.topic"/>
+        <toc-element topic="using-macros-in-the-editor.topic"/>
+        <toc-element topic="internationalization-and-localization.topic">
+            <toc-element topic="properties-files.topic"/>
+            <toc-element topic="resource-bundle.topic"/>
+            <toc-element topic="hard-coded-string-literals.topic"/>
+            <toc-element topic="text-direction.topic"/>
+        </toc-element>
+        <toc-element topic="editing-csv-and-tsv-files.topic"/>
+        <toc-element topic="using-product-as-the-vim-editor.topic"/>
+        <toc-element topic="saving-and-reverting-changes.topic"/>
+        <toc-element topic="local-history.topic"/>
+        <toc-element topic="creating-and-registering-file-types.topic"/>
+        <toc-element topic="encoding.topic"/>
+    </toc-element>
+    <toc-element topic="compiling-applications.topic">
+        <toc-element topic="build-tools.topic">
+            <toc-element topic="maven-support.topic">
+                <toc-element topic="delegate-build-and-run-actions-to-maven.topic"/>
+                <toc-element topic="work-with-maven-goals.topic"/>
+                <toc-element topic="run-debug-configuration-maven.topic"/>
+                <toc-element topic="work-with-tests-in-maven.topic"/>
+                <toc-element topic="work-with-maven-dependencies.topic"/>
+                <toc-element topic="work-with-maven-profiles.topic"/>
+                <toc-element topic="maven-refactorings.topic"/>
+                <toc-element toc-title="Maven 教程">
+                    <toc-element topic="convert-a-regular-project-into-a-maven-project.topic"/>
+                    <toc-element topic="troubleshooting-common-maven-issues.topic"/>
+                </toc-element>
+            </toc-element>
+        </toc-element>
+        <toc-element topic="build-overview.topic"/>
+        <toc-element topic="importing-process.topic"/>
+        <toc-element topic="specifying-compilation-settings.topic"/>
+        <toc-element topic="annotation-processors-support.topic"/>
+        <toc-element topic="package-search.topic">
+            <toc-element topic="package-search-build-system-support-limitations.topic"/>
+        </toc-element>
+        <toc-element topic="decompiler.topic"/>
+    </toc-element>
+    <toc-element topic="running-applications.topic">
+        <toc-element topic="run-debug-configuration.topic"/>
+        <toc-element topic="list-of-run-debug-configurations.topic"/>
+        <toc-element topic="run-debug-multiple.topic"/>
+        <toc-element topic="setting-log-options.topic"/>
+        <toc-element topic="running-anything.topic"/>
+        <toc-element topic="shebang-scripts.topic"/>
+        <toc-element topic="run-targets.topic"/>
+        <toc-element topic="using-services-tool-window.topic"/>
+    </toc-element>
+    <toc-element topic="debugging-code.topic">
+        <toc-element topic="using-breakpoints.topic"/>
+        <toc-element topic="starting-the-debugger-session.topic"/>
+        <toc-element topic="debug-tool-window.topic"/>
+        <toc-element topic="examining-suspended-program.topic"/>
+        <toc-element topic="customizing-views.topic"/>
+        <toc-element topic="stepping-through-the-program.topic"/>
+        <toc-element topic="monitor-debugger-overhead.topic"/>
+        <toc-element topic="analyze-objects-in-the-jvm-heap.topic"/>
+        <toc-element topic="analyze-java-stream-operations.topic"/>
+        <toc-element topic="debug-asynchronous-code.topic"/>
+        <toc-element topic="attaching-to-local-process.topic"/>
+        <toc-element topic="altering-the-program-s-execution-flow.topic"/>
+        <toc-element topic="debugging-your-first-java-application.topic"/>
+        <toc-element topic="tutorial-set-value.topic"/>
+        <toc-element topic="tutorial-remote-debug.topic"/>
+        <toc-element topic="detect-concurrency-issues.topic"/>
+    </toc-element>
+    <toc-element topic="deploying-application.topic">
+        <toc-element topic="artifacts.topic">
+        </toc-element>
+        <toc-element topic="configuring-synchronization-with-a-remote-host.topic">
+            <toc-element topic="creating-in-place-server-configuration.topic"/>
+            <toc-element topic="creating-local-server-configuration.topic"/>
+            <toc-element topic="creating-a-remote-server-configuration.topic"/>
+            <toc-element topic="customizing-upload.topic"/>
+            <toc-element topic="excluding-files-and-folders-from-deployment.topic"/>
+            <toc-element topic="server-groups.topic"/>
+        </toc-element>
+        <toc-element topic="accessing-files-on-remote-hosts.topic"/>
+        <toc-element topic="uploading-and-downloading-files.topic"/>
+        <toc-element topic="comparing-deployed-files-and-folders-with-their-local-versions.topic"/>
+        <toc-element topic="editing-individual-files-on-remote-hosts.topic"/>
+        <toc-element topic="create-ssh-configurations.topic"/>
+        <toc-element topic="running-ssh-terminal.topic"/>
+        <toc-element topic="tutorial-deployment-in-product.topic"/>
+    </toc-element>
+    <toc-element topic="tests-in-ide.topic">
+        <toc-element topic="testing.topic"/>
+        <toc-element topic="create-tests.topic"/>
+        <toc-element topic="performing-tests.topic"/>
+        <toc-element topic="viewing-and-exploring-test-results.topic"/>
+        <toc-element topic="generate-test-data.topic"/>
+        <toc-element toc-title="测试管理系统">
+            <toc-element topic="test-management-systems.topic"/>
+            <toc-element topic="tms-annotations-setup.topic"/>
+            <toc-element topic="local-tms.topic"/>
+        </toc-element>
+        <toc-element topic="tdd-with-intellij-idea.topic"/>
+        <toc-element topic="code-coverage.topic">
+            <toc-element topic="configuring-code-coverage-measurement.topic"/>
+            <toc-element topic="running-test-with-coverage.topic"/>
+            <toc-element topic="viewing-code-coverage-results.topic"/>
+            <toc-element topic="switching-between-code-coverage-suites.topic"/>
+            <toc-element topic="generating-code-coverage-report.topic"/>
+        </toc-element>
+        <toc-element topic="testing-frameworks.topic">
+            <toc-element toc-title="JUint">
+                <toc-element topic="junit.topic"/>
+                <toc-element topic="run-debug-configuration-junit.topic"/>
+            </toc-element>
+        </toc-element>
+    </toc-element>
+    <toc-element toc-title="分析">
+        <toc-element toc-title="刨析">
+            <toc-element topic="profiler-intro.topic"/>
+            <toc-element topic="cpu-and-memory-live-charts.topic"/>
+            <toc-element toc-title="CPU 和分配分析">
+                <toc-element topic="cpu-and-allocation-profiling-basic-concepts.topic"/>
+                <toc-element topic="create-a-profiling-report.topic"/>
+                <toc-element topic="profile-maven-goals.topic"/>
+                <toc-element topic="compare-profiler-snapshots.topic"/>
+                <toc-element topic="read-the-profiling-report.topic"/>
+                <toc-element topic="custom-profiler-configurations.topic"/>
+            </toc-element>
+            <toc-element toc-title="堆转储">
+                <toc-element topic="create-a-memory-snapsho.topic"/>
+                <toc-element topic="read-the-memory-snapshot.topic"/>
+            </toc-element>
+            <toc-element topic="thread-dumps.topic"/>
+            <toc-element topic="tutorial-get-started-with-profiling.topic"/>
+            <toc-element topic="tutorial-find-a-memory-leak.topic"/>
+        </toc-element>
+        <toc-element topic="dependencies-analysis.topic">
+            <toc-element topic="dsm-analysis.topic"/>
+            <toc-element topic="project-module-dependencies-diagram.topic"/>
+            <toc-element topic="package-analysis.topic"/>
+            <toc-element topic="analyzing-external-stacktraces.topic"/>
+            <toc-element topic="analyzing-data-flow.topic"/>
+        </toc-element>
+    </toc-element>
+    <toc-element topic="version-control-integration.topic">
+        <toc-element topic="enabling-version-control.topic"/>
+        <toc-element topic="cloning-repository.topic"/>
+        <toc-element topic="adding-files-to-version-control.topic"/>
+        <toc-element topic="comparing-file-versions.topic"/>
+        <toc-element topic="resolving-conflicts.topic"/>
+        <toc-element topic="handling-issues.topic"/>
+        <toc-element topic="managing-changelists.topic"/>
+        <toc-element topic="shelving-and-unshelving-changes.topic"/>
+        <toc-element topic="using-patches.topic"/>
+        <toc-element topic="viewing-changes-information.topic"/>
+        <toc-element topic="git.topic">
+            <toc-element topic="set-up-a-git-repository.topic"/>
+            <toc-element topic="sync-with-a-remote-repository.topic"/>
+            <toc-element topic="commit-and-push-changes.topic"/>
+            <toc-element topic="set-up-GPG-commit-signing.topic"/>
+            <toc-element topic="investigate-changes.topic"/>
+            <toc-element topic="manage-branches.topic"/>
+            <toc-element topic="apply-changes-from-one-branch-to-another.topic"/>
+            <toc-element topic="resolve-conflicts.topic"/>
+            <toc-element topic="work-on-several-features-simultaneously.topic"/>
+            <toc-element topic="undo-changes.topic"/>
+            <toc-element topic="use-tags-to-mark-specific-commits.topic"/>
+            <toc-element topic="edit-project-history.topic"/>
+        </toc-element>
+        <toc-element topic="github.topic">
+            <toc-element topic="manage-projects-hosted-on-github.topic"/>
+            <toc-element topic="fork-github-projects.topic"/>
+            <toc-element topic="work-with-github-pull-requests.topic"/>
+            <toc-element topic="share-code-with-gists.topic"/>
+        </toc-element>
+        <toc-element toc-title="版本控制参考">
+            <toc-element topic="apply-patch-dialog.topic"/>
+            <toc-element topic="commit-changes-dialog.topic"/>
+            <toc-element topic="file-status-highlights.topic"/>
+            <toc-element topic="new-changelist-dialog.topic"/>
+            <toc-element topic="create-patch-dialog.topic"/>
+            <toc-element topic="push-dialog-mercurial-git.topic"/>
+            <toc-element topic="revert-changes-dialog.topic"/>
+            <toc-element topic="select-target-changelist-dialog.topic"/>
+            <toc-element topic="shelve-changes-dialog.topic"/>
+        </toc-element>
+    </toc-element>
+    <toc-element topic="remote.topic">
+        <toc-element topic="remote-development-overview.topic"/>
+        <toc-element topic="prerequisites.topic"/>
+        <toc-element topic="jetbrains-gateway.topic"/>
+        <toc-element topic="remote-development-starting-page.topic"/>
+        <toc-element topic="remote-development-a.topic"/>
+        <toc-element topic="fully-offline-mode.topic"/>
+        <toc-element topic="work-inside-remote-project.topic"/>
+        <toc-element topic="faq-about-remote-development.topic"/>
+        <toc-element topic="remote-development-troubleshooting.topic"/>
+        <toc-element topic="licensing-and-useful-links.topic"/>
+        <toc-element topic="security-model.topic"/>
+    </toc-element>
+    <toc-element toc-title="综合工具">
+        <toc-element topic="code-with-me.topic">
+            <toc-element topic="faq-about-code-with-me.topic"/>
+            <toc-element topic="faq-about-code-with-me-security.topic"/>
+            <toc-element topic="code-with-me-security-overview.topic"/>
+            <toc-element topic="code-with-me-guest-ui-overview.topic"/>
+        </toc-element>
+        <toc-element topic="space.topic">
+            <toc-element topic="getting-started-with-space.topic"/>
+            <toc-element topic="review-code-in-space.topic"/>
+            <toc-element topic="space-automation.topic"/>
+        </toc-element>
+        <toc-element topic="relational-databases.topic">
+            <toc-element toc-title="连接数据库">
+                <toc-element topic="connecting-to-a-database.topic">
+                    <toc-element topic="redis.topic"/>
+                    <toc-element topic="oracle.topic"/>
+                    <toc-element topic="mysql.topic"/>
+                    <toc-element topic="MongoDB.topic"/>
+                </toc-element>
+                <toc-element topic="configuring-database-connections.topic">
+                    <toc-element topic="configuring-ssh-and-ssl.topic"/>
+                </toc-element>
+                <toc-element topic="managing-data-sources.topic"/>
+                <toc-element topic="managing-connection-sessions.topic"/>
+            </toc-element>
+            <toc-element toc-title="运行查询和文件">
+                <toc-element topic="run-a-query.topic">
+                    <toc-element topic="viewing-query-results.topic"/>
+                    <toc-element topic="visualize-execution-plan.topic"/>
+                </toc-element>
+                <toc-element topic="run-files.topic"/>
+                <toc-element topic="debugging-oracle-pl-sql-code.topic"/>
+            </toc-element>
+            <toc-element topic="table-editor.topic">
+                <toc-element topic="tables-view-data.topic"/>
+                <toc-element topic="work-with-data.topic">
+                    <toc-element topic="tables-sort.topic"/>
+                    <toc-element topic="tables-filter.topic"/>
+                    <toc-element topic="rows.topic"/>
+                    <toc-element topic="cells.topic"/>
+                </toc-element>
+                <toc-element topic="submitting-and-reverting-changes.topic"/>
+            </toc-element>
+            <toc-element toc-title="数据库对象">
+                <toc-element toc-title="管理对象和源代码">
+                    <toc-element topic="differences-viewer-for-database-objects.topic"/>
+                    <toc-element topic="modifying-source-code-of-database-objects.topic"/>
+                    <toc-element topic="working-with-ddl-definitions.topic"/>
+                </toc-element>
+                <toc-element topic="schemas.topic"/>
+                <toc-element topic="working-with-the-data-editor.topic">
+                    <toc-element topic="tables-create-and-delete.topic"/>
+                    <toc-element topic="tables-copy.topic"/>
+                    <toc-element topic="tables-modify.topic"/>
+                    <toc-element topic="tables-export.topic"/>
+                </toc-element>
+                <toc-element topic="views.topic"/>
+                <toc-element topic="columns.topic"/>
+                <toc-element topic="primary-keys.topic"/>
+                <toc-element topic="Foreign-keys.topic"/>
+                <toc-element topic="Indexes.topic"/>
+                <toc-element topic="database-users-and-roles.topic"/>
+                <toc-element toc-title="虚拟对象">
+                    <toc-element topic="virtual-foreign-keys.topic"/>
+                    <toc-element topic="virtual-views.topic"/>
+                    <toc-element topic="virtual-columns.topic"/>
+                </toc-element>
+            </toc-element>
+            <toc-element topic="creating-diagrams.topic"/>
+            <toc-element topic="working-with-files.topic">
+                <toc-element topic="working-with-database-consoles.topic"/>
+                <toc-element topic="working-with-user-files.topic"/>
+            </toc-element>
+            <toc-element topic="exporting-and-importing-data.topic">
+                <toc-element topic="export-data.topic"/>
+                <toc-element topic="import-data.topic"/>
+                <toc-element topic="data-extractor.topic"/>
+            </toc-element>
+            <toc-element toc-title="配置设置">
+                <toc-element topic="configure-the-sql-code-style.topic"/>
+            </toc-element>
+            <toc-element topic="running-injected-sql-statements.topic"/>
+            <toc-element toc-title="故障排除">
+                <toc-element topic="connectivity-problems.topic"/>
+                <toc-element topic="cannot-find-a-database-object-in-the-database-tree-view.topic"/>
+                <toc-element topic="cannot-connect-to-a-database-because-of-sslhandshakeexception.topic"/>
+                <toc-element topic="troubleshooting-materials.topic"/>
+            </toc-element>
+        </toc-element>
+        <toc-element topic="docker.topic">
+            <toc-element topic="podman.topic"/>
+            <toc-element toc-title="教程">
+                <toc-element topic="running-a-dbms-image.topic"/>
+                <toc-element topic="running-a-java-app-in-a-container.topic"/>
+                <toc-element topic="debug-a-java-application-using-a-dockerfile.topic"/>
+                <toc-element topic="run-and-debug-a-spring-boot-application-using-docker-compose.topic"/>
+                <toc-element topic="Empty-deploying-a-web-app-into-an-app-server-container.topic"/>
+            </toc-element>
+        </toc-element>
+        <toc-element topic="kubernetes.topic"/>
+        <toc-element topic="how-to-use-wsl-development-environment-in-product.topic"/>
+        <toc-element topic="http-client-in-product-code-editor.topic">
+            <toc-element topic="exploring-http-syntax.topic"/>
+            <toc-element topic="http-response-handling-api-reference.topic">
+                <toc-element topic="http-client-reference.topic"/>
+                <toc-element topic="http-client-crypto-api-reference.topic"/>
+                <toc-element topic="http-response-reference.topic"/>
+                <toc-element topic="http-response-handling-examples.topic"/>
+            </toc-element>
+        </toc-element>
+        <toc-element topic="terminal-emulator.topic"/>
+        <toc-element topic="jshell-console.topic"/>
+        <toc-element topic="ide-scripting-console.topic"/>
+        <toc-element topic="using-file-watchers.topic">
+            <toc-element topic="tutorial-file-watchers-in-product.topic"/>
+        </toc-element>
+        <toc-element topic="configuring-third-party-tools.topic"/>
+        <toc-element topic="managing-tasks-and-context.topic"/>
+        <toc-element topic="working-with-the-ide-features-from-command-line.topic">
+            <toc-element topic="opening-files-from-command-line.topic"/>
+            <toc-element topic="command-line-differences-viewer.topic"/>
+            <toc-element topic="command-line-merge-tool.topic"/>
+            <toc-element topic="command-line-formatter.topic"/>
+            <toc-element topic="command-line-code-inspector.topic"/>
+        </toc-element>
+    </toc-element>
+    <toc-element toc-title="参考资料">
+        <toc-element toc-title="工具窗口参考">
+            <toc-element topic="build-sync-tool-window.topic"/>
+            <toc-element topic="bean-validation-tool-window.topic"/>
+            <toc-element topic="cdi-tool-window.topic"/>
+            <toc-element topic="query-console.topic"/>
+            <toc-element topic="database-tool-window.topic"/>
+            <toc-element topic="documentation-tool-window.topic"/>
+            <toc-element topic="duplicates-tool-window.topic"/>
+            <toc-element topic="endpoints-tool-window.topic"/>
+            <toc-element topic="find-tool-window.topic"/>
+            <toc-element topic="jetgradle-tool-window.topic"/>
+            <toc-element topic="maven-projects-tool-window.topic"/>
+            <toc-element topic="npm-tool-window.topic"/>
+            <toc-element topic="remote-host-tool-window.topic"/>
+            <toc-element topic="run-tool-window.topic">
+                <toc-element topic="deployment-console.topic"/>
+                <toc-element topic="logs-tab.topic"/>
+                <toc-element topic="groovy-shell.topic"/>
+                <toc-element topic="interactive-groovy-console.topic"/>
+            </toc-element>
+            <toc-element topic="services-tool-window.topic"/>
+            <toc-element topic="structure-tool-window-file-structure-popup.topic"/>
+            <toc-element topic="thumbnails-tool-window.topic"/>
+            <toc-element topic="todo-tool-window.topic"/>
+            <toc-element topic="typescript-compiler-tool-window.topic"/>
+            <toc-element topic="version-control-tool-window.topic">
+                <toc-element topic="version-control-tool-window-console-tab.topic"/>
+                <toc-element topic="log-tab.topic"/>
+                <toc-element topic="version-control-tool-window-history-tab.topic"/>
+                <toc-element topic="version-control-tool-window-integrate-to-branch-info-view.topic"/>
+                <toc-element topic="version-control-tool-window-repository-and-incoming-tabs.topic"/>
+                <toc-element topic="shelf-tab.topic"/>
+                <toc-element topic="mq-project-name-tab.topic"/>
+            </toc-element>
+            <toc-element toc-title="对话框">
+                <toc-element topic="add-new-field-or-constant.topic"/>
+                <toc-element topic="choose-local-paths-to-upload-dialog.topic"/>
+                <toc-element topic="color-picker.topic"/>
+                <toc-element topic="confirm-drop-dialog.topic"/>
+                <toc-element topic="create-jar-from-modules-dialog.topic"/>
+                <toc-element topic="create-new-constructor.topic"/>
+                <toc-element topic="create-new-method.topic"/>
+                <toc-element topic="create-run-debug-configuration-gradle-tasks.topic"/>
+                <toc-element topic="modify-table-dialog.topic"/>
+                <toc-element topic="data-extractors-dialog.topic"/>
+                <toc-element topic="data-sources-and-drivers-dialog.topic"/>
+                <toc-element topic="database-color-settings-dialog.topic"/>
+                <toc-element toc-title="差异视图">
+                    <toc-element topic="differences-viewer.topic"/>
+                    <toc-element topic="differences-viewer-for-folders.topic"/>
+                </toc-element>
+                <toc-element topic="data-format-configuration-dialog.topic"/>
+                <toc-element topic="edit-macros-dialog.topic"/>
+                <toc-element topic="edit-project-path-mappings-dialog.topic"/>
+                <toc-element topic="export-to-html.topic"/>
+                <toc-element topic="file-cache-conflict.topic"/>
+                <toc-element toc-title="查找用法对话框">
+                    <toc-element topic="find-usages-dialog.topic"/>
+                    <toc-element topic="find-usages-class-options.topic"/>
+                    <toc-element topic="find-usages-method-options.topic"/>
+                    <toc-element topic="find-usages-package-options.topic"/>
+                    <toc-element topic="find-usages-throw-options.topic"/>
+                    <toc-element topic="find-usages-variable-options.topic"/>
+                </toc-element>
+                <toc-element topic="generate-equals-and-hashcode-wizard.topic">
+                    <toc-element topic="templates-dialog.topic"/>
+                </toc-element>
+                <toc-element topic="generate-tostring-dialog.topic"/>
+                <toc-element topic="generate-tostring-settings-dialog.topic"/>
+                <toc-element topic="generate-getter-dialog.topic"/>
+                <toc-element topic="generate-setter-dialog.topic"/>
+                <toc-element topic="i18nize-hard-coded-string.topic"/>
+                <toc-element topic="import-file-name-format-dialog.topic"/>
+                <toc-element topic="import-file-dialog-small.topic"/>
+                <toc-element topic="import-table-dialog.topic"/>
+                <toc-element topic="incoming-connection-dialog.topic"/>
+                <toc-element topic="map-external-resource-dialog.topic"/>
+                <toc-element topic="non-project-files-access-dialog.topic"/>
+                <toc-element topic="new-action-dialog.topic"/>
+                <toc-element toc-title="重构对话框">
+                    <toc-element topic="copy-dialog.topic"/>
+                    <toc-element topic="extract-dialog.topic">
+                        <toc-element topic="extract-constant-refactoring-dialog.topic"/>
+                        <toc-element topic="extract-class-dialog.topic"/>
+                        <toc-element topic="extract-field-dialog.topic"/>
+                        <toc-element topic="extract-include-file-dialog.topic"/>
+                        <toc-element topic="extract-interface-dialog.topic"/>
+                        <toc-element topic="extract-method-dialog.topic"/>
+                        <toc-element topic="extract-method-object-dialog.topic"/>
+                        <toc-element topic="extract-module-dialog.topic"/>
+                        <toc-element topic="extract-parameter-object-dialog.topic"/>
+                        <toc-element topic="extract-partial-dialog.topic"/>
+                        <toc-element topic="extract-property-dialog.topic"/>
+                        <toc-element topic="extract-superclass-dialog.topic"/>
+                        <toc-element topic="extract-variable-refactoring-dialog.topic"/>
+                    </toc-element>
+                    <toc-element topic="move-dialogs.topic">
+                        <toc-element topic="move-class-dialog.topic"/>
+                        <toc-element topic="move-directory-dialog.topic"/>
+                        <toc-element topic="move-package-dialog.topic"/>
+                        <toc-element topic="move-inner-to-upper-level-dialog-for-java.topic"/>
+                        <toc-element topic="move-members-dialog.topic"/>
+                        <toc-element topic="move-file-dialog.topic"/>
+                        <toc-element topic="move-namespace-dialog.topic"/>
+                    </toc-element>
+                    <toc-element topic="rename-dialogs.topic">
+                        <toc-element topic="rename-dialog-for-a-class-or-an-interface.topic"/>
+                        <toc-element topic="rename-dialog-for-a-directory.topic"/>
+                        <toc-element topic="rename-dialog-for-a-field.topic"/>
+                        <toc-element topic="rename-dialog-for-a-file.topic"/>
+                        <toc-element topic="rename-dialog-for-a-method.topic"/>
+                        <toc-element topic="rename-dialog-for-a-package.topic"/>
+                        <toc-element topic="rename-dialog-for-a-parameter.topic"/>
+                        <toc-element topic="rename-dialog-for-a-table-or-column.topic"/>
+                        <toc-element topic="rename-dialog-for-a-variable.topic"/>
+                    </toc-element>
+                </toc-element>
+                <toc-element topic="run-debug-configurations-dialog.topic"/>
+                <toc-element topic="rules-alias-definitions-dialog.topic"/>
+                <toc-element topic="save-file-as-template-dialog.topic"/>
+                <toc-element topic="specify-dependency-analysis-scope-dialog.topic"/>
+                <toc-element topic="specify-inspection-scope-dialog.topic"/>
+                <toc-element topic="structural-search-and-replace-dialog.topic"/>
+            </toc-element>
+            <toc-element topic="settings-preferences-dialog.topic">
+                <toc-element topic="appearance-and-behavior.topic">
+                    <toc-element topic="settings-appearance.topic"/>
+                    <toc-element topic="menus-and-toolbars-appearance-settings.topic"/>
+                    <toc-element topic="system-settings.topic">
+                        <toc-element topic="reference-ide-settings-password-safe.topic"/>
+                        <toc-element topic="settings-http-proxy.topic"/>
+                        <toc-element topic="settings-usage-statistics.topic"/>
+                        <toc-element topic="date-formats-setting.topic"/>
+                    </toc-element>
+                    <toc-element topic="settings-file-colors.topic"/>
+                    <toc-element topic="settings-scopes.topic"/>
+                    <toc-element topic="settings-notifications.topic"/>
+                    <toc-element topic="settings-quick-lists.topic"/>
+                    <toc-element topic="settings-path-variables.topic"/>
+                </toc-element>
+                <toc-element topic="settings-keymap.topic"/>
+                <toc-element topic="settings-editor.topic">
+                    <toc-element topic="settings-editor-general.topic">
+                        <toc-element topic="settings-auto-import.topic"/>
+                        <toc-element topic="settings-editor-appearance.topic"/>
+                        <toc-element topic="settings-editor-breadcrumbs.topic"/>
+                        <toc-element topic="code-folding-settings.topic"/>
+                        <toc-element topic="settings-console-folding.topic"/>
+                        <toc-element topic="settings-editor-tabs.topic"/>
+                        <toc-element topic="settings-gutter-icons.topic"/>
+                        <toc-element topic="settings-postfix-completion.topic"/>
+                        <toc-element topic="settings-smart-keys.topic"/>
+                    </toc-element>
+                    <toc-element topic="code-editing.topic"/>
+                    <toc-element topic="settings-editor-font.topic"/>
+                    <toc-element topic="settings-colors-and-fonts.topic"/>
+                    <toc-element topic="settings-code-style.topic">
+                        <toc-element topic="java.topic"/>
+                    </toc-element>
+                    <toc-element topic="inspections-settings.topic"/>
+                    <toc-element topic="settings-file-and-code-template.topic"/>
+                    <toc-element topic="settings-file-encodings.topic"/>
+                    <toc-element topic="settings-live-templates.topic">
+                        <toc-element topic="edit-template-variables-dialog.topic"/>
+                    </toc-element>
+                    <toc-element topic="copyright-settings.topic">
+                        <toc-element topic="file-types-settings.topic"/>
+                        <toc-element topic="copyright-profiles.topic"/>
+                    </toc-element>
+                    <toc-element topic="formatting.topic"/>
+                    <toc-element topic="settings-emmet.topic"/>
+                    <toc-element topic="gui-designer.topic"/>
+                    <toc-element topic="reader-mode.topic">
+                    </toc-element>
+                    <toc-element topic="textmate-bundles.topic">
+                    </toc-element>
+                    <toc-element topic="settings-todo.topic">
+                        <toc-element topic="add-edit-pattern-dialog.topic"/>
+                        <toc-element topic="add-edit-filter.topic"/>
+                    </toc-element>
+                    <toc-element topic="vim-emulation.topic"/>
+                </toc-element>
+                <toc-element topic="plugins-settings.topic">
+                    <toc-element topic="custom-plugin-repositories.topic"/>
+                </toc-element>
+                <toc-element topic="advanced-settings.topic"/>
+            </toc-element>
+            <toc-element toc-title="项目结构对话框">
+
+            </toc-element>
+            <toc-element topic="symbols.topic"/>
+            <toc-element topic="built-in-macros.topic"/>
+        </toc-element>
+    </toc-element>
+</instance-profile>

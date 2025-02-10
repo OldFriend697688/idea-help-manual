@@ -1,0 +1,97 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE topic
+        SYSTEM "https://resources.jetbrains.com/writerside/1.0/xhtml-entities.dtd">
+<topic xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
+       xsi:noNamespaceSchemaLocation="https://resources.jetbrains.com/writerside/1.0/topic.v2.xsd"
+       title="使用 Git 同时处理多个功能" id="work-on-several-features-simultaneously">
+    <!-- 非最终文档，后续需优化文档内容结构以及配图 -->
+    <p>有时需要在事情未完成时便在不同任务之间切换，然后继续完成相关的工作任务。</p>
+    <p>IntelliJ IDEA 提供了几种方便的方式实现在不丢失工作进度的情况下处理多个不同的功能：</p>
+    <list>
+        <li>
+            <p><a anchor="stash">暂存</a> 或者 <a anchor="shelve" summary=""> 搁置</a> 等待处理的更改。</p>
+            <p><format style="bold">暂存更改</format> 与 <format style="bold">搁置更改</format> 非常相似。唯一的区别在于补丁的生成和应用方式。</p>
+            <p>暂存是由 <a href="https://git-scm.com/" summary="Git 是一种分布式版本控制系统，由 Linus Torvalds 创建，用于追踪文件的变更历史。它具有快速、灵活的特点，支持分支管理，适合大型项目和团队协作。">Git</a> 生成的，可以在 IntelliJ IDEA 中或外部应用。</p>
+            <p>搁置更改的补丁是由 IntelliJ IDEA 生成的，也通过 <tooltip term="ide">IDE</tooltip> 应用。</p>
+            <p>此外，暂存涉及所有未提交的更改，而当将更改放入搁置时，可以选择一些本地更改，而不是将它们全部搁置。</p>
+        </li>
+        <li><a anchor="changelists" summary="">将与不同任务或功能相关的更改保存在不同的变更列表中。</a></li>
+        <li><a anchor="feature-branches" summary="">创建分支以开发不同的不相关的功能。</a></li>
+    </list>
+    <chapter id="shelve" title="搁置更改">
+        <p>搁置是临时存储尚未提交的待处理更改。这很有用，例如：如果需要切换至另一个任务，并且希望将更改搁置以便稍后处理它们。使用 IntelliJ IDEA 可以暂存单个文件和整个 <tooltip term="changelist">更改列表。</tooltip></p>
+        <note>不能搁置未被版本控制的文件，即未添加至版本控制中的文件。&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;</note>
+        <p>一旦被搁置，将可以根据需要多次应用更改。</p>
+        <procedure title="搁置更改" id="ChList" type="steps">
+            <step>
+                <p>在 <control>提交</control> 工具窗口 （ <shortcut>Alt</shortcut><shortcut>0</shortcut> ）中，右键单击要搁置的文件或更改列表，并从 <include from="reuse-library.topic" element-id="context-menus-snippet" /> 中选择 <ui-path>搁置更改</ui-path> 。</p>
+                <img src="搁置更改.png" alt="搁置更改" width="706" thumbnail="true"/>
+            </step>
+            <step>在 <control>托管更改</control> 中，查看已修改文件的列表。</step>
+            <step>
+                <p>在 <control>提交消息</control> 中，键入要创建的搁置列表的名称，然后单击 <control>托管更改</control> 。</p>
+                <img src="托管更改对话框.png" alt="托管更改对话框" width="706" thumbnail="true"/>
+            </step>
+            <step>
+                <p>您还可以静默地暂存更改，而不显示 <control>托管更改</control> 对话框。</p>
+                <p>要实现此操作，请先选择要暂存的文件或更改列表，然后单击 <include from="reuse-library.topic" element-id="tool-window-snippet"/> 中工具栏上的 <ui-path>无提示搁置 </ui-path> <img src="无提示搁置.svg" alt=""/> （ <shortcut>Ctrl</shortcut><shortcut>Shift</shortcut><shortcut>H</shortcut> ）。 包含想要暂存的更改的 <tooltip term="changelist">更改列表</tooltip> 名称将用作暂存名称。</p>
+                <img src="无提示搁置.png" alt="无提示搁置" width="706" thumbnail="true"/>
+                <p>为了避免创建多个相同名称的搁置（例如： <format style="bold">Default</format> ），可以将文件或更改列表从 <control>提交至 &lt;分支名&gt;</control> 标签拖动到 <control>搁置</control> 标签的 <control>提交</control> 工具窗口中，等待一秒钟直到它被激活，并在释放鼠标按钮时即时编辑新的暂存名称.</p>
+                <video src="https://www.youtube.com/watch?v=jbIavpBPRxI" width="706"/>
+                <tip>如果希望在不重置本地更改的情况下将更改复制到搁置上，请按 <shortcut>Ctrl</shortcut><shortcut>Shift</shortcut><shortcut>A</shortcut> 然后查找并执行 <ui-path>保存到搁置</ui-path> 操作。</tip>
+                <video src="https://www.youtube.com/watch?v=pR26OXYVEoQ" width="706"/>
+            </step>
+        </procedure>
+        <procedure title="取消搁置" id="unshelve_changes" type="steps">
+            <note>取消搁置是指将待处理的更改从 <control>搁置</control> 标签中移动至待处理的 <control>更改</control> 列表中。取消搁置的更改可以将它们从视图中过滤或从 <a href="shelf-tab.topic" summary="">搁置</a> 标签中移除。</note>
+            <step>在 <a href="shelf-tab.topic" summary="">搁置</a> 标签中，选择想要取消搁置的更改列表或文件。</step>
+            <step>
+                <p>从所选内容的 <include from="reuse-library.topic" element-id="context-menus-snippet"/> 中选择 <ui-path>取消搁置</ui-path> （ <shortcut>Ctrl</shortcut><shortcut>Shift</shortcut><shortcut>U</shortcut> ）。</p>
+                <img src="取消搁置.png" alt="取消搁置" width="706"/>
+            </step>
+            <step>
+                <p>打开 <control>取消搁置更改</control> 对话框，在 <ui-path>名称</ui-path> 中指定要取消的搁置要恢复到哪个提交列表。可以选择一个现有的变更列表，也可以键入要创建的包含要取消的搁置的新 <tooltip term="changelist">变更列表</tooltip> 的名称。可以在 <ui-path>注释</ui-path> 中键入新变更列表的描述（可选）。</p>
+                <img src="取消搁置更改对话框.png" alt="取消搁置更改对话框" width="706"/>
+                <p>如果希望使新的变更列表变为活动状态，请选择 <ui-path>设为活动</ui-path> 。否则，当前活动的变更列表将保持活动状态。</p>
+                <video src="https://www.youtube.com/watch?v=LjLTj26swZo" width="706"/>
+            </step>
+            <step>如果希望 IntelliJ IDEA 在停用新变更列表时保留与该任务相关的 <tooltip term="idea-context">上下文</tooltip> ，并在更列表变为活动时恢复上下文，请选择 <ui-path>追踪上下文</ui-path> （有关详细信息，请参阅 <a href="managing-tasks-and-context.topic" summary=""/> ）。</step>
+            <step>
+                <p>如果想要从 <a href="shelf-tab.topic">搁置</a> 标签中移除已被取消的搁置，请选择 <ui-path>从 Shelf 移除成功应用的文件</ui-path> 。被取消搁置的文件将从搁置标签中移除并添加至另一个 <tooltip term="changelist">变更列表</tooltip> 。若不勾选 <ui-path>从 Shelf 移除成功应用的文件</ui-path> ，则在通过 <include from="reuse-library.topic" element-id="context-menus-snippet" /> 中选择 <ui-path>删除</ui-path> 显式删除之前，它们不会被完全移除。</p>
+                <video src="https://www.youtube.com/watch?v=7T8l9d5aXyA" width="706"/>
+                <note>如果不小心删除了尚未取消搁置的文件，可以从 <ui-path>最近删除项</ui-path> 中查看和恢复它们。&nbsp;&nbsp;</note>
+                <video src="https://www.youtube.com/watch?v=L6-EUr9QUbw" width="706"/>
+            </step>
+            <step>
+                <p>单击 <ui-path>取消托管更改</ui-path> 。如果修补补丁的版本和当前版本之间存在冲突，请按照 <a href="resolve-conflicts.topic" summary=""/> 中描述的方法进行解决。</p>
+            </step>
+            <step>
+                <p>您还可以静默地还原更改，而无需显示 <control>取消搁置更改</control> 对话框。</p>
+                <p>要做到这一点，请选择要还原的文件或 <tooltip term="changelist">更改列表</tooltip> ，然后单击工具栏上的 <ui-path>无提示取消搁置</ui-path> <img src="静默还原搁置.svg" alt=""/> （ <shortcut>Ctrl</shortcut><shortcut>Alt</shortcut><shortcut>U</shortcut> ）。此后未还原的文件将被移到活动的待处理更改列表中。</p>
+                <video src="https://www.youtube.com/watch?v=qkE72Z9JC6E" width="706"/>
+                <note>您还可以将文件或变更列表中 <a href="shelf-tab.topic" summary="">搁置</a> 标签拖动到 <format style="bold">提交至 &lt;分支名&gt;</format> 标签，以静默方式取消搁置。如果按住 <shortcut>Ctrl</shortcut> 并进行拖动，它将会被复制到 <ui-path>提交至 &lt;分支名&gt;</ui-path> 标签中，而不是从 <a href="shelf-tab.topic" summary="">搁置</a> 标签中移除。</note>
+                <video src="https://www.youtube.com/watch?v=W6Hwl20zx3Q" width="706"/>
+            </step>
+        </procedure>
+        <procedure id="discard-shelf" type="steps" title="丢弃已搁置的更改">
+            <step>在 <a href="shelf-tab.topic">搁置</a> 标签中，选择不再想要保留的更改列表。</step>
+            <step>右键单击它，并从 <include from="reuse-library.topic" element-id="context-menus-snippet"/> 中选择 <ui-path>删除</ui-path> （ <shortcut>Delete</shortcut> ） 。</step>
+            <video src="https://www.youtube.com/watch?v=ANb3r8_zpJk" width="706"/>
+        </procedure>
+    </chapter>
+    <chapter id="stash" title="暂存更改">
+
+    </chapter>
+    <chapter id="changelists" title="将更改分组到不同的更改列表中">
+
+    </chapter>
+    <chapter id="feature-branches" title="使用特性分支">
+
+    </chapter>
+    <seealso>
+        <include from="reuse-library.topic" element-id="list-of-suggested-seealso-snippet"/>
+    </seealso>
+    <seealso>
+        <include from="reuse-library.topic" element-id="list-of-suggested-seealso-snippet"/>
+    </seealso>
+</topic>

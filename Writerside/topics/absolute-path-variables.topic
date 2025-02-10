@@ -1,0 +1,42 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE topic
+        SYSTEM "https://resources.jetbrains.com/writerside/1.0/xhtml-entities.dtd">
+<topic xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
+       xsi:noNamespaceSchemaLocation="https://resources.jetbrains.com/writerside/1.0/topic.v2.xsd"
+       title="路径变量" id="absolute-path-variables">
+    <p>使用 <ui-path>路径变量</ui-path> 定义不属于特定项目的资源的 <tooltip term="absolute-path">绝对路径</tooltip> 。这些外部资源可能位于队友电脑的不同位置。这就是为什么自定义的路径变量不会存储为 <a href="configure-project-settings.topic" summary=""/> ，而是 <a href="configuring-project-and-ide-settings.topic" summary="">全局设置</a> 的原因。 </p>
+    <p>一旦配置完成，这些路径变量对于使用 IntelliJ IDEA 打开的任何项目都具有相同的值。</p>
+    <!-- 创建新路径变量步骤：详细说明如何创建和配置新的路径变量，包括变量命名和值设置 -->
+    <procedure title="创建新的路径变量" id="create-new-path-variable">
+        <step>选择 <ui-path><include from="reuse-library.topic" element-id="idea-settings-keywords-snippet"/> | 外观与行为 | 路径变量</ui-path> 。</step>
+        <img border-effect="rounded" alt="路径变量" src="路径变量.png" width="706" thumbnail="true"/>
+        <step>单击 <img src="添加.svg" alt=""/> ，然后键入变量名称和对应的值，并单击 <ui-path>确定</ui-path> 。</step>
+        <video border-effect="rounded" src="https://www.youtube.com/watch?v=R4lX3NanzPI" width="706"/>
+    </procedure>
+    <warning>尽管官方文档中明示可以使用路径变量为外部工具指定路径和命令行参数，但实际上这项功能并未如期望般工作。详见： <a href="https://youtrack.jetbrains.com/issue/IJPL-11988/It-isnt-possible-to-specify-environment-variables-for-external-tools">IJPL-11988</a> 。</warning>
+    <p><format style="strikethrough">您可以使用路径变量为 <a href="configuring-third-party-tools.topic" summary=""/> 指定路径和命令行参数以及某些 <a href="run-debug-configuration.topic" summary=""/> </format> 。更多信息请参阅 <a href="built-in-macros.topic" summary=""/> 。</p>
+    <p>例如：您可以定义一个路径变量，指向某些数据源（例如： <tooltip term="csv">CSV 文件</tooltip> ）或 <a href="library.topic" summary="">第三方库</a> 的位置，而这些数据源或者库并不存储在您的项目中。如果在与项目共享的运行配置中使用该路径变量，其他人就可以在他们的环境中为该路径变量定义正确的值，并确保运行配置对他们有效。</p>
+    <video border-effect="rounded" src="https://www.youtube.com/watch?v=UAmKzJU2jGs" width="706"/>
+    <p>要使用这些路径变量，您需要将它们以 <code>$var_name$</code> 的形式在配置文件或相关位置进行引用。</p>
+    <p>IntelliJ IDEA 已内置了如下的路径变量：</p>
+    <deflist type="wide">
+        <def title="$USER_HOME$" id="user-home">当前用户的主目录。</def>
+        <def title="$PROJECT_DIR$" id="project-dir">当前项目的根目录。</def>
+        <def title="$MODULE_WORKING_DIR$" id="module-working-dir">当前模块的根目录。</def>
+        <def title="$MODULE_IML_DIR$" id="module-iml-dir">当前模块 <path>.iml</path> 文件所在的目录。</def>
+    </deflist>
+    <!-- 忽略路径变量步骤：说明如何处理和忽略未配置的路径变量，避免 IDE 重复提示 -->
+    <procedure id="ignore-path-variables" title="忽略路径变量" type="steps">
+        <p>无论何时打开或更新项目，IntelliJ IDEA 都会检查是否存在未配置的路径变量。</p>
+        <p>如果 <tooltip term="ide">IDE</tooltip> 检测到任何未配置的路径变量，它会要求您为它们定义值。</p>
+        <img border-effect="rounded" src="修复未定义的路径变量.png" alt="修复未定义的路径变量" width="706" thumbnail="true"/>
+        <p>如果不打算使用带有未配置路径变量的文件或目录，可以将它们添加到 <ui-path>忽略变量</ui-path> 列表中。</p>
+        <step>选择 <ui-path><include from="reuse-library.topic" element-id="idea-settings-keywords-snippet"/> | 外观与行为 | 路径变量</ui-path> 。</step>
+        <step>在 <ui-path>忽略的变量</ui-path> 中键入不应被视为路径变量的变量名称。</step>
+        <step><p>单击 <control>确定</control> 保存更改。</p></step>
+        <img border-effect="rounded" alt="忽略路径变量" src="忽略路径变量.png" width="706" thumbnail="true"/>
+    </procedure>
+    <seealso>
+        <include from="reuse-library.topic" element-id="list-of-suggested-seealso-snippet"/>
+    </seealso>
+</topic>

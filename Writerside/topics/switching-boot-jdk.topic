@@ -1,0 +1,41 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE topic
+        SYSTEM "https://resources.jetbrains.com/writerside/1.0/xhtml-entities.dtd">
+<topic xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
+       xsi:noNamespaceSchemaLocation="https://resources.jetbrains.com/writerside/1.0/topic.v2.xsd"
+       title="更改 IDE 启动时使用的 Java 运行时" id="switching-boot-jdk">
+    <p>IntelliJ IDEA 依赖于 <tooltip term="java-runtime">Java 运行时</tooltip> （JRE）才能运行。默认情况下，IntelliJ IDEA 使用 <a href="https://github.com/JetBrains/JetBrainsRuntime" summary="">JetBrains Runtime</a> （它是 <a href="https://github.com/openjdk/jdk" summary="">OpenJDK</a> 的一个分支），包含在 IntelliJ IDEA 安装文件夹下的 <path>jbr</path> 文件夹中。 <tooltip term="jetbrains-runtime">JetBrains Runtime</tooltip> （JBR）修复了 OpenJDK 和 <tooltip term="oracle-jdk">Oracle JDK</tooltip> 的各种已知 Bug，并具备更好的性能和稳定性。您可以根据个人需要调整 IntelliJ IDEA 所依赖的 <tooltip term="java-runtime">JRE</tooltip> 。</p>
+    <img src="IntelliJ IDEA 自带的 JBR.png" alt="IntelliJ IDEA 自带的 JBR" width="706" border-effect="rounded" thumbnail="true"/>
+    <p>要查看当前 IntelliJ IDEA 正在使用的 JRE 的版本信息，您可以选择 <ui-path><include from="reuse-library.topic" element-id="main-menus-snippet"/> | 帮助 | 关于</ui-path> 。</p>
+    <img alt="IntelliJ IDEA 2022.3.3 默认使用的 JBR" src="IntelliJ IDEA 2022.3.3 默认使用的 JBR.png" width="706" border-effect="rounded" thumbnail="true"/>
+    <video src="https://www.youtube.com/watch?v=9kF1X5DhV4k" width="706" border-effect="rounded"/>
+    <warning>更改 JRE 可能会导致各种意想不到的问题。除非 <a href="https://intellij-support.jetbrains.com/hc/en-us">JetBrains 支持团队</a> 特别要求您这样做，否则请尽量勿更改。</warning>
+    <note>当您使用 IntelliJ IDEA 进行项目开发时，请为您的项目定义一个 <a href="sdks.topic" summary="">SDK</a> 。请注意，JBR 和项目 SDK 是两码事：JBR 是 IntelliJ IDEA 自身运行所需的 Java 运行时，而 SDK 是您为项目指定的 Java 开发工具包。 </note>
+    <!-- 切换 IDE 启动 Java 运行时步骤：详细说明如何更改 IntelliJ IDEA 使用的 Java 运行时，包括选择预设 JBR 和自定义 JRE -->
+    <procedure id="switch-jdk" title="切换用于运行 IntelliJ IDEA 的 Java 运行时" type="steps">
+        <step>选择 <ui-path><include from="reuse-library.topic" element-id="main-menus-snippet"/> | 帮助 | 查找操作</ui-path> ，或直接使用 <control><include from="reuse-library.topic" element-id="idea-operating-keywords-snippet"/></control> 。</step>
+        <img alt="查找操作（通过主菜单）" src="查找操作（通过主菜单）.png" width="706" border-effect="rounded" thumbnail="true"/>
+        <step>找到并选择 <ui-path>选择 IDE 的启动 Java 运行时</ui-path> 。</step>
+        <img alt="选择 IDE 的启动 Java 运行时" src="选择 IDE 的启动 Java 运行时.png" width="706" border-effect="rounded" thumbnail="true"/>
+        <step>选择新的所需 JRE，然后单击 <control>确定</control> 。如有需要，您可以更改下载这些 JRE 时的保存位置。</step>
+        <img alt="选择 IDE 的启动运行时" src="选择 IDE 的启动运行时.gif" width="706" border-effect="rounded" thumbnail="true"/>
+        <step>等待 IntelliJ IDEA 完成重启并生效修改。</step>
+        <video src="https://www.youtube.com/watch?v=XMkUgGXTEYI" width="706" border-effect="rounded"/>
+        <p>当您首次打开 <control>选择 IDE 的启动运行时</control> 对话框时，可能需要一段时间加载可用的 JBR 列表。</p>
+        <p>如果想使用本地计算机上的不同 JRE，请单击 <ui-path>新建</ui-path> 后方的下拉列表，然后从 <ui-path>高级</ui-path> 下找到 <ui-path>添加自定义运行时</ui-path> 。IntelliJ IDEA 将开始检测所有可用的 <tooltip term="jdk">JDK</tooltip> 和 JRE，您可以从其中选择一个或单击 <ui-path>添加 JDK</ui-path> 主动添加一个 JDK。</p>
+        <note>JDK（Java Development Kit）中包含了 JRE（Java Runtime Environment）。JDK 提供了开发 Java 应用程序所需的工具和库，而 JRE 则提供了运行 Java 应用程序所需的环境。</note>
+        <video src="https://www.youtube.com/watch?v=ZYvJ6q6Yczc" width="706" border-effect="rounded"/>
+        <p>如果想要将 IntelliJ IDEA 恢复至使用默认的 JBR，请单击 <control>使用默认运行时</control> 。</p>
+        <img alt="使用默认运行时" src="使用默认运行时.png" width="706" border-effect="rounded" thumbnail="true"/>
+        <video src="https://www.youtube.com/watch?v=pj8qvwKxBO0" width="706" border-effect="rounded"/>
+    </procedure>
+    <note>在 IntelliJ IDEA 中使用非默认 JRE 时，它不会随 IDE 更新，并且可能与新版本不兼容。更新 IntelliJ IDEA 时，请重置回默认 JRE，以获得最新兼容版本的 JBR。</note>
+    <p>已选 JRE 的路径信息存储在 <include from="reuse-library.topic" element-id="idea-config-directory-snippet"/> 的 <path>idea.exe.jdk</path> 或 <path>idea64.exe.jdk</path> 文件中。如果当前选择的 JRE 存在问题，可删除该文件使 IntelliJ IDEA 恢复使用默认的 JBR。</p>
+    <img alt="idea64.exe.jdk 文件" src="idea64.exe.jdk 文件.png" width="706" border-effect="rounded" thumbnail="true"/>
+    <video src="https://www.youtube.com/watch?v=td0h8HKswg0" width="706" border-effect="rounded"/>
+    <p>您还可以通过使用 <code>IDEA_JDK</code> 环境变量并指定 JDK 的路径来覆盖 IntelliJ IDEA 使用的 JRE。</p>
+    <video src="通过 IDEA_JDK 环境变量指定 IntelliJ IDEA 使用的 JRE.mp4" width="706" border-effect="rounded" preview-src="video-preview.png"/>
+    <seealso>
+        <include from="reuse-library.topic" element-id="list-of-suggested-seealso-snippet"/>
+    </seealso>
+</topic>

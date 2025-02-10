@@ -1,0 +1,486 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE topic
+        SYSTEM "https://resources.jetbrains.com/writerside/1.0/xhtml-entities.dtd">
+<topic xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
+       xsi:noNamespaceSchemaLocation="https://resources.jetbrains.com/writerside/1.0/topic.v2.xsd"
+       title="reuse-library" id="reuse-library" is-library="true">
+    <!-- IntelliJ IDEA 配置文件夹 -->
+    <snippet id="idea-config-directory-snippet">
+        <a href="directories-used-by-the-ide-to-store-settings-caches-plugins-and-logs.topic" summary="" anchor="config-directory"/>
+    </snippet>
+
+    <!-- 设置 | 外观与行为 | 外观 -->
+    <snippet id="ide-appearance-settings-snippet">
+        <ui-path>外观与行为 | 外观</ui-path>
+    </snippet>
+
+    <!-- 主菜单 | 视图 | 工具窗口 | 工具窗口名 -->
+    <snippet id="hide-show-tool-windows-snippet">
+        <ui-path><include from="reuse-library.topic" element-id="main-menus-snippet"/> | 视图 | 工具窗口 | 工具窗口名</ui-path>
+    </snippet>
+
+    <!-- IntelliJ IDEA 设置快捷键 -->
+    <snippet id="idea-settings-keywords-snippet">
+        设置（ <shortcut>Ctrl</shortcut><shortcut>Alt</shortcut><shortcut>S</shortcut> ）
+    </snippet>
+
+    <!-- IntelliJ IDEA 操作快捷键 -->
+    <snippet id="idea-operating-keywords-snippet">
+        操作（ <shortcut>Ctrl</shortcut><shortcut>Shift</shortcut><shortcut>A</shortcut> ）
+    </snippet>
+
+    <!-- 执行卸载和配置激活补丁脚本前，请确保 IntelliJ IDEA 处于关闭状态 -->
+    <snippet id="close-idea-prompt-information-snippet">
+        <warning>特别强调，在卸载和配置激活补丁脚本前，请确保 IntelliJ IDEA 处于关闭状态。</warning>
+    </snippet>
+
+    <!-- Toolbox App 不在支持下载 IntelliJ IDEA 2022.3.3 的提示 -->
+    <snippet id="toolbox-version-download-is-limited-snippet">
+        <warning>因软件更新迭代较快，现 Toolbox App 已不支持下载 IntelliJ IDEA 2022.3.3 版本。&nbsp;&nbsp;</warning>
+        <note>尽管 Toolbox App 不再提供 IntelliJ IDEA 2022.3.3 的下载，但若已安装该版本则仍可由 Toolbox App 进行管理。</note>
+    </snippet>
+
+    <!-- 从 Toolbox App 登录 JetBrains 帐户将自动激活 IntelliJ IDEA 的提示 -->
+    <snippet id="toolbox-login-tips-snippet">
+        <note>从 Toolbox App 登录 JetBrains 帐户，它将自动激活安装的任何 <tooltip term="ide">IDE</tooltip> 的可用许可证。</note>
+    </snippet>
+
+    <!-- 快捷键优先级未定义提示-->
+    <snippet id="shortcut-key-priority-tips-snippet">
+        <warning>您可以忽略冲突并为多个操作分配相同快捷键。但是，建议您避免使用相同的快捷键绑定两个操作，因为这些操作的优先级并未定义。</warning>
+        <video border-effect="rounded" src="https://www.youtube.com/watch?v=wRKNspj_-dU" width="706"/>
+    </snippet>
+
+    <!-- 终端工具窗口 -->
+    <snippet id="terminal-windows-tool-snippet">
+        <a href="terminal-emulator.topic" anchor="open-terminal" summary="">终端</a>
+    </snippet>
+
+    <!-- 结构工具窗口 -->
+    <snippet id="structure-tool-windows-snippet">
+        <a href="viewing-structure-of-a-source-file.topic" summary="">结构</a>
+    </snippet>
+
+    <!-- 问题工具窗口 -->
+    <snippet id="problems-tool-windows-snippet">
+        <a href="problems-tool-window.topic" summary="">问题</a>
+    </snippet>
+
+    <!-- 服务工具窗口 -->
+    <snippet id="services-tool-windows-snippet">
+        <a href="services-tool-window.topic" summary="">服务</a>
+    </snippet>
+
+    <!-- 版本控制工具窗口 -->
+    <snippet id="version-control-tool-windows-snippet">
+        <a href="version-control-integration.topic" summary=""/>
+    </snippet>
+
+    <!-- 提交工具窗口 -->
+    <snippet id="commit-tool-windows-snippet">
+        <a href="commit-and-push-changes.topic" summary="">提交</a>
+    </snippet>
+
+    <!-- 查找工具窗口 -->
+    <snippet id="find-tool-window-snippet">
+        <a href="find-tool-window.topic" summary="">查找</a>
+    </snippet>
+
+    <!-- Maven 工具窗口 -->
+    <snippet id="maven-tool-windows-snippet">
+        <a href="maven-projects-tool-window.topic" summary="">Maven</a>
+    </snippet>
+
+    <!-- Gradle 工具窗口 -->
+    <snippet id="gradle-tool-windows-snippet">
+        <a href="jetgradle-tool-window.topic" summary="">Gradle</a>
+    </snippet>
+
+    <!-- DSM 工具窗口 -->
+    <snippet id="dsm-tool-window-snippet">
+        <a href="dsm-analysis.topic" anchor="dsm-tool-window" summary="">DSM</a>
+    </snippet>
+
+    <!-- 调试（Debug）工具窗口 -->
+    <snippet id="debug-tool-window-snippet">
+        <a href="debug-tool-window.topic" summary="">调试</a>
+    </snippet>
+
+    <!-- 通知工具窗口 -->
+    <snippet id="notifications-tool-windows-snippet">
+        <a href="notifications.topic" anchor="notifications-tool-window" summary="">通知</a>
+    </snippet>
+
+    <!-- 项目工具窗口 -->
+    <snippet id="project-tool-window-snippet">
+        <a href="project-tool-window.topic" summary="">项目</a>
+    </snippet>
+
+    <!-- 运行工具窗口 -->
+    <snippet id="run-tool-windows-snippet">
+        <a href="run-tool-window.topic" summary="">运行</a>
+    </snippet>
+
+    <!-- 工具窗口 -->
+    <snippet id="tool-window-snippet">
+        <a href="tool-window.topic" summary=""/>
+    </snippet>
+
+    <!-- 主窗口 -->
+    <snippet id="main-windows-snippet">
+        <a href="guided-tour-around-the-user-interface.topic" anchor="main-windows" summary=""/>
+    </snippet>
+
+    <!-- 状态栏 -->
+    <snippet id="status-bar-snippet">
+        <a href="guided-tour-around-the-user-interface.topic" anchor="status-bar" summary=""/>
+    </snippet>
+
+    <!-- 主工具栏 -->
+    <snippet id="main-toolbar-snippet">
+        <a href="guided-tour-around-the-user-interface.topic" anchor="vcs-file-color" summary="">主工具栏</a>
+    </snippet>
+
+    <!-- 导航栏 -->
+    <snippet id="navigation-bar-snippet">
+        <a href="guided-tour-around-the-user-interface.topic" anchor="navigation-bar" summary=""/>
+    </snippet>
+
+    <!-- 主菜单 -->
+    <snippet id="main-menus-snippet">
+        <a anchor="main-menus" href="guided-tour-around-the-user-interface.topic" summary=""/>
+    </snippet>
+
+    <!-- 编辑器 -->
+    <snippet id="editor-snippet">
+        <a anchor="editor" href="guided-tour-around-the-user-interface.topic" summary=""/>
+    </snippet>
+
+    <!-- 书签工具窗口 -->
+    <snippet id="bookmarks-snippet">
+        <a href="bookmarks.topic" summary=""/>
+    </snippet>
+
+    <!-- 上下文菜单 -->
+    <snippet id="context-menus-snippet">
+        <a anchor="context-menus" href="guided-tour-around-the-user-interface.topic" summary=""/>
+    </snippet>
+
+    <!-- 关闭中文输入法确保正常触发代码补全功能的提示 -->
+    <snippet id="invalid-shortcut-key-prompt-snippet">
+        <note>如果发现无法通过 <a href="mastering-keyboard-shortcuts.topic" summary=""/> 触发代码补全，请关闭中文输入法后再按对应的快捷键。&nbsp;&nbsp;&nbsp;</note>
+    </snippet>
+
+    <!-- 插件过多时影响 IntelliJ IDEA 性能的提示 -->
+    <snippet id="too-many-plugins-tips-snippet">
+        <warning>安装过多的插件可能会影响到 IntelliJ IDEA 的整体性能。&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;</warning>
+    </snippet>
+
+    <!-- 独立安装（手动安装）时的提示 -->
+    <snippet id="standalone-tips-snippet">
+        <p>首次运行 IntelliJ IDEA 时，您可以自定义 <tooltip term="idea">IDEA</tooltip> 实例并开始使用它。</p>
+        <p>如需要了解更多信息，请参阅 <a href="run-for-the-first-time.topic" summary="">首次运行 IntelliJ IDEA</a> 。</p>
+        <p>有关默认 IDE 文件夹（包含用户特定文件）位置的信息，请参阅 <a href="directories-used-by-the-ide-to-store-settings-caches-plugins-and-logs.topic" summary=""/> 。</p>
+    </snippet>
+
+    <!-- 独立安装和运行提示 -->
+    <snippet id="standalone-installation-and-running-tips-snippet">
+        <p>有关从命令行运行 IntelliJ IDEA 的信息，请参阅 <a href="working-with-the-ide-features-from-command-line.topic" summary=""/> 。</p>
+        <p>启动 IntelliJ IDEA 后，您将看到 <control>欢迎界面</control> ，这是您使用 <tooltip term="ide">IDE</tooltip> 和配置其设置的起点。</p>
+        <p>关闭所有已打开的项目时也会出现该界面。您可以单击左侧的选项卡切换至特定的功能对话框。</p>
+        <img border-effect="rounded" src="IntelliJ IDEA 欢迎界面（macOS-Linux）.png" alt="IntelliJ IDEA 欢迎界面" width="706" thumbnail="true"/>
+    </snippet>
+
+    <!-- 在 IntelliJ IDEA 中退出已登录的 JB（JetBrains） 账号 -->
+    <snippet id="log-out-of-jb-account-snippet">
+        <procedure id="log-out-of-jb-account" title="退出 JetBrains 账户" type="steps">
+            <step>打开 <control><a href="register.topic" summary="" anchor="remove-activation-license">许可证</a></control> 并找到您的账户名。 </step>
+            <img src="单击许可证左下角位置的账户名.png" alt="单击许可证左下角位置的账户名" width="706" thumbnail="true" border-effect="rounded"/>
+            <step>在弹出的选项中选择 <ui-path>退出登录</ui-path> 。</step>
+            <img src="退出已登录的 JetBrain 账号.png" alt="退出已登录的 JetBrains 账号" width="706" thumbnail="true" border-effect="rounded"/>
+            <step>当您退出成功后， <a href="sharing-your-ide-settings.topic" anchor="ide-settings-sync" summary=""/> 将不可用，除非您重新登录 JetBrains 账号。</step>
+            <video src="https://www.youtube.com/watch?v=ALzPo8pZ4rk" width="706"/>
+        </procedure>
+    </snippet>
+
+    <!-- 弹出菜单 -->
+    <snippet id="popup-menus-snippet">
+        <a anchor="popup-menus" href="guided-tour-around-the-user-interface.topic" summary=""/>
+    </snippet>
+
+    <!-- 配置自定义快速列表 -->
+    <snippet id="configure-quick-lists-snippet">
+        <chapter id="configure-quick-lists" title="自定义快速列表">
+            <p>快速列表是一个 <include from="reuse-library.topic" element-id="popup-menus-snippet"/> ，其中包含一组自定义的 IntelliJ IDEA 操作。</p>
+            <p>您可以将其视为自定义 <a href="customize-actions-menus-and-toolbars.topic" summary="">菜单与工具栏</a>，并且可以为其指定 <a href="mastering-keyboard-shortcuts.topic" summary=""/> 以便快速访问。</p>
+            <p>您可根据需要创建任意多个快速列表。每个操作由 0 到 9 的数字标识。</p>
+            <p>IntelliJ IDEA 中已有许多预设的快速列表，但请注意它们不可以被重新配置，例如：</p>
+            <list>
+                <li><ui-path>VCS 操作（ <shortcut>Alt</shortcut><shortcut>`</shortcut> ）</ui-path></li>
+                <li><ui-path>重构此（ <shortcut>Ctrl</shortcut><shortcut>Alt</shortcut><shortcut>Shift</shortcut><shortcut>T</shortcut> ）</ui-path></li>
+                <li><ui-path>生成 （ <shortcut>Alt</shortcut><shortcut>Insert</shortcut> ）</ui-path></li>
+            </list>
+            <procedure title="创建快速列表" id="create-quick-list">
+                <step>在 <control><include from="reuse-library.topic" element-id="idea-settings-keywords-snippet"/></control> 中选择 <ui-path>外观与行为 | 快速列表</ui-path> 。</step>
+                <step>单击左侧的 <img src="添加.svg" alt=""/> （ <shortcut>Alt</shortcut><shortcut>Insert</shortcut> ）创建新的快速列表。</step>
+                <step>在 <ui-path>显示名称</ui-path> 中，指定快速列表的名称。</step>
+                <step>如有必要，可以在 <ui-path>描述</ui-path> 中为快速列表提供用途说明。</step>
+                <step>
+                    <p>在右侧的窗口中，添加并排列快速列表中的操作：</p>
+                    <list>
+                        <li>单击 <img src="添加.svg" alt=""/> 在快速列表中添加操作。</li>
+                        <li>单击 <img src="分割线.svg" alt=""/> 为操作添加分割线。</li>
+                        <li>单击 <img src="移除.svg" alt=""/> 从快速列表中删除所选操作。</li>
+                        <li>单击 <img src="向上移动.svg" alt=""/> 或 <img src="向下移动.svg" alt=""/> 移动所选操作。</li>
+                    </list>
+                </step>
+                <step>单击 <control>确定</control> 保存更改。</step>
+                <video border-effect="rounded" src="https://www.youtube.com/watch?v=wbDyS0xZbbU" width="706"/>
+            </procedure>
+            <procedure title="为快速列表分配快捷键" id="quick-list-shortcut">
+                <step>在 <control><include from="reuse-library.topic" element-id="idea-settings-keywords-snippet"/></control> 中选择 <ui-path><a href="mastering-keyboard-shortcuts.topic" summary="">按键映射</a></ui-path> 。</step>
+                <step>展开 <ui-path>快速列表</ui-path> 节点并选择目标快速列表，鼠标右键单击并选择 <ui-path>添加键盘快捷键</ui-path> 。</step>
+                <step>单击 <ui-path>确定</ui-path> 保存更改。</step>
+                <step>在 <include from="reuse-library.topic" element-id="editor-snippet" /> 中，按下分配的快捷键以便调用快速列表。</step>
+                <video border-effect="rounded" src="https://www.youtube.com/watch?v=Sg_utwZdkZU" width="706"/>
+                <note>如果不记得快速列表的快捷键，可以按 <shortcut>Shift</shortcut> 两次，然后键入快速列表名称搜索它。&nbsp;</note>
+                <img border-effect="rounded" src="搜索快速列表.png" alt="搜索快速列表" width="706" thumbnail="true"/>
+            </procedure>
+        </chapter>
+    </snippet>
+
+    <!-- 反转布尔值重构 -->
+    <snippet id="invert-boolean-refactoring-snippet">
+        <p>反转布尔值重构是一种能够将布尔方法或变量的含义变更为相反含义的功能。</p>
+        <procedure title="操作步骤" id="operation-steps" type="steps">
+            <step>将插入符号（闪烁光标）放在待重构的 <tooltip term="method">方法</tooltip> 或 <tooltip term="variables">变量</tooltip> 的名称处。</step>
+            <step>在 <include from="reuse-library.topic" element-id="main-menus-snippet" /> 或 <include from="reuse-library.topic" element-id="context-menus-snippet" /> 中选择 <ui-path>重构 | 反转布尔值</ui-path> 。</step>
+            <img src="主菜单中的反转布尔值重构选项.png" alt="主菜单中的反转布尔值重构选项" width="706" border-effect="rounded" thumbnail="true"/>
+            <img src="上下文菜单中的反转布尔值选项.png" alt="上下文菜单中的反转布尔值选项" width="706" border-effect="rounded" thumbnail="true"/>
+            <step>在打开的对话框中，指定待反转方法或变量的名称。</step>
+            <step>预览并应用更改。</step>
+        </procedure>
+        <chapter title="案例" id="invert-boolean-example">
+            <compare first-title="反转前" second-title="反转后">
+                <code-block lang="java" show-white-spaces="true">
+                    private double a;
+
+                    public boolean method() {
+                        if (a > 15 &amp;&amp; a &lt; 100) {
+                            a = 5;
+                            return true;
+                        }
+                        return false;
+                    }
+                </code-block>
+                <code-block lang="java" show-white-spaces="true">
+                    private double a;
+
+                    public boolean method() {
+                        if (a > 15 &amp;&amp; a &lt; 100) {
+                            a = 5;
+                            return false;
+                        }
+                        return true;
+                    }
+                </code-block>
+            </compare>
+            <compare first-title="反转前" second-title="反转后">
+                <code-block lang="java" show-white-spaces="true">
+                    boolean b = true;
+
+                    public double method() {
+                        b = false;
+                    }
+                </code-block>
+                <code-block lang="java" show-white-spaces="true">
+                    boolean b = false;
+
+                    public double method() {
+                        b = true;
+                    }
+                </code-block>
+            </compare>
+        </chapter>
+    </snippet>
+
+    <!-- 结构搜索与替换（SSR）-->
+    <snippet id="to-search-structurally-snippet">
+        <procedure id="to-search-structurally" title="从结构上搜索目标" default-state="collapsed" collapsible="true">
+            <step>
+                <p>选择 <ui-path><include from="reuse-library.topic" element-id="main-menus-snippet"/> | 编辑 | 查找 | 结构搜索</ui-path> 以打开 <control>结构搜索</control> 。</p>
+                <note>在 <control>结构搜索</control> 中单击 <img src="刷新.svg" alt=""/> 按钮快速可切换至 <control>结构替换</control> 。&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;</note>
+                <video border-effect="rounded" src="https://www.youtube.com/watch?v=QcOUjW25lZw" width="706"/>
+            </step>
+            <step>
+                <p>在 <control>结构搜索</control> 中，可执行如下操作之一：</p>
+                <list>
+                    <li>
+                        <p><format style="italic" color="Crimson">从头开始创建新的模板</format></p>
+                        <p>可以从模板列表中选择 <ui-path>草稿模板</ui-path> ，然后在模板的编辑区域中，键入代码模板（注： 使用 <code>$variable$</code> 表示模板中的查找变量），在的工具栏中单击 <img src="保存.svg" alt=""/> 以供将来重复使用。同时，如果需要可以将它保存为 <a href="inspections-settings.topic" summary=""/> 。</p>
+                        <img border-effect="rounded" src="结构搜索对话框.png" alt="结构搜索对话框" width="706" thumbnail="true"/>
+                        <p>IntelliJ IDEA 会将创建以及使用过的模板添加至 <ui-path>最近</ui-path> 节点中。</p>
+                        <img border-effect="rounded" src="结构搜索对话框中最近添加的模板.png" alt="结构搜索对话框中最近添加的模板" width="706" thumbnail="true"/>
+                    </li>
+                    <li>
+                        <p><format style="italic" color="Crimson">使用现有模板之一作为原型</format></p>
+                        <p>在可用的现有模板列表中，选择所需的模板。现在，让我们查找 <tooltip term="java-class">类</tooltip> 中的某个 <tooltip term="java-field">字段</tooltip> 。在现有的模板列表中，单击 <ui-path>Java</ui-path> 并打开 <ui-path>基于类</ui-path> 然后找到并选择其中的 <ui-path>类的字段</ui-path> 。</p>
+                        <img border-effect="rounded" src="已预设的基于类的字段进行查找的模板.png" alt="已预设的基于类的字段进行查找的模板" width="706" thumbnail="true"/>
+                        <p>单击 <control>查找</control> ，将会突出显示找到的所有匹配字段。</p>
+                        <video border-effect="rounded" src="https://www.youtube.com/watch?v=SFC4wna_f88" width="706"/>
+                    </li>
+                </list>
+            </step>
+            <step>
+                <control>结构搜索</control> 显示选定的模板以及模板中使用的过滤器的值，可以编辑现有过滤器或添加新的过滤条件，例如：添加一些 <tooltip term="regex">正则表达式</tooltip> 或脚本约束。可以将插入符号（闪烁光标）放在代码变量处并通过过滤器区域来管理过滤器。
+                <img border-effect="rounded" src="在结构搜索对话框中为变量声明过滤规则.png" alt="在结构搜索对话框中为变量声明过滤规则" width="706" thumbnail="true"/>
+                <p>作为示例，让我们为 <code>$Field$</code> 变量声明一个条件。在过滤器区域中单击 <img src="添加.svg" alt=""/> 添加新条件。例如：如果需要添加正则表达式，则应选择 <format style="bold">文本</format> ，在闪烁的键入框中键入需要的条件。例如：键入正则表达式 <code>\b[A-Z].*?\b</code> 。</p>
+                <img src="在结构搜索对话框中为目标变量添加过滤规则.png" alt="在结构搜索对话框中为目标变量添加过滤规则" width="706" thumbnail="true" border-effect="rounded"/> 在这种情况下，当勾选 <ui-path>区分大小写</ui-path> 后，IntelliJ IDEA 将仅搜索包含有大写字符的字段。
+                <video border-effect="rounded" src="https://www.youtube.com/watch?v=zGfbfszkdh8" width="706"/>
+                <p>请注意，根据所选 <tooltip term="programming-language">语言</tooltip> 的不同会有不同的附加选项可用。例如：以下的选项：</p>
+                <list>
+                    <li>
+                        <ui-path>语言</ui-path> ：使用列表来选择哪些文件类型应成为搜索的一部分。
+                        <img border-effect="rounded" src="在结构搜索中指定搜索目标文件的类型.png" alt="在结构搜索中指定搜索目标文件的类型" width="706" thumbnail="true"/>
+                    </li>
+                    <li>
+                        <ui-path>目标</ui-path> ：在此选项列表中，选择要搜索的目标。
+                        <img border-effect="rounded" src="在结构搜索中指定要搜索的目标.png" alt="在结构搜索中指定要搜索的目标" width="706" thumbnail="true"/>
+                    </li>
+                    <li><ui-path>递归</ui-path> ：如果选中此选项，IntelliJ IDEA 将会执行递归操作，所有嵌套项都将包含在结果中。例如：当搜索方法调用时，启用此选项后，将会在 <code>foo(foo(foo()))</code> 查找嵌套方法调用。禁用此选项后，将仅找到外部方法调用。</li>
+                    <li><ui-path>注入的代码</ui-path> ：如果勾选此选项，则注入的代码（例如： <tooltip term="html">HTML</tooltip> 代码中注入的 <tooltip term="javascript">JavaScript</tooltip> 代码或 <tooltip term="java">Java</tooltip> 中注入的 <tooltip term="sql">SQL</tooltip> ）将会成为搜索过程中的一部分。</li>
+                    <li><ui-path>区分大小写</ui-path> ：如果勾选此选项，搜索结果将匹配搜索目标的大小写。</li>
+                </list>
+                <p>除上述选项外，还可以从 <ui-path>在项目</ui-path> 、 <ui-path>模块</ui-path> 、 <ui-path>文件夹</ui-path> 、 <ui-path>作用域</ui-path> 中选择一个作为搜索范围。</p>
+            </step>
+            <step>
+                <p>单击 <control>查找</control> ，IntelliJ IDEA 将会在 <include from="reuse-library.topic" element-id="find-tool-window-snippet" /> 中显示查找结果。</p>
+                <img border-effect="rounded" src="在查找工具窗口中显示的查找结果.png" alt="在查找工具窗口中显示的查找结果" width="706" thumbnail="true"/>
+                <note>通过单击 <include from="reuse-library.topic" element-id="find-tool-window-snippet" /> 中的 <control>从模板创建检查</control> ，可以将目标搜索模板添加至 <a anchor="search-template" href="pro-tips.topic" summary="结构搜索检查">结构搜索检查</a> 中，并在以后使用它来检查代码。</note>
+                <video border-effect="rounded" src="https://www.youtube.com/watch?v=jk5GZ7-PZL0" width="706"/>
+            </step>
+        </procedure>
+        <procedure id="structural-replace" title="从结构上替换目标" default-state="collapsed" collapsible="true">
+            <step>
+                <p>选择 <ui-path><include from="reuse-library.topic" element-id="main-menus-snippet"/> | 编辑 | 查找 | 结构化替换</ui-path> 以打开 <control>结构替换</control> 。</p>
+                <note>在 <control>结构替换</control> 中单击 <img src="刷新.svg" alt=""/> 快速切换至 <control>结构搜索</control> 。&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;</note>
+                <video border-effect="rounded" src="https://www.youtube.com/watch?v=QcOUjW25lZw" width="706"/>
+            </step>
+            <step>在 <control>结构替换</control> 中，将新的或现有的模板添加至搜索和替换模板区域。可以按照与 <a anchor="to-search-structurally" summary="">搜索模板</a> 相同的方式保存替换模板。</step>
+            <step>
+                <p>如果需要在替换模板中为变量添加过滤器，请选中目标变量，并使用过滤器区域来管理过滤器。在过滤器区域中，可以为目标 <a href="search-templates.topic" summary="">过滤器</a> 添加指定条件。</p>
+                <p>例如：下图所示的替换模板可以将找到的模板中的字段替换为小写字符。</p>
+                <img border-effect="rounded" src="用于将字段从大写替换为小写的替换模板.png" alt="用于将字段从大写替换为小写的替换模板" width="706" thumbnail="true"/>
+            </step>
+            <step>
+                <p>想要缩小替换结果的长度，可以选择以下选项：</p>
+                <list>
+                    <li><ui-path>缩短完全限定名称</ui-path> ： 用简短的名称和导入替换 <tooltip term="fully-qualified-class-name">完全限定的类名</tooltip></li>
+                    <li><ui-path>重新格式化</ui-path> ：自动格式化被替换的代码</li>
+                    <li><ui-path>使用静态导入</ui-path> ：尽可能使用 <tooltip term="java-static-import">静态导入</tooltip> 进行替换，例如：勾选该选项后， <tooltip term="java-static-method">静态方法</tooltip><code>Math.abs(i)</code> 的方法调用就会被替换为 <code>abs(i)</code> 。</li>
+                </list>
+                <img border-effect="rounded" src="结构替换对话框中用于缩短结果长度的选项.png" alt="结构替换对话框中用于缩短结果长度的选项" width="706" thumbnail="true"/>
+                <p>勾选必要的选项后，单击 <control>查找</control> ， IntelliJ IDEA 会在 <include from="reuse-library.topic" element-id="find-tool-window-snippet" /> 中显示结果。</p>
+            </step>
+            <step>在 <include from="reuse-library.topic" element-id="find-tool-window-snippet" /> 中，可以进一步处理查找结果，逐个替换找到的内容，或者是一次性替换所有内容，又或者是预览可能的更改。还可以将替换模板添加至 <a href="pro-tips.topic" anchor="search-template" summary="">结构搜索检查</a> 中，并将其作为代码的快速检查修复工具。</step>
+            <video border-effect="rounded" src="https://www.youtube.com/watch?v=HNpeVv2uqMM" width="706"/>
+        </procedure>
+    </snippet>
+
+    <!-- 访问离线 SDK 文档 -->
+    <snippet id="sdk-open-offline-snippet">
+        <procedure id="sdk-open-offline" title="离线访问 SDK 文档" collapsible="true" default-state="collapsed" type="steps">
+            <step>
+                <p>下载所需版本的文档包。</p>
+                <p>文档包通常以 <path>ZIP</path> 压缩包的形式分发，下载后请解压缩。</p>
+                <p>例如：您可以下载 <a href="https://www.oracle.com/java/technologies/javase-jdk17-doc-downloads.html">Java SE Development Kit 17</a> 官方文档包并解压缩。</p>
+            </step>
+            <step>在 <control>项目结构（ <shortcut>Ctrl</shortcut><shortcut>Alt</shortcut><shortcut>Shift</shortcut><shortcut>S</shortcut> ）</control> 中选择 <tooltip term="sdk"><ui-path>SDK</ui-path></tooltip> 。</step>
+            <step>如果配置了多个 <tooltip term="jdk">JDK</tooltip> ，请选择必要的 JDK 版本，然后单击右侧的 <ui-path>文档路径</ui-path> 。</step>
+            <step>单击 <img src="添加.svg" alt=""/> 并指定已下载文档包的所在文件夹。</step>
+            <img border-effect="rounded" src="为 JDK 指定离线文档.png" alt="为 JDK 指定离线文档" width="706" thumbnail="true"/>
+            <step><control>应用</control> 更改并关闭对话框。</step>
+        </procedure>
+    </snippet>
+
+    <!-- 访问离线库（Library）文档 -->
+    <snippet id="library-open-offline-snippet">
+        <procedure id="library-open-offline" title="离线访问 Library（库）文档" collapsible="true" default-state="collapsed" type="steps">
+            <step>在 <control>项目结构（ <shortcut>Ctrl</shortcut><shortcut>Alt</shortcut><shortcut>Shift</shortcut><shortcut>S</shortcut> ）</control> 中选择 <tooltip term="library"><ui-path>库</ui-path></tooltip> 。</step>
+            <step>选择要添加离线文档的库，然后单击对话框右侧的 <img src="添加.svg" alt=""/> 。</step>
+            <img border-effect="rounded" src="单击添加按钮为库添加离线文档.png" alt="单击添加按钮为库添加离线文档" width="706" thumbnail="true"/>
+            <step>在打开的对话框中，选择包含离线文档的文件。</step>
+            <step>在 <control>选择所选文件的类别</control> 中，指定离线文档的类别。</step>
+            <img border-effect="rounded" src="告知 IntelliJ IDEA 库的离线文档类型为 JavaDocs.png" alt="告知 IntelliJ IDEA 库的离线文档类型为 JavaDocs" width="706" thumbnail="true"/>
+            <step><control>应用</control> 更改并关闭对话框。</step>
+        </procedure>
+    </snippet>
+
+    <!-- JetBrains 官方插件库地址 -->
+    <snippet id="jetbrains-plugin-library-snippet">
+        <a href="https://plugins.jetbrains.com/idea">JetBrains 插件库</a>
+    </snippet>
+
+    <!-- JetBrains 账户网址 -->
+    <snippet id="jetbrains-account-web-url-snippet">
+        <a href="https://sales.jetbrains.com/hc/en-gb/articles/208459005-What-is-JetBrains-Account-" summary="">JetBrains 账户</a>
+    </snippet>
+
+    <!-- 页面底部 <seealso> 标签部分中的可重用内容 -->
+    <snippet id="list-of-suggested-seealso-snippet">
+        <include from="reuse-library.topic" element-id="ides-snippet"/>
+        <include from="reuse-library.topic" element-id="ai-editor-snippet"/>
+        <include from="reuse-library.topic" element-id="core-references-snippet"/>
+        <include from="reuse-library.topic" element-id="associated-websites-snippet"/>
+        <include from="reuse-library.topic" element-id="programming-language-snippet"/>
+    </snippet>
+    <snippet id="ai-editor-snippet">
+        <category ref="ai-editor">
+            <a href="https://aider.dev" summary="Aider 是一款命令行优先的 AI 编程助手，支持 Git 集成和多种 AI 模型。">Aider</a>
+            <a href="https://github.com/cline/cline" summary="Cline 是一个开源的AI助手插件，深度集成在 VS Code 中，提供从代码创建到运行验证的完整体验。">Cline</a>
+            <a href="https://devin.ai/" summary="Devin 是一款为团队设计的自主AI开发助手，能够管理从代码编写到项目执行的全流程。">Devin</a>
+            <a href="https://www.cursor.com/" summary="Cursor 是一款基于 AI 的代码编辑器，旨在通过智能化功能，极大提升开发者的编码效率和体验。它以其强大的代码补全、自然语言交互以及对多种编程语言的支持而著称。">Cursor</a>
+            <a href="https://codeium.com/windsurf" summary="Windsurf 是首个强调 Agentic 模式的 AI 代码编辑器，为开发者提供流畅的协作体验。">Windsurf</a>
+        </category>
+    </snippet>
+    <snippet id="associated-websites-snippet">
+        <category ref="associated-websites" >
+            <a href="https://github.com/PKUFlyingPig/cs-self-learning" summary="提供计算机科学自学指南和学习路径。">CS 自学指南</a>
+            <a href="https://javabetter.cn/" summary="分享 Java 技术文章和进阶教程。">二哥的 Java 进阶之路</a>
+            <a href="https://github.com/xiaolincoder/CS-Base" summary="图解计算机基础，适合初学者。">小林 x 图解计算机基础</a>
+            <a href="https://github.com/justjavac/free-programming-books-zh_CN" summary="汇集免费编程书籍资源。">免费编程中文书籍索引</a>
+            <a href="https://github.com/CodingDocs/awesome-cs?tab=readme-ov-file" summary="精选优质计算机书籍和学习路线。">计算机优质书籍搜罗 + 学习路线推荐</a>
+        </category>
+    </snippet>
+    <snippet id="core-references-snippet">
+        <category ref="references">
+            <a href="guided-tour-around-the-user-interface.topic" summary=""/>
+            <a href="working-offline.topic" summary=""/>
+            <a href="configuring-colors-and-fonts.topic" summary=""/>
+            <a href="user-interface-themes.topic" summary=""/>
+            <a href="installation-guide.topic" anchor="simplified-chinese-language" summary=""/>
+            <a href="register.topic" summary=""/>
+            <a href="directories-used-by-the-ide-to-store-settings-caches-plugins-and-logs.topic" summary=""/>
+        </category>
+    </snippet>
+    <snippet id="ides-snippet">
+        <category ref="ides">
+            <a href="https://www.trae.ai/" summary="由字节跳动推出的 AI 中文 IDE，支持中文界面和 GPT-4o、Claude3.5-Sonnet 等 AI 模型，提供智能代码生成、多种交互模式，适用于各层次开发者，旨在提高编程效率，使编程更普及。">Trae</a>
+            <a href="https://www.jetbrains.com/zh-cn/fleet/" summary="JetBrains Fleet 是一款由 JetBrains 公司推出的新型 IDE (集成开发环境) 和 轻量级代码编辑器。它结合了传统 IDE 的强大功能与轻量级编辑器的快速启动和流畅体验。">Fleet</a>
+            <a href="https://www.eclipse.org" summary="Eclipse 是一款跨平台开源集成开发环境（IDE）。它最初主要用于 Java 语言开发，但现在通过插件可以支持 C++、Python、PHP 等多种编程语言。">Eclipse</a>
+            <a href="https://www.myclipse.com" summary="MyEclipse 是一个功能强大的 Java EE 集成开发环境（IDE），基于 Eclipse 平台构建。它在 Eclipse 的基础上集成了众多 Java EE 开发所需的工具和插件，大大提高了开发效率。">MyEclipse</a>
+            <a href="https://spring.io/tools" summary="Spring Tool Suite (STS) 是一款功能强大的 Java 集成开发环境（IDE），专门为开发基于 Spring 框架的企业级应用程序而设计。它基于 Eclipse 平台构建，并集成了众多 Spring 开发所需的工具和插件，大大提高了 Spring 应用程序的开发效率。">Spring Tool Suite (STS)</a>
+            <a href="https://code.visualstudio.com" summary="Visual Studio Code，简称 VS Code，是一款由微软开发且跨平台的免费 源代码编辑器。它支持语法高亮、代码自动补全、代码重构功能，并且内置了命令行工具和 Git 版本控制系统。">Visual Studio Code (VSCode)</a>
+        </category>
+    </snippet>
+    <snippet id="programming-language-snippet">
+        <category ref="programming-language">
+            <a href="https://www.ruby-lang.org" summary="Ruby 是一种 面向对象、动态类型 的 通用编程语言。它以其 语法简洁、可读性强 和 丰富的标准库 而闻名。">Ruby</a>
+            <a href="https://www.oracle.com/java/technologies/javase-downloads.html" summary="Java 是一门功能强大、应用广泛的编程语言。它的面向对象特性、平台无关性以及丰富的生态系统，使其成为了众多开发者的首选。">Java</a>
+            <a href="https://kotlinlang.org/" summary="Kotlin 是一种在 Java 虚拟机上运行的静态类型编程语言，由 JetBrains 公司开发。它旨在结合面向对象和函数式编程的优势，同时提供更安全、更简洁的代码。Kotlin 与 Java 具有良好的互操作性，可以无缝地与 Java 代码集成。">Kotlin</a>
+            <a href="https://www.scala-lang.org/" summary="Scala 是一门多范式的编程语言，它结合了面向对象编程和函数式编程的特性。Scala 运行在 Java 虚拟机（JVM）上，并兼容现有的 Java 程序。Scala 的设计初衷是要集成面向对象编程和函数式编程的各种特性，以提供一种更简洁、更表达能力更强的编程方式。">Scala</a>
+            <a href="https://groovy-lang.org/" summary="Groovy 是一种基于 Java 平台的面向对象编程语言，它结合了 Python、Ruby 和 Smalltalk 等语言的优秀特性，同时保持了与 Java 的高度兼容性。Groovy 代码会被编译成 Java 字节码，因此可以直接运行在 Java 虚拟机（JVM）上。">Groovy</a>
+            <a href="https://www.python.org" summary="Python 是一种解释型、高级和通用的编程语言。由 Guido van Rossum 于 1989 年底发明，Python 的设计哲学强调代码的可读性和简洁的语法。它广泛应用于 Web 开发、数据科学、人工智能和许多其他领域。Python 在 IntelliJ IDEA 中通过插件得到支持。">Python</a>
+        </category>
+    </snippet>
+</topic>

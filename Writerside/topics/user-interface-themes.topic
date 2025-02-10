@@ -1,0 +1,41 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE topic
+        SYSTEM "https://resources.jetbrains.com/writerside/1.0/xhtml-entities.dtd">
+<topic xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
+       xsi:noNamespaceSchemaLocation="https://resources.jetbrains.com/writerside/1.0/topic.v2.xsd"
+       title="用户界面主题" id="user-interface-themes">
+    <p>界面主题定义了窗口、对话框、按钮以及用户界面所有视觉元素的外观。</p>
+    <p>默认情况下，IntelliJ IDEA 使用 Darcula 主题，除非您在 <a href="run-for-the-first-time.topic" summary=""/> 更改了它。</p>
+    <note>界面主题与 <a href="configuring-colors-and-fonts.topic" summary="">配色方案</a> 不同，配色方案定义了各种文本资源（例如：源代码、搜索结果等）的颜色、字体和语法高亮。</note>
+    <chapter id="user-interface-themes" title="用户界面主题">
+        <procedure id="change-theme" title="更改主题">
+            <step>在 <control><include from="reuse-library.topic"  element-id="idea-settings-keywords-snippet"/></control> 中选择 <include from="reuse-library.topic" element-id="ide-appearance-settings-snippet"/> 。</step>
+            <step>
+                <p>从 <control>主题</control> 下拉列表中选择一个主题：
+                </p>
+                <list>
+                    <li><ui-path>IntelliJ Light</ui-path> : 基于 IntelliJ 的 IDE 的传统亮色主题。</li>
+                    <li><ui-path>macOS Light or Windows 10 Light</ui-path> : 作为捆绑插件提供的操作系统特定亮色主题。</li>
+                    <li><ui-path>Darcula</ui-path> ：默认深色主题。</li>
+                    <li><ui-path>High contrast</ui-path> ：为色盲用户设计的主题。</li>
+                </list>
+                <img border-effect="rounded" alt="通过主题下拉列表切换主题" src="通过主题下拉列表切换主题.png" width="706" thumbnail="true"/>
+                <note>选择 <control>与操作系统同步</control> ，可以让 IntelliJ IDEA 检测当前系统设置，并相应地使用默认的深色或浅色主题。</note>
+                <video src="https://www.youtube.com/watch?v=BemqyrDkFJc" width="706" border-effect="rounded"/>
+            </step>
+        </procedure>
+    </chapter>
+    <p>您可以通过从 <include from="reuse-library.topic" element-id="jetbrains-plugin-library-snippet"/> 中安装自定义主题，正如 <a href="managing-plugins.topic" summary="">管理插件</a> 中所述。</p>
+    <video src="https://www.youtube.com/watch?v=gsg4Af8yp-w" width="706" border-effect="rounded"/>
+    <p>您可以创建自己的 IntelliJ IDEA UI 主题并自定义内置主题。有关更多信息，请参阅 <a href="https://www.jetbrains.org/intellij/sdk/docs/reference_guide/ui_themes/themes_intro.html">IntelliJ 平台 SDK 文档</a> 。</p>
+    <chapter id="tips" title="生产力提示">
+        <procedure id="quickly-switch-themes" title="快速切换主题">
+            <step>按 <shortcut>Ctrl</shortcut><shortcut>`</shortcut> 或选择 <ui-path><include from="reuse-library.topic" element-id="main-menus-snippet" /> | 视图 | 快速切换方案</ui-path> 。</step>
+            <step>在 <control>切换</control> <a href="guided-tour-around-the-user-interface.topic" anchor="popup-menus" summary=""/> 中，选择 <ui-path>主题</ui-path> ，然后选择需要的主题。</step>
+            <video src="https://www.youtube.com/watch?v=vUVVgwO89-Y" width="706" border-effect="rounded"/>
+        </procedure>
+    </chapter>
+    <seealso>
+        <include from="reuse-library.topic" element-id="list-of-suggested-seealso-snippet"/>
+    </seealso>
+</topic>

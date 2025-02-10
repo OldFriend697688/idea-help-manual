@@ -1,0 +1,13 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE labels SYSTEM "https://resources.jetbrains.com/writerside/1.0/labels-list.dtd">
+<labels xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
+        xsi:noNamespaceSchemaLocation="https://resources.jetbrains.com/writerside/1.0/labels.xsd">
+    <primary-label id="Ultimate" name="Ultimate" short-name="U" color="blue" />
+    <primary-label id="CrackScript" name="Crack Script" short-name="C" color="red">此方式仅供学习交流使用，造成的后果本人概不负责。</primary-label>
+    <primary-label id="Toolbox" name="Toolbox" short-name="T">JetBrains Toolbox 是一个专为开发者设计的集成平台。这个平台为开发者提供了一种便捷的方式来管理所有 JetBrains IDE 的订阅和更新。</primary-label>
+    <primary-label id="ChineseLanguage" name="Chinese Language" short-name="C">为 IntelliJ IDEA 安装简体中文语言包，以降低使用和学习难度。</primary-label>
+    <primary-label id="AIModule" name="AI" short-name="AI">AI 大模型插件，提供代码生成、代码补全、代码重构等功能。</primary-label>
+    <primary-label id="Translation" name="Translation" short-name="T">翻译插件，提供代码注释和文档翻译等功能。</primary-label>
+    <primary-label id="ShortcutKey" name="ShortcutKey" short-name="S">快捷键插件，提供快捷键提示、自定义快捷键等功能。</primary-label>
+    <secondary-label id="FreeTrial" name="Free Trial">IntelliJ IDEA Ultimate（旗舰版）仅支持 30 日免费试用。</secondary-label>
+</labels>

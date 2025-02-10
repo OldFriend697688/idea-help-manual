@@ -1,0 +1,151 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE topic
+        SYSTEM "https://resources.jetbrains.com/writerside/1.0/xhtml-entities.dtd">
+<topic xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns=""
+       xsi:noNamespaceSchemaLocation="https://resources.jetbrains.com/writerside/1.0/topic.v2.xsd"
+       title="新 UI" id="new-ui">
+    <show-structure for="chapter" depth="3"/>
+    <p>新 <tooltip term="user-interface">UI</tooltip> 减少了视觉上的复杂性，提供对基本功能的快速访问，并根据需要逐步显示更复杂的功能。</p>
+    <p>新 UI 的主要变化包括简化的 <a href="guided-tour-around-the-user-interface.topic" anchor="vcs-file-color" summary="">主工具栏</a> 、新的 <include from="reuse-library.topic" element-id="tool-window-snippet"/> 布局、新的 <a href="user-interface-themes.topic" summary="">主题</a> 和新的 UI 图标设计。</p>
+    <img border-effect="rounded" alt="新 UI（Darcula 主题）" src="新 UI（Darcula 主题）.png" width="706" thumbnail="true"/>
+    <!-- 启用新 UI 步骤：说明如何开启和配置新版用户界面 -->
+    <procedure id="enable-new-ui" title="启用新 UI">
+        <step>在 <control><include from="reuse-library.topic" element-id="idea-settings-keywords-snippet"/></control> 中选择 <ui-path>外观与行为 | 新 UI</ui-path> 。</step>
+        <step>勾选 <ui-path>启用新 UI</ui-path> 并根据提示重启 IntelliJ IDEA。</step>
+        <img alt="启用新 UI" src="启用新 UI.png" width="706" thumbnail="true" border-effect="rounded"/>
+        <video border-effect="rounded" src="https://www.youtube.com/watch?v=YOlG61MEaWY" width="706"/>
+    </procedure>
+    <!-- 显示主菜单步骤：介绍如何在单独工具栏中显示主菜单的配置方法 -->
+    <procedure id="show-main-menus" title="在单独的工具栏中显示主菜单">
+        <step>在 <control><include from="reuse-library.topic" element-id="idea-settings-keywords-snippet"/></control> 中选择 <ui-path>外观与行为 | 新 UI</ui-path> 。</step>
+        <img alt="启用新 UI" src="启用新 UI.png" width="706" thumbnail="true" border-effect="rounded"/>
+        <step>勾选 <ui-path>在单独的工具栏中显示主菜单</ui-path> 。</step>
+        <img alt="在单独的工具栏中显示主菜单" src="在单独的工具栏中显示主菜单.png" width="706" border-effect="rounded" thumbnail="true"/>
+        <video border-effect="rounded" src="https://www.youtube.com/watch?v=3xhd7UwzoNs" width="706"/>
+    </procedure>
+    <!-- 主要变化章节：概述新 UI 的主要改进和变化 -->
+    <chapter id="main-changes" title="主要变化">
+        <!-- 新主题和图标章节：介绍新版 UI 中主题、图标和字体的更新 -->
+        <chapter id="new-themes-icons-font" title="新主题、图标和预设字体">
+            <list>
+                <li>
+                    <p>新的 <ui-path>Light</ui-path> 和 <ui-path>Dark</ui-path> <a href="user-interface-themes.topic" summary="">主题</a> 改进了对比度。</p>
+                    <tabs>
+                        <tab title="Light 主题" id="light-theme">
+                            <img border-effect="rounded" alt="新 UI（Light 主题）" src="新 UI（Light 主题）.png" width="706" thumbnail="true"/>
+                        </tab>
+                        <tab title="Dark 主题" id="dark-theme">
+                            <img border-effect="rounded" alt="新 UI（Dark 主题）" src="新 UI（Dark 主题）.png" width="706" thumbnail="true"/>
+                        </tab>
+                    </tabs>
+                </li>
+                <li>一套新设计的 UI 图标集，采用更易区分的形状和颜色，以提高可读性和视觉平衡。</li>
+                <li>
+                    <ui-path>Inter</ui-path> 已被预设为 新 UI 使用的默认字体。
+                    <img border-effect="rounded" alt="新的 Inter 字体被预设为新 UI 的默认字体" src="新的 Inter 字体被预设为新 UI 的默认字体.png" width="706" thumbnail="true"/>
+                </li>
+            </list>
+        </chapter>
+        <!-- 窗口标题章节：说明新版窗口标题栏的布局和功能 -->
+        <chapter id="window-header" title="窗口标题">
+            <p>几个新的部件从左到右排列在 <include from="reuse-library.topic" element-id="main-windows-snippet" /> 的标题栏中。</p>
+            <img border-effect="rounded" alt="新 UI 中的窗口标题栏" src="新 UI 中的窗口标题栏.png" width="706" thumbnail="true"/>
+            <list type="decimal">
+                <li>
+                    <p>主菜单（仅限 <tooltip term="windows">Windows</tooltip> 或 <tooltip term="linux">Linux</tooltip> ）</p>
+                    <note>如果您需要单独显示完整的主菜单，请参阅 <a anchor="show-main-menus"  summary=""/> 。&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;</note>
+                    <include from="reuse-library.topic" element-id="main-menus-snippet" /> 现在位于 <img src="新 UI 上的主菜单图标.svg" alt=""/> 图标下，您可以通过 <shortcut>Alt</shortcut><shortcut>\</shortcut> 打开它。
+                    <video border-effect="rounded" src="https://www.youtube.com/watch?v=FtWSHYX7m74" width="706"/>
+                </li>
+                <li>
+                    <p>项目部件</p>
+                    <p>该部件用于显示当前项目的名称，允许在最近的项目之间切换，创建新项目以及打开现有项目。</p>
+                    <video border-effect="rounded" src="https://www.youtube.com/watch?v=bQ8kZISB9iU" width="706"/>
+                </li>
+                <li>
+                    <p>VCS 部件</p>
+                    <p>该部件显示当前分支，允许切换分支，提供常用的 <a href="version-control-integration.topic" summary="">VCS 操作</a> ，例如更新项目、提交和推送更改。</p>
+                    <p>它已替代了 <include from="reuse-library.topic" element-id="status-bar-snippet"/> 中的旧微件，以及以前位于右上角 <include from="reuse-library.topic" element-id="navigation-bar-snippet" /> 中的 VCS 操作图标。</p>
+                    <video border-effect="rounded" src="https://www.youtube.com/watch?v=Ngg941ioJiM" width="706"/>
+                </li>
+                <li>
+                    <p>运行部件</p>
+                    <p>该部件允许您启动 <a href="run-debug-configuration.topic" summary=""/> ，选择其他配置进行运行，更改当前配置的模式（运行或调试），以及编辑或删除当前配置。</p>
+                    <p>它显示流程的当前状态。当流程运行时，您可以使用此小部件重新启动或停止它。</p>
+                    <video border-effect="rounded" src="https://www.youtube.com/watch?v=5-w7c0OyKzc" width="706"/>
+                </li>
+            </list>
+        </chapter>
+        <!-- 工具窗口章节：介绍工具窗口的新布局和行为变化 -->
+        <chapter id="tool-windows" title="工具窗口">
+            <p>新 UI 针对 <include from="reuse-library.topic" element-id="tool-window-snippet"/> 的布局和行为有所调整：</p>
+            <list>
+                <li>
+                    <p><a href="tool-window.topic" anchor="bars-and-buttons" summary="">工具窗口栏</a> 中的 UI 图标设计较大，视觉导航更方便，外观也更整洁。</p>
+                    <img border-effect="rounded" alt="新 UI 中工具窗口栏上的 UI 图标" src="新 UI 中工具窗口栏上的 UI 图标.png" width="706" thumbnail="true"/>
+                    <p>要查看工具窗口的详细名称，可将鼠标悬停在其图标上查看工具提示。</p>
+                    <video border-effect="rounded" src="https://www.youtube.com/watch?v=a6ZtzOITuGA" width="706"/>
+                </li>
+                <li>
+                    <p>左上角和右上角的工具窗口栏会垂直在左右两侧打开相应的工具窗口。</p>
+                    <p>左下角和右下角的工具窗口栏会水平打开相应的工具窗口。</p>
+                    <video border-effect="rounded" src="https://www.youtube.com/watch?v=e26ngp6zuD4" width="706"/>
+                </li>
+                <li>
+                    <ui-path>更多工具窗口</ui-path> 按钮用于显示暂未出现在工具窗口栏上的 <include from="reuse-library.topic" element-id="tool-window-snippet" />。
+                    <video border-effect="rounded" src="https://www.youtube.com/watch?v=LsL56KgLAJA" width="706"/>
+                    <note>拖动工具窗口图标或使用其上下文菜单可将其移动到 <tooltip term="ide">IDE</tooltip> 窗口中的其他位置。&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;</note>
+                    <video border-effect="rounded" src="https://www.youtube.com/watch?v=sb5VrEVHQ1A" width="706"/>
+                </li>
+            </list>
+            <!-- 调试工具窗口章节：说明调试工具窗口的界面优化 -->
+            <chapter id="debug-tool-window" title="调试工具窗口">
+                <p>精简了包含主要调试操作的两个独立工具栏，并将其移至工具窗口选项卡附近的单个工具栏上。现在，当仅有一个运行配置时，用于在 <ui-path>线程与变量</ui-path> 和 <ui-path>控制台</ui-path> 之间切换的选项卡现在也会出现在 <include from="reuse-library.topic" element-id="tool-window-snippet" /> 的选项卡中。</p>
+                <img border-effect="rounded" alt="新 UI 中的调试工具窗口" src="新 UI 中的调试工具窗口.png" width="706" thumbnail="true" />
+            </chapter>
+            <!-- 运行工具窗口章节：介绍运行工具窗口的界面调整 -->
+            <chapter id="run-tool-window" title="运行工具窗口">
+                <p>现在， <ui-path>运行</ui-path> 按钮已移至工具窗口的单个工具栏上，以保持与 <a anchor="debug-tool-window" summary=""/> 的一致性。</p>
+                <img border-effect="rounded" alt="新 UI 中的运行工具窗口" src="新 UI 中的运行工具窗口.png" width="706" thumbnail="true"/>
+            </chapter>
+        </chapter>
+        <!-- 编辑器标签页章节：说明编辑器标签页的改进和新功能 -->
+        <chapter id="editor-tabs" title="编辑器标签页">
+            <list>
+                <li>编辑器标签页现在采用更多空间和更大字体，以提高可读性。</li>
+                <li>
+                    <p>如果编辑器标签页与屏幕不适配，可选择使用滚动条或挤压标签页，以将所有标签页放在屏幕上。</p>
+                    <p>您可通过 <ui-path><include from="reuse-library.topic" element-id="idea-settings-keywords-snippet"/> | <include from="reuse-library.topic" element-id="editor-snippet"/> | 常规 | 编辑器标签页</ui-path> 中的选项进行调整。</p>
+                    <img alt="调整编辑器标签页的显示方式（新 UI）" src="调整编辑器标签页的显示方式（新 UI）.png" width="706" border-effect="rounded" thumbnail="true"/>
+                    <video border-effect="rounded" src="https://www.youtube.com/watch?v=hODc7eqx980" width="706"/>
+                </li>
+            </list>
+        </chapter>
+        <!-- 间距图标章节：介绍代码编辑器中间距图标的显示优化 -->
+        <chapter id="gutter" title="间距图标">
+            <list>
+                <li>
+                    <p>断点图标现在默认放置在行号位置上，以此节省水平空间。</p>
+                    <p>您可以在 <control><include from="reuse-library.topic" element-id="idea-operating-keywords-snippet"/></control> 中键入 <ui-path>行号上的断点</ui-path> 以禁用在行号位置上显示断点图标。</p>
+                    <img src="行号上的断点.png" alt="行号上的断点" width="706" border-effect="rounded" thumbnail="true"/>
+                    <video border-effect="rounded" src="https://www.youtube.com/watch?v=YkJmSpazwlU" width="706"/>
+                </li>
+                <li>
+                    <p>展开区域的折叠图标现在仅在鼠标悬停时显示，以使界面更简洁。</p>
+                    <video border-effect="rounded" src="https://www.youtube.com/watch?v=dK3Mtdmu_gI" width="706"/>
+                </li>
+            </list>
+        </chapter>
+        <!-- 导航栏章节：说明导航栏位置和功能的变化 -->
+        <chapter id="navigation-bar" title="导航栏">
+            <p>导航栏现在默认位于 <include from="reuse-library.topic" element-id="main-windows-snippet" /> 底部的 <include from="reuse-library.topic" element-id="status-bar-snippet" /> 中。</p>
+            <img border-effect="rounded" alt="新 UI 中导航栏默认在主窗口的底部" src="新 UI 中导航栏默认在主窗口的底部.png" width="706" thumbnail="true"/>
+            <p>如果喜爱旧布局，您可以将其移回顶部，甚至是不显示它。为此，您需要通过 <ui-path> <include from="reuse-library.topic" element-id="main-menus-snippet" />  | 视图 | 外观 | <include from="reuse-library.topic" element-id="navigation-bar-snippet" /></ui-path> 中的相关选项调整它。</p>
+            <img alt="改变导航栏的位置（新 UI）" src="改变导航栏的位置（新 UI）.png" width="706" border-effect="rounded" thumbnail="true"/>
+            <video border-effect="rounded" src="https://www.youtube.com/watch?v=t6Zq5GEx5eY" width="706"/>
+        </chapter>
+    </chapter>
+    <seealso>
+        <include from="reuse-library.topic" element-id="list-of-suggested-seealso-snippet"/>
+    </seealso>
+</topic>

@@ -1,0 +1,67 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE topic
+        SYSTEM "https://resources.jetbrains.com/writerside/1.0/xhtml-entities.dtd">
+<topic xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
+       xsi:noNamespaceSchemaLocation="https://resources.jetbrains.com/writerside/1.0/topic.v2.xsd"
+       title="菜单与工具栏" id="customize-actions-menus-and-toolbars">
+    <p>您可能会在 IntelliJ IDEA 中频繁使用某些操作。为了提升您的工作效率，您需要学习感兴趣的操作所对应的默认 <a href="mastering-keyboard-shortcuts.topic" summary=""/> ，或者是为它们 <a href="configuring-keyboard-and-mouse-shortcuts.topic" summary=""/> 。</p>
+    <p>您可以自定义菜单与工具栏，使它们仅包含需要的操作，并为它们调整排列组合及配置自定义图标。</p>
+    <p>例如：如果您正在进行 <tooltip term="java">Java</tooltip> 项目开发，则可能想要从 <ui-path><include from="reuse-library.topic" element-id="main-menus-snippet"/> | 文件 | 新建</ui-path> 中移除您不需要使用的其它选项，仅留下需要的选项，以使菜单变得更短。更多信息请参阅 <include from="reuse-library.topic" element-id="context-menus-snippet"/> 。</p>
+    <note>您可以使用 <include from="reuse-library.topic" element-id="bookmarks-snippet"/><include from="reuse-library.topic" element-id="tool-window-snippet"/> 快速访问您喜欢的文件、目录、书签和断点。&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;</note>
+    <!-- 自定义菜单与工具栏步骤：说明如何通过设置来自定义菜单和工具栏的内容和布局 -->
+    <procedure title="自定义菜单与工具栏" id="customize-menus-and-toolbars" type="steps">
+        <step>在 <control><include from="reuse-library.topic"  element-id="ide-appearance-settings-snippet"/></control> 中选择 <ui-path>外观与行为 | 菜单与工具栏</ui-path> 。</step>
+        <img alt="菜单与工具栏" src="菜单与工具栏.png" width="706" thumbnail="true" border-effect="rounded"/>
+        <step>
+            <p>在可用的菜单与工具栏列表中，展开要自定义的节点并选择所需配置的项目。</p>
+            <list>
+                <li>单击 <img src="添加.svg" alt=""/> 在所选项目下添加操作和分隔符。</li>
+                <li>单击 <img src="移除.svg" alt=""/> 移除所选项目。</li>
+                <li>单击 <img src="编辑.svg" alt=""/>（ <shortcut>F4</shortcut> ） <a anchor="custom-icons-menu" summary="">添加或更改所选操作的图标</a> 。</li>
+                <li>单击 <img src="向上移动.svg" alt=""/> （ <shortcut>Alt</shortcut><shortcut>Up</shortcut> ）或 <img src="向下移动.svg" alt=""/> （ <shortcut>Alt</shortcut><shortcut>Down</shortcut> ）移动所选项目。</li>
+                <li>单击 <img src="回退.svg" alt=""/> 恢复所选操作或所有操作至默认设置。</li>
+            </list>
+        </step>
+        <img alt="为主菜单下的编辑节点增删以及调整目标操作" src="为主菜单下的编辑节点增删以及调整目标操作.png" width="706" thumbnail="true" border-effect="rounded"/>
+        <step>单击 <control>确定</control> 保存更改。</step>
+        <video src="https://www.youtube.com/watch?v=h40kdWC1BCw" width="706" border-effect="rounded"/>
+    </procedure>
+    <!-- 配置菜单图标步骤：介绍如何为菜单选项添加或更改自定义图标 -->
+    <procedure title="为菜单选项配置自定义图标" id="custom-icons-menu" type="steps">
+        <step>在 <control><include from="reuse-library.topic"  element-id="ide-appearance-settings-snippet"/></control> 中选择 <ui-path>外观与行为 | 菜单与工具栏</ui-path> 。</step>
+        <step>选择要更改或添加图标的菜单选项，然后单击 <img src="编辑.svg" alt=""/> 。</step>
+        <step>
+            <p>然后单击 <img src="向下移动.svg" alt=""/> 从列表中选择图标，或单击 <img src="打开磁盘.svg" alt=""/> 上传您自己的图标。</p>
+            <p>请注意，目前仅支持将 <tooltip term="png">PNG</tooltip> 或 <tooltip term="svg">SVG</tooltip> 格式的文件作为图标。</p>
+        </step>
+        <video src="https://www.youtube.com/watch?v=08C97LgKq5I" width="706" border-effect="rounded"/>
+    </procedure>
+    <!-- 显示与隐藏 UI 元素章节：详细说明如何控制各种界面元素的显示状态，包括工具栏、状态栏等 -->
+    <chapter id="show-hide" title="显示与隐藏 UI 元素">
+        <p>如果您的显示器尺寸较小，可以隐藏一些从未使用的 <tooltip term="user-interface">UI</tooltip> 元素。您可以参阅 <a href="guided-tour-around-the-user-interface.topic" summary=""/> 来了解它们。</p>
+        <procedure>
+            <step>选择 <ui-path><include from="reuse-library.topic" element-id="main-menus-snippet"/> | 视图 | 外观</ui-path> ，并根据需要启用或禁用 UI 元素。</step>
+            <img alt="选择要隐藏或显示的 UI 元素" src="选择要隐藏或显示的 UI 元素.png" width="706" thumbnail="true" border-effect="rounded"/>
+        </procedure>
+        <list>
+            <li><format style="bold">工具栏</format> ：位于 <include from="reuse-library.topic" element-id="main-windows-snippet"/> 的顶部，这是包含打开文件、撤销和重做按钮的主工具栏。</li>
+            <li><format style="bold">工具窗口栏</format> ：位于主窗口的边缘位置，它们包含用于显示、隐藏和排列工具窗口的按钮。详情请参阅 <a href="tool-window.topic" anchor="bars-and-buttons"/> 。</li>
+            <li><format style="bold">状态栏</format> ：位于主窗口的底部位置，用于显示事件消息及指示整个项目和 <tooltip term="ide">IDE</tooltip> 的状态，并允许通过小部件提供快速访问某些设置。详情请参阅 <include from="reuse-library.topic" element-id="status-bar-snippet"/>。</li>
+            <li><format style="bold">状态栏微件</format> ：位于状态栏的右侧，您可以通过右键单击状态栏以显示和隐藏微件。</li>
+            <li><format style="bold">导航栏</format> ：位于主窗口的顶部，您可以使用 <shortcut>Alt</shortcut><shortcut>Home</shortcut> 导航项目目录和文件。它是 <include from="reuse-library.topic" element-id="project-tool-window-snippet"/> 工具窗口的替代方案。详情请参阅 <include from="reuse-library.topic" element-id="navigation-bar-snippet"/> 。</li>
+            <li>
+                <p><format style="bold">主菜单</format> ：主菜单包含了多个顶级菜单项，每个菜单项下都有相应的子菜单和功能选项，这些菜单提供了对 <tooltip term="ide">IDE</tooltip> 的各种功能和设置的访问。</p>
+                <note>您可以通过在 <control><include from="reuse-library.topic" element-id="idea-operating-keywords-snippet"/></control> 中键入 <ui-path>主菜单</ui-path> 来实现快速显示和隐藏主菜单。&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;</note>
+                <video src="https://www.youtube.com/watch?v=prmDrr1rB18" width="706" border-effect="rounded"/>
+            </li>
+            <li>
+                <format style="bold">树视图中的详细信息</format> ：用于显示 <include from="reuse-library.topic" element-id="project-tool-window-snippet"/> 工具窗口中文件的最后修改日期和大小。
+                <video src="https://www.youtube.com/watch?v=XgSWf2roY_4" width="706" border-effect="rounded"/>
+            </li>
+        </list>
+    </chapter>
+    <include from="reuse-library.topic" element-id="configure-quick-lists-snippet"/>
+    <seealso>
+        <include from="reuse-library.topic" element-id="list-of-suggested-seealso-snippet"/>
+    </seealso>
+</topic>

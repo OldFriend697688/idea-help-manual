@@ -1,0 +1,175 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE topic
+        SYSTEM "https://resources.jetbrains.com/writerside/1.0/xhtml-entities.dtd">
+<topic xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
+       xsi:noNamespaceSchemaLocation="https://resources.jetbrains.com/writerside/1.0/topic.v2.xsd"
+       title="创建首个 Java 应用程序" id="creating-and-running-your-first-java-application">
+    <!-- 准备项目章节：介绍如何创建和配置新的 Java 项目的基础环境 -->
+    <chapter id="get-started" title="准备项目">
+        <!-- 创建新项目步骤：详细说明如何创建新的 Java 项目，包括项目命名、JDK 选择等配置 -->
+        <procedure id="create-project" title="创建一个新的 Java 项目" type="steps">
+            <note>在 IntelliJ IDEA 中，项目可以帮助您将源代码、测试代码、使用的 <tooltip term="library">库</tooltip> 、构建说明和个人设置组织在一起。</note>
+            <step>若您在 <control>欢迎界面</control> 中，请选中左侧的 <ui-path>项目</ui-path> ，然后单击右侧的 <ui-path>新建项目</ui-path> 。</step>
+            <img border-effect="rounded" alt="在欢迎界面单击新建项目" src="在欢迎界面单击新建项目.png" width="706" thumbnail="true"/>
+            <step>否则，您需要选择 <ui-path><include from="reuse-library.topic" element-id="main-menus-snippet"/> | 文件 | 新建 | 项目</ui-path> 。</step>
+            <img border-effect="rounded" alt="通过主菜单新建项目" src="通过主菜单新建项目.png" width="706" thumbnail="true"/>
+            <step>在 <ui-path>新建项目</ui-path> 向导中，从左侧列表中选择 <ui-path>新建项目</ui-path> 。</step>
+            <img border-effect="rounded" alt="新建项目的引导列表" src="新建项目的引导列表.png" width="706" thumbnail="true"/>
+            <step>为项目进行命名，并在必要时更改项目的存储位置。</step>
+            <note>请注意， <code>~</code> 代表的是用户主目录。以 <tooltip term="windows">Windows</tooltip> 为例，假设系统盘符为 <code>C</code> 盘，且名为 <code>OldFriend</code> 的主用户创建了名为 <code>java-study</code> 的项目。则此项目的完整存储路径为： <code>C:\Users\OldFriend\IdeaProjects\java-study</code> 。</note>
+            <img border-effect="rounded" alt="为项目命名以及更改默认存储位置" src="为项目命名以及更改默认存储位置.png" width="706" thumbnail="true"/>
+            <step>本教程暂不涉及使用 <tooltip term="vcs">版本控制系统</tooltip> ，请您不要勾选 <ui-path>创建 Git 仓库</ui-path> 。</step>
+            <img border-effect="rounded" alt="请勿勾选创建 Git 仓库选项" src="请勿勾选创建 Git 仓库选项.png" width="706" thumbnail="true"/>
+            <step>确认使用的 <tooltip term="programming-language">语言</tooltip> 为 <tooltip term="java">Java</tooltip> ，并使用 <ui-path>IntelliJ</ui-path> 作为项目构建系统。</step>
+            <img border-effect="rounded" alt="确保项目使用的语言为 Java 且使用 IntelliJ 作为项目构建系统" src="确保项目使用的语言为 Java 且使用 IntelliJ 作为项目构建系统.png" width="706" thumbnail="true"/>
+            <step>要在 IntelliJ IDEA 中开发 Java 应用程序，您需要 <tooltip term="jdk">Java SDK</tooltip> (<a href="https://www.oracle.com/cn/java/technologies/downloads/">JDK</a>)。</step>
+            <step>若必要的 JDK 已在 IntelliJ IDEA 中定义，您需要从 JDK 列表中选择它。</step>
+            <img border-effect="rounded" alt="从 JDK 列表中为项目选择主 JDK" src="从 JDK 列表中为项目选择主 JDK.png" width="706" thumbnail="true"/>
+            <step>若 JDK 已安装，但未在 IntelliJ IDEA 中定义，请选择 <ui-path>添加 JDK</ui-path> 并指定 <tooltip term="jdk">JDK</tooltip> 主目录的路径。</step>
+            <video border-effect="rounded" src="https://www.youtube.com/watch?v=ovJCauLVyjk" width="706"/>
+            <step>
+                <p>若没有必要的 JDK，请选择 <ui-path>下载 JDK</ui-path> 。</p>
+                <p>您可以指定 JDK 供应商（例如： <tooltip term="openjdk">OpenJDK</tooltip> ）、版本以及更改安装路径，然后单击 <control>下载</control> 。</p>
+            </step>
+            <video border-effect="rounded" src="https://www.youtube.com/watch?v=fKFeOAvinr8" width="706"/>
+            <step>本教程将一切从头开始，为此请不要勾选 <ui-path>添加示例代码</ui-path> ，然后单击 <control>创建</control> 。</step>
+            <img border-effect="rounded" alt="取消勾选添加示例代码选项" src="取消勾选添加示例代码选项.png" width="706" thumbnail="true"/>
+            <video border-effect="rounded" src="https://www.youtube.com/watch?v=OR5OdFs0Ulw" width="706"/>
+        </procedure>
+        <!-- 创建包和类步骤：说明如何在项目中创建 Java 包和类，包括命名规范和自动生成的代码说明 -->
+        <procedure id="create-package-and-class" type="steps" title="创建包和类">
+            <note><tooltip term="java-package">包</tooltip> 用于将属于同一类别或提供类似功能的 <tooltip term="java-class">类</tooltip> 组合在一起，用于结构化和组织包含数百个类的大型应用程序。</note>
+            <step>在 <include from="reuse-library.topic" element-id="project-tool-window-snippet"/> 工具窗口中，选中 <path>src</path> 文件夹，右键单击 <ui-path>新建</ui-path> ，然后选择 <ui-path>Java 类</ui-path> 。</step>
+            <img border-effect="rounded" alt="通过在 src 文件夹上右键的方式新建 Java 类" src="通过在 src 文件夹上右键的方式新建 Java 类.png" width="706" thumbnail="true"/>
+            <step>或者，您也可以选中 <path>src</path> 文件夹并按 <shortcut>Alt</shortcut><shortcut>Insert</shortcut> 以实现相同效果。</step>
+            <img border-effect="rounded" alt="通过快捷键打开弹出菜单的方式创建 Java 类" src="通过快捷键打开弹出菜单的方式创建 Java 类.png" width="706" thumbnail="true"/>
+            <note>您可以通过按 <shortcut>Alt</shortcut><shortcut>1</shortcut> 快速打开 <include from="reuse-library.topic" element-id="project-tool-window-snippet"/> 工具窗口。&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;</note>
+            <video border-effect="rounded" src="https://www.youtube.com/watch?v=tijgIG-RwnQ" width="706"/>
+            <step>
+                <p>在 <ui-path>名称</ui-path> 中键入 <code>com.example.helloworld.HelloWorld</code> ，然后按 <shortcut>Enter</shortcut> （回车键） 。</p>
+                <p>IntelliJ IDEA 将同时创建 <code>com.example.helloworld</code> 包和 <code>HelloWorld</code> 类。</p>
+            </step>
+            <note>命名包和类时应遵循 <a href="https://www.oracle.com/java/technologies/javase/codeconventions-namingconventions.html">命名约定</a> 。&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;</note>
+            <note>
+                <p>IntelliJ IDEA 将自动为类生成一些内容。</p>
+                <p>在本例中， <tooltip term="ide">IDE</tooltip> 自动插入了 <tooltip term="java-package-declaration">包声明</tooltip> 和 <tooltip term="java-class-declaration">类声明</tooltip> 。</p>
+                <p>这是通过 <a href="using-file-and-code-templates.topic" summary=""/> 实现的。根据您创建的文件类型，IDE 会为该类型文件插入初始代码和格式。</p>
+            </note>
+            <video border-effect="rounded" src="https://www.youtube.com/watch?v=YFaqgIIC2SY" width="706"/>
+        </procedure>
+    </chapter>
+    <!-- 编写代码章节：介绍如何在 IDE 中编写 Java 代码，包括使用各种辅助功能 -->
+    <chapter id="write-code" title="编写代码">
+        <!-- 添加 main 方法步骤：说明如何使用实时模板快速添加 main 方法 -->
+        <procedure id="add-main-method" title="使用实时模板添加 main() 方法" type="steps">
+            <step>
+                <p>将光标移动至开头括号 <code>{</code> 后，然后按 <shortcut>Shift</shortcut><shortcut>Enter</shortcut> 。</p>
+                <p>与 <shortcut>Enter</shortcut> 相反， <shortcut>Shift</shortcut><shortcut>Enter</shortcut> 将在不中断当前行的情况下开始新行。</p>
+            </step>
+            <step>
+                <p>键入 <code>main</code> 并选择 <ui-path>main()</ui-path> 作为插入的方法声明模板。</p>
+                <p><tooltip term="ide">IDE</tooltip> 将会建议在当前上下文中使用各种模板。可以使用 <shortcut>Ctrl</shortcut><shortcut>J</shortcut> 查看可用的实时模板列表。</p>
+            </step>
+            <video border-effect="rounded" src="https://www.youtube.com/watch?v=q7RZM-IjSHo" width="706"/>
+            <note><a href="using-live-templates.topic" summary=""/> 是可以插入到代码中的代码片段。通常，实时模板包含您最常用的代码块。使用它们可以节省您的时间，因为您不必反复键入相同的代码。</note>
+        </procedure>
+        <!-- 使用代码补全调用 println 步骤：展示如何使用 IDE 的代码补全功能编写代码 -->
+        <procedure type="steps" title="使用代码自动补全功能调用 println() 方法" id="call-println">
+            <step>键入 <code>Sy</code> ，然后从代码补全建议列表中选择 <code>System</code> 类（它来自标准 <code>java.lang</code> 包）。</step>
+            <img border-effect="rounded" alt="选中候选列表建议中的 System 类" src="选中候选列表建议中的 System 类.png" width="706" thumbnail="true"/>
+            <step>紧接着，键入 <code>.</code> ，然后选择 <code>out</code> 。</step>
+            <img border-effect="rounded" alt="选择候选列表建议中的 out" src="选择候选列表建议中的 out.png" width="706" thumbnail="true"/>
+            <step>紧接着，键入 <code>.</code> ，然后选择 <code>println(String x)</code> 方法，然后按 <shortcut>Enter</shortcut> 。</step>
+            <img border-effect="rounded" alt="选中候选列表建议中的 println(String x) 方法" src="选中候选列表建议中的 println(String x).png" width="706" thumbnail="true"/>
+            <step>键入 <code>"</code> 。IntelliJ IDEA 将会自动插入第二个引号，然后键入 <code>Hello World!</code> 。</step>
+            <video border-effect="rounded" src="https://www.youtube.com/watch?v=7Nn92ve7lao" width="706"/>
+            <note>基本自动代码补全功能会分析当前字符输入位置周围的上下文，并在输入时提供建议。您可以按 <shortcut>Ctrl</shortcut><shortcut>Space</shortcut> 手动打开补全列表。 有关于其他类型的补全功能，请参阅 <a href="auto-completing-code.topic" /> 。</note>
+            <include from="reuse-library.topic" element-id="invalid-shortcut-key-prompt-snippet"/>
+        </procedure>
+        <!-- 使用实时模板调用 println 步骤：展示使用实时模板快速生成 println 语句的方法 -->
+        <procedure id="call-println-sout" title="使用实时模板调用 println() 方法" default-state="collapsed" collapsible="true" type="steps">
+            <p>使用 <code>sout</code> <a href="using-live-templates.topic" summary=""/> 可以更快地调用 <code>println()</code> 方法。</p>
+            <step>键入 <code>sout</code> 然后按 <shortcut>Enter</shortcut> 。</step>
+            <step>键入 <code>"</code> 。IntelliJ IDEA 将会自动插入第二个引号，然后键入 <code>Hello World!!</code> 。</step>
+            <video border-effect="rounded" src="https://www.youtube.com/watch?v=qepDFXAtC3o" width="706"/>
+        </procedure>
+    </chapter>
+    <!-- 构建并运行应用程序章节：说明如何编译和运行 Java 应用程序 -->
+    <chapter id="run-app" title="构建并运行应用程序">
+        <!-- 运行应用程序步骤：详细说明如何编译和运行 Java 程序，包括运行结果的解释 -->
+        <procedure type="steps" id="run-app-steps">
+           <note>有效的 <tooltip term="java-class">Java 类</tooltip> 可以编译成 <tooltip term="java-bytecode">字节码</tooltip> 。您可以使用 <include from="reuse-library.topic" element-id="editor-snippet" /> 中的 <img src="运行.svg" alt=""/> 或间距图标中的运行按钮，直接编译和运行带有 <code>main()</code> 方法的类。</note>
+            <img border-effect="rounded" alt="编辑器和工具栏中的运行按钮" src="编辑器和工具栏中的运行按钮.png" width="706" thumbnail="true"/>
+            <step>单击间距图标处的 <img src="运行.svg" alt=""/> 按钮，在弹出的窗口中选择 <ui-path>HelloWorld.main()</ui-path> 。</step>
+            <img  border-effect="rounded" alt="单击间距图标位置的运行按钮" src="单击间距图标位置的运行按钮.png" width="706" thumbnail="true"/>
+            <step>当编译完成后，屏幕底部会打开 <include from="reuse-library.topic" element-id="run-tool-windows-snippet" /> 工具窗口。</step>
+            <note>
+                <p>第一行显示 IntelliJ IDEA 用于运行编译类的命令。 &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;</p>
+                <p>第二行显示的是程序输出： <code>Hello, World!</code> 。</p>
+                <p>最后一行显示退出代码 <code>0</code> ，表示程序成功退出。</p>
+                <p>若代码不正确，程序将无法编译， <include from="reuse-library.topic" element-id="run-tool-windows-snippet" /> 工具窗口将显示相应的退出代码。</p>
+            </note>
+            <img  border-effect="rounded" alt="运行工具窗口中显示的运行结果和信息" src="运行工具窗口中显示的运行结果和信息.png" width="706" thumbnail="true"/>
+            <note>单击 <ui-path>运行</ui-path> 按钮时，IntelliJ IDEA 会创建一个特殊的运行配置，执行一系列操作。首先，它会构建您的应用程序。在这个阶段，javac 会将您的源代码编译成 JVM 字节码。</note>
+            <img  border-effect="rounded" alt="临时创建的运行和调试配置" src="临时创建的运行和调试配置.png" width="706" thumbnail="true"/>
+            <note>javac 完成编译后，会将编译好的字节码放入 <path>out</path> 文件夹，该文件夹在 <include from="reuse-library.topic" element-id="project-tool-window-snippet"/> 工具窗口中以黄色突出显示。之后，JVM 将运行字节码。</note>
+            <img  border-effect="rounded" alt="项目工具窗口中的 out 文件夹" src="项目工具窗口中的 out 文件夹.png" width="706" thumbnail="true"/>
+        </procedure>
+        <note>自动创建的运行配置是临时的，但可以修改和保存。&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;</note>
+        <note>若要重新打开 <include from="reuse-library.topic" element-id="run-tool-windows-snippet"/> 工具窗口  ，请按 <shortcut>Alt</shortcut><shortcut>4</shortcut> 。&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;</note>
+        <video border-effect="rounded" src="https://www.youtube.com/watch?v=Vdsp47jjLi0" width="706"/>
+        <note>IntelliJ IDEA 会自动分析当前在 <include from="reuse-library.topic" element-id="editor-snippet" /> 中打开的文件，并搜索不同类型的问题：从语法错误到拼写错误。通过 <include from="reuse-library.topic" element-id="editor-snippet" /> 右上角的 <ui-path>检查</ui-path> 微件，您可以快速查看所有检测到的问题，并详细查看每个问题。更多信息，请参阅 <a href="file-and-project-analysis.topic" anchor="analysis-current-file" summary=""/> 。</note>
+        <img border-effect="rounded" alt="自动检查文件中存在的问题" src="自动检查文件中存在的问题.png" width="706" thumbnail="true"/>
+    </chapter>
+    <!-- 打包应用程序章节：介绍如何将应用程序打包成 JAR 文件 -->
+    <chapter id="package" title="将应用程序打包成 JAR">
+        <p>代码编写完成后，您可以将应用程序打包成 Java 归档文件（ <tooltip term="java-jar-file">JAR</tooltip> ），以便与其他开发人员共享。</p>
+        <p>构建好的 Java 归档被称为 <format style="bold">Artifact（工件）</format> 。</p>
+        <!-- 创建 Artifact 配置步骤：说明如何配置 JAR 包的构建设置 -->
+        <procedure id="configure-artifact" title="为 JAR 创建 Artifact 配置" type="steps">
+            <step>选择 <ui-path><include from="reuse-library.topic" element-id="main-menus-snippet"/>  | 文件 | 项目结构（ <shortcut>Ctrl</shortcut><shortcut>Alt</shortcut><shortcut>Shift</shortcut><shortcut>S</shortcut> ）</ui-path> ，然后单击 <ui-path>工件</ui-path> 。</step>
+            <step>单击 <img src="添加.svg" alt=""/> ，选择 <ui-path>JAR</ui-path> ，然后选择 <ui-path>来自具有依赖项的模块</ui-path> 。</step>
+            <img border-effect="rounded" alt="来自具有依赖项的模块" src="来自具有依赖项的模块.png" width="706" thumbnail="true"/>
+            <step>在 <ui-path>主类</ui-path> 右侧，单击 <img src="打开磁盘.svg" alt=""/> 。然后选择 <ui-path>HelloWorld (com.example.helloworld) </ui-path> 。</step>
+            <img border-effect="rounded" alt="选择将 HelloWorld 作为主类" src="选择将 HelloWorld 作为主类.png" width="706" thumbnail="true"/>
+            <step>IntelliJ IDEA 将完成 <format style="bold">工件</format> 配置，并显示在 <control>项目结构</control> 的右侧。</step>
+            <img border-effect="rounded" alt="显示已配置完成的工件" src="显示已配置完成的工件.png" width="706" thumbnail="true"/>
+            <step>应用更改并关闭对话框。</step>
+            <video border-effect="rounded" src="https://www.youtube.com/watch?v=fOoeA-cFnNc" width="706"/>
+        </procedure>
+    </chapter>
+    <!-- 编译 JAR 步骤：说明如何构建 JAR 包文件 -->
+    <procedure id="build-artifact" title="编译 JAR Artifact" type="steps">
+        <step>选择 <ui-path><include from="reuse-library.topic" element-id="main-menus-snippet" />  | 构建 | 构建工件</ui-path> 。</step>
+        <step>选择 <ui-path>HelloWorld:jar</ui-path> ，然后单击 <ui-path>构建</ui-path> 。</step>
+        <step>查看 <path>out/artifacts</path> 文件夹，将可以找到您编译生成的 <tooltip term="java-jar-file">JAR</tooltip> 。</step>
+        <video border-effect="rounded" src="https://www.youtube.com/watch?v=oqXhwMf_i44" width="706"/>
+    </procedure>
+    <!-- 运行 JAR 文件章节：介绍如何运行打包好的 JAR 文件 -->
+    <chapter id="run-jar-artifact" title="运行 JAR Artifact（工件）">
+        <!-- 创建 JAR 运行配置步骤：说明如何创建用于运行 JAR 文件的配置 -->
+        <procedure id="create-jar-run-config" title="创建 JAR 运行配置">
+            <p>要运行打包在 <tooltip term="java-jar-file">JAR</tooltip> 中的 Java 应用程序，IntelliJ IDEA 允许您创建专用的运行配置。</p>
+            <step>通过 <control><include from="reuse-library.topic" element-id="idea-operating-keywords-snippet"/></control> 找到并运行 <ui-path>编辑配置</ui-path> 操作。</step>
+            <step>在 <ui-path>运行/调试配置</ui-path> 中，单击 <img src="添加.svg" alt=""/> 并选择 <ui-path>JAR 应用程序</ui-path> 。</step>
+            <step>将新配置命名为： <code>HelloWorldJar</code> 。</step>
+            <step>在 <ui-path>JAR 路径</ui-path> 中，单击 <img src="打开磁盘.svg" alt=""/> 并指定计算机上 JAR 文件的路径。</step>
+            <step>
+                <p>向下滚动对话框，在 <ui-path>执行前</ui-path> 下单击 <img src="添加.svg" alt=""/> ，选择 <ui-path>编译 Artifacts | HelloWorld:jar</ui-path> 。</p>
+                <p>这意味着每次执行此运行配置时，都会自动构建 <code>HelloWorld.jar</code> 。</p>
+            </step>
+            <video border-effect="rounded" src="https://www.youtube.com/watch?v=U8zIZz1Jurg" width="706"/>
+            <note>运行配置允许您定义如何运行应用程序，以及使用哪些参数和选项。同一个应用程序可以有多个运行配置，每个配置都有自己的设置。</note>
+        </procedure>
+        <!-- 执行 JAR 运行配置步骤：说明如何使用配置运行 JAR 文件 -->
+        <procedure id="run-jar-run-config" title="执行 JAR 运行配置">
+            <step>在 <include from="reuse-library.topic" element-id="navigation-bar-snippet"/> 上选择 <code>HelloWorldJar</code> 配置，然后单击运行配置选择器右侧的 <img src="运行.svg" alt="" /> 。</step>
+            <step>您也可以按 <shortcut>Shift</shortcut><shortcut>F10</shortcut> 实现相同效果。</step>
+            <include from="reuse-library.topic" element-id="run-tool-windows-snippet"/> 工具窗口会打开并显示输出结果。若进程已成功退出，则意味着应用程序已正确打包。
+            <video border-effect="rounded" src="https://www.youtube.com/watch?v=iuyrrTn0tFU" width="706"/>
+        </procedure>
+    </chapter>
+    <seealso>
+        <include from="reuse-library.topic" element-id="list-of-suggested-seealso-snippet"/>
+    </seealso>
+</topic>

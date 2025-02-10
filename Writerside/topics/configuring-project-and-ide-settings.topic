@@ -1,0 +1,66 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE topic
+        SYSTEM "https://resources.jetbrains.com/writerside/1.0/xhtml-entities.dtd">
+<topic xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
+       xsi:noNamespaceSchemaLocation="https://resources.jetbrains.com/writerside/1.0/topic.v2.xsd"
+       title="配置 IDE" id="configuring-project-and-ide-settings">
+    <p>在 IntelliJ IDEA 中，您可以进行 <a href="configure-modules.topic" summary="">模块</a> 级别、 <a href="configure-project-settings.topic" summary="">项目</a> 级别和全局级别的 <tooltip term="ide">IDE</tooltip> 设置。</p>
+    <img src="三种设置级别的关系示意图.png" alt="三种设置级别的关系示意图" width="706" thumbnail="true"/>
+    <p>全局级别的设置具有最高优先级，它们适用于在 IntelliJ IDEA 中打开的所有项目。</p>
+    <p>这些设置包括有 IDE 外观设置（例如： <a href="user-interface-themes.topic" summary="">主题</a> 、 <a href="configuring-colors-and-fonts.topic" summary="" anchor="select-color-scheme">配色方案</a> 、 <a href="customize-actions-menus-and-toolbars.topic" summary=""/> ）、通知设置、已安装和启用的 <a href="managing-plugins.topic" summary="">插件</a> 集、调试器设置、代码补全等。</p>
+    <p>要配置您的 IntelliJ IDEA，您需要进入 <control><include from="reuse-library.topic" element-id="idea-settings-keywords-snippet"/></control> 。</p>
+    <p>您需要注意未使用 <img src="非全局级设置图标.svg" alt=""/> 标记的选项是全局级别设置，它们适用于在 IntelliJ IDEA 中打开的所有项目。</p>
+    <p>而使用 <img src="非全局级设置图标.svg" alt=""/> 标记的选项是项目级设置，它只适用于 IntelliJ IDEA 打开的当前项目。</p>
+    <img alt="分辨设置中的全局设置和非全局设置" src="分辨设置中的全局设置和非全局设置.png" width="706" thumbnail="true" border-effect="rounded"/>
+    <note>请注意， <ui-path>插件</ui-path> 后方的 <img src="非全局级设置图标.svg" alt=""/>  图标标记为错误标记，它已在后续版本中得到修复。&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;</note>
+    <img alt="修复插件为非全局级设置的图标标识错误（IntelliJ IDEA 2024.3.x）" src="修复插件为非全局级设置的图标标识错误.png" width="706" border-effect="rounded" thumbnail="true"/>
+    <chapter id="restore-defaults" title="重置 IDE 设置">
+        <p>您可以尝试将 IntelliJ IDEA 还原至默认设置，它会将当前的配置备份至另一个目录，您可以随时从备份中恢复您的设置。</p>
+        <procedure title="备份设置并恢复默认值" id="back-up-restore">
+            <step>选择 <ui-path> <include from="reuse-library.topic" element-id="main-menus-snippet"/> | 文件 | 管理 IDE 设置 | 还原为默认设置</ui-path> 。</step>
+            <img alt="还原为默认设置" src="还原为默认设置.png" width="706" thumbnail="true" border-effect="rounded"/>
+            <step>或在 <control><include from="reuse-library.topic" element-id="idea-operating-keywords-snippet"/></control> 中找到并执行 <ui-path>还原为默认设置</ui-path> 操作。</step>
+            <img alt="在操作中找到并执行还原为默认设置操作" src="在操作中找到并执行还原为默认设置操作.png" width="706" thumbnail="true" border-effect="rounded"/>
+            <step>单击 <control>还原并重启</control> 。</step>
+            <img alt="还原并重启" src="还原并重启.png" width="706" thumbnail="true" border-effect="rounded"/>
+            <step>重启 IntelliJ IDEA 后所有设置将恢复至默认值。</step>
+            <video src="https://www.youtube.com/watch?v=6Ur5aM4gCFg" width="706" border-effect="rounded"/>
+        </procedure>
+        <p>当 IntelliJ IDEA 恢复默认 IDE 设置时，它将创建一个包含当前配置的备份目录。</p>
+        <tabs>
+            <tab title="Windows" id="windows">
+                <deflist>
+                    <def title="语法" id="windows-grammar"><path>&#37;APPDATA&#37;\JetBrains\&lt;product&gt;&lt;version&gt;-backup</path></def>
+                    <def title="例子" id="windows-grammar-example"><path>C:\Users\OldFriend\AppData\Roaming\JetBrains\IntelliJIdea2022.3-backup</path></def>
+                </deflist>
+            </tab>
+            <tab title="macOS" id="macOS">
+                <deflist>
+                    <def title="语法" id="macos-grammar"><path>~/Library/Application Support/JetBrains/&lt;product&gt;&lt;version&gt;-backup</path></def>
+                <def title="例子" id="macos-grammar-example"><path>~/Library/Application Support/JetBrains/IntelliJIdea2022.3-backup</path></def>
+                </deflist>
+            </tab>
+            <tab title="Linux" id="linux">
+                <deflist>
+                    <def title="语法" id="linux-grammar"><path>~/.config/JetBrains/&lt;product&gt;&lt;version&gt;-backup</path></def>
+                    <def title="例子" id="linux-grammar-example"><path>~/.config/JetBrains/IntelliJIdea2022.3-backup</path></def>
+                </deflist>
+            </tab>
+        </tabs>
+        <procedure title="从备份中应用 IDE 设置" id="restore-from-backup">
+            <step>选择 <ui-path><include from="reuse-library.topic" element-id="main-menus-snippet"/> | 管理 IDE 设置 | 导入设置</ui-path> 。</step>
+            <img src="导入设置.png" alt="导入设置" width="706" thumbnail="true" border-effect="rounded"/>
+            <step>在 <control>导入文件的位置</control> 中选择包含设置信息的 <tooltip term="zip">ZIP</tooltip> 压缩包。例如： <path>settings.zip</path> 。</step>
+            <img src="导入文件的位置.png" alt="导入文件的位置" width="706" thumbnail="true" border-effect="rounded"/>
+            <step>或者您也可以选择包含有 IDE 配置信息的备份配置目录。</step>
+            <img alt="导入包含 IDE 设置信息的备份配置目录" src="导入包含 IDE 设置信息的备份配置目录.png" width="706" thumbnail="true" border-effect="rounded"/>
+            <step>单击 <control>确定</control> ，然后继续单击 <control>导入并重启</control> 。</step>
+            <video src="https://www.youtube.com/watch?v=UeCsg2XYPW0" width="706" border-effect="rounded"/>
+            <note>应用设置备份中的设置后，当前 IntelliJ IDEA 中的设置将会被覆盖。&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;</note>
+        </procedure>
+    </chapter>
+    <p>如果，您想要共享您的 IDE 设置给团队中的其他成员，请参阅 <a href="sharing-your-ide-settings.topic" summary=""/> 。</p>
+    <seealso>
+        <include from="reuse-library.topic" element-id="list-of-suggested-seealso-snippet"/>
+    </seealso>
+</topic>

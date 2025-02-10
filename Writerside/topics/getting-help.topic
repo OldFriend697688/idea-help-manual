@@ -1,0 +1,88 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE topic
+        SYSTEM "https://resources.jetbrains.com/writerside/1.0/xhtml-entities.dtd">
+<topic xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
+       xsi:noNamespaceSchemaLocation="https://resources.jetbrains.com/writerside/1.0/topic.v2.xsd"
+       title="支持与帮助" id="getting-help">
+    <show-structure depth="1" for="procedure"/>
+    <!-- 联系支持步骤：说明如何通过不同渠道获取 IntelliJ IDEA 的技术支持 -->
+    <procedure title="联系支持" id="contact-support" type="choices">
+        <p>如果您无法在帮助文档中找到所需的实质性帮助信息，请尝试联系 <tooltip term="jetbrains">JetBrains</tooltip> 支持团队。</p>
+        <step>浏览 <a href="https://intellij-support.jetbrains.com/hc/en-us">IntelliJ IDEA 知识库</a> 。</step>
+        <step>在 <a href="https://intellij-support.jetbrains.com/hc/en-us/community/topics/">社区论坛</a> 创建一个新主题并进行提问。</step>
+        <step>选择 <ui-path><include from="reuse-library.topic" element-id="main-menus-snippet"/> | 帮助 | 联系支持</ui-path> 以便直接向支持团队提出请求。</step>
+        <img src="联系支持.png" alt="联系支持" width="706" thumbnail="true" border-effect="rounded"/>
+    </procedure>
+    <!-- 反馈错误步骤：说明如何向 JetBrains 报告 IntelliJ IDEA 的问题和错误 -->
+    <procedure title="反馈错误" id="report-bug" type="choices">
+        <p>如遇错误或想提议新功能，您可以尝试使用 <a href="https://youtrack.jetbrains.com/issues/IDEA">IntelliJ IDEA 问题跟踪器</a> 。</p>
+        <step>选择 <ui-path><include from="reuse-library.topic" element-id="main-menus-snippet"/> | 帮助 | 提交错误报告</ui-path> 。</step>
+        <img src="提交错误报告.png" alt="提交错误报告" width="706" thumbnail="true" border-effect="rounded"/>
+        <p>在进行提交之前，您可以先尝试搜索问题跟踪器，查找是否已存在类似的报告或功能请求，以避免重复。如有类似，可以添加评论或者投票，以便引起开发团队的关注。</p>
+        <p>如果需要 IntelliJ IDEA 的日志文件，可以通过 <ui-path><include from="reuse-library.topic" element-id="main-menus-snippet"/> | 帮助 | 在 Explorer 显示日志</ui-path> 找到它。</p>
+        <img src="在资源管理器中显示日志-1.png" alt="在资源管理器中显示日志" width="706" thumbnail="true" border-effect="rounded"/>
+    </procedure>
+    <!-- 提交反馈步骤：说明如何向 JetBrains 提交产品改进建议和意见 -->
+    <procedure title="提交反馈" id="feedback">
+        <p>对于 JetBrains 产品的任何不满与改进建议都可以反馈给开发团队。</p>
+        <step>选择 <ui-path><include from="reuse-library.topic" element-id="main-menus-snippet"/>| 帮助 | 提交反馈（Submit <format style="underline">F</format>eedback）</ui-path> 。</step>
+        <img src="提交反馈.png" alt="提交反馈" width="706" thumbnail="true" border-effect="rounded"/>
+    </procedure>
+    <!-- 了解更多章节：介绍学习和掌握 IntelliJ IDEA 的各种途径和资源 -->
+    <chapter title="了解更多" id="learn">
+        <p>您有多种方式可以学习和掌握 IntelliJ IDEA。</p>
+        <list>
+            <li>
+                <p><control>每日小技巧</control> 会在每次启动 IntelliJ IDEA 时提供帮助。</p>
+                <p>如果您不想显示它，请勾选 <control>启动时不显示小技巧</control> 。</p>
+                <img src="启动时不显示小技巧.png" alt="启动时不显示小技巧" width="706" thumbnail="true" border-effect="rounded"/>
+                <p>如果要重新打开 <control>每日小技巧</control> ，请选择 <ui-path><include from="reuse-library.topic" element-id="main-menus-snippet"/> | 帮助 | 每日小技巧</ui-path> 。</p>
+                <img src="显示每日小技巧.png" alt="显示每日小技巧" width="706" thumbnail="true" border-effect="rounded"/>
+            </li>
+            <li>
+                <control>我的工作效率</control> 显示了一系列有用功能的统计数据和技巧。
+                <p>您可以通过 <ui-path><include from="reuse-library.topic" element-id="main-menus-snippet"/> | 帮助 | 我的工作效率</ui-path> 打开它。</p>
+                <img src="我的工作效率.png" alt="我的工作效率" width="706" thumbnail="true" border-effect="rounded"/>
+            </li>
+            <li>
+                <ui-path>学习 IDE 功能</ui-path> 提供一系列交互式课程，通过实际案例指导新用户学习使用快捷键。
+                <p>您可以通过 <ui-path><include from="reuse-library.topic" element-id="main-menus-snippet"/> | 帮助 | <a href="feature-trainer.topic" summary=""/></ui-path> 打开它。</p>
+                <img src="学习 IDE 功能.png" alt="学习 IDE 功能" width="706" thumbnail="true" border-effect="rounded"/>
+            </li>
+        </list>
+    </chapter>
+    <!-- 访问离线文档步骤：说明如何在无网络环境下访问 IntelliJ IDEA 的帮助文档 -->
+    <procedure title="访问离线文档" id="offline-help">
+        <p>如果您无法通过互联网访问在线文档，可以尝试使用 <a href="https://plugins.jetbrains.com/plugin/10260-intellij-idea-help">IntelliJ IDEA 离线帮助插件</a> ，它将通过内置的 Web 服务器提供帮助页面，以便离线使用。</p>
+        <img src="IntelliJ IDEA Help 插件.png" alt="IntelliJ IDEA Help 插件" width="706" thumbnail="true" border-effect="rounded"/>
+        <warning>此插件将在 IntelliJ IDEA 发布新的主要版本时同步更新。在发布周期内添加至在线帮助文档中的更改可能在离线帮助文档中不可用。</warning>
+        <video src="https://www.youtube.com/watch?v=adYsa7FNe2s" width="706" border-effect="rounded"/>
+    </procedure>
+    <!-- 通过 IDE 访问在线文档步骤：说明如何在 IDE 中直接访问在线帮助文档 -->
+    <procedure title="通过 IDE 访问在线文档" id="open-help">
+        <p>要从 IntelliJ IDEA 中访问在线帮助文档，请执行以下操作之一：</p>
+        <step>选择 <ui-path><include from="reuse-library.topic" element-id="main-menus-snippet"/> | 帮助 | 帮助</ui-path> 。</step>
+        <step>在 IntelliJ IDEA 中按 <shortcut>F1</shortcut> 。</step>
+        <step>单击 <a href="guided-tour-around-the-user-interface.topic" anchor="tool-windows" summary=""/> 或对话框中的 <img src="帮助.svg" alt=""/> 。</step>
+        <video src="https://www.youtube.com/watch?v=Fepv_lNEjsc" width="706" border-effect="rounded"/>
+    </procedure>
+    <seealso>
+        <category ref="references">
+            <a href="https://www.youtube.com/user/JetBrainsTV">JetBrains TV</a>
+            <a href="https://blog.jetbrains.com/idea">IntelliJ IDEA blog</a>
+            <a href="https://www.youtube.com/user/intellijideavideo">IntelliJ IDEA videos</a>
+            <a href="https://twitter.com/intellijidea">IntelliJ IDEA twitter (@intellijidea)</a>
+        </category>
+        <category ref="associated-websites">
+        <include from="reuse-library.topic" element-id="ides-snippet"/>
+        <include from="reuse-library.topic" element-id="programming-language-snippet"/>
+            <a href="https://github.com/PKUFlyingPig/cs-self-learning">CS 自学指南</a>
+            <a href="https://git-scm.com/book/zh/v2/起步-关于版本控制" summary="全中文化的 Git 使用手册">Git 中文使用手册</a>
+            <a href="https://javabetter.cn/">二哥的 Java 进阶之路</a>
+            <a href="https://github.com/xiaolincoder/CS-Base">小林 x 图解计算机基础</a>
+            <a href="https://github.com/justjavac/free-programming-books-zh_CN">免费的编程中文书籍索引</a>
+            <a href="https://github.com/CodingDocs/awesome-cs?tab=readme-ov-file">计算机优质书籍搜罗 + 学习路线推荐</a>
+        </category>
+        <include from="reuse-library.topic" element-id="ai-editor-snippet"/>
+    </seealso>
+</topic>

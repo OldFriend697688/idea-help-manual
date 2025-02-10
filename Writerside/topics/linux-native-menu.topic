@@ -1,0 +1,23 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE topic
+        SYSTEM "https://resources.jetbrains.com/writerside/1.0/xhtml-entities.dtd">
+<topic xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
+       xsi:noNamespaceSchemaLocation="https://resources.jetbrains.com/writerside/1.0/topic.v2.xsd"
+       title="Linux 原生菜单" id="linux-native-menu">
+    <warning>这是 IntelliJ IDEA 提供的一项实验性功能。&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;</warning>
+    <p>如果正在使用适配 <tooltip term="linux">Linux</tooltip> 的 IntelliJ IDEA，您将可以使用类似于 <tooltip term="macos">macOS</tooltip> 的全局主菜单。它是一个附着在屏幕顶部的水平菜单。默认情况下，此菜单已启用，但并非所有 Linux 桌面环境都原生支持它。</p>
+    <img alt="Linux 原生菜单" src="Linux 原生菜单.png" width="706" thumbnail="true" border-effect="rounded"/>
+    <procedure title="禁用原生菜单" id="disable-linux-native-menu" type="steps">
+        <step>在 <control>include from="reuse-library.topic" element-id="idea-operating-keywords-snippet"/></control> 中键入 <ui-path>实验性功能</ui-path> ，然后找到它并按 <shortcut>Enter</shortcut> （回车键）。</step>
+        <img src="实验性功能.png" alt="实验性功能" width="706" thumbnail="true" border-effect="rounded"/>
+        <step>取消勾选 <ui-path>linux.native.menu</ui-path> 旁边的复选框。</step>
+        <img src="取消勾选 linux.native.menu 旁边的复选框.png" alt="取消勾选 linux.native.menu 旁边的复选框" width="706" thumbnail="true" border-effect="rounded"/>
+        <step>应用更改并关闭对话框，然后重启 IntelliJ IDEA。</step>
+    </procedure>
+    <chapter title="问题排查" id="troubleshoot">
+        <p>本地菜单可能无法在某些桌面环境中显示。如果您按照本章节所述步骤操作后，仍然无法看到菜单，请从 <include from="reuse-library.topic" element-id="jetbrains-plugin-library-snippet"/> 中搜索并安装 <a href="https://plugins.jetbrains.com/plugin/14250-javafx-runtime-for-plugins">javafx-runtime-for-plugins</a> 插件。 </p>
+    </chapter>
+    <seealso>
+        <include from="reuse-library.topic" element-id="list-of-suggested-seealso-snippet"/>
+    </seealso>
+</topic>

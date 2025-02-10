@@ -1,0 +1,15 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE topic
+        SYSTEM "https://resources.jetbrains.com/writerside/1.0/xhtml-entities.dtd">
+<topic xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
+       xsi:noNamespaceSchemaLocation="https://resources.jetbrains.com/writerside/1.0/topic.v2.xsd"
+       title="代码参考信息" id="viewing-reference-information">
+
+   <chapter id="view-parameter-info" title="参数类型"/>
+   <chapter id="inline-quick-documentation" title="快速文档">
+
+   </chapter>
+   <seealso>
+      <include from="reuse-library.topic" element-id="list-of-suggested-seealso-snippet"/>
+   </seealso>
+</topic>

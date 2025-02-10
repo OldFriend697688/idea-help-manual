@@ -1,0 +1,31 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE topic
+        SYSTEM "https://resources.jetbrains.com/writerside/1.0/xhtml-entities.dtd">
+<topic xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
+       xsi:noNamespaceSchemaLocation="https://resources.jetbrains.com/writerside/1.0/topic.v2.xsd"
+       title="检查暂停的程序" id="examining-suspended-program">
+    <chapter id="use-labels"  title="标签">
+        <p>在调试的过程中，有时需要标记一些实例，以便在任何上下文中都能轻松识别它们。为此，可以添加标签。标签一旦被添加，就会伴随对象的整个 <tooltip term="java-object-lifecycle">生命周期</tooltip> 。</p>
+        <img src="为指定变量添加标签.png" alt="为指定变量添加标签" width="706"/>
+        <p>在使用条件或表达式时，这将很有用。此时，可通过标签引用该对象，而不用搜索对该对象的引用。</p>
+        <img src="https://i.imgur.com/qcxkB80.png" alt="在求值中使用标签" width="706"/>
+        <p>如果想不受上下文限制地跟踪某个实例，可以为该标签创建一个监视器。有了这种监视器，无论当前帧和线程在哪里，对象都会随时在手。</p>
+        <video src="https://www.youtube.com/watch?v=ckku7SDU2Rs" width="706"/>
+        <procedure title="添加标签" id="add-labels">
+            <step>在 <control>变量</control> 选项卡上，右键单击当前指向的变量，然后从菜单中选择 <ui-path>标记对象 F11</ui-path> 。</step>
+            <step>键入标签名称。如有必要还可以选择显示的 <a href="color-picker.topic" summary="">颜色</a> ，当完成配置后，请单击 <control>确定</control> 保存设置。</step>
+            <video src="https://www.youtube.com/watch?v=2_5_Hqr_lJg" width="706"/>
+        </procedure>
+        <procedure title="移除标签" id="remove-labels">
+            <step>右键单击要删除的标签，然后从右键菜单中选择 <ui-path>标记对象 F11</ui-path> 。</step>
+            <video src="https://www.youtube.com/watch?v=4Kxs_MfmVes" width="706"/>
+        </procedure>
+    </chapter>
+    <chapter id="watches" title="监视器"></chapter>
+    <chapter id="variables" title="检查/更新变量"></chapter>
+    <chapter id="evaluating-expressions" title="评估表达式"></chapter>
+    <chapter id="inline-view" title="内联调试视图"></chapter>
+    <seealso>
+        <include from="reuse-library.topic" element-id="list-of-suggested-seealso-snippet"/>
+    </seealso>
+</topic>

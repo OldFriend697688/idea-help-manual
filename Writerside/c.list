@@ -1,0 +1,10 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE categories
+        SYSTEM "https://resources.jetbrains.com/writerside/1.0/categories.dtd">
+<categories>
+    <category id="references" name="参考资料" order="1"/>
+    <category id="programming-language" name="编程语言" order="2"/>
+    <category id="ides" name="集成开发环境（IDE）" order="3"/>
+    <category id="associated-websites" name="关联网站" order="4"/>
+    <category id="ai-editor" name="AI 编辑器" order="5"/>
+</categories>

@@ -1,0 +1,86 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE topic
+        SYSTEM "https://resources.jetbrains.com/writerside/1.0/xhtml-entities.dtd">
+<topic xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
+       xsi:noNamespaceSchemaLocation="https://resources.jetbrains.com/writerside/1.0/topic.v2.xsd"
+       title="离线工作" id="working-offline">
+    <!-- 更新章节：说明在离线环境下如何处理 IDE 的更新问题 -->
+    <chapter id="updates" title="更新">
+        <warning>如果无法访问网络，就无法使用 <a href="installation-guide.topic" anchor="toolbox" summary="">Toolbox App</a> 和 <a href="installation-guide.topic" anchor="snap" summary="">Snap</a> 安装 IntelliJ IDEA。&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;</warning>
+        <p>默认情况下，IntelliJ IDEA 被配置为自动检查更新，并在新版本可用时通知您。</p>
+        <p>更新通常是基于补丁形式的，它们会应用到现有的安装中，您只需要重新启动 <tooltip term="ide">IDE</tooltip> 即可完成更新。</p>
+        <p>不过，有时补丁更新不可用，您必须安装新版本的 IntelliJ IDEA。</p>
+        <p>如果 IntelliJ IDEA 在本地网络之外没有互联网访问权限，则无法检查更新和应用补丁。在这种情况下，您必须下载 IntelliJ IDEA 的新版本，并参阅 <a href="installation-guide.topic" anchor="standalone" summary=""/> 中的说明完成 IntelliJ IDEA 的安装。</p>
+        <p>更多相关信息，请参阅 <a href="update.topic" summary=""/> 。</p>
+    </chapter>
+    <!-- 插件章节：介绍在离线环境下如何管理和安装插件 -->
+    <chapter id="plugins" title="插件">
+        <include from="reuse-library.topic" element-id="too-many-plugins-tips-snippet"/>
+        <p>插件默认是从 <include from="reuse-library.topic" element-id="jetbrains-plugin-library-snippet"/> 中下载并进行安装的。不过，您可以在本地网络中设置一个 <a href="managing-plugins.topic" anchor="repos" summary=""/> ，并配置 IntelliJ IDEA 使用它来 <a href="managing-plugins.topic" summary="">安装</a> 和 <a href="managing-plugins.topic" anchor="update-plugin" summary="">更新</a> 插件。您还可以 <a href="managing-plugins.topic" anchor="install-plugin-from-disk" summary=""/> 。</p>
+        <img src="欢迎界面中的插件选项卡.png" alt="IntelliJ IDEA 欢迎界面中的插件选项" width="706" thumbnail="true" border-effect="rounded"/>
+    </chapter>
+    <!-- 激活许可证章节：说明在离线环境下如何激活 IntelliJ IDEA -->
+    <chapter id="licenses" title="激活许可证">
+        <primary-label ref="Ultimate"/>
+        <note>如果您已经通过 <a href="register.topic" anchor="crack-activation" summary="">特殊方式</a> 成功激活 IntelliJ IDEA，则此节中的内容您可以选择性忽略它。</note>
+        <p>您可以免费试用 IntelliJ IDEA Ultimate（旗舰版）长达 30 天。之后，您需要购买并 <a href="register.topic" summary="">注册</a> 许可证才可以继续使用该产品。</p>
+        <p>如果 IntelliJ IDEA 在本地网络之外没有互联网访问权限，您将无法使用 <a href="https://account.jetbrains.com/login">JetBrains 账户</a> 登录。不过，您可以生成一个离线激活代码，该代码在您的订阅期限内有效。</p>
+        <p>如果您的组织至少有 50 个 JetBrains 产品的有效订阅或许可证，您可以使用 <a href="https://www.jetbrains.com/help/license_server">Floating License Server</a> 来激活公司网络内的 IntelliJ IDEA 实例。 <format style="bold">请记住，许可证服务器本身需要网络接入才能连接到 JetBrains 账户。</format></p>
+    </chapter>
+    <!-- 代码检查章节：介绍离线环境对代码检查功能的影响 -->
+    <chapter id="code-inspections" title="代码检查">
+        <p>有些代码检查会验证外部资源。例如：不存在的网络资源检查会突出显示 <tooltip term="dead-link">死链接</tooltip> 。如果无法访问互联网，这些检查将不起作用，死链接也不会突出显示。更多相关信息，请参阅 <a href="code-inspection.topic" summary=""/> 。</p>
+    </chapter>
+    <!-- 外部文档章节：说明如何在离线环境下访问和使用文档 -->
+    <chapter id="external-docs" title="外部文档">
+        <p>您可以在浏览器中打开外部文档，并浏览相关内容，同时保存信息以备进一步参考。但是，如果没有互联网连接，则无法访问在线文档。在这种情况下，您可以下载外部文档并通过 <a href="viewing-reference-information.topic" anchor="inline-quick-documentation"/> 打开。</p>
+        <include from="reuse-library.topic" element-id="sdk-open-offline-snippet"/>
+        <include from="reuse-library.topic" element-id="library-open-offline-snippet"/>
+        <p>下载并配置好文档后，将鼠标悬停在 <include from="reuse-library.topic" element-id="editor-snippet"/> 中的 <tooltip term="symbol">符号</tooltip> 上，然后按 <shortcut>Ctrl</shortcut><shortcut>Q</shortcut> 即可触发离线文档。</p>
+    </chapter>
+    <!-- 版本控制系统章节：介绍离线环境下 VCS 功能的限制 -->
+    <chapter id="vcs" title="版本控制系统">
+        <p>您的源代码很可能正在被某种 <tooltip term="vcs">版本控制系统（VCS）</tooltip> 管理。如果远程仓库不在本地网络中，也没有互联网接入，IntelliJ IDEA 将无法与 VCS 建立通信。例如：如果您使用的是 <a href="https://git-scm.com/?hl=zh-cn">Git</a> ，您可以在本地提交您的更改，但无法将其推送到远程版本库或从中提取更新。有关 VCS 集成的更多信息，请参阅 <a href="version-control-integration.topic" summary=""/> 。</p>
+    </chapter>
+    <!-- 任务和问题跟踪器章节：说明离线环境下任务管理功能的限制 -->
+    <chapter title="任务和问题跟踪器" id="tasks">
+        <p>您可以设置与问题跟踪器的连接，以便直接从 IntelliJ IDEA 处理分配给您的任务和错误。例如：您可以连接到 <a href="https://www.jetbrains.com/youtrack/">YouTrack</a> 、 <a href="https://www.atlassian.com/software/jira/">Jira</a> 、 <a href="https://github.com/">GitHub</a> 等。</p>
+        <p>如果问题跟踪服务器不在本地网络中，也没有互联网接入，IntelliJ IDEA 将无法同步您的问题。在这种情况下，您只能使用自己创建的本地任务。有关更多信息，请参阅 <a href="managing-tasks-and-context.topic" /> 。</p>
+    </chapter>
+    <!-- Maven 依赖章节：介绍如何在离线环境下管理 Maven 依赖 -->
+    <chapter id="maven" title="Maven 依赖">
+        <p>默认情况下， <tooltip term="maven">Maven</tooltip> 会连接到远程仓库源，并在每次启动时检查更新。解决 <a href="https://maven.apache.org/">Maven</a> 依赖性问题可能需要下载新的 <tooltip term="java-artifact">工件</tooltip> 。如果希望 Maven 只使用本地可用的资源，可以切换至离线模式。</p>
+        <procedure id="maven-offline-mode" title="切换 Maven 到离线模式">
+            <!-- Maven 离线模式步骤：说明如何启用 Maven 的离线模式 -->
+            <step>在 <include from="reuse-library.topic" element-id="maven-tool-windows-snippet" /> 中，单击 <img src="Maven 离线模式.svg" alt=""/> 。</step>
+            <p>这将在 IntelliJ IDEA 运行的所有 Maven 命令中附加 <code>--offline</code> 选项。</p>
+            <p>同时，它还会报告任何无法在本地版本库中找到的 <tooltip term="library">库</tooltip> 。</p>
+        </procedure>
+    </chapter>
+    <!-- Gradle 依赖章节：介绍如何在离线环境下管理 Gradle 依赖 -->
+    <chapter id="gradle" title="Gradle 依赖">
+        <p>默认情况下， <tooltip term="gradle">Gradle</tooltip> 会连接到远程仓库源，并在每次启动时检查更新。解决 <a href="https://gradle.org/">Gradle</a> 依赖性问题可能需要下载新的工件。如果希望 Gradle 只使用本地可用的资源，可以切换至离线模式。</p>
+        <!-- Gradle 离线模式步骤：说明如何启用 Gradle 的离线模式 -->
+        <procedure id="gradle-offline-mode" title="切换 Maven 到离线模式">
+            <step>在 <include from="reuse-library.topic" element-id="gradle-tool-windows-snippet" /> 工具窗口中，单击 <img src="Maven 离线模式.svg" alt=""/> 。</step>
+            <p>这将在 IntelliJ IDEA 运行的所有 Gradle 命令中附加 <code>--offline</code> 选项。</p>
+            <p>同时，它还会报告任何无法在本地版本库中找到的 <tooltip term="library">库</tooltip> 。</p>
+        </procedure>
+    </chapter>
+    <!-- 匿名使用统计章节：说明离线环境下使用统计功能的行为 -->
+    <chapter id="usage-stats" title="匿名使用统计">
+        <p>当您第一次运行 IntelliJ IDEA 时，系统会提示您是否同意发送有关您使用的功能和插件、硬件和软件配置、文件类型、每个项目的文件数量等方面的匿名数据。其中不包括任何个人或敏感数据，例如您项目中的源代码或文件名。</p>
+        <p>这些数据将根据 <a href="https://www.jetbrains.com/company/privacy.html">JetBrains 隐私政策</a> 进行收集，主要用于帮助改进产品功能和整体使用体验。</p>
+        <p>即使启用了匿名使用统计，如果除了本地网络外没有互联网访问权限，则不会发送匿名使用统计。</p>
+        <p>此外，如果您一开始同意，但后来又改变了主意，也可以禁用发送匿名使用统计数据。</p>
+        <!-- 禁用使用统计步骤：说明如何关闭匿名使用统计功能 -->
+        <procedure id="disable-usage-stats" title="禁用匿名使用统计">
+            <step>在 <control><include from="reuse-library.topic" element-id="idea-settings-keywords-snippet"/></control> 中选择 <ui-path>外观与行为 | 系统设置 | 数据共享</ui-path> 。</step>
+            <step>取消勾选 <ui-path>Send usage statistics</ui-path> 。</step>
+            <img src="为 IntelliJ IDEA 取消数据共享.png" alt="为 IntelliJ IDEA 取消数据共享" width="706" thumbnail="true" border-effect="rounded"/>
+        </procedure>
+    </chapter>
+    <seealso>
+        <include from="reuse-library.topic" element-id="list-of-suggested-seealso-snippet"/>
+    </seealso>
+</topic>

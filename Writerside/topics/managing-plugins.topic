@@ -1,0 +1,233 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE topic
+        SYSTEM "https://resources.jetbrains.com/writerside/1.0/xhtml-entities.dtd">
+<topic xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
+       xsi:noNamespaceSchemaLocation="https://resources.jetbrains.com/writerside/1.0/topic.v2.xsd"
+       title="安装插件" id="managing-plugins">
+    <show-structure for="chapter"/>
+    <include from="reuse-library.topic" element-id="too-many-plugins-tips-snippet"/>
+    <p>插件可以扩展 IntelliJ IDEA 的核心功能。例如：安装插件后您可获得以下功能：</p>
+    <list>
+        <li>与 <tooltip term="vcs">版本控制系统</tooltip> 、问题跟踪器、构建管理服务器及其他工具集成。</li>
+        <li>为各种 <tooltip term="programming-language">语言</tooltip> 和 <tooltip term="framework">框架</tooltip> 提供编码辅助支持。</li>
+        <li><a href="mastering-keyboard-shortcuts.topic" summary=""/> 实时提示、实时预览、文件监视器等等。</li>
+        <li>编码练习，帮助您学习新的语言。您可以参阅 <a href="feature-trainer.topic" summary=""/> 以掌握 IntelliJ IDEA 的基础用法。</li>
+    </list>
+    <!-- 打开插件设置步骤：说明如何访问和打开插件管理界面 -->
+    <procedure id="open-plugin-settings" title="打开插件设置" type="choices">
+        <step>在 <control>欢迎界面</control> 中选择 <ui-path>插件</ui-path> 。</step>
+        <img src="在欢迎界面中打开插件设置.png" alt="在欢迎界面中打开插件设置" width="706" thumbnail="true" border-effect="rounded"/>
+        <step>或在 <control><include from="reuse-library.topic" element-id="idea-settings-keywords-snippet"/></control> （ <shortcut>Ctrl</shortcut><shortcut>Alt</shortcut><shortcut>S</shortcut> ）中选择 <ui-path>插件</ui-path> 。</step>
+        <img src="在 IntelliJ IDEA 的设置中找到插件设置.png" alt="在 IntelliJ IDEA 的设置中找到插件设置" width="706" thumbnail="true" border-effect="rounded"/>
+        <p>您可以在 <ui-path>Marketplace</ui-path> 中浏览并安装 <include from="reuse-library.topic" element-id="jetbrains-plugin-library-snippet"/> 中的插件或者是 <a anchor="repos" summary=""/> 。</p>
+        <p>通过 <ui-path>已安装</ui-path> 浏览捆绑和已安装的插件，启用、 <a anchor="disable-plugin" summary="">禁用</a> 、 <a anchor="update-plugin" summary="">更新</a> 或 <a anchor="remove-plugin" summary="">卸载</a> 它们。</p>
+        <p>您还可以禁用不必要的插件以提高 IntelliJ IDEA 的整体性能。</p>
+        <video src="https://www.youtube.com/watch?v=rVls_vLVTz0" width="706" border-effect="rounded"/>
+    </procedure>
+    <p>大多数插件适用于任何 JetBrains 产品。有些插件仅限于商业用途，有些则需要单独的激活许可证。</p>
+    <img src="IntelliJ IDEA 付费插件.png" alt="IntelliJ IDEA 付费插件" width="706" thumbnail="true" border-effect="rounded"/>
+    <p>如果某个插件依赖于其他插件，IntelliJ IDEA 会通知您相关的依赖关系。如果您的项目依赖于某些插件，请将它们添加至 <a anchor="required-plugins" summary="" /> 列表中。</p>
+    <p>如果现有插件无法提供您需要的某些功能，您可以为 IntelliJ IDEA 开发属于您自己的插件。有关详细信息，请参阅 <a anchor="plugin-dev" summary=""/> 。</p>
+    <p>IntelliJ IDEA 默认包含多个捆绑插件。您可以禁用捆绑的插件，但不能卸载它们。</p>
+    <!-- 从官方仓库安装插件步骤：说明如何从 JetBrains 插件库安装插件 -->
+    <procedure id="install-plugin-from-repo" title="从官方插件仓库中安装插件">
+        <note>要安装插件的某个特定版本，请访问该插件位于 <include from="reuse-library.topic" element-id="jetbrains-plugin-library-snippet"/> 的主页面，然后按照 <a anchor="install-plugin-from-disk" summary=""/> 中的步骤下载并安装它。</note>
+        <step>在 <control>欢迎界面</control> 中选择 <ui-path>插件</ui-path> ，或在 <control><include from="reuse-library.topic" element-id="idea-settings-keywords-snippet"/></control> （ <shortcut>Ctrl</shortcut><shortcut>Alt</shortcut><shortcut>S</shortcut> ）中选择 <ui-path>插件</ui-path> 。</step>
+        <step>在 <ui-path>Marketplace</ui-path> 中搜索目标插件，然后单击 <control>安装</control> 。</step>
+        <video src="https://www.youtube.com/watch?v=gsg4Af8yp-w" width="706" border-effect="rounded"/>
+    </procedure>
+    <!-- 本地安装插件步骤：说明如何从本地磁盘安装插件文件 -->
+    <procedure id="install-plugin-from-disk" title="通过本地磁盘安装插件">
+        <step>下载目标插件的压缩包（ <tooltip term="zip"><path>ZIP</path></tooltip> 或 <tooltip term="java-jar-file"><path>JAR</path></tooltip> ）。</step>
+        <step>在 <control>欢迎界面</control> 中选择 <ui-path>插件</ui-path> ， 或在 <control><include from="reuse-library.topic" element-id="idea-settings-keywords-snippet"/></control> （ <shortcut>Ctrl</shortcut><shortcut>Alt</shortcut><shortcut>S</shortcut> ）中选择 <ui-path>插件</ui-path> 。</step>
+        <step>单击 <img src="设置.svg" alt=""/> ，然后选择 <ui-path>从磁盘安装插件</ui-path> 。</step>
+        <step>选择目标插件的压缩包，然后单击 <control>确定</control> 。</step>
+        <step>单击 <control>确定</control> 应用更改，并根据提示重启 IntelliJ IDEA。</step>
+        <video src="https://www.youtube.com/watch?v=cBKDesk6Cx8" width="706" border-effect="rounded"/>
+    </procedure>
+    <!-- 卸载插件步骤：说明如何移除已安装的非捆绑插件 -->
+    <procedure title="卸载插件" id="remove-plugin">
+        <note>您无法卸载捆绑的插件。&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;</note>
+        <step>在 <control>欢迎界面</control> 中选择 <ui-path>插件</ui-path> ，或在 <control><include from="reuse-library.topic" element-id="idea-settings-keywords-snippet"/></control> （ <shortcut>Ctrl</shortcut><shortcut>Alt</shortcut><shortcut>S</shortcut> ）中选择 <ui-path>插件</ui-path> 。</step>
+        <step>打开 <ui-path>已安装</ui-path> ，然后找到想要卸载的插件。</step>
+        <step>在目标插件名称处单击鼠标右键，然后从其中选择 <control>卸载</control> 。</step>
+        <video src="https://www.youtube.com/watch?v=xZnH7IKUkPE" width="706" border-effect="rounded"/>
+        <note>如果想要在不启动 IntelliJ IDEA 的情况下卸载插件，可以从 <a href="directories-used-by-the-ide-to-store-settings-caches-plugins-and-logs.topic" anchor="plugins-directory" /> 中手动卸载。&nbsp;&nbsp;&nbsp;</note>
+        <video src="https://www.youtube.com/watch?v=RsxRrLmkagI" width="706" border-effect="rounded"/>
+    </procedure>
+    <!-- 禁用插件步骤：说明如何临时禁用插件功能 -->
+    <procedure title="禁用插件" id="disable-plugin">
+        <note>如果您暂时不需要某些插件提供的功能，可以选择禁用它们，而不是卸载它们。&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;</note>
+        <step>在 <control>欢迎界面</control> 中选择 <ui-path>插件</ui-path> ，或在 <control><include from="reuse-library.topic" element-id="idea-settings-keywords-snippet"/></control> （ <shortcut>Ctrl</shortcut><shortcut>Alt</shortcut><shortcut>S</shortcut> ）中选择 <ui-path>插件</ui-path> 。</step>
+        <step>打开 <ui-path>已安装</ui-path> ，然后找到想要禁用的插件。</step>
+        <step>在目标插件名称处单击鼠标右键，然后从其中选择 <control>禁用</control> 。</step>
+        <note>您还可以使用 <ui-path>已安装</ui-path> 后方的 <img src="设置.svg" alt=""/> 中的 <ui-path>禁用所有已下载的插件</ui-path> 来禁用所有非捆绑的插件（由您自行下载安装的插件）。</note>
+        <video src="https://www.youtube.com/watch?v=lWnszDOJOIo" width="706" border-effect="rounded"/>
+    </procedure>
+    <!-- 更新插件步骤：说明如何将插件更新到最新版本 -->
+    <procedure title="更新插件" id="update-plugin">
+        <note>请注意，这会将目标插件直接更新至最新版本。但是，如果您想要将插件更新至某个特定版本，请您参阅 <a anchor="install-plugin-from-disk" summary=""/> 予以实现。</note>
+        <step>在 <control>欢迎界面</control> 中选择 <ui-path>插件</ui-path> ，或在 <control><include from="reuse-library.topic" element-id="idea-settings-keywords-snippet"/></control> （ <shortcut>Ctrl</shortcut><shortcut>Alt</shortcut><shortcut>S</shortcut> ）中选择 <ui-path>插件</ui-path> 。</step>
+        <step>打开 <ui-path>已安装</ui-path> ，然后找到想要更新的插件。</step>
+        <step>单击目标插件后方的 <control>更新</control> 。</step>
+        <video src="https://www.youtube.com/watch?v=oEFTHovS1X8" width="706" border-effect="rounded"/>
+    </procedure>
+    <!-- 必需插件章节：介绍如何管理项目所需的必要插件 -->
+    <chapter id="required-plugins" title="必需插件">
+        <p>一个项目可能需要为某些技术或框架提供支持的插件。您可以将此类插件添加至当前项目的必需插件列表中，这样 IntelliJ IDEA 就会验证这些插件是否已安装并启用。如果您忘记了这些插件，或者您团队中的某个人在处理项目时没有注意到该依赖关系，IntelliJ IDEA 就会通知您。</p>
+        <!-- 添加必需插件步骤：说明如何为项目添加必需的插件依赖 -->
+        <procedure id="add-required-plugin" title="为当前项目添加必需插件">
+            <step>确保已安装所需的插件。</step>
+            <step>按 <shortcut>Ctrl</shortcut><shortcut>Alt</shortcut><shortcut>S</shortcut> 进入 <control><include from="reuse-library.topic" element-id="idea-settings-keywords-snippet"/></control> ，然后展开 <ui-path>构建、执行、部署 | 必需插件</ui-path> 。</step>
+            <step>在右侧的操作面板中单击 <img src="添加.svg" alt=""/> 指定插件，并为此插件指定所需的最高和最低版本。</step>
+            <video src="https://www.youtube.com/watch?v=EgCOOvcKCn8" width="706" border-effect="rounded"/>
+            <note>要指定 IntelliJ IDEA 本身的所需版本，请将 <ui-path>IDE Core</ui-path> 添加至所需插件列表中。&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;</note>
+            <img src="为项目指定 IntelliJ IDEA 的必需版本.png" alt="为项目指定 IntelliJ IDEA 的必需版本" width="706" thumbnail="true" border-effect="rounded"/>
+        </procedure>
+        <p>所需的插件列表存储在项目的 <path>.idea/externalDependencies.xml</path> 文件中。</p>
+        <p>打开项目时，如果所需的插件 <a anchor="disable-plugin" summary="">已禁用</a> 、未 <a anchor="install-plugin-from-repo" summary="">安装</a> 或需要 <a anchor="update-plugin" summary="">更新</a> 时，将会发出通知告知您。</p>
+        <p>此时，您可以通过单击通知信息中的链接，即可快速启用、 <a anchor="install-plugin-from-disk" summary="">安装</a> 或 <a anchor="update-plugin" summary="">更新</a> 所需的插件。</p>
+        <video src="https://www.youtube.com/watch?v=uzDgOZIywZo" width="706" border-effect="rounded"/>
+    </chapter>
+    <!-- 建议插件章节：说明 IDE 如何根据文件类型推荐相关插件 -->
+    <chapter id="suggested-plugins" title="建议插件">
+        <warning>官方文档手册中对此功能的描述文本存在细节错误，详见： <a href="https://youtrack.jetbrains.com/issue/IJPL-6102/Check-for-Suggested-Plugins-action-doesnt-suggest-installing-the-Writerside-plugin-if-the-Writerside-project-or-a-Writerside">建议插件功能异常</a> 。&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;</warning>
+        <p>当您在 IntelliJ IDEA 中打开某个未知类型的文件时，它将会尝试从 <include from="reuse-library.topic" element-id="jetbrains-plugin-library-snippet"/> 中搜索是否有与之匹配的可用插件，并给出提示建议您安装。如果您不想安装此插件，可以单击 <ui-path>忽略扩展</ui-path> 。</p>
+        <img src="建议安装 Writerside 插件的提示信息.png" alt="建议安装 Writerside 插件的提示信息" width="706" thumbnail="true" border-effect="rounded"/>
+        <p>一旦您单击了 <ui-path>忽略扩展</ui-path> 后，IntelliJ IDEA 将不会在为此未知类型的文件弹出可安装插件的提示。以后，您只能够手动搜索此建议插件并进行安装。</p>
+        <img src="安装 Writerside 插件.png" alt="安装 Writerside 插件" width="706" thumbnail="true" border-effect="rounded"/>
+    </chapter>
+    <!-- 推荐插件章节：列出提升开发效率的常用插件 -->
+    <chapter id="recommended-plugins" title="推荐插件">
+        <include from="reuse-library.topic" element-id="too-many-plugins-tips-snippet"/>
+        <!-- 推荐插件列表：详细介绍各个推荐插件的功能和用途 -->
+        <procedure title="推荐插件列表" id="recommended-plugins-list" default-state="collapsed" collapsible="true">
+            <p>使用以下插件，可以间接或直接的提升您的开发效率。</p>
+            <table>
+                <tr>
+                    <td>插件名称</td>
+                    <td>插件介绍</td>
+                </tr>
+                <tr>
+                    <td><a href="https://plugins.jetbrains.com/plugin/20587-codegeex-ai-coding-assistant">CodeGeeX</a></td>
+                    <td>CodeGeeX 是一款基于 AI 的代码辅助工具。它由大型多语言代码生成模型驱动，拥有许多功能，包括生成和完成代码、自动添加注释、不同编程语言之间的代码翻译、针对技术和代码相关问题提供智能解答、代码解释、单元测试生成、代码审查、错误修复等等。</td>
+                </tr>
+                <tr>
+                    <td><a href="https://plugins.jetbrains.com/plugin/24326-marscode-ai-coding-assistant">MarsCode AI</a></td>
+                    <td>MarsCode AI 是豆包旗下的智能编程助手，提供以智能代码补全为代表的核心能力，支持主流编程语言及 IDE，能在编码过程中提供单行或整个函数的建议，同时支持在用户编码过程中提供代码解释、单测生成、问题修复、技术问答等辅助功能，提升编码效率与质量。</td>
+                </tr>
+                <tr>
+                    <td><a href="https://plugins.jetbrains.com/plugin/17718-github-copilot">GitHub Copilot</a></td>
+                    <td>GitHub Copilot 是一款由 AI 提供支持的代码助手，可帮助您完成整个软件开发旅程。它利用大型语言模型，通过代码补全和聊天提供建议。</td>
+                </tr>
+                <tr>
+                    <td><a href="https://plugins.jetbrains.com/plugin/18824-codeglance-pro">CodeGlance Pro</a></td>
+                    <td>在编辑器窗格中显示类似于 Sublime 的缩放比例缩小概述或迷您地图。迷您地图允许快速滚动，让您直接跳转到代码部分。</td>
+                </tr>
+                <tr>
+                    <td><a href="https://plugins.jetbrains.com/plugin/13710-chinese-simplified-language-pack----">简体中文语言包</a></td>
+                    <td>中文语言包将为 IntelliJ IDEA 带来完全中文化的界面。</td>
+                </tr>
+                <tr>
+                    <td><a href="https://plugins.jetbrains.com/plugin/8579-translation">Translation</a></td>
+                    <td>一个翻译插件。它集成了谷歌翻译、微软翻译、DeepL 翻译、OpenAI 翻译、有道翻译等众多翻译引擎，在您的 IDE 内随时对想要翻译的文本、代码注释、代码文档等进行翻译。</td>
+                </tr>
+                <tr>
+                    <td><a href="https://plugins.jetbrains.com/plugin/7345-presentation-assistant-for-2023-2">Presentation Assistant for 2023.2</a></td>
+                    <td>在您的 IntelliJ IDEA 中显示您调用的任何操作的名称和快捷键。</td>
+                </tr>
+                <tr>
+                    <td><a href="https://plugins.jetbrains.com/plugin/7499-gittoolbox">GitToolBox</a></td>
+                    <td>GitToolBox 旨在进一步增强 IntelliJ IDEA 内置的 Git 集成功能。它为开发者提供了许多便捷的 Git 操作，帮助您更高效地管理代码版本。</td>
+                </tr>
+                <tr>
+                    <td><a href="https://plugins.jetbrains.com/plugin/11386-alibaba-cloud-toolkit">Alibaba Cloud Toolkit</a></td>
+                    <td>Alibaba Cloud Toolkit 可以帮助开发者更高效地部署、测试、开发和诊断应用。Cloud Toolkit 与主流 <tooltip term="ide">IDE</tooltip> 及阿里云其他产品无缝集成，帮助您大大简化应用部署到服务器，尤其是阿里云服务器中的操作。您还可以通过其内嵌的 Arthas 程序诊断、Terminal Shell 终端和 MySQL 执行器等工具，简化应用开发、测试和诊断的过程。</td>
+                </tr>
+                <tr>
+                    <td><a href="https://plugins.jetbrains.com/plugin/10046-alibaba-java-coding-guidelines">Alibaba Java Coding Guidelines</a></td>
+                    <td>阿里巴巴 Java 代码规范插件。</td>
+                </tr>
+                <tr>
+                    <td><a href="https://plugins.jetbrains.com/plugin/23491-converterx">ConverterX</a></td>
+                    <td>这是一个插件工具，旨在帮助使用 IntelliJ IDEA 的开发人员编写代码，提供字符串、JSON 和日期转换的快速功能。</td>
+                </tr>
+                <tr>
+                    <td><a href="https://plugins.jetbrains.com/plugin/10954-easycode">EasyCode</a></td>
+                    <td>基于 IntelliJ IDEA 开发的代码生成插件，支持自定义任意模板（Java，html，js，xml）。可用于快速生成 Dao、Service、Controller、Entity 层的相关模板代码。</td>
+                </tr>
+                <tr>
+                    <td><a href="https://plugins.jetbrains.com/plugin/7125-grep-console">Grep Console</a></td>
+                    <td>Grep Console 专门用于增强 <tooltip term="ide">IDE</tooltip> 的控制台日志查看和分析能力。它通过提供高级的过滤、颜色高亮、模式匹配等功能，极大地提升了开发者在处理大量日志信息时的效率。</td>
+                </tr>
+                <tr>
+                    <td><a href="https://plugins.jetbrains.com/plugin/7160-camelcase">CamelCase</a></td>
+                    <td>用于快速实现驼峰式命名（CamelCase）和下划线命名（snake_case）之间的转换。它能大大提高开发效率，确保代码风格的一致性。</td>
+                </tr>
+                <tr>
+                    <td><a href="https://plugins.jetbrains.com/plugin/24648-xcodemap">XCodeMap</a></td>
+                    <td>新一代源码重现及调试工具。</td>
+                </tr>
+                <tr>
+                    <td><a href="https://plugins.jetbrains.com/plugin/12798-tabnine-ai-chat--autocomplete-for-javascript-python--more">Tabnine</a></td>
+                    <td>Tabnine 是由您控制的人工智能代码助手--帮助各种规模的开发团队利用人工智能加速和简化软件开发流程，同时不牺牲隐私、安全或合规性。</td>
+                </tr>
+              </table>
+        </procedure>
+    </chapter>
+    <!-- 生产力提示章节：介绍插件管理的高级技巧和搜索方法 -->
+    <chapter id="tips" title="生产力提示">
+        <p>您可以在 <ui-path>Marketplace</ui-path> 中查看过滤和排序后的插件搜索结果。</p>
+        <p>例如：您可以通过键入以下内容，以便仅列出与 <a href="user-interface-themes.topic" summary="">主题</a> 相关的插件，并按载次数排序。</p>
+        <code-block lang="Plain Text">/tag:Theme /sortBy:downloads</code-block>
+        <img src="搜索主题插件并按下载量排序.png" alt="搜索主题插件并按下载量排序" width="706" thumbnail="true" border-effect="rounded"/>
+        <video src="https://www.youtube.com/watch?v=EvY1bN0aHMk" width="706" border-effect="rounded"/>
+    </chapter>
+    <!-- 自定义插件库章节：说明如何配置和使用私有插件仓库 -->
+    <chapter id="repos" title="自定义插件库">
+        <p>默认情况下，IntelliJ IDEA 将使用 <include from="reuse-library.topic" element-id="jetbrains-plugin-library-snippet"/> 中提供的插件。这是一个公共资源库，每个人都可以在其中托管自己的插件。</p>
+        <p>但是，如果 <a anchor="plugin-dev" summary="">您开发的插件</a> 仅供内部使用，您可以为它们设置一个自定义插件库。</p>
+        <!-- 添加自定义插件库步骤：说明如何配置私有插件仓库 -->
+        <procedure id="add-plugin-repos" title="添加自定义插件库">
+            <step>在 <control>欢迎界面</control> 中选择 <ui-path>插件</ui-path> ，或在 <control><include from="reuse-library.topic" element-id="idea-settings-keywords-snippet"/></control> （ <shortcut>Ctrl</shortcut><shortcut>Alt</shortcut><shortcut>S</shortcut> ）中选择 <ui-path>插件</ui-path> 。</step>
+            <step>单击 <ui-path>已安装</ui-path> 后方的 <img src="设置.svg" alt=""/> ，然后选择其中的 <ui-path>管理插件仓库</ui-path> 。</step>
+            <img src="管理插件仓库.png" alt="管理插件仓库" width="706" thumbnail="true"  border-effect="rounded"/>
+            <step>
+                <p>在 <control>自定义插件仓库</control> 中，单击 <img src="添加.svg" alt=""/> 并指定仓库 URL。</p>
+                <p>它必须指向描述插件仓库 URL 的 XML 文件的位置，例如： <path>updatePlugins.xml</path> 。</p>
+                <p>该文件可以与 <a anchor="plugin-dev" summary="">自定义插件</a> 位于同一服务器上，也可以位于专用服务器上。 </p>
+            </step>
+            <img src="自定义插件仓库.png" alt="自定义插件仓库" width="706" thumbnail="true" border-effect="rounded"/>
+            <step>单击 <control>确定</control> ，保存设置。</step>
+        </procedure>
+        <p>当您搜索插件时，IntelliJ IDEA 将显示来自默认 <include from="reuse-library.topic" element-id="jetbrains-plugin-library-snippet"/> 和您指定的 <a anchor="repos" summary=""/> 中的搜素结果。如果您只需浏览某个自定义插件库，请在 <ui-path>Marketplace</ui-path> 中输入 <code>repository:</code> ，然后输入该库的 URL。例如：</p>
+        <code-block lang="plain text">repository:http://plugins.example.com:8080/updatePlugins.xml myPlugin</code-block>
+        <p>您也可以使用 <code>idea.plugin.hosts</code> 属性添加自定义插件库：</p>
+        <procedure>
+            <step>选择 <ui-path><include from="reuse-library.topic" element-id="main-menus-snippet" /> | 帮助 | 编辑自定义属性</ui-path> 。</step>
+            <img src="编辑自定义属性.png" alt="编辑自定义属性" width="706" thumbnail="true" border-effect="rounded"/>
+            <step>在其中添加 <code>idea.plugin.hosts</code> 属性，并指定描述插件的 XML 文件的 URL。例如：</step>
+            <code-block lang="plain text">idea.plugin.hosts="http://plugins.example.com:8080/updatePlugins.xml"</code-block>
+            <note>要添加多个 URL，请用分号 <code>；</code> 。&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;</note>
+            <img src="添加 idea.plugin.hosts 属性.png" alt="添加 idea.plugin.hosts 属性" width="706" thumbnail="true" border-effect="rounded"/>
+            <step>重启 IntelliJ IDEA，以使设置生效。</step>
+        </procedure>
+        <p>您可以使用 <a anchor="repos" summary=""/> 完全替换默认的 <include from="reuse-library.topic" element-id="jetbrains-plugin-library-snippet"/> 。</p>
+        <!-- 替换默认插件库步骤：说明如何完全替换官方插件库 -->
+        <procedure id="replace-plugin-repo" title="替换默认的插件库">
+            <note>如果替换了默认插件库， 您将只能够在 <ui-path>Marketplace</ui-path> 中浏览新的默认插件库和您添加的任何自定义插件库中的插件。</note>
+            <step>选择 <ui-path><include from="reuse-library.topic" element-id="main-menus-snippet" /> | 帮助 | 编辑自定义属性</ui-path> 。</step>
+            <step>添加 <code>idea.plugins.host</code> 属性，并指定能正确处理 IntelliJ IDEA 请求的自定义仓库 URL。</step>
+            <step>重启 IntelliJ IDEA，以使设置生效。</step>
+        </procedure>
+    </chapter>
+    <!-- 插件开发章节：介绍如何开发自定义插件 -->
+    <chapter id="plugin-dev" title="开发属于自己的插件">
+        <p>您可以使用开放式 <tooltip term="api">API</tooltip> 以及专用的 <tooltip term="sdk">SDK</tooltip> 在任何版本的 IntelliJ IDEA 中开发插件。</p>
+        <p>推荐的工作流是使用 <a href="https://gradle.org/">Gradle</a> 。也支持使用 IntelliJ IDEA 内部构建系统的旧工作流程。</p>
+        <p>有关详细信息，请参阅 <a href="https://www.jetbrains.org/intellij/sdk/docs/">IntelliJ Platform SDK 开发人员指南</a> 。</p>
+    </chapter>
+    <seealso>
+        <include from="reuse-library.topic" element-id="list-of-suggested-seealso-snippet"/>
+    </seealso>
+</topic>

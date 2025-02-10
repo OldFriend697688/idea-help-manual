@@ -1,0 +1,14 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE topic
+        SYSTEM "https://resources.jetbrains.com/writerside/1.0/xhtml-entities.dtd">
+<topic xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
+       xsi:noNamespaceSchemaLocation="https://resources.jetbrains.com/writerside/1.0/topic.v2.xsd"
+       title="断点" id="using-breakpoints">
+    <procedure title="字段监视点" id="field-watchpoint">
+        <p>单击字段声明所在的行旁边的间距图标，或者将光标放在该行上并按 <shortcut>Ctrl</shortcut><shortcut>F8</shortcut> 。</p>
+        <img src="字段断点或字段监视点-1.png" alt="字段断点或字段监视点" width="706"/>
+    </procedure>
+    <seealso>
+        <include from="reuse-library.topic" element-id="list-of-suggested-seealso-snippet"/>
+    </seealso>
+</topic>

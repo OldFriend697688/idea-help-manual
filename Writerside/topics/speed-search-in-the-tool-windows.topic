@@ -1,0 +1,20 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE topic
+        SYSTEM "https://resources.jetbrains.com/writerside/1.0/xhtml-entities.dtd">
+<topic xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
+       xsi:noNamespaceSchemaLocation="https://resources.jetbrains.com/writerside/1.0/topic.v2.xsd"
+       title="在工具窗口中使用快速搜索" id="speed-search-in-the-tool-windows">
+    <p><format style="bold">快速搜索</format> 能帮助您在工具窗口中快速搜索目标内容。例如：在 <include from="reuse-library.topic" element-id="project-tool-window-snippet"/> 工具窗口中搜索文件、文件夹、源代码、图片等内容。又例如：在 <include from="reuse-library.topic" element-id="commit-tool-windows-snippet"/> 工具窗口中搜索待提交的文件列表。</p>
+    <!-- 快速搜索演示步骤：详细说明如何在工具窗口中使用快速搜索功能，包括搜索操作、结果导航和注意事项 -->
+    <procedure id="demonstration-step">
+        <step>选择 <include from="reuse-library.topic" element-id="tool-window-snippet"/> （注：此工具窗口需具备可供搜索条件生效的列表结构）。</step>
+        <step>直接在工具窗口内部键入搜索条件。</step>
+        <step>使用 <shortcut>↑</shortcut> 和 <shortcut>↓</shortcut> 在匹配的搜索结果之间切换。</step>
+        <step>按 <shortcut>Enter</shortcut> 打开匹配的搜索结果。按 <shortcut>Esc</shortcut> 结束搜索。</step>
+        <note>快速搜索只能匹配展开节点中的内容，它无法高亮显示被折叠节点中的匹配内容。如果，您想要更准确的执行匹配操作，请单击 <a href="tool-window.topic" summary="" anchor="tool-window-title-bar">工具窗口标题栏</a> 中的 <img src="展开.svg" alt=""/> 来展开所有节点。</note>
+        <video src="https://www.youtube.com/watch?v=rimRysE24B0" width="706" border-effect="rounded"/>
+    </procedure>
+    <seealso>
+        <include from="reuse-library.topic" element-id="list-of-suggested-seealso-snippet"/>
+    </seealso>
+</topic>

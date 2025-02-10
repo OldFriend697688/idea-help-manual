@@ -8,7 +8,8 @@
         <algolia-index>help-manual-index</algolia-index>
         <algolia-api-key>584fbbfdc37daa4d32991e95924b80a4</algolia-api-key>
         <algolia-show-logo>true</algolia-show-logo>
-        <web-root>https://github.com/OldFriend697688/idea-help-manual</web-root>
+        <web-root>https://www.idea-chinese.com/</web-root>
+        <!--<web-root>https://github.com/OldFriend697688/idea-help-manual</web-root>-->
         <custom-css>custom.css</custom-css>
         <download-page>https://www.jetbrains.com/idea/download/other.html</download-page>
         <download-title>下载 IntelliJ IDEA 2022.3.3</download-title>

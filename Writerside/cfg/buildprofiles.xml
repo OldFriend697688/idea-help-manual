@@ -13,6 +13,7 @@
         <download-page>https://www.jetbrains.com/idea/download/other.html</download-page>
         <download-title>下载 IntelliJ IDEA 2022.3.3</download-title>
         <showDownloadButton>true</showDownloadButton>
+        <include-in-head>custom.html</include-in-head>
     </variables>
 
     <footer>

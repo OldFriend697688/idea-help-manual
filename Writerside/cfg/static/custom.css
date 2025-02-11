@@ -1,10 +1,10 @@
 @font-face {
-    font-family: DFPGB_Y7_FTO;
-    src: url(DFPGB_Y7_FTO.ttf);
+    font-family: "975MaruSC-Regular";
+    src: url(975MaruSC-Regular.ttf);
 }
 
 * {
-    font-family: DFPGB_Y7_FTO;
+    font-family: "975MaruSC-Regular";
 }
 
 .footer__link {

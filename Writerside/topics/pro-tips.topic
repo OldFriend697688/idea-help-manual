@@ -26,7 +26,7 @@
         <!-- 描述如何提取字符串片段等内容 -->
         <chapter id="extract-string-fragments" title="提取字符串片段等内容" default-state="collapsed" collapsible="true">
             <p>IntelliJ IDEA 不仅允许重构可执行代码，还允许重构字符串文本等内容。</p>
-            <p>请选中它们并打开 <control>重构此（ <shortcut>Ctrl</shortcut><shortcut>Alt</shortcut><shortcut>Shift</shortcut><shortcut>T</shortcut> ）</control> <a href="guided-tour-around-the-user-interface.topic" anchor="popup-menus" summary=""/> ，然后选择 <ui-path>引入变量</ui-path> 、 <ui-path>引入常量</ui-path> 、 <ui-path>引入字段</ui-path> 、 <ui-path>引入形参</ui-path> 即可提取它们为对应的 <tooltip term="variables">变量</tooltip> 、 <tooltip term="constant">常量</tooltip> 、 <tooltip term="java-field">字段</tooltip> 或是 <tooltip term="formal-parameter">形参</tooltip> 并在整个代码中替换其用法。</p>
+            <p>选中它们并打开 <control>重构此（ <shortcut>Ctrl</shortcut><shortcut>Alt</shortcut><shortcut>Shift</shortcut><shortcut>T</shortcut> ）</control> <a href="guided-tour-around-the-user-interface.topic" anchor="popup-menus" summary=""/> ，然后选择 <ui-path>引入变量</ui-path> 、 <ui-path>引入常量</ui-path> 、 <ui-path>引入字段</ui-path> 、 <ui-path>引入形参</ui-path> 即可提取它们为对应的 <tooltip term="variables">变量</tooltip> 、 <tooltip term="constant">常量</tooltip> 、 <tooltip term="java-field">字段</tooltip> 或是 <tooltip term="formal-parameter">形参</tooltip> 并在整个代码中替换其用法。</p>
             <img src="重构字符串文本等内容.png" alt="重构字符串文本等内容" width="706" border-effect="rounded" thumbnail="true"/>
             <video src="https://www.youtube.com/watch?v=p9A56GsAvu4" width="706" border-effect="rounded"/>
         </chapter>
@@ -40,7 +40,7 @@
         </chapter>
         <!-- 描述多重选择的功能和使用方法 -->
         <chapter id="multiple-selections" title="多重选择" default-state="collapsed" collapsible="true">
-            <note>要查看某个代码片段在当前文件中的所有用法，请选中此代码片段并按 <shortcut>Ctrl</shortcut><shortcut>Shift</shortcut><shortcut>F7</shortcut> 。&nbsp;&nbsp;&nbsp;</note>
+            <note>要查看某个代码片段在当前文件中的所有用法，请选中此代码片段并按 <shortcut>Ctrl</shortcut><shortcut>Shift</shortcut><shortcut>F7</shortcut> 。</note>
             <p>多重选择是一个相对较新且非常强大的 <a href="using-code-editor.topic" summary="">编辑器</a> 功能，它允许快速选择并同时编辑多个相邻或不相邻代码片段。要使用此功能请先按 <shortcut>Alt</shortcut><shortcut>J</shortcut> 选中某个代码片段，然后继续按 <shortcut>Alt</shortcut><shortcut>J</shortcut> ，IntelliJ IDEA 将会在当前打开的文件中向前搜索，直到搜索到匹配的内容，并将其添加至选择中。</p>
             <img src="将下一个匹配项添加至选择.png" alt="将下一个匹配项添加至选择" width="706" thumbnail="true" border-effect="rounded"/>
             <p>此时，可以再次按 <shortcut>Alt</shortcut><shortcut>J</shortcut> 继续向前搜索，或按 <shortcut>Alt</shortcut><shortcut>Shift</shortcut><shortcut>J</shortcut> 取消上一个匹配的搜索项。</p>
@@ -92,7 +92,7 @@
                 <p>对于自定义的 <tooltip term="java-class">类</tooltip> 、 <tooltip term="java-interface">接口</tooltip> 、 <tooltip term="method">方法</tooltip> 等符号而言，需先通过 <a href="working-with-code-documentation.topic" summary="">JavaDoc</a><tooltip term="java-annotations">注解</tooltip> + <tooltip term="java-document-comments">文档注释</tooltip> 的组合形式对其进行标注。在此之后，每当按 <shortcut>Ctrl</shortcut><shortcut>Q</shortcut> 时才会在 <format style="bold">快速文档</format> 中显示这些信息。</p>
                 <p>例如：按 <shortcut>Ctrl</shortcut><shortcut>N</shortcut> 并键入 <code>java.lang.String</code> 后进入其内部，将可以明确看到 <tooltip term="java-class-declaration">类声明</tooltip> 及 <tooltip term="java-method-declaration">方法声明</tooltip> 上方的注释信息。</p>
             </note>
-            <p>如果想获得有关于某个 <tooltip term="symbol">符号</tooltip> 的详细信息，例如：它来自于哪里、它用于解决什么问题？作者又是谁？。此时，使用 <format style="bold">快速文档（ <shortcut>Alt</shortcut><shortcut>Q</shortcut> ）</format> 将是最佳选择。它将会弹出一个包含这些详细信息的窗口。</p>
+            <p>如果想获得有关于某个 <tooltip term="symbol">符号</tooltip> 的详细信息，例如：它来自于哪里、它用于解决什么问题？作者又是谁？。此时，使用 <format style="bold">快速文档（ <shortcut>Ctrl</shortcut><shortcut>Q</shortcut> ）</format> 将是最佳选择。它将会弹出包含这些详细信息的窗口。</p>
             <video src="https://www.youtube.com/watch?v=LWFJu6zgfn4" width="706" border-effect="rounded"/>
             <p>但是，如果您想要查看某个表达式所返回的实际类型时通过 <format style="bold">快速文档</format> 是无法实现的。</p>
             <p>此时，请选中目标符号并按 <shortcut>Ctrl</shortcut><shortcut>Shift</shortcut><shortcut>P</shortcut> 然后选中需要执行 <format style="bold">类型信息</format> 操作的目标 <tooltip term="expression">表达式</tooltip> 并按 <shortcut>Enter</shortcut> 即可计算出此表达式返回的实际类型。</p>
@@ -100,7 +100,7 @@
         </chapter>
         <!-- 描述嬉皮补全功能及其使用方法 -->
         <chapter id="hippie-completion" title="嬉皮补全" default-state="collapsed" collapsible="true">
-            <note>如果发现无法通过 <a href="mastering-keyboard-shortcuts.topic" summary=""/> 触发代码补全，请关闭中文输入法后再按对应的快捷键。&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;</note>
+            <note>如果发现无法通过 <a href="mastering-keyboard-shortcuts.topic" summary=""/> 触发代码补全，请关闭中文输入法后再按对应的快捷键。</note>
             <!--<include from="reuse-library.topic" element-id="invalid-shortcut-key-prompt-snippet"/>-->
             <p>IntelliJ IDEA 提供 <ui-path>基本补全（ <shortcut>Ctrl</shortcut><shortcut>Space</shortcut> ）</ui-path> 、 <ui-path>智能类型匹配补全（ <shortcut>Ctrl</shortcut><shortcut>Shift</shortcut><shortcut>Space</shortcut> ）</ui-path> 以及 <ui-path>语句补全（ <shortcut>Ctrl</shortcut><shortcut>Shift</shortcut><shortcut>Enter</shortcut> ）</ui-path> 。所有这些补全功能都是基于对代码结构的分析理解而来。</p>
             <p>然而，有一种更琐碎但灵活的逻辑可建议选择当前文件中较早时候使用过的单词。这个功能叫做 <format style="bold">嬉皮补全（ <shortcut>Atl</shortcut><shortcut>/</shortcut> ）</format> 。</p>
@@ -145,7 +145,7 @@
         <chapter id="dependency-structure-matrix" title="依赖关系矩阵" default-state="collapsed" collapsible="true">
             <p>IntelliJ IDEA 可以分析代码中的组件相互依赖的紧密程度，开发者应该密切关注这一点，当依赖关系过多时，可能会导致各种问题。依赖关系矩阵将可以帮助开发者 <tooltip term="visualization">可视化</tooltip> 的探索 <tooltip term="idea-module">模块</tooltip> 、 <tooltip term="java-package">包</tooltip> 和 <tooltip term="java-class">类</tooltip> 之间的依赖关系。有关于此功能的更多细节和详细使用步骤请参阅 <a href="dsm-analysis.topic" summary=""/> 。</p>
             <img src="DSM 工具窗口界面.png" alt="DSM 工具窗口界面" width="706" thumbnail="true" border-effect="rounded"/>
-            <note><include from="reuse-library.topic" element-id="dsm-tool-window-snippet"/> 工具窗口将以特殊方式对依赖关系进行排序处理，它始终将最常用的类移至底部。&nbsp;&nbsp;&nbsp;</note>
+            <note><include from="reuse-library.topic" element-id="dsm-tool-window-snippet"/> 工具窗口将以特殊方式对依赖关系进行排序处理，它始终将最常用的类移至底部。</note>
             <warning>
                 <p>要使用依赖关系矩阵分析功能，需确保已启用 Dependency Structure Matrix 插件。</p>
                 <p>该 <a href="managing-plugins.topic" summary="">插件</a> 通常随 IntelliJ IDEA 一同安装并默认启用。若您不慎禁用了它，请打开 <ui-path><include from="reuse-library.topic" element-id="idea-settings-keywords-snippet"/> | 插件</ui-path> ，继而切换至 <ui-path>已安装</ui-path> 。然后在搜索框内键入 <format style="bold">Dependency Structure Matrix</format> ，待结果出现后，找到该插件并单击 <control>启用</control> 以便重新启用它。</p>
@@ -169,7 +169,7 @@
     <chapter id="user-interface" title="用户界面">
         <!-- 描述随处搜索功能及其使用方法 -->
         <chapter id="search-everywhere" title="随处搜索" default-state="collapsed" collapsible="true">
-            <note>如果想要使用随处搜索功能，请确保位于 <a href="guided-tour-around-the-user-interface.topic" summary=""/> 的任意位置中时快速按两次 <shortcut>Shift</shortcut> 。&nbsp;&nbsp;&nbsp;&nbsp;</note>
+            <note>如果想要使用随处搜索功能，请确保位于 <a href="guided-tour-around-the-user-interface.topic" summary=""/> 的任意位置中时快速按两次 <shortcut>Shift</shortcut> 。</note>
             <p>通过使用 <a href="searching-everywhere.topic" summary=""/> 功能，开发者将可以在代码、 <tooltip term="library">库</tooltip> 、 <a href="guided-tour-around-the-user-interface.topic" summary=""/> 、设置（需要在设置名称前加上 <format style="bold">/</format> ），甚至是搜索任何与给定文本内容匹配的目标结果，并根据此结果进行下一步的操作。</p>
             <video src="https://www.youtube.com/watch?v=TW0tqmg4KsE" width="706" border-effect="rounded"/>
             <p>例如：我们可以键入 <code>/editor</code> 并按 <shortcut>Enter</shortcut> 以此快速打开进行与 <a anchor="editor" summary=""/> 相关的设置。</p>
@@ -221,7 +221,7 @@
             <note>如果您喜欢手动键入命令的方式实现相同的效果，请您参阅： <a href="https://git-scm.com/book/zh/v2/Git-基础-撤消操作">2.4 Git-基础-撤消操作</a> 。</note>
             <p>在 <a href="commit-changes-dialog.topic" summary=""/> 中，IntelliJ IDEA 提供了多种操作。其中之一便是 <ui-path>修正提交</ui-path> ，当您想要更改最后一次提交并将当前更改合并到其中时，这个功能将会非常有用。</p>
             <img src="修正提交.png" alt="修正提交" width="706" thumbnail="true" border-effect="rounded"/>
-            <note>如果已将提交推送至远程仓库，则在本地进行过修正提交后需强制推送更新至远程仓库。&nbsp;&nbsp;</note>
+            <note>如果已将提交推送至远程仓库，则在本地进行过修正提交后需强制推送更新至远程仓库。</note>
             <video src="https://www.youtube.com/watch?v=pob8-oZMC8A" width="706" border-effect="rounded"/>
         </chapter>
         <!-- 描述如何使用搁置和补丁功能 -->
@@ -258,7 +258,7 @@
         </chapter>
         <!-- 描述如何使用自定义数据渲染器功能 -->
         <chapter id="custom-data-renderers" title="自定义数据渲染器" collapsible="true" default-state="collapsed">
-            <note>请优先实现 <code>toString</code> 方法，此功能仅建议在无法修改源代码的特殊情况下进行使用。&nbsp;&nbsp;&nbsp;&nbsp;</note>
+            <note>请优先实现 <code>toString</code> 方法，此功能仅建议在无法修改源代码的特殊情况下进行使用。</note>
             <p><a href="examining-suspended-program.topic" anchor="evaluating-expressions" summary=""/> 、 <a href="examining-suspended-program.topic" anchor="variables" summary="">变量</a> 、 <a href="examining-suspended-program.topic" anchor="watches" summary="">监视</a> 和 <a href="examining-suspended-program.topic" anchor="inline-view" summary="">内联调试器</a> 使用标准方式呈现 <tooltip term="variables">变量值</tooltip> ，这些方式大多都基于 <tooltip term="java-class">类</tooltip> 的 <code>toString</code> 方法予以实现。但是，在 IntelliJ IDEA 中还可以为任何类定义属于自己的数据渲染器。</p>
             <img src="自定义 Java 数据渲染器.png" alt="自定义 Java 数据渲染器" width="706" thumbnail="true" border-effect="rounded"/>
             <p>当使用的 <tooltip term="library">类库</tooltip> 中的某些类未提供有意义的 <code>toString</code> 方法实现时，这种方式将会很有用。</p>
@@ -276,12 +276,12 @@
     <chapter id="external-tools" title="外部工具" collapsible="true" default-state="collapsed">
         <p>IntelliJ IDEA 已内置了许多开箱即用的开发工具。如果您需要的工具恰巧未被集成，但却想要通过快捷方式使用它，请展开 <ui-path><include from="reuse-library.topic" element-id="idea-settings-keywords-snippet"/> | 工具 | 外部工具</ui-path> 并在其中配置想要使用的 <a href="configuring-third-party-tools.topic" summary=""/> 。</p>
         <img src="外部工具.png" alt="外部工具" width="706" thumbnail="true" border-effect="rounded"/>
-        <note>如下演示视频中将使用 <a href="https://www.gnu.org/savannah-checkouts/gnu/emacs/emacs.html" summary="GNU Emacs 是一个功能强大的文本编辑器，被广泛认为是专业程序员最喜欢的代码编辑器之一。">Emacs</a> 作为外部工具并尝试打开目标 Java 源码文件。&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;</note>
+        <note>如下演示视频中将使用 <a href="https://www.gnu.org/savannah-checkouts/gnu/emacs/emacs.html" summary="GNU Emacs 是一个功能强大的文本编辑器，被广泛认为是专业程序员最喜欢的代码编辑器之一。">Emacs</a> 作为外部工具并尝试打开目标 Java 源码文件。</note>
         <video src="https://www.youtube.com/watch?v=vyfIz_4Putw" width="706" border-effect="rounded"/>
     </chapter>
     <!-- 描述 DCEVM 的功能和使用方法 -->
     <chapter id="DCEVM" title="DCEVM" collapsible="true" default-state="collapsed">
-        <note>如下演示视频及图片中使用的 <tooltip term="jdk">JDK</tooltip> 为 Oracle 提供的 JDK 17， <a href="https://www.oracle.com/java/technologies/downloads/#java17">可以单击此处下载它</a> 。&nbsp;&nbsp;&nbsp;</note>
+        <note>如下演示视频及图片中使用的 <tooltip term="jdk">JDK</tooltip> 为 Oracle 提供的 JDK 17， <a href="https://www.oracle.com/java/technologies/downloads/#java17">可以单击此处下载它</a> 。</note>
         <p>有时，当您对代码进行快速修改后，您希望立即看到这些修改在应用程序中的变化。</p>
         <p>但不幸的是， <tooltip term="java-hotswap-vm">Java HotSwap VM</tooltip> 有诸多限制。例如：您不能在 <tooltip term="java-class">类</tooltip> 中添加新 <tooltip term="java-method">方法</tooltip> 或 <tooltip term="java-field">字段</tooltip> ，然后执行 <tooltip term="hot-swap">热插拔</tooltip> ；在热插拔过程中，您唯一能实际更改的是 <tooltip term="java-method-body">方法体</tooltip> 。</p>
         <p>更多信息，请参阅 <a href="altering-the-program-s-execution-flow.topic" anchor="reload-classes" summary=""/> 和 <a href="altering-the-program-s-execution-flow.topic" summary="">更改程序执行流程</a> 部分。</p>

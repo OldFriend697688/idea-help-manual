@@ -20,7 +20,7 @@
     </list>
     <chapter id="shelve" title="搁置更改">
         <p>搁置是临时存储尚未提交的待处理更改。这很有用，例如：如果需要切换至另一个任务，并且希望将更改搁置以便稍后处理它们。使用 IntelliJ IDEA 可以暂存单个文件和整个 <tooltip term="changelist">更改列表。</tooltip></p>
-        <note>不能搁置未被版本控制的文件，即未添加至版本控制中的文件。&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;</note>
+        <note>不能搁置未被版本控制的文件，即未添加至版本控制中的文件。</note>
         <p>一旦被搁置，将可以根据需要多次应用更改。</p>
         <procedure title="搁置更改" id="ChList" type="steps">
             <step>
@@ -59,7 +59,7 @@
             <step>
                 <p>如果想要从 <a href="shelf-tab.topic">搁置</a> 标签中移除已被取消的搁置，请选择 <ui-path>从 Shelf 移除成功应用的文件</ui-path> 。被取消搁置的文件将从搁置标签中移除并添加至另一个 <tooltip term="changelist">变更列表</tooltip> 。若不勾选 <ui-path>从 Shelf 移除成功应用的文件</ui-path> ，则在通过 <include from="reuse-library.topic" element-id="context-menus-snippet" /> 中选择 <ui-path>删除</ui-path> 显式删除之前，它们不会被完全移除。</p>
                 <video src="https://www.youtube.com/watch?v=7T8l9d5aXyA" width="706"/>
-                <note>如果不小心删除了尚未取消搁置的文件，可以从 <ui-path>最近删除项</ui-path> 中查看和恢复它们。&nbsp;&nbsp;</note>
+                <note>如果不小心删除了尚未取消搁置的文件，可以从 <ui-path>最近删除项</ui-path> 中查看和恢复它们。</note>
                 <video src="https://www.youtube.com/watch?v=L6-EUr9QUbw" width="706"/>
             </step>
             <step>

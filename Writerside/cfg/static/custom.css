@@ -1,14 +1,13 @@
-@font-face {
-    font-family: "975MaruSC-Regular";
-    src: url(975MaruSC-Regular.ttf);
-}
-
 * {
-    font-family: "975MaruSC-Regular";
+    font-family: -apple-system, "Microsoft YaHei", sans-serif;
 }
 
 .footer__link {
     font-size: 12px;
 }
 
+/* note、warning、tip 标签的最大宽度设置 */
+.prompt__wrapper  {
+    width: 100%;
+}
 

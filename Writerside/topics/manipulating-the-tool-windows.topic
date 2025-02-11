@@ -61,7 +61,7 @@
                     </li>
                     <li>
                         <p><format style="strikethrough"><ui-path>左侧并排布局</ui-path> 或 <ui-path>右侧并排布局</ui-path> ：显示垂直工具窗口，它们附着在顶部和底部边缘，以两列的形式而不是堆叠在一起。</format></p>
-                        <warning>此两项在 IntelliJ IDEA 2022.3.3 版本中无法呈现任何实际效果。&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;</warning>
+                        <warning>此两项在 IntelliJ IDEA 2022.3.3 版本中无法呈现任何实际效果。</warning>
                         <video src="https://www.youtube.com/watch?v=rwjE1Wy8hH0" width="706" border-effect="rounded"/>
                     </li>
                 </list>

@@ -12,7 +12,7 @@
     <p>您需要注意未使用 <img src="非全局级设置图标.svg" alt=""/> 标记的选项是全局级别设置，它们适用于在 IntelliJ IDEA 中打开的所有项目。</p>
     <p>而使用 <img src="非全局级设置图标.svg" alt=""/> 标记的选项是项目级设置，它只适用于 IntelliJ IDEA 打开的当前项目。</p>
     <img alt="分辨设置中的全局设置和非全局设置" src="分辨设置中的全局设置和非全局设置.png" width="706" thumbnail="true" border-effect="rounded"/>
-    <note>请注意， <ui-path>插件</ui-path> 后方的 <img src="非全局级设置图标.svg" alt=""/>  图标标记为错误标记，它已在后续版本中得到修复。&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;</note>
+    <note>请注意， <ui-path>插件</ui-path> 后方的 <img src="非全局级设置图标.svg" alt=""/>  图标标记为错误标记，它已在后续版本中得到修复。</note>
     <img alt="修复插件为非全局级设置的图标标识错误（IntelliJ IDEA 2024.3.x）" src="修复插件为非全局级设置的图标标识错误.png" width="706" border-effect="rounded" thumbnail="true"/>
     <chapter id="restore-defaults" title="重置 IDE 设置">
         <p>您可以尝试将 IntelliJ IDEA 还原至默认设置，它会将当前的配置备份至另一个目录，您可以随时从备份中恢复您的设置。</p>
@@ -56,7 +56,7 @@
             <img alt="导入包含 IDE 设置信息的备份配置目录" src="导入包含 IDE 设置信息的备份配置目录.png" width="706" thumbnail="true" border-effect="rounded"/>
             <step>单击 <control>确定</control> ，然后继续单击 <control>导入并重启</control> 。</step>
             <video src="https://www.youtube.com/watch?v=UeCsg2XYPW0" width="706" border-effect="rounded"/>
-            <note>应用设置备份中的设置后，当前 IntelliJ IDEA 中的设置将会被覆盖。&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;</note>
+            <note>应用设置备份中的设置后，当前 IntelliJ IDEA 中的设置将会被覆盖。</note>
         </procedure>
     </chapter>
     <p>如果，您想要共享您的 IDE 设置给团队中的其他成员，请参阅 <a href="sharing-your-ide-settings.topic" summary=""/> 。</p>

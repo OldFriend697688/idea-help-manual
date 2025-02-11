@@ -34,7 +34,7 @@
             <step>单击 <control>欢迎界面</control> 中的 <img src="设置.svg" alt=""/> 然后选择 <ui-path>编辑自定义 VM 选项</ui-path> 。</step>
             <img alt="编辑自定义 VM 选项（欢迎界面设置按钮）" src="编辑自定义 VM 选项（欢迎界面设置按钮）.png" width="706" border-effect="rounded" thumbnail="true"/>
             <video src="https://www.youtube.com/watch?v=31v-9X3DCvg" width="706" border-effect="rounded"/>
-            <warning>若无法启动 IntelliJ IDEA，请将 <a anchor="default-vmoptions-file" summary="">默认 JVM 选项文件</a> 复制到 <include from="reuse-library.topic" element-id="idea-config-directory-snippet"/> 中。&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;</warning>
+            <warning>若无法启动 IntelliJ IDEA，请将 <a anchor="default-vmoptions-file" summary="">默认 JVM 选项文件</a> 复制到 <include from="reuse-library.topic" element-id="idea-config-directory-snippet"/> 中。</warning>
             <video src="https://www.youtube.com/watch?v=GI0fCUz-93Y" width="706" border-effect="rounded"/>
         </procedure>
         <p>如果没有 <include from="reuse-library.topic" element-id="idea-config-directory-snippet"/> 的写入权限，请将 <code>IDEA_VM_OPTIONS</code> 添加至 <tooltip term="environment-variable">环境变量</tooltip> 并指定包含首选 JVM 选项的文件的位置。该文件将覆盖 <a anchor="default-vmoptions-file" summary="">默认 JVM 选项文件</a> 和 IntelliJ IDEA <include from="reuse-library.topic" element-id="idea-config-directory-snippet"/> 中的副本文件。</p>

@@ -6,7 +6,7 @@
        title="离线工作" id="working-offline">
     <!-- 更新章节：说明在离线环境下如何处理 IDE 的更新问题 -->
     <chapter id="updates" title="更新">
-        <warning>如果无法访问网络，就无法使用 <a href="installation-guide.topic" anchor="toolbox" summary="">Toolbox App</a> 和 <a href="installation-guide.topic" anchor="snap" summary="">Snap</a> 安装 IntelliJ IDEA。&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;</warning>
+        <warning>如果无法访问网络，就无法使用 <a href="installation-guide.topic" anchor="toolbox" summary="">Toolbox App</a> 和 <a href="installation-guide.topic" anchor="snap" summary="">Snap</a> 安装 IntelliJ IDEA。</warning>
         <p>默认情况下，IntelliJ IDEA 被配置为自动检查更新，并在新版本可用时通知您。</p>
         <p>更新通常是基于补丁形式的，它们会应用到现有的安装中，您只需要重新启动 <tooltip term="ide">IDE</tooltip> 即可完成更新。</p>
         <p>不过，有时补丁更新不可用，您必须安装新版本的 IntelliJ IDEA。</p>

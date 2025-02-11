@@ -4,7 +4,7 @@
 <topic xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
        xsi:noNamespaceSchemaLocation="https://resources.jetbrains.com/writerside/1.0/topic.v2.xsd"
        title="首次运行" id="run-for-the-first-time">
-    <note>英文不佳将导致观看英语视频有难度。请安装 <a href="https://immersivetranslate.cn/">沉浸式翻译</a> 浏览器插件简化理解过程。&nbsp;&nbsp;&nbsp;</note>
+    <note>英文不佳将导致观看英语视频有难度。请安装 <a href="https://immersivetranslate.cn/">沉浸式翻译</a> 浏览器插件简化理解过程。</note>
     <video src="https://www.youtube.com/watch?v=MsEPqMmVrRg" width="706" border-effect="rounded"/>
     <p>您可以使用 <a href="installation-guide.topic" anchor="toolbox" summary="">Toolbox App</a> 运行任何 <a href="https://www.jetbrains.com.cn/">JetBrains</a> 产品。如果您基于 <a href="installation-guide.topic" anchor="standalone" summary=""/> 方式安装 IntelliJ IDEA，如何运行它则取决于您的 <tooltip term="os">操作系统</tooltip> 。</p>
     <tabs>
@@ -29,7 +29,7 @@
     <chapter id="select-ui-theme" title="自定义 IDE 外观">
         <p>单击 <control>自定义</control> 并选择心仪的 <a href="user-interface-themes.topic" summary="">主题</a> ，或选择 <ui-path>与操作系统同步</ui-path> 以使用系统默认主题。</p>
         <p>在这里，您还可以 <a href="accessibility.topic" anchor="red-green-deficiency" summary="">配置辅助功能设置</a> 或调整 <a href="configuring-keyboard-and-mouse-shortcuts.topic" summary="">按键映射</a> 。</p>
-        <note>您可以尝试 <a href="new-ui.topic" summary="">新的 IntelliJ IDEA 用户界面</a> 。&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;</note>
+        <note>您可以尝试 <a href="new-ui.topic" summary="">新的 IntelliJ IDEA 用户界面</a> 。</note>
         <img src="IntelliJ IDEA 欢迎界面（Windows-Darcula 主题）.png" alt="IntelliJ IDEA 欢迎界面（Windows_Darcula 主题）" width="706" thumbnail="true" border-effect="rounded"/>
     </chapter>
     <!-- 配置默认设置章节：说明如何设置和导入 IDE 的全局默认配置 -->

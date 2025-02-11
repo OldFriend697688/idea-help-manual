@@ -6,7 +6,7 @@
        title="共享 IDE 设置" id="sharing-your-ide-settings">
     <p>您可以在 IntelliJ IDEA 的不同版本实例或团队成员之间共享您的 <snippet id="jetbrains-ide-snippet"><tooltip term="jetbrains-ide">JetBrains IDE</tooltip></snippet> 设置。</p>
     <p>如果您需要在不同的电脑上工作，这将可以帮您快速找回熟悉的 <tooltip term="user-interface">UI</tooltip> 设置及工作习惯。</p>
-    <note>有关如何共享特定项目相关设置的信息，请参阅 <a href="configure-project-settings.topic" anchor="share-project-through-vcs" summary=""/> 。&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;</note>
+    <note>有关如何共享特定项目相关设置的信息，请参阅 <a href="configure-project-settings.topic" anchor="share-project-through-vcs" summary=""/> 。</note>
     <p>您可以通过以下方式共享您的 IDE 设置：</p>
     <list>
         <li>
@@ -21,7 +21,7 @@
     </list>
     <!-- 如果通过特殊手段激活 IntelliJ IDEA，则不建议使用此方式共享设置 -->
     <chapter id="ide-settings-sync" title="通过设置同步共享设置">
-        <warning>如果您通过 <a href="register.topic" summary="" anchor="crack-activation">特殊方式</a> 激活 IntelliJ IDEA，则建议您不要使用此方式共享设置。&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;</warning>
+        <warning>如果您通过 <a href="register.topic" summary="" anchor="crack-activation">特殊方式</a> 激活 IntelliJ IDEA，则建议您不要使用此方式共享设置。</warning>
         <p>IntelliJ IDEA 2022.3.3 捆绑了一个新的 <ui-path>Settings sync</ui-path> 插件，它的显著变化包括：</p>
         <list>
             <li>支持在所有 <include from="sharing-your-ide-settings.topic" element-id="jetbrains-ide-snippet"/> 之间进行设置同步。</li>
@@ -32,7 +32,7 @@
             </li>
         </list>
         <img alt="新的设置同步插件" src="新的设置同步插件.png" width="706" thumbnail="true" border-effect="rounded"/>
-        <warning>如果您使用 <a href="managing-plugins.topic" summary="" anchor="repos">自定义设置存储库</a> ，则不能通过 <a anchor="ide-settings-sync" summary="">设置同步</a> 共享您的设置。&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;</warning>
+        <warning>如果您使用 <a href="managing-plugins.topic" summary="" anchor="repos">自定义设置存储库</a> ，则不能通过 <a anchor="ide-settings-sync" summary="">设置同步</a> 共享您的设置。</warning>
         <procedure title="相同 Jetbrains IDE 实例之间的同步" id="sync-settings-between-ide-instances" type="steps">
             <step>
                 <p>在需要共享设置的 <include from="sharing-your-ide-settings.topic" element-id="jetbrains-ide-snippet"/> 实例的电脑上，登录以下任意一项：</p>
@@ -93,7 +93,7 @@
     <!-- 退出已登录的 JetBrains 账号 -->
     <include from="reuse-library.topic" element-id="log-out-of-jb-account-snippet"/>
     <chapter id="import-export-settings" title="导出您的设置">
-        <note>在 <control><include from="reuse-library.topic" element-id="idea-operating-keywords-snippet"/></control> 键入 <ui-path>导入设置</ui-path> 或 <ui-path>导出设置</ui-path> 可实现更快速地导入和导出设置。&nbsp;&nbsp;&nbsp;</note>
+        <note>在 <control><include from="reuse-library.topic" element-id="idea-operating-keywords-snippet"/></control> 键入 <ui-path>导入设置</ui-path> 或 <ui-path>导出设置</ui-path> 可实现更快速地导入和导出设置。</note>
         <video src="https://www.youtube.com/watch?v=UTPxti1BrnA" width="706" border-effect="rounded"/>
         <procedure title="将设置导出至 ZIP 压缩包" id="export-settings-to-a-zip-archive" type="steps">
             <step>选择 <ui-path><include from="reuse-library.topic" element-id="main-menus-snippet"/> | 管理 IDE 设置 | 导出设置</ui-path> 。</step>

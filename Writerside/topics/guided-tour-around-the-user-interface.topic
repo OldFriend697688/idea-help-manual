@@ -16,7 +16,7 @@
         <li><a anchor="main-menus" summary="IntelliJ IDEA 中的主菜单包含了多个顶级菜单项，每个菜单项下都有相应的子菜单和功能选项，这些菜单提供了对 IDE 的各种功能和设置的访问。"/></li>
         <li><a anchor="main-windows" summary="IntelliJ IDEA 提供了一个非常强大的主窗口，它集成了代码编辑、调试、构建、版本控制以及许多其他功能。"/></li>
     </list>
-    <note>根据 <tooltip term="idea">IDEA</tooltip> 安装的 <a href="managing-plugins.topic" summary="">插件</a> 集、版本和配置设置的不同， <tooltip term="ide">IDE</tooltip> 可能会有不同的外观和行为。&nbsp;&nbsp;&nbsp;&nbsp;</note>
+    <note>根据 <tooltip term="idea">IDEA</tooltip> 安装的 <a href="managing-plugins.topic" summary="">插件</a> 集、版本和配置设置的不同， <tooltip term="ide">IDE</tooltip> 可能会有不同的外观和行为。</note>
     <!-- 主菜单章节：介绍 IntelliJ IDEA 主菜单的功能和使用方法 -->
     <chapter title="主菜单" id="main-menus">
         <p>您可以通过主菜单快速调用 IntelliJ IDEA 提供的各项常用功能。</p>
@@ -48,7 +48,7 @@
         </tldr>
         <p>导航栏是项目视图的快捷方式，通过它可以快速浏览项目结构并在 <include from="reuse-library.topic" element-id="editor-snippet"/> 中打开文件进行编辑。</p>
         <video src="https://www.youtube.com/watch?v=HTVYOEKplrc" width="706" border-effect="rounded"/>
-        <note>如果为项目启用了 <tooltip term="vcs">VCS</tooltip> 集成，则导航栏中的内容将会根据 VCS 文件状态颜色突出显示。&nbsp;&nbsp;</note>
+        <note>如果为项目启用了 <tooltip term="vcs">VCS</tooltip> 集成，则导航栏中的内容将会根据 VCS 文件状态颜色突出显示。</note>
         <img alt="导航栏中 VCS 文件的状态颜色" src="导航栏中 VCS 文件的状态颜色.png"  width="706" height="706" id="vcs-file-color" thumbnail="true" border-effect="rounded"/>
         <note>主工具栏包含打开和保存文件、撤销和重做操作的按钮，默认情况下是隐藏的。如需显示，请选择 <ui-path><include from="reuse-library.topic" element-id="main-menus-snippet"/> | 视图 | 外观 | 工具栏</ui-path> 。</note>
         <video src="https://www.youtube.com/watch?v=SzeOmPgR5gs" width="706" border-effect="rounded"/>
@@ -96,7 +96,7 @@
                 <p>集成了功能强大的调试器，可以设置断点、单步执行、查看变量值、表达式求值等。</p>
             </li>
         </list>
-        <note>如果当前项目已启用了 <tooltip term="vcs">VCS</tooltip> 集成，则编辑器标签页会根据 VCS 文件状态颜色突出显示。&nbsp;&nbsp;</note>
+        <note>如果当前项目已启用了 <tooltip term="vcs">VCS</tooltip> 集成，则编辑器标签页会根据 VCS 文件状态颜色突出显示。</note>
         <img alt="编辑器界面（Darcula 主题配色方案）" src="编辑器界面（Darcula 主题配色方案）.png" width="706" thumbnail="true" border-effect="rounded"/>
     </chapter>
     <!-- 状态栏章节：介绍 IntelliJ IDEA 状态栏的功能和微件 -->
@@ -115,7 +115,7 @@
         <img alt="状态栏及其微件" src="状态栏及其微件.png" width="706" thumbnail="true" border-effect="rounded"/>
         <procedure title="微件列表" id="widget-list">
             <note>
-                <p>根据 <a href="managing-plugins.topic" summary="">插件</a> 集和配置设置的不同，这些微件提供的设置和行为可能会有所不同。&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;</p>
+                <p>根据 <a href="managing-plugins.topic" summary="">插件</a> 集和配置设置的不同，这些微件提供的设置和行为可能会有所不同。</p>
                 <p>您可以右键单击状态栏，然后选择需要隐藏或显示的微件。</p>
             </note>
             <table id="widget-list-table" column-width="fixed">

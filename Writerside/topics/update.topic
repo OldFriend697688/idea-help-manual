@@ -5,8 +5,8 @@
        xsi:noNamespaceSchemaLocation="https://resources.jetbrains.com/writerside/1.0/topic.v2.xsd"
        title="更新 IntelliJ IDEA" id="update">
     <tldr>
-        <p>针对 <tooltip term="windows">Windows</tooltip> 或 <tooltip term="linux">Linux</tooltip>  ： <ui-path>设置 （ <shortcut>Ctrl</shortcut><shortcut>Alt</shortcut><shortcut>S</shortcut> ） | 外观与行为 | 系统设置 | 更新 &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;</ui-path></p>
-        <p>针对 <tooltip term="macos">macOS</tooltip> ： <ui-path>IntelliJ IDEA | 设置 | 外观与行为 | 系统设置 | 更新</ui-path> &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;</p>
+        <p>针对 <tooltip term="windows">Windows</tooltip> 或 <tooltip term="linux">Linux</tooltip>  ： <ui-path>设置 （ <shortcut>Ctrl</shortcut><shortcut>Alt</shortcut><shortcut>S</shortcut> ） | 外观与行为 | 系统设置 | 更新 </ui-path></p>
+        <p>针对 <tooltip term="macos">macOS</tooltip> ： <ui-path>IntelliJ IDEA | 设置 | 外观与行为 | 系统设置 | 更新</ui-path> </p>
     </tldr>
     <warning>如果已通过 <a href="register.topic" anchor="crack-activation" summary="">特殊方式</a> 激活了 IntelliJ IDEA，则强烈建议您不要考虑将它更新至更高版本。</warning>
     <warning>如果 IntelliJ IDEA 没有网络访问权限，则无法检查更新和应用补丁。在这种情况下，您必须先下载 IntelliJ IDEA 的新版本，然后进行 <a href="installation-guide.topic" anchor="standalone" summary=""/> 。</warning>
@@ -32,7 +32,7 @@
         </procedure>
         <!-- 为特定实例配置更新策略步骤：说明如何为单个 IDE 实例设置更新策略 -->
         <procedure title="为特定实例配置更新策略" id="update-specific-tool">
-            <note>您甚至还可以为被 Toolbox App 管理的各个 <tooltip term="ide">IDE</tooltip> 分配完全不同的更新策略。&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;</note>
+            <note>您甚至还可以为被 Toolbox App 管理的各个 <tooltip term="ide">IDE</tooltip> 分配完全不同的更新策略。</note>
             <step>打开 Toolbox App，单击相关 <tooltip term="ide">IDE</tooltip> 实例旁边的 <img src="Toolbox IDE 设置.png" alt=""/> 然后选择 <ui-path>设置</ui-path> 。</step>
             <img src="Toolbox App 特定 IDE 实例后的设置选项.png" alt="Toolbox App 特定 IDE 实例后的设置选项" width="706" thumbnail="true" border-effect="rounded"/>
             <step>
@@ -52,7 +52,7 @@
         <!-- 配置更新策略章节：说明如何设置独立实例的更新选项 -->
         <chapter id="update-settings" title="配置更新策略">
             <p>要管理 IntelliJ IDEA 的更新策略，请选择 <ui-path><include from="reuse-library.topic" element-id="idea-settings-keywords-snippet"/>| 外观和行为 | 系统设置 | 更新</ui-path> 。</p>
-            <note>如果 <tooltip term="ide">IDE</tooltip> 实例由 <a href="https://www.jetbrains.com.cn/toolbox-app/" summary="">Toolbox App</a> 管理，这些设置将仅影响 <a href="managing-plugins.topic" summary="">插件</a> 更新。&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;</note>
+            <note>如果 <tooltip term="ide">IDE</tooltip> 实例由 <a href="https://www.jetbrains.com.cn/toolbox-app/" summary="">Toolbox App</a> 管理，这些设置将仅影响 <a href="managing-plugins.topic" summary="">插件</a> 更新。</note>
             <!-- 更新页面包含的设置步骤：详细说明更新设置页面中的各个选项 -->
             <procedure collapsible="true" default-state="collapsed" title="更新页面包含的设置" id="settings-page">
                 <img src="更新设置界面.png" alt="更新设置界面" width="706" thumbnail="true" border-effect="rounded"/>
@@ -69,7 +69,7 @@
                                 <li><format style="bold">抢先体验计划：</format> 包含 <tooltip term="rc">发布候选版本</tooltip> 、 <tooltip term="beta">BETA</tooltip> 版本和 <a href="https://www.jetbrains.com/resources/eap/">EAP</a> 版本的更新，强烈不建议将其用于生产环境。</li>
                                 <li><format style="bold">稳定版本；只包括推荐用于生产的稳定版本。</format></li>
                             </list>
-                            <note>如果取消勾选此选项，将会禁用自动检查更新。&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;</note>
+                            <note>如果取消勾选此选项，将会禁用自动检查更新。</note>
                         </td>
                     </tr>
                     <tr>

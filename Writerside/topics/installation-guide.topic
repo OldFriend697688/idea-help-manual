@@ -70,7 +70,7 @@
                 <!-- Windows 独立安装步骤：说明如何使用 .exe 安装程序在 Windows 上安装 IntelliJ IDEA -->
                 <procedure id="windows-standalone-installation-steps">
                     <step><a href="https://www.jetbrains.com/zh-cn/idea/download/other.html">下载 .exe 安装程序</a> 。</step>
-                    <note><tooltip term="arm64">ARM64 处理器</tooltip> 有单独的安装程序。&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;</note>
+                    <note><tooltip term="arm64">ARM64 处理器</tooltip> 有单独的安装程序。</note>
                     <img src="Windows.exe 安装包下载.png" alt="下载 Windows.exe 安装包" width="706" thumbnail="true" border-effect="rounded"/>
                     <video src="https://www.youtube.com/watch?v=7QrP3h5mKiY" width="706" border-effect="rounded"/>
                     <step>
@@ -108,7 +108,7 @@
                 <!-- Linux 独立安装步骤：说明如何在 Linux 系统上安装 IntelliJ IDEA -->
                 <procedure id="linux-standalone-installation-steps">
                     <step><a href="https://www.jetbrains.com/zh-cn/idea/download/other.html">下载 .tar.gz 压缩包。</a></step>
-                    <note><tooltip term="arm64">ARM64 处理器</tooltip> 有单独的 <tooltip term="tarball">tarball 文件</tooltip> 。&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;</note>
+                    <note><tooltip term="arm64">ARM64 处理器</tooltip> 有单独的 <tooltip term="tarball">tarball 文件</tooltip> 。</note>
                     <img src="Linux tar.gz 镜像下载.png" alt="下载 Linux tar.gz 镜像" width="706" thumbnail="true" border-effect="rounded"/>
                     <step>
                         <p>将 tar 文件解压到支持文件运行的目标文件夹。</p>
@@ -128,7 +128,7 @@
                 <!-- macOS 独立安装步骤：说明如何在 macOS 系统上安装 IntelliJ IDEA -->
                 <procedure id="macos-standalone-installation-steps">
                     <step><a href="https://www.jetbrains.com/zh-cn/idea/download/other.html">下载映像文件。</a></step>
-                    <note>英特尔和苹果芯片分别有独立的 <tooltip term="image-file">映像文件</tooltip> ，在下载时请注意分辨。&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;</note>
+                    <note>英特尔和苹果芯片分别有独立的 <tooltip term="image-file">映像文件</tooltip> ，在下载时请注意分辨。</note>
                     <img src="下载 macOS dmg 映像.png" alt="下载 macOS dmg 映像" width="706" thumbnail="true" border-effect="rounded"/>
                     <step>将映像文件挂载并拖动到 <tooltip term="applications">Applications</tooltip> 文件夹。</step>
                     <step>从 Applications 文件夹、 <tooltip term="launchpad">Launchpad</tooltip> 或 <tooltip term="spotlight">Spotlight</tooltip> 中启动 IntelliJ IDEA。</step>
@@ -139,7 +139,7 @@
     </chapter>
     <chapter id="toolbox" title="使用 Toolbox App 安装">
         <primary-label ref="Toolbox"/>
-        <note>通过使用 Toolbox App 安装、管理、更新及卸载 JetBrains IDEs 并非是强制性的。 &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;</note>
+        <note>通过使用 Toolbox App 安装、管理、更新及卸载 JetBrains IDEs 并非是强制性的。 </note>
         <note>若安装 Toolbox App 之前安装过任何 JetBrains IDEs，则它将会自动开始管理这些 <tooltip term="ide">IDE</tooltip> 。</note>
         <a href="https://www.jetbrains.com/zh-cn/toolbox-app/">JetBrains Toolbox App</a> 是安装 JetBrains 产品的推荐工具。您可以使用它来安装和管理不同产品或同一产品的多个版本，包括 <a href="https://www.jetbrains.com/community/eap/">早期访问计划（EAP）</a> ，必要时可进行更新和回滚，并轻松删除这些产品。它维护所有项目的列表，以便快速在正确的 <tooltip term="ide">IDE</tooltip> 和版本中打开这些项目。
         <img src="JetBrains Toolbox App 中文官网首页.png" alt="JetBrains Toolbox App 中文官网首页" width="706" thumbnail="true" border-effect="rounded"/>
@@ -155,7 +155,7 @@
                     </step>
                     <video src="https://www.youtube.com/watch?v=gSahote9lnY" width="706" border-effect="rounded"/>
                     <include from="reuse-library.topic" element-id="toolbox-login-tips-snippet"/>
-                    <warning>因软件更新迭代较快，现 Toolbox App 已不支持下载 IntelliJ IDEA 2022.3.3 版本。&nbsp;&nbsp;</warning>
+                    <warning>因软件更新迭代较快，现 Toolbox App 已不支持下载 IntelliJ IDEA 2022.3.3 版本。</warning>
                     <video src="https://www.youtube.com/watch?v=jNRMf4Bltco" width="706" border-effect="rounded"/>
                     <note>如果临时改变主意不想继续使用 Toolbox App，请参考如下视频卸载 Toolbox App。</note>
                     <video src="https://www.youtube.com/watch?v=FpcWwcAeulE" width="706" border-effect="rounded"/>
@@ -186,7 +186,7 @@
                 <procedure title="安装 Toolbox App">
                     <step>
                         <p>从 <a href="https://www.jetbrains.com/zh-cn/toolbox-app/">官网</a> 下载 <path>.dmg</path> 映像文件。</p>
-                        <note>英特尔和苹果芯片分别有独立的映像文件，在下载时请注意分辨。&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;</note>
+                        <note>英特尔和苹果芯片分别有独立的映像文件，在下载时请注意分辨。</note>
                     </step>
                     <step><p>将映像文件挂载并拖动 Toolbox App 到 <tooltip term="applications">Applications</tooltip> 文件夹。</p></step>
                     <step>
@@ -205,7 +205,7 @@
         <p>您可以将 IntelliJ IDEA 安装为一个独立的 <a href="https://snapcraft.io/">Snap</a> 包。</p>
         <p>由于 <tooltip term="snap-package">Snap 包</tooltip> 会自动更新，因此您的 IntelliJ IDEA 将始终保持最新。 </p>
         <note>
-            <p>要使用 Snap，请按照 <a href="https://docs.snapcraft.io/core/install">安装指南</a> 安装并运行 snapd 服务。&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;</p>
+            <p>要使用 Snap，请按照 <a href="https://docs.snapcraft.io/core/install">安装指南</a> 安装并运行 snapd 服务。</p>
             <p>在 <code>Ubuntu 16.04 LTS</code> 及更高版本中，此服务已预先安装。</p>
         </note>
         <p>IntelliJ IDEA 通过两个渠道发布：</p>
@@ -258,7 +258,7 @@
     <!-- 简体中文语言包章节：介绍如何安装和配置 IntelliJ IDEA 的中文界面 -->
     <chapter id="simplified-chinese-language" title="简体中文语言包">
         <primary-label ref="ChineseLanguage"/>
-        <note>如果您的 IntelliJ IDEA 尚为激活，请您先尝试 <a href="register.topic" anchor="start-trial" summary="">免费试用</a> 或 <a href="register.topic" anchor="crack-activation" summary="">激活</a> 后再阅读此节内容。&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;</note>
+        <note>如果您的 IntelliJ IDEA 尚为激活，请您先尝试 <a href="register.topic" anchor="start-trial" summary="">免费试用</a> 或 <a href="register.topic" anchor="crack-activation" summary="">激活</a> 后再阅读此节内容。</note>
         <!-- 安装简体中文语言包步骤：详细说明如何安装和启用中文语言包 -->
         <procedure title="安装简体中文语言包" id="configure-simplified-chinese-language-pack" type="steps">
             <step>启动 IntelliJ IDEA 并单击 <control>欢迎界面</control> 中的 <ui-path>Plugins</ui-path> 。</step>
@@ -273,7 +273,7 @@
             <img alt="为 IntelliJ IDEA 安装简体中文语言包" src="安装简体中文语言包（5）.png" thumbnail="true" width="706" border-effect="rounded"/>
             <step>重启后，IntelliJ IDEA 已成功安装并应用简体中文语言补丁。</step>
             <img alt="为 IntelliJ IDEA 安装简体中文语言包" src="安装简体中文语言包（6）.png" thumbnail="true" width="706" border-effect="rounded"/>
-            <note>如果您想要将 IntelliJ IDEA 恢复至英文状态，请单击 <control>禁用</control> 以便禁用中文语言包。&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;</note>
+            <note>如果您想要将 IntelliJ IDEA 恢复至英文状态，请单击 <control>禁用</control> 以便禁用中文语言包。</note>
         </procedure>
     </chapter>
     <seealso>

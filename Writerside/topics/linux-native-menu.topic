@@ -4,7 +4,7 @@
 <topic xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
        xsi:noNamespaceSchemaLocation="https://resources.jetbrains.com/writerside/1.0/topic.v2.xsd"
        title="Linux 原生菜单" id="linux-native-menu">
-    <warning>这是 IntelliJ IDEA 提供的一项实验性功能。&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;</warning>
+    <warning>这是 IntelliJ IDEA 提供的一项实验性功能。</warning>
     <p>如果正在使用适配 <tooltip term="linux">Linux</tooltip> 的 IntelliJ IDEA，您将可以使用类似于 <tooltip term="macos">macOS</tooltip> 的全局主菜单。它是一个附着在屏幕顶部的水平菜单。默认情况下，此菜单已启用，但并非所有 Linux 桌面环境都原生支持它。</p>
     <img alt="Linux 原生菜单" src="Linux 原生菜单.png" width="706" thumbnail="true" border-effect="rounded"/>
     <procedure title="禁用原生菜单" id="disable-linux-native-menu" type="steps">

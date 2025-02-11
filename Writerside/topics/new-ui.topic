@@ -53,7 +53,7 @@
             <list type="decimal">
                 <li>
                     <p>主菜单（仅限 <tooltip term="windows">Windows</tooltip> 或 <tooltip term="linux">Linux</tooltip> ）</p>
-                    <note>如果您需要单独显示完整的主菜单，请参阅 <a anchor="show-main-menus"  summary=""/> 。&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;</note>
+                    <note>如果您需要单独显示完整的主菜单，请参阅 <a anchor="show-main-menus"  summary=""/> 。</note>
                     <include from="reuse-library.topic" element-id="main-menus-snippet" /> 现在位于 <img src="新 UI 上的主菜单图标.svg" alt=""/> 图标下，您可以通过 <shortcut>Alt</shortcut><shortcut>\</shortcut> 打开它。
                     <video border-effect="rounded" src="https://www.youtube.com/watch?v=FtWSHYX7m74" width="706"/>
                 </li>
@@ -94,7 +94,7 @@
                 <li>
                     <ui-path>更多工具窗口</ui-path> 按钮用于显示暂未出现在工具窗口栏上的 <include from="reuse-library.topic" element-id="tool-window-snippet" />。
                     <video border-effect="rounded" src="https://www.youtube.com/watch?v=LsL56KgLAJA" width="706"/>
-                    <note>拖动工具窗口图标或使用其上下文菜单可将其移动到 <tooltip term="ide">IDE</tooltip> 窗口中的其他位置。&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;</note>
+                    <note>拖动工具窗口图标或使用其上下文菜单可将其移动到 <tooltip term="ide">IDE</tooltip> 窗口中的其他位置。</note>
                     <video border-effect="rounded" src="https://www.youtube.com/watch?v=sb5VrEVHQ1A" width="706"/>
                 </li>
             </list>

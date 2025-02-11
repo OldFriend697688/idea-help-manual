@@ -47,17 +47,17 @@
     </procedure>
     <!-- 卸载插件步骤：说明如何移除已安装的非捆绑插件 -->
     <procedure title="卸载插件" id="remove-plugin">
-        <note>您无法卸载捆绑的插件。&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;</note>
+        <note>您无法卸载捆绑的插件。</note>
         <step>在 <control>欢迎界面</control> 中选择 <ui-path>插件</ui-path> ，或在 <control><include from="reuse-library.topic" element-id="idea-settings-keywords-snippet"/></control> （ <shortcut>Ctrl</shortcut><shortcut>Alt</shortcut><shortcut>S</shortcut> ）中选择 <ui-path>插件</ui-path> 。</step>
         <step>打开 <ui-path>已安装</ui-path> ，然后找到想要卸载的插件。</step>
         <step>在目标插件名称处单击鼠标右键，然后从其中选择 <control>卸载</control> 。</step>
         <video src="https://www.youtube.com/watch?v=xZnH7IKUkPE" width="706" border-effect="rounded"/>
-        <note>如果想要在不启动 IntelliJ IDEA 的情况下卸载插件，可以从 <a href="directories-used-by-the-ide-to-store-settings-caches-plugins-and-logs.topic" anchor="plugins-directory" /> 中手动卸载。&nbsp;&nbsp;&nbsp;</note>
+        <note>如果想要在不启动 IntelliJ IDEA 的情况下卸载插件，可以从 <a href="directories-used-by-the-ide-to-store-settings-caches-plugins-and-logs.topic" anchor="plugins-directory" /> 中手动卸载。</note>
         <video src="https://www.youtube.com/watch?v=RsxRrLmkagI" width="706" border-effect="rounded"/>
     </procedure>
     <!-- 禁用插件步骤：说明如何临时禁用插件功能 -->
     <procedure title="禁用插件" id="disable-plugin">
-        <note>如果您暂时不需要某些插件提供的功能，可以选择禁用它们，而不是卸载它们。&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;</note>
+        <note>如果您暂时不需要某些插件提供的功能，可以选择禁用它们，而不是卸载它们。</note>
         <step>在 <control>欢迎界面</control> 中选择 <ui-path>插件</ui-path> ，或在 <control><include from="reuse-library.topic" element-id="idea-settings-keywords-snippet"/></control> （ <shortcut>Ctrl</shortcut><shortcut>Alt</shortcut><shortcut>S</shortcut> ）中选择 <ui-path>插件</ui-path> 。</step>
         <step>打开 <ui-path>已安装</ui-path> ，然后找到想要禁用的插件。</step>
         <step>在目标插件名称处单击鼠标右键，然后从其中选择 <control>禁用</control> 。</step>
@@ -81,7 +81,7 @@
             <step>按 <shortcut>Ctrl</shortcut><shortcut>Alt</shortcut><shortcut>S</shortcut> 进入 <control><include from="reuse-library.topic" element-id="idea-settings-keywords-snippet"/></control> ，然后展开 <ui-path>构建、执行、部署 | 必需插件</ui-path> 。</step>
             <step>在右侧的操作面板中单击 <img src="添加.svg" alt=""/> 指定插件，并为此插件指定所需的最高和最低版本。</step>
             <video src="https://www.youtube.com/watch?v=EgCOOvcKCn8" width="706" border-effect="rounded"/>
-            <note>要指定 IntelliJ IDEA 本身的所需版本，请将 <ui-path>IDE Core</ui-path> 添加至所需插件列表中。&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;</note>
+            <note>要指定 IntelliJ IDEA 本身的所需版本，请将 <ui-path>IDE Core</ui-path> 添加至所需插件列表中。</note>
             <img src="为项目指定 IntelliJ IDEA 的必需版本.png" alt="为项目指定 IntelliJ IDEA 的必需版本" width="706" thumbnail="true" border-effect="rounded"/>
         </procedure>
         <p>所需的插件列表存储在项目的 <path>.idea/externalDependencies.xml</path> 文件中。</p>
@@ -91,7 +91,7 @@
     </chapter>
     <!-- 建议插件章节：说明 IDE 如何根据文件类型推荐相关插件 -->
     <chapter id="suggested-plugins" title="建议插件">
-        <warning>官方文档手册中对此功能的描述文本存在细节错误，详见： <a href="https://youtrack.jetbrains.com/issue/IJPL-6102/Check-for-Suggested-Plugins-action-doesnt-suggest-installing-the-Writerside-plugin-if-the-Writerside-project-or-a-Writerside">建议插件功能异常</a> 。&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;</warning>
+        <warning>官方文档手册中对此功能的描述文本存在细节错误，详见： <a href="https://youtrack.jetbrains.com/issue/IJPL-6102/Check-for-Suggested-Plugins-action-doesnt-suggest-installing-the-Writerside-plugin-if-the-Writerside-project-or-a-Writerside">建议插件功能异常</a> 。</warning>
         <p>当您在 IntelliJ IDEA 中打开某个未知类型的文件时，它将会尝试从 <include from="reuse-library.topic" element-id="jetbrains-plugin-library-snippet"/> 中搜索是否有与之匹配的可用插件，并给出提示建议您安装。如果您不想安装此插件，可以单击 <ui-path>忽略扩展</ui-path> 。</p>
         <img src="建议安装 Writerside 插件的提示信息.png" alt="建议安装 Writerside 插件的提示信息" width="706" thumbnail="true" border-effect="rounded"/>
         <p>一旦您单击了 <ui-path>忽略扩展</ui-path> 后，IntelliJ IDEA 将不会在为此未知类型的文件弹出可安装插件的提示。以后，您只能够手动搜索此建议插件并进行安装。</p>
@@ -208,7 +208,7 @@
             <img src="编辑自定义属性.png" alt="编辑自定义属性" width="706" thumbnail="true" border-effect="rounded"/>
             <step>在其中添加 <code>idea.plugin.hosts</code> 属性，并指定描述插件的 XML 文件的 URL。例如：</step>
             <code-block lang="plain text">idea.plugin.hosts="http://plugins.example.com:8080/updatePlugins.xml"</code-block>
-            <note>要添加多个 URL，请用分号 <code>；</code> 。&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;</note>
+            <note>要添加多个 URL，请用分号 <code>；</code> 。</note>
             <img src="添加 idea.plugin.hosts 属性.png" alt="添加 idea.plugin.hosts 属性" width="706" thumbnail="true" border-effect="rounded"/>
             <step>重启 IntelliJ IDEA，以使设置生效。</step>
         </procedure>

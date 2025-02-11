@@ -36,7 +36,7 @@
                     <td><a anchor="log-directory" summary=""/></td>
                 </tr>
             </table>
-            <note>请使用 <code>/</code> 指定路径，例如： <path>C:/idea/system</path> 。&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;</note>
+            <note>请使用 <code>/</code> 指定路径，例如： <path>C:/idea/system</path> 。</note>
             <p>您可以插入任何其他属性作为变量。例如：使用 <code>${user.home}</code> （标准 Java 系统属性）指定相对于用户主文件夹的路径：</p>
             <code-block lang="plain text">idea.config.path=${user.home}/MyIdeaConfiguration</code-block>
         </step>
@@ -252,7 +252,7 @@
         </tabs>
         <p>您可以使用 <code><a anchor="log-dir-path" summary="">idea.log.path</a></code> 属性调整 IntelliJ IDEA 日志文件夹的位置。</p>
         <img alt="使用属性调整日志文件夹的路径" src="使用属性调整日志文件夹的路径.png" width="706" border-effect="rounded" thumbnail="true"/>
-        <note>您可以选择 <ui-path><include from="reuse-library.topic" element-id="main-menus-snippet"/> | 帮助 | 在 Explorer 中显示日志</ui-path> 来打开日志文件夹的位置。&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;</note>
+        <note>您可以选择 <ui-path><include from="reuse-library.topic" element-id="main-menus-snippet"/> | 帮助 | 在 Explorer 中显示日志</ui-path> 来打开日志文件夹的位置。</note>
         <img src="在资源管理器中显示日志-1.png" alt="在资源管理器中显示日志" width="706" border-effect="rounded" thumbnail="true"/>
         <note>您还可以通过在 <control><include from="reuse-library.topic" element-id="idea-operating-keywords-snippet"/></control> 中键入并选择 <ui-path>在 Explorer 中显示日志</ui-path> 的方式来打开日志文件夹的位置。</note>
         <img src="在资源管理器中显示日志-2.png" alt="在资源管理器中显示日志" width="706" border-effect="rounded" thumbnail="true"/>

@@ -36,7 +36,7 @@
 
     <!-- Toolbox App 不在支持下载 IntelliJ IDEA 2022.3.3 的提示 -->
     <snippet id="toolbox-version-download-is-limited-snippet">
-        <warning>因软件更新迭代较快，现 Toolbox App 已不支持下载 IntelliJ IDEA 2022.3.3 版本。&nbsp;&nbsp;</warning>
+        <warning>因软件更新迭代较快，现 Toolbox App 已不支持下载 IntelliJ IDEA 2022.3.3 版本。</warning>
         <note>尽管 Toolbox App 不再提供 IntelliJ IDEA 2022.3.3 的下载，但若已安装该版本则仍可由 Toolbox App 进行管理。</note>
     </snippet>
 
@@ -168,12 +168,12 @@
 
     <!-- 关闭中文输入法确保正常触发代码补全功能的提示 -->
     <snippet id="invalid-shortcut-key-prompt-snippet">
-        <note>如果发现无法通过 <a href="mastering-keyboard-shortcuts.topic" summary=""/> 触发代码补全，请关闭中文输入法后再按对应的快捷键。&nbsp;&nbsp;&nbsp;</note>
+        <note>如果发现无法通过 <a href="mastering-keyboard-shortcuts.topic" summary=""/> 触发代码补全，请关闭中文输入法后再按对应的快捷键。</note>
     </snippet>
 
     <!-- 插件过多时影响 IntelliJ IDEA 性能的提示 -->
     <snippet id="too-many-plugins-tips-snippet">
-        <warning>安装过多的插件可能会影响到 IntelliJ IDEA 的整体性能。&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;</warning>
+        <warning>安装过多的插件可能会影响到 IntelliJ IDEA 的整体性能。</warning>
     </snippet>
 
     <!-- 独立安装（手动安装）时的提示 -->
@@ -243,7 +243,7 @@
                 <step>单击 <ui-path>确定</ui-path> 保存更改。</step>
                 <step>在 <include from="reuse-library.topic" element-id="editor-snippet" /> 中，按下分配的快捷键以便调用快速列表。</step>
                 <video border-effect="rounded" src="https://www.youtube.com/watch?v=Sg_utwZdkZU" width="706"/>
-                <note>如果不记得快速列表的快捷键，可以按 <shortcut>Shift</shortcut> 两次，然后键入快速列表名称搜索它。&nbsp;</note>
+                <note>如果不记得快速列表的快捷键，可以按 <shortcut>Shift</shortcut> 两次，然后键入快速列表名称搜索它。</note>
                 <img border-effect="rounded" src="搜索快速列表.png" alt="搜索快速列表" width="706" thumbnail="true"/>
             </procedure>
         </chapter>
@@ -309,7 +309,7 @@
         <procedure id="to-search-structurally" title="从结构上搜索目标" default-state="collapsed" collapsible="true">
             <step>
                 <p>选择 <ui-path><include from="reuse-library.topic" element-id="main-menus-snippet"/> | 编辑 | 查找 | 结构搜索</ui-path> 以打开 <control>结构搜索</control> 。</p>
-                <note>在 <control>结构搜索</control> 中单击 <img src="刷新.svg" alt=""/> 按钮快速可切换至 <control>结构替换</control> 。&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;</note>
+                <note>在 <control>结构搜索</control> 中单击 <img src="刷新.svg" alt=""/> 按钮快速可切换至 <control>结构替换</control> 。</note>
                 <video border-effect="rounded" src="https://www.youtube.com/watch?v=QcOUjW25lZw" width="706"/>
             </step>
             <step>
@@ -363,7 +363,7 @@
         <procedure id="structural-replace" title="从结构上替换目标" default-state="collapsed" collapsible="true">
             <step>
                 <p>选择 <ui-path><include from="reuse-library.topic" element-id="main-menus-snippet"/> | 编辑 | 查找 | 结构化替换</ui-path> 以打开 <control>结构替换</control> 。</p>
-                <note>在 <control>结构替换</control> 中单击 <img src="刷新.svg" alt=""/> 快速切换至 <control>结构搜索</control> 。&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;</note>
+                <note>在 <control>结构替换</control> 中单击 <img src="刷新.svg" alt=""/> 快速切换至 <control>结构搜索</control> 。</note>
                 <video border-effect="rounded" src="https://www.youtube.com/watch?v=QcOUjW25lZw" width="706"/>
             </step>
             <step>在 <control>结构替换</control> 中，将新的或现有的模板添加至搜索和替换模板区域。可以按照与 <a anchor="to-search-structurally" summary="">搜索模板</a> 相同的方式保存替换模板。</step>

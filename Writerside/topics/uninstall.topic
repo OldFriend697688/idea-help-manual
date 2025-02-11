@@ -40,12 +40,12 @@
                         <p>删除以下文件夹（可选）：</p>
                         <deflist>
                             <def title="语法" id="windows-grammar">
-                                <path>&#37;APPDATA&#37;\JetBrains\&lt;product&gt;&lt;version&gt;</path>
-                                <path>&#37;LOCALAPPDATA&#37;\JetBrains\&lt;product&gt;&lt;version&gt;</path>
+                                <p><path>&#37;APPDATA&#37;\JetBrains\&lt;product&gt;&lt;version&gt;</path></p>
+                                <p><path>&#37;LOCALAPPDATA&#37;\JetBrains\&lt;product&gt;&lt;version&gt;</path></p>
                             </def>
                             <def title="例子" id="windows-grammar-example">
-                                <path>C:\Users\OldFriend\AppData\Roaming\JetBrains\IntelliJIdea2022.3</path>
-                                <path>C:\Users\OldFriend\AppData\Local\JetBrains\IntelliJIdea2022.3</path>
+                                <p><path>C:\Users\OldFriend\AppData\Roaming\JetBrains\IntelliJIdea2022.3</path></p>
+                                <p><path>C:\Users\OldFriend\AppData\Local\JetBrains\IntelliJIdea2022.3</path></p>
                             </def>
                         </deflist>
                         <video src="https://www.youtube.com/watch?v=U8XQXztfDVc" width="706" border-effect="rounded"/>
@@ -59,12 +59,12 @@
                         <p>删除以下文件夹（可选）：</p>
                         <deflist>
                             <def title="语法" id="macos-grammar">
-                                <path>~/Library/Application Support/JetBrains/&lt;product&gt;&lt;version&gt;</path>
-                                <path>~/Library/Caches/JetBrains/&lt;product&gt;&lt;version&gt;</path>
+                                <p><path>~/Library/Application Support/JetBrains/&lt;product&gt;&lt;version&gt;</path></p>
+                                <p><path>~/Library/Caches/JetBrains/&lt;product&gt;&lt;version&gt;</path></p>
                             </def>
                             <def title="例子" id="macos-grammar-example">
-                                <path>~/Library/Application Support/JetBrains/IntelliJIdea2022.3</path>
-                                <path>~/Library/Caches/JetBrains/IntelliJIdea2022.3</path>
+                                <p><path>~/Library/Application Support/JetBrains/IntelliJIdea2022.3</path></p>
+                                <p><path>~/Library/Caches/JetBrains/IntelliJIdea2022.3</path></p>
                             </def>
                         </deflist>
                     </li>
@@ -77,14 +77,14 @@
                         <p>删除以下文件夹（可选）：</p>
                         <deflist>
                             <def title="语法" id="linux-grammar">
-                                <path>~/.config/JetBrains/&lt;product&gt;&lt;version&gt;</path>
-                                <path>~/.cache/JetBrains/&lt;product&gt;&lt;version&gt;</path>
-                                <path>~/.local/share/JetBrains/&lt;product&gt;&lt;version&gt;</path>
+                                <p><path>~/.config/JetBrains/&lt;product&gt;&lt;version&gt;</path></p>
+                                <p><path>~/.cache/JetBrains/&lt;product&gt;&lt;version&gt;</path></p>
+                                <p><path>~/.local/share/JetBrains/&lt;product&gt;&lt;version&gt;</path></p>
                             </def>
                             <def title="例子" id="linux-grammar-example">
-                                <path>~/.config/JetBrains/IntelliJIdea2022.3</path>
-                                <path>~/.cache/JetBrains/IntelliJIdea2022.3</path>
-                                <path>~/.local/share/JetBrains/IntelliJIdea2022.3</path>
+                                <p><path>~/.config/JetBrains/IntelliJIdea2022.3</path></p>
+                                <p><path>~/.cache/JetBrains/IntelliJIdea2022.3</path></p>
+                                <p><path>~/.local/share/JetBrains/IntelliJIdea2022.3</path></p>
                             </def>
                         </deflist>
                     </li>

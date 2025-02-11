@@ -16,7 +16,7 @@
     </tip>
     <!-- 开始免费试用步骤：说明如何开始 30 天免费试用 IntelliJ IDEA Ultimate -->
     <procedure title="开始免费试用" id="start-trial" type="steps">
-        <note>请先阅读 <a href="installation-guide.topic" summary=""/> 并正确安装 IntelliJ IDEA 后再阅读此处内容。 &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;</note>
+        <note>请先阅读 <a href="installation-guide.topic" summary=""/> 并正确安装 IntelliJ IDEA 后再阅读此处内容。 </note>
         <step>启动 IntelliJ IDEA 时将会弹出 <control>许可证</control> ，请在其中勾选 <ui-path>开始试用</ui-path> 。</step>
         <img src="开始试用（1）.png" alt="开始试用" thumbnail="true" width="706" border-effect="rounded"/>
         <step>单击 <control>登录到 JetBrains Account</control> 。</step>
@@ -29,7 +29,7 @@
         <img src="开始试用（2）.png" alt="开始试用" width="706" thumbnail="true" border-effect="rounded"/>
         <warning>若出现 <format style="bold">Error fetching licenses for ll/lwu584742@gmail.com: Your trial has expired. To continue using IntelliJ IDEA Ultimate 2022.3, you must purchase a subscription.</format> 等类似提示信息，则代表此账号已过试用期。</warning>
         <img src="试用期已过期.png" alt="试用期已过期" width="706" thumbnail="true" border-effect="rounded"/>
-        <note>试用版到期后，您需要购买并注册许可证才能继续使用 IntelliJ IDEA Ultimate。&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;</note>
+        <note>试用版到期后，您需要购买并注册许可证才能继续使用 IntelliJ IDEA Ultimate。</note>
         <note><a href="https://www.jetbrains.com/idea/download/other.html">IntelliJ IDEA Community Edition（社区版）</a> 和 <a href="https://www.jetbrains.com/edu-products/download/#section=idea">IntelliJ IDEA Edu（教育版）</a> 无需任何许可证即可 <format style="bold">免费</format> 使用。但您不能将它们直接升级至 IntelliJ IDEA Ultimate（旗舰版），如果您需要使用旗舰版，请按照 <a href="installation-guide.topic" anchor="standalone" summary=""/> 中的说明单独下载并安装它。</note>
     </procedure>
     <!-- 激活 IntelliJ IDEA 步骤：介绍各种激活 IntelliJ IDEA 的方法 -->
@@ -80,8 +80,8 @@
             <include from="reuse-library.topic" element-id="close-idea-prompt-information-snippet"/>
             <step>进入 <path>scripts</path> 文件夹中找到适用于当前 <tooltip term="os">操作系统</tooltip> 的可执行脚本并运行它。</step>
             <note>
-                <p>对于 <tooltip term="windows">Windows</tooltip> 系统而言，请运行 <path>.vbs</path> 可执行脚本。&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;</p>
-                <p>对于 <tooltip term="macos">macOS</tooltip> 和 <tooltip term="linux">Linux</tooltip> 系统而言，请运行 <path>.sh</path> 可执行脚本。&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;</p>
+                <p>对于 <tooltip term="windows">Windows</tooltip> 系统而言，请运行 <path>.vbs</path> 可执行脚本。</p>
+                <p>对于 <tooltip term="macos">macOS</tooltip> 和 <tooltip term="linux">Linux</tooltip> 系统而言，请运行 <path>.sh</path> 可执行脚本。</p>
                 <p>如果您正在使用 <tooltip term="windows">Windows</tooltip> 系统，并且仅需要为当前用户安装激活脚本补丁，则请运行 <path>install-current-user.vbs</path> 。 但是，如果您想要为所有用户安装激活脚本补丁则请运行 <path>install-all-users.vbs</path> 。</p>
             </note>
             <img src="可用的激活脚本.png" alt="可用的激活脚本" width="706" thumbnail="true" border-effect="rounded"/>
@@ -99,8 +99,8 @@
             <include from="reuse-library.topic" element-id="close-idea-prompt-information-snippet" />
             <step>进入 <path>scripts</path> 文件夹中找到适用于当前操作系统的可执行卸载脚本并运行它。</step>
             <note>
-                <p>对于 <tooltip term="windows">Windows</tooltip> 系统而言，请运行 <path>uninstall-all-users.vbs</path> 或 <path>uninstall-current-user.vbs</path> 进行卸载。&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;</p>
-                <p>对于 <tooltip term="macos">macOS</tooltip> 和 <tooltip term="linux">Linux</tooltip> 系统而言，请运行 <path>uninstall.sh</path> 进行卸载。 &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;</p>
+                <p>对于 <tooltip term="windows">Windows</tooltip> 系统而言，请运行 <path>uninstall-all-users.vbs</path> 或 <path>uninstall-current-user.vbs</path> 进行卸载。</p>
+                <p>对于 <tooltip term="macos">macOS</tooltip> 和 <tooltip term="linux">Linux</tooltip> 系统而言，请运行 <path>uninstall.sh</path> 进行卸载。 </p>
             </note>
             <step>运行脚本后单击 <control>确定</control> ，然后等待 <control>Done.</control> 的提示出现。</step>
             <step>卸载完毕后，IntelliJ IDEA 将会还原至未激活状态。</step>

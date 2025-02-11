@@ -8,7 +8,7 @@
     <p>使用颜色和字体样式调整这些文本，将可以提高可读性，使关键信息更突出，更容易理解。</p>
     <p>您可以在 <control>配色方案</control> 中调整 <tooltip term="ide">IDE</tooltip> 文本使用的颜色和字体。</p>
     <img border-effect="rounded" src="配色方案案例（Java）.png" alt="ColorSchemeExample-Java" width="706" thumbnail="true"/>
-    <note><control>配色方案</control> 与 <a href="user-interface-themes.topic" summary=""/> 不同，后者定义了窗口、对话框和控件的外观。&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;</note>
+    <note><control>配色方案</control> 与 <a href="user-interface-themes.topic" summary=""/> 不同，后者定义了窗口、对话框和控件的外观。</note>
     <p>您可以使用预设的配色方案，也可以根据个人喜好自定义它。还可以 <a anchor="share-color-scheme" summary=""/> 。</p>
     <procedure id="select-color-scheme" title="选择配色方案" type="steps">
         <step>在 <control><include from="reuse-library.topic"  element-id="idea-settings-keywords-snippet"/></control> 中选择 <ui-path><include from="reuse-library.topic" element-id="editor-snippet" /> | 配色方案</ui-path> 。</step>
@@ -22,7 +22,7 @@
                 <li><ui-path>IntelliJ Light:</ui-path> ：专为 IntelliJ Light 主题界面设计。</li>
             </list>
         </step>
-        <note>如果您安装的 <a href="managing-plugins.topic" summary="">插件</a> 中附带有配色方案，则该方案将被添加至预设方案列表中。&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;</note>
+        <note>如果您安装的 <a href="managing-plugins.topic" summary="">插件</a> 中附带有配色方案，则该方案将被添加至预设方案列表中。</note>
         <video border-effect="rounded" src="https://www.youtube.com/watch?v=yCPKT2mRf1Y" width="706"/>
     </procedure>
     <chapter id="customize-color-scheme" title="自定义配色方案">
@@ -34,7 +34,7 @@
             <video border-effect="rounded" src="https://www.youtube.com/watch?v=9-DJVWVB3ZE" width="706"/>
         </procedure>
         <note>
-            <p>预设配色方案采用粗体字显示。若您对这些方案进行了自定义调整，它们将以蓝色标识。&nbsp;&nbsp;</p>
+            <p>预设配色方案采用粗体字显示。若您对这些方案进行了自定义调整，它们将以蓝色标识。</p>
             <p>要将预设配色方案的各项设置还原至默认值，请单击 <img src="设置.svg" alt=""/> 并选择 <control>还原为默认设置</control> 。</p>
         </note>
         <video border-effect="rounded" src="https://www.youtube.com/watch?v=zFz3AvYku7E" width="706"/>
@@ -78,7 +78,7 @@
             <step>在 <ui-path>方案</ui-path> 列表中选择一个配色方案，单击 <img src="设置.svg" alt=""/> ，然后单击 <control>导出</control> 并选择 <ui-path>配色方案插件 .jar</ui-path> 。</step>
             <step>在 <control>创建配色方案插件</control> 中，指定版本详细信息和供应商信息，然后单击 <control>确定</control> 。</step>
             <video border-effect="rounded" src="https://www.youtube.com/watch?v=ZoOBtNeEd9U" width="706"/>
-            <note>安装带有配色方案的插件时，该方案将被添加至预定义方案列表中。&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;</note>
+            <note>安装带有配色方案的插件时，该方案将被添加至预定义方案列表中。</note>
         </procedure>
         <procedure title="导入配色方案" id="import-color-scheme" collapsible="true" type="steps">
             <step>在 <control><include from="reuse-library.topic"  element-id="idea-settings-keywords-snippet"/></control> 中选择 <ui-path><include from="reuse-library.topic" element-id="editor-snippet" /> | 配色方案</ui-path> 。</step>
@@ -98,7 +98,7 @@
             <video border-effect="rounded" src="https://www.youtube.com/watch?v=bn4S6zcwfDk" width="706"/>
         </procedure>
         <procedure id="custom-console-font" title="自定义控制台字体" type="steps">
-            <note>默认情况下，控制台中的文本使用与配色方案相同的字体，但您可以调整它们。&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;</note>
+            <note>默认情况下，控制台中的文本使用与配色方案相同的字体，但您可以调整它们。</note>
             <step>在 <control><include from="reuse-library.topic"  element-id="idea-settings-keywords-snippet"/></control> 中选择 <ui-path><include from="reuse-library.topic" element-id="editor-snippet" /> | 配色方案 | 控制台字体</ui-path> 。</step>
             <step>勾选 <control>使用控制台字体，而不是默认</control> 。</step>
             <video border-effect="rounded" src="https://www.youtube.com/watch?v=lSV3z4cq-rU" width="706"/>

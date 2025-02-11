@@ -65,7 +65,7 @@
             <li><include from="reuse-library.topic" element-id="status-bar-snippet"/> 中的消息，单击它可以 <control>通知工具窗口</control> 中查看。</li>
         </list>
         <note>通知信息将会长时间驻留在 <control>通知工具窗口</control> 中，直到您手动清除它们或重新打开您的项目。</note>
-        <note>您可以 <a summary="" anchor="show-in-tool-window-step">禁用和启用特定事件组的工具窗口通知</a> 。&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;</note>
+        <note>您可以 <a summary="" anchor="show-in-tool-window-step">禁用和启用特定事件组的工具窗口通知</a> 。</note>
     </chapter>
     <!-- 建议章节：介绍 IDE 建议功能及其配置方法 -->
     <chapter id="suggestions" title="建议">

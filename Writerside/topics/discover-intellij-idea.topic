@@ -22,7 +22,7 @@
     <!-- EAP 版：早期访问计划版本，包含最新的功能和改进，但可能存在不稳定性和兼容性问题，仅供技术爱好者和开发者测试使用。 -->
     <!-- BETA 版：测试版本，功能尚不完善，可能存在较多问题，仅供测试使用。 -->
     <chapter id="editions" title="版本介绍">
-        <note>此手册将重点讨论旗舰版的相关内容，而忽略社区版、 <tooltip term="rc">RC</tooltip> 版、 <a href="product-educational-tools.topic" summary="">教育版</a> 等其它的版本。&nbsp;&nbsp;&nbsp;&nbsp;</note>
+        <note>此手册将重点讨论旗舰版的相关内容，而忽略社区版、 <tooltip term="rc">RC</tooltip> 版、 <a href="product-educational-tools.topic" summary="">教育版</a> 等其它的版本。</note>
         <p>IntelliJ IDEA 拥有旗舰版、教育版、社区版、RC 版、 <tooltip term="eap">EAP</tooltip> 等多种版本。</p>
         <p>常见且使用频次最高的是旗舰版和社区版，旗舰版功能强大，它支持多种 <tooltip term="programming-language">语言</tooltip> 及 Web 应用和企业级应用的开发，包括社区版本的全部功能，同时增加了对其他基于 IntelliJ 平台的 <tooltip term="ide">IDE</tooltip> 所关注的语言的支持，以及对各种服务器端和 <tooltip term="frontend">前端</tooltip> 框架、应用服务器、 <tooltip term="database">数据库</tooltip> 集成和分析工具等的支持。</p>
         <p><format style="bold">社区版是免费且开源的，这意味着您可以长期免费使用，无需支付任何额外费用</format> 。然而，与旗舰版相比，社区版支持的语言数量较少，并且可能不包含旗舰版中独有的某些高级开发辅助工具。</p>
@@ -68,7 +68,7 @@
                 </list>
             </tab>
         </tabs>
-        <note>IntelliJ IDEA 官方不支持 <tooltip term="c">C</tooltip>/<tooltip term="c++">C++</tooltip> ，但可以使用 <a href="https://www.jetbrains.com/zh-cn/clion/" summary="CLion 是一款专为 C 和 C++ 开发者打造的跨平台集成开发环境（IDE），由 JetBrains 公司出品。它基于 IntelliJ IDEA 平台，继承了 IntelliJ IDEA 的强大功能，并针对 C 和 C++ 开发进行了深度优化。">CLion</a> 。&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;</note>
+        <note>IntelliJ IDEA 官方不支持 <tooltip term="c">C</tooltip>/<tooltip term="c++">C++</tooltip> ，但可以使用 <a href="https://www.jetbrains.com/zh-cn/clion/" summary="CLion 是一款专为 C 和 C++ 开发者打造的跨平台集成开发环境（IDE），由 JetBrains 公司出品。它基于 IntelliJ IDEA 平台，继承了 IntelliJ IDEA 的强大功能，并针对 C 和 C++ 开发进行了深度优化。">CLion</a> 。</note>
         <img alt="CLion 官网" src="CLion 官网.png" width="706" thumbnail="true" border-effect="rounded"/>
         <note id="language-plugin-vs-separate-IDE" title="选择语言插件还是单独的 IDE？">
             <p>IntelliJ IDEA Ultimate（旗舰版）是绝大多数基于 IntelliJ 平台的 <tooltip term="ide">IDE</tooltip> 的超集。</p>

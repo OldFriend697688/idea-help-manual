@@ -4,7 +4,7 @@
 <topic xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
        xsi:noNamespaceSchemaLocation="https://resources.jetbrains.com/writerside/1.0/topic.v2.xsd"
        title="学习 IDE 的功能" id="feature-trainer">
-    <note>此功能仅在 IntelliJ IDEA 2020.3 及更高版本中提供。&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;</note>
+    <note>此功能仅在 IntelliJ IDEA 2020.3 及更高版本中提供。</note>
     <p>IntelliJ IDEA 内置了一个功能训练器。这套关于 <tooltip term="ide">IDE</tooltip> 基础知识的交互式培训课程可以帮助您学习如何处理一些常见任务，例如： <tooltip term="refactoring">重构代码</tooltip> 、浏览项目等。</p>
     <p>您可以通过从 <control>欢迎界面</control> 或 <control>学习 <include from="reuse-library.topic" element-id="tool-window-snippet" /></control> 开始学习课程或特定教程。</p>
     <p>要完成一个课程，您需要完成其中的所有任务。不过，您也不必学习所有课程和教程，您可以只关注感兴趣的部分，请参阅 <a anchor="start-a-lesson-from-the-welcome-screen" summary=""/> 和 <a anchor="switching-between-lessons-and-tutorials" summary=""/> 。</p>

@@ -28,12 +28,15 @@
             <tr>
                 <td>CPU（中央处理器）</td>
                 <td>任何现代 CPU。</td>
-                <td>多核 CPU。IntelliJ IDEA 支持多线程处理不同的操作和进程，因此可用 CPU 内核越多，速度越快。</td>
+                <td>
+                    <p>推荐使用多核 CPU。</p>
+                    <p>IntelliJ IDEA 支持多线程处理不同的操作和进程，因此可用 CPU 内核越多，速度越快。</p>
+                </td>
             </tr>
             <tr>
                 <td>硬盘空间</td>
                 <td>2.5 GB，另有 1 GB 用于缓存。</td>
-                <td><tooltip term="ssd">固态硬盘</tooltip> ，且至少有 5 GB 的可用空间。</td>
+                <td>推荐使用 <tooltip term="ssd">固态硬盘</tooltip> ，且至少 5GB 可用空间。</td>
             </tr>
             <tr>
                 <td>显示器分辨率</td>
@@ -41,7 +44,7 @@
                 <td>1920 × 1080 或更高。</td>
             </tr>
             <tr>
-                <td>操作系统</td>
+                <td rowspan="2">操作系统</td>
                 <td>
                     <p>官方正式发布的 64 位版本的操作系统。</p>
                     <list>
@@ -49,9 +52,11 @@
                         <li><a href="https://support.apple.com/zh-cn/102662">macOS</a> 10.14 或更高版本。</li>
                         <li>支持 <a href="https://www.gnome.org/">GNOME</a> 、 <a href="https://kde.org/zh-cn/">KDE</a> 或 <a href="https://unityd.org/">Unity</a> 桌面环境的任何 <a href="https://zh.wikipedia.org/zh-cn/Linux">Linux</a> 发行版。</li>
                     </list>
-                    <warning>预览版本操作系统不受支持。</warning>
                 </td>
                 <td>最新版本的 64 位 <tooltip term="windows">Windows</tooltip> 、 <tooltip term="macos">macOS</tooltip> 或 <tooltip term="linux">Linux</tooltip> 系统（例如： <a href="https://www.debian.org/index.zh-cn.html">Debian</a> 、 <a href="https://ubuntu.com/">Ubuntu</a> 或 <a href="https://www.redhat.com/zh/technologies/linux-platforms/enterprise-linux">RHEL</a> ）。</td>
+            </tr>
+            <tr>
+                <td colspan="2"><warning>预览版本操作系统不受支持。</warning></td>
             </tr>
             <tr>
                 <td>注意事项</td>
@@ -258,9 +263,9 @@
     <!-- 简体中文语言包章节：介绍如何安装和配置 IntelliJ IDEA 的中文界面 -->
     <chapter id="simplified-chinese-language" title="简体中文语言包">
         <primary-label ref="ChineseLanguage"/>
-        <note>如果您的 IntelliJ IDEA 尚为激活，请您先尝试 <a href="register.topic" anchor="start-trial" summary="">免费试用</a> 或 <a href="register.topic" anchor="crack-activation" summary="">激活</a> 后再阅读此节内容。</note>
+        <note>如果您的 IntelliJ IDEA 未激活，请您先尝试 <a href="register.topic" anchor="start-trial" summary="">免费试用</a> 或 <a href="register.topic" anchor="activate-license" summary="">激活</a> 后再阅读以下步骤的内容。</note>
         <!-- 安装简体中文语言包步骤：详细说明如何安装和启用中文语言包 -->
-        <procedure title="安装简体中文语言包" id="configure-simplified-chinese-language-pack" type="steps">
+        <procedure title="安装简体中文语言包" id="configure-simplified-chinese-language-pack" type="steps" collapsible="true" default-state="collapsed">
             <step>启动 IntelliJ IDEA 并单击 <control>欢迎界面</control> 中的 <ui-path>Plugins</ui-path> 。</step>
             <img alt="为 IntelliJ IDEA 安装简体中文语言包" src="安装简体中文语言包（1）.png" width="706" thumbnail="true" border-effect="rounded"/>
             <step>在 <control>Marketplace</control> 的搜索框中键入 <ui-path>Chinese</ui-path> 并等待搜索结果。</step>
@@ -271,9 +276,22 @@
             <img alt="为 IntelliJ IDEA 安装简体中文语言包" src="安装简体中文语言包（4）.png" thumbnail="true" width="706" border-effect="rounded"/>
             <step>单击 <control>Restart</control> 并等待 IntelliJ IDEA 完成重启。</step>
             <img alt="为 IntelliJ IDEA 安装简体中文语言包" src="安装简体中文语言包（5）.png" thumbnail="true" width="706" border-effect="rounded"/>
-            <step>重启后，IntelliJ IDEA 已成功安装并应用简体中文语言补丁。</step>
+            <step>重启后，IntelliJ IDEA 已成功安装并应用简体中文语言包。</step>
             <img alt="为 IntelliJ IDEA 安装简体中文语言包" src="安装简体中文语言包（6）.png" thumbnail="true" width="706" border-effect="rounded"/>
-            <note>如果您想要将 IntelliJ IDEA 恢复至英文状态，请单击 <control>禁用</control> 以便禁用中文语言包。</note>
+            <note>如果要将 IntelliJ IDEA 恢复至英文状态，请单击 <control>禁用</control> 以便禁用中文语言包。</note>
+        </procedure>
+        <!-- 预安装简体中文语言包（不推荐） -->
+        <procedure id="pre-installed-chinese-simplified-language-pack" title="预安装简体中文语言包" type="steps" collapsible="true" default-state="collapsed">
+            <step>访问 <include from="reuse-library.topic" element-id="jetbrains-plugin-library-snippet"/>，并在输入框中键入 <format style="bold">中文语言包</format> 并选择它。</step>
+            <img alt="预安装简体中文语言包" src="预安装简体中文语言包（1）.png" width="706" border-effect="rounded" thumbnail="true"/>
+            <step>单击 <format style="bold">Versions</format> ，滚动页面并且找到适配 IntelliJ IDEA 2022 版本的语言包下载列表。</step>
+            <img alt="预安装简体中文语言包.png" src="预安装简体中文语言包（2）.png" width="706" border-effect="rounded" thumbnail="true"/>
+            <step>选择钟意的目标版本，单击其后方的 <format style="bold">Download</format> 。</step>
+            <img alt="预安装简体中文语言包" src="预安装简体中文语言包（3）.png" width="706" border-effect="rounded" thumbnail="true"/>
+            <step>将下载后的压缩包文件解压至 <a href="directories-used-by-the-ide-to-store-settings-caches-plugins-and-logs.topic" summary="" anchor="plugins-directory"/> 。</step>
+            <img alt="预安装简体中文语言包（4）" src="预安装简体中文语言包（4）.png" width="706" border-effect="rounded" thumbnail="true"/>
+            <step>启动 IntelliJ IDEA。此时，已成功安装并应用简体中文语言包。</step>
+            <video src="https://www.youtube.com/watch?v=Z6i2xqHGBrY" width="706" border-effect="rounded"/>
         </procedure>
     </chapter>
     <seealso>

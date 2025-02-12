@@ -34,7 +34,7 @@
             <p>有关如何在 IntelliJ IDEA 中管理插件的详细信息，请参阅 <a href="managing-plugins.topic" summary=""/> 。</p>
         </note>
         <p>现代应用程序的开发涉及同时使用多种语言、工具、 <tooltip term="framework">框架</tooltip> 和技术。</p>
-        <p>IntelliJ IDEA 被设计为基于 <tooltip term="jvm">JVM</tooltip> 的语言的 <tooltip term="ide">IDE</tooltip> ，但许多插件可以扩展它对其它语言的支持。</p>
+        <p>IntelliJ IDEA 被设计为基于 <tooltip term="jvm">JVM</tooltip> 的语言的 <tooltip term="ide">IDE</tooltip> ，但许多 <a href="managing-plugins.topic" summary="">插件</a> 可以扩展它对其它语言的支持。</p>
         <tabs>
             <tab title="JVM 语言" id="jvm-language">
                 <p>IntelliJ IDEA 支持下列可编译为 <tooltip term="jvm">JVM</tooltip><tooltip term="bytecode">字节码</tooltip> 的语言。</p>

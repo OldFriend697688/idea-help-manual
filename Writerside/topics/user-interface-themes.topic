@@ -5,7 +5,7 @@
        xsi:noNamespaceSchemaLocation="https://resources.jetbrains.com/writerside/1.0/topic.v2.xsd"
        title="用户界面主题" id="user-interface-themes">
     <p>界面主题定义了窗口、对话框、按钮以及用户界面所有视觉元素的外观。</p>
-    <p>默认情况下，IntelliJ IDEA 使用 Darcula 主题，除非您在 <a href="run-for-the-first-time.topic" summary=""/> 更改了它。</p>
+    <p>默认情况下，IntelliJ IDEA 使用 Darcula 主题，除非您在 <a href="run-for-the-first-time.topic" summary=""/> 时更改了它。</p>
     <note>界面主题与 <a href="configuring-colors-and-fonts.topic" summary="">配色方案</a> 不同，配色方案定义了各种文本资源（例如：源代码、搜索结果等）的颜色、字体和语法高亮。</note>
     <chapter id="user-interface-themes" title="用户界面主题">
         <procedure id="change-theme" title="更改主题">

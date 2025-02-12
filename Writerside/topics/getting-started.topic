@@ -16,7 +16,7 @@
         <primary>
             <title>快速开始</title>
             <a href="installation-guide.topic" summary="选择适合操作系统的安装方式，确保顺利安装。">安装 IntelliJ IDEA</a>
-            <a href="installation-guide.topic" summary="启用中文语言包，提升用户体验和友好度。" anchor="simplified-chinese-language"/>
+            <a href="installation-guide.topic" summary="启用简体中文语言包，提升用户体验和友好度。" anchor="simplified-chinese-language"/>
             <a href="user-interface-themes.topic" summary="配置个性化主题，增强界面美观度。">主题</a>
             <a href="guided-tour-around-the-user-interface.topic" summary="深入了解用户界面核心组件。"/>
             <a href="setting-background-image.topic" summary="设置背景图片，美化您的开发环境。"/>

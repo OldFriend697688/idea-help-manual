@@ -148,7 +148,7 @@
             <note><include from="reuse-library.topic" element-id="dsm-tool-window-snippet"/> 工具窗口将以特殊方式对依赖关系进行排序处理，它始终将最常用的类移至底部。</note>
             <warning>
                 <p>要使用依赖关系矩阵分析功能，需确保已启用 Dependency Structure Matrix 插件。</p>
-                <p>该 <a href="managing-plugins.topic" summary="">插件</a> 通常随 IntelliJ IDEA 一同安装并默认启用。若您不慎禁用了它，请打开 <ui-path><include from="reuse-library.topic" element-id="idea-settings-keywords-snippet"/> | 插件</ui-path> ，继而切换至 <ui-path>已安装</ui-path> 。然后在搜索框内键入 <format style="bold">Dependency Structure Matrix</format> ，待结果出现后，找到该插件并单击 <control>启用</control> 以便重新启用它。</p>
+                <p>该 <a href="managing-plugins.topic" summary="">插件</a> 通常随 IntelliJ IDEA 一同安装并默认启用。若您不慎禁用了它，请打开 <ui-path><include from="reuse-library.topic" element-id="idea-settings-keywords-snippet"/> | 插件 | 已安装</ui-path> 。然后在搜索框内键入 <format style="bold">Dependency Structure Matrix</format> ，待结果出现后，找到该插件并单击 <control>启用</control> 以便重新启用它。</p>
             </warning>
             <img src="启用 Dependency Structure Matrix 插件.png" alt="启用 Dependency Structure Matrix 插件" width="706" thumbnail="true" border-effect="rounded"/>
             <video src="https://www.youtube.com/watch?v=N8WEhbmlluk" width="706" border-effect="rounded"/>

@@ -67,7 +67,7 @@
                             <p>为 IntelliJ IDEA 设置启用自动检查更新及更新渠道。</p>
                             <list>
                                 <li><format style="bold">抢先体验计划：</format> 包含 <tooltip term="rc">发布候选版本</tooltip> 、 <tooltip term="beta">BETA</tooltip> 版本和 <a href="https://www.jetbrains.com/resources/eap/">EAP</a> 版本的更新，强烈不建议将其用于生产环境。</li>
-                                <li><format style="bold">稳定版本；只包括推荐用于生产的稳定版本。</format></li>
+                                <li><format style="bold">稳定版本：只包括推荐用于生产的稳定版本。</format></li>
                             </list>
                             <note>如果取消勾选此选项，将会禁用自动检查更新。</note>
                         </td>

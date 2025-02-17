@@ -5,6 +5,7 @@ function init() {
         if (switcherContainer) {
             clearInterval(checkExist);
             createScrollButtons(switcherContainer);
+            modifySeeAlsoTitle(); // 添加新函数调用
         }
     }, 100);
 }
@@ -73,11 +74,20 @@ function createScrollButtons(container) {
     container.insertBefore(topButton, bottomButton);
 }
 
+// 添加修改"See also"标题的函数
+function modifySeeAlsoTitle() {
+    var checkSeeAlso = setInterval(function() {
+        var seeAlsoTitle = document.querySelector('#webhelp-root > div > div.layout.layout--columns.layout--overflow-guard.layout--grow > div > div:nth-child(2) > div > h3');
+        if (seeAlsoTitle && seeAlsoTitle.textContent === 'See also') {
+            clearInterval(checkSeeAlso);
+            seeAlsoTitle.textContent = '另请参阅';
+        }
+    }, 100);
+}
+
 // 页面加载完成后初始化
 if (document.readyState === 'complete') {
     init();
 } else {
     window.onload = init;
 }
-
-

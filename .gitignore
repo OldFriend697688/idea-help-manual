@@ -18,6 +18,7 @@ hs_err_pid*
 replay_pid*
 .cursorrules
 .idea/dictionaries
+idea-help-manual.iml
 .idea/git_toolbox_prj.xml
 .idea/git_toolbox_blame.xml
 .idea/GitCommitMessageStorage.xml
